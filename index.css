@@ -12,12 +12,12 @@ body {
 
 h1 {
   font-family: 'Bungee Inline', cursive;
-  font-size: 3.5em;
+  font-size: 4em;
 }
 
 h2 {
   font-family: 'Bungee Inline', cursive;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 a, p {
@@ -26,15 +26,20 @@ a, p {
   color: black;
 }
 
+img {
+  width: 200px;
+  border-radius: 40px;
+}
+
 .project-name {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .author {
-  font-size: 0.7em;
+  font-size: 1.2em;
 }
 
 .card {
