@@ -1,0 +1,108 @@
+body,
+.boo h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d35400;
+  font-family: 'Playfair Display SC', serif;
+}
+
+/*height of wave = h = 50px*/
+.boo:before,
+.boo:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 25px; /*h/2*/
+  height: 50px; /*h*/
+  background: radial-gradient(
+    closest-side,
+    #d35400,
+    #d35400 50%,
+    transparent 50%
+  );
+  /*or farthest-side*/
+  background-size: 50px 50px; /*h h*/
+  background-position: 0 25px; /*0 h/2*/
+  background-repeat: repeat-x;
+}
+.boo:after {
+  background: radial-gradient(
+    closest-side,
+    transparent,
+    transparent 50%,
+    #d35400 50%
+  );
+  /*or farthest-side*/
+  background-size: 50px 50px; /*h h*/
+  background-position: 25px -25px; /*h/2 -h/2*/
+  background-repeat: repeat-x;
+  bottom: -25px;
+}
+h1 {
+  color: #ecf0f1;
+  font-size: 5em;
+  text-align: center;
+  padding: 10px;
+}
+.boo {
+  background-color: #ecf0f1;
+  position: relative;
+  height: 500px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 50% 50% 0 0;
+}
+.left-eye,
+.right-eye,
+.mouth {
+  background-color: #ecf0f1;
+  height: 50px;
+  width: 50px;
+  border: 5px #303030 solid;
+  border-radius: 50%;
+  position: absolute;
+}
+.left-eye {
+  top: 50px;
+  left: 137px;
+}
+.right-eye {
+  top: 50px;
+  left: 21px;
+}
+.float-anim {
+  animation-name: Floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-name: Floating;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes Floating {
+  from {
+    -webkit-transform: translate(0, 0px);
+  }
+  65% {
+    -webkit-transform: translate(0, 15px);
+  }
+  to {
+    -webkit-transform: translate(0, -0px);
+  }
+}
+@-webkit-keyframes Floating {
+  from {
+    -webkit-transform: translate(0, 0px);
+  }
+  65% {
+    -webkit-transform: translate(0, 15px);
+  }
+  to {
+    -webkit-transform: translate(0, -0px);
+  }
+}
