@@ -46,12 +46,14 @@ h1 {
 }
 
 .head {
+  top: 0;
   position: relative;
   width: 200px;
   margin: 0 auto;
   height: 150px;
-  border-radius: 200px 200px 0 0;
+  border-radius: 200px 200px 25px 25px;
   margin-bottom: 10px;
+  
 }
 
 .teeth {position: relative;left: 0;transition: all .3s ease-in-out;}
@@ -103,10 +105,59 @@ h1 {
 }
 
 .upper_body {
+  z-index: -2;
   width: 300px;
   height: 150px;
   display: flex;
   margin: 0 auto;
+  position: relative;
+}
+.upper_body:before {
+  z-index: -1;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 60px;
+  background: black;
+  top: 0px;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+}
+.upper_body:after {
+  z-index: -3;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  content: "";
+  width: 250px;
+  height: 250px;
+  background: black;
+  top: -5px;
+}
+
+.upper_body .button {
+  position: absolute;
+  background-color: rgb(97, 11, 11);
+  width: 16px;height: 16px;
+  left: 50%;
+  top: 35px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+.upper_body .button:after {
+  content: "";
+  display: inline-block;
+  width: 12px;height: 12px;
+  position: absolute;
+  top: 50%;left:50%;
+  transform: translate(-50%,-50%);
+  background: #8f211f;
+  border-radius: 50%;
 }
 
 .left_arm, .right_arm {
@@ -195,6 +246,6 @@ h1 {
   top: 65%;
   border-radius: 100%;
 }
-
+.head:hover {top: 10px;transition: all 1s ease-in-out;}
 .head:hover .iris:before {top: 50%;transition: top .5s ease-in;cursor: pointer;}
 .head:hover .teeth {left:15px;transition: all .3s ease-in-out;}
