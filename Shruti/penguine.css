@@ -104,6 +104,7 @@
     border-radius: 50% 50% 50% 50%;
     transform: rotate(-80deg);
     z-index: -2222;
+    animation:spin 4s linear infinite;
 }
 
 .left-feet {
@@ -115,6 +116,7 @@
     border-radius: 50% 50% 50% 50%;
     transform: rotate(80deg);
     z-index: -2222;
+    animation:spin 4s linear infinite;
 }
 
 .right-eye {
@@ -137,11 +139,12 @@
 
 .sparkle {
     top: 25%;
-    left: 15%;
+    left: 25%;
     background: white;
-    width: 35%;
-    height: 35%;
+    height: 38%;
+    width: 38%;
     border-radius: 50%;
+    animation:spin 4s linear infinite;
 }
 
 .blush-right {
@@ -188,4 +191,23 @@ body {
 
 .penguin * {
     position: absolute;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
