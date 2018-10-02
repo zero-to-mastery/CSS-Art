@@ -1,0 +1,30 @@
+body {
+    background-color: #ff4814;
+  }
+  
+  .container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -64.5px;
+    margin-top: -85.5px;
+   
+}
+  
+  .ghost {
+    animation: float 3s ease-out infinite;
+    max-width: 200px;
+   
+    
+  }
+  .ghost:hover {
+    transform: translate(100px, 50px);
+}
+  
+  @keyframes float {
+    50% {
+       transform: translate(0, 50px);
+    }
+  }
+    
+  
