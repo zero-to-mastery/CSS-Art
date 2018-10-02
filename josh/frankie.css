@@ -57,7 +57,7 @@ h1 {
   width: 200px;
   margin: 0 auto;
   height: 150px;
-  border-radius: 200px 200px 0 0;
+ border-radius: 10px 10px 0px 0px;
   margin-bottom: 10px;
 }
 
