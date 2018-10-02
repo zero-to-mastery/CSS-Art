@@ -1,0 +1,140 @@
+body {
+	background: linear-gradient(to right, rgb(9, 7, 27), rgb(176, 0, 0));
+	color: #05082d;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.robots {
+	display: flex;
+	justify-content: space-around;
+}
+
+.android{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #ce9145;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+} 
+
+.eyes {
+	display: flex;
+	justify-content: space-around;
+	flex-grow: 1;
+	margin-bottom: 20px;
+}
+
+.head:hover {
+	width: 300px;
+    transition: 0.75s ease-in-out;
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+/*.torso:hover{
+	transition: transform 400ms ease-in-out;
+	transform: scaleX(1.2);
+}
+*/
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+	display: flex;
+
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover , .left_arm:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+	transition: transform 100ms ease-in-out;
+}
+
+.right_leg { 
+	margin-left: 30px; 
+}
+
+.right_leg:hover , .right_arm:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+	transition: transform 100ms ease-in-out;
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: black;  
+} 
+
+
+
+
+
+
+
