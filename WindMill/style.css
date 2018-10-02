@@ -1,0 +1,243 @@
+body{
+   background-color:white;
+}
+span{
+   display:inline-block;
+}
+h1{
+   text-align:center;
+   color:gray;
+   font-size:1em;
+}
+#Circle{
+   background-color:#22304D;
+   background:linear-gradient(to bottom, #22304D,#5E7B9B);
+   width:500px;
+   height:500px;
+   border-radius:100%;
+   margin:0 auto;
+   position: relative;
+   z-index: 1;
+   overflow:hidden;
+}
+#Circle #cont{
+   background-color:transparent;
+   width:500px;
+   height:500px;
+   border-radius:100%;
+   margin:0 auto;
+   box-shadow:inset 0 0 100px black;
+   
+}
+#Circle #cont .top{
+   height:250px;
+   position:relative;
+   background-color:transparent;
+   border-top-left-radius:900px;
+   border-top-right-radius:900px;
+   
+}
+.bottom{
+   display: inline-block;
+   position:relative;
+   margin-top:390px;
+   opacity:0.6;
+   filter: blur(2px);
+   transform:scaleY(-1);
+   
+}
+.floor{
+   background-color:#1E2D49;
+   width:468px;
+   margin-left:16px;
+   position:absolute;
+   height:20px;
+   margin-top:320px;
+   z-index:0;
+}
+.floor::after{
+   content:"";
+   background-color:#1E2D49;
+   width:200px;
+   height:50px;
+   position:absolute;
+   transform:rotateX(45deg);
+   margin-top:-30px;
+   margin-left:-3px;
+   border-radius:90% 100% 0 0;
+}
+.floor::before{
+   content:"";
+   background-color:content:"";
+   background-color:#1E2D49;
+   width:200px;
+   height:50px;
+   position:absolute;
+   transform:rotateX(45deg);
+   border-radius:90% 100% 0 0;;
+   width:347px;
+   height:70px;
+   position:absolute;
+   transform:rotateX(45deg);
+   margin-left:122px;
+   margin-top:-50px;
+   border-radius:100% 100% 0 0;
+}
+.sky{
+   
+}
+.moon{
+   background-color:white;
+   width:48px;
+   height:48px;
+   z-index:2;
+   border-radius:100%;
+   position:absolute;
+   margin-left:130px;
+   margin-top:180px;
+   box-shadow:0 0 5px white, 0 0 10px #1E2D49, 0 0 90px white;
+}
+.stars{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+.stars {
+  background:url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.mill{
+   background-color:#1E2D49;
+   width: 50px;
+   height: 140px;
+   transform: perspective(12px) rotateX(3deg);
+   position:absolute;
+   z-index:3;
+   margin-top:150px;
+   margin-left:330px;
+}
+.mill::before{
+   content:"";
+   background-color:#FDC500;
+   width:20px;
+   height:20px;
+   position:absolute;
+   margin-left:15px;
+   margin-top:35px;
+}
+.mill::after{
+   content:"";
+   background-color:#FDC500;
+   width:20px;
+   height:25px;
+   position:absolute;
+   margin-left:15px;
+   margin-top:70px;
+}
+.dome{
+   background-color:#1E2D49;
+   width:35px;
+   height:35px;
+   position:absolute;
+   transform-origin: 0 100%;        
+   transform: rotate(45deg);
+   overflow:hidden;
+   margin-left:330px;
+   margin-top:125px;
+   z-index:4;
+}
+.fan{
+   background-color:#37475E;/*37475E */
+   width:10px;
+   height:10px;
+   border-radius:100%;
+   position:absolute;
+   margin-top:155px;
+   margin-left:350px;
+   z-index:7;
+   animation-name:rotate_fan;
+   animation-duration:6s;
+   animation-iteration-count:infinite;
+}
+.fan_blade1, .fan_blade2, .fan_blade3, .fan_blade4{
+   background-color:#37475E;
+   width:4px;
+   height:60px;
+   position:absolute;
+   z-index:6;
+   margin-left:35px;
+   margin-top:-28px;
+   border-left:1.5px solid black;
+   border-top:1px solid black;
+   transform:rotate(90deg);
+}
+.fan_blade2{
+   transform:rotate(180deg);
+   margin-left:1px;
+   margin-top:5px;
+}
+.fan_blade3{
+   transform:rotate(360deg);
+   margin-left:3px;
+   margin-top:-60px;
+}
+.fan_blade4{
+   transform:rotate(270deg);
+   margin-top:-28px;
+   margin-left:-30px;
+}
+.fan_blade1::before, .fan_blade2::before, .fan_blade3::before, .fan_blade4::before{
+   content:"";
+   background-color:transparent;
+   width:20px;
+   height:45px;
+   margin-left:5px;
+   background-size: 10px 11px;
+   background-image: linear-gradient(to left, gray 2px, transparent 1px), linear-gradient(to bottom, gray 2px, transparent 1px), linear-gradient(to top, gray 1px, transparent 0px);
+   position:absolute;
+}
+.tree1, .tree2, .tree3{
+   background-color:transparent;
+   width:30px;
+   height:40px;
+   position:absolute;
+   margin-left:10px;
+   margin-top:-80px;
+   z-index:9;
+   width:0;
+   height:10px;
+   border-left: 10px solid transparent;
+   border-right: 10px solid transparent;
+   border-bottom: 70px solid #1E2D49;
+}
+.tree2{
+   margin-left:30px;
+   transform:rotate(10deg);
+}
+.tree3{
+   margin-left:60px;
+}
+.tree3::after{
+   content:"";
+   background-color:#1E2D49;
+   width:40px;
+   height:50px;
+   position:absolute;
+   margin-left:-18px;
+   margin-top:-10px;
+   border-radius:100%;
+}
+@keyframes rotate_fan{
+   from{
+      
+   }
+   to{
+      transform:rotate(360deg);
+   }
+}
