@@ -1,0 +1,107 @@
+.container, .bun, .onion, .lettuce, .cheese, .ham, .bun2, .tomato, .melt {
+  position: absolute;
+}
+
+body {
+  background: #F3D9B1;
+}
+
+.container {
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.bun {
+  width: 180px;
+  height: 60px;
+  background: #DF7B30;
+  border-radius: 100px 100px 0 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.7) 7%, transparent 8%), radial-gradient(rgba(255, 255, 255, 0.7) 7%, transparent 9%), radial-gradient(rgba(255, 255, 255, 0.7) 7%, transparent 8%), radial-gradient(rgba(255, 255, 255, 0.7) 7%, transparent 8%), radial-gradient(rgba(255, 255, 255, 0.7) 7%, transparent 8%), radial-gradient(rgba(255, 255, 255, 0.7) 7%, transparent 8%), radial-gradient(rgba(255, 255, 255, 0.7) 7%, transparent 8%);
+  background-size: 80px 35px;
+  background-position: -20px 2px, 5px -3px, -10px 20px, 35px -10px, 65px 2px, 100px -5px, 120px 15px;
+  background-repeat: no-repeat;
+}
+
+.face {
+  z-index: 900;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border-radius: 100%;
+}
+
+.tomato {
+  top: 65px;
+  width: 170px;
+  height: 10px;
+  background: #E83330;
+  margin-left: 5px;
+  border-radius: 100px;
+}
+
+.onion {
+  top: 80px;
+  width: 170px;
+  height: 10px;
+  background: #9E3D6D;
+  margin-left: 5px;
+}
+
+.lettuce {
+  top: 95px;
+  width: 180px;
+  height: 10px;
+  background: #6DA000;
+  border-radius: 3px;
+}
+
+.cheese {
+  z-index: 600;
+  top: 110px;
+  width: 180px;
+  height: 15px;
+  background: #FFB400;
+  border-radius: 4px;
+}
+
+.ham {
+  top: 135px;
+  width: 183px;
+  height: 25px;
+  background: #9D4845;
+  border-radius: 100px;
+  box-shadow: inset -5px -5px 5px rgba(68, 68, 68, 0.3);
+}
+
+.bun2 {
+  top: 170px;
+  width: 180px;
+  height: 30px;
+  background: #DF7B30;
+  border-radius: 0 0 100px 100px;
+}
+
+.melt {
+  z-index: 200;
+  top: -1px;
+  left: 30px;
+  width: 10px;
+  height: 55px;
+  background: #FFB400;
+  border-radius: 100px;
+  animation: 5s melting ease infinite;
+}
+
+@keyframes melting {
+  100% {
+    transform: translateY(15px)
+  }
+}
