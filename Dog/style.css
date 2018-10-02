@@ -1,0 +1,171 @@
+body{
+   background-color:#79B73A;
+   margin: 0;
+   padding: 0;
+}
+#Ears{
+   /*background-color:black;*/
+   width:140px;
+   margin:0 auto;
+}
+#EYES{
+   width:150px;
+   margin:0 auto;
+}
+.ears{
+   background-color:#DADADB;
+   width:40px;
+   height:90px;
+   border-radius:10%;
+   box-shadow:inset 0 0 20px lightgrey;
+}
+.ears2{
+   background-color:#DADADB;
+   width:40px;
+   height:90px;
+   border-radius:10%;
+   margin-left:95px;
+   box-shadow:inset 0 0 20px lightgrey;
+}
+.head{
+   background-color:#F4F4F4;
+   height:140px;
+   width:140px;
+   border-radius:100%;
+   margin:0 auto;
+   margin-top:-60px;
+   box-shadow:inset 0 0 20px lightgrey;
+}
+.belt{
+   background-color:#5AC3C9;
+   width:100px;
+   height:30px;
+   border-radius:10% 10% 10% 10%;
+   margin:0 auto;
+   margin-top:-10px;
+   box-shadow:inset 0 0 10px skyblue;
+}
+.left{
+   background-color:#F0E8ED;
+   width:40px;
+   height:40px;
+   border-radius:10% 10% 50% 50%;
+}
+.mouth{
+   background-color:black;
+   width:29px;
+   height:15px;
+   border-radius:30% 30% 100% 100%;
+   margin:0 auto;
+}
+.tounge{
+   background-color:#F8A7A4;
+   width:20px;
+   height:25px;
+   border-radius:0 0 50% 50%;
+   margin:0 auto;
+   border-top:solid black;
+   border-top-width:4px;
+}
+.right{
+   background-color:#F0E8ED;
+   width:40px;
+   height:40px;
+   border-radius:10% 10% 50% 50%;
+   float:left;
+   margin-left:-95px;
+}
+.nose{
+   background-color:black;
+   height:20px;
+   width:20px;
+   border-radius:50% 50% 100% 100%;
+   margin:0 auto;
+   margin-top:-70px;
+}
+.right_eye{
+   background-color:black;
+   width:14px;
+   height:14px;
+   border-radius:100%;
+   margin-left:40px;
+   margin-top:13px;
+}
+.left_eye{
+   background-color:black;
+   width:14px;
+   height:14px;
+   border-radius:100%;
+   margin-left:54px;
+   margin-top:-40px;
+   z-index:1;
+   posotion:relative;
+   animation-name: example;
+   animation-duration:3s;
+   animation-iteration-count: infinite;
+}
+.left_eye1{
+   background-color:#DADBDB;
+   width:40px;
+   height:40px;
+   border-radius:100%;
+   margin-left:55%;
+   margin-top:-55px;
+}
+
+#Head{
+   width:140px;
+   margin:0 auto;
+}
+.chin{
+   background-color:#F4F4F4;
+   width:50px;
+   height:45px;
+   border-radius:100%;
+   margin:0 auto;
+   margin-top:-60px;
+}
+.Ribbon{
+   background-color:Yellow;
+   width:30px;
+   height:30px;
+   border-radius:100%;
+   margin-left:10px;
+   box-shadow:inset 0 0 10px orange;
+}
+.Body{
+   width: 50px;
+   height: 0;
+   border: 40px solid transparent;
+   border-top: 0 solid;
+   border-bottom: 100px solid #F4F4F4;
+   margin:0 auto;
+   margin-top:93px;
+   box-shadow:inset 0 0 20px lightgrey;
+}
+#Badge{
+   background-color:#2f9b0a;
+   width:100%;
+   height:100px;
+   margin-top:-40px;
+   box-shadow:inset 0 0 2000px #79B73A;
+}
+.H1{
+   font-size:3em;
+   color:#2f9b0a;
+   text-align:center;
+   font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+   
+}
+@keyframes example {
+    90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(15px) scaleY(0)
+  }
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
