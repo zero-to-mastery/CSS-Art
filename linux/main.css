@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body{
+  background: #F5D061;
+
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 9%;
+  width: 400px; height: 400px;
+  background: #339194;
+  border: 5px solid #2A363B;
+  border-radius: 50%; 
+}
+
+.penguin {
+  position: relative; 
+  width: 180px;
+  height: 250px;
+  background: #2A363B;
+  border-radius: 60% 60% 50% 50% /  90% 90% 60% 60%;
+  margin: auto; 
+  top: 15%;
+}
+
+.penguin > div {
+    position: absolute;
+}
+
+.eye {
+  width: 15px; height: 25px;
+  background: #333333;
+  top: 10%; left: 30%;
+  border-radius: 60%;
+  border: 10px solid #F5D061;
+}
+
+.eye-r {
+  left: 50%; 
+}
+
+.nose {
+  width: 1.3%; 
+  height: 1.3%;
+  background: #333333;
+  top: 23%; left: 45%;
+  z-index: 7;
+  border-radius: 50%;
+}
+
+.nose-r {
+  left: 52%;
+}
+
+.mouth {
+  width: 50px; 
+  height: 50px;
+  background: #F5D061;
+  border: 2px solid #2A363B;
+  top: 18%; left: 36%;
+  
+  transform: rotate(45deg);
+  
+  border-radius: 70% 20% 70% 20% / 70% 20% 70% 20%;
+  z-index: 3;
+}
+
+.lips {
+  width: 20%; 
+  height: .50%;
+  background: #333333;
+  border-radius: 10%;
+  top: 29%; left: 40%;
+  z-index: 5;
+}
+
+.belly {
+  width: 70%; 
+  height: 68%;
+  background: #D7E3E3;
+  top: 30%; 
+  left: 15%;
+  border-radius: 80% 80% 40% 40% /  100% 100% 50% 50%;
+  z-index: 2;
+}
+
+.belly {
+  animation: mvr 1s linear 1s infinite alternate;
+}
+
+@keyframes mvr {
+    0%   { opacity: 50%}
+    100%   { transform: scale(0.8, 1.0) }
+}
+
+.foot {
+  width: 35%; 
+  height: 10%;
+  background: #F5D061;
+  top: 90%;
+  z-index: 4;
+  border: 3px solid #2A363B;
+  border-radius: 90% 90% 30% 30% /  100% 100% 50% 50%;
+}
+
+.foot-r {
+  left: 65%;
+}
+
+.popup {
+    float: right;
+    width: 180px;
+    background: #F8F6F6;
+    padding: 10px;
+    border: 3px solid #2A363B;
+    border-radius: 50%;
+    position: relative;
+    line-height: 20px;
+    top: 15%;
+    left: 30%;
+}
+
+.popup:before {
+    content: "";
+    display: block;
+    width: 0; 
+    height: 0; 
+    border-top: 12px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 12px solid #2A363B; 
+    position: absolute;
+    top: 45px;
+    left: -12px;
+}
+ 
+h1{
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  color: #2A363B;
+  text-align: center;
+}
