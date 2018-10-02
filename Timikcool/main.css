@@ -1,0 +1,65 @@
+.background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.background:after,
+.background:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 500%;
+  content: "";
+  z-index: -1;
+}
+
+.background:after {
+  background: radial-gradient(circle, #ee7752, transparent);
+  animation: colorSpin 27s linear infinite;
+}
+
+.background:before {
+  background-color: #e73c7e;
+}
+
+@keyframes colorSpin {
+  25% {
+    transform: translateY(-75%);
+  }
+  50% {
+    transform: translate(-75%, -75%);
+  }
+  75% {
+    transform: translate(-75%, 0);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+  /*75 is obtained as 100[1- (100/(height or width written in .background:after)). i.e. 75 = 100[1-100/400] */
+}
+
+html,
+body {
+  height: 95vh;
+}
+
+.content {
+  height: 100%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 1.7em
+  }
+}
