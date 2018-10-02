@@ -1,0 +1,73 @@
+html, body {
+    background: #000000;
+    background: linear-gradient(95deg, #2e2e2e 0%, #0c0c0c 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.pumpkin{
+    height: 276px;
+    width: 340px;
+    background: #f08307;
+    border-radius: 70%/110%;
+    box-shadow: inset 0 0px 10px #29412b, 0 0 30px -4px rgb(0, 0, 0);
+
+}
+.pumpkin .root {
+    background: #b9dd57;
+    height: 48px;
+    width: 32px;
+    position: relative;
+    top:-45px;
+    right: -160px;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+    border-radius: 25% 25% 80% 20%;
+    box-shadow: inset 0 0px 10px #29412b;
+  }
+  .eyeleft {
+      background: #0c0c0c;
+      width: 50px;
+      height: 50px;
+      border-radius: 0 50px;
+      position: absolute;
+      top: 170px ;
+      left: 510px;
+      -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+  .eyeright {
+    background: #0c0c0c;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 0;
+    position: absolute;
+    top: 170px ;
+    right: 510px;
+    -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+.mouth {
+    background: #0c0c0c;
+    width: 100px;
+    height:90px;
+    position: absolute;
+    bottom: 200px;
+    left: 550px;
+    border-radius: 390% 390% 190% 190%;
+
+}
+.pumpkin:hover {
+    background: #b9dd57
+}
+
+p {
+    position: absolute;
+    bottom:20px;
+    color: #f08307;
+    font-size: 20px
+}
