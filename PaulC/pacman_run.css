@@ -1,0 +1,137 @@
+body {
+    background: #001a33;
+}
+
+.background {
+    position: relative;
+    margin: 50px 50px;
+}
+
+.pacman {
+    background: #fffc07;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    animation: walk 10s infinite alternate;
+}
+
+.pacman:before {
+    position: absolute;
+    content: '';
+    background-color: #000;
+    height: 37px;
+    width: 24px;
+    right: 60px;
+    top: 30px;
+    border-radius: 100%;
+}
+
+.pacman-mouth{
+  border-top: 80px solid transparent;
+  border-bottom: 80px solid transparent;
+  border-right:60px solid #001a33;
+  border-radius: 0 100% 100% 0;
+  position: absolute;
+  right: -1px;
+  top: 20px;
+  z-index: 3;
+  animation: chop 0.8s infinite alternate;
+}
+
+.ghostContainer {
+    float: right;
+}
+
+.ghost {
+	width: 100px;
+	height: 120px;
+	background: blue;
+	border-radius: 50px 50px 5px 5px;
+	position: relative;
+	margin: 20px;
+	float: right;
+	animation: changeColor 10s linear infinite alternate running;
+}
+.ghost-red {
+	background: #f00;
+}
+
+.eye {
+	background: #fff;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 27px;
+	left: 2px;
+	border-radius: 50%;
+}
+
+.eye-right {
+	left: 42px;
+}
+
+.eye:before {
+	content: "";
+	background: #00f;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 9px;
+	left: 1px;
+	border-radius: 50%;
+}
+
+.foot {
+	width: 25px;
+	height: 25px;
+	border-radius: 5px;
+	background: #001a33;
+	bottom: -15px;
+	left: 5px;
+	position: absolute;
+	transform: rotate(45deg)
+}
+
+.foot-center {
+	left: 37px;
+}
+
+.foot-right {
+	left: 69px;
+}
+
+@keyframes walk {
+    0% {
+        left: 10%;
+    }
+    
+    100% {
+        margin-left: -400px;
+        left: 100%;
+    }
+}
+
+@keyframes chop {
+    50% {
+        border-bottom: 0 solid transparent;
+        border-top: 0 solid transparent;
+        right: -15px;
+        top: 90px;
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        background: blue;
+    }
+    
+    80% {
+        background: #f00;
+        transform: scale(1);
+    }
+    
+    100% {
+        transform: scale(1.5);
+    }
+}
