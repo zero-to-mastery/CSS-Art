@@ -1,0 +1,765 @@
+
+/*body {
+    background: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+/* colors
+
+body
+orange #e38532
+orange shadow #c25445
+
+wings
+blue #3a6f92
+blue shadow #1f4152
+
+belly
+yellow #e7e17a
+yellow shadow #e4b65c
+
+flames
+yellow #f5d91f
+orange #eba721
+red #da4623
+
+eye
+black #000000
+blue #3a6f92
+white #ffffff
+
+teeth
+white #ffffff
+
+nails
+white #ffffff
+grey #cbcbcb
+
+border
+black #000000
+brown #7b3521
+
+
+*/
+
+.container {
+    width: 860px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 1px 14px 93px 2px rgba(0, 0, 0, 0.41);
+}
+
+.pixel {
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px 0px #231816;
+    /*border: 1px solid black;*/
+}
+
+/* body
+orange #e38532 */
+
+.pixel:nth-of-type(218),
+.pixel:nth-of-type(219),
+.pixel:nth-of-type(220),
+.pixel:nth-of-type(304),
+.pixel:nth-of-type(305),
+.pixel:nth-of-type(306),
+.pixel:nth-of-type(389),
+.pixel:nth-of-type(390),
+.pixel:nth-of-type(391),
+.pixel:nth-of-type(474),
+.pixel:nth-of-type(475),
+.pixel:nth-of-type(476),
+.pixel:nth-of-type(558),
+.pixel:nth-of-type(559),
+.pixel:nth-of-type(560),
+.pixel:nth-of-type(561),
+.pixel:nth-of-type(641),
+.pixel:nth-of-type(642),
+.pixel:nth-of-type(643),
+.pixel:nth-of-type(644),
+.pixel:nth-of-type(645),
+.pixel:nth-of-type(646),
+.pixel:nth-of-type(724),
+.pixel:nth-of-type(725),
+.pixel:nth-of-type(726),
+.pixel:nth-of-type(727),
+.pixel:nth-of-type(728),
+.pixel:nth-of-type(729),
+.pixel:nth-of-type(730),
+.pixel:nth-of-type(731),
+.pixel:nth-of-type(808),
+.pixel:nth-of-type(809),
+.pixel:nth-of-type(810),
+.pixel:nth-of-type(811),
+.pixel:nth-of-type(812),
+.pixel:nth-of-type(813),
+.pixel:nth-of-type(814),
+.pixel:nth-of-type(815),
+.pixel:nth-of-type(816),
+.pixel:nth-of-type(893),
+.pixel:nth-of-type(894),
+.pixel:nth-of-type(895),
+.pixel:nth-of-type(896),
+.pixel:nth-of-type(897),
+.pixel:nth-of-type(898),
+.pixel:nth-of-type(899),
+.pixel:nth-of-type(900),
+.pixel:nth-of-type(901),
+.pixel:nth-of-type(902),
+.pixel:nth-of-type(903),
+.pixel:nth-of-type(917),
+.pixel:nth-of-type(918),
+.pixel:nth-of-type(978),
+.pixel:nth-of-type(979),
+.pixel:nth-of-type(981),
+.pixel:nth-of-type(982),
+.pixel:nth-of-type(983),
+.pixel:nth-of-type(984),
+.pixel:nth-of-type(985),
+.pixel:nth-of-type(986),
+.pixel:nth-of-type(987),
+.pixel:nth-of-type(988),
+.pixel:nth-of-type(989),
+.pixel:nth-of-type(990),
+.pixel:nth-of-type(1003),
+.pixel:nth-of-type(1064),
+.pixel:nth-of-type(1066),
+.pixel:nth-of-type(1068),
+.pixel:nth-of-type(1073),
+.pixel:nth-of-type(1074),
+.pixel:nth-of-type(1075),
+.pixel:nth-of-type(1076),
+.pixel:nth-of-type(1152),
+.pixel:nth-of-type(1153),
+.pixel:nth-of-type(1159),
+.pixel:nth-of-type(1160),
+.pixel:nth-of-type(1161),
+.pixel:nth-of-type(1162),
+.pixel:nth-of-type(1163),
+.pixel:nth-of-type(1226),
+.pixel:nth-of-type(1227),
+.pixel:nth-of-type(1245),
+.pixel:nth-of-type(1246),
+.pixel:nth-of-type(1247),
+.pixel:nth-of-type(1248),
+.pixel:nth-of-type(1249),
+.pixel:nth-of-type(1268),
+.pixel:nth-of-type(1269),
+.pixel:nth-of-type(1270),
+.pixel:nth-of-type(1311),
+.pixel:nth-of-type(1312),
+.pixel:nth-of-type(1313),
+.pixel:nth-of-type(1330),
+.pixel:nth-of-type(1331),
+.pixel:nth-of-type(1332),
+.pixel:nth-of-type(1333),
+.pixel:nth-of-type(1334),
+.pixel:nth-of-type(1354),
+.pixel:nth-of-type(1355),
+.pixel:nth-of-type(1356),
+.pixel:nth-of-type(1357),
+.pixel:nth-of-type(1358),
+.pixel:nth-of-type(1359),
+.pixel:nth-of-type(1397),
+.pixel:nth-of-type(1398),
+.pixel:nth-of-type(1410),
+.pixel:nth-of-type(1411),
+.pixel:nth-of-type(1412),
+.pixel:nth-of-type(1413),
+.pixel:nth-of-type(1414),
+.pixel:nth-of-type(1415),
+.pixel:nth-of-type(1416),
+.pixel:nth-of-type(1417),
+.pixel:nth-of-type(1418),
+.pixel:nth-of-type(1445),
+.pixel:nth-of-type(1446),
+.pixel:nth-of-type(1447),
+.pixel:nth-of-type(1482),
+.pixel:nth-of-type(1483),
+.pixel:nth-of-type(1484),
+.pixel:nth-of-type(1493),
+.pixel:nth-of-type(1494),
+.pixel:nth-of-type(1495),
+.pixel:nth-of-type(1496),
+.pixel:nth-of-type(1497),
+.pixel:nth-of-type(1498),
+.pixel:nth-of-type(1499),
+.pixel:nth-of-type(1500),
+.pixel:nth-of-type(1501),
+.pixel:nth-of-type(1502),
+.pixel:nth-of-type(1567),
+.pixel:nth-of-type(1568),
+.pixel:nth-of-type(1569),
+.pixel:nth-of-type(1578),
+.pixel:nth-of-type(1579),
+.pixel:nth-of-type(1580),
+.pixel:nth-of-type(1581),
+.pixel:nth-of-type(1582),
+.pixel:nth-of-type(1583),
+.pixel:nth-of-type(1584),
+.pixel:nth-of-type(1585),
+.pixel:nth-of-type(1586),
+.pixel:nth-of-type(1587),
+.pixel:nth-of-type(1652),
+.pixel:nth-of-type(1653),
+.pixel:nth-of-type(1654),
+.pixel:nth-of-type(1655),
+.pixel:nth-of-type(1662),
+.pixel:nth-of-type(1663),
+.pixel:nth-of-type(1664),
+.pixel:nth-of-type(1665),
+.pixel:nth-of-type(1666),
+.pixel:nth-of-type(1667),
+.pixel:nth-of-type(1668),
+.pixel:nth-of-type(1669),
+.pixel:nth-of-type(1670),
+.pixel:nth-of-type(1671)
+
+{
+    background-color:#e38532;/* body
+    orange #e38532 */
+}
+/* orange shadow #c25445 */
+.pixel:nth-of-type(210),
+.pixel:nth-of-type(211),
+.pixel:nth-of-type(296),
+.pixel:nth-of-type(297),
+.pixel:nth-of-type(381),
+.pixel:nth-of-type(382),
+.pixel:nth-of-type(467),
+.pixel:nth-of-type(468),
+.pixel:nth-of-type(477),
+.pixel:nth-of-type(552),
+.pixel:nth-of-type(553),
+.pixel:nth-of-type(554),
+.pixel:nth-of-type(562),
+.pixel:nth-of-type(637),
+.pixel:nth-of-type(638),
+.pixel:nth-of-type(647),
+.pixel:nth-of-type(648),
+.pixel:nth-of-type(723),
+.pixel:nth-of-type(732),
+.pixel:nth-of-type(733),
+.pixel:nth-of-type(817),
+.pixel:nth-of-type(818),
+.pixel:nth-of-type(819),
+.pixel:nth-of-type(904),
+.pixel:nth-of-type(905),
+.pixel:nth-of-type(906),
+.pixel:nth-of-type(980),
+.pixel:nth-of-type(991),
+.pixel:nth-of-type(992),
+.pixel:nth-of-type(993),
+.pixel:nth-of-type(1004),
+.pixel:nth-of-type(1005),
+.pixel:nth-of-type(1063),
+.pixel:nth-of-type(1067),
+.pixel:nth-of-type(1069),
+.pixel:nth-of-type(1070),
+.pixel:nth-of-type(1077),
+.pixel:nth-of-type(1078),
+.pixel:nth-of-type(1079),
+.pixel:nth-of-type(1090),
+.pixel:nth-of-type(1091),
+.pixel:nth-of-type(1092),
+.pixel:nth-of-type(1149),
+.pixel:nth-of-type(1150),
+.pixel:nth-of-type(1154),
+.pixel:nth-of-type(1164),
+.pixel:nth-of-type(1165),
+.pixel:nth-of-type(1166),
+.pixel:nth-of-type(1177),
+.pixel:nth-of-type(1178),
+.pixel:nth-of-type(1179),
+.pixel:nth-of-type(1180),
+.pixel:nth-of-type(1237),
+.pixel:nth-of-type(1239),
+.pixel:nth-of-type(1244),
+.pixel:nth-of-type(1250),
+.pixel:nth-of-type(1251),
+.pixel:nth-of-type(1252),
+.pixel:nth-of-type(1264),
+.pixel:nth-of-type(1265),
+.pixel:nth-of-type(1266),
+.pixel:nth-of-type(1267),
+.pixel:nth-of-type(1323),
+.pixel:nth-of-type(1324),
+.pixel:nth-of-type(1329),
+.pixel:nth-of-type(1335),
+.pixel:nth-of-type(1336),
+.pixel:nth-of-type(1337),
+.pixel:nth-of-type(1338),
+.pixel:nth-of-type(1339),
+.pixel:nth-of-type(1350),
+.pixel:nth-of-type(1351),
+.pixel:nth-of-type(1352),
+.pixel:nth-of-type(1353),
+.pixel:nth-of-type(1396),
+.pixel:nth-of-type(1408),
+.pixel:nth-of-type(1409),
+.pixel:nth-of-type(1419),
+.pixel:nth-of-type(1420),
+.pixel:nth-of-type(1421),
+.pixel:nth-of-type(1422),
+.pixel:nth-of-type(1423),
+.pixel:nth-of-type(1424),
+.pixel:nth-of-type(1425),
+.pixel:nth-of-type(1437),
+.pixel:nth-of-type(1438),
+.pixel:nth-of-type(1439),
+.pixel:nth-of-type(1448),
+.pixel:nth-of-type(1506),
+.pixel:nth-of-type(1507),
+.pixel:nth-of-type(1508),
+.pixel:nth-of-type(1509),
+.pixel:nth-of-type(1510),
+.pixel:nth-of-type(1511),
+.pixel:nth-of-type(1523),
+.pixel:nth-of-type(1524),
+.pixel:nth-of-type(1533),
+.pixel:nth-of-type(1534),
+.pixel:nth-of-type(1589),
+.pixel:nth-of-type(1590),
+.pixel:nth-of-type(1591),
+.pixel:nth-of-type(1592),
+.pixel:nth-of-type(1593),
+.pixel:nth-of-type(1594),
+.pixel:nth-of-type(1595),
+.pixel:nth-of-type(1596),
+.pixel:nth-of-type(1597),
+.pixel:nth-of-type(1598),
+.pixel:nth-of-type(1608),
+.pixel:nth-of-type(1610),
+.pixel:nth-of-type(1619),
+.pixel:nth-of-type(1620),
+.pixel:nth-of-type(1674),
+.pixel:nth-of-type(1675),
+.pixel:nth-of-type(1676),
+.pixel:nth-of-type(1677),
+.pixel:nth-of-type(1678),
+.pixel:nth-of-type(1679),
+.pixel:nth-of-type(1680),
+.pixel:nth-of-type(1681),
+.pixel:nth-of-type(1682),
+.pixel:nth-of-type(1683),
+.pixel:nth-of-type(1684),
+.pixel:nth-of-type(1696),
+.pixel:nth-of-type(1697),
+.pixel:nth-of-type(1706),
+.pixel:nth-of-type(1707)
+
+
+
+{
+    background-color: #c25445; /* orange shadow #c25445 */
+}
+
+/* wings
+blue #3a6f92 */
+
+.pixel:nth-of-type(1241),
+.pixel:nth-of-type(1327),
+.pixel:nth-of-type(1529),
+.pixel:nth-of-type(1530),
+.pixel:nth-of-type(1616),
+.pixel:nth-of-type(1617),
+.pixel:nth-of-type(1699),
+.pixel:nth-of-type(1702),
+.pixel:nth-of-type(1703),
+.pixel:nth-of-type(1704)
+
+
+ {
+    background-color: #3a6f92;
+}
+/* blue shadow #1f4152 */
+.pixel:nth-of-type(1526),
+.pixel:nth-of-type(1527),
+.pixel:nth-of-type(1528),
+.pixel:nth-of-type(1611),
+.pixel:nth-of-type(1612),
+.pixel:nth-of-type(1613),
+.pixel:nth-of-type(1614),
+.pixel:nth-of-type(1615),
+.pixel:nth-of-type(1698),
+.pixel:nth-of-type(1700),
+.pixel:nth-of-type(1701)
+
+ {
+    background-color: #1f4152;
+}
+
+/* belly
+yellow #e7e17a */
+
+.pixel:nth-of-type(1) {
+    background-color: #e7e17a;
+}
+/* yellow shadow #e4b65c */
+.pixel:nth-of-type(1067) {
+    background-color: #e4b65c;
+}
+
+/* flames
+yellow #f5d91f */
+
+.pixel:nth-of-type(488),
+.pixel:nth-of-type(496),
+.pixel:nth-of-type(573),
+.pixel:nth-of-type(581),
+.pixel:nth-of-type(582),
+.pixel:nth-of-type(658),
+.pixel:nth-of-type(659),
+.pixel:nth-of-type(667),
+.pixel:nth-of-type(744),
+.pixel:nth-of-type(745),
+.pixel:nth-of-type(749),
+.pixel:nth-of-type(752),
+.pixel:nth-of-type(829),
+.pixel:nth-of-type(830),
+.pixel:nth-of-type(834),
+.pixel:nth-of-type(835),
+.pixel:nth-of-type(836),
+.pixel:nth-of-type(914),
+.pixel:nth-of-type(915),
+.pixel:nth-of-type(920),
+.pixel:nth-of-type(921),
+.pixel:nth-of-type(925),
+.pixel:nth-of-type(999),
+.pixel:nth-of-type(1000),
+.pixel:nth-of-type(1001),
+.pixel:nth-of-type(1007),
+.pixel:nth-of-type(1008),
+.pixel:nth-of-type(1009),
+.pixel:nth-of-type(1010),
+.pixel:nth-of-type(1085),
+.pixel:nth-of-type(1086),
+.pixel:nth-of-type(1087),
+.pixel:nth-of-type(1088),
+.pixel:nth-of-type(1095),
+.pixel:nth-of-type(1171),
+.pixel:nth-of-type(1172),
+.pixel:nth-of-type(1173),
+.pixel:nth-of-type(1174),
+.pixel:nth-of-type(1175),
+.pixel:nth-of-type(1260),
+.pixel:nth-of-type(1261),
+.pixel:nth-of-type(1262),
+.pixel:nth-of-type(1346),
+.pixel:nth-of-type(1347),
+.pixel:nth-of-type(1348),
+.pixel:nth-of-type(1431),
+.pixel:nth-of-type(1432),
+.pixel:nth-of-type(1433),
+.pixel:nth-of-type(1434),
+.pixel:nth-of-type(1435),
+.pixel:nth-of-type(1517),
+.pixel:nth-of-type(1520),
+.pixel:nth-of-type(1521),
+.pixel:nth-of-type(1603)
+
+
+{
+    background-color: #f5d91f;/* flames
+    yellow #f5d91f */
+}
+/* orange #eba721 */
+.pixel:nth-of-type(411),
+.pixel:nth-of-type(489),
+.pixel:nth-of-type(495),
+.pixel:nth-of-type(663),
+.pixel:nth-of-type(666),
+.pixel:nth-of-type(743),
+.pixel:nth-of-type(746),
+.pixel:nth-of-type(748),
+.pixel:nth-of-type(750),
+.pixel:nth-of-type(833),
+.pixel:nth-of-type(913),
+.pixel:nth-of-type(922),
+.pixel:nth-of-type(924),
+.pixel:nth-of-type(998),
+.pixel:nth-of-type(1011),
+.pixel:nth-of-type(1084),
+.pixel:nth-of-type(1096),
+.pixel:nth-of-type(1258),
+.pixel:nth-of-type(1259),
+.pixel:nth-of-type(1345),
+.pixel:nth-of-type(1430),
+.pixel:nth-of-type(1516),
+.pixel:nth-of-type(1518),
+.pixel:nth-of-type(1519),
+.pixel:nth-of-type(1606),
+.pixel:nth-of-type(1689)
+
+{
+    background-color: #eba721;/* orange #eba721 */
+}
+/* red #da4623 */
+.pixel:nth-of-type(63), 
+.pixel:nth-of-type(147), 
+.pixel:nth-of-type(148), 
+.pixel:nth-of-type(231), 
+.pixel:nth-of-type(232),
+.pixel:nth-of-type(233),
+.pixel:nth-of-type(239),
+.pixel:nth-of-type(240),
+.pixel:nth-of-type(243),
+.pixel:nth-of-type(316), 
+.pixel:nth-of-type(317),
+.pixel:nth-of-type(318), 
+.pixel:nth-of-type(319), 
+.pixel:nth-of-type(323), 
+.pixel:nth-of-type(324), 
+.pixel:nth-of-type(325), 
+.pixel:nth-of-type(326), 
+.pixel:nth-of-type(327), 
+.pixel:nth-of-type(328),
+.pixel:nth-of-type(401), 
+.pixel:nth-of-type(402), 
+.pixel:nth-of-type(403),
+.pixel:nth-of-type(404), 
+.pixel:nth-of-type(407), 
+.pixel:nth-of-type(408), 
+.pixel:nth-of-type(409), 
+.pixel:nth-of-type(410),
+.pixel:nth-of-type(412),
+.pixel:nth-of-type(487),
+.pixel:nth-of-type(490), 
+.pixel:nth-of-type(492), 
+.pixel:nth-of-type(493), 
+.pixel:nth-of-type(494),
+.pixel:nth-of-type(497),
+.pixel:nth-of-type(571),
+.pixel:nth-of-type(572),
+.pixel:nth-of-type(574),
+.pixel:nth-of-type(575),
+.pixel:nth-of-type(576),
+.pixel:nth-of-type(577),
+.pixel:nth-of-type(578),
+.pixel:nth-of-type(579),
+.pixel:nth-of-type(580),
+.pixel:nth-of-type(653),
+.pixel:nth-of-type(656),
+.pixel:nth-of-type(657),
+.pixel:nth-of-type(660),
+.pixel:nth-of-type(661),
+.pixel:nth-of-type(662),
+.pixel:nth-of-type(664),
+.pixel:nth-of-type(665),
+.pixel:nth-of-type(668),
+.pixel:nth-of-type(739),
+.pixel:nth-of-type(740),
+.pixel:nth-of-type(741),
+.pixel:nth-of-type(742),
+.pixel:nth-of-type(747),
+.pixel:nth-of-type(751),
+.pixel:nth-of-type(753),
+.pixel:nth-of-type(754),
+.pixel:nth-of-type(755),
+.pixel:nth-of-type(825),
+.pixel:nth-of-type(826),
+.pixel:nth-of-type(827),
+.pixel:nth-of-type(828),
+.pixel:nth-of-type(837),
+.pixel:nth-of-type(838),
+.pixel:nth-of-type(839),
+.pixel:nth-of-type(840),
+.pixel:nth-of-type(841),
+.pixel:nth-of-type(912),
+.pixel:nth-of-type(923),
+.pixel:nth-of-type(926),
+.pixel:nth-of-type(927),
+.pixel:nth-of-type(1012),
+.pixel:nth-of-type(1257),
+.pixel:nth-of-type(1343),
+.pixel:nth-of-type(1344),
+.pixel:nth-of-type(1428),
+.pixel:nth-of-type(1429),
+.pixel:nth-of-type(1514),
+.pixel:nth-of-type(1515),
+.pixel:nth-of-type(1601),
+.pixel:nth-of-type(1602),
+.pixel:nth-of-type(1607),
+.pixel:nth-of-type(1608),
+.pixel:nth-of-type(1688),
+.pixel:nth-of-type(1692),
+.pixel:nth-of-type(1693)
+
+
+{
+    background-color: #da4623; /* red #da4623 */
+}
+
+/* border
+brown #7b3521 */
+.pixel:nth-of-type(133),
+.pixel:nth-of-type(218),
+.pixel:nth-of-type(303),
+.pixel:nth-of-type(388),
+.pixel:nth-of-type(472),
+.pixel:nth-of-type(473),
+.pixel:nth-of-type(555),
+.pixel:nth-of-type(639),
+.pixel:nth-of-type(640),
+.pixel:nth-of-type(807),
+.pixel:nth-of-type(892),
+.pixel:nth-of-type(977),
+.pixel:nth-of-type(1062),
+.pixel:nth-of-type(1065),
+.pixel:nth-of-type(1071),
+.pixel:nth-of-type(1072),
+.pixel:nth-of-type(1140),
+.pixel:nth-of-type(1141),
+.pixel:nth-of-type(1151),
+.pixel:nth-of-type(1155),
+.pixel:nth-of-type(1156),
+.pixel:nth-of-type(1158),
+.pixel:nth-of-type(1183),
+.pixel:nth-of-type(1184),
+.pixel:nth-of-type(1225),
+.pixel:nth-of-type(1228),
+.pixel:nth-of-type(1235),
+.pixel:nth-of-type(1236),
+.pixel:nth-of-type(1238),
+.pixel:nth-of-type(1240),
+.pixel:nth-of-type(1271),
+.pixel:nth-of-type(1272),
+.pixel:nth-of-type(1273),
+.pixel:nth-of-type(1310),
+.pixel:nth-of-type(1322),
+.pixel:nth-of-type(1325),
+.pixel:nth-of-type(1360),
+.pixel:nth-of-type(1361),
+.pixel:nth-of-type(1362),
+.pixel:nth-of-type(1399),
+.pixel:nth-of-type(1481),
+.pixel:nth-of-type(1492),
+.pixel:nth-of-type(1505),
+.pixel:nth-of-type(1566),
+.pixel:nth-of-type(1570),
+.pixel:nth-of-type(1576),
+.pixel:nth-of-type(1577),
+.pixel:nth-of-type(1604),
+.pixel:nth-of-type(1605),
+.pixel:nth-of-type(1651),
+.pixel:nth-of-type(1661),
+.pixel:nth-of-type(1672),
+.pixel:nth-of-type(1690),
+.pixel:nth-of-type(1691)
+
+{
+    background-color: #7b3521; /*brown #7b3521 */
+}
+
+/* nails
+grey #cbcbcb */
+
+pixel:nth-of-type(1) {
+    background-color: #cbcbcb;
+}
+
+/* white */
+.pixel:nth-of-type(1157),
+.pixel:nth-of-type(1242),
+.pixel:nth-of-type(1243),
+.pixel:nth-of-type(1328)
+ {
+    background-color: #ffffff;
+}
+
+/* black */
+
+.pixel:nth-of-type(124),
+.pixel:nth-of-type(125),
+.pixel:nth-of-type(134),
+.pixel:nth-of-type(209),
+.pixel:nth-of-type(212),
+.pixel:nth-of-type(221),
+.pixel:nth-of-type(295),
+.pixel:nth-of-type(298),
+.pixel:nth-of-type(307),
+.pixel:nth-of-type(380),
+.pixel:nth-of-type(383),
+.pixel:nth-of-type(392),
+.pixel:nth-of-type(466),
+.pixel:nth-of-type(469),
+.pixel:nth-of-type(478),
+.pixel:nth-of-type(551),
+.pixel:nth-of-type(556),
+.pixel:nth-of-type(557),
+.pixel:nth-of-type(563),
+.pixel:nth-of-type(636),
+.pixel:nth-of-type(649),
+.pixel:nth-of-type(722),
+.pixel:nth-of-type(734),
+.pixel:nth-of-type(820),
+.pixel:nth-of-type(831),
+.pixel:nth-of-type(832),
+.pixel:nth-of-type(907),
+.pixel:nth-of-type(916),
+.pixel:nth-of-type(919),
+.pixel:nth-of-type(994),
+.pixel:nth-of-type(1002),
+.pixel:nth-of-type(1006),
+.pixel:nth-of-type(1080),
+.pixel:nth-of-type(1089),
+.pixel:nth-of-type(1093),
+.pixel:nth-of-type(1094),
+.pixel:nth-of-type(1148),
+.pixel:nth-of-type(1167),
+.pixel:nth-of-type(1176),
+.pixel:nth-of-type(1181),
+.pixel:nth-of-type(1182),
+.pixel:nth-of-type(1234),
+.pixel:nth-of-type(1253),
+.pixel:nth-of-type(1263),
+.pixel:nth-of-type(1314),
+.pixel:nth-of-type(1321),
+.pixel:nth-of-type(1326),
+.pixel:nth-of-type(1340),
+.pixel:nth-of-type(1349),
+.pixel:nth-of-type(1407),
+.pixel:nth-of-type(1426),
+.pixel:nth-of-type(1436),
+.pixel:nth-of-type(1440),
+.pixel:nth-of-type(1441),
+.pixel:nth-of-type(1442),
+.pixel:nth-of-type(1443),
+.pixel:nth-of-type(1444),
+.pixel:nth-of-type(1449),
+.pixel:nth-of-type(1485),
+.pixel:nth-of-type(1503),
+.pixel:nth-of-type(1504),
+.pixel:nth-of-type(1512),
+.pixel:nth-of-type(1522),
+.pixel:nth-of-type(1525),
+.pixel:nth-of-type(1531),
+.pixel:nth-of-type(1532),
+.pixel:nth-of-type(1535),
+.pixel:nth-of-type(1588),
+.pixel:nth-of-type(1599),
+.pixel:nth-of-type(1609),
+.pixel:nth-of-type(1618),
+.pixel:nth-of-type(1621),
+.pixel:nth-of-type(1656),
+.pixel:nth-of-type(1673),
+.pixel:nth-of-type(1685),
+.pixel:nth-of-type(1695),
+.pixel:nth-of-type(1705),
+.pixel:nth-of-type(1708)
+
+{
+    background-color: #000000;
+}
+
