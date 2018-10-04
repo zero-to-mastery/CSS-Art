@@ -1,0 +1,142 @@
+html{
+	background: linear-gradient(to right, #141e30, #243b55);
+}
+
+.container {
+	position: relative;
+	padding-top: 100px;
+}
+
+.Ghost,
+.Ghost:after,
+.head,
+.body,
+.eye,
+.eye:after,
+.left-eye:after,
+.right-eye:after,
+.left-eye,
+.right-eye,
+.right-cheek,
+.left-cheek,
+.mouth,
+.left-arm,
+.right-arm {
+	box-sizing: border-box;
+	display: inline-block;
+	position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Ghost {
+	background-color: white;
+	height: 260px;
+	width: 230px;
+	border-radius: 50% 50% 40% 40%;
+	z-index: -1;
+	cursor: grab;
+  animation: floating 4s ease-in-out infinite;
+	transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+.Ghost:after {
+	content: '';
+	width: 0; 
+  height: 0; 
+	top: 240px;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 70px solid white;
+	border-radius: 60px;
+}
+
+.eye {
+	background-color: black;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	top: 100px;
+	z-index: 100;
+}
+
+.left-eye {
+	left: -60px;
+}
+
+.right-eye {
+	left: 60px;
+}
+
+.left-eye:after,
+.right-eye:after {
+	content: '';
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	left: 10px;
+	background-color: white;
+}
+
+.left-cheek,
+.right-cheek {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	top: 130px;
+	background-color: #F3B3D2;
+}
+
+.left-cheek {
+	left: -80px;
+}
+
+.right-cheek {
+	left: 80px;
+}
+
+.mouth {
+	width: 0; 
+  height: 0; 
+	top: 140px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid black;
+	border-radius: 40%;
+}
+
+.left-arm,
+.right-arm {
+	background-color: white;
+	height: 60px;
+	width: 50px;
+	border-radius: 50%;
+	top: 140px;
+	z-index: 9999;
+}
+
+.left-arm {
+	transform: rotate(320deg);
+	left: 95px;
+}
+
+.right-arm {
+	transform: rotate(40deg);
+	left: -145px;
+}
+
+.Ghost:hover {
+	opacity: .3;
+}
+
+.Ghost:hover .eye {
+	background-color: red;
+	opacity: 1;
+}
+
+@keyframes floating {
+    from { transform: translate(-90px,  0px); }
+    65%  { transform: translate(-90px, 35px); }
+    to   { transform: translate(-90px, -0px); }    
+}
