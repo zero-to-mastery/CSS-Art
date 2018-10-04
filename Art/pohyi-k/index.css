@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Painter';
+    src: url('Painter.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Painter';
+    font-size: 80px;
+    text-align: center;
+    width: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    background-color: black;
+    animation: .8s shake infinite alternate;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img {
+    align-self: center;
+}
+
+@keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); } 
+} 
