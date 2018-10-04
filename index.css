@@ -26,10 +26,10 @@ a, p {
   color: black;
 }
 
-img {
+/* img {
   width: 200px;
   border-radius: 40px;
-}
+} */
 
 .project-name {
   text-decoration: none;
@@ -52,4 +52,59 @@ img {
   -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* Adjusted */
+
+.flex-container {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  -ms-box-orient: horizontal;
+  justify-content: center;
+  padding: 0;
+  margin: 50px;
+  list-style: none;
+  line-height: 0;
+}
+
+.wrap    { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}  
+
+.wrap li {
+  background: rgba(255, 217, 0, 0.541);
+  border-radius: 15px;
+  border: 1.5px solid #ffffffa2;
+}
+
+.flex-item {
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.flex-item img {
+  width: 85%;
+  border-radius: 15px
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+.flex-item h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 3vw;
+  color: rgb(50, 51, 51)
+}
+
+.flex-item p, a{
+  color: #524b3f;
+  text-transform: capitalize;
+  padding: 15px 10px;
+}
+.flex-item a {
+  display: block;
+  margin-top: 15px;
 }
