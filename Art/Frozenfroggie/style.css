@@ -1,0 +1,42 @@
+.loaderContainer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c3e50;
+    overflow: hidden;
+  }
+  .loader {
+    width: 200px;
+    height: 200px;
+  }
+  .loader,
+  .loader span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    animation: 1s spin linear infinite;
+    top: 7px;
+    left: 7px;
+    right: 7px;
+    bottom: 7px;
+    animation-duration: 2.4s;
+    border-top: 3px solid #c33460;
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
