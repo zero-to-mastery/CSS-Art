@@ -9,6 +9,27 @@ let cards = [
     ["Robot friend", "./Art/joy/robot.html", "./Art/joy/robot.png", "Joy", "https://github.com/royranger"],
     ["Spookiest fr̶iend", "./Art/pavel/spooky.html", "./Art/pavel/spooky.png","Pavel", "https://github.com/pavelisp"],
     ["Hamburger", "./Art/Aszmel/Hamburger.html", "./Art/Aszmel/hamburger.png", "Aszmel", "https://github.com/Aszmel"],
+    ["Polish Flag animation", "./Art/kris/kris.html", "./Art/kris/kris.png", "Kris", "https://github.com/krzysiekh"],
+    ["Frog", "./Art/TheMicroGirl/frog.html", "./Art/TheMicroGirl/frog.PNG", "TheMicroGirl", "https://github.com/TheMicroGirl"],
+    ["8-bit style Link","./fischbot/index.html",  "./fischbot/link.png", "Fischbot", "https://github.com/fischbot"],
+    ["Ghost Animation","./Art/ghost/ghost.html",  "./Art/ghost/ghost.png", "Jhonattan", "https://github.com/jhonattanbenitez"],
+    ["Boo","./Art/zach-caldwell/ghost.html",  "./Art/zach-caldwell/ghost.PNG", "Zach", "https://github.com/zach-caldwell"],
+    ["Pumpkin", "./Art/Asam/pumpkin.html", "./Art/Asam/pumpkin.png", "Asam", "https://github.com/shan5742"],
+    ["Funky Pumpkin", "./Art/Matt/pumpkin.html", "./Art/Matt/icon.PNG", "Matt", "https://github.com/mattcsmith"],
+    ["Spooky Androids!", "./Art/hmahajan/androids.html", "./Art/hmahajan/androids.JPG", "hmahajan", "https://github.com/hmahajan99"],
+    ["TrailSnail", "./Art/trailsnail/spinner.html", "./Art/trailsnail/spinner.png", "Complex Spinner", "https://github.com/trailsnail"],
+    ["Spooky Penguine", "./Art/Shruti/penguine.html", "./Art/Shruti/penguine.PNG", "Shruti", "https://github.com/shruti49"],
+    ["Sunrise and Sunset", "./Art/sanjithpk/index.html", "./Art/sanjithpk/sun.png", "Sanjith", "https://github.com/sanjithpk"],
+    ["Halloween Cat", "./Art/Martyav/halloween_cat.html", "./Art/Martyav/halloween_cat.png", "Martyav", "https://github.com/martyav"],
+    ["Owl", "./Art/owl/owl.html", "./Art/owl/owl.png", "Thea", "https://github.com/highflyer910"],
+    ["Devices", "./Art/virtual/index.html", "./Art/virtual/virtual.png", "Virtual", "https://github.com/virtual"],
+    ["Linux", "./Art/linux/index.html", "./Art/linux/linux.gif", "Thea", "https://github.com/highflyer910"],
+    ["CSS Clock", "./Art/Sean-Dees/sean.html", "./Art/Sean-Dees/clock.PNG", "Sean Dees", "https://github.com/sdees82"],
+    ["Pac-Man Run", "./Art/PaulC/pacman_run.html", "./Art/PaulC/pacman_run.PNG", "PaulC", "https://github.com/m2paulc"],
+    ["Frankenstein", "./Art/josh/frankie.html", "./Art/josh/storm.jpg", "Josh", "https://github.com/jcothard"],
+    ["Koala Head", "./Art/Are/index.html", "./Art/Are/koala.png", "Are", "https://github.com/Ar3Tea"],
+    ["CSS Loader", "./Art/Frozenfroggie/index.html", "./Art/Frozenfroggie/loader.gif", "Frozenfroggie", "https://github.com/frozenfroggie"],
+    ["Macho Ghost", "./Art/Astro/index.html", "./Art/Astro/ghost.jpeg", "Amy", "https://github.com/astrokwk"]
 ]
 
 
