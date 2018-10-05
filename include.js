@@ -18,10 +18,12 @@ let contents;
 cards.forEach(c => {
     document.getElementById("cards").innerHTML =
     (contents ? contents : '') +
-    `<li class="flex-item">` +
-    `<a href='${c[1]}'><h3>${c[0]}</h3></a>` +
-    `<img src='${c[2]}' alt='${c[0]}' />` +
-    `<p class='author'>Styled by: <a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
+    `<li class="card">` +
+    `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
+    `<div class="flex-content">` +
+    `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
+    `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
+    `</div>` +
     `</li>`
  
     contents = document.getElementById("cards").innerHTML;   
