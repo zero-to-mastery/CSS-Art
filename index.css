@@ -101,6 +101,11 @@ a, p {
   text-transform: capitalize;
   padding: 15px 10px;
 }
+
+.flex-item, a:hover {
+ color: rgb(255, 255, 255)
+}
+
 .flex-item a {
   display: block;
   margin-top: 15px;
