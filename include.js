@@ -19,7 +19,7 @@ cards.forEach(c => {
     document.getElementById("cards").innerHTML =
     (contents ? contents : '') +
     `<li class="flex-item">` +
-    `<h3>${c[0]}</h3>` +
+    `<a href='${c[1]}'><h3>${c[0]}</h3></a>` +
     `<img src='${c[2]}' alt='${c[0]}' />` +
     `<p class='author'>Styled by: <a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
     `</li>`
