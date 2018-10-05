@@ -1,3 +1,8 @@
+/* =========================================== */
+/*                 Adjusted                    */
+/* =========================================== */
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+/* GENERAL LAYOUT STYLE */
 body {
   text-align:center;
   background-color: #948b7a;
@@ -6,16 +11,20 @@ body {
   margin:0;
 }
 
-/* .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0 1rem;
-} */
+.header {
+  position: relative;
+  top: -10px;
+  background: #343a4093;
+  padding: 2em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.89)
+}
+.header h1,h2 {
+  margin: 10px;
+}
 
-h1 {
+.header h1 {
   font-family: 'Bungee Inline', cursive;
-  font-size: 4em;
+  font-size: 6em;
 }
 
 h2 {
@@ -29,38 +38,7 @@ a, p {
   color: black;
 }
 
-/* img {
-  width: 200px;
-  border-radius: 40px;
-} */
-
-.project-name {
-  text-decoration: none;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 0
-}
-
-.author {
-  font-size: 1.2em;
-}
-
-.card {
-  border: 1px solid black;
-  border-radius: 5px;
-  display: inline-block;
-  background-color: #e7a61a;
-  margin: 5px;
-  padding: 20px;
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-  transition: all .2s ease-in-out;
-}
-
-/* Adjusted */
-
+/* Flex Card Container */
 .flex-container {
   display: flex;
   display: -webkit-box;
@@ -87,21 +65,35 @@ a, p {
   border: 1.5px solid #ffffffa2;
 }
 
+.wrap li:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+}
+
 .flex-item {
   width: 25%;
-  margin: 10px 20px;
+  margin: 20px 20px;
   text-align: center;
 }
 
 .flex-item img {
-  width: 85%;
-  border-radius: 15px
+  max-width: 85%;
+  height: auto;
+  border-radius: 15px;
+  border: 0.5px solid rgb(50, 51, 51)
 }
-@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+
 .flex-item h3 {
   font-family: 'Rubik', sans-serif;
-  font-size: 3vw;
+  font-size: 2vw;
+  line-height: 3vw;
   color: rgb(50, 51, 51)
+}
+
+.author {
+  font-size: 1.2em;
 }
 
 .flex-item p, a{
@@ -114,24 +106,17 @@ a, p {
   margin-top: 15px;
 }
 
-
-
-.wrap li:hover {
-  transform: scale(1.1);
-  -webkit-box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
-}
-
-
 #footer{
 	margin-top:5rem;
 	height: 20vh;
-    background-color: #343a40;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-	color: white;
-    font-size: 1.3rem;
+  background-color: #343a40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.89)
 
 }
