@@ -19,12 +19,6 @@ let cards = [
     ["Spooky Androids!", "./Art/hmahajan/androids.html", "./Art/hmahajan/androids.JPG", "hmahajan", "https://github.com/hmahajan99"],
     ["TrailSnail", "./Art/trailsnail/spinner.html", "./Art/trailsnail/spinner.png", "Complex Spinner", "https://github.com/trailsnail"],
     ["Spooky Penguine", "./Art/Shruti/penguine.html", "./Art/Shruti/penguine.PNG", "Shruti", "https://github.com/shruti49"],
-    ["Sunrise and Sunset", "./Art/sanjithpk/index.html", "./Art/sanjithpk/sun.png", "Sanjith", "https://github.com/sanjithpk"],
-    ["Halloween Cat", "./Art/Martyav/halloween_cat.html", "./Art/Martyav/halloween_cat.png", "Martyav", "https://github.com/martyav"],
-    ["Owl", "./Art/owl/owl.html", "./Art/owl/owl.png", "Thea", "https://github.com/highflyer910"],
-    ["Devices", "./Art/virtual/index.html", "./Art/virtual/virtual.png", "Virtual", "https://github.com/virtual"],
-    ["Linux", "./Art/linux/index.html", "./Art/linux/linux.gif", "Thea", "https://github.com/highflyer910"],
-    ["CSS Clock", "./Art/Sean-Dees/sean.html", "./Art/Sean-Dees/clock.PNG", "Sean Dees", "https://github.com/sdees82"],
     ["Pac-Man Run", "./Art/PaulC/pacman_run.html", "./Art/PaulC/pacman_run.PNG", "PaulC", "https://github.com/m2paulc"],
     ["Frankenstein", "./Art/josh/frankie.html", "./Art/josh/storm.jpg", "Josh", "https://github.com/jcothard"],
     ["Koala Head", "./Art/Are/index.html", "./Art/Are/koala.png", "Are", "https://github.com/Ar3Tea"],
@@ -35,17 +29,25 @@ let cards = [
 
 // Creates cards from the array above
 // You don't need to modify this
-let contents;
-cards.forEach(c => {
-    document.getElementById("cards").innerHTML =
-    (contents ? contents : '') +
-    `<li class="card">` +
-    `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
-    `<div class="flex-content">` +
-    `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
-    `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
-    `</div>` +
-    `</li>`
+let contents = [];
+Shuffle(cards).forEach(c => {
+    contents.push([
+        `<li class="card">` +
+        `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
+        `<div class="flex-content">` +
+        `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
+        `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
+        `</div>` +
+        `</li>`
+    ])
  
-    contents = document.getElementById("cards").innerHTML;   
+    
 });
+
+
+document.getElementById("cards").innerHTML = contents;
+
+function Shuffle(o) {
+	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+	return o;
+};
