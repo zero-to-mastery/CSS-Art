@@ -59,7 +59,7 @@ h2 {
   -ms-box-orient: horizontal;
   justify-content: center;
   padding: 0;
-  margin: 0 -70px;
+  margin: 0 0px;
   list-style: none;
   line-height: 0;
   -webkit-flex-wrap: wrap;
@@ -99,11 +99,11 @@ h2 {
   width: 27vw;
   height: 27vw;
   vertical-align: middle;
-  border-radius: 50%;
+  border-radius: 15%;
   border: 3.5px solid #ffffffa2;
   padding: 5px;
   background: #948b7a;
-  object-fit: cover
+  /* object-fit: cover */
 }
 
 .flex-content {
@@ -186,8 +186,8 @@ h2 {
   
   .card img {
     top: -65px;
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
   }
   
   .art-title {
