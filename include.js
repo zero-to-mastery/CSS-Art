@@ -19,7 +19,7 @@ let cards = [
     ["Spooky Androids!", "./Art/hmahajan/androids.html", "./Art/hmahajan/androids.JPG", "hmahajan", "https://github.com/hmahajan99"],
     ["TrailSnail", "./Art/trailsnail/spinner.html", "./Art/trailsnail/spinner.png", "Complex Spinner", "https://github.com/trailsnail"],
     ["Spooky Penguine", "./Art/Shruti/penguine.html", "./Art/Shruti/penguine.PNG", "Shruti", "https://github.com/shruti49"],
-    ["Pac-Man Run", "./Art/PaulC/pacman_run.html", "./Art/PaulC/pacman_run.PNG", "PaulC", "https://github.com/m2paulc"],
+    ["Pac-Man Run", "./Art/PaulC/pacman_run.html", "./pac.png", "PaulC", "https://github.com/m2paulc"],
     ["Frankenstein", "./Art/josh/frankie.html", "./Art/josh/storm.jpg", "Josh", "https://github.com/jcothard"],
     ["Koala Head", "./Art/Are/index.html", "./Art/Are/koala.png", "Are", "https://github.com/Ar3Tea"],
     ["CSS Loader", "./Art/Frozenfroggie/index.html", "./Art/Frozenfroggie/loader.gif", "Frozenfroggie", "https://github.com/frozenfroggie"],
