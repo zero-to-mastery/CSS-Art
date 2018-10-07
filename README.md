@@ -1,7 +1,8 @@
 # CSS ART
 Welcome to CSS Art, a fun, beginner-friendly challenge for Hacktoberfest!
 
-What shapes, pictures and animations can you come up with, using plain HTML and CSS? Let's showcase the artistry of ZTM students, and get a free t-shirt into the bargain!
+What shapes, pictures and animations can you come up with, using plain HTML divs and CSS? Let's showcase the artistry of ZTM students, and get a free t-shirt into the bargain!
+If you're not sure what this is or how to go about doing it, take a look at  https://codepen.io/mikemang/post/a-beginner-s-guide-to-pure-css-images , which will teach you all about how to make CSS images.
 
 # What is Hacktoberfest?
 Every October, Digital Ocean runs Hacktoberfest, a month-long celebration of open-source software! All you have to do to take part is sign up on their website - https://hacktoberfest.digitalocean.com/ - and make five pull requests in the month of October. Any pull request to any public repo on Github will count, which means, of course, that any PRs you make to this project will help you on your way to getting a cool t-shirt!
