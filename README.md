@@ -16,7 +16,7 @@ Now, once you've forked this repo and got a local version up on your computer, f
 2. Within this folder you just made, create two files, an HTML file and a CSS file.
 3. Link your CSS file to your HTML file.
 4. Using only HTML and CSS (no <script> allowed!!), create a work of art! It can be as simple or as complex as you like.
-5. Take a screenshot of your finished work! Try to crop it so that it looks good as a smallish image. Save this in your directory, together with your html and css files.
+5. Take a screenshot of your finished work and upload it as a PNG along with your html and css files. People browsing the folder want to easily see your work!
 6. Go to the root index.html. You will see a `<div>` that has a class of 'card'. Here is the first example:
 
 ```
