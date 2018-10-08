@@ -1,0 +1,396 @@
+body {
+  background: #0f0000;
+  font-family: 'Sacramento', cursive;
+}
+
+.calabera {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  margin: 10px auto;
+}
+
+.calabera-frente {
+  border-radius: 43%;
+  height: 400px;
+  background-color: #fefdfe;
+  position: relative;
+}
+
+.calabera__front--flowers {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.calabera__front--flowers .flower1 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: skyblue;
+  border-radius: 50%;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calabera__front--flowers .flower2,
+.calabera__front--flowers .flower3, 
+.calabera__front--flowers .flower4,
+.calabera__front--flowers .flower5,
+.calabera__front--flowers .flower6 {
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  background: #e40a8a;
+  border-radius: 50%;
+  z-index: 2000000;
+  
+}
+
+.calabera__front--flowers .flower2 {
+  transform: rotate(90deg);
+  top: 0px;
+  left: 100px;
+}
+
+.calabera__front--flowers .flower3 {
+  transform: rotate(59deg);
+  top: 25px;
+  left: 109px;
+}
+
+.calabera__front--flowers .flower4 {
+  top: 38px;
+  left: 145px;
+}
+
+.calabera__front--flowers .flower5 {
+  transform: rotate(-53deg);
+  top: 25px;
+  right: 109px;
+}
+
+.calabera__front--flowers .flower6 {
+  transform: rotate(90deg);
+  top: 0px;
+  right: 100px;
+}
+
+.calabera-maxilar {
+  height: 400px;
+  width: 337px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefdfe; 
+}
+
+.maxilar__flower.right,
+.maxilar__flower.left {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 180px;
+}
+
+.maxilar__flower.right {
+  left: 10px;
+}
+
+.maxilar__flower.left {
+  right: -272px;
+  top: 125px
+}
+
+.maxilar__flower.right .first,
+.maxilar__flower.left .first {
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  background: #e40a8a;
+  border-radius: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.maxilar__flower.right .second,
+.maxilar__flower.left .second {
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  background: #e40a8a;
+  border-radius: 50%;
+  left: 20px;
+  top: -18px;
+  transform: rotate(90deg);
+  
+}
+
+.calabera__eyes--left {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #e55013;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  z-index: 1000;
+  left: 50px;
+  background-color: #0c014b;
+}
+
+.calabera__eyes--right {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #e55013;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  z-index: 1000;
+  right: 50px;
+  background-color: #0c014b;
+}
+
+.calabera__eyes--iris {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  position: relative;
+}
+
+.calabera__eyes--iris {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+
+.calabera__nose {
+  position: relative;
+  width: 100px;
+  height: 80px;
+  background: transparent;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.calabera__nose::before,
+.calabera__nose::after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 10;
+    width: 50px;
+    height: 74px;
+    background: #0c014b;
+    -moz-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
+    -webkit-transform: rotate(-230deg);
+       -moz-transform: rotate(-230deg);
+        -ms-transform: rotate(-230deg);
+         -o-transform: rotate(-230deg);
+            transform: rotate(-230deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.calabera__nose::after {
+    left: 0;
+    -webkit-transform: rotate(230deg);
+       -moz-transform: rotate(230deg);
+        -ms-transform: rotate(230deg);
+         -o-transform: rotate(230deg);
+            transform: rotate(230deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+.calabera__mouth--top {
+  position: absolute;
+  z-index: 1000;
+  width: 220px;
+  bottom: 120px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calabera__mouth--bottom {
+  position: absolute;
+  z-index: 1000;
+  width: 220px;
+  bottom: 87px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calabera__tooth--top,
+.calabera__tooth--bottom {
+  background: white;
+  border: 2px solid black;
+  width: 30px;
+}
+
+.calabera__tooth--top.tooth1 {
+  height: 30px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 20px;
+}
+
+.calabera__tooth--top.tooth2 {
+  position: absolute;
+  bottom: 0;
+  left: 32px;
+  height: 36px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 10px;
+}
+
+.calabera__tooth--top.tooth3 {
+  position: absolute;
+  bottom: 0;
+  left: 63px;
+  height: 38px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 10px;
+}
+
+.calabera__tooth--top.tooth4 {
+  position: absolute;
+  bottom: 0;
+  left: 94px;
+  height: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.calabera__tooth--top.tooth5 {
+  position: absolute;
+  bottom: 0;
+  left: 124px;
+  height: 38px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 17px;
+}
+
+.calabera__tooth--top.tooth6 {
+  position: absolute;
+  bottom: 0;
+  left: 154px;
+  height: 36px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 14px;
+}
+
+.calabera__tooth--top.tooth7 {
+  position: absolute;
+  bottom: 0;
+  left: 184px;
+  height: 30px;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 20px;
+}
+
+.calabera__tooth--bottom.tooth1 {
+  height: 30px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 20px;
+}
+
+.calabera__tooth--bottom.tooth2 {
+  position: absolute;
+  top: 0;
+  left: 32px; 
+  height: 36px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 10px;
+}
+
+.calabera__tooth--bottom.tooth3 {
+  position: absolute;
+  top: 0;
+  left: 63px;
+  height: 38px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 10px;
+}
+
+.calabera__tooth--bottom.tooth4 {
+  position: absolute;
+  top: 0;
+  left: 94px;
+  height: 40px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.calabera__tooth--bottom.tooth5 {
+  position: absolute;
+  top: 0;
+  left: 124px;
+  height: 38px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 17px;
+}
+
+.calabera__tooth--bottom.tooth6 {
+  position: absolute;
+  top: 0;
+  left: 154px;
+  height: 36px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 14px;
+}
+
+.calabera__tooth--bottom.tooth7 {
+  position: absolute;
+  top: 0;
+  left: 184px;
+  height: 30px;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 20px;
+}
+
+.animated {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-80px);
+    
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-80px);
+  }
+}
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
