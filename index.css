@@ -70,7 +70,7 @@ h2 {
   background: rgba(255, 217, 0, 0.541);
   border-radius: 10px;
   border: 1.5px solid #ffffffa2;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .flex li:hover {
@@ -105,7 +105,7 @@ h2 {
   border: 3.5px solid #ffffffa2;
   padding: 5px;
   background: #948b7a;
-  object-fit: cover;
+  /* object-fit: cover; */
   margin-top: 20px /*Extra */
 }
 
