@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+  }
+  
+  html {
+    overflow: hidden;
+  }
+  
+  #sky {  
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: lightblue;
+    animation: sky 10s infinite;
+  }
+  
+  #sea {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background: blue;
+  }
+
+  #sun {
+      height: 120px;
+      position: absolute;
+      top: 0;
+      left: 40%;
+      animation: sunrise 10s infinite;
+  }
+
+  #sun:before {
+    content: ' \25CF';
+    font-size: 200px;
+    color: #FDB813
+  }
+
+  #moon {
+    height: 120px;
+      position: absolute;
+      top: 0;
+      left: 40%;
+      animation: moonrise 10s infinite;
+}
+
+#moon:before {
+  content: ' \25CF';
+  font-size: 200px;
+  color: #FFF;
+}
+
+  @keyframes sunrise {
+    0%   {top:100%; left:0;}
+    33%  {top:0; left:40%; }
+    66%  {top:0; left:40%; }
+    100% {top:100%; left:80%; }
+  }
+  
+  @keyframes sky {
+    0% {background: black}
+    40% {background: lightblue}
+    60% {background: lightblue}
+    100% {background: black}
+  }
+  
+  @keyframes moonrise {
+    0%   {opacity: 0;top:100%; left:0;}
+    33%  {opacity: .5; top:0; left:40%; }
+    50% {opacity: 1;}
+    66%  {opacity: .5; top:0; left:40%; }
+    100%  {opacity: 0;top:100%; left:80%;}
+  }
+
+.whatever .yourboat {
+  animation: left-right 10s infinite;
+  position: absolute;
+  left: 10px;
+}
+
+.whatever {
+  width:340px;
+  height:250px;
+  border-radius:50px;
+  padding-left:30px;
+margin: 50px auto;
+}
+
+.yourboat {
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 40px solid #BB482B;
+  top:70%;
+  position:relative;
+}
+
+.yourboat::before{
+  content:"";
+  display:block;
+  position:relative;
+  top:-150px;
+  right:90px;
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 100px solid #fccf3c;
+}
+
+.yourboat::after{
+  content:"";
+  display:block;
+  position:relative;
+  bottom:270px;
+  right:10px;
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 120px solid #fccf3c;
+}
+
+@keyframes left-right {
+  0%    {left:-50%;}
+  100%  {left:200%;}
+}

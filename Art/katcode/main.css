@@ -1,0 +1,238 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #37474F;
+    background: radial-gradient(#37474F, #263238);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.pumpkin {
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.pumpkin div {
+    position: absolute;
+}
+
+.pumpkin-base {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(-90deg, #ee6f29, #e88a2d);
+    border-radius: 88px;
+    top: 0;
+    z-index: -5;
+    box-shadow: -20px -10px 4px #be4f053f inset, 40px 0px 20px #fdc34748 inset;
+}
+
+.pumpkin-base::after {
+    height: 180px;
+    width: 80px;
+    content: "";
+    display: block;
+    background: linear-gradient(-90deg, #ee6f29, #e88a2d);
+    box-shadow: -20px -10px 4px #be4f053f inset, 40px 0px 20px #f5bc4152 inset;
+    position: relative;
+    left: 60px;
+    border-radius: 50px / 100px;
+}
+
+.pumpkin-eye {
+    height: 48px;
+    width: 48px;
+    background: #623222;
+    border-radius: 100px;
+    top: 52px;
+}
+
+.pumpkin-eye.left {
+    left: 40px;
+    box-shadow: -6px 3px #dd5b28, -20px 6px #57290a inset;
+    transform: skew(4deg, 2deg);
+}
+
+.pumpkin-eye.right {
+    height: 42px;
+    width: 43px;
+    right: 40px;
+    box-shadow: 6px 3px #dd5b28, -20px 6px #57290a inset;
+    transform: skew(-2deg, -8deg);
+}
+
+.pumpkin-eye.right::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #57290a;
+    transform: skew(2deg, 8deg);
+    position: relative;
+    top: -3px;
+    left: 0px;
+    transform: rotate(90deg);
+}
+
+.pumpkin-mouth {
+    border-bottom-left-radius: 95px;
+    border-bottom-right-radius: 95px;
+    background: #623222;
+    height: 45px;
+    width: 100px;
+    bottom: 30px;
+    left: 25%;
+    box-shadow: -6px 0px #dd5b28, 6px 0px #dd5b28, -10px 10px #57290a inset;
+    transform: skew(4deg, 2deg);
+}
+
+.pumpkin-teeth {
+    height: 20px;
+    width: 24px;
+    background-color: #eb9341;
+    top: 121px;
+    left: 72px;
+    z-index: 5;
+    transform: rotate(4deg);
+    box-shadow: 4px 3px #dd5b28, 1px 2px #dd5b28;
+}
+
+.pumpkin-teeth::after {
+    content: "";
+    display: block;
+    background-color: #e7783c;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 32px;
+    left: 40px;
+    transform: rotate(-16deg);
+    box-shadow: -4px -2px #dd5b28, 1px -2px #dd5b28;
+}
+
+.pumpkin-stem {
+    height: 50px;
+    width: 22px;
+    background-color: rgb(89, 156, 41);
+    top: -38px;
+    right: 100px;
+    z-index: -10;
+    transform: rotate(-12deg);
+    border-radius: 50px;
+}
+
+.pumpkin-stem::before {
+    content: "";
+    display: block;
+    height: 14px;
+    width: 22px;
+    background-color: rgb(89, 156, 41);
+    border-radius: 100%;
+    position: relative;
+    top: 2px;
+    left: -6px;
+}
+
+.pumpkin-stem::after {
+    content: "";
+    display: block;
+    height: 30px;
+    width: 40px;
+    background-color: #558B2F;
+    border-radius: 100%;
+    position: relative;
+    top: 16px;
+    left: -10px;
+}
+
+.pumpkin-shadow {
+    width: 200px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 120px / 50px;
+    z-index: -10;
+    bottom: -30px;
+    right: -10px;
+    transform: scale(0.8);
+}
+
+.pumpkin-leaf {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(89, 156, 41);
+    border-radius: 100px 0px;
+    top: -61px;
+    right: 30px;
+    z-index: -20;
+    transform: rotate(14deg);
+    box-shadow: 12px 5px #558B2F inset;
+}
+
+.speech-bubble {
+    font-family: 'Satisfy', cursive;
+    color: #37474F;
+    font-size: 42px;
+    height: 100px;
+    width: 110px;
+    background: #FFFFFF;
+    top: -140px;
+    left: -80px;
+    border-radius: 80px;
+    position: relative;
+    transform: skew(-6deg);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.speech-bubble span {
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    transform: rotate(-20deg);
+}
+
+.speech-bubble::after {
+    content: "";
+    display: block;
+    height: 30px;
+    width: 20px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 85px;
+    left: 55px;
+    transform: skew(45deg);
+}
+
+.speech-bubble::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 30px solid #FFFFFF;
+    position: absolute;
+    top: 114px;
+    left: 74px;
+    transform: skew(50deg);
+}
+
+.pumpkin:hover {
+    cursor: pointer;
+}
+
+.pumpkin:hover .speech-bubble {
+    opacity: 1;
+}

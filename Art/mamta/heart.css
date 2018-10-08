@@ -1,0 +1,116 @@
+.backdiv{
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background: black;
+	animation-name: backdiv;
+	animation-duration: 3s;
+	animation-iteration-count: 1s;
+}
+.heart{
+
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	transform: rotate(-45deg);
+	animation-name: beat;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+#newHeart1::before{
+	content: "";
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: -25px;
+	left: 0px;
+		
+}
+#newHeart1::after{
+	content: "";
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 0px;
+	left: 25px;
+}
+@keyframes backdiv{
+	50%{
+		background-color: pink;
+	}
+}
+@keyframes beat{
+	0% {
+      transform: scale(1) rotate(-45deg);
+    }
+    50% {
+      transform: scale(0.6) rotate(-45deg);
+    }
+}
+
+/*#newHeart2::before{
+	content: "";
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 65px;
+	left: 0px;
+		
+}
+#newHeart2::after{
+	content: "";
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 0px;
+	left: 58px;
+}*/
+  .ball {
+    border-radius: 50%;
+    top: 249px;
+    position: fixed;  
+    width: 50px;
+    height: 50px;
+    top: 60%;
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  #red {
+    background: red;
+    left: 25%;
+    animation-timing-function: linear;
+  }
+  #blue {
+    background: blue;
+    left: 50%;
+    animation-timing-function: ease-out;
+  }
+  #green {
+    background: green;
+    left: 75%;
+    animation-timing-function: cubic-bezier( 0.311, 0.441, 0.444, 1.649);
+  }
+@keyframes jump{
+	50%{
+		top: 10%;
+	}
+}

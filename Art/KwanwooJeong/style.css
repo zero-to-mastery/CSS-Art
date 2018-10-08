@@ -1,0 +1,213 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #565656;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.clock {
+  background: white;
+  border: 0.2vw solid #fefefe;
+  width: 50vw;
+  height: 50vw;
+  border-radius: 100%;
+  margin: 5%;
+  position: relative;
+}
+
+.clock-border {
+  position: absolute;
+  fill: red;
+  stroke: blue;
+}
+
+.clock-border {
+  border: 2vw solid #dedede;
+  border-radius: 100%;
+  box-shadow: inset 2vw 2vw 7vw #dedede;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.clock-border::after {
+  content: '';
+  border: 0.2vw solid #cdcdcd;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.clock-border-center {
+  background: #dedede;
+  border-radius: 100%;
+  width: 9vw;
+  height: 9vw;
+  position: absolute;
+  top: 18.5vw;
+  left: 18.5vw;
+  z-index: 0;
+}
+
+.minute-marks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.minute-marks li {
+  background: #dedede;
+  border-radius: 0.2vw;
+  width: 0.5vw;
+  height: 2vw;
+  position: absolute;
+  top: 4.5vw;
+  left: 24.65vw;
+  transform-origin: 0.25vw 20.5vw;
+}
+
+.minute-marks li:nth-child(5n) {
+  background: #ababab;
+  height: 3vw;
+  width: 0.7vw;
+  transform-origin: 0.35vw 20.5vw;
+}
+
+.minute-marks li:nth-child(15n) {
+  height: 4vw;
+}
+
+.minute-marks li:nth-child(1) { transform: rotate(6deg) }
+.minute-marks li:nth-child(2) { transform: rotate(12deg) }
+.minute-marks li:nth-child(3) { transform: rotate(18deg) }
+.minute-marks li:nth-child(4) { transform: rotate(24deg) }
+.minute-marks li:nth-child(5) { transform: rotate(30deg) }
+.minute-marks li:nth-child(6) { transform: rotate(36deg) }
+.minute-marks li:nth-child(7) { transform: rotate(42deg) }
+.minute-marks li:nth-child(8) { transform: rotate(48deg) }
+.minute-marks li:nth-child(9) { transform: rotate(54deg) }
+.minute-marks li:nth-child(10) { transform: rotate(60deg) }
+.minute-marks li:nth-child(11) { transform: rotate(66deg) }
+.minute-marks li:nth-child(12) { transform: rotate(72deg) }
+.minute-marks li:nth-child(13) { transform: rotate(78deg) }
+.minute-marks li:nth-child(14) { transform: rotate(84deg) }
+.minute-marks li:nth-child(15) { transform: rotate(90deg) }
+.minute-marks li:nth-child(16) { transform: rotate(96deg) }
+.minute-marks li:nth-child(17) { transform: rotate(102deg) }
+.minute-marks li:nth-child(18) { transform: rotate(108deg) }
+.minute-marks li:nth-child(19) { transform: rotate(114deg) }
+.minute-marks li:nth-child(20) { transform: rotate(120deg) }
+.minute-marks li:nth-child(21) { transform: rotate(126deg) }
+.minute-marks li:nth-child(22) { transform: rotate(132deg) }
+.minute-marks li:nth-child(23) { transform: rotate(138deg) }
+.minute-marks li:nth-child(24) { transform: rotate(144deg) }
+.minute-marks li:nth-child(25) { transform: rotate(150deg) }
+.minute-marks li:nth-child(26) { transform: rotate(156deg) }
+.minute-marks li:nth-child(27) { transform: rotate(162deg) }
+.minute-marks li:nth-child(28) { transform: rotate(168deg) }
+.minute-marks li:nth-child(29) { transform: rotate(174deg) }
+.minute-marks li:nth-child(30) { transform: rotate(180deg) }
+.minute-marks li:nth-child(31) { transform: rotate(186deg) }
+.minute-marks li:nth-child(32) { transform: rotate(192deg) }
+.minute-marks li:nth-child(33) { transform: rotate(198deg) }
+.minute-marks li:nth-child(34) { transform: rotate(204deg) }
+.minute-marks li:nth-child(35) { transform: rotate(210deg) }
+.minute-marks li:nth-child(36) { transform: rotate(216deg) }
+.minute-marks li:nth-child(37) { transform: rotate(222deg) }
+.minute-marks li:nth-child(38) { transform: rotate(228deg) }
+.minute-marks li:nth-child(39) { transform: rotate(234deg) }
+.minute-marks li:nth-child(40) { transform: rotate(240deg) }
+.minute-marks li:nth-child(41) { transform: rotate(246deg) }
+.minute-marks li:nth-child(42) { transform: rotate(252deg) }
+.minute-marks li:nth-child(43) { transform: rotate(258deg) }
+.minute-marks li:nth-child(44) { transform: rotate(264deg) }
+.minute-marks li:nth-child(45) { transform: rotate(270deg) }
+.minute-marks li:nth-child(46) { transform: rotate(276deg) }
+.minute-marks li:nth-child(47) { transform: rotate(282deg) }
+.minute-marks li:nth-child(48) { transform: rotate(288deg) }
+.minute-marks li:nth-child(49) { transform: rotate(294deg) }
+.minute-marks li:nth-child(50) { transform: rotate(300deg) }
+.minute-marks li:nth-child(51) { transform: rotate(306deg) }
+.minute-marks li:nth-child(52) { transform: rotate(312deg) }
+.minute-marks li:nth-child(53) { transform: rotate(318deg) }
+.minute-marks li:nth-child(54) { transform: rotate(324deg) }
+.minute-marks li:nth-child(55) { transform: rotate(330deg) }
+.minute-marks li:nth-child(56) { transform: rotate(336deg) }
+.minute-marks li:nth-child(57) { transform: rotate(342deg) }
+.minute-marks li:nth-child(58) { transform: rotate(348deg) }
+.minute-marks li:nth-child(59) { transform: rotate(354deg) }
+.minute-marks li:nth-child(60) { transform: rotate(360deg) }
+
+.hour-hand {
+  background: #565656;
+  border-radius: 1vw;
+  width: 2vw;
+  height: 13vw;
+  position: absolute;
+  top: 15vw;
+  left: 24vw;
+  box-shadow: 0.1vw 0.1vw 0.5vw #898989;
+  z-index: 1;
+  transform-origin: 1vw 10vw;
+  animation: 43200s move-hand infinite;
+}
+
+.minute-hand {
+  background: #565656;
+  border-radius: 0.5vw;
+  width: 1vw;
+  height: 19vw;
+  position: absolute;
+  top: 9vw;
+  left: 24.5vw;
+  box-shadow: 0.1vw 0.1vw 0.5vw #898989;
+  z-index: 2;
+  transform-origin: 0.5vw 16vw;
+  animation: 3600s move-hand infinite;
+}
+
+.second-hand {
+  background: red;
+  border-radius: 0.25vw;
+  width: 0.5vw;
+  height: 22vw;
+  position: absolute;
+  top: 7vw;
+  left: 24.75vw;
+  /* box-shadow: 0.1vw 0.1vw 0.5vw #565656; */
+  z-index: 11;
+  transform-origin: 0.25vw 18vw;
+  animation: 60s move-hand infinite;
+}
+
+.clock-center {
+  background: red;
+  border-radius: 100%;
+  width: 4vw;
+  height: 4vw;
+  position: absolute;
+  top: 23vw;
+  left: 23vw;
+  box-shadow: 0.2vw 0.2vw 1vw #565656;
+  z-index: 10;
+}
+
+@keyframes move-hand {
+  to { transform: rotate(360deg) };
+}

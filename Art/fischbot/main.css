@@ -1,0 +1,208 @@
+:root {
+  /* color palette */
+  --cloth: #97F800;
+  --cloth2: #FE5F00;
+  --skinTone: #FEA33D;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #313231;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.canvas {
+
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(16, 10px);
+}
+
+.pixel {
+  width: 10px;
+  height: 10px;
+
+}
+
+.row-1 .pixel:nth-child(6),
+.row-1 .pixel:nth-child(7),
+.row-1 .pixel:nth-child(8),
+.row-1 .pixel:nth-child(9),
+.row-2 .pixel:nth-child(4),
+.row-2 .pixel:nth-child(5),
+.row-2 .pixel:nth-child(6),
+.row-2 .pixel:nth-child(7),
+.row-2 .pixel:nth-child(8),
+.row-3 .pixel:nth-child(2),
+.row-3 .pixel:nth-child(3),
+.row-3 .pixel:nth-child(4),
+.row-3 .pixel:nth-child(6),
+.row-3 .pixel:nth-child(7),
+.row-4 .pixel:nth-child(1),
+.row-4 .pixel:nth-child(2),
+.row-4 .pixel:nth-child(3),
+.row-4 .pixel:nth-child(4),
+.row-5 .pixel:nth-child(1),
+.row-5 .pixel:nth-child(3),
+.row-5 .pixel:nth-child(4),
+.row-5 .pixel:nth-child(11),
+.row-6 .pixel:nth-child(3),
+.row-8 .pixel:nth-child(5),
+.row-8 .pixel:nth-child(6),
+.row-8 .pixel:nth-child(7),
+.row-8 .pixel:nth-child(8),
+.row-9 .pixel:nth-child(4),
+.row-9 .pixel:nth-child(5),
+.row-9 .pixel:nth-child(6),
+.row-9 .pixel:nth-child(7),
+.row-9 .pixel:nth-child(8),
+.row-9 .pixel:nth-child(9),
+.row-9 .pixel:nth-child(10),
+.row-9 .pixel:nth-child(11),
+.row-10 .pixel:nth-child(5),
+.row-10 .pixel:nth-child(9),
+.row-10 .pixel:nth-child(10),
+.row-10 .pixel:nth-child(11),
+.row-11 .pixel:nth-child(9),
+.row-11 .pixel:nth-child(10),
+.row-11 .pixel:nth-child(11),
+.row-12 .pixel:nth-child(8),
+.row-12 .pixel:nth-child(9),
+.row-12 .pixel:nth-child(10),
+.row-13 .pixel:nth-child(3),
+.row-13 .pixel:nth-child(6),
+.row-13 .pixel:nth-child(7),
+.row-14 .pixel:nth-child(2),
+.row-14 .pixel:nth-child(3),
+.row-14 .pixel:nth-child(4),
+.row-14 .pixel:nth-child(5),
+.row-14 .pixel:nth-child(6),
+.row-14 .pixel:nth-child(7),
+.row-14 .pixel:nth-child(8),
+.row-14 .pixel:nth-child(9),
+.row-14 .pixel:nth-child(10),
+.row-14 .pixel:nth-child(11) {
+  background: var(--cloth);
+}
+
+.row-2 .pixel:nth-child(9),
+.row-2 .pixel:nth-child(10),
+.row-2 .pixel:nth-child(11),
+.row-2 .pixel:nth-child(12),
+.row-3 .pixel:nth-child(8),
+.row-3 .pixel:nth-child(9),
+.row-3 .pixel:nth-child(10),
+.row-3 .pixel:nth-child(11),
+.row-3 .pixel:nth-child(12),
+.row-3 .pixel:nth-child(13),
+.row-4 .pixel:nth-child(7),
+.row-4 .pixel:nth-child(8),
+.row-4 .pixel:nth-child(9),
+.row-4 .pixel:nth-child(10),
+.row-4 .pixel:nth-child(11),
+.row-4 .pixel:nth-child(12),
+.row-5 .pixel:nth-child(8),
+.row-5 .pixel:nth-child(15),
+.row-6 .pixel:nth-child(4),
+.row-6 .pixel:nth-child(5),
+.row-6 .pixel:nth-child(8),
+.row-6 .pixel:nth-child(11),
+.row-6 .pixel:nth-child(15),
+.row-7 .pixel:nth-child(4),
+.row-7 .pixel:nth-child(5),
+.row-7 .pixel:nth-child(6),
+.row-7 .pixel:nth-child(15),
+.row-8 .pixel:nth-child(15),
+.row-9 .pixel:nth-child(3),
+.row-9 .pixel:nth-child(11),
+.row-9 .pixel:nth-child(12),
+.row-9 .pixel:nth-child(13),
+.row-9 .pixel:nth-child(15),
+.row-10 .pixel:nth-child(2),
+.row-10 .pixel:nth-child(3),
+.row-10 .pixel:nth-child(4),
+.row-10 .pixel:nth-child(12),
+.row-10 .pixel:nth-child(13),
+.row-10 .pixel:nth-child(15),
+.row-11 .pixel:nth-child(2),
+.row-11 .pixel:nth-child(3),
+.row-11 .pixel:nth-child(4),
+.row-11 .pixel:nth-child(5),
+.row-11 .pixel:nth-child(12),
+.row-11 .pixel:nth-child(13),
+.row-11 .pixel:nth-child(15),
+.row-12 .pixel:nth-child(2),
+.row-12 .pixel:nth-child(3),
+.row-12 .pixel:nth-child(4),
+.row-12 .pixel:nth-child(5),
+.row-12 .pixel:nth-child(11),
+.row-12 .pixel:nth-child(15),
+.row-13 .pixel:nth-child(4),
+.row-13 .pixel:nth-child(5),
+.row-13 .pixel:nth-child(8),
+.row-13 .pixel:nth-child(9),
+.row-13 .pixel:nth-child(10),
+.row-13 .pixel:nth-child(11),
+.row-13 .pixel:nth-child(15),
+.row-15 .pixel:nth-child(5),
+.row-15 .pixel:nth-child(6),
+.row-15 .pixel:nth-child(7),
+.row-15 .pixel:nth-child(8),
+.row-16 .pixel:nth-child(5),
+.row-16 .pixel:nth-child(6),
+.row-16 .pixel:nth-child(7),
+.row-16 .pixel:nth-child(8),
+.row-16 .pixel:nth-child(9) {
+  background: var(--cloth2);
+}
+
+
+.row-3 .pixel:nth-child(5),
+.row-4 .pixel:nth-child(5),
+.row-4 .pixel:nth-child(6),
+.row-5 .pixel:nth-child(5),
+.row-5 .pixel:nth-child(6),
+.row-5 .pixel:nth-child(7),
+.row-5 .pixel:nth-child(9),
+.row-5 .pixel:nth-child(10),
+.row-5 .pixel:nth-child(12),
+.row-6 .pixel:nth-child(6),
+.row-6 .pixel:nth-child(7),
+.row-6 .pixel:nth-child(9),
+.row-6 .pixel:nth-child(10),
+.row-6 .pixel:nth-child(12),
+.row-6 .pixel:nth-child(13),
+.row-6 .pixel:nth-child(14),
+.row-7 .pixel:nth-child(7),
+.row-7 .pixel:nth-child(8),
+.row-7 .pixel:nth-child(9),
+.row-7 .pixel:nth-child(10),
+.row-7 .pixel:nth-child(11),
+.row-7 .pixel:nth-child(12),
+.row-8 .pixel:nth-child(9),
+.row-8 .pixel:nth-child(10),
+.row-8 .pixel:nth-child(11),
+.row-8 .pixel:nth-child(12),
+.row-9 .pixel:nth-child(14),
+.row-10 .pixel:nth-child(6),
+.row-10 .pixel:nth-child(7),
+.row-10 .pixel:nth-child(8),
+.row-10 .pixel:nth-child(14),
+.row-11 .pixel:nth-child(6),
+.row-11 .pixel:nth-child(7),
+.row-11 .pixel:nth-child(8),
+.row-12 .pixel:nth-child(6),
+.row-12 .pixel:nth-child(7)
+ {
+  background: var(--skinTone)
+}
