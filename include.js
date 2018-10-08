@@ -1,6 +1,7 @@
 let cards = [
-    // Follow this format:
-    //  ["Art Name", "PAGE URL", "Image URL", "Your Name", "Your Github Link"]
+    //  Add your card here
+    //  Follow this format:
+    //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
     
     ["CSS Dog", "./Art/Dog/index.html", "./Art/Dog/dog.gif", "Chintu Yadav Sara", "https://github.com/chintuyadav" ],
     ["Mahatma Gandhi", "./Art/Mahatma%20Gandhi/index.html", "./Art/Mahatma%20Gandhi/Gandhi.png", "Chintu Yadav Sara", "https://github.com/chintuyadav"],
@@ -11,7 +12,7 @@ let cards = [
     ["Hamburger", "./Art/Aszmel/Hamburger.html", "./Art/Aszmel/hamburger.png", "Aszmel", "https://github.com/Aszmel"],
     ["Polish Flag animation", "./Art/kris/kris.html", "./Art/kris/kris.png", "Kris", "https://github.com/krzysiekh"],
     ["Frog", "./Art/TheMicroGirl/frog.html", "./Art/TheMicroGirl/frog.PNG", "TheMicroGirl", "https://github.com/TheMicroGirl"],
-    ["8-bit style Link","./fischbot/index.html",  "./fischbot/link.png", "Fischbot", "https://github.com/fischbot"],
+    ["8-bit style Link","./fischbot/index.html",  "./Art/fischbot/link.png", "Fischbot", "https://github.com/fischbot"],
     ["Ghost Animation","./Art/ghost/ghost.html",  "./Art/ghost/ghost.png", "Jhonattan", "https://github.com/jhonattanbenitez"],
     ["Boo","./Art/zach-caldwell/ghost.html",  "./Art/zach-caldwell/ghost.PNG", "Zach", "https://github.com/zach-caldwell"],
     ["Pumpkin", "./Art/Asam/pumpkin.html", "./Art/Asam/pumpkin.png", "Asam", "https://github.com/shan5742"],
@@ -23,9 +24,36 @@ let cards = [
     ["Frankenstein", "./Art/josh/frankie.html", "./Art/josh/storm.jpg", "Josh", "https://github.com/jcothard"],
     ["Koala Head", "./Art/Are/index.html", "./Art/Are/koala.png", "Are", "https://github.com/Ar3Tea"],
     ["CSS Loader", "./Art/Frozenfroggie/index.html", "./Art/Frozenfroggie/loader.gif", "Frozenfroggie", "https://github.com/frozenfroggie"],
-    ["Macho Ghost", "./Art/Astro/index.html", "./Art/Astro/ghost.jpeg", "Amy", "https://github.com/astrokwk"]
+    ["Macho Ghost", "./Art/Astro/index.html", "./Art/Astro/ghost.jpeg", "Amy", "https://github.com/astrokwk"],
+    ["Pumpkin", "./Art/katcode/index.html", "./Art/katcode/pumpkin.png", "katcode", "https://github.com/katcode"],
+    ["Javascript Coffee Cu", "./Art/JS Coffee Cup/js_coffee_cup.html", "./Art/JS Coffee Cup/js_coffee_cup.gif", "Bilal Younso", "https://github.com/bilalyounso"],
+    ["CSS Clock", "./Art/Sean-Dees/sean.html", "./Art/Sean-Dees/clock.PNG", "Sean Dees", "https://github.com/sdees82"],
+    ["Linux", "./Art/linux/index.html", "./Art/linux/linux.gif", "Thea", "https://github.com/highflyer910"],
+    ["Devices", "./Art/virtual/index.html", "./Art/virtual/virtual.png", "Virtual", "https://github.com/virtual"],
+    ["Owl", "./Art/owl/owl.html", "./Art/owl/owl.png", "Thea", "https://github.com/highflyer910"],
+    ["Sunrise and Sunset", "./Art/sanjithpk/index.html", "./Art/sanjithpk/sun.png", "Sanjith", "https://github.com/sanjithpk"],
+    ["Halloween Cat", "./Art/Martyav/halloween_cat.html", "./Art/Martyav/halloween_cat.png", "Martyav", "https://github.com/martyav"],
+    ["Pumpkin", "./Art/pohyi-k/index.html", "./Art/pohyi-k/pumkin.png", "pohyi-k", "https://github.com/pohyi-k"],
+    ["3-D Card", "./Art/devil/index.html", "./Art/devil/devil.JPG", "#", "devil"],
+    ["8bit-Pumpkin", "./Art/8bit-pumpkin/index.html", "./Art/8bit-pumpkin/8bit-Pumpkin.png", "MatthewS", "https://github.com/MatthewStoddart"],
+    ["Catrina", "./Art/catrina/index.html", "./Art/catrina/catrina.png", "Tahi", "https://github.com/cTahirih"],
+    ["Run to Win", "./Art/run to win/index.html", "./Art/run to win/my.png", "Sanidhya", "https://github.com/sanidhya2000"],
+    ["Hallucinations", "./Art/kahwaii/kahwaii.html", "./Art/kahwaii/dizzy.PNG", "kahwaii", "https://github.com/kahwaii"],
+    ["CSS Clock", "./Art/KwanwooJeong/index.html", "./Art/KwanwooJeong/css-clock.png", "Kwanwoo Jeong", "https://github.com/kwanwooi25"],
+    ["Bear", "./Art/MAG/bear.html", "./Art/MAG/bear.png", "gettaplay", "https://github.com/gettaplay"],
+    ["SPOOKY FAMILY", "./Art/Anca/index.html", "./Art/Anca/family.png", "Anca", "https://github.com/AncaWebDev"],
+    ["Heart", "./Art/mamta/heart.html", "./Art/mamta/heart.png", "palmamta", "https://github.com/palmamta"],
+    ["Dragon", "./Art/mctrl/index.html", "./Art/mctrl/icon.PNG", "Mctrl", "https://github.com/mctrl"]
 ]
 
+
+
+
+// +--------------------------------------------------------------------------------+
+// +                                                                                +
+// +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
+// +                                                                                +
+// +--------------------------------------------------------------------------------+
 
 // Creates cards from the array above
 // You don't need to modify this
@@ -40,8 +68,6 @@ Shuffle(cards).forEach(c => {
         `</div>` +
         `</li>`
     ])
- 
-    
 });
 
 
