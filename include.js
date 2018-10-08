@@ -43,8 +43,7 @@ let cards = [
     ["Bear", "./Art/MAG/bear.html", "./Art/MAG/bear.png", "gettaplay", "https://github.com/gettaplay"],
     ["SPOOKY FAMILY", "./Art/Anca/index.html", "./Art/Anca/family.png", "Anca", "https://github.com/AncaWebDev"],
     ["Heart", "./Art/mamta/heart.html", "./Art/mamta/heart.png", "palmamta", "https://github.com/palmamta"],
-    ["Dragon", "./Art/mctrl/index.html", "./Art/mctrl/icon.PNG", "Mctrl", "https://github.com/mctrl"],
-    ["The Grim Reaper", "./Art/OhSnapdragon/reaper.html", "./Art/OhSnapdragon/reaper.png", "OhSnapdragon", "https://github.com/OhSnapdragon"],
+    ["The Grim Reaper", "./Art/OhSnapdragon/reaper.html", "./Art/OhSnapdragon/reaper.PNG", "OhSnapdragon", "https://github.com/OhSnapdragon"],
 ]
 
 
