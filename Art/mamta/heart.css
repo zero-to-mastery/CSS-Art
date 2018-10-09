@@ -24,7 +24,7 @@
 	height: 50px;
 	transform: rotate(-45deg);
 	animation-name: beat;
-	animation-duration: 3s;
+	animation-duration: 10s;
 	animation-iteration-count: infinite;
 }
 #newHeart1::before{
@@ -55,34 +55,13 @@
 }
 @keyframes beat{
 	0% {
-      transform: scale(1) rotate(-45deg);
+      transform: scale(2) rotate(-45deg);
     }
     50% {
-      transform: scale(0.6) rotate(-45deg);
+      transform: scale(0.9) rotate(-45deg);
     }
 }
 
-/*#newHeart2::before{
-	content: "";
-	border-radius: 50%;
-	background-color: red;
-	position: absolute;
-	height: 50px;
-	width: 50px;
-	top: 65px;
-	left: 0px;
-		
-}
-#newHeart2::after{
-	content: "";
-	background-color: red;
-	border-radius: 50%;
-	position: absolute;
-	height: 50px;
-	width: 50px;
-	top: 0px;
-	left: 58px;
-}*/
   .ball {
     border-radius: 50%;
     top: 249px;
