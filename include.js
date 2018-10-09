@@ -44,7 +44,9 @@ let cards = [
     ["SPOOKY FAMILY", "./Art/Anca/index.html", "./Art/Anca/family.png", "Anca", "https://github.com/AncaWebDev"],
     ["Heart", "./Art/mamta/heart.html", "./Art/mamta/heart.png", "palmamta", "https://github.com/palmamta"],
     ["The Grim Reaper", "./Art/OhSnapdragon/reaper.html", "./Art/OhSnapdragon/reaper.PNG", "OhSnapdragon", "https://github.com/OhSnapdragon"],
+    ["Flying Bird", "./Art/mamta/index2.html", "./Art/mamta/flying.png", "palmamta", "https://github.com/palmamta"],
 ]
+
 
 
 
