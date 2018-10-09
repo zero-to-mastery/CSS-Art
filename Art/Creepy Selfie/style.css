@@ -1,0 +1,1822 @@
+body {
+   background-color: white;
+   position: relative;
+}
+
+#signature h1 {
+   font-weight: bold;
+   font-size: 20px;
+}
+
+#signature {
+   position: absolute;
+   margin-top: 850px;
+   width: 440px;
+   left: 50%;
+   margin-left: -220px;
+}
+
+#frame{
+   background: #663300;
+   position: absolute;
+   top: 50px;
+   left: 50%;
+   margin-left: -400px;
+   width: 800px;
+   height: 800px;
+   clip-path: polygon(0% 0%, 0% 100%, 6.25% 100%, 6.25% 6.25%, 93.75% 6.25%,
+                        93.75% 93.75%, 6.25% 93.75%, 6.25% 100%, 100% 100%, 100% 0%);
+   z-index: 5;
+}
+
+/* BACKGROUND, GROUNDS */
+#container {
+   background: #437070;
+   position: absolute;
+   width: 700px;
+   height: 700px;
+   top: 0%;
+   left: 50%;
+   margin-left: -350px;
+   margin-top: 100px;
+}
+
+#sky, #ground1, #ground2 {
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   transition: background-color 0.5s;
+}
+
+#sky {
+   background: #1BBDFF;
+   clip-path: polygon(0 0, 100% 0, 100% 42%, 0 38%);
+}
+
+#ground1 {
+   background: green;
+   clip-path: polygon(0 68%, 100% 63%, 100% 100%, 0% 100%);
+}
+
+#ground2 {
+   background: lightgreen;
+   clip-path: polygon(0 38%, 100% 42%, 100% 63%, 0 68%);
+}
+
+#container:hover #sky {
+   background: #1a1a1a;
+}
+
+#container:hover #ground1 {
+   background: #2F4F4F;
+}
+
+#container:hover #ground2 {
+   background: #437070;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* SUN */
+#sun {
+   position: absolute;
+   top: 3%;
+   left: 3%;
+   width: 15%;
+   height: 15%;
+   border-radius: 50%;
+   background: yellow;
+}
+
+#sunFace {
+   opacity: 0;
+}
+
+#sunEyeLeft, #sunEyeRight {
+   position: absolute;
+   background: red;
+   box-shadow: inset 0px 0px 20px 15px black;
+}
+
+#sunEyeLeft {
+   top: 5%;
+   left: 35%;
+   width: 50%;
+   height: 50%;
+   clip-path: ellipse(7% 32% at 50% 50%);
+   transform: rotate(22.5deg);
+}
+
+#sunEyeRight {
+   top: 20%;
+   left: 5%;
+   width: 50%;
+   height: 50%;
+   clip-path: ellipse(7% 32% at 50% 50%);
+   transform: rotate(-67.5deg);
+}
+
+#sunMouth {
+   position: absolute;
+   top: 10%;
+   left: 10%;
+   width: 100%;
+   height: 100%;
+   clip-path: polygon(38% 84%, 46% 64%, 60% 54%, 81% 60%, 58% 41%, 48% 50%, 33% 54%);
+   background: black;
+}
+
+#container:hover #sun {
+   animation-name: pulse;
+   animation-iteration-count: infinite;
+   animation-duration: 2s;
+   box-shadow: inset 0px 0px 50px 30px #FF8C00,
+               0px 0px 30px 20px #DC143C,
+               0px 0px 40px 20px #FFA500;
+}
+
+#container:hover #sunFace {
+   animation-name: fadeIn;
+   animation-duration: 2s;
+   opacity: 1;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* TREE */
+#branch1, #branch2, #branch3, #branch4 {
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   background: #2e2e1f;
+}
+
+#branch1 {
+   clip-path: polygon(79% 89%, 81% 78%, 83% 54%, 83% 33%, 87% 54%, 86% 78%, 88% 89%);
+   z-index: 1;
+}
+
+#branch2 {
+   clip-path: polygon(85% 53%, 91% 41%, 86% 58%);
+   z-index: 3;
+}
+
+#branch3 {
+   clip-path: polygon(83% 57%, 76% 45%, 83% 51%);
+   z-index: 3;
+}
+
+#branch4 {
+   clip-path: polygon(83% 48%, 83% 34%, 86% 49%);
+   z-index: 3;
+}
+
+#leafs1, #leafs2, #leafs3, #leafs4 {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+}
+
+#leafs1 {
+   top: 2%;
+   left: 28%;
+   background: #003300;
+   clip-path: circle(10% at 50% 50%);
+}
+
+#leafs2 {
+   top: -11%;
+   left: 30%;
+   background: #003300;
+   clip-path: circle(10% at 50% 50%);
+}
+
+#leafs3 {
+   top: -8%;
+   left: 40%;
+   background: #003300;
+   clip-path: circle(10% at 50% 50%);
+}
+
+#leafs4 {
+   top: 3%;
+   left: 37%;
+   background: #003300;
+   clip-path: circle(10% at 50% 50%);
+}
+
+#treeFace {
+   opacity: 0;
+}
+
+#treeEyeLeft, #treeEyeRight {
+   position: absolute;
+   width: 5%;
+   height: 5%;
+   clip-path: ellipse(10% 32% at 50% 50%);
+   background: red;
+   box-shadow: inset 0px 0px 35px 10px black;
+   z-index: 3;
+}
+
+#treeEyeLeft {
+   top: 62%;
+   left: 83.5%;
+   transform: rotate(45deg);
+}
+
+#treeEyeRight {
+   top: 62%;
+   left: 80%;
+   transform: rotate(-45deg);
+}
+
+#treeMouth {
+   position: absolute;
+   width: 15%;
+   height: 15%;
+   top: 63%;
+   left: 77%;
+   clip-path: polygon(19% 67%, 33% 30%, 47% 37%, 62% 31%, 76% 70%, 56% 56%, 47% 60%, 39% 54%);
+   background: black;
+   z-index: 3;
+}
+
+#container:hover #branch1 { background: #1e1e15; }
+#container:hover #branch2 { background: #1e1e15; }
+#container:hover #branch3 { background: #1e1e15; }
+#container:hover #branch4 { background: #1e1e15; }
+
+#container:hover #treeFace {
+   animation-name: fadeIn;
+   animation-duration: 0s;
+   opacity: 1
+}
+
+#container:hover #treeMouth {
+   animation: tada 2s 1s infinite;
+   opacity: 1
+}
+
+#container:hover #leafs {
+   animation-name: fadeOut;
+   animation-duration: 0.5s;
+   opacity: 0;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* FLAME */
+.flames {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 3;
+}
+
+.flame {
+   position: relative;
+   transform-origin: center bottom;
+   border-bottom-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+   border-top-left-radius: 50%;
+   transform: rotate(-45deg);
+}
+
+.flamea {
+   width: 50%;
+   height: 50%;
+   background: red;
+   box-shadow: 0px 0px 10px 10px red;
+}
+
+.flameb {
+   left: 1%;
+   top: -30%;
+   width: 35%;
+   height: 35%;
+   background: orange;
+   box-shadow: 0px 0px 10px 10px orange;
+}
+
+.flamec {
+   left: 3%;
+   top: -50%;
+   width: 20%;
+   height: 20%;
+   background: yellow;
+   box-shadow: 0px 0px 10px 10px yellow;
+}
+
+.flame1 {
+   position: absolute;
+   width: 15%;
+   height: 15%;
+   top: 39%;
+   left: 77%;
+   animation-name: burn;
+   animation-iteration-count: infinite;
+   animation-duration: 30ms;
+}
+
+.flame2 {
+   position: absolute;
+   width: 8%;
+   height: 8%;
+   top: 40%;
+   left: 90%;
+   animation-name: burn;
+   animation-iteration-count: infinite;
+   animation-duration: 200ms;
+}
+
+.flame3 {
+   position: absolute;
+   width: 10%;
+   height: 10%;
+   top: 48%;
+   left: 85%;
+   animation-name: burn;
+   animation-iteration-count: infinite;
+   animation-duration: 120ms;
+}
+
+.flame4 {
+   position: absolute;
+   width: 6%;
+   height: 6%;
+   top: 37%;
+   left: 16%;
+   animation-name: burn;
+   animation-iteration-count: infinite;
+   animation-duration: 120ms;
+}
+
+.flame5 {
+   position: absolute;
+   width: 2%;
+   height: 2%;
+   top: 41%;
+   left: 9.5%;
+   animation-name: burn;
+   animation-iteration-count: infinite;
+   animation-duration: 120ms;
+}
+
+#container:hover .flames {
+   animation-name: fadeIn;
+   animation-duration: 2s;
+   opacity: 1;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* GLOW */
+.glows {
+   position: absolute;
+   background: yellow;
+   box-shadow: inset 0px 0px 40px 20px gold,
+               0px 0px 50px 30px gold;
+   z-index: 0;
+   opacity: 0;
+   transition: opacity 3s;
+}
+
+.glow1 {
+   top: 81%;
+   left: 68%;
+   width: 30%;
+   height: 16%;
+   border-radius: 50%;
+   animation-name: burn;
+   animation-iteration-count: infinite;
+   animation-duration: 200ms;
+}
+
+.glow2 {
+   top: 43%;
+   left: 8%;
+   width: 12%;
+   height: 3%;
+   border-radius: 50%;
+   animation-name: burn;
+   animation-iteration-count: infinite;
+   animation-duration: 200ms;
+}
+
+#container:hover .glows {
+   opacity: 0.15;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* MOUNTAIN  */
+#mountain {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: -1%;
+   left: -6%;
+   background: linear-gradient(to top, rgb(40, 40, 40), rgb(157, 157, 157));
+   transition: background-color 0.5s;
+   clip-path: polygon(33% 43%, 45% 32%, 51% 21%, 57% 22%, 62% 34%, 69% 44%, 53% 46%);
+   z-index: 1;
+}
+
+#top {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: -1%;
+   left: -6%;
+   background: #e6f7ff;
+   clip-path: polygon(54% 13%, 51% 21%, 57% 22%);
+}
+
+#volcano {
+   position: absolute;
+   top: 19.5%;
+   left: 45.5%;
+   width: 5%;
+   height: 2%;
+   border-radius: 50%;
+   background: red;
+   box-shadow: 0px 0px 15px 5px orange;
+   transform: rotate(10deg);
+   z-index: 1;
+   opacity: 0;
+}
+
+#lava {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: -1%;
+   left: -6%;
+   background: #990000;
+   clip-path: polygon(51% 21%, 57% 22%, 58% 25%, 56% 23.5%, 54% 26%, 53% 23.5%, 49% 25%);
+   z-index: 2;
+   opacity: 0;
+}
+
+#container:hover #mountain  {
+   background: linear-gradient(to top, rgb(0, 0, 0), rgb(59, 59, 59));
+}
+
+#container:hover #top {
+   animation-name: fadeOut;
+   animation-duration: 0.5s;
+   opacity: 0;
+}
+
+#container:hover #volcano {
+   animation-name: fadeIn;
+   animation-duration: 2s;
+   opacity: 1;
+}
+
+#container:hover #lava {
+   animation-name: fadeIn;
+   animation-duration: 1s;
+   opacity: 1;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* SMOKE  */
+#smoke {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 0;
+}
+
+#smoke div {
+	position: absolute;
+   top: 18%;
+   left: 43%;
+   width: 10%;
+   height: 6%;
+   border-radius: 50%;
+   background: linear-gradient(rgb(62, 62, 62), rgb(111, 111, 111));
+	transform: scale(0.5);
+}
+
+/* based on a Pen by Andrea Verlicchi smoke animation */
+#smoke .smokeA { animation: smokeL 10s 0s infinite }
+#smoke .smokeB { animation: smokeR 10s 1s infinite }
+#smoke .smokeC { animation: smokeL 10s 2s infinite }
+#smoke .smokeD { animation: smokeR 10s 3s infinite }
+#smoke .smokeE { animation: smokeL 10s 4s infinite }
+#smoke .smokeF { animation: smokeR 10s 5s infinite }
+#smoke .smokeG { animation: smokeL 10s 6s infinite }
+#smoke .smokeH { animation: smokeR 10s 7s infinite }
+#smoke .smokeI { animation: smokeL 10s 8s infinite }
+#smoke .smokeJ { animation: smokeR 10s 9s infinite }
+
+#container:hover #smoke  {
+   animation-name: fadeIn;
+   animation-duration: 1s;
+   opacity: 1;
+}
+
+#smoke2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+}
+
+#smoke2 div {
+	position: absolute;
+   top: 85.5%;
+   left: 51.5%;
+   width: 10%;
+   height: 6%;
+   border-radius: 50%;
+   background: linear-gradient(rgb(35, 35, 35), rgb(111, 111, 111));
+	transform: scale(0);
+}
+
+/* based on a Pen by Andrea Verlicchi smoke animation */
+#smoke2 .smokeA { animation: smokeL 10s 0s infinite }
+#smoke2 .smokeB { animation: smokeR 10s 1.5s infinite }
+#smoke2 .smokeC { animation: smokeL 10s 3s infinite }
+#smoke2 .smokeD { animation: smokeR 10s 4.5s infinite }
+#smoke2 .smokeE { animation: smokeL 10s 6s infinite }
+#smoke2 .smokeF { animation: smokeR 10s 7.5s infinite }
+#smoke2 .smokeG { animation: smokeL 10s 9s infinite }
+
+#container:hover #smoke2  {
+   animation-name: fadeIn;
+   animation-duration: 1.5s;
+   opacity: 0.7;
+}
+
+#smoke3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+}
+
+#smoke3 div {
+	position: absolute;
+   top: 72%;
+   left: 14%;
+   width: 5%;
+   height: 4%;
+   border-radius: 50%;
+   background: linear-gradient(rgb(35, 35, 35), rgb(111, 111, 111));
+	transform: scale(0);
+}
+
+/* based on a Pen by Andrea Verlicchi smoke animation */
+#smoke3 .smokeA { animation: smokeL 10s 0s infinite }
+#smoke3 .smokeB { animation: smokeL 10s 1.5s infinite }
+#smoke3 .smokeC { animation: smokeL 10s 3s infinite }
+#smoke3 .smokeD { animation: smokeL 10s 4.5s infinite }
+#smoke3 .smokeE { animation: smokeL 10s 6s infinite }
+#smoke3 .smokeF { animation: smokeL 10s 7.5s infinite }
+#smoke3 .smokeG { animation: smokeL 10s 9s infinite }
+
+#container:hover #smoke3  {
+   animation-name: fadeIn;
+   animation-duration: 1.5s;
+   opacity: 1;
+}
+
+#smoke4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+}
+
+#smoke4 div {
+	position: absolute;
+   top: 72%;
+   left: 24.5%;
+   width: 5%;
+   height: 4%;
+   border-radius: 50%;
+   background: linear-gradient(rgb(35, 35, 35), rgb(111, 111, 111));
+	transform: scale(0);
+}
+
+/* based on a Pen by Andrea Verlicchi smoke animation */
+#smoke4 .smokeA { animation: smokeR 10s 0s infinite }
+#smoke4 .smokeB { animation: smokeR 10s 1.5s infinite }
+#smoke4 .smokeC { animation: smokeR 10s 3s infinite }
+#smoke4 .smokeD { animation: smokeR 10s 4.5s infinite }
+#smoke4 .smokeE { animation: smokeR 10s 6s infinite }
+#smoke4 .smokeF { animation: smokeR 10s 7.5s infinite }
+#smoke4 .smokeG { animation: smokeR 10s 9s infinite }
+
+#container:hover #smoke4  {
+   animation-name: fadeIn;
+   animation-duration: 1.5s;
+   opacity: 1;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* CLOUDS  */
+#clouds {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+
+#cloud1 {
+   z-index: 3;
+}
+
+.cloud {
+	position: absolute;
+   width: 12%;
+   height: 10%;
+   border-radius: 50%;
+}
+
+.cloudA, .cloudB, .cloudC, .cloudD, .cloudE {
+   background: white;
+   transition: background-color 0.5s;
+}
+
+.cloudA { top: 7%; left: 70%; }
+.cloudB { top: 8%; left: 75%; }
+.cloudC { top: 7%; left: 80%; }
+.cloudD { top: 4%; left: 77%; }
+.cloudE { top: 5%; left: 72%; }
+
+#cloud2 {
+   opacity: 0;
+}
+
+.cloudF, .cloudG, .cloudH {
+   background: #262626;
+   animation-name: pulse;
+   animation-iteration-count: infinite;
+   opacity: 0.8;
+}
+.cloudI, .cloudJ, .cloudK {
+   background: #262626;
+   animation-name: pulse;
+   animation-iteration-count: infinite;
+   opacity: 0.8;
+}
+
+.cloudF { top: -4%; left: 32%; animation-duration: 2s}
+.cloudG { top: 0%; left: 45%; animation-duration: 3s}
+.cloudH { top: -3%; left: 55%; animation-duration: 5s}
+.cloudI { top: -1%; left: 52%; animation-duration: 4s}
+.cloudJ { top: -5%; left: 44%; animation-duration: 3s}
+.cloudK { top: 0%; left: 38%; animation-duration: 2s}
+
+#container:hover .cloudA { background: #262626; }
+#container:hover .cloudB { background: #262626; }
+#container:hover .cloudC { background: #262626; }
+#container:hover .cloudD { background: #262626; }
+#container:hover .cloudE { background: #262626; }
+
+#container:hover #cloud2 {
+   animation-name: fadeIn;
+   animation-duration: 3s;
+   opacity: 1;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* COW  */
+#cow {
+}
+
+#body, #head, #nose {
+   position: absolute;
+   background: white;
+   transition: background-color 0.5s;
+}
+
+#body {
+   top: 58%;
+   left: 48%;
+   width: 13%;
+   height: 8%;
+   border-top-left-radius: 50%;  border-top-right-radius: 30%;
+   border-bottom-left-radius: 40%; border-bottom-right-radius: 50%;
+}
+
+.spot {
+   position: absolute;
+   background: black;
+}
+
+.spot1 { top: 60%; left: 55%; width: 6%; height: 3%; border-radius: 50%;
+         transform: rotate(80deg);}
+.spot2 { top: 59%; left: 49%; width: 4%; height: 4%; border-radius: 50%; }
+.spot3 { top: 64%; left: 52.5%; width: 5%; height: 2%; border-radius: 50%; }
+
+#head {
+   top: 58%;
+   left: 58%;
+   width: 7%;
+   height: 5%;
+   border-radius: 30%;
+}
+
+.cowEye {
+   position: absolute;
+   width: 0.5%;
+   height: 0.8%;
+   border-radius: 50%;
+   background: black;
+}
+
+.cowEyeLeft {
+   top: 59%; left: 59.5%;
+}
+
+.cowEyeRight {
+   top: 59%; left: 62.5%;
+}
+
+#nose {
+   top: 60%;
+   left: 58%;
+   width: 7%;
+   height: 5%;
+   border-radius: 50%;
+   background: #ffb3b3;
+}
+
+.cowNoseHole {
+   position: absolute;
+   width: 0.5%;
+   height: 0.5%;
+   border-radius: 50%;
+   background: black;
+}
+
+.cowNoseHoleLeft {
+   top: 62%; left: 60%;
+}
+
+.cowNoseHoleRight {
+   top: 62%; left: 62%;
+}
+
+.cowEar {
+   position: absolute;
+   width: 3%;
+   height: 1.5%;
+   border-radius: 50%;
+   background: white;
+   transition: background-color 0.5s;
+}
+
+.cowEarLeft {
+   top: 57%; left: 56%; transform: rotate(30deg);
+}
+
+.cowEarRight {
+   top: 57%; left: 64%; transform: rotate(-30deg);
+}
+
+.leg {
+   position: absolute;
+   width: 1%;
+   height: 4%;
+   border-radius: 30%;
+   background: white;
+   transition: background-color 0.5s;
+}
+
+.leg1 { top: 65%; left: 50%; }
+.leg2 { top: 65%; left: 51.5%; }
+.leg3 { top: 65%; left: 56%; }
+.leg4 { top: 65%; left: 57.5%; }
+
+.hoof {
+   position: absolute;
+   width: 1.5%;
+   height: 1.5%;
+   border-radius: 30%;
+   background: black;
+}
+
+.hoof1 { top: 68%; left: 49.7%; }
+.hoof2 { top: 68%; left: 51.3%; }
+.hoof3 { top: 68%; left: 55.7%; }
+.hoof4 { top: 68%; left: 57.3%; }
+
+.tailp1 {
+   position: absolute;
+   top: 61%;
+   left: 47%;
+   width: 1%;
+   height: 3%;
+   border-radius: 30%;
+   transform: rotate(30deg);
+   background: white;
+   transition: background-color 0.5s;
+}
+
+.tailp2 {
+   position: absolute;
+   top: 63%;
+   left: 46%;
+   width: 1.5%;
+   height: 1.5%;
+   border-radius: 50%;
+   background: black;
+}
+
+#container:hover #body { background: #999999; animation: cowFlash 4s 3s infinite; }
+#container:hover #head { background: #999999; animation: cowFlash 4s 3s infinite;  }
+#container:hover #nose { background: #ff909f; animation: cowNoseFlash 4s 3s infinite; }
+#container:hover .leg { background: #999999; animation: cowFlash 4s 3s infinite;  }
+#container:hover .cowEar { background: #999999; animation: cowFlash 4s 3s infinite;  }
+#container:hover .tailp1 { background: #999999; animation: cowFlash 4s 3s infinite;  }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* SKELETON  */
+#skeleton{
+   opacity: 0;
+}
+
+.bone {
+   position: absolute;
+   background: white;
+}
+
+.bone1 {
+   top: 58.5%;
+   left: 58.5%;
+   width: 6%;
+   height: 6%;
+   border-radius: 40%;
+}
+
+.bone2, .bone3, .bone4 {
+   position: absolute;
+   background: black;
+}
+
+.bone2 {
+   top: 59.5%;
+   left: 59.5%;
+   width: 1.5%;
+   height: 1.5%;
+   border-radius: 50%;
+}
+
+.bone3 {
+   top: 59.5%;
+   left: 62%;
+   width: 1.5%;
+   height: 1.5%;
+   border-radius: 50%;
+}
+
+.bone4 {
+   top: 62%;
+   left: 60%;
+   width: 3%;
+   height: 1.5%;
+   border-radius: 40%;
+}
+
+.bone5 {
+   top: 60%;
+   left: 49%;
+   width: 10%;
+   height: 1%;
+   border-radius: 30%;
+}
+
+.bone6 {
+   top: 59%;
+   left: 57%;
+   width: 0.5%;
+   height: 6%;
+   border-radius: 30%;
+}
+
+.bone7 {
+   top: 59%;
+   left: 53%;
+   width: 0.5%;
+   height: 6%;
+   border-radius: 30%;
+}
+
+.bone8 {
+   top: 59%;
+   left: 55%;
+   width: 0.5%;
+   height: 6%;
+   border-radius: 30%;
+}
+
+.bone9 {
+   top: 59%;
+   left: 51%;
+   width: 0.5%;
+   height: 6%;
+   border-radius: 30%;
+}
+
+.bone10 {
+   top: 65%;
+   left: 50%;
+   width: 0.5%;
+   height: 4%;
+   border-radius: 30%;
+}
+
+.bone11 {
+   top: 65%;
+   left: 52%;
+   width: 0.5%;
+   height: 4%;
+   border-radius: 30%;
+}
+
+.bone12 {
+   top: 65%;
+   left: 56%;
+   width: 0.5%;
+   height: 4%;
+   border-radius: 30%;
+}
+
+.bone13 {
+   top: 65%;
+   left: 58%;
+   width: 0.5%;
+   height: 4%;
+   border-radius: 30%;
+}
+.bone14 {
+   top: 61%;
+   left: 47%;
+   width: 0.5%;
+   height: 3%;
+   border-radius: 30%;
+   transform: rotate(30deg);
+}
+
+#container:hover #skeleton {
+   animation: flash 4s 3s infinite;
+ }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* LIGHTNING  */
+#lightnings {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   z-index: 3;
+}
+
+.lightning {
+   position: absolute;
+   background: white;
+   box-shadow: 0px 0px 30px 10px white;
+}
+
+.lightningp1 {
+   top: 15%;
+   left: 71%;
+   width: 2%;
+   height: 20%;
+   transform: rotate(50deg);
+}
+
+.lightningp2 {
+   top: 29%;
+   left: 68%;
+   width: 1.5%;
+   height: 10%;
+   transform: rotate(-60deg);
+}
+
+.lightningp3 {
+   top: 33%;
+   left: 65%;
+   width: 1.5%;
+   height: 20%;
+   transform: rotate(50deg);
+}
+
+.lightningp4 {
+   top: 48%;
+   left: 60%;
+   width: 1%;
+   height: 5%;
+   transform: rotate(-60deg);
+}
+
+.lightningp5 {
+   top: 50%;
+   left: 60%;
+   width: 1%;
+   height: 9%;
+   transform: rotate(50deg);
+}
+
+#container:hover #lightnings {
+   animation: flash 4s 3s infinite;
+   opacity: 0;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* HOUSE */
+#house {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 1
+}
+
+#wall {
+   position: absolute;
+   top: 40%;
+   left: 12%;
+   width: 8%;
+   height: 4%;
+   background: #ff9933;
+   transition: background-color 0.5s;
+}
+
+#roof {
+   position: absolute;
+   top: 33%;
+   left: 12%;
+   width: 8%;
+   height: 7%;
+   clip-path: polygon(50% 75%, 0% 100%, 100% 100%);
+   background: #993300;
+}
+
+#chimney {
+   position: absolute;
+   top: 37.5%;
+   left: 14.5%;
+   width: 1%;
+   height: 2%;
+   background: #ff9933;
+   transition: background-color 0.5s;
+}
+
+#garage {
+   position: absolute;
+   top: 41%;
+   left: 7%;
+   width: 5%;
+   height: 3%;
+   background: #ff9933;
+   transition: background-color 0.5s;
+}
+
+#garageDoor {
+   position: absolute;
+   top: 42%;
+   left: 8%;
+   width: 3%;
+   height: 2%;
+   background: #993300;
+}
+
+#houseDoor {
+   position: absolute;
+   top: 42%;
+   left: 18%;
+   width: 1%;
+   height: 2%;
+   background: #993300;
+}
+
+#window1 {
+   position: absolute;
+   top: 41%;
+   left: 13%;
+   width: 1.5%;
+   height: 1.5%;
+   background: #808080;
+}
+
+#window2 {
+   position: absolute;
+   top: 41%;
+   left: 15%;
+   width: 1.5%;
+   height: 1.5%;
+   background: #808080;
+}
+
+#container:hover #wall { background: #8c8c8c; }
+#container:hover #chimney { background: #8c8c8c; }
+#container:hover #garage { background: #8c8c8c; }
+#container:hover #window1 { background: #ffff66; }
+#container:hover #window2 { background: #ffff66; }
+#container:hover #garageDoor { background: #330000; }
+#container:hover #houseDoor { background: #330000; }
+#container:hover #roof { background: #330000; }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* RIVER */
+#river {
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   clip-path: polygon(0 52%, 21% 52%, 39% 51%, 56% 50%, 73% 48%, 83% 46%, 92% 41.5%, 100% 42%, 94% 48%, 85% 53%, 68% 55%, 50% 56%, 36% 57%, 17% 58%, 0 58%);
+   background: #004d66;
+   transition: background-color 0.5s;
+}
+
+#container:hover #river { background: #008000; }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* FUMES  */
+#fumes {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 0;
+}
+
+#fume1 div, #fume2 div, #fume3 div {
+	position: absolute;
+   width: 10%;
+   height: 6%;
+   border-radius: 50%;
+   background: linear-gradient(to top, rgb(56, 199, 99), rgb(10, 245, 28));
+	transform: scale(0);
+}
+
+#fume1 div { top: 51%; left: 15%; }
+
+#fume2 div { top: 50%; left: 42%; }
+
+#fume3 div { top: 48%; left: 61%; }
+
+/* based on a Pen by Andrea Verlicchi smoke animation */
+#fume1 .fumeA { animation: fumeAnim 3s 1s infinite }
+#fume2 .fumeA { animation: fumeAnim 2.5s 0s infinite }
+#fume3 .fumeA { animation: fumeAnim 3.5s 2s infinite }
+
+#container:hover #fumes  {
+   animation-name: fadeIn;
+   animation-duration: 1s;
+   opacity: 0.7;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* BUSH */
+#bushBranch1, #bushBranch2, #bushBranch3 {
+   position: absolute;
+   top: 0%;
+   left: 3%;
+   width: 100%;
+   height: 100%;
+}
+
+#bushBranch1 {
+   background: #2e2e1f;
+   clip-path: polygon(52% 90%, 49% 84%, 53% 89%, 56% 82%, 54.5% 89%, 57% 87%, 55% 90%);
+   z-index: 1;
+   transition: background-color 0.5s;
+}
+
+#bushBranch2 {
+   background: #2e2e1f;
+   clip-path: polygon(51% 89%, 49% 84%, 52% 88%);
+   z-index: 3;
+}
+
+#bushBranch3 {
+   background: #2e2e1f;
+   clip-path: polygon(54% 87%, 56% 82%, 55% 88%);
+   z-index: 3;
+}
+
+#bushLeafs1, #bushLeafs2, #bushLeafs3{
+   position: absolute;
+   width: 6%;
+   height: 6%;
+   border-radius: 50%;
+   background: #003300;
+   z-index: 2;
+}
+
+#bushLeafs1 { top: 84%; left: 52%; }
+
+#bushLeafs2 { top: 82%; left: 53%; }
+
+#bushLeafs3 { top: 84%; left: 55%; }
+
+#container:hover #bushLeafs  { animation-name: fadeOut; animation-duration: 0.5s;
+   opacity: 0; }
+#container:hover #bushBranch1  { background: #0f0f0a; }
+#container:hover #bushBranch2  { animation-name: fadeOut; animation-duration: 0.5s;
+   opacity: 0; }
+#container:hover #bushBranch3  { animation-name: fadeOut; animation-duration: 0.5s;
+   opacity: 0; }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* COMET */
+#cometp1 {
+   position: relative;
+   top: 20%;
+   left: 102%;
+   width: 2.5%;
+   height: 2%;
+   border-radius: 50%;
+   background: orange;
+   box-shadow: 0px 0px 10px 1px #ffdb99;
+   opacity: 0;
+   transition: background-color 0.5s;
+}
+
+#cometp2 {
+   position: absolute;
+   top: 39%;
+   left: 109%;
+   width: 200%;
+   height: 1%;
+   transform: rotate(-4deg);
+   box-shadow: 0px 0px 20px 5px #ffffcc;
+   opacity: 0;
+   transition: opacity;
+}
+
+#cometp1 { animation: comet 10s 5s infinite linear }
+#container:hover #cometp1 { opacity: 1; }
+#container:hover #cometp2 { opacity: 1; }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* HEAD */
+#manFace {
+   position: absolute;
+   top: 63%;
+   left: 8%;
+   width: 28%;
+   height: 34%;
+   border-radius: 40% 40% 47% 47%;
+   background: #eebb99;
+}
+
+#neck {
+   position: absolute;
+   top: 87%;
+   left: 15%;
+   width: 14%;
+   height: 18%;
+   background: #e9a87c;
+}
+
+#hair {
+   position: absolute;
+   top: 60%;
+   left: 7%;
+   width: 30%;
+   height: 32%;
+   border-radius: 50%;
+   background: #331100;
+}
+
+.manEarP1 {
+   position: absolute;
+   width: 4%;
+   height: 6%;
+   border-radius: 40%;
+   background: #eebb99;
+}
+
+.manEarLeftP1 { top: 77%; left: 5%; }
+.manEarRightP1 { top: 77%; left: 35%; }
+
+.manEarP2 {
+   position: absolute;
+   width: 2%;
+   height: 3%;
+   border-radius: 40%;
+   background: #e59966;
+}
+
+.manEarLeftP2 { top: 78.5%; left: 6%; }
+.manEarRightP2 { top: 78.5%; left: 36%; }
+
+.manEyeP1 {
+   position: absolute;
+   width: 4%;
+   height: 3%;
+   border-radius: 40%;
+   background: white;
+}
+
+.manEyeLeftP1 { top: 74%; left: 14.5%; }
+.manEyeRightP1 { top: 74%; left: 25%; }
+
+.manEyeP2 {
+   position: absolute;
+   width: 2%;
+   height: 2%;
+   border-radius: 40%;
+   background: black;
+}
+
+.manEyeLeftP2 { top: 74.5%; left: 15.5%; }
+.manEyeRightP2 { top: 74.5%; left: 26%; }
+
+.manEyebrow {
+   position: absolute;
+   width: 5%;
+   height: 2%;
+   border-radius: 40%;
+   border-top: 8px solid #331100;
+}
+
+.manEyebrowLeft { top: 72%; left: 14%; }
+.manEyebrowRight { top: 72%; left: 24.5%; }
+
+#manNoseP1 {
+   position: absolute;
+   top: 78%;
+   left: 20.5%;
+   width: 3%;
+   height: 8%;
+   border-radius: 40%;
+   background: #e9a87c;
+}
+
+.manNoseP2 {
+   position: absolute;
+   top: 82.5%;
+   width: 3%;
+   height: 3%;
+   border-radius: 40%;
+   background: #e9a87c;
+}
+
+.manNoseLeft { left: 19%; border-left: 1px solid #732626; }
+
+.manNoseRight { left: 22%; border-right: 1px solid #732626; }
+
+#smile {
+   position: absolute;
+   top: 84.5%;
+   left: 16%;
+   width: 12%;
+   height: 5%;
+   border-radius: 50%;
+   border-bottom: 8px solid #732626;
+}
+
+#beardLine {
+   position: absolute;
+   top: 93%;
+   left: 18.5%;
+   width: 7%;
+   height: 3%;
+   border-radius: 50%;
+   border-top: 1px solid #e59966;
+}
+
+#foreheadLine1 {
+   position: absolute;
+   top: 65%;
+   left: 14.5%;
+   width: 15%;
+   height: 3%;
+   border-radius: 50%;
+   border-top: 1px solid #e59966;
+}
+
+#foreheadLine2 {
+   position: absolute;
+   top: 67%;
+   left: 16%;
+   width: 13%;
+   height: 3%;
+   border-radius: 50%;
+   border-top: 1px solid #e59966;
+}
+
+#neckLine {
+   position: absolute;
+   top: 96%;
+   left: 20.5%;
+   width: 3%;
+   height: 3%;
+   border-radius: 50%;
+   border-bottom: 1px solid #c46221;
+}
+
+.devilNose {
+   position: absolute;
+   width: 3%;
+   height: 3%;
+   border-radius: 0 50% 50% 50%;
+   background: #4d0000;
+   opacity: 0;
+}
+
+.devilNoseLeft { top: 81%; left: 18.8%; transform: rotate(90deg); }
+.devilNoseRight { top: 81%; left: 22.2%; transform: rotate(0deg); }
+
+#devilEars {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+}
+
+.devilEarP1 {
+   position: absolute;
+   width: 6%;
+   height: 3.5%;
+   background: #800000;
+}
+
+.devilEarLeftP1 { top: 76%; left: 4%; border-radius: 50% 0 50% 50%; transform: rotate(-90deg); }
+.devilEarRightP1 { top: 76%; left: 34%; border-radius: 0 50% 50% 50%; transform: rotate(90deg); }
+
+.devilEarP2 {
+   position: absolute;
+   width: 4%;
+   height: 2.5%;
+   background: #4d0000;
+}
+
+.devilEarLeftP2 { top: 76.5%; left: 5%; border-radius: 50% 0 50% 50%; transform: rotate(-90deg); }
+.devilEarRightP2 { top: 76.5%; left: 35%; border-radius: 0 50% 50% 50%; transform: rotate(90deg); }
+
+#devilEyes {
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+}
+
+#devilEyeLeftP1 {
+   position: absolute;
+   top: 55%;
+   left: -7%;
+   width: 50%;
+   height: 50%;
+   clip-path: polygon(39% 34%, 46% 44%, 52% 42%);
+   background: #330000;
+}
+
+#devilEyeRightP1 {
+   position: absolute;
+   top: 55%;
+   left: -1%;
+   width: 50%;
+   height: 50%;
+   clip-path: polygon(65% 34%, 58% 44%, 52% 42%);
+   background: #330000;
+}
+
+.devilEyeP2 {
+   position: absolute;
+   width: 1.5%;
+   height: 1.5%;
+   border-radius: 50%;
+   background: #ff9900;
+}
+
+.devilEyeLeftP2 { top: 75%; left: 16%; }
+.devilEyeRightP2 { top: 75%; left: 26%; }
+
+.devilEyebrow {
+   position: absolute;
+   width: 8%;
+   height: 2%;
+   border-radius: 40%;
+   border-top: 6px solid black;
+}
+
+.devilEyebrowLeft { top: 73%; left: 12.5%; transform: rotate(30deg);}
+.devilEyebrowRight { top: 73%; left: 23.5%; transform: rotate(-30deg);}
+
+#devilSmile {
+   position: absolute;
+   top: 67%;
+   left: -3%;
+   width: 50%;
+   height: 50%;
+   clip-path: polygon(30% 35%, 50% 43%, 70% 35%, 55% 50%, 45% 50%);
+   background: #330000;
+   opacity: 0;
+}
+
+.hornTop {
+   position: absolute;
+   width: 50%;
+   height: 50%;
+   clip-path: polygon(45% 10%, 40% 50%, 50% 50%);
+   background: #4d0000;
+   opacity: 0;
+}
+
+.hornTopLeft { top: 41%; left: -9%; transform: rotate(-35deg); }
+.hornTopRight { top: 44%; left: 7%; transform: rotate(35deg); }
+
+.hornBottom {
+   position: absolute;
+   width: 50%;
+   height: 50%;
+   clip-path: polygon(45% 30%, 42% 50%, 48% 50%);
+   background: #4d0000;
+   opacity: 0;
+}
+
+.hornBottomLeft { top: 65%; left: -13%; transform: rotate(-130deg); }
+.hornBottomRight { top: 69%; left: 3.5%; transform: rotate(130deg); }
+
+#penta {
+   position: absolute;
+   top: 64%;
+   left: 17.5%;
+   width: 8%;
+   height: 8%;
+   border-radius: 50%;
+   border: 2px solid #330000;
+   opacity: 0;
+}
+
+.pline {
+   position: absolute;
+   background: #330000;
+}
+
+.plineA { top: -5%; left: 30%; width: 5%; height: 100%; transform: rotate(18deg); }
+.plineB { top: -5%; left: 60%; width: 5%; height: 100%; transform: rotate(-18deg); }
+.plineC { top: -20%; left: 48%; width: 5%; height: 100%; transform: rotate(90deg); }
+.plineD { top: 12%; left: 55%; width: 5%; height: 100%; transform: rotate(52deg); }
+.plineE { top: 12%; left: 38%; width: 5%; height: 100%; transform: rotate(-52deg); }
+
+#ghost1 {
+   position: absolute;
+   top: 45%;
+   left: 26%;
+   width: 3%;
+   height: 3%;
+   border-radius: 50% 50% 50% 0;
+   transform: rotate(-45deg);
+   background: white;
+   opacity: 0;
+}
+
+.gEye {
+   position: absolute;
+   border-radius: 50%;
+   background: black;
+}
+
+.gEyeLeft { top: 15%; left: 40%; width: 20%; height: 20%; }
+.gEyeRight { top: 40%; left: 65%; width: 20%; height: 20%; }
+
+#ghost2 {
+   position: absolute;
+   top: 45.5%;
+   left: 29%;
+   width: 2.5%;
+   height: 2.5%;
+   border-radius: 50% 50% 50% 0;
+   transform: rotate(-45deg);
+   background: white;
+   opacity: 0;
+}
+
+#container:hover #manFace { background: #ff0000; }
+#container:hover #neck { background: #b30000; }
+#container:hover #hair { animation-name: fadeOut; animation-duration: 0.5s;
+   opacity: 0; }
+#container:hover #manNose { animation-name: fadeOut; animation-duration: 0.5s;
+   opacity: 0; }
+#container:hover #manEye { animation-name: fadeOut; animation-duration: 0.5s;
+   opacity: 0; }
+#container:hover #manEar { animation-name: fadeOut; animation-duration: 0.5s;
+   opacity: 0; }
+#container:hover #smile { animation-name: fadeOut; animation-duration: 0.5s;
+   opacity: 0; }
+#container:hover #lines { animation-name: fadeOut; animation-duration: 0.5s;
+   opacity: 0; }
+#container:hover .devilNose { animation-name: fadeIn; animation-duration: 0.5s;
+   opacity: 1; }
+#container:hover #devilEars { animation-name: fadeIn; animation-duration: 0.5s;
+   opacity: 1; }
+#container:hover #devilEyes { animation-name: fadeIn; animation-duration: 0.5s;
+   opacity: 1; }
+#container:hover #devilSmile { animation-name: fadeIn; animation-duration: 0.5s;
+   opacity: 1; }
+#container:hover .hornTop { animation-name: fadeIn; animation-duration: 0.5s;
+   opacity: 1; }
+#container:hover .hornBottom { animation-name: fadeIn; animation-duration: 0.5s;
+   opacity: 1; }
+#container:hover #penta { animation-name: fadeIn; animation-duration: 0.5s;
+   opacity: 1; }
+#container:hover #ghost1 { animation-name: fadeIn; animation-duration: 0.5s;
+   opacity: 0.5; }
+#container:hover #ghost2 { animation-name: fadeIn; animation-duration: 0.5s;
+   opacity: 0.5; }
+#container:hover #ghost1 { animation: fly 5s infinite; }
+#container:hover #ghost2 { animation: fly 5s infinite; }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* ANIMATIONS */
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 1.15, 1.15);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+     opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* based on a Pen by Adrian Payne fire animation */
+@keyframes burn {
+  0%   {
+     transform: rotate(-1deg);
+  }
+  25%  {
+     transform: rotate(1deg);
+  }
+  50%  {
+     transform: rotate(-2deg) scaleY(1.02);
+  }
+  75%  {
+     transform: rotate(1deg) scaleY(0.98);
+  }
+  100% {
+     transform: rotate(1deg);
+  }
+}
+
+/* based on a Pen by Andrea Verlicchi smoke animation */
+@keyframes smokeL {
+	0%   { opacity: 0; transform: scale(0.1) translate(0, 0) }
+	10%  { opacity: 0.7; transform: scale(0.5) translate(0, -5%) }
+	100% { opacity: 0; transform: scale(1) translate(-20%, -180%) }
+}
+
+@keyframes smokeR {
+	0%   { opacity: 0; transform: scale(0.1) translate(0, 0) }
+	10%  { opacity: 0.7; transform: scale(0.5) translate(0, -5%) }
+	100% { opacity: 0; transform: scale(1) translate(20%, -180%) }
+}
+
+@keyframes fumeAnim {
+	0%   { opacity: 0; transform: scale(0) translate(0, 0) }
+	1%   { opacity: 0.7; transform: scale(0.5) translate(0, -5%) }
+	100% { opacity: 0; transform: scale(1) translate(0, -50%) }
+}
+
+@keyframes comet {
+	0%   { transform: scale(1) translate(0, 0) }
+	100% { transform: scale(0.5) translate(-8500%, 850%) }
+}
+
+@keyframes flash {
+  from,
+  6%,
+  11%,
+  to {
+    opacity: 0;
+  }
+
+  5%,
+  10% {
+    opacity: 1;
+  }
+}
+
+@keyframes cowFlash {
+  from,
+  6%,
+  11%,
+  to {
+    background: #999999;
+  }
+
+  5%,
+  10% {
+    background: black;
+  }
+}
+
+@keyframes cowNoseFlash {
+  from,
+  6%,
+  11%,
+  to {
+    background: #ff909f;
+  }
+
+  5%,
+  10% {
+    background: black;
+  }
+}
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes fly {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    transform: translate3d(0, 0, 0) rotate(-45deg);
+  }
+
+  40%,
+  43% {
+    transform: translate3d(0, -7px, 0) rotate(-45deg);
+  }
+
+  70% {
+    transform: translate3d(0, -3px, 0) rotate(-45deg);
+  }
+
+  90% {
+    transform: translate3d(0, -1px, 0) rotate(-45deg);
+  }
+}
