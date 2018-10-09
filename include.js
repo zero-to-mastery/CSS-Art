@@ -46,7 +46,7 @@ let cards = [
     ["The Grim Reaper", "./Art/OhSnapdragon/reaper.html", "./Art/OhSnapdragon/reaper.PNG", "OhSnapdragon", "https://github.com/OhSnapdragon"],
     ["Flying Bird", "./Art/mamta/index2.html", "./Art/mamta/flying.png", "palmamta", "https://github.com/palmamta"],
     ["Creepy Selfie", "./Art/Creepy Selfie/index.html", "./Art/Creepy Selfie/CreepySelfie.png", "bronasek", "https://github.com/bronasek"],
-    ["Thought", "./Art/Anjibansal/work.html", "./Art/Anjibansal/mywork.png", "Anjali bansal", "https://github.com/Anjibansal"],
+    ["Anjibansal", "./Art/Anjibansal/work.html", "./Art/Anjibansal/mywork.png", "Anjali bansal", "https://github.com/Anjibansal"],
 ]
 
 
