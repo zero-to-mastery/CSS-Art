@@ -48,6 +48,7 @@ let cards = [
     ["Creepy Selfie", "./Art/Creepy Selfie/index.html", "./Art/Creepy Selfie/CreepySelfie.png", "bronasek", "https://github.com/bronasek"],
     ["Anjibansal", "./Art/Anjibansal/work.html", "./Art/Anjibansal/mywork.png", "Anjali bansal", "https://github.com/Anjibansal"],
     ["Heart", "./Art/Heart/index.html", "./Art/Heart/heart.gif", "SliceOLife", "https://github.com/SliceOLife"],
+    ["Hamburger", "./Art/Nikhil/index.html", "./Art/Nikhil/hamburger", "Nikhil Shrivastava", "https://github.com/NikhilShrivastava" ],
 ]
 
 
