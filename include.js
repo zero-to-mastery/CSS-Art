@@ -34,7 +34,6 @@ let cards = [
     ["Sunrise and Sunset", "./Art/sanjithpk/index.html", "./Art/sanjithpk/sun.png", "Sanjith", "https://github.com/sanjithpk"],
     ["Halloween Cat", "./Art/Martyav/halloween_cat.html", "./Art/Martyav/halloween_cat.png", "Martyav", "https://github.com/martyav"],
     ["Pumpkin", "./Art/pohyi-k/index.html", "./Art/pohyi-k/pumkin.png", "pohyi-k", "https://github.com/pohyi-k"],
-    ["3-D Card", "./Art/devil/index.html", "./Art/devil/devil.JPG", "#", "devil"],
     ["8bit-Pumpkin", "./Art/8bit-pumpkin/index.html", "./Art/8bit-pumpkin/8bit-Pumpkin.png", "MatthewS", "https://github.com/MatthewStoddart"],
     ["Catrina", "./Art/catrina/index.html", "./Art/catrina/catrina.png", "Tahi", "https://github.com/cTahirih"],
     ["Run to Win", "./Art/run to win/index.html", "./Art/run to win/my.png", "Sanidhya", "https://github.com/sanidhya2000"],
@@ -46,9 +45,8 @@ let cards = [
     ["The Grim Reaper", "./Art/OhSnapdragon/reaper.html", "./Art/OhSnapdragon/reaper.PNG", "OhSnapdragon", "https://github.com/OhSnapdragon"],
     ["Flying Bird", "./Art/mamta/index2.html", "./Art/mamta/flying.png", "palmamta", "https://github.com/palmamta"],
     ["Creepy Selfie", "./Art/Creepy Selfie/index.html", "./Art/Creepy Selfie/CreepySelfie.png", "bronasek", "https://github.com/bronasek"],
-    ["Anjibansal", "./Art/Anjibansal/work.html", "./Art/Anjibansal/mywork.png", "Anjali bansal", "https://github.com/Anjibansal"],
     ["Heart", "./Art/Heart/index.html", "./Art/Heart/heart.gif", "SliceOLife", "https://github.com/SliceOLife"],
-    ["Hamburger", "./Art/Nikhil/index.html", "./Art/Nikhil/hamburger", "Nikhil Shrivastava", "https://github.com/NikhilShrivastava" ],
+    ["Hamburger", "./Art/Nikhil/index.html", "./Art/Nikhil/hamburger.png", "Nikhil Shrivastava", "https://github.com/NikhilShrivastava" ],
 ]
 
 
