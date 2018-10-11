@@ -20,8 +20,8 @@ let cards = [
     ["Spooky Androids!", "./Art/hmahajan/androids.html", "./Art/hmahajan/androids.JPG", "hmahajan", "https://github.com/hmahajan99"],
     ["TrailSnail", "./Art/trailsnail/spinner.html", "./Art/trailsnail/spinner.png", "Complex Spinner", "https://github.com/trailsnail"],
     ["Spooky Penguine", "./Art/Shruti/penguine.html", "./Art/Shruti/penguine.PNG", "Shruti", "https://github.com/shruti49"],
-    ["Pac-Man Run", "./Art/PaulC/pacman_run.html", "./pac.png", "PaulC", "https://github.com/m2paulc"],
-    ["Frankenstein", "./Art/josh/frankie.html", "./Art/josh/storm.jpg", "Josh", "https://github.com/jcothard"],
+    ["Pac-Man Run", "./Art/PaulC/pacman_run.html", "./Art/PaulC/pac.png", "PaulC", "https://github.com/m2paulc"],
+    ["Frankenstein", "./Art/josh/frankie.html", "./Art/josh/Capture.PNG", "Josh", "https://github.com/jcothard"],
     ["Koala Head", "./Art/Are/index.html", "./Art/Are/koala.png", "Are", "https://github.com/Ar3Tea"],
     ["CSS Loader", "./Art/Frozenfroggie/index.html", "./Art/Frozenfroggie/loader.gif", "Frozenfroggie", "https://github.com/frozenfroggie"],
     ["Macho Ghost", "./Art/Astro/index.html", "./Art/Astro/ghost.jpeg", "Amy", "https://github.com/astrokwk"],
@@ -34,7 +34,6 @@ let cards = [
     ["Sunrise and Sunset", "./Art/sanjithpk/index.html", "./Art/sanjithpk/sun.png", "Sanjith", "https://github.com/sanjithpk"],
     ["Halloween Cat", "./Art/Martyav/halloween_cat.html", "./Art/Martyav/halloween_cat.png", "Martyav", "https://github.com/martyav"],
     ["Pumpkin", "./Art/pohyi-k/index.html", "./Art/pohyi-k/pumkin.png", "pohyi-k", "https://github.com/pohyi-k"],
-    ["3-D Card", "./Art/devil/index.html", "./Art/devil/devil.JPG", "#", "devil"],
     ["8bit-Pumpkin", "./Art/8bit-pumpkin/index.html", "./Art/8bit-pumpkin/8bit-Pumpkin.png", "MatthewS", "https://github.com/MatthewStoddart"],
     ["Catrina", "./Art/catrina/index.html", "./Art/catrina/catrina.png", "Tahi", "https://github.com/cTahirih"],
     ["Run to Win", "./Art/run to win/index.html", "./Art/run to win/my.png", "Sanidhya", "https://github.com/sanidhya2000"],
@@ -46,14 +45,14 @@ let cards = [
     ["The Grim Reaper", "./Art/OhSnapdragon/reaper.html", "./Art/OhSnapdragon/reaper.PNG", "OhSnapdragon", "https://github.com/OhSnapdragon"],
     ["Flying Bird", "./Art/mamta/index2.html", "./Art/mamta/flying.png", "palmamta", "https://github.com/palmamta"],
     ["Creepy Selfie", "./Art/Creepy Selfie/index.html", "./Art/Creepy Selfie/CreepySelfie.png", "bronasek", "https://github.com/bronasek"],
-    ["Anjibansal", "./Art/Anjibansal/work.html", "./Art/Anjibansal/mywork.png", "Anjali bansal", "https://github.com/Anjibansal"],
     ["Heart", "./Art/Heart/index.html", "./Art/Heart/heart.gif", "SliceOLife", "https://github.com/SliceOLife"],
-    ["Hamburger", "./Art/Nikhil/index.html", "./Art/Nikhil/hamburger", "Nikhil Shrivastava", "https://github.com/NikhilShrivastava" ],
-    ["Graveyard", "./Art/DanielMJacoby/index.html", "./Art/DanielMJacoby/graveyard.JPG", "Daniel Jaocby", "https://github.com/danielmjacoby" ],
-]
-
-
-
+    ["Hamburger", "./Art/Nikhil/index.html", "./Art/Nikhil/hamburger.png", "Nikhil Shrivastava", "https://github.com/NikhilShrivastava" ],
+    ["Arc Reactor", "./Art/AhmedH14/index.html", "./Art/AhmedH14/ScreenShot.png", "Ahmed Hajat", "https://github.com/AhmedH14"],
+    ["Pixel Charizard", "./Art/mctrl/index.html", "./Art/mctrl/charizard.jpg", "Martina", "https://github.com/mctrl"],
+    ["Funky Monkey", "./Art/andra/index.html", "./Art/andra/andra.png", "Andra", "https://github.com/andrapetronela"],
+    ["Cartoon Skull", "./Art/Jose-Rios/index.html", "./Art/Jose-Rios/skull_css.JPG", "Jose", "https://github.com/Riosjl41"],
+    
+];
 
 
 // +--------------------------------------------------------------------------------+
