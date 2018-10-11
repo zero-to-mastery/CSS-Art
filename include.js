@@ -50,7 +50,8 @@ let cards = [
     ["Arc Reactor", "./Art/AhmedH14/index.html", "./Art/AhmedH14/ScreenShot.png", "Ahmed Hajat", "https://github.com/AhmedH14"],
     ["Pixel Charizard", "./Art/mctrl/index.html", "./Art/mctrl/charizard.jpg", "Martina", "https://github.com/mctrl"],
     ["Funky Monkey", "./Art/andra/index.html", "./Art/andra/andra.png", "Andra", "https://github.com/andrapetronela"],
-
+    ["Cartoon Skull", "./Art/Jose-Rios/index.html", "./Art/Jose-Rios/skull_css.JPG", "Jose", "https://github.com/Riosjl41"],
+    
 ];
 
 
