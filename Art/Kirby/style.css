@@ -1,0 +1,154 @@
+.body{
+	background: #D9D5D7;
+}
+.box{
+	position: relative;
+	margin: auto;
+	display: block;
+	margin-top: 8%;
+	width: 600px;
+	height: 420px;
+	background: #779EF8;
+}
+.head{
+	position: absolute;
+	top: 16.5%;
+	left: 25%;
+	width: 50%;
+	height: 67%;
+	background: #F8A6C3;
+	border-radius: 50%;
+}
+.head-copy{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background:#F8A6C3;
+	border-radius: 50%;
+	/*z-index makes it possible for the hands and legs to appear behind the head*/
+	z-index: 2;
+}
+/*The eyes will be made of three different sized ovals in different colors stacked on top of each other.
+Blue is the base of the eyes*/
+.eye-left{
+	position: absolute;
+	background: blue;
+	width: 10%;
+	height: 27%;
+	top: 25%;
+	left: 30%;
+	border-radius: 50% / 45%;
+	z-index: 4;
+}
+.eye-right{
+	position: absolute;
+	background: blue;
+	width: 10%;
+	height: 27%;
+	top: 25%;
+	right: 30%;
+	border-radius: 50% / 45%;
+	z-index: 4;
+
+}
+/*on top of blue will be black*/
+.inner-eye-middle{
+	position: absolute;
+	width: 95%;
+	height:85%;
+	border-radius: 50% / 45%;
+	background: black;
+	z-index: 2;
+}
+/*on top of black will be white*/
+.inner-eye-bottom{
+	position: absolute;
+	width: 90%;
+	height: 50%;
+	border-radius: 50% / 50%;
+	background: white;
+	z-index: 3;
+}
+.spot-left{
+	position: absolute;
+	width: 15%;
+	height: 8%;
+	bottom: 35%;
+	left: 20%;
+	background: #A14867;
+	border-radius: 50% / 45%;
+	z-index: 4
+}
+.spot-right{
+	position: absolute;
+	width: 15%;
+	height: 8%;
+	bottom: 35%;
+	right: 20%;
+	background: #A14867;
+	border-radius: 50% / 45%;
+	z-index: 4
+}
+.mouth{
+	position: absolute;
+	width: 25%;
+	height: 25%;
+	bottom: 15%;
+	left: 38%;
+	border-radius: 50%;
+	background: #862044;
+	z-index: 4;
+}
+.tongue{
+	position: absolute;
+	width: 95%;
+	height: 60%;
+	bottom: 1%;
+	left: 3%;
+	border-radius: 50%;
+	background: #BE4771;
+	z-index: 3;
+}
+.hand-left{
+	position: absolute;
+	width: 70px;
+	height: 200px;
+	top: -10px;
+	transform: rotate(-40deg);
+	border-radius: 50px /45px;
+	z-index: 1;
+	background: #F8A6C3;
+}
+.hand-right{
+	position: absolute;
+	width: 70px;
+	height: 200px;
+	top: 40px;
+	right: -15px;
+	transform: rotate(-45deg);
+	border-radius: 50px /45px;
+	z-index: 1;
+	background: #F8A6C3;
+}
+.foot-left{
+	position: absolute;
+	width: 170px;
+	height: 80px;
+	bottom: -20px;
+	left: -20px;
+	border-radius: 50px / 45px;
+	transform: rotate(-20deg);
+	background: #E90052;
+	z-index: 1;
+}
+.foot-right{
+	position: absolute;
+	width: 80px;
+	height: 170px;
+	bottom: -60px;
+	right: 20px;
+	border-radius: 50px / 45px;
+	transform: rotate(-70deg);
+	background: #E90052;
+	z-index: 1;
+}
