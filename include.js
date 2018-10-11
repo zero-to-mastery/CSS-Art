@@ -49,6 +49,7 @@ let cards = [
     ["Anjibansal", "./Art/Anjibansal/work.html", "./Art/Anjibansal/mywork.png", "Anjali bansal", "https://github.com/Anjibansal"],
     ["Heart", "./Art/Heart/index.html", "./Art/Heart/heart.gif", "SliceOLife", "https://github.com/SliceOLife"],
     ["Hamburger", "./Art/Nikhil/index.html", "./Art/Nikhil/hamburger", "Nikhil Shrivastava", "https://github.com/NikhilShrivastava" ],
+    ["Graveyard", "./Art/DanielMJacoby/index.html", "./Art/DanielMJacoby/graveyard.JPG", "Daniel Jaocby", "https://github.com/danielmjacoby" ],
 ]
 
 

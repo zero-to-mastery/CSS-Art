@@ -1,0 +1,376 @@
+#container {
+
+    width: 300px;
+  
+    height: 300px;
+  
+    background-color: #000;
+  
+    margin: 0 auto;
+  
+    padding: 10px 0 0 0;
+  
+    z-index:0;
+  
+    border-radius: 10px;
+  
+  }
+  
+   
+  
+  #moon {
+  
+    width: 50px;
+  
+    height: 50px;
+  
+    background-color: yellow;
+  
+    border-radius: 50px;
+  
+    postition: fixed;
+  
+    margin: 0 0 0 100px;
+  
+    z-index: 1;
+  
+  }
+  
+   
+  
+  #moon-cutout {
+  
+    width: 50px;
+  
+    height: 50px;
+  
+    background-color: #000;
+  
+    border-radius: 50px;
+  
+    margin: -55px 0 0 110px;
+  
+    position: fixed;
+  
+    z-index: 1;
+  
+  }
+  
+   
+  
+  #ghost {
+  
+    height: 50px;
+  
+    width: 40px;
+  
+    background: rgba(255,0,0,.5);
+  
+    position: fixed;
+  
+    margin: 120px 0 0 55px;
+  
+    border-radius: 20px 20px 0 0;
+  
+   
+  
+  }
+  
+   
+  
+  #ghost-eye-left{
+  
+    height: 15px;
+  
+    width: 10px;
+  
+    background: #fff;
+  
+    border-radius: 10px 10px 10px 10px;
+  
+    margin: 10px 0 0 5px;
+  
+  }
+  
+   
+  
+  #pupil-left{
+  
+    height: 5px;
+  
+    width: 5px;
+  
+    background: blue;
+  
+    position: fixed;
+  
+    border-radius: 50px;
+  
+    margin: 8px 0 0 3px;
+  
+  }
+  
+   
+  
+  #pupil-right{
+  
+    height: 5px;
+  
+    width: 5px;
+  
+    background: blue;
+  
+    position: fixed;
+  
+    border-radius: 50px;
+  
+    margin: 8px 0 0 3px;
+  
+  }
+  
+   
+  
+  #ghost-eye-right{
+  
+    height: 15px;
+  
+    width: 10px;
+  
+    background: #fff;
+  
+    border-radius: 10px;
+  
+    margin: -15px 0 0 25px;
+  
+  }
+  
+   
+  
+  #ghost-block1{
+  
+    height: 5px;
+  
+    width: 5px;
+  
+    background: #000;
+  
+    position: fixed;
+  
+    margin: 20px 0 0 8px;
+  
+  }
+  
+   
+  
+  #ghost-block2{
+  
+    height: 5px;
+  
+    width: 5px;
+  
+    background: #000;
+  
+    position: fixed;
+  
+    margin: 20px 0 0 26px;
+  
+  }
+  
+   
+  
+  #ghost2{
+  
+    height: 50px;
+  
+    width: 40px;
+  
+    background: green;
+  
+    position: fixed;
+  
+    margin: 160px 0 0 200px;
+  
+    border-radius: 20px 20px 0 0;
+  
+  }
+  
+   
+  
+  #tombstone{
+  
+    height: 70px;
+  
+    width: 40px;
+  
+    background: gray;
+  
+    position: fixed;
+  
+    margin: 180px 0 0 130px;
+  
+    border-radius: 20px 20px 0 0;
+  
+  /*   border-bottom: 4px solid #4f5051; */
+  
+    box-shadow: 3px -3px 0 2px #4f5051;
+  
+     z-index: 2;
+  
+  }
+  
+   
+  
+  #tombstone p{
+  
+    padding: 5px;
+  
+    font-weight: bold;
+  
+  
+  }
+  
+   
+  
+  #dirt {
+  
+    z-index: 3;
+  
+    width: 50px;
+  
+    height: 10px;
+  
+    background: #9e5921;
+  
+    margin-left: -3px;
+  
+    border-radius: 5px 5px 0 0;
+  
+  }
+  
+   
+  
+  #clouds {
+  
+    width: 90px;
+  
+    height: 30px;
+  
+    background: #fff;
+  
+    border-radius: 20px 20px 3px 3px;
+  
+    position: fixed;
+  
+    margin: -10px 0 0 30px;
+  
+    z-index:3;
+  
+  }
+  
+   
+  
+  #cloud1 {
+  
+    width: 40px;
+  
+    height: 40px;
+  
+    background: #fff;
+  
+    border-radius: 20px 20px 0 0;
+  
+    position: fixed;
+  
+    margin: -10px 0 0 15px;
+  
+  }
+  
+   
+  
+  #cloud2 {
+  
+    width: 40px;
+  
+    height: 50px;
+  
+    background: #fff;
+  
+    border-radius: 20px 20px 0 0;
+  
+    position: fixed;
+  
+    margin: -20px 0 0 40px;
+  
+  }
+  
+   
+  
+  #clouds2 {
+  
+    width: 90px;
+  
+    height: 30px;
+  
+    background: #fff;
+  
+    border-radius: 20px 20px 3px 3px;
+  
+    position: fixed;
+  
+    margin: 0 0 0 180px
+  
+  }
+  
+   
+  
+  #cloud3 {
+  
+    width: 40px;
+  
+    height: 40px;
+  
+    background: #fff;
+  
+    border-radius: 20px 20px 0 0;
+  
+    position: fixed;
+  
+    margin: -10px 0 0 15px;
+  
+  }
+  
+   
+  
+  #cloud4 {
+  
+    width: 40px;
+  
+    height: 50px;
+  
+    background: #fff;
+  
+    border-radius: 20px 20px 0 0;
+  
+    position: fixed;
+  
+    margin: -20px 0 0 40px;
+  
+  }
+  
+   
+  
+  H3 {
+  
+    position: absolute;
+  
+    padding-top: 20px;
+  
+    padding-left: 25px;
+  
+    color: orange;
+  
+    font-size: 1.5em;
+  
+   
+  
+  }
