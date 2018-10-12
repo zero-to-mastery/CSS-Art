@@ -1,0 +1,219 @@
+body{
+  background: #25A9FC;
+}
+
+
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+}
+
+.leftwingtop{
+  position: absolute;
+  top:-2%;
+  right: 0%;
+  width: 110%;
+  height: 120%;
+  background: #A25188;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(10% 24%, 13% 14%, 24% 8%, 34% 9%, 47% 15%, 52% 24%, 56% 36%, 47% 45%, 12% 34%);
+  clip-path: polygon(10% 24%, 13% 14%, 24% 8%, 34% 9%, 47% 15%, 52% 24%, 56% 36%, 47% 45%, 12% 34%);
+}
+.rightwingtop{
+  position: absolute;
+  top: -2%;
+  left: -1%;
+  width: 110%;
+  height: 120%;
+  background: #A25188;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(10% 24%, 13% 14%, 24% 8%, 34% 9%, 47% 15%, 52% 24%, 56% 36%, 47% 45%, 12% 34%);
+  clip-path: polygon(10% 24%, 13% 14%, 24% 8%, 34% 9%, 47% 15%, 52% 24%, 56% 36%, 47% 45%, 12% 34%);
+  
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.leftwingbottom{
+  position: absolute;
+  top:-2%;
+  right: 5%;
+  width: 110%;
+  height: 90%;
+  background: #A25188;
+  border-radius: 50%;
+
+  -webkit-clip-path: polygon(69% 35%, 24% 28%, 17% 49%, 22% 73%, 29% 78%, 35% 83%, 42% 85%, 52% 87%, 58% 88%, 67% 79%, 71% 68%, 73% 57%, 76% 46%, 77% 37%);
+  clip-path: polygon(69% 35%, 24% 28%, 17% 49%, 22% 73%, 29% 78%, 35% 83%, 42% 85%, 52% 87%, 58% 88%, 67% 79%, 71% 68%, 73% 57%, 76% 46%, 77% 37%);
+}
+
+.rightwingbottom{
+  position: absolute;
+  top:-2%;
+  left: 5%;
+  width: 110%;
+  height: 90%;
+  background: #A25188;
+  border-radius: 50%;
+
+  -webkit-clip-path: polygon(69% 35%, 24% 28%, 17% 49%, 22% 73%, 29% 78%, 35% 83%, 42% 85%, 52% 87%, 58% 88%, 67% 79%, 71% 68%, 73% 57%, 76% 46%, 77% 37%);
+  clip-path: polygon(69% 35%, 24% 28%, 17% 49%, 22% 73%, 29% 78%, 35% 83%, 42% 85%, 52% 87%, 58% 88%, 67% 79%, 71% 68%, 73% 57%, 76% 46%, 77% 37%);
+
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.leftwingbottom2{
+  position: absolute;
+  top:20%;
+  right: 1%;
+  width: 110%;
+  height: 90%;
+  background: purple;
+  border-radius: 50%;
+
+-webkit-clip-path: polygon(31% 30%, 20% 47%, 16% 60%, 18% 66%, 20% 72%, 23% 74%, 32% 78%, 33% 78%, 44% 79%, 51% 79%, 51% 78%, 55% 68%, 53% 53%, 51% 44%, 49% 39%, 47% 33%);
+clip-path: polygon(31% 30%, 20% 47%, 16% 60%, 18% 66%, 20% 72%, 23% 74%, 32% 78%, 33% 78%, 44% 79%, 51% 79%, 51% 78%, 55% 68%, 53% 53%, 51% 44%, 49% 39%, 47% 33%);
+}
+
+.rightwingbottom2{
+  position: absolute;
+  top:20%;
+  left: 0%;
+  width: 110%;
+  height: 90%;
+  background: purple;
+  border-radius: 50%;
+
+-webkit-clip-path: polygon(31% 30%, 20% 47%, 16% 60%, 18% 66%, 20% 72%, 23% 74%, 32% 78%, 33% 78%, 44% 79%, 51% 79%, 51% 78%, 55% 68%, 53% 53%, 51% 44%, 49% 39%, 47% 33%);
+clip-path: polygon(31% 30%, 20% 47%, 16% 60%, 18% 66%, 20% 72%, 23% 74%, 32% 78%, 33% 78%, 44% 79%, 51% 79%, 51% 78%, 55% 68%, 53% 53%, 51% 44%, 49% 39%, 47% 33%);
+ 
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.outerleftwing{
+  position: absolute;
+  top:10%;
+  right: 45%;
+  width: 80%;
+  height: 90%;
+  background: pink;
+  border-radius: 50%;
+
+-webkit-clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+}
+
+.outerrightwing{
+  position: absolute;
+  top:10%;
+  left: 45%;
+  width: 80%;
+  height: 90%;
+  background: pink;
+  border-radius: 50%;
+
+-webkit-clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+
+-moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.outerleftwing2{
+  position: absolute;
+  top:17%;
+  right: 45%;
+  width: 60%;
+  height: 75%;
+  background: white;
+  border-radius: 50%;
+
+-webkit-clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+}
+
+.outerrightwing2{
+  position: absolute;
+  top:17%;
+  left: 45%;
+  width: 60%;
+  height: 75%;
+  background: white;
+  border-radius: 50%;
+
+-webkit-clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+
+-moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.outerleftwing3{
+  position: absolute;
+  top:25%;
+  right: 45%;
+  width: 50%;
+  height: 60%;
+  background: purple;
+  border-radius: 50%;
+
+-webkit-clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+}
+
+.outerrightwing3{
+  position: absolute;
+  top:25%;
+  left: 45%;
+  width: 50%;
+  height: 60%;
+  background: purple;
+  border-radius: 50%;
+
+-webkit-clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+clip-path: polygon(92% 27%, 92% 75%, 81% 83%, 75% 86%, 68% 86%, 58% 84%, 51% 79%, 46% 66%, 58% 48%, 50% 36%, 48% 29%, 49% 22%, 52% 14%, 59% 10%, 69% 8%, 81% 11%, 88% 16%);
+
+-moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.butterflybody{
+  position: absolute;
+  top:18.5%;
+  right: 47%;
+  width: 7%;
+  height: 67%;
+  background: black;
+  border-radius: 50%;
+}
