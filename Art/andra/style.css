@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #060c2c;
+    overflow-x: hidden;
+}
+.bird-container {
+    width: 100vw;
+    height: 100vh;   
+}
+
+.bird {
+    z-index: 898;}
+    
+.bird__body {
+    width: 30rem;
+    height: 30rem;
+    background-color: #cb601a;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: ellipse(35% 40% at 50% 50%);
+    animation: move infinite linear 2s;
+}
+ 
+.bird__head {        
+    z-index: 898;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    width: 18rem;
+    height: 20rem;
+    background-color: #ebe48a;
+    clip-path: ellipse(50% 40% at 50% 60%);
+    position: relative;
+}
+.bird__face {
+    width: 14rem;
+    height: 10rem;
+    background-color: #ebe48a;
+    clip-path: ellipse(50% 40% at 50% 60%);
+    position: absolute;
+    top: 15rem;
+    left: 8rem;
+    z-index: 5555;
+}
+    
+.bird__eye {
+    z-index: 899;
+    position: absolute;
+    top: 30%;
+    width: 7.5rem;
+    height: 7.5rem;
+    background-color: #fcfcfc;
+    border-radius: 50%;
+}
+.bird__eye::after {
+    content:"";
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    z-index: 900;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.bird__eye--left {
+    left: 1rem;
+    
+}
+
+.bird__eye--right {
+    right: 1rem;
+}
+
+.bird__nose {
+    width: 14px;
+    height: 10px;
+    background-color: #cb601a;
+    border-radius: 20%;
+    z-index: 8888;
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+    
+.bird__mouth {
+    width: 20px;
+    height: 30px;
+    background-color: #b43b3b;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.64);
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5555;
+}
+@keyframes move {
+    50% {
+        transform: translate(-50%, -50%) translateY(-5rem);
+    }
+}

@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+.fullpage-wrapper {
+  height: 100vh;
+  background: radial-gradient(rgb(224, 30, 0), #222931);
+  display: flex;
+}
+.reactor-container {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border: 1px dashed #888;
+}
+.circle {
+border-radius: 50%;
+}
+.abs-center {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.core-inner {
+  width: 70px;
+  height: 70px;
+  border: 5px solid #1b4e5f;
+  background-color: #fff;
+  /* glow effect */
+  box-shadow: 0px 0px 7px 5px #52fefe, 0px 0px 10px 10px #52fefe inset;
+}
+.core-wrapper {
+  width: 180px;
+  height: 180px;
+  background-color: #073c4b;
+  box-shadow: 0px 0px 5px 4px #52FEFE, 0px 0px 6px 2px #52FEFE inset;
+}
+.core-outer {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #52fefe;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px 1px #52fefe, 0px 0px 10px 5px #52fefe inset;
+}
+.tunnel {
+  width: 220px;
+  height: 220px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 1px #52fefe, 0px 0px 5px 4px #52fefe inset;
+}
+.coil {
+  position: absolute;
+  width: 30px;
+  height: 22px;
+  top: calc(50% - 110px);
+  left: calc(50% - 15px);
+  transform-origin: 15px 110px;
+  background-color: #073c4b;
+  box-shadow: 0px 0px 5px #52fefe inset;
+}
+
+.coil-1 {
+  transform: rotate(0deg);
+}
+.coil-2 {
+  transform: rotate(45deg);
+}
+.coil-3 {
+  transform: rotate(90deg);
+}
+.coil-4 {
+  transform: rotate(135deg);
+}
+.coil-5 {
+  transform: rotate(180deg);
+}
+.coil-6 {
+  transform: rotate(225deg);
+}
+.coil-7 {
+  transform: rotate(270deg);
+}
+.coil-8 {
+  transform: rotate(315deg);
+}
+@keyframes reactor-anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.coil-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation: 3s infinite linear reactor-anim;
+}
+.reactor-container-inner {
+  height: 238px;
+  width: 238px;
+  background-color: rgb(22, 26, 27);;
+  box-shadow: 0px 0px 4px 1px #52fefe;
+}
+.reactor-container {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border: 1px dashed #888;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgb(255, 207, 0);
+  border: 1px solid rgb(18, 20, 20);
+  box-shadow: 0px 0px 32px 8px rgb(18, 20, 20), 0px 0px 4px 1px rgb(18, 20, 20) inset;
+}

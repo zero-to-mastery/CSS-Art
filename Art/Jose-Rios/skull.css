@@ -1,0 +1,113 @@
+body{
+    background: black;
+  }
+  .box{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+  }
+  .head{
+    position: absolute;
+    top:16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: white;
+    border-radius: 50%;
+  }
+  .head-copy{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .eye-left{
+    position: absolute;
+    background: black;
+    width: 30%;
+    height: 33%;
+    top: 40%;
+    left: 13%;
+    border-radius: 50%;
+    z-index: 3;
+  }
+  .eye-right{
+    position: absolute;
+    background: black;
+    width: 30%;
+    height: 33%;
+    top: 40%;
+    right: 13%;
+    border-radius: 50%;
+    z-index: 3;
+  }
+  
+  .nostril-left{
+    position: absolute;
+    background: black;
+    width: 5%;
+    height: 5.5%;
+    left: 50%;
+    top: 80%;
+    -webkit-clip-path: ellipse(20% 40% at 50% 50%);
+  clip-path: ellipse(20% 40% at 50% 50%);
+    z-index: 4;
+  }
+  .nostril-right{
+    position: absolute;
+    background: black;
+    width: 5%;
+    height: 5.5%;
+    left: 47%;
+    top: 80%;
+    -webkit-clip-path: ellipse(20% 40% at 50% 50%);
+  clip-path: ellipse(20% 40% at 50% 50%);
+    z-index: 4;
+  }
+  .mouth{
+    position: absolute;
+    background: white;
+    width: 80%;
+    height: 70%;
+    left: 10.5%;
+    top: 60%;
+    -webkit-clip-path: inset(5% 11% 15% 10%);
+  clip-path: inset(5% 11% 15% 10%);
+  }
+  .tooth1{
+    position: absolute;
+    top: 58%;
+    left: -5%;
+    width: 90%;
+   height: 50%;
+   background:  black;
+    -webkit-clip-path: inset(5% 60% 15% 35%);
+  clip-path: inset(5% 60% 15% 35%);
+  }
+  .tooth2{
+    position: absolute;
+    top: 58%;
+    left: 17%;
+    width: 90%;
+   height: 50%;
+   background:  black;
+    -webkit-clip-path: inset(5% 60% 15% 35%);
+  clip-path: inset(5% 60% 15% 35%);
+  }
+  .tooth3{
+    position: absolute;
+    top: 58%;
+    left: 37%;
+    width: 90%;
+   height: 50%;
+   background:  black;
+    -webkit-clip-path: inset(5% 60% 15% 35%);
+  clip-path: inset(5% 60% 15% 35%);
+  }
