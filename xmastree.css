@@ -1,0 +1,415 @@
+body{background: red;}
+
+.box1{position: relative;
+	margin: auto;
+	display: block;
+	margin-top:4%;
+	width: 800px;
+	height: 620px;
+	background: white;
+	border:solid 20px black;
+}
+
+.tree{position: absolute;
+  top: 5.5%;
+  left: 28%;
+  width: 45%;
+  height: 40%;
+  background: green;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.tree-copy1{position: absolute;
+  top: 25.5%;
+  left: 28%;
+  width: 45%;
+  height: 40%;
+  background: green;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+z-index: 2;
+}
+
+.tree-copy2{position: absolute;
+  top: 45.5%;
+  left: 28%;
+  width: 45%;
+  height: 40%;
+  background: green;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+z-index: 2;}
+
+.trunk{position: absolute;
+  top: 65.5%;
+  left: 43%;
+  width: 15%;
+  height: 30%;
+  background: brown;
+  border-radius:0%;
+}
+
+.balls-left{position: absolute;
+  top: 34.5%;
+  left: 34%;
+  width: 6%;
+  height: 8%;
+  background: blue;
+  border-radius:50%;
+  z-index: 3;
+}
+
+.balls-center{position: absolute;
+  top: 34.5%;
+  left: 47.5%;
+  width: 6%;
+  height: 8%;
+  background: white;
+  border-radius:50%;
+  z-index: 3;
+}
+
+.balls-right{position: absolute;
+  top: 34.5%;
+  right: 33%;
+  width: 6%;
+  height: 8%;
+  background: red;
+  border-radius:50%;
+  z-index: 3;
+}
+
+.balls-leftcopy1{position: absolute;
+  top: 55.5%;
+  left: 34%;
+  width: 6%;
+  height: 8%;
+  background: blue;
+  border-radius:50%;
+  z-index: 3;
+}
+
+.balls-centercopy1{position: absolute;
+  top: 55.5%;
+  left: 47.5%;
+  width: 6%;
+  height: 8%;
+  background: white;
+  border-radius:50%;
+  z-index: 3;
+}
+
+.balls-rightcopy1{position: absolute;
+  top: 55.5%;
+  right: 33%;
+  width: 6%;
+  height: 8%;
+  background: red;
+  border-radius:50%;
+  z-index: 3;
+}
+
+.star{position: absolute;
+  top: 0.5%;
+  left: 46.5%;
+  width: 8%;
+  height: 10%;
+  background: yellow;
+  z-index: 3;
+-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.balls-leftcopy2{position: absolute;
+  top: 75.5%;
+  left: 34%;
+  width: 6%;
+  height: 8%;
+  background: blue;
+  border-radius:50%;
+  z-index: 3;
+}
+
+.balls-centercopy2{position: absolute;
+  top: 75.5%;
+  left: 47.5%;
+  width: 6%;
+  height: 8%;
+  background: white;
+  border-radius:50%;
+  z-index: 3;
+}
+
+.balls-rightcopy2{position: absolute;
+  top: 75.5%;
+  right: 33%;
+  width: 6%;
+  height: 8%;
+  background: red;
+  border-radius:50%;
+  z-index: 3;
+}
+
+.present1{position: absolute;
+  top: 40.5%;
+  left: -230%;
+  width: 100%;
+  height: 60%;
+  background: red;
+  border-radius:0%;
+  z-index: 3;
+}
+
+.ribbon1{position: absolute;
+  top: 0%;
+  left: -11%;
+  width: 122.5%;
+  height: 127.5%;
+  background: green;
+  border-radius:0%;
+  z-index: 3;
+	-webkit-clip-path: polygon(10% 30%, 43% 30%, 43% 0, 58% 0, 58% 30%, 90% 30%, 90% 45%, 57% 44%, 57% 78%, 43% 78%, 43% 44%, 10% 44%);
+clip-path: polygon(10% 30%, 43% 30%, 43% 0, 58% 0, 58% 30%, 90% 30%, 90% 45%, 57% 44%, 57% 78%, 43% 78%, 43% 44%, 10% 44%);
+}
+
+.present2{position: absolute;
+  top: 1.5%;
+  right: -450%;
+  width: 100%;
+  height: 100%;
+  background: red;
+  border-radius:0%;
+  z-index: 3;
+}
+
+.ribbon2{position: absolute;
+  top: 0%;
+  left: -11%;
+  width: 122.5%;
+  height: 127.5%;
+  background: green;
+  border-radius:0%;
+  z-index: 3;
+	-webkit-clip-path: polygon(10% 30%, 43% 30%, 43% 0, 58% 0, 58% 30%, 90% 30%, 90% 45%, 57% 44%, 57% 78%, 43% 78%, 43% 44%, 10% 44%);
+clip-path: polygon(10% 30%, 43% 30%, 43% 0, 58% 0, 58% 30%, 90% 30%, 90% 45%, 57% 44%, 57% 78%, 43% 78%, 43% 44%, 10% 44%);
+}
+
+.present3{position: absolute;
+  top: -100.5%;
+  left: -430%;
+  width: 100%;
+  height: 100%;
+  background: green;
+  border-radius:0%;
+  z-index: 3;
+}
+
+.ribbon3{position: absolute;
+  top: 0%;
+  left: -11%;
+  width: 122.5%;
+  height: 127.5%;
+  background: white;
+  border-radius:0%;
+  z-index: 3;
+	-webkit-clip-path: polygon(10% 30%, 43% 30%, 43% 0, 58% 0, 58% 30%, 90% 30%, 90% 45%, 57% 44%, 57% 78%, 43% 78%, 43% 44%, 10% 44%);
+clip-path: polygon(10% 30%, 43% 30%, 43% 0, 58% 0, 58% 30%, 90% 30%, 90% 45%, 57% 44%, 57% 78%, 43% 78%, 43% 44%, 10% 44%);
+}
+
+.present4{position: absolute;
+  top: 1.5%;
+  right: -410%;
+  width: 100%;
+  height: 100%;
+  background: green;
+  border-radius:0%;
+  z-index: 3;
+}
+
+.ribbon4{position: absolute;
+  top: 0%;
+  left: -11%;
+  width: 122.5%;
+  height: 127.5%;
+  background: white;
+  border-radius:0%;
+  z-index: 3;
+	-webkit-clip-path: polygon(10% 30%, 43% 30%, 43% 0, 58% 0, 58% 30%, 90% 30%, 90% 45%, 57% 44%, 57% 78%, 43% 78%, 43% 44%, 10% 44%);
+clip-path: polygon(10% 30%, 43% 30%, 43% 0, 58% 0, 58% 30%, 90% 30%, 90% 45%, 57% 44%, 57% 78%, 43% 78%, 43% 44%, 10% 44%);
+}
+
+.wreath1{position: absolute;
+  top: -300.5%;
+  left: -450%;
+  width: 150%;
+  height: 150%;
+  background: green;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+z-index: 3;
+}
+
+.inner-wreath{position: absolute;
+  top: 15.5%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  background: white;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+z-index:3;
+}
+
+.wreath2{position: absolute;
+  top: -300.5%;
+  left: -9%;
+  width: 150%;
+  height: 150%;
+  background: green;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+z-index: 3;
+}
+
+.leaf1{position: absolute;
+  top: -165%;
+  left: 12%;
+  width: 75%;
+  height: 55%;
+  background: green;
+  -webkit-clip-path: ellipse(16% 42% at 50% 50%);
+clip-path: ellipse(16% 42% at 50% 50%);
+z-index: 3;
+transform:rotate(45deg);
+}
+
+.leaf2{position: absolute;
+  top: -165%;
+  left: 45%;
+  width: 75%;
+  height: 55%;
+  background: green;
+  -webkit-clip-path: ellipse(16% 42% at 50% 50%);
+clip-path: ellipse(16% 42% at 50% 50%);
+z-index: 3;
+transform:rotate(145deg);
+}
+
+.bow1{position: absolute;
+  top: -185%;
+  left: 21%;
+  width: 57%;
+  height: 35%;
+  background: red;
+ -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+z-index: 4;
+transform:rotate(90deg);
+}
+
+.bow2{position: absolute;
+  top: -185%;
+  left: 53%;
+  width: 55%;
+  height: 35%;
+  background: red;
+ -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+z-index: 4;
+transform:rotate(270deg);
+}
+
+.bow3{position: absolute;
+  top: -168%;
+  left: 45%;
+  width: 10%;
+  height: 70%;
+  background: red;
+  z-index: 4;
+  transform: rotate(27deg);
+}
+
+.bow4{position: absolute;
+  top: -170%;
+  left: 74%;
+  width: 10%;
+  height: 70%;
+  background: red;
+  z-index: 4;
+  transform: rotate(335deg);
+}
+
+.leaf-copy1{position: absolute;
+  top: -165%;
+  left: -430.5%;
+  width: 75%;
+  height: 55%;
+  background: green;
+  -webkit-clip-path: ellipse(16% 42% at 50% 50%);
+clip-path: ellipse(16% 42% at 50% 50%);
+z-index: 3;
+transform:rotate(45deg);
+}
+
+.leaf-copy2{position: absolute;
+  top: -167%;
+  left: -397.5%;
+  width: 75%;
+  height: 55%;
+  background: green;
+  -webkit-clip-path: ellipse(16% 42% at 50% 50%);
+clip-path: ellipse(16% 42% at 50% 50%);
+z-index: 3;
+transform:rotate(137deg);
+}
+
+.bow-copy1{position: absolute;
+  top: -185%;
+  left: -420.5%;
+  width: 57%;
+  height: 35%;
+  background: red;
+ -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+z-index: 4;
+transform:rotate(90deg);
+}
+
+.bow-copy2{position: absolute;
+  top: -185%;
+  left: -387%;
+  width: 55%;
+  height: 35%;
+  background: red;
+ -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+z-index: 4;
+transform:rotate(270deg);
+}
+
+.bow-copy3{position: absolute;
+  top: -168%;
+  left: -397%;
+  width: 10%;
+  height: 70%;
+  background: red;
+  z-index: 4;
+  transform: rotate(27deg);
+}
+
+.bow-copy4{position: absolute;
+  top: -170%;
+  left: -367%;
+  width: 10%;
+  height: 70%;
+  background: red;
+  z-index: 4;
+  transform: rotate(335deg);
+}
