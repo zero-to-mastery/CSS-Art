@@ -1,0 +1,9 @@
+div.body {
+	width: 150px;
+	height: 150px;
+	border: solid 8px black;
+	border-radius: 50%;
+	margin: 50px auto 0 auto;
+	background-image: url("./Computing!/monster-skin.jpg");
+	background-size: cover;
+}
