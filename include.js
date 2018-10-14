@@ -61,6 +61,7 @@ let cards = [
     ["Funny Avocado", "./Art/yokesharun/index.html", "./Art/yokesharun/avocado.png", "yokesharun", "https://github.com/yokesharun"],
     ["Gameboy", "./Art/mctrl/gameboy.html", "./Art/mctrl/gameboy.jpg", "Martina", "https://github.com/mctrl"],
     ["Frog", "./Art/Elin-frog/index.html", "./Art/Elin-frog/dog.gif", "elindjuren", "https://github.com/elindjuren" ],
+    ["Fita Cassete", "./Art/Pliavi/index.html", "./Art/Pliavi/print.png", "Vitor \"Pliavi\" Silvério", "https://github.com/Pliavi"],
   ];
 
 
