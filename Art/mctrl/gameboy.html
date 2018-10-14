@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS game boy</title>
+  <meta name="description" content="Game boy">
+  <meta name="author" content="mctrl">
+
+  <style>
+      .game-boy {
+          position: relative;
+          margin: 10% auto;
+          width: 250px;
+          height: 400px;
+          background-color: #8849bc;
+          border-radius: 25px 25px 50px 25px;
+      }
+      .screen-border {
+          position: absolute;
+          width: 80%;
+          height: 40%;
+          top: 7%;
+          left: 10%;
+          background-color: #402750;
+         border-radius: 20px 20px 30px 20px;
+      }
+      .screen {
+          position: absolute;
+          width: 72%;
+          height: 80%;
+          top: 10%;
+          left: 13%;
+          background-color: #ffffff;
+      }
+      .screen-light {
+          background-color: red;
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          top: 42%;
+          left: 4%;
+      }
+
+      .pad-cross {
+          width: 60px;
+          height: 60px;
+          bottom: 26%;
+          left: 12%;
+          position: absolute;
+      }
+        .left-right, .top-bottom {
+            position: absolute;
+            width: 100%;
+            height: 24%;
+            top: 38%;
+            background-color: #402750;
+            cursor: pointer;
+            }
+        .top-bottom {
+          transform: rotate(90deg);
+          transform-origin: center; 
+        }
+
+      .buttons {
+          transform: rotate(45deg);
+          transform-origin: center; 
+          bottom: 24%;
+          right: 20%;
+          position: absolute;
+          background-color: #a27ebeb0;
+          border-radius: 50px;
+          padding: 4px 2px;
+      }
+
+      .a-button, .b-button {
+          position: relative;
+          display: block;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: #402750;
+          cursor: pointer;
+          transform: rotate(-45deg);
+          text-align: right;
+          color: #402750;
+          font-family: sans-serif;
+          font-size: x-small;
+          font-weight: bold;
+          line-height: 78px;
+      }
+
+      .a-button {
+          margin-bottom: 10px;
+      }
+
+
+      .a-button:hover, .b-button:hover {
+         background: #464496;
+        }
+
+        .controls {
+            position: absolute;
+            bottom: 10%;
+            left: 32%;
+
+        }
+
+        .start, .select {
+            position: relative;
+            width: 35px;
+            height: 10px;
+            display: inline-block;
+            background-color: #402750;
+            border-radius: 5px;
+            transform: rotate(-20deg);
+            text-align: center;
+            font-size: small;
+            font-weight: bold;
+            color: #402750;
+            line-height: 35px;
+            cursor: pointer;
+        }
+        .sound {
+            position: absolute;
+            bottom: 3%;
+            right: 8%;
+            transform: rotate(45deg);
+
+        }
+        .stripe {
+            position: relative;
+            display: block;
+            width: 43px;
+            height: 6px;
+            background-color: #000000;
+            margin-bottom: 4px;
+            border-radius: 50%;
+            transform-origin: top;
+
+        }
+  </style>
+
+</head>
+
+<body>
+   <div class="game-boy">
+        <div class="screen-border">
+            <div class="screen-light"></div>
+            <div class="screen">
+
+            </div>
+        </div>
+        <div class="pad-cross">
+            <div class="left-right"></div>
+            <div class="top-bottom"></div>
+        </div>
+        <div class="buttons">
+            <div class="a-button">A</div>
+            <div class="b-button">B</div>
+        </div>
+        <div class="controls">
+            <div class="select">select</div>
+            <div class="start">start</div>
+        </div>
+        <div class="sound">
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+        </div>
+   </div>
+  
+</body>
+</html>
