@@ -1,0 +1,91 @@
+body {
+  background-color: #ea8094;
+}
+.melon-box {
+  width: 250px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.curve {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 200px;
+  border-radius: 80%;
+  margin: 0 auto;
+}
+.green{
+  background-color: #0d610d;
+  bottom: 0;
+  width: 100%;
+}
+.light-green {
+  bottom: 5%;
+  background-color: #bbe694;
+  width: 95%;
+}
+.red {
+  bottom: 15%;
+  width: 85%;
+  background-color: #ff002f;
+}
+.seed {
+  position: absolute;
+  background-color: black;
+  height: 5%;
+  width: 5%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.seed-left {
+  top: 8%;
+  left: 30%;
+}
+.seed-center {
+  top: 16%;
+  left: 50%;
+}
+.seed-right{
+  top: 8%;
+  left: 70%;
+}
+.eye {
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  height: 21%;
+  width: 9%;
+  border-radius: 50%;
+  border: solid 2px black;
+}
+.eye-left {
+  left: 24%;
+}
+.eye-right {
+  left: 66%;
+}
+.eye:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 30%;
+  background-color: black;
+  transform: translate(-50%, -50%);
+}
+.mouth {
+  position: absolute;
+  width: 25%;
+  height: 8%;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  top: 65%;
+  background-color: black;
+}
