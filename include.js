@@ -59,7 +59,7 @@ let cards = [
     ["Watermelon", "./Art/watermelon/index.html", "./Art/watermelon/watermelon-screenshot.PNG", "Dan Horsch", "https://github.com/danhorsch"],
     ["Beach", "./Art/sdfnz/beach.html", "./Art/sdfnz/beach.jpg", "sdfnz", "https://github.com/sdfnz"],
     ["Funny Avocado", "./Art/yokesharun/index.html", "./Art/yokesharun/avocado.png", "yokesharun", "https://github.com/yokesharun"],
-  
+    ["Frog", "./Art/Elin-frog/index.html", "./Art/Elin-frog/dog.gif", "elindjuren", "https://github.com/elindjuren" ],
   
   
 ];
