@@ -1,0 +1,94 @@
+
+body{
+    background-image: 
+    linear-gradient(
+      rgba(255, 115, 0, 0.3),
+      rgba(255, 115, 0, 0.3)
+    ),
+    url(jack-cain-336725-unsplash.jpg);
+    background-size: cover; 
+    }
+  
+.box{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background:none;
+  }
+  
+  .head{
+    position: absolute;
+    top:24.5%;
+    left: 15%;
+    width: 70%;
+    height: 50%;
+    background: #221C17;
+    border-radius: 50%;
+  }
+  
+  .head-copy{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #221C17;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .eye-left{
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    left: 8%;
+    top: -10%;
+    background:#221C17 ;
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  .eye-right{
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    right: 8%;
+    top: -10%;
+    background: #221C17;
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  
+  .inner-eye{
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background:white ;
+  }
+
+  .eye-pupil{
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background:black ;
+  }
+  
+  .mouth{
+    position: absolute;
+    background:#867B73;
+    width: 50%;
+    height: 42.5%;
+    left: 25%;
+    top: 35%;
+    border-radius: 55%;
+    z-index: 4;
+  }
+  
