@@ -58,6 +58,7 @@ let cards = [
     ["Smiley", "./Art/adrianomi/index.html", "./Art/adrianomi/smiley.jpg", "adrianomi", "https://github.com/adrianomi"],
     ["Watermelon", "./Art/watermelon/index.html", "./Art/watermelon/watermelon-screenshot.PNG", "Dan Horsch", "https://github.com/danhorsch"],
     ["Beach", "./Art/sdfnz/beach.html", "./Art/sdfnz/beach.jpg", "sdfnz", "https://github.com/sdfnz"],
+    ["Funny Avocado", "./Art/yokesharun/index.html", "./Art/yokesharun/avocado.png", "yokesharun", "https://github.com/yokesharun"],
   
   
   
