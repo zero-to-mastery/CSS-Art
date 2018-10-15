@@ -4,7 +4,7 @@ let cards = [
     //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
 
     ["CSS Dog", "./Art/Dog/index.html", "./Art/Dog/dog.gif", "Chintu Yadav Sara", "https://github.com/chintuyadav" ],
-    ["No Face", "Art/saamiyah/no-face.html", ".Art/saamiyah/no-face.png", "Saamiyah", "https://github.com/Saamiyah"],
+    ["No Face", "./Art/saamiyah/no-face.html", "./Art/saamiyah/no-face.gif", "Saamiyah", "https://github.com/Saamiyah"],
     ["Mahatma Gandhi", "./Art/Mahatma%20Gandhi/index.html", "./Art/Mahatma%20Gandhi/Gandhi.png", "Chintu Yadav Sara", "https://github.com/chintuyadav"],
     ["WindMill Animation", "./Art/WindMill/index.html", "./Art/WindMill/windmill.gif", "Chintu Yadav Sara", "https://github.com/chintuyadav"],
     ["CSS Bird", "./Art/Bird/index.html", "./Art/Bird/Bird.png", "Chintu Yadav Sara", "https://github.com/chintuyadav"],
