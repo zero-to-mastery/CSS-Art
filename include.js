@@ -63,6 +63,7 @@ let cards = [
     ["Gameboy", "./Art/mctrl/gameboy.html", "./Art/mctrl/gameboy.jpg", "Martina", "https://github.com/mctrl"],
     ["Frog", "./Art/Elin-frog/index.html", "./Art/Elin-frog/frog.png", "elindjuren", "https://github.com/elindjuren" ],
     ["Fita Cassete", "./Art/Pliavi/index.html", "./Art/Pliavi/print.png", "Vitor \"Pliavi\" Silvério", "https://github.com/Pliavi"],
+    ["Panda", "./Art/Madhuri/index.html", "./Art/Madhuri/Screenshot.png", "Madhuri Soni", "https://github.com/sonimadhuri"]
   ];
 
 
