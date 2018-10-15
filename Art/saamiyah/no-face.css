@@ -1,0 +1,122 @@
+.backdrop{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/60/0e/3f/600e3f5c86cbacd0a695d01c62a2eb31.gif);
+    background-size: cover;
+    background-position: left center;
+    opacity: 0.8;
+  }
+  
+  
+  .wrapper {
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    background-color: #000;
+    height: 40rem;
+    width: 10rem;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 6rem 6rem 0 0;
+    box-shadow: 4px 4px 4px #000;
+    opacity: 0.5
+  }
+  
+  .no-face {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    background-color: #fff;
+    height: 9rem;
+    width: 6.5rem;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 4rem 4rem 4rem 4rem;
+  }
+  
+  
+  .eye {
+    background-color: #000;
+    height: 0.5rem;
+    width: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.8rem;
+  }
+  
+  .eyeleft {
+    left: 1.3rem;
+  }
+  .eyeright {
+    right: 1.2rem;
+  }
+  
+  .mouth {
+    background-color: #000;
+     height: 0.5rem;
+     width: 2rem;
+     position: absolute;
+     top: 7rem;
+     left: 35%;
+     border-radius: 45%;
+  }
+  
+  .eyebag-left {
+    background-color: #000;
+    height: 0.3rem;
+    width: 1rem;
+    border-radius: 40%;
+    position: absolute;
+    top: 3.4rem;
+    left:4.3rem;
+  }
+  .eyebag-right {
+    background-color: #000;
+    height: 0.3rem;
+    width: 1rem;
+    border-radius: 40%;
+    position: absolute;
+    top: 3.4rem;
+    right: 4.2rem;
+  }
+  
+  .facepaint {
+    background-color: #634;
+    height: 2rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 4rem;
+  }
+  
+  .facepaint-right {
+    right: 4.5rem;
+  }
+  
+  .facepaint-left {
+    left: 4.5rem;
+  }
+  
+  .eyebrows-left {
+    background-color: #634;
+    height: 1rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 4.5rem;
+  }
+  
+  .eyebrows-right{
+    background-color: #634;
+    height: 1rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    right: 4.5rem;
+  }
+  
+  .wrapper:hover{
+      opacity: 0;		
+      transition-duration: 2s;
+  }
