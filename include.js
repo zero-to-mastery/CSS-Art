@@ -65,6 +65,8 @@ let cards = [
     ["Fita Cassete", "./Art/Pliavi/index.html", "./Art/Pliavi/print.png", "Vitor \"Pliavi\" Silvério", "https://github.com/Pliavi"],
     ["Panda", "./Art/Madhuri/index.html", "./Art/Madhuri/Screenshot.png", "Madhuri Soni", "https://github.com/sonimadhuri"],
 	["Xmas", "./Art/Chrissy/xmas.html", "./Art/Chrissy/xmas.png", "Chrissy", "https://github.com/charlecoda88"],
+
+	];
   
 
 
