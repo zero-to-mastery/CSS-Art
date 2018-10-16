@@ -1,0 +1,208 @@
+body {
+	background: white;
+}
+.box {
+	position: relative;
+	background: linear-gradient(to bottom, #ffc578 0%,#fb9d23 100%);
+	height: 600px;
+	width: 600px;
+	z-index: -1;
+}
+.head {
+	position: absolute;
+	background: #196642;
+	top: 12%;
+	left: 27.5%;
+	height: 45%;
+	width: 45%;
+	border-radius: 10%;
+}
+.bald {
+	position: absolute;
+	background: #c8e874;
+	top: 10%;
+	left: 27.5%;
+	height: 5%;
+	width: 45%;
+}
+.lips {
+	position: absolute;
+ 	background: red;
+ 	top: 45%;
+	left: 44%;
+	height: 2%;
+	width: 12%;
+	z-index: 2;
+}
+.outerlips {
+	position: absolute;
+ 	background: #d19592;
+ 	top: 44.5%;
+	left: 43.5%;
+	height: 2.5%;
+	width: 12.5%;
+	z-index: 1;
+}
+.lipcrease {
+	position: absolute;
+ 	background: black;
+ 	top: 46%;
+	left: 44%;
+	height: .25%;
+	width: 12%;
+	z-index: 6;
+}
+.fscar {
+	position: absolute;
+ 	background: #c8e874;
+ 	top: 42%;
+	left: 61%;
+	height: .25%;
+	width: 5%;
+	z-index: 6;
+	transform: rotate(350deg);
+}
+.sscar {
+	position: absolute;
+ 	background: #c8e874;
+ 	top: 42%;
+	left: 63%;
+	height: .25%;
+	width: 3%;
+	z-index: 6;
+	transform: rotate(30deg);
+}
+.ascar {
+	position: absolute;
+ 	background: #c8e874;
+ 	top: 42%;
+	left: 61%;
+	height: .25%;
+	width: 3%;
+	z-index: 6;
+	transform: rotate(30deg);
+}
+.neck {
+	position: absolute;
+	background: #196642;
+	top: 50%;
+	left: 35%;
+	height: 30%;
+	width: 30%;
+}
+.shoulders {
+	position: absolute;
+ 	background: black;
+ 	top: 75%;
+	left: 15%;
+	height: 25%;
+	width: 70%;
+}
+.rightsleeve {
+	position: absolute;
+ 	background: white;
+ 	top: 85%;
+	left: 70%;
+	height: 15%;
+	width: 1%;
+}
+.leftsleeve {
+	position: absolute;
+ 	background: white;
+ 	top: 85%;
+	left: 30%;
+	height: 25%;
+	width: 1%;	
+}
+.vneck {
+	position: absolute;
+ 	background: #196642;
+ 	top: 75%;
+	left: 32.5%;
+	height: 35%;
+	width: 35%;	
+	-webkit-clip-path: polygon(50% 34%, 20% 0, 80% 0);
+	clip-path: polygon(50% 34%, 20% 0, 80% 0);
+}
+.lbolt {
+	position: absolute;
+ 	background: gray;
+ 	top: 65%;
+	left: 28%;
+	height: 4%;
+	width: 10%;
+}
+.rbolt {
+	position: absolute;
+ 	background: gray;
+ 	top: 65%;
+	left: 62%;
+	height: 4%;
+	width: 10%;	
+}
+.lbolthead {
+	position: absolute;
+ 	background: #b0b2ab;
+ 	top: 63%;
+	left: 26%;
+	height: 8%;
+	width: 3%;
+}
+.rbolthead {
+	position: absolute;
+ 	background: #b0b2ab;
+ 	top: 63%;
+	left: 72%;
+	height: 8%;
+	width: 3%;	
+}
+.leye {
+	position: absolute;
+ 	background: #e7efd2;
+ 	top: 28%;
+	left: 33%;
+	height: 4%;
+	width: 10%;
+	border-radius: 50%;
+	z-index: 5;
+}
+.reye {
+	position: absolute;
+ 	background: #e7efd2;
+ 	top: 28%;
+	left: 57%;
+	height: 4%;
+	width: 10%;
+	border-radius: 50%;	
+	z-index: 5;
+}
+.lret {
+	position: absolute;
+ 	background: #6a6d6b;
+ 	top: 29.5%;
+	left: 37%;
+	height: 1%;
+	width: 2%;
+	border-radius: 50%;
+	z-index: 6;
+}
+.rret {
+	position: absolute;
+ 	background: #6a6d6b;
+ 	top: 29.5%;
+	left: 61%;
+	height: 1%;
+	width: 2%;
+	border-radius: 50%;	
+	z-index: 6;
+}
+.bigstich {
+	position: absolute;
+ 	background: black;
+ 	top: 20%;
+	left: 32.5%;
+	height: .5%;
+	width: 35%;
+}
+
+
