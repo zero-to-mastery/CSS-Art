@@ -65,10 +65,12 @@ let cards = [
     ["Fita Cassete", "./Art/Pliavi/index.html", "./Art/Pliavi/print.png", "Vitor \"Pliavi\" Silvério", "https://github.com/Pliavi"],
     ["Panda", "./Art/Madhuri/index.html", "./Art/Madhuri/Screenshot.png", "Madhuri Soni", "https://github.com/sonimadhuri"],
     ["Xmas", "./Art/Chrissy/xmas.html", "./Art/Chrissy/xmas.png", "Chrissy", "https://github.com/charlecoda88"],
+    ["Spooky violin", "/Art/JaniH92/index.html", "/Art/JaniH92/spookyViolin.GIF", "Jani Hänninen", "https://github.com/jh1992jh"],
     ["Responsive Bars", "./Art/Rahul/index.html", "./Art/Rahul/index.png", "Rahul", "https://github.com/rik-96"],
+    ["Boat", "./Art/Boat/index.html", "./Art/Boat/Boat.png", "Titi Arimba", "https://github.com/titiarimba"],
+    ["Koala", "./Art/Chrissy/koala.html", "./Art/Chrissy/koalaedit.png", "Chrissy", "https://github.com/charlecoda88"],
     ["Landscape", "./Art/David/index.html", "./Art/David/landscape.png", "The24thDS", "https://github.com/the24thds"],
-	];
-  
+];
 
 
 // +--------------------------------------------------------------------------------+
