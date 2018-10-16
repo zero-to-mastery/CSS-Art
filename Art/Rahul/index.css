@@ -1,0 +1,48 @@
+hr{
+  width: 30px;
+  height: 4px;
+  background-color: #e00022;
+  border: none;
+}
+
+body{
+  background-color: #222;
+  text-align: center;
+}
+
+#container{
+  margin-top: 20%;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 1s;
+}
+
+#container:hover #one{
+  width: 40px;
+  transform-origin: left;
+  transform: translate(15%, -200%) rotate(45deg);
+  -moz-transform: translate(15%, -200%) rotate(45deg);
+  -webkit-transform: translate(15%, -200%) rotate(45deg);
+  transition: all 1s;
+}
+
+#container:hover #two{
+  width: 40px;
+  transform: translate(-3%, -150%) rotate(-45deg);
+  -moz-transform: translate(-3%, -150%) rotate(-45deg);
+  -webkit-transform: translate(-3%, -150%) rotate(-45deg);
+  transition: all 1s;
+}
+
+#container:hover #three{
+  display: none;
+}
+
+#container:hover{
+  padding: 1.2% 1% 1.2% 1%;
+  border: 4px solid #e00022;
+  border-radius: 50%;
+  transform: translate(0, -20%);
+  -moz-transform: translate(0, -20%);
+  -webkit-transform: translate(0, -20%);
+}
