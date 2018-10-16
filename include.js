@@ -64,8 +64,8 @@ let cards = [
     ["Frog", "./Art/Elin-frog/index.html", "./Art/Elin-frog/frog.png", "elindjuren", "https://github.com/elindjuren" ],
     ["Fita Cassete", "./Art/Pliavi/index.html", "./Art/Pliavi/print.png", "Vitor \"Pliavi\" Silvério", "https://github.com/Pliavi"],
     ["Panda", "./Art/Madhuri/index.html", "./Art/Madhuri/Screenshot.png", "Madhuri Soni", "https://github.com/sonimadhuri"],
-	["Xmas", "./Art/Chrissy/xmas.html", "./Art/Chrissy/xmas.png", "Chrissy", "https://github.com/charlecoda88"],
-
+    ["Xmas", "./Art/Chrissy/xmas.html", "./Art/Chrissy/xmas.png", "Chrissy", "https://github.com/charlecoda88"],
+    ["Spooky violin", "/Art/JaniH92/index.html", "/Art/JaniH92/spookyViolin.GIF", "Jani Hänninen", "https://github.com/jh1992jh"]
 	];
   
 
