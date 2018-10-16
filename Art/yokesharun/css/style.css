@@ -1,0 +1,53 @@
+body,
+.wrapper {
+  background: #FFECCA;
+}
+
+a {
+  margin-top: 50px;
+  display: block;
+}
+
+.wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.avocado {
+  overflow: inherit;
+  max-height: 85vh;
+}
+.avocado__body {
+  animation: body 2s infinite;
+  transform-origin: bottom;
+}
+.avocado__leg {
+  animation: legs 1s infinite;
+  transform-origin: bottom;
+}
+
+@keyframes legs {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.7);
+  }
+}
+@keyframes body {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  25% {
+    transform: translateY(13px) rotate(2deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0);
+  }
+  75% {
+    transform: translateY(13px) rotate(-2deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}

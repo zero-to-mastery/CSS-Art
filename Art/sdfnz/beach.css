@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	body: 100%;
+	background-color: #fbf5d7; 
+	overflow-x: hidden;
+}
+
+.waves {
+	position: relativve;
+	height: 500px;
+	width: 100%;
+	background-color: #4c9cb8;
+}
+
+.waves:before {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 75% 50%;
+	width: 100%;
+	height: 550px;
+	background-color: white;
+	right: -5px;
+	top: 40px;
+}
+
+.waves:after {
+	content: "";
+	position: absolute;
+	border-radius: 100% 50%;
+	width: 100%;
+	height: 450px;
+	background-color: #4c9cb8;
+	left: 0;
+	top: 27px;
+}

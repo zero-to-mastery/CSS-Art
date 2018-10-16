@@ -1,0 +1,90 @@
+body {
+  background: #00acc2;
+}
+
+.container,
+.left-sail,
+.left-sail2,
+.flag,
+.center,
+.right-sail,
+.boat-top,
+.boat-center,
+.boat-bottom {
+  position: absolute;
+}
+
+.container{
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  height: 250px;
+}
+
+.left-sail{
+  top: 30px;
+  left: 0;
+  border-top: 150px solid transparent;
+  border-right: 65px solid #fefefe;
+}
+
+.left-sail2{
+  top: 30px;
+  left: 35px;
+  border-top: 150px solid transparent;
+  border-right: 30px solid #ecf0f3;
+}
+
+.flag {
+  top: 25px;
+  left: 69px;
+  border-top: 5px solid transparent;
+  border-left: 30px solid #DF484A;
+  border-bottom: 10px solid transparent;
+}
+
+.center{
+  top: 20px;
+  left: 65px;
+  width: 3px;
+  height: 185px;
+  border-radius:100%;
+  background: #526e79;
+}
+
+.right-sail{
+  top: 60px;
+  left: 70px;
+  border-top: 120px solid transparent;
+  border-left: 45px solid #d8e5ec;
+}
+
+.boat-top{
+  top: 200px;
+  left: -15px;
+  width: 124px;
+  border-top: 12px solid #546f7a;
+  border-right: 14px solid transparent;
+  border-left: 13px solid transparent;
+}
+
+.boat-center{
+  top: 210px;
+  left: -5px;
+  width: 110px;
+  border-top: 6px solid #fffeff;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+.boat-bottom{
+  top: 215px;
+  left: 3px;
+  width: 94px;
+  border-top: 6px solid #ced7e0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}

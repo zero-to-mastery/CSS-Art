@@ -4,6 +4,7 @@ let cards = [
     //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
 
     ["CSS Dog", "./Art/Dog/index.html", "./Art/Dog/dog.gif", "Chintu Yadav Sara", "https://github.com/chintuyadav" ],
+    ["No Face", "./Art/saamiyah/no-face.html", "./Art/saamiyah/no-face.gif", "Saamiyah", "https://github.com/Saamiyah"],
     ["Mahatma Gandhi", "./Art/Mahatma%20Gandhi/index.html", "./Art/Mahatma%20Gandhi/Gandhi.png", "Chintu Yadav Sara", "https://github.com/chintuyadav"],
     ["WindMill Animation", "./Art/WindMill/index.html", "./Art/WindMill/windmill.gif", "Chintu Yadav Sara", "https://github.com/chintuyadav"],
     ["CSS Bird", "./Art/Bird/index.html", "./Art/Bird/Bird.png", "Chintu Yadav Sara", "https://github.com/chintuyadav"],
@@ -54,7 +55,21 @@ let cards = [
     ["Kirby", ".Art/Kirby.index.html", "./Art/Kirby/Kirby.png", "Aldiekmann", "https://github.com/aldiekmann"],
     ["Cartoon Skull", "./Art/Jose-Rios/index.html", "./Art/Jose-Rios/skull_css.JPG", "Jose", "https://github.com/Riosjl41"],
     ["Butterfly", "./Art/R-Butterfly/index.html", "./Art/R-Butterfly/R-Butterfly.png", "Russell", "https://github.com/russellsoppe"],
+    ["Robo - Dancer", "./Art/Florin/index.html", "./Art/Florin/robo-dancer.png", "Florin", "https://github.com/LoposFlorin"],
+    ["Smiley", "./Art/adrianomi/index.html", "./Art/adrianomi/smiley.jpg", "adrianomi", "https://github.com/adrianomi"],
+    ["Watermelon", "./Art/watermelon/index.html", "./Art/watermelon/watermelon-screenshot.PNG", "Dan Horsch", "https://github.com/danhorsch"],
+    ["Beach", "./Art/sdfnz/beach.html", "./Art/sdfnz/beach.jpg", "sdfnz", "https://github.com/sdfnz"],
+    ["Funny Avocado", "./Art/yokesharun/index.html", "./Art/yokesharun/avocado.png", "yokesharun", "https://github.com/yokesharun"],
+    ["Gameboy", "./Art/mctrl/gameboy.html", "./Art/mctrl/gameboy.jpg", "Martina", "https://github.com/mctrl"],
+    ["Frog", "./Art/Elin-frog/index.html", "./Art/Elin-frog/frog.png", "elindjuren", "https://github.com/elindjuren" ],
+    ["Fita Cassete", "./Art/Pliavi/index.html", "./Art/Pliavi/print.png", "Vitor \"Pliavi\" Silvério", "https://github.com/Pliavi"],
+    ["Panda", "./Art/Madhuri/index.html", "./Art/Madhuri/Screenshot.png", "Madhuri Soni", "https://github.com/sonimadhuri"],
+    ["Xmas", "./Art/Chrissy/xmas.html", "./Art/Chrissy/xmas.png", "Chrissy", "https://github.com/charlecoda88"],
+    ["Spooky violin", "/Art/JaniH92/index.html", "/Art/JaniH92/spookyViolin.GIF", "Jani Hänninen", "https://github.com/jh1992jh"],
+    ["Responsive Bars", "./Art/Rahul/index.html", "./Art/Rahul/index.png", "Rahul", "https://github.com/rik-96"],
+    ["Boat", "./Art/Boat/index.html", "./Art/Boat/Boat.png", "Titi Arimba", "https://github.com/titiarimba"],
     ["Koala", "./Art/Chrissy/koala.html", "./Art/Chrissy/koalaedit.png", "Chrissy", "https://github.com/charlecoda88"]
+];
 
 
 // +--------------------------------------------------------------------------------+
