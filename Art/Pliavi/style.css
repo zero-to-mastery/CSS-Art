@@ -1,0 +1,374 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#7b0093, #93007b);
+}
+
+.fita {
+    background: #2c2c2c;
+    border-radius: 12px;
+    height: 330px;
+    margin: auto;
+    position: relative;
+    width: 600px;
+    transform: perspective(900px) rotateX(10deg);
+    box-shadow: 1px 3px 0 #262626, 2px 6px 0 #262626, 3px 9px 0 #262626, 4px 12px 0 #262626, 5px 15px 0 #272727, 6px 17px 0 #282828, 7px 21px 0 #282828, 8px 24px 0 #292929, 9px 27px 0 #2a2a2a, 10px 30px 0 #2b2b2b;
+}
+
+.lateral {
+    background: #2c2c2c;
+    border-radius: 6px;
+    bottom: 24px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    right: -5px;
+    width: 610px;
+    box-shadow: 2px 3px 0 #252525, 4px 6px 0 #262626, 6px 9px 0 #282828, 8px 12px 0 #292929, 10px 15px 0 #2a2a2a;
+}
+
+.lateral .sombra {
+    box-shadow: 0 0 7px 1px #112;
+    height: 100%;
+    margin: auto;
+    width: 592px;
+}
+
+.parafusos {
+    margin-bottom: 5px;
+}
+
+.parafusos::after {
+    content: ' ';
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+.parafusos .parafuso {
+    background: #2d2d2d;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.6), inset 0 2px 6px -2px rgba(255, 255, 255, 0.333), inset 0 0 2px 1px rgba(0, 0, 0, 0.6);
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-family: sans;
+    line-height: 14px;
+    margin: 0 4px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.333);
+    top: 4px;
+    width: 14px;
+    float: left;
+}
+
+.parafusos .parafuso:nth-child(2) {
+    float: right;
+}
+
+.etiqueta-white {
+    background: #fff;
+    box-shadow: 0 0 0 6px #222, 0 -4px 1px 2px #000, 0 4px 1px 2px rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    height: 210px;
+}
+
+.linhas {
+    padding: 6px;
+    font-size: 10px;
+}
+
+.linhas .direita {
+    float: right;
+    margin-right: 100px;
+}
+
+.linhas div {
+    border-bottom: 1px solid #666;
+    height: 12px;
+}
+
+.etiqueta-color {
+    background: #ffa500;
+}
+
+.etiqueta-color .meio {
+    display: flex;
+    font-size: 48px;
+    margin: 10px;
+    margin-top: 6px;
+    padding-top: 2px;
+    align-items: center;
+}
+
+.etiqueta-color .dentro {
+    background: #808080;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.533);
+    border-radius: 14px;
+    height: 80px;
+    margin: 10px;
+    margin-top: 6px;
+    overflow: hidden;
+    width: 74%;
+}
+
+.etiqueta-color .marca {
+    margin: 10px;
+}
+
+.num {
+    font-weight: 100;
+}
+
+.meio .marca {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 2px 6px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.meio .marca .sigla {
+    letter-spacing: -4px;
+    font-size: 24px;
+}
+
+.meio .marca .nome {
+    font-size: 10px;
+}
+
+.baixo {
+    margin-top: -12px;
+    padding: 0 10px;
+}
+
+.baixo::after {
+    content: ' ';
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+.baixo .selo {
+    background-color: #fff;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASElEQVQYlZXMywkAMAgE0SnNkmwxPdjP5hTQfIkgXp4DoGghYN46A0WL/IDMF1xKGexw/dxhmSvvFb9qMhe32nyX2hG+wFexA1IMcQTyQFRjAAAAAElFTkSuQmCC");
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    width: 40px;
+    float: left;
+}
+
+.baixo .marca {
+    font-weight: bolder;
+    font-size: 52px;
+    float: left;
+    position: relative;
+    bottom: 14px;
+}
+
+.baixo .seila {
+    font-weight: 100;
+    font-size: 32px;
+    float: right;
+    position: relative;
+    bottom: -12px;
+}
+
+.encaixe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 6px 25px 0 25px;
+    background: #2c2c2c;
+    width: 592px;
+    margin: auto;
+}
+
+.circle {
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.133);
+    color: rgba(0, 0, 0, 0.667);
+    text-shadow: 0px -1px rgba(255, 255, 255, 0.267);
+    text-align: center;
+    width: 50px;
+    line-height: 50px;
+    font-size: 48px;
+    font-weight: bolder;
+    border-radius: 50%;
+    box-shadow: inset 0 -1px 2px #000, 0 1px 1px rgba(255, 255, 255, 0.267);
+}
+
+.entrada {
+    position: relative;
+}
+
+.skew {
+    background: #343434;
+    box-shadow: inset 0 1px 2px -1px rgba(255, 255, 255, 0.2), inset 0 1px 0 0 rgba(255, 255, 255, 0.133), 0 0 4px rgba(0, 0, 0, 0.333);
+    flex: 1;
+    height: 88px;
+    width: 360px;
+    transform-origin: center center;
+    transform: perspective(100px) rotateX(15deg);
+}
+
+.pontos {
+    position: absolute;
+    width: 360px;
+    bottom: 0;
+    padding: 0 16px;
+}
+
+.ponto {
+    width: 24px;
+    height: 24px;
+    background: #222;
+    position: relative;
+    box-shadow: inset 0 -1px 1px 0 rgba(255, 255, 255, 0.267);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.ponto:nth-child(1), .ponto:nth-child(2) {
+    float: left;
+}
+
+.ponto:nth-child(3), .ponto:nth-child(4) {
+    float: right;
+}
+
+.ponto.cima {
+    position: absolute;
+    top: 5px;
+    right: calc(50% - 24px);
+}
+
+.dentro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rolo {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 4px dashed #ccc;
+    margin: auto;
+    margin-left: 24px;
+    animation-name: roll;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: 0 0 0 8px #ddd, 0 0 0 30px #3d2f2c;
+}
+
+.rolo:last-child {
+    animation-name: unroll;
+    margin-right: 24px;
+    box-shadow: 0 0 0 8px #ddd, 0 0 0 90px #3d2f2c;
+}
+
+@-moz-keyframes roll {
+    from {
+        transform: rotateZ(1200deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 30px #3d2f2c;
+    }
+    to {
+        transform: rotateZ(0deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 90px #3d2f2c;
+    }
+}
+
+@-webkit-keyframes roll {
+    from {
+        transform: rotateZ(1200deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 30px #3d2f2c;
+    }
+    to {
+        transform: rotateZ(0deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 90px #3d2f2c;
+    }
+}
+
+@-o-keyframes roll {
+    from {
+        transform: rotateZ(1200deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 30px #3d2f2c;
+    }
+    to {
+        transform: rotateZ(0deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 90px #3d2f2c;
+    }
+}
+
+@keyframes roll {
+    from {
+        transform: rotateZ(1200deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 30px #3d2f2c;
+    }
+    to {
+        transform: rotateZ(0deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 90px #3d2f2c;
+    }
+}
+
+@-moz-keyframes unroll {
+    from {
+        transform: rotateZ(1200deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 90px #3d2f2c;
+    }
+    to {
+        transform: rotateZ(0deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 30px #3d2f2c;
+    }
+}
+
+@-webkit-keyframes unroll {
+    from {
+        transform: rotateZ(1200deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 90px #3d2f2c;
+    }
+    to {
+        transform: rotateZ(0deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 30px #3d2f2c;
+    }
+}
+
+@-o-keyframes unroll {
+    from {
+        transform: rotateZ(1200deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 90px #3d2f2c;
+    }
+    to {
+        transform: rotateZ(0deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 30px #3d2f2c;
+    }
+}
+
+@keyframes unroll {
+    from {
+        transform: rotateZ(1200deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 90px #3d2f2c;
+    }
+    to {
+        transform: rotateZ(0deg);
+        box-shadow: 0 0 0 8px #ddd, 0 0 0 30px #3d2f2c;
+    }
+}
