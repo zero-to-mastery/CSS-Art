@@ -28,21 +28,22 @@ body {
 	position: absolute;
 	margin-left: 40px;
 	margin-top: 52px;
-	color: #000000;
+	color: #aa0000;
 	text-align: center;
 	font-family: 'Monoton', cursive;
 	font-size: 72px;
 }
 
 .suit:before, .suit:after {
-	content: "\2660";
-	color: #000;
+	content: '\2665';
+	animation:pulsecolor 1s infinite;
+	color: #aa0000;
 }
 
 .suit:before {
 	position: absolute;
 	font-size: 35px;
-	padding: 2px;
+	padding: 5px;
 }
  
 .suit:after {
@@ -50,4 +51,13 @@ body {
 	font-size: 35px;
 	right: 230px;
 	bottom: 200px;
+	animation:pulsecolor 1s infinite;
+}
+
+@keyframes pulse {
+	10% {transform: scale(1.1)}
+}
+
+@keyframes pulsecolor {
+  10% {color: #dd0000}
 }
