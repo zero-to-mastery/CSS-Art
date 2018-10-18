@@ -2,6 +2,8 @@ let cards = [
     //  Add your card in this section
     //  Follow this example format:
     //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
+
+    ["CSS Ace","./Art/TinatheAce/ace.html","./Art/TinatheAce/ace.png", "Tina the Ace","https://github.com/nnh242"],
     ["Frank", "./Art/AndrewDiedrich/index.html", "./Art/AndrewDiedrich/Frank.PNG", "Andrew Diedrich", "https://github.com/AndrewDiedrich" ],
     ["CSS Dog", "./Art/Dog/index.html", "./Art/Dog/dog.gif", "Chintu Yadav Sara", "https://github.com/chintuyadav" ],
     ["No Face", "./Art/saamiyah/no-face.html", "./Art/saamiyah/no-face.gif", "Saamiyah", "https://github.com/Saamiyah"],
