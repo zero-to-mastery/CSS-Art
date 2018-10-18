@@ -1,0 +1,184 @@
+body {
+	min-height: 100vh;
+	min-width: 100vw;
+	position: relative;
+	background: #ddd;
+}
+
+.pic {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	border: 5px solid #bbb;
+	border-radius: 5px;
+	background: skyblue;
+	top: 50px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.pic__floor {
+	position: relative;
+	top: 400px;
+	width: 100%;
+	background: #61B329;
+	height: 100px;
+}
+
+.pic__floor:before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -10px;
+	background-repeat: repeat;
+	height: 15px;
+	background-size: 20px 20px;
+	background-image: radial-gradient(circle at 10px -5px, transparent 12px, #61B329 13px);
+}
+
+.pic__sod {
+	position: relative;
+	display: inline-block;
+	top: -45px;
+	width: 50px;
+	height: 35px;
+}
+
+.pic__sod--left {
+	left: 5px;
+}
+
+.pic__sod--right {
+	left: 300px;
+}
+
+.pic__sod--middle {
+	left: 54px;
+}
+
+.pic__blade {
+	position: absolute;
+	width: 75px;
+	height: 100px;
+	border-radius: 50%;
+	box-shadow: 15px 15px 0 0 #61B329;
+}
+
+.pic__blade--right {
+	position: absolute;
+	left: 95px;
+	width: 75px;
+	height: 100px;
+	border-radius: 50%;
+	box-shadow: -15px 15px 0 0 #61B329;
+}
+
+.pic__blade--tall {
+	position: absolute;
+	width: 55px;
+	top: -35px;
+	left: 25px;
+	height: 120px;
+	box-shadow: 10px 25px 0 0 #61B329;
+}
+
+.pic__balloon {
+	position: absolute;
+	width: 180px;
+	height: 220px;
+	border-radius: 50%;
+	background: red;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.pic__balloon:after {
+	content: "";
+	display: inline-block;
+	width: 2px;
+	height: 200px;
+	position: absolute;
+	bottom: -200px;
+	left: calc(50% - 1px);
+	background: #777;
+}
+
+
+.pic__balloon:before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	bottom: -20px;
+	transform: rotate(-45deg);
+	left: calc(50% - 10px);
+	width: 0;
+	height: 0;
+	border-top: 20px solid red;
+	border-left: 20px solid transparent;
+	z-index: 1;
+}
+
+.pic__balloon-shine {
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	box-shadow: 15px -10px 0 -10px rgba(255, 255, 255, 0.5);
+}
+
+.pic__baloon-number {
+	color: goldenrod;
+	font-size: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.pic__cloud {
+	position: absolute;
+	display: inline-block;
+}
+
+.pic__cloud--one {
+	top: 150px;
+	left: -50px;
+}
+
+.pic__cloud--two {
+	top: 95px;
+	right: -50px;
+}
+
+.pic__cloud-wrapper {
+	position: relative;
+	display: inline-block;
+}
+
+.pic__cloud-part-one {
+	position: relative;
+	display: inline-block;
+	width: 250px;
+	height: 80px;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0px 20px 20px #fff;
+}
+
+.pic__cloud-part-two {
+	position: absolute;
+	display: inline-block;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 120px;
+	height: 85px;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0px 20px 20px #fff;
+}
