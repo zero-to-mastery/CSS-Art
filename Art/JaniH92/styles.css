@@ -1,0 +1,95 @@
+body {
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.artContainer {
+    position: relative;
+    padding: 1em;
+    height: 200px;
+    width: 200px;
+}
+
+.artContainer #violin {
+    z-index: 0;
+    position: absolute;
+    top: 3em;
+    left: -1em;
+}
+
+.artContainer .ghost {
+    height: 100%;
+    background: transparent;
+    width: 50%;
+    margin: auto;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    background: #eee;
+}
+
+.artContainer .ghost .ghostHead {
+    position: relative;
+}
+
+.artContainer .ghost .ghostHead .eye {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1060;
+    box-shadow: inset 1.5px 1.5px 1.5px 1.5px rgba(50, 50, 50, 1);
+    background: #eee;
+}
+
+.artContainer .ghost .ghostHead .leftEye {
+    top: 2em;
+    left: 1em;
+}
+
+.artContainer .ghost .ghostHead .rightEye {
+    top: 2em;
+    right: 1em;
+} 
+
+.artContainer .ghost .ghostBody {
+    width: 100%;
+    height: 70%;
+    
+    position: relative;
+}
+
+.artContainer .ghost .hand {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background: #eee;
+    position: absolute;
+    z-index: 1060;
+}
+
+.bow {
+    position: absolute;
+    top: 5.5em;
+    right: 1em;
+    z-index: 1040;
+    background: brown;
+    min-height: 10px;
+    min-width: 150px;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+}
+
+.artContainer .ghost .rightHand {
+    top: 4.7em;
+    right: 0;
+    box-shadow: -2px 2px 3px rgba(50,50,50, 1);
+}
+
+.artContainer .ghost .leftHand {
+    top: 3em;
+    left: -4em;
+    box-shadow: 5px -5px 3px rgba(50,50,50, 1);
+}
