@@ -75,6 +75,7 @@ let cards = [
     ["Birthday Balloon", "./Art/Dazzla2020/index.html", "./Art/Dazzla2020/birthday-balloon.png", "Dazzla", "https://github.com/Dazzla2020"],
     ["Spinning Shuriken", "./Art/Mr.Zilox/index.html", "./Art/Mr.Zilox/ninga.png", "Mr.Zilox", "https://github.com/mitchellKalcher/"],
     ["SSunny apple", "./Art/DepSteph/my-art.html", "./Art/DepSteph/my-art.png", "DepSteph", "https://github.com/StephDs"],
+    ["Hungry Caterpillar", "./Art/CarmenIancu/index.html", "./Art/CarmenIancu/hungry_caterpillar.png", "CarmenIancu", "https://github.com/CarmenIancu"],
 ];
 
 
