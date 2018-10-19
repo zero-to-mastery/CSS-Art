@@ -1,0 +1,333 @@
+
+body {
+	height:100vh;
+	width:100%;
+	border:0;
+	margin:0;
+ }
+
+*:hover {
+	transform: scale(1.1);
+}
+
+.container {
+	position: relative;
+ 	margin: auto;
+    display: block;
+    height:500px;
+    width:500px;
+    top:10%;
+}
+
+
+.head {
+	position: absolute;
+	top:0;
+	left:50%;
+	right:0;
+	bottom:0;
+	margin: auto;  
+	width:70px;
+	height:100px;
+	border-radius:35%/50%;	
+	background:red;
+	z-index:11;
+
+}
+
+.body1{
+	position: absolute;
+	top:0;
+	left:35%;
+	right:0;
+	bottom:0;
+	margin: auto;  
+	width:60px;
+	height:90px;
+	border-radius:50%/70%;	
+	background:#32b832;
+	z-index:10;
+
+}
+.body2{
+	position: absolute;
+	top:0;
+	left:20%;
+	right:0;
+	bottom:5%;
+	margin: auto;  
+	width:60px;
+	height:90px;
+	border-radius:50%/70%;	
+	background:#0e810e;
+	z-index:9;
+
+}
+.body3{
+	position: absolute;
+	top:0;
+	left:10%;
+	right:0;
+	bottom:20%;
+	margin: auto;  
+	width:60px;
+	height:90px;
+	border-radius:50%/70%;	
+	background:#2ab02a;
+	z-index:8;
+
+}
+
+.body4{
+	position: absolute;
+	top:0;
+	left:0;
+	right:3%;
+	bottom:30%;
+	margin: auto;  
+	width:60px;
+	height:90px;
+	border-radius:50%/70%;	
+	background:#2c692c;
+	z-index:7;
+}
+
+.body5{
+	position: absolute;
+	top:0;
+	left:0;
+	right:15%;
+	bottom:25%;
+	margin: auto;  
+	width:60px;
+	height:90px;
+	border-radius:50%/70%;	
+	background:#1a901a;
+	z-index:6;
+
+}
+
+.body6{
+	position: absolute;
+	top:0;
+	left:0;
+	right:30%;
+	bottom:10%;
+	margin: auto;  
+	width:60px;
+	height:90px;
+	border-radius:50%/70%;	
+	background:#479447;
+	z-index:5;
+
+}
+
+.body7{
+	position: absolute;
+	top:0;
+	left:0;
+	right:45%;
+	bottom:0;
+	margin: auto;  
+	width:60px;
+	height:90px;
+	border-radius:50%/70%;	
+	background:#44c344;
+	z-index:4;
+
+}
+
+.body8{
+	position: absolute;
+	top:0;
+	left:0;
+	right:60%;
+	bottom:10%;
+	margin: auto;  
+	width:60px;
+	height:90px;
+	border-radius:50%/70%;	
+	background:green;
+	z-index:3;
+
+}
+
+.body9{
+	position: absolute;
+	top:0;
+	left:0;
+	right:70%;
+	bottom:5%;
+	margin: auto;  
+	width:60px;
+	height:90px;
+	border-radius:50%/70%;	
+	background:#327232;
+	z-index:2;
+
+}
+
+.body10{
+	position: absolute;
+	top:0;
+	left:0;
+	right:80%;
+	bottom:5%;
+	margin: auto;  
+	width:50px;
+	height:70px;
+	border-radius:50%/70%;	
+	background:#499249;
+	z-index:1;
+
+}
+
+.eye1 {
+	position:absolute;
+	top:20%;
+	left:20%;
+	right:0;
+	bottom:0;
+	width:20px;
+	height:20px;
+	background:white;
+	border-radius: 50%
+}
+
+.eye2 {
+	position:absolute;
+	top:20%;
+	left:50%;
+	right:0;
+	bottom:0;
+	width:20px;
+	height:20px;
+	background:white;
+	border-radius: 50%
+}
+
+.eyeball1 {
+	position:absolute;
+	top:40%;
+	left:30%;
+	right:0;
+	bottom:0;
+	width:10px;
+	height:10px;
+	background:black;
+	border-radius: 50%
+}
+
+.eyeball2 {
+	position:absolute;
+	top:40%;
+	left:30%;
+	right:0;
+	bottom:0;
+	width:10px;
+	height:10px;
+	background:black;
+	border-radius: 50%
+}
+
+.mouth {
+	position:absolute;
+	top:55%;
+	left:35%;
+	right:0;
+	bottom:0;
+	width:25px;
+	height:25px;
+	background:black;
+	border-radius: 50%
+}
+
+.antennae1 {
+	position:absolute;
+	top:32%;
+	left:72.5%;
+	right:0;
+	bottom:0;
+	width:10px;
+	height:40px;
+	background:brown;
+	border-radius:60% 60% 50% 50%/ 50% 50% 50% 50%;
+}
+
+.antennae2 {
+	position:absolute;
+	top:32%;
+	left:75.5%;
+	right:0;
+	bottom:0;
+	width:10px;
+	height:40px;
+	background:brown;
+	border-radius:60% 60% 50% 50%/ 50% 50% 50% 50%;
+}
+
+.leg1{
+	position:absolute;
+	top:55%;
+	left:10%;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent; 
+	border-right: 10px solid transparent; 
+	border-bottom: 20px solid brown;
+}
+
+.leg2{
+	position:absolute;
+	top:55%;
+	left:15%;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent; 
+	border-right: 10px solid transparent; 
+	border-bottom: 20px solid brown;
+}
+
+.leg3{
+	position:absolute;
+	top:55.5%;
+	right:40%;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent; 
+	border-right: 10px solid transparent; 
+	border-bottom: 20px solid brown;
+}
+
+.leg4{
+	position:absolute;
+	top:55.5%;
+	right:36%;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent; 
+	border-right: 10px solid transparent; 
+	border-bottom: 20px solid brown;
+}
+
+.leg5{
+	position:absolute;
+	top:58%;
+	right:29%;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent; 
+	border-right: 10px solid transparent; 
+	border-bottom: 20px solid brown;
+}
+
+.leg6{
+	position:absolute;
+	top:58%;
+	right:33%;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent; 
+	border-right: 10px solid transparent; 
+	border-bottom: 20px solid brown;
+}
