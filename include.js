@@ -82,6 +82,7 @@ let cards = [
     ["Mario Pipe", "./Art/iggyzane/index.html", "./Art/iggyzane/MarioPipe.PNG", "Iggy Baker", "https://github.com/iggyzane"],
     ["Pizza", "./Art/carter/pizza.html", "./Art/carter/pizza.png", "Carter", "https://github.com/carterschieffer"],
     ["Rocket", "./Art/cbh6/rocket.html", "./Art/cbh6/rocket.jpg", "Cristian", "https://github.com/cbh6"],
+    ["Space Invader", "./Art/JFox/spaceInvader.html", "./Art/JFox/spaceInvader.png", "Jeremy Fox", "https://github.com/jeremyfox36"],
 
 
 
