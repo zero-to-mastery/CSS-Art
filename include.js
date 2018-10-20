@@ -78,6 +78,7 @@ let cards = [
     ["Airplane", "./Art/jen/plane.html", "./Art/jen/plane.png", "Jen", "https://github.com/jenwr"],
     ["Hungry Caterpillar", "./Art/CarmenIancu/index.html", "./Art/CarmenIancu/hungry_caterpillar.JPG", "CarmenIancu", "https://github.com/CarmenIancu"],
     ["CSS Flower", "./Art/Kim/index.html", "./Art/Kim/Flower.png", "Kim", "https://github.com/QAMinn2468"],
+    ["Rocket", "./Art/cbh6/rocket.html", "./Art/cbh6/rocket.gif", "Cristian", "https://github.com/cbh6"],
 
 ];
 

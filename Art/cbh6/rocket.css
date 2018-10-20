@@ -1,0 +1,151 @@
+body {
+  background-image: linear-gradient(to right, #18186b, black);
+  /*background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); */
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+.rocket-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 44.4%;
+  animation: arocket 0.2s linear infinite;
+}
+.window {
+  position: absolute;
+  top: 30%;
+  left: 44.4%;
+  width: 50px;
+  height: 50px;
+  background: #18186b;
+  border-radius: 50%;
+  z-index: 10;
+}
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 15%;
+  width: 600px;
+  height: 420px;
+  background: none;
+}
+.rocket {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #b1c4e6;
+  clip-path: ellipse(16% 49% at 47% 49%);
+}
+.rocket-back {
+  position: absolute;
+  top: 16.5%;
+  left: 40%;
+  width: 17%;
+  height: 67%;
+  background: #b1c4e6;
+  border-radius: 50% 50% 10px 10px;
+}
+
+.left-wing {
+  clip-path: polygon(32% 0, 52% 51%, 31% 100%, 18% 100%, 0 36%);
+  position: absolute;
+  top: 65%;
+  left: 32%;
+  width: 27%;
+  height: 35%;
+  background: #b1c4e6;
+}
+.right-wing {
+  clip-path: polygon(71% 0, 100% 39%, 79% 100%, 67% 100%, 46% 51%);
+  position: absolute;
+  top: 65%;
+  left: 37%;
+  width: 27%;
+  height: 35%;
+  background: #b1c4e6;
+}
+.planet {
+  position: absolute;
+  animation: acloud 30s linear infinite;
+}
+.planet1 {
+  left: -15%;
+  width: 10px;
+  height: 10px;
+  background: darkred;
+  border-radius: 50%;
+}
+.planet2 {
+  left: 36.5%;
+  width: 10px;
+  height: 10px;
+  background: darkgray;
+  border-radius: 50%;
+  z-index: -10;
+  animation-delay: -5s;
+}
+
+.planet3 {
+  left: 65%;
+  width: 15px;
+  height: 15px;
+  background: lightyellow;
+  border-radius: 50%;
+  animation-delay: -8.8s;
+}
+
+.planet4 {
+  left: 85%;
+  width: 10px;
+  height: 10px;
+  background: lightblue;
+  border-radius: 50%;
+  animation-delay: -12.8s;
+}
+
+.planet5 {
+  left: 15%;
+  width: 20px;
+  height: 20px;
+  background: lightgreen;
+  border-radius: 50%;
+  animation-delay: -12.8s;
+}
+
+@keyframes acloud {
+  0% {
+    transform: translateY(-1000%);
+  }
+  100% {
+    transform: translateY(5000%);
+  }
+}
+
+@keyframes arocket {
+  0% {
+    transform: translate(-50%, -50%) translate(0, 0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translate(-5px, 5px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translate(0, 0);
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
