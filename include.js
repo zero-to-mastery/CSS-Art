@@ -72,12 +72,20 @@ let cards = [
     ["Boat", "./Art/Boat/index.html", "./Art/Boat/Boat.png", "Titi Arimba", "https://github.com/titiarimba"],
     ["Koala", "./Art/Chrissy/koala.html", "./Art/Chrissy/koalaedit.png", "Chrissy", "https://github.com/charlecoda88"],
     ["Landscape", "./Art/David/index.html", "./Art/David/landscape.png", "The24thDS", "https://github.com/the24thds"],
-    ["Birthday Balloon", "./Art/Dazzla2020/index.html", "./Art/Dazzla2020/birthday-balloon.png", "Dazzla", "https://github.com/Dazzla2020"],
+    ["Birthday Balloon", "./Art/Dazzla2020/index.html", "./Art/Dazzla2020/bithday-balloon.png", "Dazzla", "https://github.com/Dazzla2020"],
     ["Spinning Shuriken", "./Art/Mr.Zilox/index.html", "./Art/Mr.Zilox/ninga.png", "Mr.Zilox", "https://github.com/mitchellKalcher/"],
-    ["SSunny apple", "./Art/DepSteph/my-art.html", "./Art/DepSteph/my-art.png", "DepSteph", "https://github.com/StephDs"],
+    ["Sunny apple", "./Art/DepSteph/my-art.html", "./Art/DepSteph/my-art.png", "DepSteph", "https://github.com/StephDs"],
     ["Airplane", "./Art/jen/plane.html", "./Art/jen/plane.png", "Jen", "https://github.com/jenwr"],
-    ["Hungry Caterpillar", "./Art/CarmenIancu/index.html", "./Art/CarmenIancu/hungry_caterpillar.png", "CarmenIancu", "https://github.com/CarmenIancu"],
     ["Mouse", "./Art/jen/mouse.html", "./Art/jen/mouse.png", "Jen", "https://github.com/jenwr"],
+    ["Hungry Caterpillar", "./Art/CarmenIancu/index.html", "./Art/CarmenIancu/hungry_caterpillar.JPG", "CarmenIancu", "https://github.com/CarmenIancu"],
+    ["CSS Flower", "./Art/Kim/index.html", "./Art/Kim/Flower.png", "Kim", "https://github.com/QAMinn2468"],
+    ["Mario Pipe", "./Art/iggyzane/index.html", "./Art/iggyzane/MarioPipe.PNG", "Iggy Baker", "https://github.com/iggyzane"],
+    ["Pizza", "./Art/carter/pizza.html", "./Art/carter/pizza.png", "Carter", "https://github.com/carterschieffer"],
+    ["Rocket", "./Art/cbh6/rocket.html", "./Art/cbh6/rocket.jpg", "Cristian", "https://github.com/cbh6"],
+
+
+
+
 ];
 
 
