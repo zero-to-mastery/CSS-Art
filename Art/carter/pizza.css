@@ -1,0 +1,114 @@
+body {
+    background:#bc975c;
+}
+.container {
+    position: absolute;
+    margin: auto;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    height: 250px;
+}
+.pizza {
+    width:0px;
+    height:0px;
+    border-bottom:250px solid #efc600;
+    border-top:0px solid transparent;
+    border-left:80px solid transparent;
+    border-right:80px solid transparent;
+}
+.crust {
+    width: 180px;
+    height: 30px;
+    background: #fff6e8;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -15px;
+    left: -10px;
+}
+.pepperoni1 {
+    width: 50px;
+    height: 25px;
+    background: #f4623f;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    bottom: 43px;
+    left: 6px;
+    transform: rotate(107deg);
+}
+.pepperoni2 {
+    width: 44px;
+    height: 22px;
+    background: #f4623f;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    position: absolute;
+    bottom: 138px;
+    left: 37px;
+    transform: rotate(107deg);
+}
+.pepperoni3 {
+    width: 50px;
+    height: 25px;
+    background: #f4623f;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    bottom: 172px;
+    left: 63px;
+    transform: rotate(-108deg);
+}
+.pepperoni4 {
+    width: 46px;
+    height: 46px;
+    background: #f4623f;
+    border-radius: 23px;
+    position: absolute;
+    bottom: 68px;
+    left: 86px;
+}
+.pepperoni5 {
+    width: 50px;
+    height: 50px;
+    background: #f4623f;
+    border-radius: 25px;
+    position: absolute;
+    bottom: -13px;
+    left: 96px;
+}
+.eye1 {
+    width: 22px;
+    height: 22px;
+    background: #552332;
+    position: absolute;
+    border-radius: 30px;
+    box-shadow: 6px -6px #fff6e8 inset;
+    bottom: 80px;
+    left: 40px;
+}
+.eye2 {
+    width: 22px;
+    height: 22px;
+    background: #552332;
+    position: absolute;
+    border-radius: 30px;
+    box-shadow: 6px -6px #fff6e8 inset;
+    bottom: 80px;
+    left: 92px;
+}
+.smile {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    border-bottom: 4px solid #552332;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #552332;
+    border-right: 4px solid transparent;
+    border-radius: 40px;
+    transform: rotate(-45deg);
+}
