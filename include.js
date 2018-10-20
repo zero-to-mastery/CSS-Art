@@ -76,6 +76,8 @@ let cards = [
     ["Spinning Shuriken", "./Art/Mr.Zilox/index.html", "./Art/Mr.Zilox/ninga.png", "Mr.Zilox", "https://github.com/mitchellKalcher/"],
     ["SSunny apple", "./Art/DepSteph/my-art.html", "./Art/DepSteph/my-art.png", "DepSteph", "https://github.com/StephDs"],
     ["Airplane", "./Art/jen/plane.html", "./Art/jen/plane.png", "Jen", "https://github.com/jenwr"],
+    ["Hungry Caterpillar", "./Art/CarmenIancu/index.html", "./Art/CarmenIancu/hungry_caterpillar.png", "CarmenIancu", "https://github.com/CarmenIancu"],
+
 ];
 
 
