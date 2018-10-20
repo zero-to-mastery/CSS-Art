@@ -1,0 +1,147 @@
+body {
+    background: lightblue;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    width: 500px;
+    height: 500px;
+}
+
+.circle {
+    position: absolute;
+    background: darkgray;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: 20%;
+    top: 30%;
+    z-index: 2;
+}
+
+.cone {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 170px solid gray;
+    border-radius: 50%;
+    left: 27%;
+    top: 15%;
+    z-index: 2;
+}
+
+.left-eye {
+    position: absolute;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 43%;
+    top: 25%;
+    z-index: 3;
+}
+
+.right-eye {
+    position: absolute;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 53%;
+    top: 25%;
+    z-index: 3;
+}
+
+.left-ear {
+    position: absolute;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 23%;
+    top: 10%;
+    z-index: 1;
+}
+
+.right-ear {
+    position: absolute;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 60%;
+    top: 10%;
+    z-index: 1;
+}
+
+.inner-ear {
+    position: absolute;
+    background-color: pink;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+}
+
+.line1 {
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 400px;
+    transform: rotate(-40deg);
+    left: 45%;
+    top: 28%;
+    z-index: 1;
+}
+
+.line2 {
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 400px;
+    transform: rotate(40deg);
+    left: 53%;
+    top: 28%;
+    z-index: 1;
+}
+
+.whiskers1 {
+    position: absolute;
+    background-color: black;
+    width: 2px;
+    height: 120px;
+    transform: rotate(-80deg);
+    left: 51%;
+    top: 35%;
+    z-index: 3;
+}
+
+.whiskers2 {
+    position: absolute;
+    background-color: black;
+    width: 2px;
+    height: 120px;
+    transform: rotate(80deg);
+    left: 51%;
+    top: 35%;
+    z-index: 3;
+}
+
+.nose {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 22px solid pink;
+    left: 48%;
+    top: 45%;
+    z-index: 3;
+}

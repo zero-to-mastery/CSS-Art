@@ -77,7 +77,7 @@ let cards = [
     ["SSunny apple", "./Art/DepSteph/my-art.html", "./Art/DepSteph/my-art.png", "DepSteph", "https://github.com/StephDs"],
     ["Airplane", "./Art/jen/plane.html", "./Art/jen/plane.png", "Jen", "https://github.com/jenwr"],
     ["Hungry Caterpillar", "./Art/CarmenIancu/index.html", "./Art/CarmenIancu/hungry_caterpillar.png", "CarmenIancu", "https://github.com/CarmenIancu"],
-
+    ["Mouse", "./Art/jen/mouse.html", "./Art/jen/mouse.png", "Jen", "https://github.com/jenwr"],
 ];
 
 
