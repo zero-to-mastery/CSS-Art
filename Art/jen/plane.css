@@ -1,0 +1,47 @@
+body{
+    background: #808080;
+    background-image: linear-gradient(rgb(24, 12, 156), rgb(168, 190, 255));
+}
+
+.box{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    width: 600px;
+    height: 420px;
+}
+
+.wing{
+    background: yellow;
+    position: absolute;
+    width: 10%;
+    height: 60%;
+    border-radius: 30px;
+    transform: rotate(-45deg);
+    left: 55%;
+    top: 15%;
+}
+
+.tail {
+    background: yellow;
+    position: absolute;
+    width: 5%;
+    height: 20%;
+    border-radius: 30px;
+    transform: rotate(-45deg);
+    left: 40%;
+    top: 60%;
+    }
+
+.fuselage {
+    background: yellow;
+    position: absolute;
+    width: 5%;
+    height: 55%;
+    left: 52%;
+    top: 25%;
+    transform: rotate(45deg);
+    border-radius: 30px;
+}
+
