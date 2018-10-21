@@ -83,7 +83,8 @@ let cards = [
     ["Pizza", "./Art/carter/pizza.html", "./Art/carter/pizza.png", "Carter", "https://github.com/carterschieffer"],
     ["Rocket", "./Art/cbh6/rocket.html", "./Art/cbh6/rocket.jpg", "Cristian", "https://github.com/cbh6"],
     ["Space Invader", "./Art/JFox/spaceInvader.html", "./Art/JFox/spaceInvader.png", "Jeremy Fox", "https://github.com/jeremyfox36"],
-   ["Beating Heart", "./Art/nikiya/index.html", "./Art/nikiya/heart-beat.png", "Nikiya Simpson", "https://github.com/nikiyasimpson"]
+   ["Beating Heart", "./Art/nikiya/index.html", "./Art/nikiya/heart-beat.png", "Nikiya Simpson", "https://github.com/nikiyasimpson"],
+   ["Waving Penguin", "./Art/orinayo/index.html", "./Art/orinayo/penguin_art.png", "Orinayo Oyelade", "https://github.com/orinayo"]
 ];
 
 
