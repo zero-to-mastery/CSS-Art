@@ -1,0 +1,149 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 5em 0em 5em;
+    background-color: #68aeff;
+   }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 2px 10px 13px 15px 35px 15px 15px;
+    grid-template-rows: 4px 30px;
+    grid-template-areas:
+      "verytop verytop verytop verytop verytop verytop verytop verytop "
+      "top top1 top2 top3 top4 top5 top6 top7"
+      "middle middle middle middle middle middle middle middle"
+      "bottom bottom1 bottom2 bottom3 bottom4 bottom5 bottom6 bottom7";  
+  }
+  
+  body {
+    background-color: red;
+  }
+  
+  .verytop {
+    grid-area: verytop;
+    width: 108px;
+    height: 4px;
+    background-color: black;
+  }
+  
+  .top {
+    grid-area: top;
+    width: 2px;
+    height: 30px;
+    background-color: black;
+  }
+  
+  .top1 {
+    grid-area: top1;
+    width: 10px;
+    height: 30px;
+    background-color: green;
+  }
+  
+  .top2 {
+    grid-area: top2;
+    width: 13px;
+    height: 30px;
+    background-color: #11dd52;
+  }
+  
+  .top3 {
+    grid-area: top3;
+    width: 15px;
+    height: 30px;
+    background-color: white;
+  }
+  
+  .top4 {
+    grid-area: top4;
+    width: 35px;
+    height: 30px;
+    background-color: #11dd52;
+  }
+  
+  .top5 {
+    grid-area: top5;
+    width: 15px;
+    height: 30px;
+    background-color: #3aa55d;
+  }
+  
+  .top6 {
+    grid-area: top6;
+    width: 15px;
+    height: 30px;
+    background-color: green;
+  }
+  
+  .top7 {
+    grid-area: top7;
+    width: 5px;
+    height: 30px;
+    background-color: black;
+  }
+  
+  .middle {
+    grid-area: middle;
+    width: 105px;
+    height: 5px;
+    background-color: black;
+  }
+  
+  .bottom {
+    grid-area: bottom;
+    width: 2px;
+    height: 200px;
+    background-color: black;
+  }
+  
+  .bottom1 {
+    grid-area: bottom1;
+    width: 12px;
+    height: 200px;
+    background-color: green;
+  }
+  
+  .bottom2 {
+    grid-area: bottom2;
+    width: 15px;
+    height: 200px;
+    background-color: #11dd52;
+  }
+  
+  .bottom3 {
+    grid-area: bottom3;
+    width: 15px;
+    height: 200px;
+    background-color: white;
+    
+  }
+  
+  .bottom4 {
+    grid-area: bottom4;
+    width: 35px;
+    height: 200px;
+    background-color: #11dd52;
+  }
+  
+  .bottom5 {
+    grid-area: bottom5;
+    width: 15px;
+    height: 200px;
+    background-color: #3aa55d;
+  }
+  
+  .bottom6 {
+    grid-area: bottom6;
+    width: 15px;
+    height: 200px;
+    background-color: green;
+  }
+  
+  .bottom7 {
+    grid-area: bottom7;
+    width: 5px;
+    height: 200px;
+    background-color: black;
+  }

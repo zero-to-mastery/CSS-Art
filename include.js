@@ -74,10 +74,16 @@ let cards = [
     ["Landscape", "./Art/David/index.html", "./Art/David/landscape.png", "The24thDS", "https://github.com/the24thds"],
     ["Birthday Balloon", "./Art/Dazzla2020/index.html", "./Art/Dazzla2020/bithday-balloon.png", "Dazzla", "https://github.com/Dazzla2020"],
     ["Spinning Shuriken", "./Art/Mr.Zilox/index.html", "./Art/Mr.Zilox/ninga.png", "Mr.Zilox", "https://github.com/mitchellKalcher/"],
-    ["SSunny apple", "./Art/DepSteph/my-art.html", "./Art/DepSteph/my-art.png", "DepSteph", "https://github.com/StephDs"],
+    ["Sunny apple", "./Art/DepSteph/my-art.html", "./Art/DepSteph/my-art.png", "DepSteph", "https://github.com/StephDs"],
     ["Airplane", "./Art/jen/plane.html", "./Art/jen/plane.png", "Jen", "https://github.com/jenwr"],
+    ["Mouse", "./Art/jen/mouse.html", "./Art/jen/mouse.png", "Jen", "https://github.com/jenwr"],
     ["Hungry Caterpillar", "./Art/CarmenIancu/index.html", "./Art/CarmenIancu/hungry_caterpillar.JPG", "CarmenIancu", "https://github.com/CarmenIancu"],
-    ["Beating Heart", "./Art/nikiya/index.html", "./Art/nikiya/heart-beat.png", "Nikiya Simpson", "https://github.com/nikiyasimpson"]
+    ["CSS Flower", "./Art/Kim/index.html", "./Art/Kim/Flower.png", "Kim", "https://github.com/QAMinn2468"],
+    ["Mario Pipe", "./Art/iggyzane/index.html", "./Art/iggyzane/MarioPipe.PNG", "Iggy Baker", "https://github.com/iggyzane"],
+    ["Pizza", "./Art/carter/pizza.html", "./Art/carter/pizza.png", "Carter", "https://github.com/carterschieffer"],
+    ["Rocket", "./Art/cbh6/rocket.html", "./Art/cbh6/rocket.jpg", "Cristian", "https://github.com/cbh6"],
+    ["Space Invader", "./Art/JFox/spaceInvader.html", "./Art/JFox/spaceInvader.png", "Jeremy Fox", "https://github.com/jeremyfox36"],
+   ["Beating Heart", "./Art/nikiya/index.html", "./Art/nikiya/heart-beat.png", "Nikiya Simpson", "https://github.com/nikiyasimpson"]
 ];
 
 
