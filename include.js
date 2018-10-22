@@ -87,6 +87,7 @@ let cards = [
     ["Waving Penguin", "./Art/orinayo/index.html", "./Art/orinayo/penguin_art.png", "Orinayo Oyelade", "https://github.com/orinayo"],
     ["Taco Animation", "./Art/roninmittal/index.html", "./Art/roninmittal/taco.png", "Ronin Mittal", "https://github.com/roninmittal"],
     ["Ghost", "./Art/toserjude/ghost.html", "./Art/toserjude/ghost.jpg", "toserjude", "https://github.com/toserjude"],
+    ["JS Logo", "./Art/Thulasi/index.html", "./Art/Thulasi/js-logo.png", "ThulasiA", "https://github.com/ThulasiA"],
     ["Black Cat", "./Art/toserjude/blackCat.html", "./Art/toserjude/cat.jpg", "toserjude", "https://github.com/toserjude"]
 ];
 
