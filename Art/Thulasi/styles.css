@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+  
+.js-logo {
+    position: relative;
+    left: 45%;
+    width: 200px;
+    height: 200px;
+    background-color: #F0DB4F;
+    font-family: Helvetica;
+    font-size: 8em;
+    font-weight: bold;
+    border-radius: 1%;
+}
+  
+.js-para {
+    position: absolute;
+    bottom: -70%;
+    right: 5%;
+}
