@@ -1,0 +1,177 @@
+body {
+    background: white;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 420px;
+    height: 420px;
+    background: none;
+}
+
+.head {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background: #24242A;
+    border-radius: 50%;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: glow;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px #f1eff1;
+    }
+    to {
+        box-shadow: 0 -5px 40px rgba(137, 137, 137, 0.5),
+        -5px -5px 40px rgba(55, 55, 55, 0.5),
+        5px -5px 40px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.ear {
+    background-color: lightpink;
+    border: #24242A solid 10px;
+    width: 25%;
+    height: 35%;
+    z-index: -1;
+}
+
+.left-ear {
+    position: absolute;
+    top: -6.5%;
+    left: 10%;
+    clip-path: polygon(0 0, 100% 90%, 0 100%);
+    transform: rotate(105deg);
+}
+
+.right-ear {
+    position: absolute;
+    top: -6.5%;
+    right: 10%;
+    clip-path: polygon(100% 0%, 100% 100%, 0 90%);
+    transform: rotate(255deg);
+}
+
+.eye {
+    background-color: yellow;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    border: #1e1e15 solid 3px;
+}
+
+.left-eye {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.right-eye {
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+.pupil {
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    width: 15%;
+    height: 100%;
+    background-color: black;
+    border-radius: 70%;
+}
+
+.nose {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 20%;
+    height: 15%;
+    border-radius: 40%;
+    background-color: lightpink;
+    clip-path: polygon(52% 54%, 0 0, 100% 0);
+}
+
+.left-smile {
+    position: absolute;
+    top: 70%;
+    left: 49%;
+    width: 20%;
+    height: 10%;
+    border-radius: 0 0 60% 60%;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    border-bottom: black 3px solid;
+}
+
+.right-smile {
+    position: absolute;
+    top: 70%;
+    right: 49%;
+    width: 20%;
+    height: 10%;
+    border-radius: 0 0 60% 60%;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    border-bottom: black 3px solid;
+}
+
+.whisk {
+    background-color: black;
+    height: 1.5%;
+    width: 40%;
+    margin-bottom: 6px;
+}
+
+#whisk1 {
+    position: absolute;
+    top: 60%;
+    right: 75%;
+    transform: rotate(30deg);
+}
+
+#whisk2 {
+    position: absolute;
+    top: 75%;
+    right: 80%;
+}
+
+#whisk3 {
+    position: absolute;
+    top: 90%;
+    right: 75%;
+    transform: rotate(150deg);
+}
+
+#whisk4 {
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: rotate(150deg);
+}
+
+#whisk5 {
+    position: absolute;
+    top: 75%;
+    left: 80%;
+}
+
+#whisk6 {
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    transform: rotate(30deg);
+}
+
+
+
