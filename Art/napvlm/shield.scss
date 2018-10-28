@@ -1,0 +1,79 @@
+@import url('shield.css');
+
+$red: #A30808;
+$blue: #002D5C;
+
+body {
+	background-color: #CDCDCD;
+}
+
+.captain {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 100%;
+	width: 300px;
+	height: 300px;
+	background: radial-gradient(
+		$blue 0%, $blue 35%, $red 0%, $red 50%, white 0%, white 60%, $red 0%, $red 90%);
+		&:before, &:after {
+			position: absolute;
+			content: '';
+		}
+}
+
+
+.star {
+  position: absolute;
+  top: 110px;
+  left: 53px;
+   display: block;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid white;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+.star:before {
+   border-bottom: 80px solid white;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+.star:after {
+   position: absolute;
+   content: '';
+   display: block;
+   color: red;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid white;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+}
+
+.small {
+  transform: rotate(35deg) scale(0.67);
+}
