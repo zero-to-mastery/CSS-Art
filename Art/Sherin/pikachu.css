@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #ddd;
+  padding: 5rem;
+}
+
+.face {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #F5E100;
+  position: relative;
+}
+
+.ear {
+  clip-path: polygon(2% 0, 0% 100%, 35% 100%);
+  height: 200px;
+  width: 200px;
+  background-color: #F5E100;
+  position: absolute;
+  
+}
+
+.ear-one {
+  top: -160px;
+  left: -50px;
+  transform: rotateZ(-50deg)
+}
+
+.ear-two {
+  left: 180px;
+  top: -160px;
+}
+
+.ear-tip {
+  position: absolute;
+  background-color: black;
+  height: 80px;
+  width: 80px;
+}
+
+.eye {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+}
+
+.eye-one {
+  left: 25%;
+  transform: translateX(-50%)
+}
+
+.eye-two {
+  left: 75%;
+  transform: translateX(-50%)
+}
+
+.eye::after {
+  background-color: #fff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  content: "";
+  top: 10%;
+}
+
+.eye-one::after {
+  left: 50%;
+}
+
+.eye-two::after {
+  left: 20%;
+}
+
+.cheek {
+  background-color: #FF0000;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+.cheek-one {
+  left: -50px;
+  clip-path: ellipse(25% 52% at 84% 51%);
+  transform: rotateZ(-20deg);
+}
+
+.cheek-two {
+  right: -55px;
+  clip-path: ellipse(25% 52% at 13% 52%);
+  transform: rotateZ(20deg);
+}
+
+.nose {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%)
+}
+
+.mouth {
+  height: 100px;
+  width: 80px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #730000;
+}
+
+.tongue {
+  background-color: #F5375C;
+  bottom: 0;
+  position: absolute;
+  height: 80px;
+  width: 80px;
+}
