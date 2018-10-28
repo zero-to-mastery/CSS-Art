@@ -1,0 +1,119 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(107, 191, 216);
+}
+
+.panda {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-eye,
+.left-eye,
+.nose,
+.under-nose,
+.mouth,
+.right-ear,
+.left-ear {
+    background-color: #000;
+}
+
+.left-inside-eye,
+.right-inside-eye,
+.head {
+    background-color: #fff;
+}
+
+.head {
+    width: 10rem;
+    height: 8rem;
+    border-radius: 40% 40% 45% 45%;
+}
+
+.eyes {
+    display: flex;
+}
+
+.right-eye,
+.left-eye {
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 50% 45% 45%;
+}
+
+.left-eye {
+    position: relative;
+    top: 45px;
+    left: 35px;
+}
+
+.right-eye {
+    position: relative;
+    top: 45px;
+    left: 65px;
+}
+
+.left-inside-eye,
+.right-inside-eye {
+    position: relative;
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.right-ear,
+.left-ear {
+    position: relative;
+    width: 25px;
+    height: 18px;
+    border-radius: 40% 40% 0% 0%;
+}
+
+.right-ear {
+    bottom: 47px;
+    left: 8px;
+    transform: rotate(-30deg);
+}
+
+.left-ear {
+    bottom: 30px;
+    left: 125px;
+    transform: rotate(30deg);
+}
+
+.nose {
+    position: relative;
+    top: 20px;
+    left: 60px;
+    width: 30px;
+    height: 10px;
+    border-radius: 6px;
+}
+
+.under-nose {
+    position: relative;
+    height: 6px;
+    top: 10px;
+    left: 13px;
+    width: 4px;
+    background: radial-gradient(circle at bottom, transparent -3px, #000 10px);
+}
+
+.mouth {
+    position: relative;
+    height: 4px;
+    width: 30px;
+    border-radius: 25%;
+    top: 32px;
+    left: 60px;
+}
