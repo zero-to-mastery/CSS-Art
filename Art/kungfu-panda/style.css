@@ -14,6 +14,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
 }
 
 .right-eye,
@@ -22,13 +23,19 @@ body {
 .under-nose,
 .mouth,
 .right-ear,
-.left-ear {
+.left-ear,
+.neck,
+.right-hand,
+.left-hand,
+.left-leg,
+.right-leg {
     background-color: #000;
 }
 
 .left-inside-eye,
 .right-inside-eye,
-.head {
+.head,
+.belly {
     background-color: #fff;
 }
 
@@ -116,4 +123,74 @@ body {
     border-radius: 25%;
     top: 32px;
     left: 60px;
+}
+
+.body {
+    display: flex;
+}
+
+.neck {
+    position: relative;
+    width: 6rem;
+    left: 46px;
+    height: 2.5rem;
+    border-radius: 15% 15% 0% 0%;
+}
+
+.belly {
+    position: relative;
+    height: 8rem;
+    width: 6rem;
+    top: 2.5rem;
+    right: 50px;
+    border-radius: 0% 0% 25% 25%;
+}
+
+.hands,
+.legs {
+    display: flex;
+    position: relative;
+}
+
+.left-hand,
+.right-hand {
+    position: absolute;
+    width: 5rem;
+    height: 2rem;
+}
+
+.left-hand {
+    top: 20px;
+    right: 132px;
+    transform: rotate(-30deg);
+    border-radius: 35% 15% 15% 35%;
+}
+
+.right-hand {
+    top: 16px;
+    right: -13px;
+    transform: rotate(30deg);
+    border-radius: 15% 35% 35% 15%;
+}
+
+.left-leg,
+.right-leg {
+    position: absolute;
+    width: 5rem;
+    height: 2rem;
+
+}
+
+.right-leg {
+    bottom: -61px;
+    left: -64px;
+    transform: rotate(30deg);
+    border-radius: 15% 35% 35% 15%;
+}
+
+.left-leg {
+    bottom: -62px;
+    right: 132px;
+    transform: rotate(-30deg);
+    border-radius: 35% 15% 15% 35%;
 }
