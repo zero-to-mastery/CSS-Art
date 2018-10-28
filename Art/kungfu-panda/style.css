@@ -147,7 +147,8 @@ body {
 }
 
 .hands,
-.legs {
+.legs,
+.cane {
     display: flex;
     position: relative;
 }
@@ -171,6 +172,7 @@ body {
     right: -13px;
     transform: rotate(30deg);
     border-radius: 15% 35% 35% 15%;
+    z-index: 1;
 }
 
 .left-leg,
@@ -186,6 +188,7 @@ body {
     left: -64px;
     transform: rotate(30deg);
     border-radius: 15% 35% 35% 15%;
+    z-index: 1;
 }
 
 .left-leg {
@@ -193,4 +196,41 @@ body {
     right: 132px;
     transform: rotate(-30deg);
     border-radius: 35% 15% 15% 35%;
+}
+
+.cane-branch-1,
+.cane-branch-2,
+.cane {
+    background-color: rgb(63, 201, 63);
+    position: relative;
+}
+
+.cane {
+    width: 1.25rem;
+    height: 26rem;
+    position: absolute;
+    right: -36px;
+    bottom: -50px;
+    transform: rotate(10deg);
+    border-radius: 45% 45% 0% 0%;
+}
+
+.cane-branch-1,
+.cane-branch-2 {
+    height: 8rem;
+    width: 1em;
+}
+
+.cane-branch-1 {
+    transform: rotate(150deg);
+    bottom: 26px;
+    right: 33px;
+    border-radius: 0% 0% 45% 45%;
+}
+
+.cane-branch-2 {
+    transform: rotate(-150deg);
+    bottom: -58px;
+    right: -26px;
+    border-radius: 0% 0% 45% 45%;
 }
