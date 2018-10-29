@@ -67,7 +67,7 @@ let cards = [
     ["Xmas", "./Art/Chrissy/xmas.html", "./Art/Chrissy/xmas.png", "Chrissy", "https://github.com/charlecoda88"],
     ["Responsive Bars", "./Art/Rahul/index.html", "./Art/Rahul/index.png", "Rahul", "https://github.com/rik-96"],
 	];
-  
+    ["Creepy Pumpkin", "./Art/Virtual1/Virtual1.html", "./Art/Virtual1/Virtual1.bmp", "Jessica Erasmus", "https://github.com/Virtual1" ],
 
 
 // +--------------------------------------------------------------------------------+
