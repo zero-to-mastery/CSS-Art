@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #be132d;
+}
+
+.ninga {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%,-50%);
+
+  animation: spin 5s ease-in-out infinite;
+
+}
+
+
+
+@keyframes spin {
+  1% {transform: rotate(0deg); opacity: 1;}
+  15% {transform: rotate(360deg); opacity: 0.5;}
+  60% {transform: rotate(400deg); opacity: 1;}
+  90% {transform: rotate(550deg); opacity: 0.5;}
+  100% {transform: rotate(720deg); opacity: 1;}
+}
+
+
+
+
+
+.arrow-up {
+    width: 0; 
+    height:0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    
+    border-bottom: 100px solid rgb(78, 78, 78);
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+
+  }
+
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    
+    border-top: 100px solid rgb(78, 78, 78);
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+
+  }
+  
+  .arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    
+    border-left: 100px solid rgb(44, 44, 44);
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%,-50%);
+
+  }
+  
+  .arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+    
+    border-right:100px solid rgb(44, 44, 44); 
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+
+  }
+
+  .circle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 25px;
+    width: 25px;
+    background: #FFF;
+    border: #FFF;
+    border-radius: 50%;
+
+  }

@@ -1,0 +1,63 @@
+
+body {
+	background: #00a651;
+}
+
+.box{
+	position: relative;
+	margin: auto;
+	display: block;
+	margin-top: 8%;
+	width: 600px;
+	height: 420px;
+	background: none;
+}
+
+.card {
+	display: block;
+	margin: auto;
+	width: 150px;
+	height: 220px;
+	border-radius: 10px;
+	background: #ffffff;
+	-webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+}
+
+.card p {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 52px;
+	color: #aa0000;
+	text-align: center;
+	font-family: 'Monoton', cursive;
+	font-size: 72px;
+}
+
+.suit:before, .suit:after {
+	content: '\2665';
+	animation:pulsecolor 1s infinite;
+	color: #aa0000;
+}
+
+.suit:before {
+	position: absolute;
+	font-size: 35px;
+	padding: 5px;
+}
+ 
+.suit:after {
+	position: absolute;
+	font-size: 35px;
+	right: 230px;
+	bottom: 200px;
+	animation:pulsecolor 1s infinite;
+}
+
+@keyframes pulse {
+	10% {transform: scale(1.1)}
+}
+
+@keyframes pulsecolor {
+  10% {color: #dd0000}
+}

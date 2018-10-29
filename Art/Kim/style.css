@@ -1,0 +1,95 @@
+.flower {
+  margin-left: 45%;
+  bottom: 10px;
+}
+
+.stem {
+  background-color: green;
+  width: 3em;
+  height: 32em;
+  position: absolute;
+  top: 15em;
+  z-index: 5;
+}
+
+.center {
+  background-color: orange;
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  z-index: 25;
+  position: absolute;
+  top: 10em;
+  margin-left: -3%;
+}
+
+.petal {
+  height: 8.8em;
+  width: 10em;
+  background-color: hotpink;
+  border-radius: 90% 0 90% 0;
+  position: absolute;
+  z-index: 6;
+  margin-left: -11%;
+
+}
+.one {
+  left: 44em;    /* these petals point ne */
+  top: 16em;
+}
+
+.two {
+  left: 43em;  /* This petal points east-west */
+  top: 10em;
+  transform: rotate(45deg);
+}
+
+.three {
+  border-radius: 0 90% 0 90%; /* these petals point nw */
+  left: 44em;
+  top: 4em;
+}
+
+.four {
+  left: 50em;  /* This petal points North */
+  transform: rotate(-45deg);
+  top: 3em;
+}
+
+.five {
+  left: 56em;  /* This petal points east-west */
+  top: 4em;
+}
+
+.six {
+  left: 56em;  /* This petal points east-west */
+  top: 10em;
+  transform: rotate(45deg);
+}
+
+.seven {
+  border-radius: 0 90% 0 90%; /* these petals point nw */
+  left: 55em;
+  top: 16em;
+}
+
+
+.leaf {
+  height: 10em;
+  width: 10em;
+  background-color: green;
+  border-radius: 90% 0 90% 0;
+  position: absolute;
+  top: 37em;
+
+}
+
+.right {
+  margin-left: calc(1% + 1.8em);
+
+}
+
+.left {
+  border-radius: 0 90% 0 90%;
+  margin-left: -9.5em;
+}
