@@ -1,0 +1,172 @@
+body {
+  background: #000000;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 600px;
+  background: none;
+}
+
+.head {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background: #c1beb2;
+  border-radius: 50%;
+}
+
+.chin {
+  position: absolute;
+  bottom: -5%;
+  left: 35%;
+  height: 30%;
+  width: 30%;
+  background: #c1beb2;
+}
+
+.eye-left {
+  position: absolute;
+  bottom: 30%;
+  z-index: 2;
+  left: 10%;
+  border-radius: 50%;
+  height: 25%;
+  width: 25%;
+  background: #000000;
+}
+
+.eye-right {
+  position: absolute;
+  bottom: 30%;
+  z-index: 2;
+  right: 10%;
+  border-radius: 50%;
+  height: 25%;
+  width: 25%;
+  background: #000000;
+}
+
+.nose {
+  position: absolute;
+  bottom: 22%;
+  z-index: 2;
+  right: 44%;
+  height: 15%;
+  width: 12%;
+  background: #000000;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.mouth-horizontal {
+  position: absolute;
+  bottom: 8%;
+  z-index: 2;
+  right: 39%;
+  height: 2%;
+  width: 22%;
+  background: #000000;
+  border-radius: 2px;
+}
+
+.mouth-vertical-1 {
+  position: absolute;
+  bottom: 5%;
+  z-index: 2;
+  right: 55%;
+  height: 8%;
+  border-radius: 2px;
+  width: 2%;
+  background: #000000;
+}
+
+.mouth-vertical-2 {
+  position: absolute;
+  bottom: 5%;
+  z-index: 2;
+  right: 49%;
+  height: 8%;
+  border-radius: 2px;
+  width: 2%;
+  background: #000000;
+}
+
+.mouth-vertical-3 {
+  position: absolute;
+  bottom: 5%;
+  z-index: 2;
+  right: 43%;
+  height: 8%;
+  border-radius: 2px;
+  width: 2%;
+  background: #000000;
+}
+
+.bone-1 {
+  position: absolute;
+  bottom: 25%;
+  left: 30%;
+  width: 40%;
+  height: 5%;
+  background: #c1beb2;
+  border-radius: 50px;
+  transform: rotate(20deg);
+}
+
+.bone-2 {
+  position: absolute;
+  bottom: 25%;
+  left: 30%;
+  width: 40%;
+  height: 5%;
+  background: #c1beb2;
+  border-radius: 50px;
+  transform: rotate(-20deg);
+}
+
+.bone-left-1 {
+  position: absolute;
+  bottom: 50%;
+  left: -7%;
+  border-radius: 50%;
+  height: 100%;
+  width: 13%;
+  background: #c1beb2;
+}
+
+.bone-left-2 {
+  position: absolute;
+  bottom: -50%;
+  left: -7%;
+  border-radius: 50%;
+  height: 100%;
+  width: 13%;
+  background: #c1beb2;
+}
+
+.bone-right-1 {
+  position: absolute;
+  bottom: 50%;
+  right: -7%;
+  border-radius: 50%;
+  height: 100%;
+  width: 13%;
+  background: #c1beb2;
+}
+
+.bone-right-2 {
+  position: absolute;
+  bottom: -50%;
+  right: -7%;
+  border-radius: 50%;
+  height: 100%;
+  width: 13%;
+  background: #c1beb2;
+}
