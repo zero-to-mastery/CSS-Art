@@ -70,6 +70,7 @@ let cards = [
     ["Xmas", "./Art/Chrissy/xmas.html", "./Art/Chrissy/xmas.png", "Chrissy", "https://github.com/charlecoda88"],
     ["Spooky violin", "./Art/JaniH92/index.html", "./Art/JaniH92/spookyViolin.GIF", "Jani Hänninen", "https://github.com/jh1992jh"],
     ["Responsive Bars", "./Art/Rahul/index.html", "./Art/Rahul/index.png", "Rahul", "https://github.com/rik-96"],
+	  ["Creepy Pumpkin", "./Art/Virtual1/Virtual1.html", "./Art/Virtual1/Virtual1.bmp", "Jessica Erasmus", "https://github.com/Virtual1"],
     ["Boat", "./Art/Boat/index.html", "./Art/Boat/Boat.png", "Titi Arimba", "https://github.com/titiarimba"],
     ["Koala", "./Art/Chrissy/koala.html", "./Art/Chrissy/koalaedit.png", "Chrissy", "https://github.com/charlecoda88"],
     ["Landscape", "./Art/David/index.html", "./Art/David/landscape.png", "The24thDS", "https://github.com/the24thds"],
@@ -89,13 +90,19 @@ let cards = [
     ["Waving Penguin", "./Art/orinayo/index.html", "./Art/orinayo/penguin_art.png", "Orinayo Oyelade", "https://github.com/orinayo"],
     ["Taco Animation", "./Art/roninmittal/index.html", "./Art/roninmittal/taco.png", "Ronin Mittal", "https://github.com/roninmittal"],
     ["Ghost", "./Art/toserjude/ghost.html", "./Art/toserjude/ghost.jpg", "toserjude", "https://github.com/toserjude"],
-    ["JS Logo", "./Art/Thulasi/index.html", "./Art/Thulasi/js-logo.png", "ThulasiA", "https://github.com/ThulasiA"],
+    ["JS Logo", "./Art/Thulasi/index.html", "./Art/Thulasi/js-logo.PNG", "ThulasiA", "https://github.com/ThulasiA"],
     ["Black Cat", "./Art/toserjude/blackCat.html", "./Art/toserjude/cat.jpg", "toserjude", "https://github.com/toserjude"],
     ["Baymax", "./Art/dziukers/index.html", "./Art/dziukers/Baymax.JPG", "dziukers", "https://github.com/dziukers"],
     ["Smart Phone", "./Art/chathurasam/smartphone.html", "./Art/chathurasam/screenshot.png", "Chathura Samarajeewa", "https://github.com/ChathuraSam"],
     ["Pikachu", "./Art/Sherin/pikachu.html", "./Art/Sherin/pikachu.png", "Sherin Binu", "https://github.com/SherOnDale"],
     ["Fox", "./Art/Platy/index.html", "./Art/Platy/fox.png", "Atti", "https://github.com/Platyka"]
     ["Just alone panda", "./Art/justpanda/index.html", "./Art/justpanda/panda.PNG", "Maximsan", "https://github.com/maximsan"]
+    ["Squirtle", "./Art/Sherin/squirtle.html", "./Art/Sherin/squirtle.png", "Sherin Binu", "https://github.com/SherOnDale"],
+    ["Butterfree", "./Art/Sherin/butterfree.html", "./Art/Sherin/butterfree.png", "Sherin Binu", "https://github.com/SherOnDale"],
+    ["Captain's Shield", "./Art/napvlm/shield.html", "./Art/napvlm/shield.png", "Ruslan Anisimov", "https://github.com/napvlm"],
+    ["Happy Emoji", "./Art/uhayon/emoji.html", "./Art/uhayon/emoji.png", "Uri", "https://github.com/uhayon"],
+    ["Electrode", "./Art/Sherin/electrode.html", "./Art/Sherin/electrode.png", "Sherin Binu", "https://github.com/SherOnDale"],
+    ["Mounion vaakuna", "./Art/MAhoMaha12112017/MAhoMaha12112017.html", "./Art/MAhoMaha12112017/mouniovaakuna_pieni_skaalattu.png", "MAho", "https://github.com/MAhoMaha12112017"]
 ];
 
 
