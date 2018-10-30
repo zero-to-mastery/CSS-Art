@@ -1,0 +1,66 @@
+body{
+  background: #25A9FC;
+}
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 500px;
+  height: 566px;
+}
+.upper-box{
+  position: absolute;
+  width: 100%;
+  height: 67%;
+  background: #EC1D23;
+}
+.harmaa-pallo{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  background: #CCCCCC;
+  border-radius: 50%;
+  z-index: -1;
+}
+.polygon{
+  position: absolute;
+  top:79%;
+  clip-path: polygon(50% 0, 0 54%, 100% 54%);
+  z-index: 2;
+  background-color: #CCCCCC;
+  width:100%;
+  height: 50%;
+}
+.kolmio-vasen {
+  position: absolute;
+  top: 100%;
+  clip-path: polygon(0 0, 0 55%, 100% 0);
+  background-color: #EC1D23;
+  width:11.2%;
+  height: 12%;
+  z-index: 4;
+}
+
+.kolmio-oikea {
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  clip-path: polygon(0 0, 100% 55%, 100% 0);
+  background-color: #EC1D23;
+  width:11.2%;
+  height: 12%;
+  z-index: 4;
+}
+.tahti{
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  position: relative;
+  margin: auto;
+  display: block;
+  top: 18%;
+  background-color: #CCCCCC;
+  width:55%;
+  height: 55%;
+  z-index: 2;
+}

@@ -100,7 +100,8 @@ let cards = [
     ["Butterfree", "./Art/Sherin/butterfree.html", "./Art/Sherin/butterfree.png", "Sherin Binu", "https://github.com/SherOnDale"],
     ["Captain's Shield", "./Art/napvlm/shield.html", "./Art/napvlm/shield.png", "Ruslan Anisimov", "https://github.com/napvlm"],
     ["Happy Emoji", "./Art/uhayon/emoji.html", "./Art/uhayon/emoji.png", "Uri", "https://github.com/uhayon"],
-    ["Electrode", "./Art/Sherin/electrode.html", "./Art/Sherin/electrode.png", "Sherin Binu", "https://github.com/SherOnDale"]
+    ["Electrode", "./Art/Sherin/electrode.html", "./Art/Sherin/electrode.png", "Sherin Binu", "https://github.com/SherOnDale"],
+    ["Mounion vaakuna", "./Art/MAhoMaha12112017/MAhoMaha12112017.html", "./Art/MAhoMaha12112017/mouniovaakuna_pieni_skaalattu.png", "MAho", "https://github.com/MAhoMaha12112017"]
 ];
 
 
