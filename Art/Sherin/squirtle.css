@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  background-color: #ddd;
+  padding: 5rem;
+}
+
+.body-container {
+  clip-path: ellipse(50% 50% at 50% 50%);
+  background-color: black;
+  height: 252px;
+  width: 202px;
+  transform: rotateZ(-20deg);
+  padding: 1px;
+}
+
+.body {
+  clip-path: ellipse(50% 50% at 50% 50%);
+  background-color: #EEF578;
+  height: 250px;
+  width: 200px;
+}
+
+.shell {
+  position: absolute;
+  right: 0;
+  height: 250px;
+  width: 70px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.shell-two {
+  position: absolute;
+  right: 0;
+  height: 250px;
+  width: 50px;
+  background-color: #C86400;
+  border: 1px solid black;
+}
+
+.face {
+  background-color: #9BD9D5;
+  height: 150px;
+  width: 175px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  border: 1px solid black;
+}
+
+.eye {
+  position: absolute;
+  clip-path: ellipse(50% 74% at 50% 74%);
+  height: 45px;
+  width: 30px;
+  top: 30px;
+  background-color: black;
+}
+
+.eye::after {
+  content: '';
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  background-color: #BA001A;
+}
+
+.eye-one {
+  left: 15px;
+}
+
+.eye-two {
+  right: 40px;
+}
+
+.pupil {
+  position: absolute;
+  clip-path: ellipse(29% 50% at 50% 50%);
+  background-color: black;
+  height: 35px;
+  width: 30px;
+  z-index: 2;
+  left: -2px;
+}
+
+.pupil::after {
+  position: absolute;
+  clip-path: ellipse(29% 50% at 50% 50%);
+  background-color: white;
+  height: 20px;
+  width: 25px;
+  z-index: 3;
+  left: 0px;
+  content: '';
+}
+
+.mouth {
+  height: 1px;
+  background-color: black;
+  width: 50px;
+  position: absolute;
+  top: 110px;
+}
+
+.mouth-left {
+  left: 8px;
+  transform: rotateZ(10deg);
+}
+
+.mouth-right {
+  left: 58px;
+  transform: rotate(-10deg);
+}
+
+.tail {
+  position: absolute;
+  clip-path: polygon(29% 0, 0% 100%, 100% 100%);
+  background-color: black;
+  height: 102px;
+  width: 77px;
+  right: 20px;
+  transform: rotateZ(-110deg);
+  bottom: 98px;
+}
+
+.tail::after {
+  position: absolute;
+  clip-path: polygon(29% 0, 0% 100%, 100% 100%);
+  background-color: #9BD9D5;
+  height: 100px;
+  width: 75px;
+  content: '';
+  left: 1px;
+  top: 1px;
+  z-index: 1;
+
+}
+
+.leg,
+.hand {
+  height: 60px;
+  width: 40px;
+  background-color: #9BD9D5;
+  border: 1px solid black;
+  position: absolute;
+}
+
+.leg {
+  bottom: 40px;
+}
+
+.leg-left {
+  left: 140px;
+}
+
+.leg-right {
+  left: 200px;
+}
+
+.hand {
+  top: 170px;
+}
+
+.hand-left {
+  left: 50px;
+  transform: rotateZ(-70deg);
+}
+
+.hand-right {
+  right: 160px;
+  transform: rotateZ(-50deg);
+}

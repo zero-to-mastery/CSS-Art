@@ -96,9 +96,10 @@ let cards = [
     ["Smart Phone", "./Art/chathurasam/smartphone.html", "./Art/chathurasam/screenshot.png", "Chathura Samarajeewa", "https://github.com/ChathuraSam"],
     ["Pikachu", "./Art/Sherin/pikachu.html", "./Art/Sherin/pikachu.png", "Sherin Binu", "https://github.com/SherOnDale"],
     ["Fox", "./Art/Platy/index.html", "./Art/Platy/fox.png", "Atti", "https://github.com/Platyka"],
+    ["Squirtle", "./Art/Sherin/squirtle.html", "./Art/Sherin/squirtle.png", "Sherin Binu", "https://github.com/SherOnDale"],
     ["Captain's Shield", "./Art/napvlm/shield.html", "./Art/napvlm/shield.png", "Ruslan Anisimov", "https://github.com/napvlm"],
     ["Happy Emoji", "./Art/uhayon/emoji.html", "./Art/uhayon/emoji.png", "Uri", "https://github.com/uhayon"],
-    ["Skull And Bones", "./Art/mk-hill/index.html", "./Art/mk-hill/skull-bones.png", "Michael Hill", "https://github.com/mk-hill"],
+    ["Skull And Bones", "./Art/mk-hill/index.html", "./Art/mk-hill/skull-bones.png", "Michael Hill", "https://github.com/mk-hill"]
 ];
 
 
