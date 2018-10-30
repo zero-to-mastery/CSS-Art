@@ -94,6 +94,7 @@ let cards = [
     ["Baymax", "./Art/dziukers/index.html", "./Art/dziukers/Baymax.JPG", "dziukers", "https://github.com/dziukers"],
     ["Smart Phone", "./Art/chathurasam/smartphone.html", "./Art/chathurasam/screenshot.png", "Chathura Samarajeewa", "https://github.com/ChathuraSam"],
     ["Pikachu", "./Art/Sherin/pikachu.html", "./Art/Sherin/pikachu.png", "Sherin Binu", "https://github.com/SherOnDale"],
+    ["Fox", "./Art/Platy/index.html", "./Art/Platy/fox.png", "Atti", "https://github.com/Platyka"],
     ["Squirtle", "./Art/Sherin/squirtle.html", "./Art/Sherin/squirtle.png", "Sherin Binu", "https://github.com/SherOnDale"]
 
 ];
@@ -124,6 +125,6 @@ Shuffle(cards).forEach(c => {
 document.getElementById("cards").innerHTML = contents;
 
 function Shuffle(o) {
-    for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x) ;
+    for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 };

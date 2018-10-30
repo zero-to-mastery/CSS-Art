@@ -1,0 +1,139 @@
+:root {
+  --color-orange: #ff6917;
+  --color-background: #1bb2af;
+  --color-ears: #f7edd4;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background: var(--color-background);
+}
+
+.fox {
+  margin: 150px auto;
+}
+
+/* HEAD */
+.head {
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  position: relative;
+
+  border-top: 300px solid var(--color-orange);
+}
+
+/* EARS */
+.ear-left {
+  width: 0;
+  height: 0;
+  position: absolute;
+
+  top: -300px;
+  left: -300px;
+
+  border-left: 90px solid transparent;
+  border-right: 0 solid var(--color-ears);
+  border-top: 90px solid var(--color-ears);
+}
+
+.ear-right {
+  width: 0;
+  height: 0;
+  position: absolute;
+
+  top: -300px;
+  left: 210px;
+
+  border-left: 0 solid var(--color-ears);
+  border-right: 90px solid transparent;
+  border-top: 90px solid var(--color-ears);
+}
+
+/* EYES */
+.eye-left,
+.eye-right {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.eye-left {
+  top: -250px;
+  left: -100px;
+}
+
+.eye-right {
+  top: -250px;
+  right: -100px;
+}
+
+/* MUSTACHE */
+.mustache-left,
+.mustache-right {
+  width: 130px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+}
+
+.mustache-left {
+  top: -100px;
+  left: -150px;
+}
+
+.mustache-right {
+  top: -100px;
+  right: -150px;
+}
+
+.mustache-left-top,
+.mustache-left-middle,
+.mustache-left-bottom,
+.mustache-right-top,
+.mustache-right-middle,
+.mustache-right-bottom {
+  width: 100%;
+  height: 5px;
+  background: black;
+}
+
+.mustache-left-top {
+  transform: rotate(5deg);
+}
+
+.mustache-left-bottom {
+  transform: rotate(-5deg);
+}
+
+.mustache-right-top {
+  transform: rotate(-5deg);
+}
+
+.mustache-right-bottom {
+  transform: rotate(5deg);
+}
+/* NOSE */
+.nose {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  border-top: 30px solid black;
+}
