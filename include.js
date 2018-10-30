@@ -95,7 +95,8 @@ let cards = [
     ["Smart Phone", "./Art/chathurasam/smartphone.html", "./Art/chathurasam/screenshot.png", "Chathura Samarajeewa", "https://github.com/ChathuraSam"],
     ["Pikachu", "./Art/Sherin/pikachu.html", "./Art/Sherin/pikachu.png", "Sherin Binu", "https://github.com/SherOnDale"],
     ["Fox", "./Art/Platy/index.html", "./Art/Platy/fox.png", "Atti", "https://github.com/Platyka"],
-    ["Squirtle", "./Art/Sherin/squirtle.html", "./Art/Sherin/squirtle.png", "Sherin Binu", "https://github.com/SherOnDale"]
+    ["Squirtle", "./Art/Sherin/squirtle.html", "./Art/Sherin/squirtle.png", "Sherin Binu", "https://github.com/SherOnDale"],
+    ["Butterfree", "./Art/Sherin/butterfree.html", "./Art/Sherin/butterfree.png", "Sherin Binu", "https://github.com/SherOnDale"]
 
 ];
 
