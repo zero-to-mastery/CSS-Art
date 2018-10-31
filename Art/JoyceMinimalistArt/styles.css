@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+.panda{
+    position: absolute;
+    margin-left: 30%;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background-color: white;
+}
+.panda1{
+    position: absolute;
+    margin-left: 8%;
+    display: block;
+    margin-top: 8%;
+    width: 500px;
+    height: 320px;
+    background-color:black;
+}
+.menu{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 8%;
+    width: 500px;
+    height: 320px;
+    background-color:blueviolet;
+
+    display:block;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    background:red;
+
+    background: linear-gradient(to right, blueviolet 50%,red 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 2s ease;
+}
+.menu:hover{
+    background:red;
+}

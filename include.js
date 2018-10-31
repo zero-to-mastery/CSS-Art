@@ -92,6 +92,8 @@ let cards = [
     ["Ghost", "./Art/toserjude/ghost.html", "./Art/toserjude/ghost.jpg", "toserjude", "https://github.com/toserjude"],
     ["JS Logo", "./Art/Thulasi/index.html", "./Art/Thulasi/js-logo.PNG", "ThulasiA", "https://github.com/ThulasiA"],
     ["Black Cat", "./Art/toserjude/blackCat.html", "./Art/toserjude/cat.jpg", "toserjude", "https://github.com/toserjude"],
+ 
+    ["Minimalist Hover and Move Away", "./Art/JoyceMinimalistArt/index.html", "./Art/JoyceMinimalistArt/joycemini.png", "Joyce Wambui", "https://github.com/joycewambui"],
     ["Baymax", "./Art/dziukers/index.html", "./Art/dziukers/Baymax.JPG", "dziukers", "https://github.com/dziukers"],
     ["Smart Phone", "./Art/chathurasam/smartphone.html", "./Art/chathurasam/screenshot.png", "Chathura Samarajeewa", "https://github.com/ChathuraSam"],
     ["Pikachu", "./Art/Sherin/pikachu.html", "./Art/Sherin/pikachu.png", "Sherin Binu", "https://github.com/SherOnDale"],
