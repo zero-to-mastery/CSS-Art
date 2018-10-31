@@ -1,4 +1,9 @@
 # CSS ART
+
+**UPDATE**
+
+**This CSS Art repo has been split into two editions. The Hacktoberfest Edition will be locked at the end of October to preserve its state at the end of Hacktoberfest. If you would like to continue its development, you can do so in the General Edition [HERE](https://github.com/zero-to-mastery/CSS-Art-Hacktoberfest-Edition/edit/master/README.md)**
+
 Welcome to CSS Art, a fun, beginner-friendly challenge for Hacktoberfest!
 
 What shapes, pictures and animations can you come up with, using plain HTML divs and CSS? Let's showcase the artistry of ZTM students, and get a free t-shirt into the bargain!
