@@ -1,0 +1,54 @@
+.outer-frame{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 310px;
+  height: 550px;
+  background: black;
+  border-radius: 10px;
+}
+
+.inner-frame{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 290px;
+  height: 500px;
+  background: #227093;
+  border-radius: 10px;
+}
+
+.power-button{
+  position: absolute;
+  top: 40px;
+  left: 320px;
+  width: 4px;
+  height: 30px;
+  background: black;
+}
+
+.volume-button{
+  position: absolute;
+  top: 80px;
+  left: 320px;
+  width: 4px;
+  height: 60px;
+  background: black;
+}
+
+.home-button{
+  position: absolute;
+  top: 525px;
+  left: 110px;
+  width: 100px;
+  height: 30px;
+  background: #84817a;
+  border-radius: 20px;
+}
+
+.gui{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 10px;
+}
