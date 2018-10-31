@@ -91,7 +91,8 @@ let cards = [
     ["JS Logo", "./Art/Thulasi/index.html", "./Art/Thulasi/js-logo.png", "ThulasiA", "https://github.com/ThulasiA"],
     ["Black Cat", "./Art/toserjude/blackCat.html", "./Art/toserjude/cat.jpg", "toserjude", "https://github.com/toserjude"],
     ["Baymax", "./Art/dziukers/index.html", "./Art/dziukers/Baymax.jpg", "dziukers", "https://github.com/dziukers"]
-
+    ["Minimalist Hover and Move Away", "./Art/JoyceMinimalistArt/index.html", "./Art/JoyceMinimalistArt/joycemini.png", "Joyce Wambui", "https://github.com/joycewambui"],
+    
 ];
 
 
