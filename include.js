@@ -70,6 +70,7 @@ let cards = [
     ["Boat", "./Art/Boat/index.html", "./Art/Boat/Boat.png", "Titi Arimba", "https://github.com/titiarimba"],
     ["Koala", "./Art/Chrissy/koala.html", "./Art/Chrissy/koalaedit.png", "Chrissy", "https://github.com/charlecoda88"],
     ["Landscape", "./Art/David/index.html", "./Art/David/landscape.png", "The24thDS", "https://github.com/the24thds"],
+     ["bouncing ball", "./Art/jaeja/index.html", "./jaeja/ball.png", "jae", "https://github.com/jaeja"],
 ];
 
 
