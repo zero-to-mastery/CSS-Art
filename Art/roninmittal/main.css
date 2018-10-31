@@ -1,0 +1,112 @@
+.container,
+.shell,
+.face,
+.leg,
+.foot,
+.hand,
+.taco {
+  position: absolute;
+}
+.container {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 100px;
+  }
+  .taco{
+    transform: translateY(-25px);
+	animation: gimme 1s ease-in-out infinite alternate;
+  }
+  
+  .shell {
+    z-index: 500;
+    width: 200px;
+    height: 100px;
+    border-radius: 100px 100px 0 0;
+    background-color: #D19A4D;
+    background-size: 3px 3px;
+  }
+  .container:after {
+    position: absolute;
+    content: '';
+    top: 138px;
+    left: 10px;
+    width: 180px;
+    height: 20px;
+    background: #D19A4D;
+    opacity: 0.1;
+    border-radius: 100%;
+  }  
+  .face {
+    top: 50px;
+    left: 70px;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 100%;
+  }
+  .face:before, .face:after {
+    position: absolute;
+    content: '';
+  }
+  .face:before {
+    left: 60px;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 100%;
+  }
+  .face:after {
+    left: 25px;
+    width: 10px;
+    height: 10px;
+    background: none;
+    border: 4px solid #000;
+    border-radius: 100%;
+    border-color: transparent transparent #000 #000;
+    transform: rotate(-47deg);
+  }
+  .leg {
+    top: 100px;
+    left: 65px;
+    width: 2px;
+    height: 40px;
+    background: #666;
+  }
+  .leg:before {
+    position: absolute;
+    left: 60px;
+    content: '';
+    width: 2px;
+    height: 40px;
+    background: #666;
+  }
+  
+  .hand {
+    top: 53px;
+    left: 170px;
+    width: 60px;
+    height: 2px;
+    background: #333;
+    transform: rotate(-20deg);
+  }
+  .hand:before {
+    position: absolute;
+    content: '';
+    top: -70px;
+    left: -200px;
+    width: 60px;
+    height: 2px;
+    background: #333;
+    transform: rotate(40deg);
+  }
+
+  @keyframes gimme {
+	0% 	 {transform: translateY(-25px)}
+	10%  {transform: translateY(-25px)}
+	90%  {transform: translateY(0)}
+	100% {transform: translateY(0)}
+}

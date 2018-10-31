@@ -1,0 +1,331 @@
+body {
+  overflow-y: hidden;
+}
+
+h1 {
+  font-family: 'Koho', serif;
+  text-align: center;
+  color: #ffdbdb;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #792a2a;
+}
+
+a:link,
+a:hover {
+  color: #ad0000;
+}
+
+a:active {
+  color: #ad0000;
+}
+
+.box {
+  position: relative;
+  margin-left: 33%;
+  display: block;
+  margin-top: 15%;
+  width: 600px;
+  height: 420px;
+  background: none;
+}
+
+/* Background  */
+
+.stars,
+.twinkling,
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+}
+
+.background {
+  background-image: linear-gradient(to right, #1b1e2a66, #16316099);
+}
+
+.stars {
+  background: rgb(0, 0, 0) url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat
+    top center;
+}
+
+.twinkling {
+  background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat
+    top center;
+  -moz-animation: move-twink-back 400s linear infinite;
+  -ms-animation: move-twink-back 400s linear infinite;
+  -o-animation: move-twink-back 400s linear infinite;
+  -webkit-animation: move-twink-back 400s linear infinite;
+  animation: move-twink-back 400s linear infinite;
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+/* Rocket ---------------------------------------------------
+------------------------------------------------------------- */
+
+.rocket-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 30%;
+  left: 44.4%;
+  animation: arocket 0.2s linear infinite;
+}
+
+.rocket {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #a9b3c7;
+  clip-path: ellipse(16% 49% at 47% 49%);
+  box-shadow: inset 0 0 10px #1b1302;
+}
+.rocket-back {
+  position: absolute;
+  top: 16.5%;
+  left: 40%;
+  width: 17%;
+  height: 67%;
+  background: #a9b3c7;
+  border-radius: 50% 50% 10px 10px;
+  box-shadow: inset 0 0 10px #1b1302;
+}
+
+.rocket-back-inside {
+  position: absolute;
+  top: 19%;
+  left: 42%;
+  width: 13%;
+  height: 45%;
+  background: none;
+  border-radius: 50% 50% 10px 10px;
+  box-shadow: inset 0 5px 0px #ff000070;
+  z-index: 15;
+  border-top: 2px solid #a60000;
+}
+
+.left-wing {
+  clip-path: polygon(32% 0, 52% 51%, 31% 100%, 18% 100%, 0 36%);
+  position: absolute;
+  top: 65%;
+  left: 31.5%;
+  width: 27%;
+  height: 35%;
+  background: #a9b3c7;
+  box-shadow: inset 0 0 10px #473100;
+}
+.right-wing {
+  clip-path: polygon(71% 0, 100% 39%, 79% 100%, 67% 100%, 46% 51%);
+  position: absolute;
+  top: 65%;
+  left: 37.5%;
+  width: 27%;
+  height: 35%;
+  background: #a9b3c7;
+  box-shadow: inset 0 0 10px #473100;
+}
+
+.window {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #18186b;
+  border-radius: 50%;
+  z-index: 11;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.window-border {
+  position: absolute;
+
+  width: 52px;
+  height: 52px;
+  background: rgb(214, 237, 255);
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.w1 {
+  top: 34.3%;
+  left: 45.3%;
+}
+.wb1 {
+  top: 33%;
+  left: 44.4%;
+}
+.w2 {
+  top: 49%;
+  left: 45.3%;
+}
+.wb2 {
+  top: 47.5%;
+  left: 44.4%;
+}
+.w3 {
+  top: 63.5%;
+  left: 45.3%;
+}
+.wb3 {
+  top: 62%;
+  left: 44.4%;
+}
+
+@keyframes arocket {
+  0% {
+    transform: translate(-50%, -50%) translate(0, 0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translate(-3.5px, 3.5px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translate(0, 0);
+  }
+}
+
+/* Propulsion */
+
+ul{
+  position: absolute;
+  transform: translateX(50%);
+  width: 200px;
+  height: 300px;
+  top: 70%;
+  z-index: -1;
+  left: 6%;
+}
+
+ul li{
+  list-style: none;
+  width: 1px;
+  height: 25px;
+  background: #FFFFFF;
+  float: left;
+  margin: 15px;
+  animation: animate 1s infinite linear;
+}
+
+@keyframes animate{
+  0%{
+    transform: translateY(0);
+    opacity: 1;
+    filter: blur(2px);
+  }
+  100%{
+    transform: translateY(200px);
+    opacity: 0;
+    filter: blur(5px);
+  }
+}
+
+ul li:nth-child(2){
+  animation-delay: -0.15s;
+}
+ul li:nth-child(3){
+  animation-delay: -0.25s;
+}
+ul li:nth-child(4){
+  animation-delay: -0.35s;
+}
+ul li:nth-child(5){
+  animation-delay: -0.45s;
+}
+ul li:nth-child(6){
+  animation-delay: -0.55s;
+}
+ul li:nth-child(7){
+  animation-delay: -0.65s;
+}
+ul li:nth-child(8){
+  animation-delay: -0.75s;
+}
+ul li:nth-child(9){
+  animation-delay: -0.85s;
+}
+ul li:nth-child(10){
+  animation-delay: -0.95s;
+}
+
+
+/* Planets -------------------------------------------
+------------------------------------------------------ */
+
+.planet {
+  position: absolute;
+  animation: aplanet 60s linear infinite;
+}
+.planet1 {
+  left: 35%;
+  width: 17px;
+  height: 17px;
+  background: rgb(126, 44, 44);
+  border-radius: 50%;
+  z-index: -10;
+  box-shadow: 0 0 5px rgb(153, 45, 45), 0 0 10px #ca7c7c, 0 0 90px rgb(192, 120, 120);
+}
+.planet2 {
+  left: 36.5%;
+  width: 30px;
+  height: 30px;
+  background: darkgray;
+  border-radius: 50%;
+  z-index: -10;
+  top: 15%;
+  box-shadow: 0 0 5px white, 0 0 10px #1e2d49, 0 0 90px rgba(255, 255, 255, 0.692);
+}
+
+.planet3 {
+  left: 65%;
+  width: 15px;
+  height: 15px;
+  top: 70%;
+  background: rgb(177, 177, 116);
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(108, 114, 31, 0.733), 0 0 10px #c7b75a, 0 0 90px rgb(163, 165, 73);
+}
+
+.planet4 {
+  left: 85%;
+  width: 10px;
+  height: 10px;
+  background: lightblue;
+  border-radius: 50%;
+  top: 40%;
+  box-shadow: 0 0 5px rgb(49, 122, 218), 0 0 10px #8d99af, 0 0 90px rgba(102, 179, 172, 0.774);
+}
+
+.planet5 {
+  left: 15%;
+  width: 20px;
+  height: 20px;
+  background: rgb(103, 151, 103);
+  border-radius: 50%;
+  top: 27%;
+  box-shadow: 0 0 5px rgb(39, 114, 39), 0 0 10px #539645, 0 0 90px rgba(123, 158, 90, 0.925);
+}
+
+@keyframes aplanet {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(3000%);
+  }
+}
