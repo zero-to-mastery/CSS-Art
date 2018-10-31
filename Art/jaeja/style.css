@@ -1,0 +1,20 @@
+body{
+  display: flex;           
+  justify-content: center;    
+	background:gold
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;        
+  background-color: green; 
+  animation: bounce 0.5s cubic-bezier(.5,0.05,1,.5);
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, 200px, 0); }
+}
