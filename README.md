@@ -1,4 +1,4 @@
-# CSS ART
+# CSS ART - General Edition
 
 **UPDATE**
 
