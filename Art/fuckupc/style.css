@@ -1,0 +1,129 @@
+body {
+    background: #25a9fc;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+    /* border: solid 3px white; */
+}
+
+.head {
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: #a6Becf;
+    border-radius: 50%;
+}
+
+.left-ear {
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    left: -20%;
+    top: 5%;
+    background: #a6Becf;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.right-ear {
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    right: -20%;
+    top: 5%;
+    background: #a6Becf;
+    border-radius: 50%;
+    z-index: 1;
+}
+.inner-ear {
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: #819caf;
+}
+
+.left-eye {
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    left: 21%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.right-eye {
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    right: 21%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.core {
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 36%;
+    border-radius: 50%;
+    background: #27354a;
+}
+
+.nose {
+    position: absolute;
+    background: #be845f;
+    width: 25%;
+    height: 42.5%;
+    left: 37%;
+    top: 45%;
+    border-radius: 50px;
+    z-index: 4;
+}
+
+.hair-left{
+    position: absolute;
+    top: -8%;
+    left: 30%;
+    width: 20%;
+    height: 20%;
+    background:  #A6BECF;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  .hair-right{
+    position: absolute;
+    top: -4%;
+    left: 48%;
+    width: 20%;
+    height: 20%;
+    background:  #A6BECF;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+
+.head-copy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #a6Becf;
+    border-radius: 50%;
+    z-index: 2;
+}
