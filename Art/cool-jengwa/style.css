@@ -1,0 +1,77 @@
+
+
+body {
+    background-color: antiquewhite;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.mel {
+    position: absolute;
+    height: 140px;
+    width: 90px;
+    border-top-right-radius: 180px;
+    border-bottom-right-radius: 180px;
+    background-color: #ffe6b3;
+    transform-origin: 50% 150%;
+    top: 5%;
+    left: calc(50% - 45px);
+}
+
+.inner {
+    position: absolute;
+    height: 140px;
+    width: 70px;
+    background-color: rgba(197, 13, 13, 0.767);
+    border-top-right-radius: 140px;
+    border-bottom-right-radius: 140px;
+    top: 20px;
+}
+
+.m1 {
+    transform: rotate(0deg)
+}
+
+.m2 {
+    transform: rotate(40deg)
+}
+
+.m3 {
+    transform: rotate(80deg)
+}
+
+.m3 {
+    transform: rotate(120deg)
+}
+
+.m4 {
+    transform: rotate(160deg)
+}
+
+.m5 {
+    transform: rotate(200deg)
+}
+
+.m6 {
+    transform: rotate(240deg)
+}
+
+.m7 {
+    transform: rotate(280deg)
+}
+
+.m8 {
+    transform: rotate(320deg)
+}
+
+.m9 {
+    transform: rotate(360deg)
+}
+
+.m10 {
+    transform: rotate(400deg)
+}
+
+.m11 {
+    transform: rotate(440deg)
+}
