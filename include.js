@@ -115,6 +115,7 @@ let cards = [
     ["The Minimal Artist", "./Art/Arpit Jain/Arpit Jain.html", ".Art/Arpit Jain/Arpit Jain.png", "Arpit Jain", "https://github.com/arpitjainds"],
     ["Minimal Clown", "./Art/Jithendra Yenugula/jithendrabsy.html", ".Art/Jithendra Yenugula/jithendrabsy.png", "Jithendra Yenugula", "https://github.com/jithendrabsy"],
     ["Square Fox", "./Art/Fox/index.html", "./Art/Fox/fox.png", "Bruno Bolting", "https://github.com/brunobolting"],
+    ["Cub", "./Art/matheusagcosta/index.html", "./Art/matheusagcosta/cub.png", "matheusagcosta", "https://github.com/matheusagcosta"],
 ];
 
 
