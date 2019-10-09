@@ -1,0 +1,64 @@
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.lambda__main{
+  display: flex;
+  justify-content: center;
+  border: 60px solid #F59A22;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.lambda__simbol,
+.lambda__leg,
+.lambda__edge--top,
+.lambda__edge--bottom {
+  background-color: #F59A22;
+  width: 60px;
+}
+
+.lambda__simbol {
+  align-self: center;
+  position: relative;
+  left: 50px;
+  height: 60%;
+  transform: rotate(-25deg);
+}
+
+.lambda__leg {
+  height: 75%;
+  transform: rotate(53deg);
+  position: relative;
+  right: 100px;
+  top: 30px;
+}
+
+.lambda__edge--top {
+  height: 90px;
+  position: relative;
+  top: -74px;
+  right: 59px;
+  transform: rotate(60deg);
+}
+
+.lambda__edge--bottom {
+  height: 94px;
+  position: relative;
+  bottom: 34px;
+  left: 182px;
+  transform: rotate(38deg);
+}
