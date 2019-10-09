@@ -3,6 +3,7 @@ let cards = [
     //  Follow this example format:
     //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
     ["cool-jengwa", "./Art/cool-jengwa/index.html", "./Art/jengwa/melon.PNG", "jengwa", "https://github.com/Jengwa"],
+    ["cute bear", "./Art/carlacentenor/index.html", "./Art/carlacentenor/bear.JPG", "carlacentenor", "https://github.com/carlacentenor"],
     ["koala", "./Art/fuckupc/index.html", "./Art/fuckupc/icon.PNG", "fuckupc", "https://github.com/fuckupc"],
     ["Shy Rabbit", "./Art/teits/index.html", "./Art/teits/preview.png", "Teits", "https://github.com/teitss"],
     ["Pikachu", "./Art/julesdowork/index.html", "./Art/julesdowork/pikachu.png", "Julesdowork", "https://github.com/Julesdowork"],

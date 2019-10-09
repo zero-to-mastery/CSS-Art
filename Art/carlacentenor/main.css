@@ -1,0 +1,165 @@
+:root {
+    --brown-dark-bear: #C68D6D;
+    --brown-light-bear: #DD9F80;
+    --yellow-bear: #FFDAAA;
+    --inner-ear: #FFC477;
+    --nose-bear: #935B45;
+    --eyes-bear: #57565C;
+    --sky-bear: #9FF6FF;
+    --sky-dark-bear: #7DE7FF;
+    --sky-ligth-bear: #CCF8FF;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 248, 181);
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 249, 206);
+}
+
+.head {
+    background-color: var(--brown-light-bear);
+    border-radius: 50%;
+    width: 232px;
+    height: 200px;
+    position: relative;
+}
+
+.head-copy {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--brown-light-bear);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.mood {
+    background-color: var(--yellow-bear);
+    border-radius: 50%;
+    width: 45%;
+    height: 40%;
+    position: relative;
+    left: 27.5%;
+    top: 47%;
+    z-index: 3;
+}
+
+.nose {
+    background-color: var(--nose-bear);
+    border-radius: 50%;
+    width: 35%;
+    height: 40%;
+    position: relative;
+    left: 32.5%;
+    top: 0;
+}
+
+.eye {
+    height: 16px;
+    width: 10px;
+    background-color: var(--eyes-bear);
+    position: absolute;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+.eye.rigth {
+    right: 27%;
+}
+
+.eye.left {
+    left: 27%;
+}
+
+.ear {
+    height: 32.5%;
+    width: 32.5%;
+    background-color: var(--brown-dark-bear);
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+}
+
+.ear.rigth {
+    right: -20px;
+}
+
+.ear.left {
+    left: -20px;
+}
+
+.inner-ear {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: var(--inner-ear);
+    top: 25%;
+    left: 25%;
+    position: absolute;
+}
+
+.tie {
+    position: absolute;
+    z-index: 4;
+    height: inherit;
+    width: 100%;
+    top: 92%;
+}
+
+.circle-tie {
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    background-color: var(--sky-ligth-bear);
+    position: absolute;
+    left: 42.5%;
+    top: 5%;
+    z-index: 8
+}
+
+.tie-layout {
+    height: 28%;
+    width: 30%;
+    background-color: var(--sky-bear);
+    position: absolute;
+}
+
+.tie-layout.rigth {
+    right: 22%;
+    border-radius: 90% 30% 30% 90% / 50% 50% 50% 50%;
+}
+
+.tie-layout.left {
+    border-radius: 30% 90% 90% 30% / 50% 50% 50% 50%;
+    left: 22%;
+}
+
+.inner-tie {
+    height: 50%;
+    width: 50%;
+    background-color: var(--sky-dark-bear);
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.inner-tie.rigth {
+    border-radius: 90% 30% 30% 90% / 50% 50% 50% 50%;
+}
+
+.inner-tie.left {
+    border-radius: 30% 90% 90% 30% / 50% 50% 50% 50%;
+}
