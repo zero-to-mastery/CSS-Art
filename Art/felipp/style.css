@@ -1,24 +1,18 @@
 body {
   margin: 0;
-  max-height: 100%;
-  max-width: 100%;
-}
-
-.lambda__background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #000;
-}
-
-.lambda__circle{
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 70px solid #F59A22;
+  align-content: center;
+}
+
+.lambda__main{
+  display: flex;
+  justify-content: center;
+  border: 60px solid #F59A22;
   border-radius: 50%;
-  width: 50%;
-  height: 700px;
+  width: 500px;
+  height: 500px;
 }
 
 .lambda__simbol,
@@ -26,36 +20,37 @@ body {
 .lambda__edge--top,
 .lambda__edge--bottom {
   background-color: #F59A22;
-  width: 70px;
+  width: 60px;
 }
 
 .lambda__simbol {
+  align-self: center;
   position: relative;
   left: 50px;
   height: 60%;
   transform: rotate(-25deg);
-  position: relative;
 }
 
 .lambda__leg {
-  height: 80%;
+  height: 75%;
   transform: rotate(53deg);
   position: relative;
-  top: 8%;
-  right: 171%;
+  right: 100px;
+  top: 30px;
 }
 
 .lambda__edge--top {
-  height: 105px;
+  height: 90px;
   position: relative;
-  top: -22%;
-  right: 136%;
+  top: -74px;
+  right: 59px;
   transform: rotate(60deg);
 }
 
 .lambda__edge--bottom {
-  height: 125px;
+  height: 94px;
   position: relative;
-  left: 243px;
+  bottom: 34px;
+  left: 182px;
   transform: rotate(38deg);
 }
