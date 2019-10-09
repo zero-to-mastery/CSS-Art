@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.lambda__background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.lambda__circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 70px solid #F59A22;
+  border-radius: 50%;
+  width: 50%;
+  height: 700px;
+}
+
+.lambda__simbol,
+.lambda__leg,
+.lambda__edge--top,
+.lambda__edge--bottom {
+  background-color: #F59A22;
+  width: 70px;
+}
+
+.lambda__simbol {
+  position: relative;
+  left: 50px;
+  height: 60%;
+  transform: rotate(-25deg);
+  position: relative;
+}
+
+.lambda__leg {
+  height: 80%;
+  transform: rotate(53deg);
+  position: relative;
+  top: 8%;
+  right: 171%;
+}
+
+.lambda__edge--top {
+  height: 105px;
+  position: relative;
+  top: -22%;
+  right: 136%;
+  transform: rotate(60deg);
+}
+
+.lambda__edge--bottom {
+  height: 125px;
+  position: relative;
+  left: 243px;
+  transform: rotate(38deg);
+}
