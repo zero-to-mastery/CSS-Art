@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+#hps {
+    display: flex;
+    margin-top: 15%;
+}
+
+.lefthp {
+    clip-path: polygon(50% 25%, 60% 4%, 85% 0, 100% 15%, 100% 100%, 80% 100%, 80% 43%, 65% 45%);
+    height: 21em;
+    width: 20em;
+    background-image: url(music.jpg);
+    margin-left: 25%;
+    z-index: -1;
+}
+
+.words {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 2.5em;
+    color: white;
+    height: 20em;
+    width: 1em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    z-index: -1;
+    
+}
+
+.righthp {
+    clip-path: polygon(40% 4%, 50% 25%, 35% 45%, 20% 43%, 20% 100%, 0 100%, 0 15%, 15% 0);
+    height: 21em;
+    width: 20em;
+    background-image: url(music.jpg);
+    margin-left: 1em;
+    z-index: -1;
+}
+
