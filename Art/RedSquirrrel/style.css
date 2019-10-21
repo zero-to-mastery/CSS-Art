@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #325ca8;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  letter-spacing: 1rem;
+  font-size: 3.5rem;
+}
+
+.container {
+  position: absolute;
+  display: block;
+  width: 500px;
+  height: 500px; 
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; 
+}
+
+
+.bell {
+  animation: ring 8s 0s ease-in-out infinite;
+}
+
+@keyframes ring {
+  0% { transform: rotate(0); }
+  1% { transform: rotate(30deg); }
+  3% { transform: rotate(-28deg); }
+  5% { transform: rotate(34deg); }
+  7% { transform: rotate(-32deg); }
+  9% { transform: rotate(30deg); }
+  11% { transform: rotate(-28deg); }
+  13% { transform: rotate(26deg); }
+  15% { transform: rotate(-24deg); }
+  17% { transform: rotate(22deg); }
+  19% { transform: rotate(-20deg); }
+  21% { transform: rotate(18deg); }
+  23% { transform: rotate(-16deg); }
+  25% { transform: rotate(14deg); }
+  27% { transform: rotate(-12deg); }
+  29% { transform: rotate(10deg); }
+  31% { transform: rotate(-8deg); }
+  33% { transform: rotate(6deg); }
+  35% { transform: rotate(-4deg); }
+  37% { transform: rotate(2deg); }
+  39% { transform: rotate(-1deg); }
+  41% { transform: rotate(1deg); }
+  43% { transform: rotate(0); } 
+  100% { transform: rotate(0); }
+}
+
+
+.ball-top {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: rgba(243, 6, 06, 0.8);
+  border-radius: 50%;
+  top: 80px;
+  right: 210px;
+  z-index: -2;
+}
+
+.bell-body {
+  position: absolute;
+  width: 170px;
+  height: 190px;
+  background: rgb(243, 219, 6);
+  z-index: 1;
+  top: 100px;
+  right: 150px;  
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;    
+}
+
+
+.bell-down {
+  position: absolute;
+  width: 210px;
+  height: 50px;
+  background: rgb(243, 219, 6);
+  top: 260px;
+  right: 130px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.ball-bot {
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  background: rgb(243, 219, 6);
+  border-radius: 50%;
+  top: 290px;
+  right: 204px;
+  z-index: -1;
+}
+
+@media(max-width: 700px){
+  h1 {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+  }
+}

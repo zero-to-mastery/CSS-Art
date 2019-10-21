@@ -119,6 +119,7 @@ let cards = [
     ["Cub", "./Art/matheusagcosta/index.html", "./Art/matheusagcosta/cub.png", "matheusagcosta", "https://github.com/matheusagcosta"],
     ["Airpods", "./Art/KatrinaRose14/index.html", "./Art/KatrinaRose14/airpods.png", "Katrina Rose Yates", "https://github.com/KatrinaRose14"],
     ["Lambda", "./Art/felipp/index.html", "./Art/felipp/lambda.png", "felipp", "https://github.com/skelrilod"],
+    ["Ringing bell", "./Art/RedSquirrrel/index.html", "./Art/RedSquirrrel/ringing bell.png", "Anette", "https://github.com/RedSquirrrel"],
 ];
 
 
