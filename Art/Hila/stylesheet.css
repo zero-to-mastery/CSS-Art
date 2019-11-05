@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+}
+
+#title {
+    margin: 100px;
+    font-family: cursive;
+    border-radius: 2px;
+    text-align: center;
+    color: green;
+    font-size: 60px;
+    background: -webkit-linear-gradient(#a300cc, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation-name: turnAround;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes turnAround {
+    
+    from {
+        -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+         rotate3d(0, 1, 0, -360deg);
+        transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+      }
+    
+    
+    to {
+        -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+          rotate3d(0, 1, 0, 0deg);
+        transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+      }
+}
+
+.words {
+    margin: 20px;
+    font-size: 35px;
+    background: -webkit-linear-gradient(rgb(190, 70, 70), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+    text-align: center;
+
+    animation-name:  fadeIn;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.one {
+    animation-delay: 0.5s;
+}
+
+.two {
+    animation-delay: 2s;
+}
+
+.three {
+    animation-delay: 3.5s;
+}
+
+.four {
+    animation-delay: 5s;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
