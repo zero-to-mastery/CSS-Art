@@ -1,0 +1,63 @@
+.crown {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: rgb(43, 150, 70);
+    height: 70px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.crown2 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: rgb(43, 150, 70);
+    height: 85px;
+    width: 120px;
+    position: absolute;
+    top: 140px;
+    left: 90px;
+}
+.crown3 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: rgb(43, 150, 70);
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 180px;
+    left: 75px;
+}
+
+.trunk {
+    height: 80px;
+    width: 10px;
+    background-color: rgb(138, 70, 58);
+    position: absolute;
+    top: 260px;
+    left: 145px;
+    z-index: -1;
+}
+
+.box1 {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(51, 83, 172);
+    position: absolute;
+    top: 305px;
+    left: 102px;
+}
+.box2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(88, 184, 112);
+    position: absolute;
+    top: 320px;
+    left: 148px;
+}
+.box3 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(207, 195, 28);
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    z-index: -2;
+}

@@ -122,7 +122,8 @@ let cards = [
     ["Ringing bell", "./Art/RedSquirrrel/index.html", "./Art/RedSquirrrel/ringing bell.png", "Anette", "https://github.com/RedSquirrrel"],
     ["animated-face", "./Art/Saksham/index.html", "./Art/Saksham/animated-face.png", "Saksham Singh", "https://github.com/Saksham27"],
     ["Animated Circle", "./Art/Sravya/index.html", "./Art/Sravya/index.png", "Sravya Challa", "https://github.com/sravya-challa-au3"],
-    ["Turn Around", "./Art/Hila/index.html", "./Art/Hila/animation_Gif.gif", "Hila Ailon", "https://github.com/Hila-Ailon"]
+    ["Turn Around", "./Art/Hila/index.html", "./Art/Hila/animation_Gif.gif", "Hila Ailon", "https://github.com/Hila-Ailon"],
+    ["Christmas Tree", "./Art/Ablutie/index.html", "./Art/Ablutie/christmasTree.jpg", "Mihai Dragomir", "https://github.com/Ablutie"]
 ];
 
 
