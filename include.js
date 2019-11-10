@@ -124,7 +124,8 @@ let cards = [
     ["Animated Circle", "./Art/Sravya/index.html", "./Art/Sravya/index.png", "Sravya Challa", "https://github.com/sravya-challa-au3"],
     ["Turn Around", "./Art/Hila/index.html", "./Art/Hila/animation_Gif.gif", "Hila Ailon", "https://github.com/Hila-Ailon"],
     ["Christmas Tree", "./Art/Ablutie/index.html", "./Art/Ablutie/christmasTree.jpg", "Mihai Dragomir", "https://github.com/Ablutie"],
-    ["AtariNTSCColors", "./Art/GiantsCode/index.html", "./Art/GiantsCode/AtariNTSCColors.gif", "Daniel Macleod GiantsCode", "https://github.com/giantscode"]
+    ["AtariNTSCColors", "./Art/GiantsCode/index.html", "./Art/GiantsCode/AtariNTSCColors.gif", "Daniel Macleod GiantsCode", "https://github.com/giantscode"],
+    ["Heart Animation", "./Art/RenaOnFire/index.html", "./Art/RenaOnFire/HeartImage.png", "Rena OnFire", "https://github.com/renaonfire"]
 ];
 
 
