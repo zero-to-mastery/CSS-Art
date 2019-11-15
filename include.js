@@ -126,7 +126,8 @@ let cards = [
     ["Christmas Tree", "./Art/Ablutie/index.html", "./Art/Ablutie/christmasTree.jpg", "Mihai Dragomir", "https://github.com/Ablutie"],
     ["AtariNTSCColors", "./Art/GiantsCode/index.html", "./Art/GiantsCode/AtariNTSCColors.gif", "Daniel Macleod GiantsCode", "https://github.com/giantscode"],
     ["Heart Animation", "./Art/RenaOnFire/index.html", "./Art/RenaOnFire/HeartImage.png", "Rena OnFire", "https://github.com/renaonfire"],
-    ["Anonymus Animation", "/Art/Anonymus/anonymus.html", "/Art/Anonymus/9mi2FINz_400x400.jpg", "Hope somebody will find this funny", "https://github.com/Jurek33"]
+    ["Anonymus Animation", "/Art/Anonymus/anonymus.html", "/Art/Anonymus/9mi2FINz_400x400.jpg", "Hope somebody will find this funny", "https://github.com/Jurek33"],
+    ["Rolling circle animation", "/Art/Kenneth/index.html", "Art/Kenneth/rolling_circle.jpg", "Kenneth Skodje", "https://github.com/KSkodje"]
 ];
 
 
