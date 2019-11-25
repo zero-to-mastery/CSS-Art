@@ -881,15 +881,16 @@ let cards = [
   [
     "Pokeball",
     "./Art/AdityaSaroj/index.html",
-    "./Art/AdityaSaroj/pokeball.jpg",
+    "./Art/AdityaSaroj/pokeball.png",
     "Aditya Kumar Saroj",
     "https://github.com/AdityaSaroj"
-  ][
-    ("Forest Racer",
+  ],
+  [
+    "Forest Racer",
     "./Art/rainoverme002/index.html",
     "./Art/rainoverme002/forest-racer.png",
     "rainoverme002",
-    "https://github.com/rainoverme002")
+    "https://github.com/rainoverme002"
   ]
 ];
 
