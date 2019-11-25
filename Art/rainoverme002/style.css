@@ -1,0 +1,117 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(forest-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.Title {
+  padding: 0px 10px 10px 10px;
+  font-size: 4em;
+  text-align: center;
+}
+.container {
+  position: absolute;
+  display: block;
+  align-items: center;
+  margin: 3em;
+  margin-top: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.Track {
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 10em;
+  border: 1em solid Grey;
+  background: black;
+}
+.Animal {
+  font-size: 8em;
+  text-align: right;
+}
+
+.Turtle {
+  animation: turtle-slide 20s linear infinite;
+}
+
+.Rabbit {
+  animation: rabbit-slide 20s linear infinite;
+}
+
+.Elephant {
+  animation: elephant-slide 20s linear infinite;
+}
+
+@keyframes turtle-slide {
+  0% {
+    margin-right: 0px;
+  }
+  5% {
+    margin-right: 100px;
+  }
+  33% {
+    margin-right: 300px;
+  }
+  58% {
+    margin-right: 500px;
+  }
+  76% {
+    margin-right: 800px;
+  }
+  90% {
+    margin-right: 1000px;
+  }
+  100% {
+    margin-right: 1200px;
+  }
+}
+
+@keyframes rabbit-slide {
+  0% {
+    margin-right: 0px;
+  }
+  5% {
+    margin-right: 200px;
+  }
+  33% {
+    margin-right: 500px;
+  }
+  58% {
+    margin-right: 700px;
+  }
+  76% {
+    margin-right: 800px;
+  }
+  90% {
+    margin-right: 900px;
+  }
+  100% {
+    margin-right: 1200px;
+  }
+}
+
+@keyframes elephant-slide {
+  0% {
+    margin-right: 0px;
+  }
+  5% {
+    margin-right: 250px;
+  }
+  33% {
+    margin-right: 500px;
+  }
+  58% {
+    margin-right: 750px;
+  }
+  100% {
+    margin-right: 1200px;
+  }
+}
