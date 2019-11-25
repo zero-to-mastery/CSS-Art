@@ -653,7 +653,6 @@ let cards = [
     "toserjude",
     "https://github.com/toserjude"
   ],
-
   [
     "Minimalist Hover and Move Away",
     "./Art/JoyceMinimalistArt/index.html",
@@ -891,6 +890,13 @@ let cards = [
     "./Art/rainoverme002/forest-racer.png",
     "rainoverme002",
     "https://github.com/rainoverme002"
+  ],
+  [
+    "Drop",
+    "./Art/ikaem/index.html",
+    "./Art/ikaem/drop.gif",
+    "ikaem",
+    "https://github.com/ikaem"
   ]
 ];
 
