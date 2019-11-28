@@ -1,0 +1,33 @@
+@keyframes Forward{
+	from { top: 0; transform: rotate(0deg); }
+	to { top: .9em; transform: rotate(-15deg); }
+}
+@keyframes Backward{
+	from { top: 0; transform: rotate(0deg); }
+	to { top: 1em; transform: rotate(25deg); }
+}
+
+div#one{
+	height: 100px;
+	width 50%;
+	background: #FF0028;
+	animation: Forward 5s;
+}
+div#two{
+	height: 100px;
+	width 50%;
+	background: #FFAD00;
+	animation: Backward 5s;
+}
+div#three{
+	height: 100px;
+	width 50%;
+	background-color: #1483FF;
+	animation: Forward 5s;
+}
+div#four{
+	height: 100px;
+	width 50%;
+	background: #45FF00;
+	animation: Backward 5s;
+}

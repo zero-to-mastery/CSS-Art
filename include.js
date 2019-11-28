@@ -897,6 +897,13 @@ let cards = [
     "./Art/ikaem/drop.gif",
     "ikaem",
     "https://github.com/ikaem"
+  ],
+  [
+    "Drop",
+    "./Art/Wow/index.html",
+    "./Art/Wow/wow.gif",
+    "sagihill",
+    "https://github.com/sagihill"
   ]
 ];
 
