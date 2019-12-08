@@ -908,7 +908,7 @@ let cards = [
   [
     "Rotate",
     "./Art/Abio/index.html",
-    "./Art/Abio/Screenshot.gif",
+    "./Art/Abio/Screenshot.png",
     "abiola-ajibola",
     "https://github.com/abiola-ajibola"
   ]
