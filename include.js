@@ -904,6 +904,13 @@ let cards = [
     "./Art/Wow/wow.gif",
     "sagihill",
     "https://github.com/sagihill"
+  ],
+  [
+    "Rotate",
+    "./Art/Abio/index.html",
+    "./Art/Abio/Screenshot.png",
+    "abiola-ajibola",
+    "https://github.com/abiola-ajibola"
   ]
 ];
 
