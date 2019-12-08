@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 1vh;
+}
+
+.container {
+    margin: calc(50vh - 153px) auto;
+    width: 500px;
+}
+
+.pack {
+    display: flex;
+    flex-wrap: wrap;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.top-box, .bottom-box {
+    flex: 500px;
+}
+
+.left-box, .right-box {
+    flex: 5;
+}
+
+
+.disc {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.top {
+    background: #0055ff;
+}
+
+.bottom {
+    background: #99ff55;
+}
+
+.left {
+    background: #ff5555;
+}
+
+.right {
+    background: #ff44ff;
+}
+
