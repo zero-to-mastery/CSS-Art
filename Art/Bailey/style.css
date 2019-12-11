@@ -1,0 +1,15 @@
+body {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(to right, red , white , blue);
+  -webkit-animation-name: siren; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: siren;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+/* Standard syntax */
+@keyframes siren {
+  from {background: linear-gradient(to right, red , white, blue);}
+  to {background: linear-gradient(to right, blue, white, red);}
+}
