@@ -1,0 +1,23 @@
+.strangeBall {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background: linear-gradient(to right, #478424, #a695f1);
+  transition: 0.4s;
+}
+
+.theZone {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background: #999;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  top: 50px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
