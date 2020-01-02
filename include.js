@@ -920,11 +920,19 @@ let cards = [
     "https://github.com/IbrahimTarabay"
   ],
   [
-    "CSS Cube Perspective", 
-    "./Art/carljustineoyales/index.html", 
-    "./Art/carljustineoyales/CSSCubePerspective.gif", 
-    "Carl Justine Oyales", 
-    "https://github.com/carljustineoyales"],
+    "CSS Cube Perspective",
+    "./Art/carljustineoyales/index.html",
+    "./Art/carljustineoyales/CSSCubePerspective.gif",
+    "Carl Justine Oyales",
+    "https://github.com/carljustineoyales"
+  ],
+  [
+    "Strange Ball",
+    "./Art/ronchito13/index.html",
+    "./Art/ronchito13/ball.gif",
+    "Ronchito13",
+    "https://github.com/Ronchito13"
+  ]
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -939,12 +947,12 @@ let contents = [];
 Shuffle(cards).forEach(c => {
   contents.push([
     `<li class="card">` +
-    `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
-    `<div class="flex-content">` +
-    `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
-    `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
-    `</div>` +
-    `</li>`
+      `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
+      `<div class="flex-content">` +
+      `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
+      `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
+      `</div>` +
+      `</li>`
   ]);
 });
 
@@ -952,7 +960,9 @@ document.getElementById("cards").innerHTML = contents;
 
 function Shuffle(o) {
   for (
-    var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
+    var j, x, i = o.length;
+    i;
+    j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
   );
   return o;
 }
