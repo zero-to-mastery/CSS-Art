@@ -932,6 +932,13 @@ let cards = [
     "./Art/ronchito13/ball.gif",
     "Ronchito13",
     "https://github.com/Ronchito13"
+  ],
+  [
+    "Art-E-opera",
+    "./Art/mayIGit_meg/index.html",
+    "./Art/mayIGit_meg/cover2.gif",
+    "mayIGit",
+    "https://github.com/mayIGit"
   ]
 ];
 
