@@ -939,6 +939,13 @@ let cards = [
     "./Art/mayIGit_meg/cover2.gif",
     "mayIGit",
     "https://github.com/mayIGit"
+  ],
+  [
+    "CSS Mosaic Layout",
+    "./Art/mosaic-layout/index.html",
+    "./Art/mosaic-layout/mosaic.png",
+    "collinsmuriuki",
+    "https://github.com/collinsmuriuki"
   ]
 ];
 
