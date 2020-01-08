@@ -932,6 +932,13 @@ let cards = [
     "./Art/ronchito13/ball.gif",
     "Ronchito13",
     "https://github.com/Ronchito13"
+  ],
+  [
+    "CSS Mosaic Layout",
+    "./Art/mosaic-layout/index.html",
+    "./Art/mosaic-layout/mosaic.png",
+    "collinsmuriuki",
+    "https://github.com/collinsmuriuki"
   ]
 ];
 
