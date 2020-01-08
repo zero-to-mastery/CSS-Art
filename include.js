@@ -934,6 +934,13 @@ let cards = [
     "https://github.com/Ronchito13"
   ],
   [
+    "Art-E-opera",
+    "./Art/mayIGit_meg/index.html",
+    "./Art/mayIGit_meg/cover2.gif",
+    "mayIGit",
+    "https://github.com/mayIGit"
+  ],
+  [
     "CSS Mosaic Layout",
     "./Art/mosaic-layout/index.html",
     "./Art/mosaic-layout/mosaic.png",

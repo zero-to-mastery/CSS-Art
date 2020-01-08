@@ -1,0 +1,74 @@
+html{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#abcdef;
+    display:flex;
+    justify-content:center;
+    margin-top:20vh;
+}
+@keyframes spin{
+    from{
+    transform:rotate(45deg);
+    border-radius:50%;
+    }
+    to{
+        transform:rotate(127deg);
+        border-radius:60%;
+    }
+}
+#container{
+    width: 250px;
+    height:250px;
+    padding:30px;
+    /* background-color:#ffffff; */
+    background-image: linear-gradient(pink,cornsilk);
+    border-radius:50%;
+    transform:rotate(40deg);
+    animation-name:spin;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    
+}
+
+@keyframes change{
+    from{opacity:.8}
+    to{border-radius:50%;opacity:1;transform: rotateY(130deg);
+        border-top-right-radius:0px;}
+
+}
+
+.face{
+    width:60px;
+    height:60px;
+    margin-left:20px;
+    background-color:#333;
+    border-radius:30%;
+    border-top-right-radius:0px;
+    animation-name:change;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate
+}
+
+.face2{
+    width:120px;
+    height:60px;
+    margin-left:70px;
+    background-color:rgb(231, 137, 151);
+    border-radius:30%;
+    animation-name:change;
+    animation-duration:2s;
+    animation-delay:1s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.texts{
+    font-size:1.1em;
+    position: relative;
+    left:-33px;
+    top:-110px;
+}
