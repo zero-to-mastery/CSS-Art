@@ -1,0 +1,339 @@
+/* EFFECTS */
+@keyframes hair {
+    from {background-color: yellowgreen;}
+    to {background-color: red;}
+}
+
+@keyframes pupil1 {
+    from {
+        background-color: #27354A;
+        left: 36%;
+    }
+    to {
+        background-color: red;
+        left: 20%;
+    }
+}
+
+@keyframes pupil2 {
+    from {
+        background-color: #27354A;
+        left: 36%;
+    }
+    to {
+        background-color: red;
+        left: 50%;
+    }
+}
+
+@keyframes eyes {
+    from {background-color: white;}
+    to {background-color: yellow;}
+}
+
+@keyframes mouth {
+    from {
+        clip-path: polygon(50% 45%, 100% 45%, 100% 55%, 50% 55%, 0 55%, 0 45%);
+    }
+    to {
+        clip-path: polygon(50% 65%, 100% 0, 100% 35%, 50% 80%, 0 35%, 0 0);
+    }
+}
+
+@keyframes skin {
+    from {background-color: rgb(218, 203, 187);}
+    to {background-color: white;}
+}
+
+@keyframes brow-left {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(20deg);}
+}
+
+@keyframes brow-right {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-20deg);}
+}
+
+/* CHARACTER */
+body {
+    background: green;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    /* border: solid 4px yellow; */
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+}
+
+/* Head */
+.head {
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: rgb(218, 203, 187);
+    border-radius: 50%;
+    animation-name: skin;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.head-copy {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(218, 203, 187);
+    border-radius: 50%;
+    z-index: 2;
+    animation-name: skin;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+/* Ears */
+.ear-left {
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    left: -10%;
+    top: 30%;
+    background: rgb(218, 203, 187);
+    border-radius: 50%;
+    z-index: 1;
+    animation-name: skin;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.ear-right {
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    right: -10%;
+    top: 30%;
+    background: rgb(218, 203, 187);
+    border-radius: 50%;
+    z-index: 1;
+    animation-name: skin;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.inner-ear {
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: rgb(88, 80, 70);
+}
+
+/* Eyes */
+.eye-left {
+    position: absolute;
+    background: white;
+    width: 15%;
+    height: 15%;
+    top: 35%;
+    left: 21%;
+    border-radius: 50%;
+    z-index: 3;
+    animation-name: eyes;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.eye-right {
+    position: absolute;
+    background: white;
+    width: 15%;
+    height: 15%;
+    top: 35%;
+    right: 21%;
+    border-radius: 50%;
+    z-index: 2;
+    animation-name: eyes;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.pupil1 {
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 36%;
+    border-radius: 50%;
+    background: #27354A;
+    animation-name: pupil1;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.pupil2 {
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 36%;
+    border-radius: 50%;
+    background: #27354A;
+    animation-name: pupil2;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+/* Eye Brows */
+.brow-left {
+    position: absolute;
+    background: rgb(88, 80, 70);
+    width: 20%;
+    height: 10%;
+    left: 17.5%;
+    top: 25%;
+    border-radius: 50px;
+    z-index: 4;
+    transform: rotate(0deg);
+    animation-name: brow-left;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.brow-right {
+    position: absolute;
+    background: rgb(88, 80, 70);
+    width: 20%;
+    height: 10%;
+    left: 62.5%;
+    top: 25%;
+    border-radius: 50px;
+    z-index: 4;
+    transform: rotate(0deg);
+    animation-name: brow-right;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+/* Nose */
+.nose {
+    position: absolute;
+    background: #BE845F;
+    width: 25%;
+    height: 30%;
+    left: 37%;
+    top: 45%;
+    border-radius: 50px;
+    z-index: 4;
+}
+
+/* Mouth */
+.mouth {
+    position: absolute;
+    background: rgb(88, 80, 70);
+    width: 40%;
+    height: 10%;
+    left: 30%;
+    top: 80%;
+    border-radius: 50px;
+    z-index: 4;
+    /* -webkit-clip-path: polygon(45% 40%, 90% 20%, 100% 60%, 70% 80%, 30% 80%, 0% 60%, 10% 20%); */
+    clip-path: polygon(50% 45%, 100% 45%, 100% 55%, 50% 55%, 0 55%, 0 45%);
+    animation-name: mouth;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+/* Hair */
+.hair-left1 {
+    position: absolute;
+    top: -15%;
+    left: 10%;
+    width: 40%;
+    height: 40%;
+    background:  yellowgreen;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    animation-name: hair;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.hair-left2 {
+    position: absolute;
+    top: -5%;
+    left: -15%;
+    width: 50%;
+    height: 50%;
+    background:  yellowgreen;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    animation-name: hair;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.hair-right1 {
+    position: absolute;
+    top: -15%;
+    left: 40%;
+    width: 40%;
+    height: 40%;
+    background: yellowgreen;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    animation-name: hair;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.hair-right2 {
+    position: absolute;
+    top: -5%;
+    left: 65%;
+    width: 50%;
+    height: 50%;
+    background: yellowgreen;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    animation-name: hair;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
