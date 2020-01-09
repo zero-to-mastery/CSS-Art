@@ -947,6 +947,13 @@ let cards = [
     "collinsmuriuki",
     "https://github.com/collinsmuriuki"
   ]
+  [
+    "Smiling Clown",
+    "./Art/VelizarStavrev/index.html",
+    "./Art/VelizarStavrev/smilingClown.png",
+    "VelizarStavrev",
+    "https://github.com/VelizarStavrev"
+  ]
 ];
 
 // +--------------------------------------------------------------------------------+
