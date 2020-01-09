@@ -946,7 +946,7 @@ let cards = [
     "./Art/mosaic-layout/mosaic.png",
     "collinsmuriuki",
     "https://github.com/collinsmuriuki"
-  ]
+  ],
   [
     "Smiling Clown",
     "./Art/VelizarStavrev/index.html",
