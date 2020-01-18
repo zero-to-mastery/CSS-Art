@@ -1,0 +1,33 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.up{
+    height:50vh;
+    width:50vw;
+    background-color:green;
+    transition:all 1s;
+    font-size:2rem;
+    text-align:center;
+    
+}
+
+.down{
+    height:50vh;
+    width:50vw;
+    background-color:blue;
+    transition:all 1s;
+    font-size:2rem;
+    text-align:center;
+    color:white;
+}
+
+.up:hover{
+        width:70vw;
+}
+
+.down:hover{
+    background-color:blueviolet;
+}
