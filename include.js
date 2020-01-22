@@ -977,6 +977,13 @@ let cards = [
     'krishan93985',
     'https://github.com/krishan93985',
   ],
+  [
+    'Cosmos',
+    './Art/prajwal-mendon/index.html',
+    './Art/prajwal-mendon/cosmos.png',
+    'Prajwal Mendon',
+    'https://github.com/Prajwal-mendon',
+  ],
 ];
 
 // +--------------------------------------------------------------------------------+

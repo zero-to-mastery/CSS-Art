@@ -1,0 +1,126 @@
+html,body{
+    height: 100%;
+    width:100%;
+    margin: 0;
+    background: url(1.png) no-repeat center center;
+    background-size: cover;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat( 10 , 1fr);
+    grid-template-rows: auto;
+}
+
+@keyframes animate{
+    0%         {margin-top: 200px;}
+    10%       {background:rgb(0, 16, 158);}
+    20%      {background:rgb(98, 87, 245);}
+    30%      {background:rgb(189, 3, 96);} 
+    40%     {background:rgb(4, 119, 4);}
+    50%     {background:rgb(139, 15, 15);}
+    60%     {background:rgb(170, 97, 14);}
+    70%     {background:rgb(98, 9, 116);}
+    80%     { background:rgb(88, 87, 88);}
+    90%    {background:rgb(10, 109, 112)}
+    100% {margin-top: 0px;  background-color: rgb(146, 39, 27);}
+}
+.one{
+    margin-top: 200px;
+    height: 456px;
+    width: 8.43125rem;
+    background:salmon;
+    animation-name : animate;
+    animation-duration : 5s;
+    animation-iteration-count: infinite;
+}
+
+.two{
+    margin-top: 200px;
+    height: 456px;
+    width: 8.43125rem;
+    background:rgb(247, 247, 25);
+    animation-name : animate;
+    animation-duration : 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+.three{
+    margin-top: 200px;
+    height: 456px;
+    width: 8.43125rem;
+    background:rgb(98, 87, 245);
+    animation-name : animate;
+    animation-duration : 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+.four{
+    margin-top: 200px;
+    height: 456px;
+    width: 8.43125rem;
+    background:rgb(255, 105, 180);
+    animation-name : animate;
+    animation-duration : 5s;
+    animation-delay:4s ;
+    animation-iteration-count: infinite;
+}
+.five{
+    margin-top: 200px;
+    height: 456px;
+    width: 8.43125rem;
+    background:rgb(63, 240, 63);
+    animation-name : animate;
+    animation-duration : 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+.six{
+    margin-top: 200px;
+    height: 456px;
+    width: 8.43125rem;
+    background:rgb(233, 70, 70);
+    animation-name : animate;
+    animation-duration : 5s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+.seven{
+    margin-top: 200px;
+    height: 456px;
+    width: 8.43125rem;
+    background:rgb(192, 231, 50);
+    animation-name : animate;
+    animation-duration : 5s;
+    animation-delay: 7s;
+    animation-iteration-count: infinite;
+}
+.eight{
+    margin-top: 200px;
+    height: 456px;
+    width: 8.43125rem;
+    background:rgb(98, 238, 243);
+    animation-name : animate;
+    animation-duration : 5s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+    }
+.nine{
+    margin-top: 200px;
+    height: 456px;
+    width: 8.43125rem;
+    background:rgb(218, 74, 247);
+    animation-name : animate;
+    animation-duration : 5s;
+    animation-delay: 9s;
+    animation-iteration-count: infinite;
+}
+.ten{
+    margin-top: 200px;
+    height: 456px;
+    width: 8.43125rem;
+    background:rgb(201, 192, 196);
+    animation-name : animate;
+    animation-duration : 5s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
