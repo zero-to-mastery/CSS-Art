@@ -8,9 +8,7 @@ let cards = [
     './Art/BINGNAN-CHEN/box.jpg',
     'BINGNAN-CHEN',
     'https://github.com/r1991108',
-  ]
-
-
+  ],
   [
     'cool-jengwa',
     './Art/cool-jengwa/index.html',
@@ -977,11 +975,20 @@ let cards = [
     'krishan93985',
     'https://github.com/krishan93985',
   ],
-  ["My not-so Flashy Animation", 
+  [
+    'Cosmos',
+    './Art/prajwal-mendon/index.html',
+    './Art/prajwal-mendon/cosmos.png',
+    'Prajwal Mendon',
+    'https://github.com/Prajwal-mendon',
+  ],
+  [
+  "My not-so Flashy Animation", 
   "./Art/SonalJain/index.html", 
   "./Art/SonalJain/My not-so Flashy Animation.png", 
   "Sonal Jain", 
-  "https://github.com/Jain-sonal"],
+  "https://github.com/Jain-sonal"
+  ],
 ];
 
 // +--------------------------------------------------------------------------------+
