@@ -977,6 +977,11 @@ let cards = [
     'krishan93985',
     'https://github.com/krishan93985',
   ],
+  ["My not-so Flashy Animation", 
+  "./Art/SonalJain/index.html", 
+  "./Art/SonalJain/My not-so Flashy Animation.png", 
+  "Sonal Jain", 
+  "https://github.com/Jain-sonal"],
 ];
 
 // +--------------------------------------------------------------------------------+
