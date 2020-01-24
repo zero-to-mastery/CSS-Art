@@ -1,0 +1,816 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+body {
+  font-family: 'Amatic SC', cursive;
+  color: #6fc4b7;
+}
+
+/* Container: 
+*****************************/
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  min-height: 500px;
+  min-width: 350px;
+}
+
+/* Title: 
+*****************************/
+.title {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: -50px;
+  margin-top: 50px;
+  min-width: 350px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Scene: 
+*****************************/
+.scene {
+  background-color: #a5dad2;
+  border: 0px dotted #000;
+  border-radius: 20px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  width: 500px;
+}
+
+/* Train: 
+*****************************/
+.train {
+  animation: train-move 20s infinite linear;
+  height: 100%;
+  left: 50%;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.train-main {
+  background-color: #f36e4b;
+  border-radius: 0% 10px 0% 0%;
+  bottom: 22%;
+  height: 5%;
+  left: 10%;
+  position: absolute;
+  width: 10%;
+  z-index: 3;
+}
+
+.train-chimney {
+  background-color: #f36e4b;
+  bottom: 22%;
+  height: 7%;
+  left: 17%;
+  position: absolute;
+  width: 2%;
+  z-index: 3;
+}
+
+.train-chimney-smoke-1 {
+  animation: smoke 5s infinite;
+  background-color: #dbf0ed;
+  border-radius: 100%;
+  height: 50%;
+  left: 0%;
+  position: absolute;
+  top: -10%;
+  width: 100%;
+  z-index: 0;
+}
+
+.train-chimney-smoke-2 {
+  animation: smoke 8s infinite;
+  background-color: #dbf0ed;
+  border-radius: 100%;
+  height: 50%;
+  left: 0%;
+  position: absolute;
+  top: -10%;
+  width: 100%;
+  z-index: 0;
+}
+
+.train-chimney-smoke-3 {
+  animation: smoke 13s infinite;
+  background-color: #dbf0ed;
+  border-radius: 100%;
+  height: 50%;
+  left: 0%;
+  position: absolute;
+  top: -10%;
+  width: 100%;
+  z-index: 0;
+}
+
+.train-chimney-smoke-4 {
+  animation: smoke 21s infinite;
+  background-color: #dbf0ed;
+  border-radius: 100%;
+  height: 50%;
+  left: 0%;
+  position: absolute;
+  top: -10%;
+  width: 100%;
+  z-index: 0;
+}
+
+.train-chimney-smoke-4 {
+  animation: smoke 23s infinite;
+  background-color: #dbf0ed;
+  border-radius: 100%;
+  height: 50%;
+  left: 0%;
+  position: absolute;
+  top: -10%;
+  width: 100%;
+  z-index: 0;
+}
+
+.train-cabin {
+  background-color: #f36e4b;
+  bottom: 22%;
+  height: 7%;
+  left: 11%;
+  position: absolute;
+  width: 3%;
+  z-index: 3;
+}
+
+.train-cabin-top {
+  background-color: #edf8f6;
+  height: 10%;
+  left: -5%;
+  position: relative;
+  top: -10%;
+  width: 130%;
+  z-index: 5;
+}
+
+.train-wheel-1 {
+  background-color: #c9e9e4;
+  border-radius: 100%;
+  bottom: 20%;
+  height: 3.5%;
+  left: 10%;
+  position: absolute;
+  width: 2.5%;
+  z-index: 4;
+}
+
+.train-wheel-2 {
+  background-color: #c9e9e4;
+  border-radius: 100%;
+  bottom: 20%;
+  height: 3.5%;
+  left: 13.5%;
+  position: absolute;
+  width: 2.5%;
+  z-index: 4;
+}
+
+.train-wheel-3 {
+  background-color: #c9e9e4;
+  border-radius: 100%;
+  bottom: 20%;
+  height: 3.5%;
+  left: 17%;
+  position: absolute;
+  width: 2.5%;
+  z-index: 4;
+}
+
+.train-wheel-trim {
+  background-color: #edf8f6;
+  border-radius: 100%;
+  height: 50%;
+  left: 25%;
+  position: relative;
+  top: 25%;
+  width: 50%;
+  z-index: 5;
+}
+
+.train-carriage-wheel-guard {
+  background-color: #f6957b;
+  border-radius: 50% 50% 0% 0%;
+  height: 40%;
+  left: -1.5%;
+  position: relative;
+  top: 55%;
+  width: 108%;
+}
+
+.train-carriage-wheels {
+  height: 40%;
+  left: -20%;
+  position: relative;
+  top: 40%;
+  z-index: -1;
+}
+
+.train-carriage-wheel {
+  background-color: #c9e9e4;
+  border-radius: 100%;
+  bottom: 0%;
+  height: 120%;
+  position: absolute;
+  width: 15%;
+  z-index: 4;
+}
+
+.train-carriage-wheel:nth-child(1n + 1) {
+  left: 25%;
+}
+
+.train-carriage-wheel:nth-child(1n + 2) {
+  left: 50%;
+}
+
+.train-carriage-wheel:nth-child(1n + 3) {
+  left: 75%;
+}
+
+.train-carriage-wheel:nth-child(1n + 4) {
+  left: 100%;
+}
+
+.train-carriage-wheel:nth-child(1n + 5) {
+  left: 125%;
+}
+
+.train-carriage-1 {
+  background-color: #f36e4b;
+  bottom: 22%;
+  height: 7%;
+  left: -6%;
+  position: absolute;
+  width: 15%;
+  z-index: 5;
+}
+
+.train-carriage-2 {
+  background-color: #f36e4b;
+  bottom: 22%;
+  height: 7%;
+  left: -22%;
+  position: absolute;
+  width: 15%;
+  z-index: 5;
+}
+
+.train-carriage-roof {
+  background: #edf8f6;
+  height: 10%;
+  left: -2px;
+  position: relative;
+  top: -3px;
+  width: 105%;
+  z-index: 10;
+}
+
+.train-carriage-window {
+  background-color: #c9e9e4;
+  border-radius: 1px;
+  position: absolute;
+  left: -50%;
+}
+
+.train-carriage-window:nth-child(1n + 1) {
+  left: 15%;
+  height: 50%;
+  width: 10%;
+}
+
+.train-carriage-window:nth-child(1n + 2) {
+  left: 30%;
+  height: 50%;
+  width: 10%;
+}
+
+.train-carriage-window:nth-child(1n + 3) {
+  left: 45%;
+  height: 50%;
+  width: 10%;
+}
+
+.train-carriage-window:nth-child(1n + 4) {
+  left: 60%;
+  height: 50%;
+  width: 10%;
+}
+
+.train-carriage-window:nth-child(1n + 5) {
+  left: 75%;
+  height: 50%;
+  width: 10%;
+}
+
+/* Hills: 
+*****************************/
+.hill {
+  background: #a5a635;
+  border: 0px dotted #000;
+  border-radius: 50px 50px 20px 20px;
+  height: 220px;
+  width: 100px;
+}
+
+.hill-eyes {
+  animation: hill-eyes-move 4s alternate infinite;
+  border: 0px dotted #000;
+  height: 10px;
+  left: 55px;
+  position: absolute;
+  top: 35px;
+  width: 44px;
+}
+
+.hill-eye {
+  background-color: #8a8b2d;
+  border: 0px dotted #000;
+  border-radius: 50px;
+  float: left;
+  height: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+  width: 5px;
+  z-index: 1;
+}
+
+.hill-eye-left {
+  left: 20px;
+  top: 50px;
+}
+
+.hill-eye-right {
+  left: 40px;
+  top: 31.5px;
+}
+
+.hill-1 {
+  bottom: 0px;
+  height: 70%;
+  left: 10px;
+  position: absolute;
+}
+
+.hill-2 {
+  bottom: 0px;
+  height: 45%;
+  left: 50px;
+  position: absolute;
+  width: 15%;
+}
+
+/* Ground: 
+*****************************/
+.ground {
+  background-color: #e4a53e;
+  border: 0px dotted #000;
+  border-radius: 0px 0px 20px 20px;
+  bottom: 0px;
+  height: 20%;
+  position: absolute;
+  width: 100%;
+}
+
+.grass {
+  background-color: #999a32;
+  border-radius: 0px 0px 20px -10 20px;
+  height: 15%;
+  width: 120%;
+}
+
+.grass-bump {
+  border-radius: 100% 100% 100% 100%;
+  height: 25%;
+  position: absolute;
+  top: 0px;
+  width: 5%;
+}
+
+.grass-bump:nth-child(even) {
+  top: 0%;
+}
+
+.grass-bump:nth-child(1n) {
+  background-color: #999a32;
+  left: 0px;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 1) {
+  left: 0%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 2) {
+  left: 5%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 3) {
+  left: 10%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 4) {
+  left: 15%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 5) {
+  left: 20%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 6) {
+  left: 25%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 7) {
+  left: 30%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 8) {
+  left: 35%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 9) {
+  left: 40%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 10) {
+  left: 45%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 11) {
+  left: 50%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 12) {
+  left: 55%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 13) {
+  left: 60%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 14) {
+  left: 65%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 15) {
+  left: 70%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 16) {
+  left: 75%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 17) {
+  left: 80%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 18) {
+  left: 85%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 19) {
+  left: 90%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 20) {
+  left: 95%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 21) {
+  left: 100%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 22) {
+  left: 105%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 23) {
+  left: 110%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 24) {
+  left: 115%;
+  position: absolute;
+}
+
+.grass-bump:nth-child(1n + 25) {
+  left: 120%;
+  position: absolute;
+}
+
+.dirt {
+  width: 100%;
+}
+
+.dirt-piece {
+  background-color: #e8b45e;
+  border-radius: 100%;
+  height: 10px;
+  position: absolute;
+  top: 30%;
+  width: 10px;
+}
+
+.dirt-piece:nth-child(even) {
+  position: absolute;
+  top: 70%;
+}
+
+.dirt-piece:nth-child(1n + 1) {
+  left: 0%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 2) {
+  left: 8.3333333333%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 3) {
+  left: 16.6666666667%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 4) {
+  left: 25%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 5) {
+  left: 33.3333333333%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 6) {
+  left: 41.6666666667%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 7) {
+  left: 50%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 8) {
+  left: 58.3333333333%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 9) {
+  left: 66.6666666667%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 10) {
+  left: 75%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 11) {
+  left: 83.3333333333%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 12) {
+  left: 91.6666666667%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 13) {
+  left: 100%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 14) {
+  left: 108.3333333333%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 15) {
+  left: 116.6666666667%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 16) {
+  left: 125%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 17) {
+  left: 133.3333333333%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 18) {
+  left: 141.6666666667%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 19) {
+  left: 150%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 20) {
+  left: 158.3333333333%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 21) {
+  left: 166.6666666667%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 22) {
+  left: 175%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 23) {
+  left: 183.3333333333%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 24) {
+  left: 191.6666666667%;
+  position: absolute;
+}
+
+.dirt-piece:nth-child(1n + 25) {
+  left: 200%;
+  position: absolute;
+}
+
+/* Sun: 
+*****************************/
+.sun {
+  background-color: #f1dd40;
+  border-radius: 100%;
+  height: 13%;
+  left: 33%;
+  position: absolute;
+  top: 10%;
+  width: 10%;
+}
+
+/* Clouds: 
+*****************************/
+.cloud {
+  background: #fff;
+  border-radius: 200px;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  height: 50px;
+  position: absolute;
+  width: 500px;
+}
+
+/* Animations: 
+*****************************/
+@keyframes hill-eyes-move {
+  0% {
+    left: 5%;
+  }
+  100% {
+    left: 50%;
+  }
+}
+.c1 {
+  -webkit-animation: moveclouds 130s linear infinite;
+  -moz-animation: moveclouds 130s linear infinite;
+  -o-animation: moveclouds 130s linear infinite;
+  opacity: 0.8;
+  position: absolute;
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+  top: 25%;
+}
+
+.c2 {
+  -webkit-animation: moveclouds 110s linear infinite;
+  -moz-animation: moveclouds 110s linear infinite;
+  -o-animation: moveclouds 110s linear infinite;
+  opacity: 0.5;
+  position: absolute;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+  top: 15%;
+}
+
+.c3 {
+  -webkit-animation: moveclouds 80s linear infinite;
+  -moz-animation: moveclouds 80s linear infinite;
+  -o-animation: moveclouds 80s linear infinite;
+  opacity: 0.8;
+  position: absolute;
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  transform: scale(0.7);
+  top: 5%;
+}
+
+.c4 {
+  -webkit-animation: moveclouds 70s linear infinite;
+  -moz-animation: moveclouds 70s linear infinite;
+  -o-animation: moveclouds 70s linear infinite;
+  opacity: 0.3;
+  position: absolute;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+  top: 7%;
+}
+
+.c5 {
+  -webkit-animation: moveclouds 50s linear infinite;
+  -moz-animation: moveclouds 50s linear infinite;
+  -o-animation: moveclouds 50s linear infinite;
+  opacity: 0.5;
+  position: absolute;
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  transform: scale(0.7);
+  top: 14%;
+}
+
+@-webkit-keyframes moveclouds {
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
+@-moz-keyframes moveclouds {
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
+@-o-keyframes moveclouds {
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
+@keyframes train-move {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 130%;
+  }
+}
+@keyframes smoke {
+  0% {
+    height: 50%;
+    left: 0%;
+    opacity: 1;
+    top: -50%;
+    width: 100%;
+  }
+  100% {
+    height: 100%;
+    left: -500%;
+    opacity: 0;
+    top: -300%;
+    width: 300%;
+  }
+}
