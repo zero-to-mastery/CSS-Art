@@ -121,6 +121,7 @@ let cards = [
     ["Lambda", "./Art/felipp/index.html", "./Art/felipp/lambda.png", "felipp", "https://github.com/skelrilod"],
     ["Ringing bell", "./Art/RedSquirrrel/index.html", "./Art/RedSquirrrel/ringing bell.png", "Anette", "https://github.com/RedSquirrrel"],
     ["animated-face", "./Art/Saksham/index.html", "./Art/Saksham/animated-face.png", "Saksham Singh", "https://github.com/Saksham27"]
+    ["City", "./Art/City/index.html", "./Art/City/city.jpeg", "Julitree", "https://github.com/julitree"]
 ];
 
 
