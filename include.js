@@ -95,7 +95,6 @@ let cards = [
     ["Ghost", "./Art/toserjude/ghost.html", "./Art/toserjude/ghost.jpg", "toserjude", "https://github.com/toserjude"],
     ["JS Logo", "./Art/Thulasi/index.html", "./Art/Thulasi/js-logo.PNG", "ThulasiA", "https://github.com/ThulasiA"],
     ["Black Cat", "./Art/toserjude/blackCat.html", "./Art/toserjude/cat.jpg", "toserjude", "https://github.com/toserjude"],
-
     ["Minimalist Hover and Move Away", "./Art/JoyceMinimalistArt/index.html", "./Art/JoyceMinimalistArt/joycemini.png", "Joyce Wambui", "https://github.com/joycewambui"],
     ["Baymax", "./Art/dziukers/index.html", "./Art/dziukers/Baymax.JPG", "dziukers", "https://github.com/dziukers"],
     ["Smart Phone", "./Art/chathurasam/smartphone.html", "./Art/chathurasam/screenshot.png", "Chathura Samarajeewa", "https://github.com/ChathuraSam"],
@@ -120,7 +119,7 @@ let cards = [
     ["Airpods", "./Art/KatrinaRose14/index.html", "./Art/KatrinaRose14/airpods.png", "Katrina Rose Yates", "https://github.com/KatrinaRose14"],
     ["Lambda", "./Art/felipp/index.html", "./Art/felipp/lambda.png", "felipp", "https://github.com/skelrilod"],
     ["Ringing bell", "./Art/RedSquirrrel/index.html", "./Art/RedSquirrrel/ringing bell.png", "Anette", "https://github.com/RedSquirrrel"],
-    ["animated-face", "./Art/Saksham/index.html", "./Art/Saksham/animated-face.png", "Saksham Singh", "https://github.com/Saksham27"]
+    ["animated-face", "./Art/Saksham/index.html", "./Art/Saksham/animated-face.png", "Saksham Singh", "https://github.com/Saksham27"],
     ["City", "./Art/City/index.html", "./Art/City/city.jpeg", "Julitree", "https://github.com/julitree"]
 ];
 
