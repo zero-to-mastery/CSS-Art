@@ -1,0 +1,20 @@
+#container {
+    height: 100vh;
+    display: flex;
+}
+.circle {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px #808080;
+    animation-name: drop;
+    animation-duration: 15s;
+    align-self: flex-start;
+}
+@keyframes drop {
+    0% {align-self: flex-start;}
+    10% {align-self: center;}
+    20% {align-self: flex-end;}
+    50% {border-radius: 50% 50% 0 0;}
+}
