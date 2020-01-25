@@ -1,0 +1,1385 @@
+/*
+  Copyright (c) 2020 Julitree 
+  Licensed under the MIT license
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background: #2b2b2b;
+}
+
+
+.container{
+    width: 66vw;
+    height: 90vh;
+    position: relative;
+    margin: auto;
+    background-image: linear-gradient(#b7f0f9, #00dcff);
+    animation: example 22s infinite alternate;
+ 
+}
+
+@keyframes example {
+    from {background-image: linear-gradient(#b7f0f9, #00dcff);}
+    to {background-image:linear-gradient(#015883, #a0c5ea);}
+  }
+
+/* == CLOUDS ==*/
+
+
+.cloudContainer{
+    position: absolute;
+    width: 15%;
+    height: 14%;
+}
+
+.cloud1{
+    top: 21%;
+    left: 8%;
+    width: 16%;
+    height: 12%;
+    animation-name:example2;
+    animation-duration: 22s;
+}
+
+/* @keyframes example2 {
+    from {background-image: linear-gradient(#b7f0f9, #00dcff);}
+    to {background-image:linear-gradient(#015883, #a0c5ea);}
+  } */
+
+
+.clouds{
+    background-color: #caf3f9;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    position: absolute;
+}
+.cotton2, .cotton3, 
+.cotton4, .cotton5{
+    border-left: none;
+    border-right: none;
+}
+
+.cotton1{
+    width: 10%;
+    height: 15%;
+    border-radius: 161% 71% 0 0;
+    top: 45.3%;
+    right: 74.3%;
+    border-right: none;
+}
+
+.cotton2{
+    width: 13%;
+    height: 24%;
+    border-radius: 160% 70% 0 0;
+    top: 36.3%;
+    right: 61.6%;
+}
+
+
+.cotton3{
+    width: 17%;
+    height: 40%;
+    border-radius: 864% 288% 0 0;
+    top: 20.3%;
+    right: 45.6%;
+}
+
+.cotton4{
+    width: 20%;
+    height: 43%;
+    border-radius: 864% 288% 0 0;
+    top: 17.3%;
+    right: 26.8%;
+}
+
+.cotton5{
+    width: 17%;
+    height: 40%;
+    border-radius: 700% 800% 0 0;
+    top: 20.3%;
+    right: 10%;
+}
+
+.cotton6{
+    width: 10%;
+    height: 15%;
+    border-radius: 0 71% 0 0;
+    top: 45.4%;
+    right: -0.1%;
+    border-left: none;
+}
+/* = Cloud 2 = */
+.cloud2{
+    top: 15%;
+    left: 47%;
+}
+
+/* = Cloud 3 = */
+
+.cloud3{
+    top: 17%;
+    left: 75%;
+}
+
+
+/* = Cloud 4 = */
+
+.cloud4{
+    top: 39%;
+    left: 22%;
+}
+
+/* = Cloud 5 = */
+
+.cloud5{
+    top: 33%;
+    left: 37%;
+}
+/* = Cloud 6 = */
+
+.cloud6{
+    top: 33%;
+    left: 54%;
+}
+/* = Cloud 7 = */
+
+.cloud7{
+    top: 54%;
+    left: 16%;
+}
+
+/* = Cloud 8 = */
+
+.cloud8{
+    top: 59%;
+    left: 71%;
+    height: 36%;
+    width: 29%;
+}
+/* = Cloud 9 = */
+.cloud9{
+    top: 59%;
+    right: 73.5%;
+    height: 36%;
+    width: 29%;
+}
+
+.cloud9 .cotton1{
+    right: 0;
+}
+.cloud9 .cotton2{
+    right: 77.6%;
+}
+.cloud9 .cotton3{
+    right: 61.6%;
+}
+.cloud9 .cotton4{
+    right: 43.8%;
+}
+.cloud9 .cotton5{
+    right: 28%;
+}
+.cloud9 .cotton6{
+    right: 18.9%;
+}
+/* buildings */
+
+/* == BULDING 1 == */
+.building1{
+      background-color: #70cfe1; 
+      height: 17%;
+      width: 5.3%;
+      top: 47.3%;
+      left: 26.2%;
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 1%;
+      padding-right: 1%;
+}
+
+.line{
+    margin-top: 17%;
+    background: #4db4c3;
+    width: 17%;
+    height: 91%;
+}
+
+/* == BULDING 2 == */
+
+.ceiling{
+    background: #84d0df;
+    width: 1%;
+    height: 5%;
+    top: 37%;
+    left: 37.7%;
+    position: absolute;
+    transform: skew(-53deg);
+}
+
+.ceilingLight{
+    width: 0;
+    height: 0;
+    top: 37%;
+    left: 36.7%;
+    position: absolute;
+    border-left: 2.7vw solid transparent;
+    border-right: 1.7vw solid transparent;
+    border-bottom: 2vw solid #fdfbfe;
+}
+.ceilingBottom{
+    background: #3c89a1;
+    height: 2%;
+    width: 3%;
+    top: 41.4%;
+    left: 35.7%;
+    position: absolute;
+}
+
+.ceilingBottomLight{
+    background: #86cad9;
+    height: 2%;
+    width: 4.7%;
+    top: 41.4%;
+    left: 38.7%;
+    position: absolute;
+}
+
+
+.building2{
+    background: #005478;
+    height: 24%;
+    width: 6%;
+    top: 42.8%;
+    left: 33.5%;
+    position: absolute;
+}
+.building2Dark{
+    background: #45a1bb;
+    height: 24%;
+    width: 5.6%;
+    top: 42.8%;
+    left: 38.7%;
+    position: absolute;
+}
+
+.buildingLines{
+        background-color: #70cfe1;
+        height: 24%;
+        width: 13%;
+        top: 43.3%;
+        left: 32.2%;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+}
+
+.Leftline{
+    background: #3b889f;
+    /* width: 17%; */
+    height: 74%;
+    display: inline-block;
+}
+
+.rightLine{
+       background: #4db4c3;
+    /* width: 33%; */
+    height: 74%;
+    display: inline-block;
+    margin: 0;
+
+}
+
+
+/* == BULDING 3 == */
+
+.building3, .building6, .building8{
+    background: #438ba1;
+    height: 27%;
+    width: 5.3%;
+    top: 40%;
+    left: 41.4%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/* == BULDING 4 == */
+
+.building4{
+    background: #34617f;
+    height: 25%;
+    width: 5.3%;
+    top: 36%;
+    left: 48.7%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/* == BULDING 5 == */
+
+.ceilingBuil_5{
+    background: #3ea2b6;
+    width: 1.5%;
+    height: 9.6%;
+    top: 15%;
+    left: 56.7%;
+    position: absolute;
+    transform: skew(-44deg);
+}
+
+.ceilingLightBuil_5{
+    width: 0;
+    height: 0;
+    top: 15.1%;
+    left: 55%;
+    position: absolute;
+    border-bottom: 9vh solid #7fe6f5;
+    border-left: 4vw solid transparent;
+}
+
+.ceilingLineLeft{
+    background: #b4ebf6;
+    height: 1%;
+    width: 4.7%;
+    top: 21.4%;
+    left: 56.7%;
+    position: absolute;
+}
+.ceilingLineRight{
+    background: #7ee5f4;
+    height: 1%;
+    width: 3%;
+    top: 21.4%;
+    left: 53.7%;
+    position: absolute;
+}
+.ceilingBottomBuil_5{
+    background: #3ca1b5;
+    position: absolute;
+    height: 8%;
+    width: 4.7%;
+    top: 22.4%;
+    left: 53.7%;
+}
+
+.ceilingBottomLightBuil_5{
+        background: #7fe6f4;
+        height: 8%;
+        width: 4.7%;
+        top: 22.4%;
+        left: 56.7%;
+        position: absolute;
+}
+
+
+.buildingDarkSide{
+    background: #3ca1b5;
+    height: 50%;
+    width: 3.4%;
+    top: 28.8%;
+    left: 52.2%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    padding: .6%;
+
+}
+.buildingLightSide{
+    background: #7fe6f4;
+    height: 50%;
+    width: 5.5%;
+    top: 28.8%;
+    left: 56.7%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    padding: .6%;
+
+}
+
+
+.LightLineBuild_5{
+    background: #b5e9f8;
+    height: 109%;
+}
+
+/* == BULDING 6 == */
+
+.building6 {
+    left: 60.4%;
+    height: 36%;
+}
+
+/* == BULDING 7 == */
+
+.bulding7Wrap{
+    height: 34%;
+    width: 7.6%;
+    position: absolute;
+    top: 27.3%;
+    left: 67.7%;
+}
+.ceilingLight_7{
+    width: 0;
+    height: 0;
+    top: 7%;
+    left: 13%;
+    position: absolute;
+    border-bottom: 4.5vh solid #5fc5d6;
+    border-left: 4.3vw solid transparent;
+}
+
+.ceiling_7{
+    background: #84d0df;
+    width: 26%;
+    height: 13%;
+    top: 7%;
+    left: 38%;
+    position: absolute;
+    transform: skew(-61deg);
+}
+
+
+/* .ceilingBottom_7{
+    background: #3c89a1;
+    height: 2%;
+    width: 3%;
+    top: 41.4%;
+    left: 35.7%;
+    position: absolute;
+}
+
+.ceilingBottomLight_7{
+    background: #86cad9;
+    height: 2%;
+    width: 4.7%;
+    top: 41.4%;
+    left: 38.7%;
+    position: absolute;
+} */
+
+
+.building_7{
+    height: 80%;
+    width: 100%;
+    top: 20%;
+    /* left: 65.5%; */
+    background: #adebf3;
+    position: absolute; 
+}
+
+
+.buildingDark_7{
+    height: 98%;
+    width: 50%;
+    /* top: 37.3%; */
+    /* left: 65.5%; */
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.darkLine_7{
+    background-color: #2a6994;
+    height: 67%;
+}
+
+.buildingLight_7{
+    height: 98%;
+    width: 70%;
+    /* top: 37.3%; */
+    left: 30%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.darkBlue_7{
+    background: #3b889f;
+    height: 74%;
+    display: inline-block;
+}
+
+.LightBlue_7{
+       background: #4db4c3;
+    height: 74%;
+    display: inline-block;
+    margin: 0;
+
+}
+.lightBlue_7{
+    background: #3b889f;
+    height: 67%;
+}
+
+/* == BULDING 8 == */
+
+.building8{
+    left: 72.8%;
+    top: 47%;
+    background: #c6eff8;
+    height: 35%;
+    width: 6%;
+}
+
+.building8 .line{
+    background-color: #4db4c3;
+}
+
+/*** HOUSES ***/
+
+/*HOUSE 1 */
+.lightBrown{
+    background: #a46a41;
+}
+
+.darkBrown{
+    background: #73413f;
+}
+
+ .celingCircle{
+    width: 8.1%;
+    height: 8.1%;
+    background: #73423f;
+    border-radius: 50%;
+    position: absolute;
+    left: 20.6%;
+    top: 62.3%;
+    box-shadow: 2px -7px 0px -1px #d4a36c;
+} 
+
+div .celingCircle:nth-child(2){
+    left: 25.1%;
+    box-shadow: 7px -8px 0px -4px #d4a36c;
+}
+
+div .celingCircle:nth-child(3){
+    left: 29.9%;
+    box-shadow: 7px -8px 0px -4px #d4a36c;
+}
+
+.celingLineDBrown{
+    position: absolute;
+    left: 21.6%;
+    top: 63.9%;
+    width: 11.7%;
+    height: 4.6%;
+    
+}
+
+.celingLineLBrown{
+    position: absolute;
+    left: 26.6%;
+    top: 63.9%;
+    width: 11.7%;
+    height: 4.6%;
+    transform: skew(-24deg);
+}
+
+.containerLines{
+    position: absolute;
+    bottom: 31.2%;
+    left: 21.6%;
+    display: grid;
+    grid-template-columns: 72.6% 1fr;
+    width: 16.1%;
+    height: .5%;
+}
+
+.caramelBrown{
+    background: #9e6942;
+}
+
+.RoyalBlue{
+    background-color: #1f3554;
+}
+
+.skyBlue{
+    background: #27ced0;
+}
+
+.olympicBlue{
+    background-color: #2591be;
+}
+
+.darkBeige{
+    background: #eb8845;
+}
+
+.lightBeige{
+    background: #fec980;
+}
+
+.brownPeanut{
+ background: #785c34;
+}
+
+.brownTortilla{
+    background: #9a7b4e;
+}
+
+.brownChocolate{
+    background: #4e2811;
+
+}
+
+.brownTawny{
+    background:  #5d3318;
+}
+
+.containerWalls{
+    position: absolute;
+    bottom: 16.7%;
+    left: 21.6%;
+    display: grid;
+    grid-template-columns: 72.6% 1fr;
+    width: 16.1%;
+    height: 14.5%;
+}
+
+.containerWindows{
+    position: absolute;
+    top: 14.3%;
+    left: -0.4%;
+    display: grid;
+    grid-template-columns: repeat(5, 15% 26%);
+    width: 40.7%;
+    height: 33.5%;
+}
+
+.LinesWindows{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 30%;
+}
+
+.windows{
+    display: grid;
+    grid-template-rows: 9% 82% 9%;
+}
+
+.midleWindow{
+    display: grid;
+    grid-template-columns: 16% 82%;
+}
+/* == HOUSE 2 == */
+.hosueContainer{
+    width: 14%;
+    height: 23%;
+    position: absolute;
+    top: 58%;
+    left: 41%;
+}
+
+.hosueContainer .celingLineDBrown {
+    position: absolute;
+    left: 43.6%;
+    top: 1.2%;
+    width: 48.7%;
+    height: 10.6%;
+    transform: none;
+}
+
+.hosueContainer .celingLineLBrown{
+    left: 3.6%;
+    top: 1.2%;
+    width: 48.7%;
+    height: 10.6%;
+    transform: none;
+}
+
+.hosueContainer .containerLines{
+    height: 7%;
+    top: 11%;
+    left: 10%;
+    width: 76%;
+    grid-template-columns: 43.9% 1fr;
+}
+
+.hosueContainer .containerWalls{
+    bottom: 0;
+    top: 16.8%;
+    left: 10%;
+    width: 76%;
+    height: 83%;
+    grid-template-columns: 44.6% 1fr;
+}
+
+.containerWindows2{
+    position: absolute;
+    top: 7.3%;
+    left: 1%;
+    display: grid;
+    grid-gap: 7%;
+    width: 39.7%;
+    height: 82.5%;
+
+}
+
+.darkBeige .containerWindows2{
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.lightBeige .containerWindows2{
+    grid-template-columns: 1fr 1fr 1fr ;
+    left: 53%;
+}
+.windowsHouse2{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.midleWindow2{
+    display: grid;
+    grid-template-columns: 23% 1fr;
+}
+
+/* == windows wall right side == */
+
+.containerWindows3{
+    position: absolute;
+    top: 7.3%;
+    left: 53%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 7%;
+    width: 39.7%;
+    height: 82.5%;
+}
+
+/* == HOUSE 3 == */
+.containerCeling{
+    position: absolute;
+    width: 87%;
+    height: 16%;
+    left: 3%;
+}
+.house3{
+    width: 17%;
+    height: 22%;
+    left: 63%;
+    top: 59%;
+}
+
+.house3 .containerWalls{
+    grid-template-columns: 38.6% 1fr;
+    top: 15.8%;
+}
+
+.house3 .celingLineLBrown{
+    transform: skew(-20deg);
+    height: 24%;
+    width: 61%;
+    left: 0;
+    top: 29%;
+}
+
+.house3 .celingLineDBrown{
+    transform: skew(26deg);
+    height: 24%;
+    width: 56%;
+    top: 29%;
+}
+
+.containerCeling .celingLineLBrown:nth-child(3){
+    top: 52%;
+    width: 46%;
+    left: 4%;
+}
+.containerCeling .celingLineDBrown:nth-child(4){
+    top: 52%;
+    width: 52%;
+}
+.containerCeling .celingLineLBrown:nth-child(5){
+    top:75%;
+}
+.containerCeling .celingLineDBrown:nth-child(6){
+    top:75%;
+}
+
+/* house 4*/
+
+.house4{
+    height: 27%;
+    width: 16%;
+    left: 54%;
+    top: 67%;
+}
+
+.house4 .celingLineLBrown {
+    top: 15.2%;
+    height: 6.6%;
+    transform: none;
+}
+.house4 .celingLineDBrown {
+    top: 15.2%;
+    height: 6.6%;
+}
+
+.house4 .containerLines {
+    height: 7%;
+    top: 21%;
+    left: 10%;
+    width: 76%;
+    grid-template-columns: 43.9% 1fr;
+}
+.house4 .containerWalls {
+    bottom: 0;
+    top: 26.8%;
+    left: 10%;
+    width: 76%;
+    height: 71%;
+    grid-template-columns: 44.6% 1fr;
+}
+.brownPeanut .containerWindows2 {
+    grid-template-columns: 1fr 1fr;
+}
+.brownTortilla .containerWindows2 {
+    grid-template-columns: 1fr 1fr 1fr;
+    left: 53%;
+}
+
+/* == TREES == */
+
+.pearGreen{
+    background: #bad734;
+    /* border: solid 1px red */
+}
+
+.mossGreen{
+    background: #8bae2f;
+}
+
+.pickleGreen{
+    background: #8caf2d;
+}
+
+.juniperGreen{
+    background: #698124;
+}
+
+.orange{
+    background: #eb8845;
+}
+
+.containerTree{
+    position: absolute;
+    width: 18%;
+    height: 25%;
+}
+
+.tree1{
+    top: 57%;
+    left: 6%;
+}
+
+.trunck{
+    position: absolute;
+    width: 8%;
+    height: 54%;
+    top: 69%;
+    left: 43%;
+}
+
+.leaves{
+    width: 30%;
+    height: 67%;
+    border-radius: 50% 50%;
+    position: absolute;
+}
+.leave1{
+    width: 32%;
+    height: 41%;
+    top: 1.3%;
+    left: 34%;
+}
+
+.leave2{
+    top: 3.3%;
+    left: 46%;
+    transform: rotate(45deg);
+}
+.leave3{
+    width: 40%;
+    height: 34%;
+    top: 30.3%;
+    left: 39%;
+}
+.leave4{
+    top: 3.3%;
+    left: 24%;
+    transform: rotate(113deg);
+}
+.leave5{
+    top: 19.3%;
+    left: 24%;
+    transform: rotate(40deg);
+}
+.leave6{
+    top: 23.3%;
+    left: 37%;
+    transform: rotate(-28deg);
+}
+
+.tinyLeave{
+    position: absolute;
+    left: 50%;
+    transform: rotate(-45deg);
+    width: 6%;
+    height: 10%;
+    border-radius: 100px 5px;
+      
+}
+
+div .tinyLeave:nth-child(8){
+    left: 64%;
+    top: 34%;
+    transform: rotate(10deg);
+}
+div .tinyLeave:nth-child(9){
+    left: 58%;
+    top: 34%;
+    transform: rotate(117deg);
+    width: 4%;
+    height: 7%;
+}
+
+
+/* === tree 2 == */
+ .tree2{
+    top: 59%;
+    left: 6%;
+ }
+
+ .containerTree .leave3:nth-child(1){
+     transform: rotate(31deg);
+ }
+
+ .containerTree .leave6:nth-child(2){
+    transform: rotate(-24deg);
+}
+
+ .tree2 .tinyLeave{
+    top: 55%;
+    left: 76%;
+    transform: rotate(22deg);
+    width: 5%;
+    height: 10%;
+
+ }
+ /*== tree 3 == */
+
+ .tree3{
+    top: 65%;
+    left: 35%;
+    width: 10%;
+    height: 10%;
+
+ }
+
+ .tree3 .leave1{
+    width: 35%;
+    height: 79%;
+    top: 11.3%;
+    left: 18%;
+ }
+
+ .tree3 .leave2{
+    top: 0.3%;
+    left: 46%;
+    transform: rotate(8deg);
+    width: 18%;
+}
+
+.tree3 .leave3{
+    width: 87%;
+    height: 44%;
+    top: 28.3%;
+    left: 28%;
+    transform: rotate(-66deg);
+}
+
+ /*== tree 4 == */
+
+ .tree4{
+    top: 69%;
+    left: 33.4%;
+    width: 10%;
+    height: 12%;
+ }
+ .tree4 .leave1{
+    top: 52.3%;
+    left: 3%;
+    border-radius: 161% 71% 0 0;
+ }
+ .tree4 .leave2{
+    top: 23.3%;
+    left: 15%;
+    height: 43%;
+    width: 22%;
+    border-radius: 160% 70% 0 0;
+    transform: rotate(-31deg);
+ }
+
+ .tree4 .leave2:nth-child(3){
+    top: 10%;
+    left: 23.5%;
+    height: 31%;
+    width: 26%;
+    border-radius: 0 57% 0 139%;
+    transform: rotate(87deg);
+ }
+
+ .tree4 .leave3{
+    top: 59.3%;
+    left: 6%;
+    width: 32%;
+    border-radius: 161% 71% 0 0;
+ }
+
+ .tree4 .leave4{
+    top: 30.3%;
+    left: 22%;
+    width: 23%;
+    height: 76%;
+    border-radius: 160% 70% 0 0;
+    transform: rotate(-31deg);
+ }
+ .tree4 .leave5{
+    top: 1.3%;
+    width: 30%;
+    left: 31%;
+    height: 107%;
+    transform: rotate(-4deg);
+    border-radius: 161% 71% 0 0;
+ }
+ .tree4 .leave6{
+    top: 9.3%;
+    left: 55%;
+    width: 19%;
+    height: 90%;
+    transform: rotate(14deg);
+    border-radius: 161% 71% 0 0;
+ }
+ .tree4 .leave7{
+    top: 24.3%;
+    left: 68%;
+    border-radius: 161% 71% 0 0;
+    height: 90%;
+    width: 17%;
+    transform: rotate(19deg);
+ }
+ .tree4 .leave8{
+    top: 39.3%;
+    left: 72%;
+    border-radius: 161% 71% 0 0;
+    height: 90%;
+    width: 20%;
+    transform: rotate(34deg);
+ }
+
+ /*== tree 5 == */
+.tree5{
+    top: 65%;
+    left: 57%;
+    width: 10%;
+    height: 10%;
+}
+
+.tree5 .leave1{
+    left: 27%;
+    top: 31%;
+}
+.tree5 .leave2{
+    top: 1%;
+}
+ /*== tree 6 == */
+ .tree6{
+    top: 74%;
+    left: 50%;
+    width: 10%;
+    height: 16%;
+}
+ /*== tree 7 == */
+ .tree7{
+    top: 74%;
+    left: 87%;
+    width: 14%;
+    height: 19%;
+}
+
+ /* == TRAIN == */
+
+
+   .trainContainer {
+    position: absolute;
+    top: 75%;
+    left: 36.7%;
+    background: #fcfbfc;
+    border-bottom: 3px solid #015375;
+    border-radius: 100px / 50px;
+    width: 40%;
+    height: 5%;
+    animation: walk 10s infinite alternate ;
+ }
+.trainContainer:before{
+    position: absolute;
+    content: "";
+}
+@keyframes walk {
+    0%{
+        left: 60%;
+    }
+100%{
+    margin-left: 0%;
+    left:0%;
+}
+}
+
+ .train{
+    width: 97.5%;
+    height: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4%;
+    position: absolute;
+    top: 13.4%;
+    left: 1.5%;
+ }
+
+ .containerWindowsTrain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6%;
+    width: 100%;
+ }
+
+ .windowsTrain{
+    background: #015375;
+    border-right: 3px solid #c6e8f3;
+    border-bottom: 3px solid #c6e8f3;
+ } 
+
+ .designWindow{
+    border-radius: 100% 0  0 0;
+}
+
+ .designWindowLeft{
+     border-radius: 0 100%  0 0;
+ }
+
+ .lineasTrain{
+    position: absolute;
+    left: 3%;
+    height: 100%;
+    width: 93%;
+ }
+ .horizontalOrangeLine{
+    width: 98%;
+    height: 9%;
+    background: #ffc884;
+    border-radius: 100% 100%;
+    position: absolute;
+    top: 85%;
+    left: 1%;
+ }
+
+ .verticalLine {
+    width: .7%;
+    height: 100%;
+    background: #015375;
+    position: absolute;
+    top: 1%;
+    left: 32%;
+}
+
+.verticalLine:nth-child(3){
+    left: 68.4%;
+}
+
+ /* == BRIDGE == */
+
+.bridgeContainer{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    height: 10vh;
+    border-top: 23px solid #e9dabe;
+    background: #e8d9be;
+
+    display: grid;
+    grid-template-columns: repeat(45,1fr);
+    grid-gap: 1%;
+}
+
+.bridgeLine{
+    background-color: #688124;
+}
+.bridgeCircleContainer{
+    position: absolute;
+    top: 84.5%;
+    width: 100%;
+    height: 14%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 1%;
+
+}
+
+.bridgeCircle{
+    border: 21px solid #e8d9be;
+    background: #688124;
+    border-radius: 100%;
+    height: 81%;
+    border-bottom: none;
+}
+
+/* == BRIDGE == */
+.grassContainer{
+    position: sticky;
+    top: 100%;
+    width: 100%;
+    height: 7vh;
+    background: #bad734;
+}
+
+.bushContainer{
+    position: absolute;
+    top: 89%;
+    width: 10%;
+    height: 4.7vh;
+}
+
+.bush{
+    bottom: 0%;
+    position: absolute;
+    border-radius: 160% 70% 0 0;
+}
+
+.bushContainer .bush1{
+    height: 76%;
+    width: 32%;
+}
+
+.bush2{
+    left: 27%;
+    width: 23%;
+    height: 93%;
+    transform: rotate(-21deg);
+}
+
+.bush3{
+    left: 45%;
+    width: 24%;
+    height: 101%;
+    transform: rotate(6deg);
+}
+.bush4{
+    left: 67%;
+    width: 30%;
+    height: 100%;
+    border-radius: 160% 70% 0 0;
+    transform: rotate(14deg);
+}
+
+.BushWrap .bushContainer:nth-child(2){
+    left: 5%;
+    top: 89%;
+}
+
+.BushWrap .bushContainer:nth-child(3){
+    left: 11.6%;
+    top: 90%;
+}
+
+.BushWrap .bushContainer:nth-child(4){
+    left: 18%;
+    top: 89%;
+}
+.BushWrap .bushContainer:nth-child(5){
+    left: 23%;
+    top: 90%;
+}
+.BushWrap .bushContainer:nth-child(6){
+    left: 29%;
+}
+.BushWrap .bushContainer:nth-child(7){
+    left: 37%;
+}
+.BushWrap .bushContainer:nth-child(8){
+    left: 43%;
+}
+.BushWrap .bushContainer:nth-child(9){
+    left: 49%;
+}
+.BushWrap .bushContainer:nth-child(10){
+    left: 56%;
+    top: 90%;
+}
+.BushWrap .bushContainer:nth-child(11){
+    left: 63%;
+}
+.BushWrap .bushContainer:nth-child(12){
+    left: 69%;
+}
+.BushWrap .bushContainer:nth-child(13){
+    left: 79%;
+}
+.BushWrap .bushContainer:nth-child(14){
+    left: 85%;
+}
+.BushWrap .bushContainer:nth-child(15){
+    left: 91%;
+}
+
+/* ---------- responsive styles ------------- */
+
+
+@media screen and (max-width: 2346px) {
+  
+}
+@media screen and (max-width: 800px) {
+        /*Tree*/
+        .containerTree {
+         width: 22%;
+         height: 21%;
+        }
+        .tree1{
+            left:4%
+        }
+        /*Bridge*/
+        .bridgeContainer {
+        border-top: 9px solid #e9dabe;
+        }
+        .bridgeCircle {
+        border: 5px solid #e8d9be;
+        }
+
+        .house3 .celingLineDBrown,  .house3 .celingLineLBrown {
+            top: 32%;
+    
+}
+@media screen and (min-width: 500px) {
+  #universe {
+    font-size: 36%; } }
+@media screen and (min-width: 600px) {
+  #universe {
+    font-size: 44%; } }
+@media screen and (min-width: 760px) {
+  #universe {
+    font-size: 58%; } }
+@media screen and (min-width: 1000px) {
+  #universe {
+    font-size: 73%; } 

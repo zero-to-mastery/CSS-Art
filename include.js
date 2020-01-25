@@ -995,6 +995,13 @@ let cards = [
     './Art/HappyLittleTrain/HappyLittleTrain.gif',
     'John Martin',
     'https://github.com/johnjamesmartin'
+  ],
+  [
+    'City',
+    './Art/City/index.html',
+    './Art/City/city.jpeg',
+    'Julitree',
+    'https://github.com/julitree'
   ]
 ];
 
