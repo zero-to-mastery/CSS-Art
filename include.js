@@ -1002,7 +1002,15 @@ let cards = [
     './Art/City/city.jpeg',
     'Julitree',
     'https://github.com/julitree'
+  ],
+  [
+    'ReactLogo',
+    './Art/Jorjill/index.html',
+    './Art/Jorjill/ReactLogo.jpeg',
+    'JohnJorjill',
+    'https://github.com/JohnJorjill'
   ]
+
 ];
 
 // +--------------------------------------------------------------------------------+
