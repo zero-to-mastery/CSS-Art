@@ -1002,6 +1002,13 @@ let cards = [
     './Art/City/city.jpeg',
     'Julitree',
     'https://github.com/julitree'
+  ],
+  [
+    "Circles",
+    "./Art/bubble/index.html",
+    "/Art/bubble/bubble.png",
+    "Theo",
+    "https://github.com/Theofylaktos"
   ]
 ];
 
