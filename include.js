@@ -1009,6 +1009,13 @@ let cards = [
     './Art/Jorjill/ReactLogo.jpeg',
     'JohnJorjill',
     'https://github.com/JohnJorjill'
+  ],
+  [
+    'Bubble',
+    './Art/bubble/index.html',
+    './Art/bubble/bubble.png',
+    'theo',
+    'https://github.com/Theofylaktos'
   ]
 
 ];
