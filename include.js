@@ -2035,9 +2035,9 @@ let cards = [
     "https://github.com/nrhikmah"
   ],
   [
-    "AnimatedGallery",
+    "Goga AnimatedGallery",
     "./Art/Goga/index.html",
-    "./Art/Goga.gif",
+    "./Art/Goga/Goga.gif",
     "Goga",
     "https://github.com/gogadev"
   ]
