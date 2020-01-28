@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  background: url("https://photogrist.com/wp-content/uploads/2017/02/Anna-McNaught.jpg")
+    center/cover no-repeat;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  border: whitesmoke light 3px;
+  border-style: inset;
+  padding: 60px 80px;
+}
+
+.imgs img {
+  width: 100%;
+  box-shadow: 5px 5px 5px whitesmoke;
+  height: 200px;
+  opacity: 0.7;
+  transition: all 2s ease;
+  cursor: pointer;
+}
+
+.imgs img {
+  padding: 10px;
+  margin: 25px;
+}
+
+.imgs img:hover {
+  opacity: 1;
+  padding: 0;
+}
+
+.imgs img {
+  cursor: pointer;
+  animation: rotation 20s infinite linear;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 30px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imgs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
