@@ -2040,6 +2040,13 @@ let cards = [
     "./Art/Goga/Goga.gif",
     "Goga",
     "https://github.com/gogadev"
+  ],
+  [
+    "CSS Funny Face",
+    "./Art/MColeman/index.html",
+    "./Art/MColeman/FunnyFace.JPG",
+    "Mike Coleman",
+    "https://github.com/mcflav"    
   ]
 ];
 

@@ -1,0 +1,153 @@
+.box{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    border: solid 5px red;
+}
+.head{
+    position: absolute;
+    top: 40.5%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: yellow;
+    z-index: 2;
+}
+
+.mouth{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 30%;
+    border-radius: 50%;
+    background: white;
+    border-top: solid 6px pink;
+    border-bottom: solid 12px pink;
+    z-index: 2;
+}
+
+.leftEye{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background: white;
+}
+
+.rightEye{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background: white;    
+}
+
+.pupil1{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    background: black;
+}
+
+.pupil2{
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    background: black;
+}
+
+.tooth1{
+    position: absolute;
+    top: 3%;
+    left: 25%;
+    width: 5%;
+    height: 20%;
+    border: solid 2px black;
+    z-index: 1;
+}
+
+.tooth2{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    width: 5%;
+    height: 20%;
+    border: solid 2px black;
+    z-index: 1;
+}
+
+.tooth3{
+    position: absolute;
+    top: 3%;
+    left: 65%;
+    width: 5%;
+    height: 20%;
+    border: solid 2px black;
+    z-index: 1;
+}
+
+.tongue{
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    width: 29%;
+    height: 95%;
+    background: red;
+    border-radius: 70%;
+}
+
+.tongueLine{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    width: 1%;
+    height: 50%;
+    border-right: solid 1px black;
+}
+.bubble1{
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    width: 3%;
+    height: 3%;
+    border-radius: 50%;
+    background: blue;
+}
+
+.bubble2{
+    position: absolute;
+    top: 29%;
+    left: 70%;
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    background: blue;
+}
+
+.bubbleThought{
+    top: 15%;
+    left: 50%;
+    border: solid 2px blue;
+    border-radius: 50%;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    text-shadow: 4px 2px red
+}
