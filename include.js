@@ -2047,6 +2047,13 @@ let cards = [
     "./Art/MColeman/FunnyFace.JPG",
     "Mike Coleman",
     "https://github.com/mcflav"    
+  ],
+  [
+    "trying",
+    "./Art/vilasini/bg.html",
+    
+    "vilasini",
+    "https://github.com/vilasinisaida"    
   ]
 ];
 
