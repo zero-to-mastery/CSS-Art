@@ -2055,6 +2055,13 @@ let cards = [
     "vilasini",
     "https://github.com/vilasinisaida"    
   ]
+  [
+    "Blast Off", 
+    "./Art/mjbh831/index.html",
+    "./Art/mjbh831/blastOff.png", 
+    "Marcos Hinojos", 
+    "https://github.com/mjbh831"
+  ],
 ];
 
 // +--------------------------------------------------------------------------------+

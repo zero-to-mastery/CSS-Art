@@ -1,0 +1,101 @@
+html{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url(bg.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.outerspace {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height:100vh;
+  background: rgba(0,0,0);
+  background: -webkit-linear-gradient(rgba(0,0,0,.4) 21%, rgba(0,2,116,.4) 89%);
+  background: -o-linear-gradient(rgba(0,0,0,.4) 21%, rgba(0,2,116,.4) 89%);
+  background: linear-gradient(rgba(0,0,0,.4) 21%, rgba(0,2,116,.4) 89%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000274",GradientType=.4); 
+}             
+
+.stars {
+    width: 3px;
+    height: 3px;
+    /*margin: 50px auto;*/
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    animation-name: sparkle;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  #s1 {
+     margin: 10em 5em;
+  }
+  #s2 {
+     margin: 30em 70em;
+  }
+  #s3 {
+     margin: 70em 50em;
+  }
+  #s4 {
+      margin: 10em 20em;
+  }
+  #s5 {
+      margin: 40em 80em;
+  }
+  #s6 {
+      margin: 68em 24em;
+  }  
+  #s7 {
+     margin: 6em 95em;
+  }
+  #s8 {
+      margin: 95em 20em;
+  }
+  #s9 {
+      margin: 55em 3em;
+  }
+  #s10 {
+      margin: 15em 24em;
+  }
+
+
+  @keyframes sparkle{
+    from {
+      width: 3px;
+      height: 3px;
+    }
+    to {
+      width: 5px;
+      height: 5px;
+    }
+  }
+
+  #rocket {
+    width: 100%;
+    rotate: -53deg;
+  }
+
+  .rocketship {
+    width: 15%;
+    left: 43%;
+    position: absolute;
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce{
+   from {
+    bottom: -30rem;
+   }
+   to {
+    bottom: 130%;
+   }
+  }
