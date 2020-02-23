@@ -2062,6 +2062,13 @@ let cards = [
     "Marcos Hinojos", 
     "https://github.com/mjbh831"
   ],
+  [
+    "Pug's Life", 
+    "./Art/MindyLJohnson/index.html",
+    "./Art/MindyLJohnson/blastOff.png", 
+    "Mindy Johnson", 
+    "https://github.com/MindyLJohnson"
+  ],
 ];
 
 // +--------------------------------------------------------------------------------+

@@ -1,0 +1,326 @@
+/* Dead-center formula */
+/* left = (100 - width) / 2 */
+/* right = (100 = height) / 2 */
+
+body{
+    background: linear-gradient(to bottom right, skyblue, blue) no-repeat center fixed;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    width: 600px;
+    height: 420px;
+    background: none;
+}
+
+.head {
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 55%;
+    background: #CFB896;
+    border-radius: 40%;
+    animation: pant 200ms linear 2s infinite alternate, tilt 2s step-end 0s 1 normal;
+}
+
+.ear-left {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: -20%;
+    top: 0%;
+    background: #3E2B05;
+    -webkit-clip-path: polygon(50% 0%, 65% 12%, 52% 26%, 36% 100%, 30% 100%, 0 22%, 27% 17%);
+    clip-path: polygon(50% 0%, 65% 12%, 52% 26%, 36% 100%, 30% 100%, 0 22%, 27% 17%);
+    border-radius: 70px;
+}
+
+.ear-right {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    right: -20%;
+    top: 0%;
+    background: #3E2B05;
+    -webkit-clip-path: polygon(50% 0%, 35% 12%, 48% 26%, 64% 100%, 70% 100%, 100% 22%, 73% 17%);
+    clip-path: polygon(50% 0%, 35% 12%, 48% 26%, 64% 100%, 70% 100%, 100% 22%, 73% 17%);
+    border-radius: 70px;
+}
+
+.eyeShadow-left {
+    position: absolute;
+    background: #3E2B05;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 0%;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+}
+
+.eye-left {
+    position: absolute;
+    background: white;
+    width: 65%;
+    height: 80%;
+    bottom: 10%;
+    left: 6%;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+
+.eyeShadow-right {
+    position: absolute;
+    background: #3E2B05;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    right: 0%;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+
+.eye-right {
+    position: absolute;
+    background: white;
+    width: 65%;
+    height: 80%;
+    bottom: 10%;
+    right: 6%;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+}
+
+.pupil {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 25%;
+    border-radius: 50%;
+    background: #000000;
+}
+
+.eye-left > .pupil {
+    left: 8%;
+}
+
+.eye-right > .pupil {
+    right: 8%;
+}
+
+.wrinkle-left {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    top: 20%;
+    left: 15%;
+    border: 5px solid rgb(153, 125, 84);
+    border-width: 5px 0 0 0;
+    border-color: rgb(153, 125, 84) transparent transparent transparent;
+    border-radius: 20px;
+    transform: rotate(20deg);
+}
+
+.wrinkle-right {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    top: 20%;
+    right: 15%;
+    border: 5px solid rgb(153, 125, 84);
+    border-width: 5px 0 0 0;
+    border-color: rgb(153, 125, 84) transparent transparent transparent;
+    border-radius: 20px;
+    transform: rotate(-20deg);
+}
+
+.wrinkle-centerL {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    top: 10%;
+    left: 20%;
+    border: 5px solid rgb(153, 125, 84);
+    border-width: 5px 0 0 0;
+    border-color: rgb(153, 125, 84) transparent transparent transparent;
+    border-radius: 20px;
+    transform: rotate(90deg);
+}
+
+.wrinkle-centerR {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    top: 10%;
+    right: 20%;
+    border: 5px solid rgb(153, 125, 84);
+    border-width: 5px 0 0 0;
+    border-color: rgb(153, 125, 84) transparent transparent transparent;
+    border-radius: 20px;
+    transform: rotate(-90deg);
+}
+
+.wrinkle-top {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    left: 33%;
+    border: 5px solid rgb(153, 125, 84);
+    border-width: 5px 0 0 0;
+    border-color: rgb(153, 125, 84) transparent transparent transparent;
+    border-radius: 20px;
+}
+
+.mouth {
+    position: absolute;
+    bottom: 0%;
+    left: 22.5%;
+    width: 55%;
+    height: 55%;
+    background: #3E2B05;
+    -webkit-clip-path: polygon(50% 0%, 80% 15%, 95% 50%, 100% 100%, 50% 100%, 0% 100%, 5% 50%, 20% 15%);
+    clip-path: polygon(50% 0%, 80% 15%, 95% 50%, 100% 100%, 50% 100%, 0% 100%, 5% 50%, 20% 15%);
+    border-radius: 60px;
+}
+
+.lips-left {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    right: 45%;
+    bottom: 40%;
+    background: #3E2B05;
+    -webkit-clip-path: polygon(100% 15%, 15% 100%, 100% 100%);
+    clip-path: polygon(100% 15%, 15% 100%, 100% 100%);
+    border-radius: 60px;
+}
+
+.lips-right {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 45%;
+    bottom: 40%;
+    background: #3E2B05;
+    -webkit-clip-path: polygon(0% 15%, 85% 100%, 0% 100%);
+    clip-path: polygon(0% 15%, 855% 100%, 0% 100%);
+    border-radius: 60px;
+}
+
+.dot1, .dot2, .dot3 {
+    position: absolute;
+    background: black;
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+}
+
+.lips-left > .dot1 {
+    bottom: 30%;
+    right: 30%;
+}
+
+.lips-left > .dot2 {
+    bottom: 10%;
+    right: 35%;
+}
+
+.lips-left > .dot3 {
+    bottom: 20%;
+    right: 15%;
+}
+
+.lips-right > .dot1 {
+    bottom: 30%;
+    left: 30%;
+}
+
+.lips-right > .dot2 {
+    bottom: 10%;
+    left: 35%;
+}
+
+.lips-right > .dot3 {
+    bottom: 20%;
+    left: 15%;
+}
+
+.nose {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  width: 30%;
+  height: 20%;
+  background:  black;
+  -webkit-clip-path: polygon(50% 0%, 80% 15%, 95% 50%, 100% 100%, 50% 100%, 0% 100%, 5% 50%, 20% 15%);
+  clip-path: polygon(50% 0%, 80% 15%, 95% 50%, 100% 100%, 50% 100%, 0% 100%, 5% 50%, 20% 15%);
+  border-radius: 60px;
+  animation: sniff 100ms ease-in-out 0s 15 alternate;
+}
+
+.nostril-left {
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    top: 45%;
+    left: 2%;
+    border: 3px solid rgb(65, 65, 65);
+    border-width: 3px 0 0 0;
+    border-color: rgb(65, 65, 65) transparent transparent transparent;
+    border-radius: 8px;
+    transform: rotate(60deg);
+}
+
+.nostril-right {
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    top: 45%;
+    right: 2%;
+    border: 3px solid rgb(65, 65, 65);
+    border-width: 3px 0 0 0;
+    border-color: rgb(65, 65, 65) transparent transparent transparent;
+    border-radius: 8px;
+    transform: rotate(-60deg);
+}
+
+.tongue {
+    position: absolute;
+    background: #FFA479;
+    width: 25%;
+    height: 42.5%;
+    left: 37%;
+    top: 45%;
+    border-radius: 50px;
+    animation: pant 200ms linear 2s infinite alternate;
+}
+
+.tongue-line {
+    position: absolute;
+    background: rgb(255, 113, 48);
+    width: 5%;
+    height: 80%;
+    left:47.5%;
+    top: 0;
+    border-radius: 50px;
+}
+
+@keyframes tilt {
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(0deg);}
+}
+
+@keyframes sniff {
+    from {transform: scale(1);}
+    to {transform: scale(0.85);}
+}
+
+@keyframes pant {
+    from {top: 2rem;}
+    to {top: 3rem;}
+}
