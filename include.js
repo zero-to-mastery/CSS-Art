@@ -2065,7 +2065,7 @@ let cards = [
   [
     "Pug's Life", 
     "./Art/MindyLJohnson/index.html",
-    "./Art/MindyLJohnson/blastOff.png", 
+    "./Art/MindyLJohnson/pugGIF.gif", 
     "Mindy Johnson", 
     "https://github.com/MindyLJohnson"
   ],
