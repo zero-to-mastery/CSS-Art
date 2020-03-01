@@ -2069,6 +2069,12 @@ let cards = [
     "Mindy Johnson", 
     "https://github.com/MindyLJohnson"
   ],
+  [ "Bouncing moving eyeball", 
+    "./Art/AnathKantonda/index.html", 
+    "./Art/AnathKantonda/bouncing-moving-eye.PNG", 
+    "Anath Kantonda", 
+    "https://github.com/anathkantonda"
+  ],
 ];
 
 // +--------------------------------------------------------------------------------+
