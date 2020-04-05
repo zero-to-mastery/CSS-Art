@@ -1010,10 +1010,10 @@ let cards = [
     "Hikmah",
     "https://github.com/nrhikmah"
   ][
-    //  Add your card in this section
-    //  Follow this example format:
-    //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
-    ("BINGNAN-CHEN",
+  //  Add your card in this section
+  //  Follow this example format:
+  //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
+  ("BINGNAN-CHEN",
     "./Art/BINGNAN-CHEN/index.html",
     "./Art/BINGNAN-CHEN/box.jpg",
     "BINGNAN-CHEN",
@@ -2046,35 +2046,42 @@ let cards = [
     "./Art/MColeman/index.html",
     "./Art/MColeman/FunnyFace.JPG",
     "Mike Coleman",
-    "https://github.com/mcflav"    
+    "https://github.com/mcflav"
   ],
   [
     "trying",
     "./Art/vilasini/bg.html",
-    
+
     "vilasini",
-    "https://github.com/vilasinisaida"    
+    "https://github.com/vilasinisaida"
   ]
   [
-    "Blast Off", 
-    "./Art/mjbh831/index.html",
-    "./Art/mjbh831/blastOff.png", 
-    "Marcos Hinojos", 
-    "https://github.com/mjbh831"
+  "Blast Off",
+  "./Art/mjbh831/index.html",
+  "./Art/mjbh831/blastOff.png",
+  "Marcos Hinojos",
+  "https://github.com/mjbh831"
   ],
   [
-    "Pug's Life", 
+    "Pug's Life",
     "./Art/MindyLJohnson/index.html",
-    "./Art/MindyLJohnson/pugGIF.gif", 
-    "Mindy Johnson", 
+    "./Art/MindyLJohnson/pugGIF.gif",
+    "Mindy Johnson",
     "https://github.com/MindyLJohnson"
   ],
-  [ "Eyeball", 
-    "./Art/AnathKantonda/index.html", 
-    "./Art/AnathKantonda/bouncing-moving-eye.PNG", 
-    "Anath Kantonda", 
+  ["Eyeball",
+    "./Art/AnathKantonda/index.html",
+    "./Art/AnathKantonda/bouncing-moving-eye.PNG",
+    "Anath Kantonda",
     "https://github.com/anathkantonda"
   ],
+  ["AniFun",
+    "./Art/yorvinlunawisky/index.html",
+    "./Art/yorvinlunawisky/anifun.gif",
+    "Yorvin Luna Wisky",
+    "https://github.com/yorvinlunawisky"
+  ],
+
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -2089,12 +2096,12 @@ let contents = [];
 Shuffle(cards).forEach(c => {
   contents.push([
     `<li class="card">` +
-      `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
-      `<div class="flex-content">` +
-      `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
-      `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
+    `<div class="flex-content">` +
+    `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
+    `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
