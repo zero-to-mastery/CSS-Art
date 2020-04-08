@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+
+.container {
+    display: flex;
+
+}
+
+.square {
+    width: 500px;
+    height: 500px;
+    background: url(img/long-road.jpg);
+    background-size: cover;
+    background-position: top;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+    color: white;
+}
+
+.title{
+    color: black;
+    font-family: sans-serif;
+}
+
+.sub-square {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 5%;
+
+
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    border: 10px solid grey;
+
+}
+
+
+
+
+
+
+@keyframes img-one {
+    from {
+        transform: rotate(0deg);
+
+
+    }
+
+    to {
+        transform: rotate(360deg);
+
+
+    }
+}
+
+.img-one {
+    animation: img-one 7s linear infinite;
+
+}
+
+.img-one:hover {
+    animation: img-one 0.5s linear infinite;
+
+    
+
+
+}
+
+
