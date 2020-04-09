@@ -2081,6 +2081,12 @@ let cards = [
     "Yorvin Luna Wisky",
     "https://github.com/yorvinlunawisky"
   ],
+  ["ChristmasTree",
+    "./Art/KiritoJX/index.html",
+    "./Art/KiritoJX/cover.png",
+    "Phu Le Ngo",
+    "https://github.com/kiritojx"
+  ],
 
 ];
 
