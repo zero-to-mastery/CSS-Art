@@ -1,0 +1,209 @@
+:root {
+    --circle-color: #0c1e41;
+    --stack-color-right: #7CAD40;
+    --stack-color-left: #4f6f28;
+    --stem-color-top: #805325;
+    --stem-color-bot: #563718;
+    --snow-color: white;
+    --star-color: #FFFF00;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    background: #BB3333;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20vw;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    background-color: var(--circle-color);
+    z-index: 1;
+}
+
+.star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -310%);
+    padding: 3vw;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: var(--star-color);
+    z-index: 9;
+}
+
+.stack1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    padding: 6vw;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: linear-gradient(to right, var(--stack-color-left), var(--stack-color-right));
+    z-index: 6;
+}
+
+.stack2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    padding: 8vw;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: linear-gradient(to right, var(--stack-color-left), var(--stack-color-right));
+    z-index: 5;
+}
+
+.stack3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    padding: 9vw;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: linear-gradient(to right, var(--stack-color-left), var(--stack-color-right));
+    z-index: 4;
+}
+
+.stem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 115%);
+    padding: 4vw;
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    background: linear-gradient(to bottom, var(--stem-color-top), var(--stem-color-bot));
+    z-index: 3;
+}
+
+.snows {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-400%, -500%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    background-color: var(--snow-color);
+    z-index: 7;
+}
+
+@keyframes moving1 {
+    from {
+        top: 40vh;
+    }
+    to {
+        top: 85vh;
+    }
+}
+
+#snow1 {
+    transform: translate(-500%, -750%);
+    padding: 0.75vw;
+    animation: moving1 10s infinite;
+}
+
+#snow2 {
+    transform: translate(-1000%, -600%);
+    padding:0.55vw;
+    animation: moving1 9s infinite;
+}
+
+#snow3 {
+    transform: translate(-600%, -750%);
+    padding: 0.4vw;
+    animation: moving1 6s infinite;
+}
+
+#snow4 {
+    transform: translate(900%, -800%);
+    padding: 0.75vw;
+    animation: moving1 7s infinite;
+}
+
+#snow5 {
+    transform: translate(700%, -1000%);
+    padding: 0.65vw;
+    animation: moving1 5s infinite;
+}
+
+#snow6 {
+    transform: translate(800%, -900%);
+    padding: 0.45vw;
+    animation: moving1 4s infinite;
+}
+
+#snow7 {
+    transform: translate(1700%, -500%);
+    padding: 0.5vw;
+    animation: moving1 4s infinite;
+}
+
+#snow8 {
+    transform: translate(900%, -800%);
+    padding: 0.25vw;
+    animation: moving1 3s infinite;
+}
+
+#snow9 {
+    transform: translate(-1000%, -800%);
+    padding: 0.75vw;
+    animation: moving1 3s infinite;
+}
+
+#snow10 {
+    transform: translate(-2500%, -800%);
+    padding: 0.35vw;
+    animation: moving1 15s infinite;
+}
+
+.text {
+    font-family: 'SF Pro Display', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, 570%);
+    z-index: 99;
+}
+
+/** Bold */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 700;
+    src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
+  }
+  
+  /** Regular */
+  @font-face {
+    font-family: "SF Display";
+    font-weight: 400;
+    src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+  }
+  
+  @font-face {
+    font-family: "HorroramaW01-Regular"; 
+    src: url("//db.onlinewebfonts.com/t/5a082c0bf6d032d30f99b12b5ef4b862.eot"); 
+    src: url("//db.onlinewebfonts.com/t/5a082c0bf6d032d30f99b12b5ef4b862.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5a082c0bf6d032d30f99b12b5ef4b862.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5a082c0bf6d032d30f99b12b5ef4b862.woff") format("woff"), url("//db.onlinewebfonts.com/t/5a082c0bf6d032d30f99b12b5ef4b862.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5a082c0bf6d032d30f99b12b5ef4b862.svg#HorroramaW01-Regular") format("svg"); }
