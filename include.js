@@ -2087,6 +2087,12 @@ let cards = [
     "Phu Le Ngo",
     "https://github.com/kiritojx"
   ],
+  ["FunZoo",
+    "./Art/elamarang/index.html",
+    "./Art/elamarang/zoo.png",
+    "elamarang",
+    "https://github.com/elamarang"
+  ]
 
 ];
 
