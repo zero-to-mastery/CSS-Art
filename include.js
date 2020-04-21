@@ -2096,6 +2096,12 @@ let cards = [
     "Luqman A Ibrahim",
     "https://github.com/fvlly",
   ],
+  ["FunZoo",
+    "./Art/elamarang/index.html",
+    "./Art/elamarang/zoo.png",
+    "elamarang",
+    "https://github.com/elamarang"
+  ]
 ];
 
 // +--------------------------------------------------------------------------------+

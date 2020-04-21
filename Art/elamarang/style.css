@@ -1,0 +1,58 @@
+
+@keyframes ex {
+    0% {left:0px;top:0px;background-color: red;}
+    25% {left:25%;top:25%;background-color:green;}
+    50% {left:50%;top:50%;background-color:blue;}
+    75% {left:75%;top:75%;background-color:white;}
+    100% {left:100% ;top:100%;background-color: yellow;}
+}
+
+div{
+    width:50px;
+    height: 10%;
+    font-size:2.5em;
+    position : relative;
+    animation-name: ex;
+    animation-duration: 5s;
+    transform: rotateX(180);
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+.dragon {
+    animation-duration: 2s;
+}
+
+.panda {
+    animation-duration: 3s;
+}
+
+.tiger {
+    animation-duration: 6s;
+}
+
+.lion {
+    animation-duration: 5s;
+}
+
+.rat {
+    animation-duration: 4s;
+}
+
+.rabbit {
+    animation-duration: 7s;
+}
+
+.fox {
+    animation-duration: 12s;
+}
+
+.snake {
+    animation-duration: 11s;
+}
+.bear {
+    animation-duration: 9s;
+}
+.unicorn {
+    animation-duration: 10s;
+}
