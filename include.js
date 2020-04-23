@@ -2087,8 +2087,15 @@ let cards = [
     "Phu Le Ngo",
     "https://github.com/kiritojx"
   ],
-
+  [
+    "russellbot",
+    "./Art/russellbot/index.html",
+    "./Art/russellbot/russellbot.png",
+    "russellbot",
+    "https://github.com/russellbot"
+  ],
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +

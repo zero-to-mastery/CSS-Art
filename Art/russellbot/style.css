@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to right, rgb(108, 105, 150), rgb(136, 142, 113));
+}
+
+div#one, div#three, div#five {
+    height: 100px;
+    width: 100px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 4s;
+}
+
+div#two, div#four, div#six {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    border-radius: 50%;
+    position: relative;
+    left: 90%;
+    top: 200px;
+    animation-name: example2;
+    animation-duration: 4s;
+}
+  
+@keyframes example1 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:90%; top:0px;}
+    50%  {background-color:blue; left:90%; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+@keyframes example2 {
+    0%   {background-color:blue; left:90%; top:200px;}
+    25%  {background-color:green; left:0px; top:200px;}
+    50%  {background-color:red; left:0px; top:0px;}
+    75%  {background-color:yellow; left:90%; top:0px;}
+    100% {background-color:blue; left:90%; top:200px;}
+}
