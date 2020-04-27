@@ -2090,6 +2090,13 @@ let cards = [
     "https://github.com/kiritojx",
   ],
   [
+    "russellbot",
+    "./Art/russellbot/index.html",
+    "./Art/russellbot/russellbot.png",
+    "russellbot",
+    "https://github.com/russellbot"
+  ],
+  [
     "fvlly",
     "./Art/fvlly/index.html",
     "./Art/fvlly/animations.png",
@@ -2103,6 +2110,7 @@ let cards = [
     "https://github.com/elamarang"
   ]
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
