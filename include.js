@@ -2115,6 +2115,13 @@ let cards = [
     "./Art/itkhanz/screenshot.jpg",
     "itkhanz",
     "https://github.com/itkhanz"
+  ],
+  [
+    "Bar-animation", 
+    "./Art/farhanali3193/index.html", 
+    "./Art/farhanali3193/Bars.png", 
+    "farhanali3193", 
+    "https://github.com/farhanali3193"
   ]
 ];
 
