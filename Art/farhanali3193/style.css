@@ -1,0 +1,29 @@
+#one{
+    background: red;
+    width: 100%;
+    height: 50px;
+    animation: slidein 0.4s linear 1s infinite alternate;;
+}
+#two{
+    background: grey;
+    width: 100%;
+    height: 50px;
+    animation: slidein .5s linear 1s infinite alternate;;
+}
+#three{
+    background: yellow;
+    width: 100%;
+    height: 50px;
+    animation: slidein 1s linear 1s infinite alternate;
+}
+
+@keyframes slidein{
+    from {
+        margin-left: 100%; 
+        width: 300%;
+    }
+    to {
+        margin-left: 0%; 
+        width: 100%;
+    }
+}
