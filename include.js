@@ -2126,7 +2126,7 @@ let cards = [
   [
     "Projects", 
     "./Art/dpletzke/index.html", 
-    "./Art/dpletzke/Bars.png", 
+    "./Art/dpletzke/Projects.png", 
     "dpletzke", 
     "https://github.com/dpletzke"
   ]
