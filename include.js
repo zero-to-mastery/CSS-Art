@@ -2123,6 +2123,13 @@ let cards = [
     "farhanali3193", 
     "https://github.com/farhanali3193"
   ]
+  [
+    "Projects", 
+    "./Art/dpletzke/index.html", 
+    "./Art/dpletzke/Projects.png", 
+    "dpletzke", 
+    "https://github.com/dpletzke"
+  ]
 ];
 
 
