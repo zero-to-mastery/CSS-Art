@@ -1,0 +1,117 @@
+* {
+    background-color: black;
+}
+
+body {
+    margin: auto 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 5;
+    grid-row-start: 5;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    animation: rotate 5s infinite linear;
+    margin: 25px;
+}
+
+.one:hover {
+    animation: rotate 0.5s infinite linear;
+    box-shadow: 5px 5px 20px white;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 4;
+    grid-row-start: 5;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    animation: rotate 5s infinite linear;
+    margin: 25px;
+}
+
+.two:hover {
+    animation: rotate 0.5s infinite linear;
+    box-shadow: 5px 5px 20px white;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 5;
+    grid-row-start: 7;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    animation: rotate 5s infinite linear;
+    margin: 25px;
+}
+
+.three:hover {
+    animation: rotate 0.5s infinite linear;
+    box-shadow: 5px 5px 20px white;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    grid-column-start: 5;
+    grid-row-start: 3;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    animation: rotate 5s infinite linear;
+    margin: 25px;
+}
+
+.four:hover {
+    animation: rotate 0.5s infinite linear;
+    box-shadow: 5px 5px 20px white;
+}
+
+.image {
+    background-color: white;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    grid-column-start: 6;
+    grid-row-start: 5;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    animation: rotate 5s infinite linear;
+    margin: 25px;
+}
+
+.five:hover {
+    animation: rotate 0.5s infinite linear;
+    box-shadow: 5px 5px 20px white;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
