@@ -3,6 +3,13 @@ let cards = [
   //  Follow this example format:
   //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
   [
+    "spinning-squares",
+    "./Art/gheezl/index.html",
+    "./Art/gheezl/spinning-squares.gif",
+    "gheezl",
+    "https://github.com/gheezl",
+  ],
+  [
     "BINGNAN-CHEN",
     "./Art/BINGNAN-CHEN/index.html",
     "./Art/BINGNAN-CHEN/box.jpg",
@@ -1010,10 +1017,10 @@ let cards = [
     "Hikmah",
     "https://github.com/nrhikmah",
   ][
-    //  Add your card in this section
-    //  Follow this example format:
-    //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
-    ("BINGNAN-CHEN",
+  //  Add your card in this section
+  //  Follow this example format:
+  //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
+  ("BINGNAN-CHEN",
     "./Art/BINGNAN-CHEN/index.html",
     "./Art/BINGNAN-CHEN/box.jpg",
     "BINGNAN-CHEN",
@@ -2055,7 +2062,7 @@ let cards = [
     "vilasini",
     "https://github.com/vilasinisaida",
   ][
-    ("Blast Off",
+  ("Blast Off",
     "./Art/mjbh831/index.html",
     "./Art/mjbh831/blastOff.png",
     "Marcos Hinojos",
@@ -2117,18 +2124,18 @@ let cards = [
     "https://github.com/itkhanz"
   ],
   [
-    "Bar-animation", 
-    "./Art/farhanali3193/index.html", 
-    "./Art/farhanali3193/Bars.png", 
-    "farhanali3193", 
+    "Bar-animation",
+    "./Art/farhanali3193/index.html",
+    "./Art/farhanali3193/Bars.png",
+    "farhanali3193",
     "https://github.com/farhanali3193"
   ]
   [
-    "Projects", 
-    "./Art/dpletzke/index.html", 
-    "./Art/dpletzke/Projects.png", 
-    "dpletzke", 
-    "https://github.com/dpletzke"
+  "Projects",
+  "./Art/dpletzke/index.html",
+  "./Art/dpletzke/Projects.png",
+  "dpletzke",
+  "https://github.com/dpletzke"
   ]
 ];
 
@@ -2145,12 +2152,12 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
-      `<div class="flex-content">` +
-      `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
-      `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
-      `</div>` +
-      `</li>`,
+    `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
+    `<div class="flex-content">` +
+    `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
+    `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
+    `</div>` +
+    `</li>`,
   ]);
 });
 
