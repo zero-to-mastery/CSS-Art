@@ -19,7 +19,7 @@ let cards = [
   [
     "cool-jengwa",
     "./Art/cool-jengwa/index.html",
-    "./Art/jengwa/melon.PNG",
+    "./Art/cool-jengwa/melon-cuts.PNG",
     "jengwa",
     "https://github.com/Jengwa",
   ],
@@ -754,7 +754,7 @@ let cards = [
   [
     "bouncing ball",
     "./Art/jaeja/index.html",
-    "./jaeja/ball.png",
+    "./Art/jaeja/ball.png",
     "jae",
     "https://github.com/jaeja",
   ],
@@ -768,7 +768,7 @@ let cards = [
   [
     "Shaky Wall",
     "./Art/tsrumia/index.html",
-    "./Art/tsrumia/image.jpeg",
+    "./Art/tsrumia/image.jpg",
     "Tsrumia",
     "https://github.com/mukherj",
   ],
@@ -789,14 +789,14 @@ let cards = [
   [
     "The Minimal Artist",
     "./Art/Arpit Jain/Arpit Jain.html",
-    ".Art/Arpit Jain/Arpit Jain.png",
+    "./Art/Arpit Jain/Arpit Jain.png",
     "Arpit Jain",
     "https://github.com/arpitjainds",
   ],
   [
     "Minimal Clown",
     "./Art/Jithendra Yenugula/jithendrabsy.html",
-    ".Art/Jithendra Yenugula/jithendrabsy.png",
+    "./Art/Jithendra Yenugula/jithendrabsy.png",
     "Jithendra Yenugula",
     "https://github.com/jithendrabsy",
   ],
@@ -943,7 +943,8 @@ let cards = [
   [
     "Strange Ball",
     "./Art/ronchito13/index.html",
-    "./Art/ronchito13/ball.gif",
+    // "./Art/ronchito13/ball.gif",
+    "", // no artwork in folder
     "Ronchito13",
     "https://github.com/Ronchito13",
   ],
@@ -992,7 +993,7 @@ let cards = [
   [
     "My not-so Flashy Animation",
     "./Art/SonalJain/index.html",
-    "./Art/SonalJain/My not-so Flashy Animation.png",
+    "./Art/SonalJain/My not-so Flashy Animation.gif",
     "Sonal Jain",
     "https://github.com/Jain-sonal",
   ],
@@ -1016,20 +1017,18 @@ let cards = [
     "./Art/iqmah/gallery.png",
     "Hikmah",
     "https://github.com/nrhikmah",
-  ][
-  //  Add your card in this section
-  //  Follow this example format:
-  //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
-  ("BINGNAN-CHEN",
+  ],
+  [
+    "BINGNAN-CHEN",
     "./Art/BINGNAN-CHEN/index.html",
     "./Art/BINGNAN-CHEN/box.jpg",
     "BINGNAN-CHEN",
-    "https://github.com/r1991108")
+    "https://github.com/r1991108",
   ],
   [
     "cool-jengwa",
     "./Art/cool-jengwa/index.html",
-    "./Art/jengwa/melon.PNG",
+    "./Art/cool-jengwa/melon-cuts.PNG",
     "jengwa",
     "https://github.com/Jengwa",
   ],
@@ -1764,7 +1763,7 @@ let cards = [
   [
     "bouncing ball",
     "./Art/jaeja/index.html",
-    "./jaeja/ball.png",
+    "./Art/jaeja/ball.png",
     "jae",
     "https://github.com/jaeja",
   ],
@@ -1778,7 +1777,7 @@ let cards = [
   [
     "Shaky Wall",
     "./Art/tsrumia/index.html",
-    "./Art/tsrumia/image.jpeg",
+    "./Art/tsrumia/image.jpg",
     "Tsrumia",
     "https://github.com/mukherj",
   ],
@@ -1799,14 +1798,14 @@ let cards = [
   [
     "The Minimal Artist",
     "./Art/Arpit Jain/Arpit Jain.html",
-    ".Art/Arpit Jain/Arpit Jain.png",
+    "./Art/Arpit Jain/Arpit Jain.png",
     "Arpit Jain",
     "https://github.com/arpitjainds",
   ],
   [
     "Minimal Clown",
     "./Art/Jithendra Yenugula/jithendrabsy.html",
-    ".Art/Jithendra Yenugula/jithendrabsy.png",
+    "./Art/Jithendra Yenugula/jithendrabsy.png",
     "Jithendra Yenugula",
     "https://github.com/jithendrabsy",
   ],
@@ -1953,7 +1952,8 @@ let cards = [
   [
     "Strange Ball",
     "./Art/ronchito13/index.html",
-    "./Art/ronchito13/ball.gif",
+    // "./Art/ronchito13/ball.gif",
+    "", // no artwork in folder
     "Ronchito13",
     "https://github.com/Ronchito13",
   ],
@@ -2002,7 +2002,7 @@ let cards = [
   [
     "My not-so Flashy Animation",
     "./Art/SonalJain/index.html",
-    "./Art/SonalJain/My not-so Flashy Animation.png",
+    "./Art/SonalJain/My not-so Flashy Animation.gif",
     "Sonal Jain",
     "https://github.com/Jain-sonal",
   ],
@@ -2023,7 +2023,7 @@ let cards = [
   [
     "ReactLogo",
     "./Art/Jorjill/index.html",
-    "./Art/Jorjill/ReactLogo.jpeg",
+    "./Art/Jorjill/ReactLogo.png",
     "JohnJorjill",
     "https://github.com/JohnJorjill",
   ],
@@ -2043,8 +2043,8 @@ let cards = [
   ],
   [
     "Goga AnimatedGallery",
-    "./Art/Goga/index.html",
-    "./Art/Goga/Goga.gif",
+    "./Art/Goga AnimatedGallery/index.html",
+    "./Art/Goga AnimatedGallery/Goga.gif",
     "Goga",
     "https://github.com/gogadev",
   ],
@@ -2057,16 +2057,17 @@ let cards = [
   ],
   [
     "trying",
-    "./Art/vilasini/bg.html",
-
+    "./Art/vilasiniCSS/bg.html",
+    "", // no artwork in folder
     "vilasini",
     "https://github.com/vilasinisaida",
-  ][
-  ("Blast Off",
+  ],
+  [
+  "Blast Off",
     "./Art/mjbh831/index.html",
     "./Art/mjbh831/blastOff.png",
     "Marcos Hinojos",
-    "https://github.com/mjbh831")
+    "https://github.com/mjbh831",
   ],
   [
     "Pug's Life",
@@ -2084,8 +2085,8 @@ let cards = [
   ],
   [
     "AniFun",
-    "./Art/yorvinlunawisky/index.html",
-    "./Art/yorvinlunawisky/anifun.gif",
+    "./Art/anifun/index.html",
+    "./Art/anifun/anifun.gif",
     "Yorvin Luna Wisky",
     "https://github.com/yorvinlunawisky",
   ],
@@ -2103,13 +2104,14 @@ let cards = [
     "russellbot",
     "https://github.com/russellbot"
   ],
-  [
-    "fvlly",
-    "./Art/fvlly/index.html",
-    "./Art/fvlly/animations.png",
-    "Luqman A Ibrahim",
-    "https://github.com/fvlly",
-  ],
+  // folder is empty so commented out
+  // [
+  //   "fvlly",
+  //   "./Art/fvlly/index.html",
+  //   "./Art/fvlly/animations.png",
+  //   "Luqman A Ibrahim",
+  //   "https://github.com/fvlly",
+  // ],
   ["FunZoo",
     "./Art/elamarang/index.html",
     "./Art/elamarang/zoo.png",
@@ -2129,7 +2131,7 @@ let cards = [
     "./Art/farhanali3193/Bars.png",
     "farhanali3193",
     "https://github.com/farhanali3193"
-  ]
+  ],
   [
   "Projects",
   "./Art/dpletzke/index.html",
