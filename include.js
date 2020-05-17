@@ -2129,7 +2129,14 @@ let cards = [
     "./Art/farhanali3193/Bars.png",
     "farhanali3193",
     "https://github.com/farhanali3193"
-  ]
+  ],
+  [
+  "Mahi",
+  "./Art/Mahi/index.html",
+  "./Art/Mahi/trance.gif",
+  "Mahiprabhu",
+  "https://github.com/Mahiprabhu"
+  ],
   [
   "Projects",
   "./Art/dpletzke/index.html",
