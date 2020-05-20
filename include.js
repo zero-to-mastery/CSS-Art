@@ -2152,9 +2152,22 @@ let cards = [
     "./Art/brucelinsyd/bear.png",
     "brucelinsyd",
     "https://github.com/brucelinsyd"
-  ]
-];
-
+  ],
+  [
+  "Abdel Hover Animations",
+  "./Art/abdel/index.html",
+  "./Art/abdel/hoverAnimations.png",
+  "Abdel Trochez",
+  "https://github.com/AbdelTrochez"
+  ],
+[
+  "ChessMess",
+  "./Art/ChessMess/index.html",
+  "./Art/ChessMess/ChessMessGIF.gif", 
+  "Matej Pavic",
+  "https://github.com/matejpavic"
+  ],
+  ];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +

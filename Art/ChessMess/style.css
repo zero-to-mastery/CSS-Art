@@ -1,0 +1,40 @@
+.chessboard {
+    width: 640px;
+    height: 640px;
+
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    animation-name: change;
+    animation-duration: 5s;
+}
+
+@keyframes change {
+  from {background-color: black;}
+  to {background-color: pink;}
+}
+
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    animation-name: changee;
+    animation-duration: 5s;
+}
+
+@keyframes changee {
+  from {background-color: white;}
+  to {background-color: green;}
+}
