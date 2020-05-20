@@ -2147,13 +2147,20 @@ let cards = [
   "https://github.com/dpletzke"
   ],
   [
+  "Abdel Hover Animations",
+  "./Art/abdel/index.html",
+  "./Art/abdel/hoverAnimations.png",
+  "Abdel Trochez",
+  "https://github.com/AbdelTrochez"
+  ],
+[
   "ChessMess",
   "./Art/ChessMess/index.html",
   "./Art/ChessMess/ChessMessGIF.gif", 
   "Matej Pavic",
   "https://github.com/matejpavic"
   ],
- 
+  
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
