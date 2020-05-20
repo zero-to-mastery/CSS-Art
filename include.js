@@ -2153,9 +2153,14 @@ let cards = [
   "Abdel Trochez",
   "https://github.com/AbdelTrochez"
   ],
-];
-
-
+[
+  "ChessMess",
+  "./Art/ChessMess/index.html",
+  "./Art/ChessMess/ChessMessGIF.gif", 
+  "Matej Pavic",
+  "https://github.com/matejpavic"
+  ],
+  
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
