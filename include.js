@@ -2145,6 +2145,13 @@ let cards = [
   "./Art/dpletzke/Projects.png",
   "dpletzke",
   "https://github.com/dpletzke"
+  ],
+  [
+    "Bear",
+    "./Art/brucelinsyd/index.html",
+    "./Art/brucelinsyd/bear.png",
+    "brucelinsyd",
+    "https://github.com/brucelinsyd"
   ]
 ];
 
