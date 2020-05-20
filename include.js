@@ -2145,10 +2145,15 @@ let cards = [
   "./Art/dpletzke/Projects.png",
   "dpletzke",
   "https://github.com/dpletzke"
-  ]
-];
-
-
+  ],
+  [
+  "ChessMess",
+  "./Art/ChessMess/index.html",
+  "./Art/ChessMess/ChessMessGIF.gif", 
+  "Matej Pavic",
+  "https://github.com/matejpavic"
+  ],
+ 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
