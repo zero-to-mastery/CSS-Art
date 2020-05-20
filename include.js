@@ -2145,7 +2145,14 @@ let cards = [
   "./Art/dpletzke/Projects.png",
   "dpletzke",
   "https://github.com/dpletzke"
-  ]
+  ],
+  [
+  "Abdel Hover Animations",
+  "./Art/abdel/index.html",
+  "./Art/abdel/hoverAnimations.png",
+  "Abdel Trochez",
+  "https://github.com/AbdelTrochez"
+  ],
 ];
 
 
