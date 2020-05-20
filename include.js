@@ -2147,6 +2147,13 @@ let cards = [
   "https://github.com/dpletzke"
   ],
   [
+    "Bear",
+    "./Art/brucelinsyd/index.html",
+    "./Art/brucelinsyd/bear.png",
+    "brucelinsyd",
+    "https://github.com/brucelinsyd"
+  ],
+  [
   "Abdel Hover Animations",
   "./Art/abdel/index.html",
   "./Art/abdel/hoverAnimations.png",
@@ -2160,7 +2167,8 @@ let cards = [
   "Matej Pavic",
   "https://github.com/matejpavic"
   ],
-  
+  ];
+
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
