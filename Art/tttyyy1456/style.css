@@ -1,0 +1,68 @@
+body{
+	margin: 0 auto;
+}
+
+.first{
+	height: 25vh;
+	background-color: rgb(56, 53, 54);
+	transition: 2s linear;
+}
+
+.first:hover{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.second{
+	height: 25vh;
+	background-color: rgb(228, 239, 240);
+	transition: 0.3s linear;
+}
+
+.second:hover{
+	background-color:  rgb(232, 185, 56);
+}
+
+.view_port {
+  background-color: rgb(52, 177, 235);
+  height: 25vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cylon_eye {
+  background-color: red;
+  background-image: -webkit-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  background-image:    -moz-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  background-image:      -o-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  background-image:         linear-gradient(to right, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  color: white;
+  height: 100%;
+  width: 20%;
+
+  -webkit-animation: 4s linear 0s infinite alternate move_eye;
+     -moz-animation: 4s linear 0s infinite alternate move_eye;
+       -o-animation: 4s linear 0s infinite alternate move_eye;
+          animation: 4s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+   @-moz-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+     @-o-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+        @keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+
+
+
+.forth{
+	height: 25vh;
+	background-color: rgb(245, 47, 66);
+	-webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.forth:hover{
+	width: 100vw;
+    height: 25vh;
+	-webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
