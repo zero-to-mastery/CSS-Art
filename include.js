@@ -2167,6 +2167,16 @@ let cards = [
   "Matej Pavic",
   "https://github.com/matejpavic"
   ],
+
+  [
+    "Bike Race",
+    "./Art/Misbah/index.html",
+    "./Art/Misbah/bikeRace.gif", 
+    "Misbah Hemraj",
+    "https://github.com/misbahemraj"
+    ],
+  
+
   ];
 
 // +--------------------------------------------------------------------------------+
