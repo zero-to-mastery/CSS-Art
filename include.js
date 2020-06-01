@@ -2166,8 +2166,15 @@ let cards = [
   "./Art/ChessMess/ChessMessGIF.gif", 
   "Matej Pavic",
   "https://github.com/matejpavic"
-  ],
-  ];
+],
+[
+  "robofriend",
+  "./Art/robofriend/index.html",
+  //no image, 
+  "Sanil Yadav",
+  "https://github.com/yadavsunny"
+],
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
