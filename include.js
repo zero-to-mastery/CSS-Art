@@ -2166,8 +2166,8 @@ let cards = [
   "./Art/ChessMess/ChessMessGIF.gif", 
   "Matej Pavic",
   "https://github.com/matejpavic"
-  ],
-
+  
+  
   [
     "Bike Race",
     "./Art/Misbah/index.html",
@@ -2178,6 +2178,8 @@ let cards = [
   
 
   ];
+  
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
