@@ -2063,7 +2063,7 @@ let cards = [
     "https://github.com/vilasinisaida",
   ],
   [
-  "Blast Off",
+    "Blast Off",
     "./Art/mjbh831/index.html",
     "./Art/mjbh831/blastOff.png",
     "Marcos Hinojos",
@@ -2133,18 +2133,18 @@ let cards = [
     "https://github.com/farhanali3193"
   ],
   [
-  "Mahi",
-  "./Art/Mahi/index.html",
-  "./Art/Mahi/trance.gif",
-  "Mahiprabhu",
-  "https://github.com/Mahiprabhu"
+    "Mahi",
+    "./Art/Mahi/index.html",
+    "./Art/Mahi/trance.gif",
+    "Mahiprabhu",
+    "https://github.com/Mahiprabhu"
   ],
   [
-  "Projects",
-  "./Art/dpletzke/index.html",
-  "./Art/dpletzke/Projects.png",
-  "dpletzke",
-  "https://github.com/dpletzke"
+    "Projects",
+    "./Art/dpletzke/index.html",
+    "./Art/dpletzke/Projects.png",
+    "dpletzke",
+    "https://github.com/dpletzke"
   ],
   [
     "Bear",
@@ -2154,6 +2154,13 @@ let cards = [
     "https://github.com/brucelinsyd"
   ],
   [
+    "Love Cake",
+    "./Art/stu1612/index.html",
+    "./Art/stu1612/CSS_Art(2).png",
+    "Stu Bolderson",
+    "https://github.com/stu1612"
+  ],
+[
   "Abdel Hover Animations",
   "./Art/abdel/index.html",
   "./Art/abdel/hoverAnimations.png",
