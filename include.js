@@ -2154,40 +2154,47 @@ let cards = [
     "https://github.com/brucelinsyd"
   ],
   [
-    "Abdel Hover Animations",
-    "./Art/abdel/index.html",
-    "./Art/abdel/hoverAnimations.png",
-    "Abdel Trochez",
-    "https://github.com/AbdelTrochez"
-  ],
-  [
-    "ChessMess",
-    "./Art/ChessMess/index.html",
-    "./Art/ChessMess/ChessMessGIF.gif",
-    "Matej Pavic",
-    "https://github.com/matejpavic"
-  ],
-  [
-    "robofriend",
-    "./Art/robofriend/index.html",
-    //no image, 
-    "Sanil Yadav",
-    "https://github.com/yadavsunny"
-  ],
-  [
-    "Black Lives Matter",
-    "./Art/mollieput/index.html",
-    "./Art/mollieput/BLMflag.png",
-    "Mollie Putnam",
-    "https://github.com/mollieput"
-  ],
-  [
     "Love Cake",
     "./Art/stu1612/index.html",
     "./Art/stu1612/CSS_Art(2).png",
     "Stu Bolderson",
     "https://github.com/stu1612"
   ],
+[
+  "Abdel Hover Animations",
+  "./Art/abdel/index.html",
+  "./Art/abdel/hoverAnimations.png",
+  "Abdel Trochez",
+  "https://github.com/AbdelTrochez"
+  ],
+[
+  "ChessMess",
+  "./Art/ChessMess/index.html",
+  "./Art/ChessMess/ChessMessGIF.gif", 
+  "Matej Pavic",
+  "https://github.com/matejpavic"
+],
+[
+  "robofriend",
+  "./Art/robofriend/index.html",
+  //no image, 
+  "Sanil Yadav",
+  "https://github.com/yadavsunny"
+],
+[
+  "Black Lives Matter",
+  "./Art/mollieput/index.html",
+  "./Art/mollieput/BLMflag.png",
+  "Mollie Putnam",
+  "https://github.com/mollieput"
+],
+[
+  "BelleAndBlossom",
+  "./Art/BelleAndBlossom/index.html",
+  "./Art/BelleAndBlossom/belle&blossom.GIF",
+  "Chandan Thapa",
+  "https://github.com/chandant9"
+]
 ];
 
 
