@@ -2184,7 +2184,7 @@ let cards = [
 [
   "BelleAndBlossom",
   "./Art/BelleAndBlossom/index.html",
-  "./Art/BelleAndBlossom/belle&blossom.GIF",
+  "./Art/BelleAndBlossom/belleandblossom.gif",
   "Chandan Thapa",
   "https://github.com/chandant9"
 ]
