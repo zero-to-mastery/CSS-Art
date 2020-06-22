@@ -2203,6 +2203,13 @@ let cards = [
     "William Kurniawan",
     "https://github.com/WiLLiaM-noD",
   ],
+  [
+    "Smiling Bot",
+    "./Art/ulvi199517/index.html",
+    "./Art/ulvi199517/bot.jpg",
+    "Ulvi Samadzade",
+    "https://github.com/ulvi199517",
+  ]
 ];
 
 // +--------------------------------------------------------------------------------+
