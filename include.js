@@ -2063,7 +2063,7 @@ let cards = [
     "https://github.com/vilasinisaida",
   ],
   [
-  "Blast Off",
+    "Blast Off",
     "./Art/mjbh831/index.html",
     "./Art/mjbh831/blastOff.png",
     "Marcos Hinojos",
@@ -2102,7 +2102,7 @@ let cards = [
     "./Art/russellbot/index.html",
     "./Art/russellbot/russellbot.png",
     "russellbot",
-    "https://github.com/russellbot"
+    "https://github.com/russellbot",
   ],
   // folder is empty so commented out
   // [
@@ -2112,75 +2112,119 @@ let cards = [
   //   "Luqman A Ibrahim",
   //   "https://github.com/fvlly",
   // ],
-  ["FunZoo",
+  [
+    "FunZoo",
     "./Art/elamarang/index.html",
     "./Art/elamarang/zoo.png",
     "elamarang",
-    "https://github.com/elamarang"
+    "https://github.com/elamarang",
   ],
   [
     "Flying Bird from Steven Roberts",
     "./Art/itkhanz/index.html",
     "./Art/itkhanz/screenshot.jpg",
     "itkhanz",
-    "https://github.com/itkhanz"
+    "https://github.com/itkhanz",
   ],
   [
     "Bar-animation",
     "./Art/farhanali3193/index.html",
     "./Art/farhanali3193/Bars.png",
     "farhanali3193",
-    "https://github.com/farhanali3193"
+    "https://github.com/farhanali3193",
   ],
   [
-  "Mahi",
-  "./Art/Mahi/index.html",
-  "./Art/Mahi/trance.gif",
-  "Mahiprabhu",
-  "https://github.com/Mahiprabhu"
+    "Mahi",
+    "./Art/Mahi/index.html",
+    "./Art/Mahi/trance.gif",
+    "Mahiprabhu",
+    "https://github.com/Mahiprabhu",
   ],
   [
-  "Projects",
-  "./Art/dpletzke/index.html",
-  "./Art/dpletzke/Projects.png",
-  "dpletzke",
-  "https://github.com/dpletzke"
+    "Projects",
+    "./Art/dpletzke/index.html",
+    "./Art/dpletzke/Projects.png",
+    "dpletzke",
+    "https://github.com/dpletzke",
   ],
   [
     "Bear",
     "./Art/brucelinsyd/index.html",
     "./Art/brucelinsyd/bear.png",
     "brucelinsyd",
-    "https://github.com/brucelinsyd"
+    "https://github.com/brucelinsyd",
   ],
   [
-  "Abdel Hover Animations",
-  "./Art/abdel/index.html",
-  "./Art/abdel/hoverAnimations.png",
-  "Abdel Trochez",
-  "https://github.com/AbdelTrochez"
+    "Love Cake",
+    "./Art/stu1612/index.html",
+    "./Art/stu1612/CSS_Art(2).png",
+    "Stu Bolderson",
+    "https://github.com/stu1612",
   ],
-[
-  "ChessMess",
-  "./Art/ChessMess/index.html",
-  "./Art/ChessMess/ChessMessGIF.gif", 
-  "Matej Pavic",
-  "https://github.com/matejpavic"
-],
-[
-  "robofriend",
-  "./Art/robofriend/index.html",
-  //no image, 
-  "Sanil Yadav",
-  "https://github.com/yadavsunny"
-],
-[
+  [
+    "Abdel Hover Animations",
+    "./Art/abdel/index.html",
+    "./Art/abdel/hoverAnimations.png",
+    "Abdel Trochez",
+    "https://github.com/AbdelTrochez",
+  ],
+  [
+    "ChessMess",
+    "./Art/ChessMess/index.html",
+    "./Art/ChessMess/ChessMessGIF.gif",
+    "Matej Pavic",
+    "https://github.com/matejpavic",
+  ],
+  [
+    "robofriend",
+    "./Art/robofriend/index.html",
+    //no image,
+    "Sanil Yadav",
+    "https://github.com/yadavsunny",
+  ],
+  [
+    "Black Lives Matter",
+    "./Art/mollieput/index.html",
+    "./Art/mollieput/BLMflag.png",
+    "Mollie Putnam",
+    "https://github.com/mollieput",
+  ],
+  [
+    "BelleAndBlossom",
+    "./Art/BelleAndBlossom/index.html",
+    "./Art/BelleAndBlossom/belle&blossom.GIF",
+    "Chandan Thapa",
+    "https://github.com/chandant9",
+  ],
+  [
+    "Phone",
+    "./Art/WiLLiaM-noD/index.html",
+    "./Art/WiLLiaM-noD/Screenshot_1.png",
+    "William Kurniawan",
+    "https://github.com/WiLLiaM-noD",
+  ],
+  [
+    "Smiling Bot",
+    "./Art/ulvi199517/index.html",
+    "./Art/ulvi199517/bot.jpg",
+    "Ulvi Samadzade",
+    "https://github.com/ulvi199517",
+  ],
+    [
+    "FlowerywindBelle",
+    "./Art/FlowerywindBelle/index.html",
+    "./Art/FlowerywindBelle/flowerywind.gif",
+    "Chandan Thapa",
+    "https://github.com/chandant9",
+  ],
+    [
   "mikiart",
   "./Art/mikiart/index.html",
   "./Art/mikiart/img.PNG",
   "jorge sosa",
   "https://github.com/mikiimikii"
 ]
+
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -2195,12 +2239,12 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-    `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
-    `<div class="flex-content">` +
-    `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
-    `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
-    `</div>` +
-    `</li>`,
+      `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
+      `<div class="flex-content">` +
+      `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
+      `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
+      `</div>` +
+      `</li>`,
   ]);
 });
 
