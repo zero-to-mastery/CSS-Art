@@ -2216,7 +2216,15 @@ let cards = [
     "./Art/FlowerywindBelle/flowerywind.gif",
     "Chandan Thapa",
     "https://github.com/chandant9",
-  ]
+  ],
+    [
+  "mikiart",
+  "./Art/mikiart/index.html",
+  "./Art/mikiart/img.PNG",
+  "jorge sosa",
+  "https://github.com/mikiimikii"
+]
+
 ];
 
 // +--------------------------------------------------------------------------------+

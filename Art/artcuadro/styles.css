@@ -1,0 +1,30 @@
+
+#content{
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+}
+/* .obj{
+    height: 100px;
+    width: 100px;
+    border:solid 1px black;
+} */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;
+        transform: translate(50px, 100px);
+    }
+  }
+   
+  /* The element to apply the animation to */
+.anim{    
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+    border:solid 1px black;
+    background-color: red;
+    animation-name: example; 
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
