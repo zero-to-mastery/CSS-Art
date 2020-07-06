@@ -1,0 +1,44 @@
+body{
+	display: flex;
+	justify-content: center;
+	background-color: #000000 ;
+}
+
+.box{
+	position: relative;
+	background-image: linear-gradient(#ECCBDD, #FFFFFF);
+	margin:auto;
+	padding:100px;
+	width:400px;
+	height: 400px;
+}
+
+.box1{
+	position: relative;
+	background-image: linear-gradient(grey, #E84BDB);
+	margin:auto;
+	width:400px;
+	height: 400px;
+	border-radius: 0px 500px 0px 500px;
+	animation-name:spin;
+	animation-duration: 100ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.box2{
+	position: relative;
+	background-image: linear-gradient(#E84BDB, #93709E);
+	margin:auto;
+	width:400px;
+	height: 400px;
+	border-radius: 500px 0px 500px 0px;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	} to {
+		transform: rotate(360deg);
+	}
+}
