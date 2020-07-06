@@ -2152,8 +2152,29 @@ let cards = [
     "./Art/brucelinsyd/index.html",
     "./Art/brucelinsyd/bear.png",
     "brucelinsyd",
-    "https://github.com/brucelinsyd",
+    "https://github.com/brucelinsyd"
   ],
+  [
+  "Abdel Hover Animations",
+  "./Art/abdel/index.html",
+  "./Art/abdel/hoverAnimations.png",
+  "Abdel Trochez",
+  "https://github.com/AbdelTrochez"
+  ],
+[
+  "ChessMess",
+  "./Art/ChessMess/index.html",
+  "./Art/ChessMess/ChessMessGIF.gif", 
+  "Matej Pavic",
+  "https://github.com/matejpavic"
+  ],
+  [
+    "Bike Race",
+    "./Art/Misbah/index.html",
+    "./Art/Misbah/bikeRace.gif", 
+    "Misbah Hemraj",
+    "https://github.com/misbahemraj"
+    ],
   [
     "Love Cake",
     "./Art/stu1612/index.html",
