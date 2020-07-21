@@ -2258,7 +2258,14 @@ let cards = [
     "./Art/airibar/undraw_starry_window.png",
     "Alvaro Iribarren",
     "https://github.com/airibar",
-  ]
+  ],
+  [
+    "Abstract Circles",
+    "./Art/louis-hellman/index.html",
+    "./Art/louis-hellman/abstract_circle_art.png",
+    "Louis Hellman",
+    "https://github.com/TheBigLou",
+  ],
 ];
 
 // +--------------------------------------------------------------------------------+
