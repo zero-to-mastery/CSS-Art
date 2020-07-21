@@ -2251,6 +2251,13 @@ let cards = [
     "./Art/piano-keys/piano-keys.PNG",
     "Eymard Furtado",
     "https://github.com/eymardfurtado",
+  ],
+  [
+    "Abstract Circles",
+    "./Art/louis-hellman/index.html",
+    "./Art/louis-hellman/abstract_circle_art.png",
+    "Louis Hellman",
+    "https://github.com/TheBigLou",
   ]
 ];
 
