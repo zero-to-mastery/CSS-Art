@@ -2204,6 +2204,20 @@ let cards = [
     "https://github.com/matejpavic",
   ],
   [
+  "Projects",
+  "./Art/dpletzke/index.html",
+  "./Art/dpletzke/Projects.png",
+  "dpletzke",
+  "https://github.com/dpletzke"
+  ],
+  [
+  "Big brother is watching you",
+  "./Art/tttyyy1456/index.html",
+  "./Art/tttyyy1456/image.jpg",
+  "tttyyy1456",
+  "https://github.com/tttyyy1456"
+  ],
+[
     "robofriend",
     "./Art/robofriend/index.html",
     //no image,
@@ -2251,7 +2265,21 @@ let cards = [
     "./Art/piano-keys/piano-keys.PNG",
     "Eymard Furtado",
     "https://github.com/eymardfurtado",
-  ]
+  ],
+  [
+    "Airibar",
+    "./Art/airibar/index.html",
+    "./Art/airibar/undraw_starry_window.png",
+    "Alvaro Iribarren",
+    "https://github.com/airibar",
+  ],
+  [
+    "Abstract Circles",
+    "./Art/louis-hellman/index.html",
+    "./Art/louis-hellman/abstract_circle_art.png",
+    "Louis Hellman",
+    "https://github.com/TheBigLou",
+  ],
 ];
 
 // +--------------------------------------------------------------------------------+
