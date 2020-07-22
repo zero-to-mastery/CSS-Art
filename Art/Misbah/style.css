@@ -1,0 +1,114 @@
+html, body{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+.road, .sky, .ground{
+    position: relative;
+  }
+  
+  .sky {
+      height: 40%;
+      background: lightblue;
+  }
+  
+  .road{
+    height: 30%;
+    background: white;
+    box-sizing: border-box;
+    border-top: 10px solid dimgray;
+    border-bottom: 10px solid dimgrey;
+    width: 100%;
+  }
+  
+  .lines{
+    box-sizing: border-box;
+    border: 5px dashed grey;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+  }
+  
+
+.ground {
+    height: 30%;
+    background: lightgreen;
+}
+
+
+.bike {
+      position: absolute;
+      left: 0px;
+      animation-name: pedal;
+      animation-duration: 6s;
+      animation-fill-mode: both;
+     animation-iteration-count: infinite;
+
+
+  }
+
+  .bike2 {
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    animation-name: pedal2;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in;
+   
+  }
+
+
+  .cloud {
+      position: absolute;
+   
+  }
+
+
+  .cloud:nth-child(1){
+    width: 200px;
+    top: -40px;
+    opacity: 0.5;
+    animation-name: wind;
+    animation-duration: 40s;
+    animation-fill-mode: reverse;
+    animation-iteration-count: infinite;
+
+
+  }
+
+  .cloud:nth-child(2) {
+width: 200px;
+right: -5px;
+top: -5px;
+animation-name: wind2;
+animation-duration: 20s;
+animation-fill-mode: reverse;
+animation-iteration-count: infinite;
+
+
+  }
+
+ @keyframes pedal {
+      from{ transform: translateX(-200px) }
+      to{ transform: translateX(1000px) }
+  }
+
+  @keyframes pedal2 {
+    from{ transform: translateX(-300px) }
+    to{ transform: translateX(900px) }
+  }
+
+  @keyframes wind {
+      from{ right: -300px }
+      to{ right: 100% }
+  }
+
+  @keyframes wind2 {
+    from{ right: -100px }
+    to{ right: 100% }
+  }

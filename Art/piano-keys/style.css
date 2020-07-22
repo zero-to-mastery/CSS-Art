@@ -1,0 +1,32 @@
+html {
+  background-color: lightslategray;
+}
+
+.container {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.white-key {
+    background-color: white;
+  height: 700px;
+  width: 100px;
+  border: 1px solid black;
+  margin-left: -35px;
+}
+
+div:first-of-type {
+margin-left: 0;}
+
+div.white-key + div.white-key {
+  margin-left: 0;
+}
+
+.black-key {
+  margin-left: -35px;
+  background-color: black;
+  height: 400px;
+  width: 70px;
+  z-index: 1;
+}
