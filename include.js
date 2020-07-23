@@ -2275,8 +2275,8 @@ let cards = [
   ],
   [
     "Abstract Circles",
-    "./Art/louis-hellman/index.html",
-    "./Art/louis-hellman/abstract_circle_art.png",
+    "./Art/louis_hellman/index.html",
+    "./Art/louis_hellman/abstract_circle_art.png",
     "Louis Hellman",
     "https://github.com/TheBigLou",
   ],
