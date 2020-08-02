@@ -1,6 +1,6 @@
 # CSS ART - General Edition
 
-(View CSS Art - General Edition Site)[https://zero-to-mastery.github.io/CSS-Art/]
+[View CSS Art - General Edition Site](https://zero-to-mastery.github.io/CSS-Art/)
 
 **UPDATE**
 
