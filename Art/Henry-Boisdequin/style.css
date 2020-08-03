@@ -1,0 +1,79 @@
+body {
+  background: coral; 
+}
+
+.title {
+	font-family: "Courier New", "Comic Sans", "Arial";
+	text-align: center;
+	color: white;
+	font-size: 100px;
+}
+
+.title:hover {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.face-area {
+	width: 300px;
+	height: 300px;
+	background: yellow;
+	position: relative;
+	border-radius: 150px;
+	display: block;
+}
+
+.eye-area {
+	width: 50px;
+	height: 80px;
+	background: black;
+	border-radius: 140px;
+	position: absolute;
+	top: 40px;
+}
+
+.eye1 {
+	left: 75px;
+}
+
+.eye2 {
+	right: 75px;
+}
+
+.smile {
+	width: 200px;
+	height: 70px;
+	border: 10px solid black;
+	border-top: 0;
+	background: black;
+	border-radius: 0 0 120px 120px / 0 0 90px 90px;
+	position: absolute;
+	bottom: 30px;
+	left: 38px;
+}
+
+.smile:hover {
+	width: 220px;
+	height: 80px;
+	left: 30px;
+}
