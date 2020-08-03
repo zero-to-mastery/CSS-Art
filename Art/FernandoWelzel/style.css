@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(184, 226, 200), rgb(204, 209, 132));
+}
+
+.ball {
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 5vh;
+    background-image: linear-gradient(rgb(85, 228, 140), rgb(37, 216, 192));
+    position: absolute;
+    transform-origin: 5vh -45vh;
+    top: 70vh;
+}
+
+.stick {
+    width: 2vh;
+    height: 50vh;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(114, 53, 138), rgb(252, 101, 101));
+    transform-origin: 1vh 0vh;
+}
+
+.ball, .stick {
+    animation: swing cubic-bezier(0.6,0,0.4,1) 2s infinite;
+}
+
+@keyframes swing {
+    0%{transform: rotate(50deg);}
+    50%{transform: rotate(-50deg);}
+    100%{transform: rotate(50deg);}
+}
