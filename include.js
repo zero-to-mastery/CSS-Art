@@ -361,6 +361,7 @@ let cards = [
   ["Airibar", "./Art/airibar/index.html", "./Art/airibar/undraw_starry_window.png", "Alvaro Iribarren", "https://github.com/airibar"],
   ["Abstract Circles", "./Art/louis_hellman/index.html", "./Art/louis_hellman/abstract_circle_art.png", "Louis Hellman", "https://github.com/TheBigLou"],
   ["DOTS", "./Art/agadesh/index.html", "./Art/agadesh/dots.gif", "agadesh", "https://github.com/agadesh"],
+  ["Pendulum_Animation", "./Art/FernandoWelzel/index.html", "./Art/FernandoWelzel/Pendulum.gif", "FernandoWelzel", "https://github.com/FernandoWelzel"],
   ["Me When I Went From Zero to Mastery", "./Art/Henry-Boisdequin/index.html", "./Art/Henry-Boisdequin/cssPhoto.png", "Henry Boisdequin", "https://github.com/henryboisdequin"],
 ];
 
