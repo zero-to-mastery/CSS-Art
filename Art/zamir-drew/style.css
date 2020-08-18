@@ -1,0 +1,81 @@
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid red; */
+}
+
+.smiley {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#head {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  align-items: center;
+
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 100px;
+  background-color: rgb(252, 192, 64);
+  padding: 5px;
+}
+
+.both-eyes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-top: 30px;
+  /* align-items: flex-start; */
+  width: 100px;
+  height: 30%;
+  /* border: 1px solid black; */
+}
+
+#eye1 {
+  /* width: 10px;
+  height: 30px; */
+  width: 15px;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#eye2 {
+  /* width: 10px;
+  height: 30px; */
+  width: 15px;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#mouth {
+  /* width: 100%; */
+  /* justify-content: center;
+  align-items: center; */
+  /* padding: 100px; */
+  margin-top: 35px;
+  font-size: 50px;
+  font-weight: bolder;
+}
