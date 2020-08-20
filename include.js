@@ -2315,6 +2315,13 @@ let cards = [
     "Zamir Kanji",
     "https://github.com/zamirkanji",
   ],
+    [
+    "Prajakta",
+    "./Art/Prajakta/index.html",
+    "./Art/Prajakta/SS.jpeg",
+    "Prajakta Badgujar",
+    "https://github.com/Prajakta-collab",
+  ],
 ];
 
 // +--------------------------------------------------------------------------------+
