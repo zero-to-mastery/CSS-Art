@@ -2315,12 +2315,19 @@ let cards = [
     "Zamir Kanji",
     "https://github.com/zamirkanji",
   ],
-    [
+  [
     "Prajakta",
     "./Art/Prajakta/index.html",
     "./Art/Prajakta/SS.jpeg",
     "Prajakta Badgujar",
     "https://github.com/Prajakta-collab",
+  ],
+  [
+    "Ankita Mandal",
+    "./Art/AnkitaMandal/index.html",
+    "./Art/AnkitaMandal/ankita.png",
+    "Ankita Mandal",
+    "https://github.com/GoGi2712",
   ],
   [
     "Phone Book",
@@ -2330,6 +2337,7 @@ let cards = [
     "https://github.com/rouqaya-abdulhaq",
   ],
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
