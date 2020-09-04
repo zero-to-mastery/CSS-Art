@@ -2329,6 +2329,13 @@ let cards = [
     "Ankita Mandal",
     "https://github.com/GoGi2712",
   ],
+    [
+    "Hockey Stick",
+    "./Art/hockey-stick/index.html",
+    "./Art/hockey-stick/pic.png",
+    "ffmiyo",
+    "https://github.com/ffmiyo",
+  ],
 ];
 
 

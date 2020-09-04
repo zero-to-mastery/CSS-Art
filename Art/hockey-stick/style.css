@@ -1,0 +1,21 @@
+aside {
+  background: radial-gradient(200% 200% at 100% 100%, #b36d27 49%, rgba(179, 109, 39, 0) 50%) 14em 0/1em 1em, radial-gradient(200% 200% at 0% 100%, #e8af77 49%, rgba(232, 175, 119, 0) 50%) 15em 0/1em 1em, linear-gradient(90deg, #b36d27 50%, #e8af77 50%) 14em 1em/2em 25em, radial-gradient(100% 200% at 50% 0, rgba(232, 175, 119, 0) 0.95em, #e8af77 1em, #e8af77 1.95em, #b36d27 2em, #b36d27 2.95em, rgba(179, 109, 39, 0) 3em) 14em 26em/6em 3em, radial-gradient(200% 200% at 100% 100%, #e8af77 49%, rgba(232, 175, 119, 0) 50%) 18em 25em/1em 1em, radial-gradient(200% 200% at 0% 100%, #b36d27 49%, rgba(179, 109, 39, 0) 50%) 19em 25em/1em 1em;
+  background-repeat: no-repeat;
+  font-size: 10px;
+  width: 30em;
+  height: 29em;
+  transform: rotate(-20deg);
+}
+section {
+   width:400px;
+   height:400px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%, -50%);
+   overflow:hidden;
+}
+
+body {
+	background-color: #edf2fb;
+}
