@@ -1,14 +1,25 @@
 /* References */
 /* Qiita: introduction to CSS animation by soarflat https://qiita.com/soarflat/items/4a302e0cafa21477707f */
+/* MDN animation: https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
 
 .box {
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   background: #000;
-  transition: all 300ms 0s ease-in-out;
+  /* @keyframes duration | timing-function | delay | iteration-count | direction | fill-mode | play-state | name */
+  animation: rotation 2s ease-in-out 0s infinite alternate;
 }
 
-.box:hover {
-  background: #ccc;
-  width: 500px;
+@keyframes rotation {
+  0% {
+    transform: scale(0.3);
+  }
+
+  50% {
+    transform: scale(0.6) rotate(-45deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(180deg);
+  }
 }
