@@ -1,6 +1,22 @@
 /* References */
 /* Qiita: introduction to CSS animation by soarflat https://qiita.com/soarflat/items/4a302e0cafa21477707f */
 /* MDN animation: https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
+/* How to place at center with CSS flexbox by kano: https://ics.media/entry/17522/ */
+
+body {
+  margin: 0;
+}
+
+/* to place the box at the center of the page */
+.container {
+  border: 2px solid #1b0303;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .box {
   width: 100px;
