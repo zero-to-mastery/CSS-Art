@@ -3,107 +3,65 @@
 /* MDN animation: https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
 /* How to place at center with CSS flexbox by kano: https://ics.media/entry/17522/ */
 /* CSS animation で遊び倒す - Dodger Loading - by duka:  https://qiita.com/duka/items/39f3ff204cb95a9b6910*/
+:root {
+  --animation-duration: 3s;
+}
 
 body {
   margin: 0;
   padding: 0;
-  background: #000;
+  background: #ff7171;
 }
 
 .container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
+  flex-direction: column;
 }
 
-.chaser {
-  background-color: hotpink;
-  width: 50px;
-  height: 50px;
-  margin-right: 80px;
-  border-radius: 5px;
-  animation: chase 3s ease-in-out infinite;
-}
-
-.escaper {
-  background-color: dodgerblue;
-  width: 50px;
-  height: 50px;
+.box {
+  background-color: #ffaa71;
+  width: 100vw;
+  height: 20vh;
   margin-right: 40px;
   border-radius: 5px;
 }
 
-.escaper:nth-child(2) {
-  animation: escape 1.5s ease-in-out infinite alternate;
+.box:nth-child(1) {
+  animation: edge-to-edge var(--animation-duration) 0s ease-in-out infinite
+    alternate;
 }
 
-.escaper:nth-child(3) {
-  animation: escape2 1.5s ease-in-out infinite alternate;
+.box:nth-child(2) {
+  animation: edge-to-edge var(--animation-duration) 0.2s ease-in-out infinite
+    alternate;
 }
 
-.escaper:nth-child(4) {
-  animation: escape3 1.5s ease-in-out infinite alternate;
+.box:nth-child(3) {
+  animation: edge-to-edge var(--animation-duration) 0.4s ease-in-out infinite
+    alternate;
 }
 
-.escaper:nth-child(5) {
-  animation: escape4 1.5s ease-in-out infinite alternate;
+.box:nth-child(4) {
+  animation: edge-to-edge var(--animation-duration) 0.6s ease-in-out infinite
+    alternate;
 }
 
-@keyframes chase {
+.box:nth-child(5) {
+  animation: edge-to-edge var(--animation-duration) 0.8s ease-in-out infinite
+    alternate;
+}
+
+/* Keyframes */
+
+@keyframes edge-to-edge {
+  /* 0% {
+    transform: translateX(-50vw);
+  } */
   50% {
-    transform: translateX(450px);
-  }
-}
-
-@keyframes escape {
-  0%,
-  15% {
-    transform: rotate(0deg);
-  }
-
-  35%,
-  100% {
-    transform-origin: -50%;
-    transform: rotate(-180deg);
-  }
-}
-@keyframes escape2 {
-  0%,
-  30% {
-    transform: rotate(0deg);
-  }
-
-  50%,
-  100% {
-    transform-origin: -50%;
-    transform: rotate(-180deg);
-  }
-}
-
-@keyframes escape3 {
-  0%,
-  45% {
-    transform: rotate(0deg);
-  }
-
-  65%,
-  100% {
-    transform-origin: -50%;
-    transform: rotate(-180deg);
-  }
-}
-
-@keyframes escape4 {
-  0%,
-  60% {
-    transform: rotate(0deg);
-  }
-
-  80%,
-  100% {
-    transform-origin: -50%;
-    transform: rotate(-180deg);
+    transform: translateX(-100vw);
   }
 }
