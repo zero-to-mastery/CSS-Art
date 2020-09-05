@@ -2,40 +2,32 @@
 /* Qiita: introduction to CSS animation by soarflat https://qiita.com/soarflat/items/4a302e0cafa21477707f */
 /* MDN animation: https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
 /* How to place at center with CSS flexbox by kano: https://ics.media/entry/17522/ */
+/* CSS animation で遊び倒す - Dodger Loading - by duka:  https://qiita.com/duka/items/39f3ff204cb95a9b6910*/
 
 body {
   margin: 0;
+  padding: 0;
+  background: #000;
 }
 
-/* to place the box at the center of the page */
 .container {
-  /* border: 2px solid #1b0303; */
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.box {
-  width: 100%;
-  height: 100%;
-  background: #000;
-  /* @keyframes duration | timing-function | delay | iteration-count | direction | fill-mode | play-state | name */
-  animation: rotation 2s ease-in-out 0s infinite alternate;
+.chaser {
+  background-color: hotpink;
+  width: 50px;
+  height: 50px;
+  margin-right: 80px;
 }
 
-@keyframes rotation {
-  0% {
-    transform: scale(0.3);
-  }
-
-  /* 50% {
-    transform: scale(0.6) rotate(-45deg);
-  } */
-
-  100% {
-    transform: scale(1);
-  }
+.escaper {
+  background-color: dodgerblue;
+  width: 50px;
+  height: 50px;
+  margin-right: 40px;
 }
