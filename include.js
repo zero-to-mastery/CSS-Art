@@ -17,6 +17,13 @@ let cards = [
     "https://github.com/r1991108",
   ],
   [
+    "Cheese-Burger",
+    "./Art/CheeseBurger/index.html",
+    "./Art/CheeseBurger/CheeseBurger.jpg",
+    "Yohannes",
+    "https://github.com/JohnnyPro",
+  ],
+  [
     "cool-jengwa",
     "./Art/cool-jengwa/index.html",
     "./Art/cool-jengwa/melon-cuts.PNG",
