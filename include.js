@@ -2336,8 +2336,14 @@ let cards = [
     "Ankita Mandal",
     "https://github.com/GoGi2712",
   ],
+  [
+    "Horizontal Curtain",
+    "./Art/bridget462/index.html",
+    "./Art/bridget462/css-art-bridget.gif",
+    "Bridget462",
+    "https://github.com/bridget462",
+  ],
 ];
-
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
