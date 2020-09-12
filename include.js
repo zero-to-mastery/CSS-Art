@@ -17,6 +17,13 @@ let cards = [
     "https://github.com/r1991108",
   ],
   [
+    "Cheese-Burger",
+    "./Art/CheeseBurger/index.html",
+    "./Art/CheeseBurger/CheeseBurger.jpg",
+    "Yohannes",
+    "https://github.com/JohnnyPro",
+  ],
+  [
     "cool-jengwa",
     "./Art/cool-jengwa/index.html",
     "./Art/cool-jengwa/melon-cuts.PNG",
@@ -2329,8 +2336,37 @@ let cards = [
     "Ankita Mandal",
     "https://github.com/GoGi2712",
   ],
-];
+  [
+    "Phone Book",
+    "./Art/Rouqaya/index.html",
+    "./Art/Rouqaya/phoneBook.jpg",
+    "Rouqaya Abdulhaq",
+    "https://github.com/rouqaya-abdulhaq",
+],
+    [
+    "Hockey Stick",
+    "./Art/hockey-stick/index.html",
+    "./Art/hockey-stick/pic.png",
+    "ffmiyo",
+    "https://github.com/ffmiyo",
+  ],
+  [
+    "Horizontal Curtain",
+    "./Art/bridget462/index.html",
+    "./Art/bridget462/css-art-bridget.gif",
+    "Bridget462",
+    "https://github.com/bridget462",
+  ],
 
+  [
+    "Hello Cat",
+    "./Art/tomomii/index.html",
+    "./Art/tomomii/hello-cat.jpg",
+    "Tomomi",
+    "https://github.com/tomi-design",
+  ],
+
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +

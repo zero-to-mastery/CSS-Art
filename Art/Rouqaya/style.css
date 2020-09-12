@@ -1,0 +1,49 @@
+.cover{
+    grid-area: logo;
+    height: 20vh;
+    width: 8vw;
+    border-radius: 15%;
+    padding-top: 1vh;
+    box-sizing:border-box;
+    position: relative;
+    overflow: hidden;
+    margin-left: 49%;
+    margin-top: 10%;
+    background: rgb(245, 245, 96);
+}
+
+.straps{
+    background: rgb(180, 219, 245);
+    height: 2.6vh;
+    width: 2vw;
+    border-radius: 30%;
+    margin: 1.5vh -1.5vh;
+}
+
+.icon{
+    position: absolute;
+    height: 60%;
+    width: 70%;
+    left: 25%;
+    top: 45%;
+}
+
+.person-icon{
+    background: black;
+    position: inherit;
+    height:80%;
+    width: 70%;
+    border-radius:   50%/100px 100px 0 0;
+}
+
+.person-icon::before{
+    content: "";
+    background: black;
+    height: 60%;
+    width: 80%;
+    display: block;
+    position: inherit;
+    top: -65%;
+    left: 14%;
+    border-radius: 50%;
+}

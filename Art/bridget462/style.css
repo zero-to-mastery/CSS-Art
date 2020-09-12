@@ -1,0 +1,67 @@
+/* References */
+/* Qiita: introduction to CSS animation by soarflat https://qiita.com/soarflat/items/4a302e0cafa21477707f */
+/* MDN animation: https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
+/* How to place at center with CSS flexbox by kano: https://ics.media/entry/17522/ */
+/* CSS animation で遊び倒す - Dodger Loading - by duka:  https://qiita.com/duka/items/39f3ff204cb95a9b6910*/
+:root {
+  --animation-duration: 3s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ff7171;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  background-color: #ffaa71;
+  width: 100vw;
+  height: 20vh;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+.box:nth-child(1) {
+  animation: edge-to-edge var(--animation-duration) 0s ease-in-out infinite
+    alternate;
+}
+
+.box:nth-child(2) {
+  animation: edge-to-edge var(--animation-duration) 0.2s ease-in-out infinite
+    alternate;
+}
+
+.box:nth-child(3) {
+  animation: edge-to-edge var(--animation-duration) 0.4s ease-in-out infinite
+    alternate;
+}
+
+.box:nth-child(4) {
+  animation: edge-to-edge var(--animation-duration) 0.6s ease-in-out infinite
+    alternate;
+}
+
+.box:nth-child(5) {
+  animation: edge-to-edge var(--animation-duration) 0.8s ease-in-out infinite
+    alternate;
+}
+
+/* Keyframes */
+
+@keyframes edge-to-edge {
+  /* 0% {
+    transform: translateX(-50vw);
+  } */
+  50% {
+    transform: translateX(-100vw);
+  }
+}
