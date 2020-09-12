@@ -1,0 +1,24 @@
+body {
+  background: radial-gradient(
+    circle at 100%,
+    #333,
+    #333 50%,
+    #eee 75%,
+    #333 75%
+  );
+}
+
+.ufo-head {
+  background: white;
+  width: 20px;
+  height: 25px;
+  position: relative;
+  border-radius: 100px;
+}
+.ufo-body {
+  background: white;
+  width: 80px;
+  height: 30px;
+  position: relative;
+  border-radius: 50px;
+}
