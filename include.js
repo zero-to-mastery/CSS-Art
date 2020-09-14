@@ -8394,6 +8394,13 @@ let cards = [
     author: "Chris",
     githubLink: "https://github.com/dadpops",
   },
+  {
+    artName: "Ufo Object",
+    pageLink: "./Art/AndriusAlimas/index.html",
+    imageLink: "./Art/AndriusAlimas/Ufo.gif",
+    author: "Andrius Alimas",
+    githubLink: "https://github.com/AndriusAlimas",
+  },
 >>>>>>> fb34d69847252f94d7e66e261d00bf38dd985726
 ];
 
