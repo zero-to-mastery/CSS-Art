@@ -1,0 +1,150 @@
+body {
+  background: radial-gradient(
+    circle at 100%,
+    #333,
+    #333 50%,
+    #eee 75%,
+    #333 75%
+  );
+}
+.ufo {
+  position: relative;
+  top: 35%;
+  left: 10%;
+  width: 100%;
+  height: 10px;
+  animation-name: ufo_fly;
+  animation-duration: 7s;
+  animation-timing-function: ease-in-out;
+}
+
+.ufo-head {
+  background: linear-gradient(gold, silver);
+  width: 20px;
+  height: 25px;
+  position: relative;
+  top: 100%;
+  left: 27px;
+  border-radius: 100px;
+}
+.ufo-body {
+  background: linear-gradient(gold, orange, black);
+  width: 80px;
+  height: 20px;
+  position: relative;
+  border-radius: 50px;
+}
+
+.ufo-blink-box {
+  background: yellow;
+  position: relative;
+  top: 22%;
+  border-radius: 180px;
+  width: 10px;
+  height: 10px;
+  animation-name: blinking;
+  animation-duration: 7s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes blinking {
+  0% {
+    background: yellow;
+    left: 0;
+    top: 0;
+  }
+  10% {
+    background: red;
+    left: 10%;
+    top: 10%;
+  }
+  15% {
+    background: yellow;
+    left: 20%;
+    top: 50%;
+  }
+  20% {
+    background: red;
+    left: 30%;
+    top: 10%;
+  }
+  30% {
+    background: yellow;
+    left: 30%;
+    top: 50%;
+  }
+  30% {
+    background: red;
+    left: 40%;
+    top: 10%;
+  }
+  40% {
+    background: yellow;
+    left: 50%;
+    top: 50%;
+  }
+  50% {
+    background: red;
+    left: 60%;
+    top: 10%;
+  }
+  60% {
+    background: yellow;
+    left: 70%;
+    top: 50%;
+  }
+  70% {
+    background: red;
+    left: 80%;
+    top: 10%;
+  }
+  80% {
+    background: yellow;
+    left: 90%;
+    top: 50%;
+  }
+  90% {
+    background: red;
+    left: 50%;
+    top: 10%;
+  }
+  100% {
+    background: yellow;
+  }
+}
+@keyframes ufo_fly {
+  0% {
+    transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(40%, 0);
+  }
+  30% {
+    transform: translate(50%, 50px);
+    transform: rotate(25deg);
+  }
+  40% {
+    transform: translate(40%, 25%);
+    transform: rotate(-35deg);
+  }
+  50% {
+    transform: translate(20%, 80px);
+  }
+  60% {
+    transform: translate(70%, 100px);
+  }
+  70% {
+    transform: translate(40%, 40px);
+    transform: rotate(90deg);
+  }
+  80% {
+    transform: translateX(-50%);
+    transform: rotate(180deg);
+  }
+  90% {
+    transform: translateX(50%);
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
