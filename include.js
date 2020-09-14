@@ -3,6 +3,15 @@ let cards = [
   //  Follow this example format:
   //  ["Art Name", "Page URL", "Image URL", "Your Name", "Your Github Link"],
   [
+    "battery-charging",
+    "./Art/Yogesh/index.html",
+    "./Art/Yogesh/battery.jpg",
+    "Yogesh Singh Thakur",
+    "https://github.com/thakur-yogesh",
+  ],
+
+
+  [
     "spinning-squares",
     "./Art/gheezl/index.html",
     "./Art/gheezl/spinning-squares.gif",
