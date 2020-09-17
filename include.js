@@ -8410,6 +8410,14 @@ let cards = [
     author: "Andrius Alimas",
     githubLink: "https://github.com/AndriusAlimas",
   },
+  {
+    artName: "Rabbit",
+    pageLink: "./Art/Evita-M/index.html",
+    imageLink: "./Art/Evita-M/rabbit.gif",
+    author: "Evita-M",
+    githubLink: "https://github.com/Evita-M",
+  },
+
 >>>>>>> fb34d69847252f94d7e66e261d00bf38dd985726
 ];
 
@@ -8466,3 +8474,4 @@ function Shuffle(o) {
 },
 
 >>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
+
