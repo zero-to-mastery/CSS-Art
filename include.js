@@ -8410,6 +8410,13 @@ let cards = [
     author: "Andrius Alimas",
     githubLink: "https://github.com/AndriusAlimas",
   },
+  {
+    artName: "General Kenobi!",
+    pageLink: "./Art/RobHagen/index.html",
+    imageLink: "./Art/RobHagen/Example.jpeg",
+    author: "Rob Hagen",
+    githubLink: "https://github.com/robhagen",
+  },
 >>>>>>> fb34d69847252f94d7e66e261d00bf38dd985726
 ];
 
