@@ -1,0 +1,47 @@
+.element {
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	background: linear-gradient(to right, rgb(246, 246, 244), rgb(206, 186, 131));
+	animation-name: spread;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 0s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+
+@keyframes spread {
+	0% {
+		transform: scale(.3);
+		background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 250));
+		border-radius: 100%;
+		border: 0.3px solid black;
+	}
+	25% {
+		background: linear-gradient(to right, rgb(238, 191, 124), rgb(232, 213, 181));
+		border: none;
+	}
+	50% {
+		background: linear-gradient(to right, rgb(234, 156, 46), rgb(228, 199, 150));
+	}
+	75% {
+		background: linear-gradient(to right, rgb(227, 138, 13), rgb(229, 171, 72));
+	}
+	100% {
+		transform: scale(1.5);
+		background: orange;
+	}
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
