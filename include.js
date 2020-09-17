@@ -8411,7 +8411,7 @@ let cards = [
     githubLink: "https://github.com/AndriusAlimas",
   },
   {
-    artName: "Morph",
+    artName: "Morph v1.0",
     pageLink: "./Art/Morph/index.html",
     imageLink: "./Art/Morph/Morph.gif",
     author: "Imiebo Godson",
