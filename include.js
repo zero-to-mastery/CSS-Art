@@ -8417,6 +8417,13 @@ let cards = [
     author: "Rob Hagen",
     githubLink: "https://github.com/robhagen",
   },
+  {
+    artName: "Morph",
+    pageLink: "./Art/Morph/index.html",
+    imageLink: "./Art/Morph/Spread.gif",
+    author: "Imiebo Godson",
+    githubLink: "https://github.com/ImieboGodson",
+  },
 >>>>>>> fb34d69847252f94d7e66e261d00bf38dd985726
 ];
 
