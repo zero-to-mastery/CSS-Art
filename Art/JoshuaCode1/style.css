@@ -1,0 +1,66 @@
+
+#patch1 {
+  width: 30px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: rgb(38, 245, 31);
+  position: relative;
+  animation-name: stain;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;  
+}
+
+#patch2 {
+  width: 100px;
+  height: 30px;
+  border-radius: 90px;
+  background-color: rgb(23, 167, 66);
+  position: relative;
+  animation-name: stain;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;  
+}
+
+#patch3 {
+  width: 100px;
+  height: 30px;
+  border-radius: 90px;
+  background-color: rgb(23, 47, 180);
+  position: relative;
+  animation-name: stain1;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;  
+}
+
+#patch4 {
+  width: 30px;
+  height: 120px;
+  border-radius: 100px;
+  background-color: rgb(56, 119, 30);
+  position: relative;
+  animation-name: stain1;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;  
+}
+
+@keyframes stain {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:100px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+@keyframes stain1 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+  
