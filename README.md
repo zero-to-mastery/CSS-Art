@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CSS ART - General Edition
 
 [View CSS Art - General Edition Site](https://zero-to-mastery.github.io/CSS-Art/)
@@ -56,7 +55,6 @@ A cool resource to learn about the fork workflow can also be found here - [https
 Now, once you've forked this repo and got a local version up on your computer, follow these steps:
 
 1. In the Art directory (folder), create a directory named after yourself.
-<<<<<<< HEAD
 2. Within this folder you just made, create two files, an HTML file and a CSS file.
 3. Link your CSS file to your HTML file.
 4. Using only HTML and CSS (no <script> allowed!!), create a work of art! It can be as simple or as complex as you like.
@@ -82,7 +80,6 @@ Now, once you've forked this repo and got a local version up on your computer, f
 9. Make a pull request!
 
 And congratulations! You're all done. Have fun!
-=======
 2. Within this folder you just made, create two files, an HTML file, and a CSS file.
 3. Link your CSS file to your HTML file.
 4. Using only HTML and CSS (no `<script>` allowed!!), create a work of art! It can be as simple or as complex as you like, as long as it's animated in some way!
@@ -101,4 +98,3 @@ let cards = [
   },
 ]
 ```
->>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
