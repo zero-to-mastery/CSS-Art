@@ -152,6 +152,13 @@ let cards = [
     githubLink: "https://github.com/carlacentenor",
   },
   {
+    artName: "flying F",
+    pageLink: "./Art/JoshuaCode1/index.html",
+    imageLink: "./Art/JoshuaCode1/cssArt.png",
+    author: "JoshuaCode1",
+    githubLink: "https://github.com/JoshuaCode1",
+  },
+  {
     artName: "eyes",
     pageLink: "./Art/eyes/index.html",
     imageLink: "./Art/eyes/eyes.gif",
