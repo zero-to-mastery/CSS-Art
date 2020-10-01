@@ -5997,8 +5997,13 @@ let cards = [
     author: "Anish",
     githubLink: "https://github.com/apandey208",
   },
-
   {
+    pageLink:"./Art/atrify/index.html",
+    imageLink:"./Art/artify/capture.gif",
+    author:"Adhishreya",
+    githubLink:"https://github.com/Adhishreya"
+  },
+{
     pageLink: "./Art/shyam-sai/Animator1/index.html",
     imageLink: "./Art/shyam-sai/Animator1/stale.gif",
     author: "shyam-sai",
@@ -6053,7 +6058,6 @@ let cards = [
   },
 ];
 
-//>>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
@@ -6066,19 +6070,16 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      //<<<<<<< HEAD
       `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
       `<div class="flex-content">` +
       `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
       `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
-      //=======
       `<a href='${c.pageLink}'>` +
       `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
       `</a>` +
       `<div class="flex-content">` +
       `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
       `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      //>>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
       `</div>` +
       `</li>`,
   ]);
@@ -6094,7 +6095,3 @@ function Shuffle(o) {
   );
   return o;
 }
-//<<<<<<< HEAD
-//=======
-
-//>>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
