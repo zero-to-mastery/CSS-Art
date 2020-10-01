@@ -5999,6 +5999,14 @@ let cards = [
     githubLink: "https://github.com/apandey208",
   },
 
+  {
+    pageLink:"./Art/atrify/index.html",
+    imageLink:"./Art/artify/capture.gif",
+    author:"Adhishreya",
+    githubLink:"https://github.com/Adhishreya"
+  }
+  ,
+
 {
     pageLink: "./Art/shyam-sai/Animator1/index.html",
     imageLink: "./Art/shyam-sai/Animator1/stale.gif",
