@@ -1,0 +1,302 @@
+body {
+  background-color: #97b3ef;
+}
+.shaun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 20rem;
+  width: 20rem;
+}
+.head {
+  margin: 0 auto;
+  height: fit-content;
+  width: fit-content;
+}
+.face {
+  position: relative;
+  height: 7.8rem;
+  width: 7rem;
+  background: #555452;
+  border-radius: 50% 50% 45% 45%;
+  z-index: 1;
+  box-shadow: inset 2px 2px 10px rgba(61, 61, 61, 0.7);
+}
+.ear1 {
+  position: absolute;
+  top: 5%;
+  left: 18%;
+  height: 5rem;
+  width: 2rem;
+  background: #555452;
+  border-radius: 50% 90% 30% 30%;
+  transform: rotate(-100deg);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.ear2 {
+  position: absolute;
+  top: 5%;
+  right: 18%;
+  height: 5rem;
+  width: 2rem;
+  background: #555452;
+  border-radius: 90% 50% 30% 30%;
+  transform: rotate(99deg);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.eyeset {
+  display: flex;
+  flex-direction: row;
+}
+.eye1 {
+  position: relative;
+  height: 1.2rem;
+  z-index: 2;
+  width: 1.2rem;
+  background-color: white;
+  transform: translate(150%, -450%);
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.eye2 {
+  position: relative;
+  height: 1.2rem;
+  z-index: 2;
+  width: 1.2rem;
+  background-color: white;
+  transform: translate(330%, -550%);
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.eyeballset {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex-direction: row;
+  transform: translate(30%, -940%);
+}
+.eyeball1 {
+  margin-right: 1.1rem;
+  position: relative;
+  height: 0.8rem;
+  z-index: 3;
+  width: 0.8rem;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.eyeball2 {
+  position: relative;
+  height: 0.8rem;
+  z-index: 3;
+  width: 0.8rem;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.eyeballshine {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  top: 14%;
+  left: 45%;
+  flex-direction: row;
+}
+.eyeballs1 {
+  position: relative;
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 1.8rem;
+}
+.eyeballs2 {
+  position: relative;
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.ws {
+  box-shadow: 1px 1px 5px white;
+}
+.shaun:hover .ear1 {
+  animation: moveear1 1s infinite;
+}
+.shaun:hover .ear2 {
+  animation: moveear2 1s infinite;
+}
+@keyframes moveear1 {
+  50% {
+    transform: rotate(-60deg);
+    transform-origin: top left;
+  }
+}
+@keyframes moveear2 {
+  50% {
+    transform: rotate(60deg);
+    transform-origin: top right;
+  }
+}
+.body {
+  z-index: 0;
+  margin: 0 auto;
+  position: relative;
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  background-color: #f6ebdc;
+  transform: translate(0, -40%);
+}
+.body0 {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 23%;
+  left: 25%;
+  border-radius: 50%;
+}
+.body1 {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 30%;
+  left: 11%;
+  border-radius: 50%;
+}
+.body2 {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 45%;
+  left: 5%;
+  border-radius: 50%;
+}
+.body3 {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 63%;
+  left: 8%;
+  border-radius: 50%;
+}
+.body4 {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 75%;
+  left: 18%;
+  border-radius: 50%;
+}
+.body5 {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 81%;
+  left: 30%;
+  border-radius: 50%;
+  z-index: 5;
+}
+.body0- {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 23%;
+  left: 50%;
+  border-radius: 50%;
+}
+.body1- {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 30%;
+  left: 65%;
+  border-radius: 50%;
+}
+.body2- {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 45%;
+  left: 72%;
+  border-radius: 50%;
+}
+.body3- {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 63%;
+  left: 68%;
+  border-radius: 50%;
+}
+.body4- {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 75%;
+  left: 58%;
+  border-radius: 50%;
+}
+.body5- {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ebdc;
+  top: 81%;
+  left: 45%;
+  border-radius: 50%;
+  z-index: 5;
+}
+.leg1 {
+  position: absolute;
+  height: 5rem;
+  width: 2rem;
+  background-color: #555452;
+  top: 95%;
+  left: 35%;
+  border-radius: 0 0 40% 40%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.leg2 {
+  position: absolute;
+  height: 5rem;
+  width: 2rem;
+  background-color: #555452;
+  top: 95%;
+  left: 55%;
+  border-radius: 0 0 40% 40%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.shaun:hover .leg1 {
+  animation: moveleg1 1s infinite;
+}
+.shaun:hover .leg2 {
+  animation: moveleg2 1s infinite;
+}
+@keyframes moveleg1 {
+  50% {
+    transform: rotate(70deg);
+    transform-origin: top left;
+  }
+}
+@keyframes moveleg2 {
+  50% {
+    transform: rotate(-70deg);
+    transform-origin: top right;
+  }
+}

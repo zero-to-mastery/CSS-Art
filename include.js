@@ -5851,14 +5851,13 @@ let cards = [
     githubLink: "https://github.com/PleaBanshee",
   },
 
-
   {
     artName: "Rotating Circle",
     pageLink: "./Art/Rahulkumar/circle.html",
     author: "Rahul",
     githubLink: "https://github.com/AlloneWolff",
   },
-]
+
   {
     artname: "ImAnimation",
     pageLink: "./Art/ImAnimation/index.html",
@@ -5866,36 +5865,36 @@ let cards = [
     author: "Imran",
     githubLink: "https://github.com/imranmidday",
   },
-   {
+  {
     artName: "Global usage share of web browsers in 2010",
     pageLink: "./Art/Vasile-Hij/index.html",
     imageLink: "./Art/Vasile-Hij/screenshots/screenshot1.png",
     author: "Sean Oh, ohsiwon@gmail.com, http://www.ohsean.net",
-    githubLink:""
+    githubLink: "",
   },
   {
     artName: "Simple Animated Profile Card",
     pageLink: "./Art/profile-card/index.html",
     imageLink: "./Art/seycileli/screenshots/huntx.png",
     author: "Seyhan Cileli, https://seycileli.com",
-    githubLink: "https://github.com/seycileli"
+    githubLink: "https://github.com/seycileli",
   },
-   {
+  {
     artName: "Vaporwave Vibing",
     pageLink: "./Art/tylermoroz/index.html",
     imageLink: "./Art/tylermoroz/vaporwavevibing.gif",
     author: "Tyler",
     githubLink: "https://github.com/tylermoroz",
   },
-   {
+  {
     artName: "Animatron",
     pageLink: "./Art/animatron/index.html",
     imageLink: "./Art/animatron/trance.gif",
     author: "sk",
-    githubLink: "https://github.com/soheilk1"
+    githubLink: "https://github.com/soheilk1",
   },
   {
-    artName:"Btrix",
+    artName: "Btrix",
     pageLink: "./Art/Btrix/index.html",
     imageLink: "./Art/Btrix/Btrix.gif",
     author: "Bea",
@@ -5906,21 +5905,21 @@ let cards = [
     pageLink: "./Art/Saumya/someStuff/index.html",
     imageLink: "./Art/Saumya/someStuff/gif.gif",
     author: "Saumya",
-    githubLink: "https://github.com/qw04"
+    githubLink: "https://github.com/qw04",
   },
-   {
+  {
     artName: "Reveal Name",
     pageLink: "./Art/RevealName/index.html",
     imageLink: "./Art/RevealName/Name.gif",
     author: "Dani",
-    githubLink: "https://github.com/dani1012"
+    githubLink: "https://github.com/dani1012",
   },
   {
     artName: "Animboul",
     pageLink: "./Art/Animboul/index.html",
     imageLink: "./Art/Animboul/dat.gif",
     author: "Thierno",
-    githubLink: "https://github.com/Thiernoad"
+    githubLink: "https://github.com/Thiernoad",
   },
   {
     artName: "justcode",
@@ -5929,28 +5928,28 @@ let cards = [
     author: "apopey",
     githubLink: "https://github.com/apopey",
   },
-   {
+  {
     artName: "AnimatioNicholas",
     pageLink: "./Art/AnimatioNicholas/index.html",
     imageLink: "./Art/Joy/AnimatioNicholas/screenshot",
     author: "Nicholas W.",
-    githubLink: "https://github.com/nicholaslywong"
+    githubLink: "https://github.com/nicholaslywong",
   },
   {
     artName: "blink",
     pageLink: "./Art/giorgossideris/index.html",
     imageLink: "./Art/giorgossideris/blink.png",
     author: "giorgossideris",
-    githubLink: "https://github.com/giorgossideris"
+    githubLink: "https://github.com/giorgossideris",
   },
   {
     artName: "shuriken",
     pageLink: "./Art/furuikeya/index.html",
     imageLink: "./Art/furuikeya/furi.gif",
     author: "furuikeya",
-    githubLink: "https://github.com/furuikeya"
+    githubLink: "https://github.com/furuikeya",
   },
-    {
+  {
     artName: "M-LNedelea",
     pageLink: "./Art/M-LNedelea/index.html",
     imageLink: "./Art/M-LNedelea/animation-ss.png",
@@ -5958,7 +5957,7 @@ let cards = [
     githubLink: "https://github.com/M-LNedelea",
   },
   {
-  artName: "Glowing",
+    artName: "Glowing",
     pageLink: "./Art/Glowing-Suichi/index.html",
     imageLink: "./Art/Glowing-Suichi/Animated GIF-downsized.gif",
     author: "Suichi",
@@ -5971,13 +5970,13 @@ let cards = [
     author: "Likith Chandan ",
     githubLink: "https://github.com/LikithChandan",
   },
-    {
+  {
     artName: "CSS transformation",
     pageLink: "./Art/benhsieh-dev/index.html",
     imageLink: "./Art/benhsieh-dev/triangle/CSS animation.png",
     author: "Ben Hsieh",
     githubLink: "https://github.com/benhsieh-dev",
-    },
+  },
   {
     artName: "NationFlicker",
     pageLink: "./Art/NationFlicker/index.html",
@@ -5999,24 +5998,24 @@ let cards = [
     githubLink: "https://github.com/apandey208",
   },
 
-{
+  {
     pageLink: "./Art/shyam-sai/Animator1/index.html",
     imageLink: "./Art/shyam-sai/Animator1/stale.gif",
     author: "shyam-sai",
     githubLink: "https://github.com/shyam-sai",
   },
   {
-     pageLink: "./Art/tfernandez2017/index.html",
+    pageLink: "./Art/tfernandez2017/index.html",
     imageLink: "./Art/tfernandez2017/tfernandez2017.gif",
     author: "tfernandez2017",
     githubLink: "https://github.com/tfernandez2017",
   },
-{
+  {
     pageLink: "./Art/diarmOd/index.html",
     imageLink: "./Art/diarmOd/index.gif",
     author: "diarmOd",
     githubLink: "https://github.com/diarmOd",
-},
+  },
   {
     artName: "FlipSwap",
     pageLink: "./Art/Dadpops/index.html",
@@ -6045,10 +6044,16 @@ let cards = [
     author: "Imiebo Godson",
     githubLink: "https://github.com/ImieboGodson",
   },
+  {
+    artName: "Shuan",
+    pageLink: "./Art/Raksha/index.html",
+    imageLink: "./Art/Raksha/shaun.png",
+    author: "Raksha Gupta",
+    githubLink: "https://github.com/Raksha25",
+  },
 ];
 
-
->>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
+//>>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
 // +                  YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS                 +
@@ -6061,19 +6066,19 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-<<<<<<< HEAD
+      //<<<<<<< HEAD
       `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
       `<div class="flex-content">` +
       `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
       `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
-=======
+      //=======
       `<a href='${c.pageLink}'>` +
       `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
       `</a>` +
       `<div class="flex-content">` +
       `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
       `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
->>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
+      //>>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
       `</div>` +
       `</li>`,
   ]);
@@ -6089,14 +6094,7 @@ function Shuffle(o) {
   );
   return o;
 }
-<<<<<<< HEAD
-=======
-{
-  artName: "Falling dots",
-  pageLink: "./Art/Trustin/index.html",
-  videoLink: "./Art/Tristom/cell.mp4",
-  author: "Trustin",
-  githubLink: "https://github.com/trustinsimpson",
-},
+//<<<<<<< HEAD
+//=======
 
->>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
+//>>>>>>> 6574f45e7f7540865e7977eada4b13871e0f7165
