@@ -6084,6 +6084,15 @@ let cards = [
     author: "Vivek2509",
     githubLink: "https://github.com/Vivek2509",
   },
+  {
+    artName: "Sanket-Sharma-ArtWork",
+    pageLink: "./Art/Sanket-Sharma-ArtWork/index.html",
+    imageLink: "./Art/Sanket-Sharma-ArtWork/Sank.png",
+    author: "Sanket",
+    githubLink: "https://github.com/Sanket456",
+  },
+
+
 ];
 
 // +--------------------------------------------------------------------------------+
