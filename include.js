@@ -6005,12 +6005,12 @@ let cards = [
     githubLink: "https://github.com/apandey208",
   },
   {
-    pageLink:"./Art/atrify/index.html",
-    imageLink:"./Art/artify/capture.gif",
-    author:"Adhishreya",
-    githubLink:"https://github.com/Adhishreya"
+    pageLink: "./Art/atrify/index.html",
+    imageLink: "./Art/artify/capture.gif",
+    author: "Adhishreya",
+    githubLink: "https://github.com/Adhishreya",
   },
-{
+  {
     pageLink: "./Art/shyam-sai/Animator1/index.html",
     imageLink: "./Art/shyam-sai/Animator1/stale.gif",
     author: "shyam-sai",
@@ -6062,6 +6062,13 @@ let cards = [
     imageLink: "./Art/Raksha/shaun.png",
     author: "Raksha Gupta",
     githubLink: "https://github.com/Raksha25",
+  },
+  {
+    artName: "Chai 💗",
+    pageLink: "./Art/Chai_lover/vivek2509.html",
+    imageLink: "./Art/Chai_lover/Chai_lover.png",
+    author: "Vivek2509",
+    githubLink: "https://github.com/Vivek2509",
   },
 ];
 

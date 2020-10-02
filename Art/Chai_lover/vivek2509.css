@@ -46,35 +46,35 @@ a:active {
 }
 
 .heart {
-    background-color: red;
-    display: inline-block;
-    height: 30px;
-    margin: 0 10px;
-    position: relative;
-    top: 70px;
-    transform: rotate(-45deg);
-    width: 30px;
-  }
-  
-  .heart:before,
-  .heart:after {
-    content: "";
-    background-color: red;
-    border-radius: 50%;
-    height: 30px;
-    position: absolute;
-    width: 30px;
-  }
-  
-  .heart:before {
-    top: -15px;
-    left: 0;
-  }
-  
-  .heart:after {
-    left: 15px;
-    top: 0;
-  }
+  background-color: red;
+  display: inline-block;
+  height: 30px;
+  margin: 0 10px;
+  position: relative;
+  top: 70px;
+  transform: rotate(-45deg);
+  width: 30px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.heart:before {
+  top: -15px;
+  left: 0;
+}
+
+.heart:after {
+  left: 15px;
+  top: 0;
+}
 
 ul {
   margin-left: -180px;
@@ -89,7 +89,7 @@ ul li {
   list-style: none;
   width: 2px;
   height: 60px;
-  background:  #b1832f;
+  background: #b1832f;
   float: left;
   margin: 15px;
   animation: animate 2s infinite linear;
