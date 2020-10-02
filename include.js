@@ -1,6 +1,12 @@
 let cards = [
   //  Add your card in this section
   {
+    artName:"Planet Loader",
+    pageLink: "./Art/sherine/index.html",
+    author: "Sherine",
+    githubLink: "https://github.com/sherinechally",
+  },
+  {
     artName: "sun-moon",
     pageLink: "./Art/shinelikeasmile/h.html",
     imageLink: "./Art/shinelikeasmile/g.gif",
