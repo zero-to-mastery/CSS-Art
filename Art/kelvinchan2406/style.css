@@ -1,0 +1,73 @@
+body {
+  background-color: #000000; 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.heart {
+  background-color: #6B0505;
+  display: inline-block;
+  height: 300px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  width: 300px;
+}
+
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: #6B0505;
+  border-radius: 50%;
+  height: 300px;
+  position: absolute;
+  width: 300px;
+}
+
+.heart:before {
+  top: -150px;
+  left: 0;
+}
+
+.heart:after {
+  left: 150px;
+  top: 0;
+}
+
+div {
+  animation: heart 1.5s infinite;
+}
+
+@keyframes heart
+{
+  0%
+  {
+    
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
