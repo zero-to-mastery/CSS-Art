@@ -6064,6 +6064,13 @@ let cards = [
     githubLink: "https://github.com/ImieboGodson",
   },
   {
+    artName: "Colorful Circles",
+    pageLink: "./Art/tuneer/index.html",
+    imageLink: "./Art/tuneer/ss.png",
+    author: "tuneer",
+    githubLink: "https://github.com/tun-eer",
+  },
+  {
     artName: "Shuan",
     pageLink: "./Art/Raksha/index.html",
     imageLink: "./Art/Raksha/shaun.png",
