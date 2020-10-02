@@ -6045,6 +6045,13 @@ let cards = [
     author: "Imiebo Godson",
     githubLink: "https://github.com/ImieboGodson",
   },
+  {
+    artName: "Waving-Penguin",
+    pageLink: "./Art/waving-penguin/index.html",
+    imageLink: "./Art/waving-penguin/image.png",
+    author: "Sabyasachi Das",
+    githubLink: "https://github.com/sabya2301"
+  }
 ];
 
 
