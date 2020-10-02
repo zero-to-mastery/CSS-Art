@@ -6070,6 +6070,13 @@ let cards = [
     author: "Raksha Gupta",
     githubLink: "https://github.com/Raksha25",
   },
+  {
+    artName: "Chai_lover",
+    pageLink: "./Art/Chai_lover/chai_lover.html",
+    imageLink: "./Art/Chai_lover/Chai_lover.png",
+    author: "Vivek2509",
+    githubLink: "https://github.com/Vivek2509",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
