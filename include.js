@@ -6084,6 +6084,13 @@ let cards = [
     author: "Vivek2509",
     githubLink: "https://github.com/Vivek2509",
   },
+  {
+    artName: "gravity_animation",
+    pageLink: "./Art/taha_shahid/index.html",
+    imageLink: "./Art/taha_shahid/previw.png",
+    author: "TahaShahid",
+    githubLink: "https://github.com/zeaus",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
