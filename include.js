@@ -8,6 +8,13 @@ let cards = [
     githubLink: "https://github.com/shinelikeasmile",
   },
   {
+    artName: "Beat Of The Heart",
+    pageLink: "./Art/Mhkasif-Beats/index.html",
+    imageLink: "./Art/Mhkasif-Beats/beatsoftheheart.gif",
+    author: "MHKASIF",
+    githubLink: "https://github.com/mhkasif",
+  },
+  {
     artName: "beating heart",
     pageLink: "./Art/kelvinchan2406/index.html",
     imageLink: "./Art/kelvinchan2406/heart.png",
