@@ -14,7 +14,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: opacity 40s steps(3, end);
+    animation: opacity 40s steps(3, end) infinite;
     opacity: 0;
 }
 
