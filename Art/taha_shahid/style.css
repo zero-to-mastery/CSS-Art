@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0%;
     background-color: #f9f9f9;
@@ -28,7 +29,6 @@ body {
 .gravity-text h1:nth-child(4) {
     animation-delay: 30s;
 }
-
 
 .robo-sprite-animation {
     width: 175px;
@@ -103,6 +103,4 @@ body {
     25% {
         opacity: 0;
     }
-
-
 }
