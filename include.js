@@ -6111,6 +6111,13 @@ let cards = [
     author: "TahaShahid",
     githubLink: "https://github.com/zeaus",
   },
+  {
+    artName: "Face",
+    pageLink: "./Art/rashidmakki/index.html",
+    imageLink: "./Art/rashidmakki/face.png",
+    author: "Rashid Makki",
+    githubLink: "https://github.com/rashidmakki",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
