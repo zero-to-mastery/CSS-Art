@@ -7,6 +7,13 @@ let cards = [
     githubLink: "https://github.com/sherinechally",
   },
   {
+    artName:"Doraemon",
+    pageLink: "./Art/DevarshiDoshi/index.html",
+    imageLink: "./Art/DevarshiDoshi/Doraemon.png",
+    author: "Devarshi Doshi",
+    githubLink: "https://github.com/devarshidoshi",
+  },
+  {
     artName: "sun-moon",
     pageLink: "./Art/shinelikeasmile/h.html",
     imageLink: "./Art/shinelikeasmile/g.gif",
@@ -6132,11 +6139,6 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
-      `<div class="flex-content">` +
-      `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
-      `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
-      `<a href='${c.pageLink}'>` +
       `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
       `</a>` +
       `<div class="flex-content">` +
