@@ -14,6 +14,13 @@ let cards = [
     githubLink: "https://github.com/devarshidoshi",
   },
   {
+    artName:"Iron Man VS Captain America",
+    pageLink: "./Art/DevarshiDoshi1/index.html",
+    imageLink: "./Art/DevarshiDoshi1/CSS-ART.png",
+    author: "Devarshi Doshi",
+    githubLink: "https://github.com/devarshidoshi",
+  },
+  {
     artName: "sun-moon",
     pageLink: "./Art/shinelikeasmile/h.html",
     imageLink: "./Art/shinelikeasmile/g.gif",
