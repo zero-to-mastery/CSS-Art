@@ -1,6 +1,12 @@
 let cards = [
   //  Add your card in this section
   {
+    artName:"Planet Loader",
+    pageLink: "./Art/sherine/index.html",
+    author: "Sherine",
+    githubLink: "https://github.com/sherinechally",
+  },
+  {
     artName: "sun-moon",
     pageLink: "./Art/shinelikeasmile/h.html",
     imageLink: "./Art/shinelikeasmile/g.gif",
@@ -6064,6 +6070,13 @@ let cards = [
     githubLink: "https://github.com/ImieboGodson",
   },
   {
+    artName: "Waving-Penguin",
+    pageLink: "./Art/waving-penguin/index.html",
+    imageLink: "./Art/waving-penguin/image.png",
+    author: "Sabyasachi Das",
+    githubLink: "https://github.com/sabya2301"
+  },
+  {
     artName: "Colorful Circles",
     pageLink: "./Art/tuneer/index.html",
     imageLink: "./Art/tuneer/ss.png",
@@ -6085,9 +6098,30 @@ let cards = [
     githubLink: "https://github.com/Vivek2509",
   },
   {
+    artName: "Sanket-Sharma-ArtWork",
+    pageLink: "./Art/Sanket-Sharma-ArtWork/index.html",
+    imageLink: "./Art/Sanket-Sharma-ArtWork/Sank.png",
+    author: "Sanket",
+    githubLink: "https://github.com/Sanket456",
+  },
+  {
+    artName: "gravity_animation",
+    pageLink: "./Art/taha_shahid/index.html",
+    imageLink: "./Art/taha_shahid/previw.png",
+    author: "TahaShahid",
+    githubLink: "https://github.com/zeaus",
+  },
+  {
+    artName: "Face",
+    pageLink: "./Art/rashidmakki/index.html",
+    imageLink: "./Art/rashidmakki/face.png",
+    author: "Rashid Makki",
+    githubLink: "https://github.com/rashidmakki",
+  },
+  {
     artName: "Kenny_McCormick",
     pageLink: "./Art/adiso-1/index.html",
-    imageLink: "./Art/adiso-1/Kenny_McCormick",
+    imageLink: "./Art/adiso-1/Kenny_McCormick.png",
     author: "adiso-1",
     githubLink: "https://github.com/Adiso-1",
   },
