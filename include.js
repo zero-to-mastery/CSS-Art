@@ -6117,6 +6117,13 @@ let cards = [
     imageLink: "./Art/rashidmakki/face.png",
     author: "Rashid Makki",
     githubLink: "https://github.com/rashidmakki",
+  },
+  {
+    artName: "Wave",
+    pageLink: "./Art/GabrielTeixeiraC/index.html",
+    imageLink: "./Art/GabrielTeixeiraC/wave.png",
+    author: "Gabriel Teixeira",
+    githubLink: "https://github.com/GabrielTeixeiraC",
   }
 ];
 
