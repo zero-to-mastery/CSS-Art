@@ -6032,12 +6032,12 @@ let cards = [
     githubLink: "https://github.com/apandey208",
   },
   {
-    pageLink:"./Art/atrify/index.html",
-    imageLink:"./Art/artify/capture.gif",
-    author:"Adhishreya",
-    githubLink:"https://github.com/Adhishreya"
+    pageLink: "./Art/atrify/index.html",
+    imageLink: "./Art/artify/capture.gif",
+    author: "Adhishreya",
+    githubLink: "https://github.com/Adhishreya",
   },
-{
+  {
     pageLink: "./Art/shyam-sai/Animator1/index.html",
     imageLink: "./Art/shyam-sai/Animator1/stale.gif",
     author: "shyam-sai",
@@ -6131,6 +6131,13 @@ let cards = [
     imageLink: "./Art/rashidmakki/face.png",
     author: "Rashid Makki",
     githubLink: "https://github.com/rashidmakki",
+  },
+  {
+    artName: "Kenny_McCormick",
+    pageLink: "./Art/adiso-1/index.html",
+    imageLink: "./Art/adiso-1/Kenny_McCormick.png",
+    author: "adiso-1",
+    githubLink: "https://github.com/Adiso-1",
   },
   {
     artName: "Wave",
