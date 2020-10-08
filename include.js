@@ -7,6 +7,20 @@ let cards = [
     githubLink: "https://github.com/sherinechally",
   },
   {
+    artName:"Doraemon",
+    pageLink: "./Art/DevarshiDoshi/index.html",
+    imageLink: "./Art/DevarshiDoshi/Doraemon.png",
+    author: "Devarshi Doshi",
+    githubLink: "https://github.com/devarshidoshi",
+  },
+  {
+    artName:"Iron Man VS Captain America",
+    pageLink: "./Art/DevarshiDoshi1/index.html",
+    imageLink: "./Art/DevarshiDoshi1/CSS-ART.png",
+    author: "Devarshi Doshi",
+    githubLink: "https://github.com/devarshidoshi",
+  },
+  {
     artName: "sun-moon",
     pageLink: "./Art/shinelikeasmile/h.html",
     imageLink: "./Art/shinelikeasmile/g.gif",
@@ -6125,6 +6139,20 @@ let cards = [
     author: "adiso-1",
     githubLink: "https://github.com/Adiso-1",
   },
+  {
+    artName: "Wave",
+    pageLink: "./Art/GabrielTeixeiraC/index.html",
+    imageLink: "./Art/GabrielTeixeiraC/wave.png",
+    author: "Gabriel Teixeira",
+    githubLink: "https://github.com/GabrielTeixeiraC",
+  },
+  {
+    artName: "Personal Card",
+    pageLink: "./Art/PersonalCard/index.html",
+    imageLink: "./Art/PersonalCard/personalCard.png",
+    author: "Akaash Trivedi",
+    githubLink: "https://github.com/akaash11",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -6139,11 +6167,6 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<img class="art-image" src='${c[2]}' alt='${c[0]}' />` +
-      `<div class="flex-content">` +
-      `<a href='${c[1]}'><h3 class="art-title">${c[0]}</h3></a>` +
-      `<p class='author'><a href="${c[4]}" target="_blank"><i class="fab fa-github"></i> ${c[3]}</a> </p>` +
-      `<a href='${c.pageLink}'>` +
       `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
       `</a>` +
       `<div class="flex-content">` +
