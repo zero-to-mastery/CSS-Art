@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(338deg, rgba(9,8,27,1) 0%, rgba(59,69,71,1) 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .box {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 8%;
+  /*   border: 1px solid black; */
+  }
+  
+  .palm {
+    position: absolute;
+    width: 65%;
+    height: 60%;
+    background: #E0AC69;
+    top: 20%;
+    left: 17%;
+    border-bottom-right-radius: 35%;
+    border-bottom-left-radius: 35%;
+  }
+  
+  .thumb {
+    position: absolute;
+    background: #E0AC69;
+    width: 60px;
+    height: 150px;
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    top: 18%;
+    left: -20%;
+    transform: rotate(-50deg);
+    z-index: 2;
+  }
+  
+  .index-finger {
+    position: absolute;
+    width: 25%;
+    height: 150px;
+    background: #E0AC69;
+    border-bottom: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    top: -60%;
+  }
+  
+  .mid-finger{
+    position: absolute;
+    width: 25%;
+    height: 120px;
+    background: #E0AC69;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    left: 25%;
+    z-index: 3;
+  }
+  
+  .ring-finger {
+    position: absolute;
+    width: 25%;
+    height: 120px;
+    background: #E0AC69;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    left: 50%;
+    z-index: 2;
+  }
+  
+  .pinky {
+    position: absolute;
+    width: 23%;
+    height: 150px;
+    background: #E0AC69;
+    border-bottom: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    top: -47%;
+    right: 0;
+  }
+  
+  
