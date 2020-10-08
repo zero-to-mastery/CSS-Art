@@ -1,0 +1,109 @@
+body{
+    background-color: khaki;
+     margin: 0; /*always body element sets with padding, margin is 0 becoz every different element will be change accordingly by you. */
+    padding: 0;
+    font-family: Verdana,Tahoma, sans-serif;
+    /* background: url('img/fitgirl.jpg')no-repeat top center/cover; */
+}header img{
+    border-radius: 100px;
+}
+.left{
+     position: absolute; /*parent(header) ke according position move kar skte hai.  */
+    top:0px;
+    left:34px;
+display: inline-block; /*block element(div) ko inline me hange karte hai*/
+}
+.left img{
+    width: 130px;
+}.left div{
+    text-align: center;
+    line-height:0px;
+    font-size: 18px;
+}
+.mid{
+    /*kisi bhi element ko center krne ke liy 3 property(display:block, width, margin:auto) use hona chahiy */
+    display: block;
+    width:54%;
+    margin: 23px auto;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    background-color: grey;
+}
+.right{
+    display: inline-block;
+ position: absolute;
+ right:34px;
+ top: 25px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 12px;
+    cursor: pointer;
+    border:2px solid black;
+    border-radius: 25px;
+}
+.btn:hover{
+    background-color: grey ;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 21px;
+    list-style: none;
+   
+}.navbar li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+text-decoration:underline;
+color:black;
+}
+.box{
+    
+    /* border: 2px solid black; */
+    margin-top: 90px;
+    /* height: 1200px; */
+}.box img{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    width: 400px;
+    height: 500px;
+    border-radius: 600px;
+}
+.container{
+    position: absolute;
+    top: 200px;
+right: 70px;
+    border: 2px solid black;
+    border-radius: 12px;
+    /* margin: 100px 550px; */
+    padding: 50px 40px;
+    /* width: 40%; */
+    display: block;
+    width:40%;
+    margin: 23px auto;
+    
+}
+.form-group input{
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+    display: block;
+    width: 344px;
+    padding: 5px;
+    margin:14px auto;
+}.container h2{
+    text-align: center;
+}.container button{
+    display:block;
+    width: 175px;
+    margin: 5px auto;
+}
