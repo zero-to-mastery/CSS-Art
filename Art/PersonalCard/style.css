@@ -1,0 +1,148 @@
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/y-so-serious-white.png");
+    background-position: center center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #303841;
+}
+.personal-card {
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+}
+.card-inner {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    text-align: center;
+    align-content: center;
+    transition: transform 1.5s;
+    border: 1px solid black;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.75);;	
+    transform-style: preserve-3d;
+    font-size: 15px;
+}
+  
+.personal-card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+  
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+  
+div.front {
+    z-index: 15px;
+    background-color: white ;
+    color:  #be3144;
+}
+
+.top{
+    height: 50%;			
+    background: #005D8C;   							  		
+}
+
+.logo{
+    display: inline-block;			
+    background: #be3144;
+    color: #fff;
+    z-index: 11;
+    padding: .16em;
+    border: 8px solid #fff;
+    position: relative;
+    pointer-events: none;
+    margin-top: .4em;
+    font-size: 4em;
+}
+
+.fat{
+    font-weight: 800;
+}
+.skinny{
+    font-weight: 100;
+}
+
+.nametroduction{
+    margin-top: 2.4em;
+    z-index: 8;
+}
+.name{			
+    color: #005D8C;
+    font-weight: 400;
+    font-size: 3.2em;
+    text-align: center;
+    position: relative;
+    margin-bottom: .35em;
+}
+.name:after{
+    content: '';
+    position: absolute;
+    top: 1.3em;
+    width: 20%;
+    left: 40%;
+    right: 40%;
+    height: 1px;
+    background: #005D8C;
+}
+.introduction{
+    text-align: center;
+    color: #005D8C;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic; 
+}
+
+div.back {
+    background-color: #005D8C;
+    color: white;
+    box-sizing: border-box;
+    transform: rotateY(180deg);
+  }
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+div.container-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+  
+div.container-lg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 60%;
+    margin-top: 2rem;
+}
+ul.social {
+    font-size: 1.15rem;
+    text-align: left;
+}
+li {
+    margin-top: 1rem;
+}
+li:first-child {
+    margin-top: 2rem;
+}
