@@ -1,0 +1,150 @@
+
+
+body {
+    position: relative;
+    background: rgb(0, 0, 0);
+    animation: color 2s infinite alternate;
+}
+
+#dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#dots p{
+    display: inline-block;
+    font-size: 100px;
+}
+
+.dot {
+    animation: wave 2s infinite alternate;
+    animation-delay: 0ms;
+
+}
+
+.dot2 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 50ms;
+    
+}
+
+
+.dot3 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 100ms;
+}
+
+
+.dot4 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 150ms;
+}
+
+
+.dot5 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 200ms;
+}
+
+
+.dot6 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 250ms;
+
+}
+
+
+.dot7 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 300ms;
+
+
+}
+
+
+.dot8 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 350ms;
+
+}
+
+
+.dot9 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 400ms;
+
+}
+
+
+.dot10 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 450ms;
+
+}
+
+
+.dot11 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 500ms;
+
+}
+
+
+.dot12 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 550ms;
+
+}
+
+
+.dot13 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 600ms;
+
+}
+
+
+.dot14 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 650ms;
+
+}
+
+
+.dot15 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 700ms;
+
+}
+
+.dot16 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 700ms;
+
+}
+.dot17 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 750ms;
+
+}
+.dot18 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 800ms;
+
+}
+.dot19 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 850ms;
+
+}
+.dot20 {
+    animation: wave 2s infinite alternate;
+    animation-delay: 900ms;
+}
+
+@keyframes wave {
+    from {transform:translateY(450px);color: rgb(32, 32, 124);}
+    to {transform: translateY(-100px);color: rgb(62, 162, 90);}
+}
