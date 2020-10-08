@@ -1,20 +1,20 @@
 let cards = [
   //  Add your card in this section
   {
-    artName:"Planet Loader",
+    artName: "Planet Loader",
     pageLink: "./Art/sherine/index.html",
     author: "Sherine",
     githubLink: "https://github.com/sherinechally",
   },
   {
-    artName:"Doraemon",
+    artName: "Doraemon",
     pageLink: "./Art/DevarshiDoshi/index.html",
     imageLink: "./Art/DevarshiDoshi/Doraemon.png",
     author: "Devarshi Doshi",
     githubLink: "https://github.com/devarshidoshi",
   },
   {
-    artName:"Iron Man VS Captain America",
+    artName: "Iron Man VS Captain America",
     pageLink: "./Art/DevarshiDoshi1/index.html",
     imageLink: "./Art/DevarshiDoshi1/CSS-ART.png",
     author: "Devarshi Doshi",
@@ -6152,6 +6152,13 @@ let cards = [
     imageLink: "./Art/PersonalCard/personalCard.png",
     author: "Akaash Trivedi",
     githubLink: "https://github.com/akaash11",
+  },
+  {
+    artName: "Metal Hand",
+    pageLink: "./Art/MetalHand/index.html",
+    imageLink: "./Art/MetalHand/metal.png",
+    author: "Adiyat",
+    githubLink: "https://github.com/adiyatzzz",
   }
 ];
 
@@ -6167,13 +6174,13 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`,
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`,
   ]);
 });
 
