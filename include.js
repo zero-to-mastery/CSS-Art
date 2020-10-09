@@ -1,7 +1,7 @@
 let cards = [
   //  Add your card in this section
   {
-    artName:"Gym startup",
+    artName:"Pikachu",
     pageLink: "./Art/shahina/index.html",
     author: "Shahina",
     githubLink: "https://github.com/ShahinaShanu",
