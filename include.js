@@ -1,5 +1,11 @@
 let cards = [
   //  Add your card in this section
+   {
+    artName:"Pikachu",
+    pageLink: "./Art/shahina/index.html",
+    author: "Shahina",
+    githubLink: "https://github.com/ShahinaShanu",
+  },
   {
     artName:"Planet Loader",
     pageLink: "./Art/sherine/index.html",
