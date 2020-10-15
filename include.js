@@ -1,5 +1,11 @@
 let cards = [
-  //  Add your card in this section
+  {
+    artName:"Duckanimation",
+    pageLink: "./Art/Duck-animation/Hi.html",
+    author: "O-zbair",
+    githubLink: "https://github.com/O-zbair",
+  },
+  
   {
     artName:"Planet Loader",
     pageLink: "./Art/sherine/index.html",
