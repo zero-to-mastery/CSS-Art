@@ -1,5 +1,10 @@
 let cards = [
-  //  Add your card in this section
+{
+    artName:"Pretty Duck",
+    pageLink: "./Art/1.ani/index.html",
+    author: "O-zbair",
+    githubLink: "https://github.com/O-zbair",
+  },
   {
     artName:"Planet Loader",
     pageLink: "./Art/sherine/index.html",
