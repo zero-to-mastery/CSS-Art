@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background:rgb(31, 31, 31);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position:relative;
+}
+.container .card{
+    position:relative;
+    width:340px;
+    height:450px;
+    background:linear-gradient(-35deg,#000,#090225);
+    /* overflow: hidden; */
+   
+
+}
+.container .card:before{
+    content:'';
+    position: absolute;
+    top:-5px;
+    bottom:-5px;
+    left:-5px;
+    right:-5px;
+    background:linear-gradient(-15deg,#5cb6f1,#0db381);
+    z-index: -1;
+    transform: skew(2deg,2deg);
+    transition:.2s ease-in-out;
+    /* box-shadow: #0db381 0 0 10px; */
+
+}
+
+.container .card:hover:before{
+
+    box-shadow: #0db381 0 0 10px;
+
+}
+
+.container .card:after{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#5cb6f1;
+    
+    clip-path:circle(180px at 80% 20%);
+    transition: 0.5s ease-in-out;
+    
+}
+
+.container .card:hover:after{
+
+    clip-path:circle(300px at 80% -30%);
+    
+}
+
+.container .card .card-img
+{
+    position: absolute;
+    top:30%;
+    transform:translateY(-50%);
+    width:100%;
+    height:10rem;
+    text-align: center;
+    z-index:2;
+    
+}
+
+.container .card .card-img img{
+    position: relative; 
+    margin:0 auto;
+    width:15rem;
+    height:14rem;
+    transition:1s ease-in-out;
+
+}
+
+.container .card:hover .card-img img{
+    width:13rem;
+    height:12rem;
+
+}
+
+.container .card .card-details
+{
+    position:absolute;
+    top:70%;
+    color:#fff;
+    width:100%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.container .card:hover .card-details
+{
+    top:65%;
+}
+
+.container .card .card-details .name
+{
+    border:1px solid #131313;
+    box-shadow:#3bd5f0 0px 0 2px;
+    transition: .5s ease-in-out;
+}
+.container .card:hover .card-details .name
+{
+    padding:0.4rem;
+}
+
+.container .card .card-details .name span
+{
+
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+.container .card:hover .card-details .name span
+{
+    color:#3bd5f0;
+    
+}
+
+.container .card .card-details .details
+{
+    margin-top:1rem;
+    height:0;
+    visibility: hidden;
+
+}
+
+.container .card:hover .card-details .details
+{
+    visibility:visible;
+}
+
+.container .card:hover .card-details .details ul{
+    list-style: none;
+}
