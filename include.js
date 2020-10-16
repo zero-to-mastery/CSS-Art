@@ -6178,6 +6178,13 @@ let cards = [
     imageLink: "./Art/Ferry/ferry.png",
     author: "AC",
     githubLink: "https://github.com/acphil2",
+  },
+  {
+    artName: "Snail!",
+    pageLink: "./Art/panvicka/index.html",
+    imageLink: "./Art/panvicka/screen_gif.gif",
+    author: "panvicka",
+    githubLink: "https://github.com/panvicka",
   }
 ];
 
