@@ -6064,6 +6064,13 @@ let cards = [
     githubLink: "https://github.com/ImieboGodson",
   },
   {
+    artName: "Waving-Penguin",
+    pageLink: "./Art/waving-penguin/index.html",
+    imageLink: "./Art/waving-penguin/image.png",
+    author: "Sabyasachi Das",
+    githubLink: "https://github.com/sabya2301"
+  },
+  {
     artName: "Colorful Circles",
     pageLink: "./Art/tuneer/index.html",
     imageLink: "./Art/tuneer/ss.png",
@@ -6091,8 +6098,13 @@ let cards = [
     author: "Sanket",
     githubLink: "https://github.com/Sanket456",
   },
-
-
+  {
+    artName: "gravity_animation",
+    pageLink: "./Art/taha_shahid/index.html",
+    imageLink: "./Art/taha_shahid/previw.png",
+    author: "TahaShahid",
+    githubLink: "https://github.com/zeaus",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
