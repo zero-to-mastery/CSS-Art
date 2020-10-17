@@ -6152,7 +6152,14 @@ let cards = [
     imageLink: "./Art/PersonalCard/personalCard.png",
     author: "Akaash Trivedi",
     githubLink: "https://github.com/akaash11",
-  }
+  },
+    {
+        artName: "It's so cool",
+        pageLink: "../Art/Abhishekalbert/index.html",
+        imageLink: "../Art/Abhishekalbert/imageart.png",
+        author: "Abhishek Kumar Shukla",
+        githubLink: "https://github.com/abhishekalbert",
+    }
 ];
 
 // +--------------------------------------------------------------------------------+
