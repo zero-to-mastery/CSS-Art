@@ -6165,6 +6165,13 @@ let cards = [
     author: "Akaash Trivedi",
     githubLink: "https://github.com/akaash11",
   },
+    {
+        artName: "It's so cool",
+        pageLink: "../Art/Abhishekalbert/index.html",
+        imageLink: "../Art/Abhishekalbert/imageart.png",
+        author: "Abhishek Kumar Shukla",
+        githubLink: "https://github.com/abhishekalbert",
+    }
   {
     artName: "Glow card",
     pageLink: "./Art/Glow-card/index.html",
