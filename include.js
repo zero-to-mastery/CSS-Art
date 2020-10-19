@@ -6192,6 +6192,13 @@ let cards = [
     imageLink: "./Art/KccbzZ/cover.png",
     author: "KccbzZ",
     githubLink: "https://github.com/KccbzZ/spoopy",
+  },
+  {
+    artName: "Late Night Drive",
+    pageLink: "./Art/KccbzZ/index.html",
+    imageLink: "./Art/KccbzZ/cover.png",
+    author: "KccbzZ",
+    githubLink: "https://kccbzz.github.io/car/",
   }
 ];
 
