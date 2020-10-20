@@ -6171,7 +6171,7 @@ let cards = [
         imageLink: "../Art/Abhishekalbert/imageart.png",
         author: "Abhishek Kumar Shukla",
         githubLink: "https://github.com/abhishekalbert",
-    }
+    },
   {
     artName: "Glow card",
     pageLink: "./Art/Glow-card/index.html",
@@ -6199,6 +6199,13 @@ let cards = [
     imageLink: "./Art/KccbzZ/cover.png",
     author: "KccbzZ",
     githubLink: "https://kccbzz.github.io/car/",
+  },
+  {
+    artName:"Cool Buttons",
+    pageLink: "./Art/PareshWadhwani/index.html",
+    imageLink: "./Art/PareshWadhwani/Cool-Buttons.gif",
+    author: "Paresh Wadhwani",
+    githubLink: "https://github.com/parresh77",
   }
 ];
 
