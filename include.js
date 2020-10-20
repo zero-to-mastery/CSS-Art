@@ -6192,6 +6192,13 @@ let cards = [
     imageLink: "./Art/KccbzZ/cover.png",
     author: "KccbzZ",
     githubLink: "https://github.com/KccbzZ/spoopy",
+  },
+  {
+    artName:"Cool Buttons",
+    pageLink: "./Art/PareshWadhwani/index.html",
+    imageLink: "./Art/PareshWadhwani/Cool-Buttons.gif",
+    author: "Paresh Wadhwani",
+    githubLink: "https://github.com/parresh77",
   }
 ];
 
