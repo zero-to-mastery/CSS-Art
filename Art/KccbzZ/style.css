@@ -1,0 +1,195 @@
+/*############# NECESSARY STUFF #############*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #000;
+  display: block;
+}
+
+/*################ CONTAINER ################*/
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  z-index: -100;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: flex;
+}
+
+/*################## EYES ##################*/
+
+.eye1 {
+  background: rgb(255, 0, 0);
+  width: 200px;
+  height: 80px;
+  bottom: 100px;
+  border-radius: 50%;
+  margin-right: -100px;
+  box-shadow: 0px 0px 20px 10px red;
+  position: relative;
+}
+
+.eye2 {
+  background: rgb(255, 0, 0);
+  width: 200px;
+  height: 80px;
+  bottom: 100px;
+  border-radius: 50%;
+  margin-left: -100px;
+  box-shadow: 0px 0px 20px 10px red;
+  position: relative;
+}
+
+.pupil1 {
+  background: rgb(255, 0, 0);
+  width: 100px;
+  height: 40px;
+  bottom: 100px;
+  border-radius: 50%;
+  margin-left: 100px;
+  position: relative;
+  left: 86px;
+}
+
+.pupil2 {
+  background: rgb(255, 0, 0);
+  width: 100px;
+  height: 40px;
+  bottom: 100px;
+  border-radius: 50%;
+  margin-left: -100px;
+  position: relative;
+}
+
+.pupil1, .pupil2 {
+  animation: eyeopentop 5s forwards;
+}
+
+@keyframes eyeopentop {
+  0% {
+    height: 0px;
+    box-shadow: 0px 0px 0px 0px red;
+  }
+  10% {
+    height: 0px;
+    box-shadow: 0px 0px 0px 0px red;
+  }
+  20% {
+    height: 5px;
+    box-shadow: 0px 0px 2px 1px red;
+  }
+  30% {
+    height: 1px;
+    box-shadow: 0px 0px 0.2px 0.1px red;
+  }
+  100% {
+    height: 40px;
+    box-shadow: 0px 0px 20px 10px red;
+  }
+}
+
+.eye1, .eye2 {
+  animation: eyeopen 5s forwards;
+}
+
+@keyframes eyeopen {
+  0% {
+    height: 0px;
+    box-shadow: 0px 0px 0px 0px red;
+  }
+  10% {
+    height: 0px;
+    box-shadow: 0px 0px 0px 0px red;
+  }
+  20% {
+    height: 10px;
+    box-shadow: 0px 0px 2px 1px red;
+  }
+  30% {
+    height: 1px;
+    box-shadow: 0px 0px 0.2px 0.1px red;
+  }
+  100% {
+    height: 80px;
+    box-shadow: 0px 0px 20px 10px red;
+  }
+}
+
+/*################## MOUTH ##################*/
+
+.mouth {
+  background: rgb(34, 0, 0);
+  border-radius: 50%;
+  width: 900px;
+  height: 200px;
+  position: relative;
+  top: 100px;
+  z-index: -1;
+}
+
+.mouth1 {
+  background: rgba(0, 0, 0, 0);
+  border: 200px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  width: 1250px;
+  height: 550px;
+  position: relative;
+  z-index: -1;
+  bottom: 395px;
+  right: 175px;
+  z-index: 1;
+}
+
+.mouth2 {
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+  width: 1200px;
+  height: 200px;
+  position: relative;
+  bottom: 100px;
+  right: 170px;
+  animation: openmouth 4s normal;
+}
+
+@keyframes openmouth {
+  0% {
+    transform: translateY(100px);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.teethbottom {
+  clip-path: polygon(51% 57%, 60% 100%, 68% 56%, 78% 100%, 84% 45%, 84% 44%, 100% 100%, 0 100%, 15% 46%, 24% 100%, 33% 57%, 42% 100%);
+  background: rgb(255, 255, 255);
+  width: 900px;
+  height: 100px;
+  position: relative;
+  top: 60px;
+  right: 15px;
+  /* z-index: 20; */
+}
+
+.teethtop {
+  clip-path: polygon(10% 53%, 10% 53%, 0 0, 100% 0, 86% 53%, 76% 0, 66% 56%, 55% 0, 47% 62%, 37% 0, 29% 56%, 20% 0);
+  background: rgb(255, 255, 255);
+  width: 900px;
+  height: 100px;
+  position: relative;
+  bottom: 40px;
+  /* z-index: 10; */
+}
