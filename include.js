@@ -6171,7 +6171,7 @@ let cards = [
         imageLink: "../Art/Abhishekalbert/imageart.png",
         author: "Abhishek Kumar Shukla",
         githubLink: "https://github.com/abhishekalbert",
-    }
+    },
   {
     artName: "Glow card",
     pageLink: "./Art/Glow-card/index.html",
@@ -6192,6 +6192,13 @@ let cards = [
     imageLink: "./Art/KccbzZ/cover.png",
     author: "KccbzZ",
     githubLink: "https://github.com/KccbzZ/spoopy",
+  },
+  {
+    artName: "Late Night Drive",
+    pageLink: "./Art/KccbzZ/index.html",
+    imageLink: "./Art/KccbzZ/cover.png",
+    author: "KccbzZ",
+    githubLink: "https://kccbzz.github.io/car/",
   },
   {
     artName:"Cool Buttons",
