@@ -6193,6 +6193,13 @@ let cards = [
     author: "KccbzZ",
     githubLink: "https://github.com/KccbzZ/spoopy",
   }
+  {
+    artName: "ZTM_Logo",
+    pageLink: "./Art/ZTM_Logo/index.html",
+    imageLink: "./Art/ZTM_Logo/ZTM_logo.jpg",
+    author: "Eder",
+    githubLink: "https://github.com/EderIRE",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
