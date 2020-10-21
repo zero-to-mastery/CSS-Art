@@ -6206,6 +6206,13 @@ let cards = [
     imageLink: "./Art/PareshWadhwani/Cool-Buttons.gif",
     author: "Paresh Wadhwani",
     githubLink: "https://github.com/parresh77",
+  },
+  {
+    artName: "Bread Slicing",
+    pageLink: "./Art/KccbzZ/index.html",
+    imageLink: "./Art/KccbzZ/cover.png",
+    author: "KccbzZ",
+    githubLink: "https://kccbzz.github.io/cutting-bread-loading-screen/",
   }
 ];
 

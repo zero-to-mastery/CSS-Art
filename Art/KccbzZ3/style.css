@@ -1,0 +1,384 @@
+/*############# NECESSARY STUFF #############*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #e9c8a2;
+  display: block;
+}
+
+/*################ CONTAINERS ################*/
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: -100;
+}
+
+/*################ BREAD ################*/
+
+.breadbody {
+  background: #CCA67B;
+  width: 100px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  box-shadow: 80px 0px 0px 0px #8f6c46;
+}
+
+.breadbody1 {
+  background: #F3EACA;
+  width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+.breadtop {
+  background: #CCA67B;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 80px 0px 0px 0px #8d6e4c;
+}
+
+.breadtop1 {
+  background: #F3EACA;
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+}
+
+/*################ CUT BREAD ################*/
+
+.cbreadbody {
+  background: #CCA67B;
+  width: 100px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 10px;
+  box-shadow: 10px 0px 0px 0px #8d6e4c;
+  z-index: 3;
+}
+
+.cbreadbody1 {
+  background: #F3EACA;
+  width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 3;
+}
+
+.cbreadtop {
+  background: #CCA67B;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  box-shadow: 10px 0px 0px 0px #8d6e4c;
+  z-index: 3;
+}
+
+.cbreadtop1 {
+  background: #F3EACA;
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  z-index: 3;
+}
+
+/*################## KNIFE ##################*/
+
+.knife {
+  clip-path: polygon(6% 9%, 2% 5%, 0 0, 100% 0, 100% 20%, 76% 20%, 52% 20%, 37% 19%, 26% 18%, 18% 16%, 11% 12%);
+  width: 170px;
+  height: 170px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  left: 90px;
+  margin-top: -170px;
+  top: 50px;
+  z-index: 2;
+  /* animation: ; */
+}
+
+.handle {
+  background: rgb(134, 91, 50);
+  width: 100px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+  margin-top: -30px;
+  left: 225px;
+  border-radius: 5px;
+  bottom: 90px;
+  border-bottom: rgb(110, 72, 36) 3px solid;
+  border-right: rgb(110, 72, 36) 3px solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.gold, .gold2 {
+  background: gold;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: relative;
+}
+.gold {
+  left: 190px;
+  bottom: 110px;
+}
+.gold2 {
+  left: 260px;
+  bottom: 120px;
+}
+
+.knife {
+  animation: cknife 8s infinite forwards;
+}
+
+@keyframes cknife {
+  0% {
+    transform: translateX(0px);
+    top: 40px;
+  }
+  10% {
+    transform: translateX(-100px);
+    top: 55px;
+  }
+  20% {
+    transform: translateX(0px);
+    top: 70px;
+  }
+  30% {
+    transform: translateX(-100px);
+    top: 80px;
+  }
+  40% {
+    transform: translateX(0px);
+    top: 90px;
+  }
+  50% {
+    transform: translateX(-100px);
+    top: 100px;
+  }
+  60% {
+    transform: translateX(0px);
+    top: 110px;
+  }
+  70% {
+    transform: translateX(-100px);
+    top: 120px;
+  }
+  80% {
+    transform: translateX(0px);
+    top: 130px;
+  }
+  90% {
+    transform: translateX(50px);
+    top: 85px;
+  }
+  100% {
+    transform: translateX(0px);
+    top: 40px;
+  }
+}
+
+.handle {
+  animation: chandle 8s infinite forwards;
+}
+
+@keyframes chandle {
+  0% {
+    transform: translateX(0px);
+    top: -100px;
+  }
+  10% {
+    transform: translateX(-100px);
+    top: -85px;
+  }
+  20% {
+    transform: translateX(0px);
+    top: -70px;
+  }
+  30% {
+    transform: translateX(-100px);
+    top: -60px;
+  }
+  40% {
+    transform: translateX(0px);
+    top: -50px;
+  }
+  50% {
+    transform: translateX(-100px);
+    top: -40px;
+  }
+  60% {
+    transform: translateX(0px);
+    top: -30px;
+  }
+  70% {
+    transform: translateX(-100px);
+    top: -20px;
+  }
+  80% {
+    transform: translateX(0px);
+    top: -10px;
+  }
+  90% {
+    transform: translateX(50px);
+    top: -55px;
+  }
+  100% {
+    transform: translateX(0px);
+    top: -100px;
+  }
+}
+
+.gold {
+  animation: cgold 8s infinite forwards;
+}
+
+@keyframes cgold {
+  0% {
+    transform: translateX(0px);
+    top: -118px;
+  }
+  10% {
+    transform: translateX(-100px);
+    top: -103px;
+  }
+  20% {
+    transform: translateX(0px);
+    top: -88px;
+  }
+  30% {
+    transform: translateX(-100px);
+    top: -78px;
+  }
+  40% {
+    transform: translateX(0px);
+    top: -68px;
+  }
+  50% {
+    transform: translateX(-100px);
+    top: -58px;
+  }
+  60% {
+    transform: translateX(0px);
+    top: -48px;
+  }
+  70% {
+    transform: translateX(-100px);
+    top: -38px;
+  }
+  80% {
+    transform: translateX(0px);
+    top: -28px;
+  }
+  90% {
+    transform: translateX(50px);
+    top: -73px;
+  }
+  100% {
+    transform: translateX(0px);
+    top: -118px;
+  }
+}
+
+.gold2 {
+  animation: cgold2 8s infinite forwards;
+}
+
+@keyframes cgold2 {
+  0% {
+    transform: translateX(0px);
+    top: -128px;
+  }
+  10% {
+    transform: translateX(-100px);
+    top: -113px;
+  }
+  20% {
+    transform: translateX(0px);
+    top: -98px;
+  }
+  30% {
+    transform: translateX(-100px);
+    top: -88px;
+  }
+  40% {
+    transform: translateX(0px);
+    top: -78px;
+  }
+  50% {
+    transform: translateX(-100px);
+    top: -68px;
+  }
+  60% {
+    transform: translateX(0px);
+    top: -58px;
+  }
+  70% {
+    transform: translateX(-100px);
+    top: -48px;
+  }
+  80% {
+    transform: translateX(0px);
+    top: -38px;
+  }
+  90% {
+    transform: translateX(50px);
+    top: -83px;
+  }
+  100% {
+    transform: translateX(0px);
+    top: -128px;
+  }
+}
+
+.cbreadbody, .cbreadtop {
+  animation: breadfall 8s infinite forwards;
+}
+
+@keyframes breadfall {
+  0% {
+    transform: translateY(0px)
+  }
+  75% {
+    transform: translateY(0px)
+  }
+  100% {
+    transform: translateY(600px)
+  }
+}
