@@ -6221,6 +6221,13 @@ let cards = [
     author: "Paresh Wadhwani",
     githubLink: "https://github.com/parresh77",
   }
+  {
+    artName: "ZTM_Logo",
+    pageLink: "./Art/ZTM_Logo/index.html",
+    imageLink: "./Art/ZTM_Logo/ZTM_logo.jpg",
+    author: "Eder",
+    githubLink: "https://github.com/EderIRE",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
