@@ -6187,6 +6187,13 @@ let cards = [
     githubLink: "https://github.com/acphil2",
   },
   {
+    artName: "Snail!",
+    pageLink: "./Art/panvicka/index.html",
+    imageLink: "./Art/panvicka/screen_gif.gif",
+    author: "panvicka",
+    githubLink: "https://github.com/panvicka",
+  },
+  {
     artName: "Spoopy",
     pageLink: "./Art/KccbzZ/index.html",
     imageLink: "./Art/KccbzZ/cover.png",
