@@ -1,5 +1,17 @@
 let cards = [
   //  Add your card in this section
+   {
+    artName:"Pikachu",
+    pageLink: "./Art/shahina/index.html",
+    author: "Shahina",
+    githubLink: "https://github.com/ShahinaShanu",
+  },
+  {
+    artName:"Pretty Duck",
+    pageLink: "./Art/1.ani/index.html",
+    author: "O-zbair",
+    githubLink: "https://github.com/O-zbair",
+  },
   {
     artName: "Planet Loader",
     pageLink: "./Art/sherine/index.html",
@@ -6159,6 +6171,55 @@ let cards = [
     imageLink: "./Art/MetalHand/metal.png",
     author: "Adiyat",
     githubLink: "https://github.com/adiyatzzz",
+  },
+    {
+        artName: "It's so cool",
+        pageLink: "../Art/Abhishekalbert/index.html",
+        imageLink: "../Art/Abhishekalbert/imageart.png",
+        author: "Abhishek Kumar Shukla",
+        githubLink: "https://github.com/abhishekalbert",
+    },
+  {
+    artName: "Glow card",
+    pageLink: "./Art/Glow-card/index.html",
+    imageLink: "./Art/Glow-card/glowCard.png",
+    author: "Wimansha Herath",
+    githubLink: "https://github.com/wimanshaherath",
+  },
+  {
+    artName: "Ferry",
+    pageLink: "./Art/Ferry/index.html",
+    imageLink: "./Art/Ferry/ferry.png",
+    author: "AC",
+    githubLink: "https://github.com/acphil2",
+  },
+  {
+    artName: "Snail!",
+    pageLink: "./Art/panvicka/index.html",
+    imageLink: "./Art/panvicka/screen_gif.gif",
+    author: "panvicka",
+    githubLink: "https://github.com/panvicka",
+  },
+  {
+    artName: "Spoopy",
+    pageLink: "./Art/KccbzZ/index.html",
+    imageLink: "./Art/KccbzZ/cover.png",
+    author: "KccbzZ",
+    githubLink: "https://github.com/KccbzZ/spoopy",
+  },
+  {
+    artName: "Late Night Drive",
+    pageLink: "./Art/KccbzZ/index.html",
+    imageLink: "./Art/KccbzZ/cover.png",
+    author: "KccbzZ",
+    githubLink: "https://kccbzz.github.io/car/",
+  },
+  {
+    artName:"Cool Buttons",
+    pageLink: "./Art/PareshWadhwani/index.html",
+    imageLink: "./Art/PareshWadhwani/Cool-Buttons.gif",
+    author: "Paresh Wadhwani",
+    githubLink: "https://github.com/parresh77",
   }
 ];
 

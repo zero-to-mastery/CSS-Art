@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  background: rgb(48, 34, 73);
+  z-index: -100;
+}
+
+.carbody,
+.front,
+.winfront,
+.winback,
+.middle,
+.back,
+.light2,
+.light1,
+.linecar,
+.shadow {
+  animation: carbody 0.2s infinite linear;
+}
+
+@keyframes carbody {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+}
+
+#one,
+#two {
+  animation: carwheels 0.4s infinite linear;
+}
+
+@keyframes carwheels {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.carbody {
+  width: 600px;
+  height: 90px;
+  background: #af310b;
+  position: absolute;
+  top: 435px;
+  right: 800px;
+  border-radius: 3px;
+}
+
+.front {
+  clip-path: polygon(0 34%, 0 100%, 100% 100%);
+  background: #131313;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 335.5px;
+  right: 930px;
+}
+
+.middle {
+  width: 220px;
+  height: 100px;
+  background: #131313;
+  position: absolute;
+  top: 369.5px;
+  right: 1030px;
+  z-index: -1;
+}
+
+.back {
+  clip-path: polygon(100% 34%, 0 100%, 100% 100%);
+  background: #131313;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 335.5px;
+  right: 1250px;
+}
+
+.winback {
+  clip-path: polygon(35% 76%, 100% 76%, 100% 100%, 0% 100%);
+  background: rgb(63, 63, 63);
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 270px;
+  right: 1150px;
+}
+
+.linecar {
+  background: rgb(179, 179, 175);
+  width: 600px;
+  height: 7px;
+  position: absolute;
+  top: 515px;
+  right: 800px;
+}
+
+.shadow {
+  background: rgba(0, 0, 0, 0.699);
+  position: absolute;
+  width: 580px;
+  height: 16px;
+  z-index: -2;
+  top: 560px;
+  right: 800px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 16px 16px rgba(0, 0, 0, 0.699);
+}
+
+.winfront {
+  clip-path: polygon(0 76%, 63% 76%, 100% 100%, 0% 100%);
+  background: rgb(63, 63, 63);
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 270px;
+  right: 985px;
+}
+
+.light1 {
+  background: rgb(253, 218, 17);
+  box-shadow: 0px 0px 50px 20px rgba(253, 218, 17, 0.671);
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  right: 800px;
+  top: 440px;
+  z-index: 1;
+}
+.light2 {
+  background: rgb(253, 33, 17);
+  box-shadow: 0px 0px 50px 20px rgba(253, 33, 17, 0.671);
+  position: absolute;
+  top: 440px;
+  width: 10px;
+  height: 30px;
+  right: 1390px;
+}
+
+#one {
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 475px;
+  right: 880px;
+}
+
+#two {
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 475px;
+  right: 1245px;
+}
+
+.onewhite {
+  position: relative;
+  background-color: rgb(177, 177, 177);
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+}
+
+.oneblack {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  background-color: black;
+  height: 60px;
+  width: 60px;
+}
+
+/* ###################################################### ROAD STUFF ###################################################### */
+
+.road {
+  background: rgb(46, 46, 48);
+  position: relative;
+  top: 156px;
+  width: 100%;
+  height: 180px;
+  z-index: -3;
+  border-top: 5px solid rgb(27, 27, 27);
+  border-bottom: 5px solid rgb(27, 27, 27);
+}
+
+.l1 {
+  background: rgb(192, 192, 192);
+  position: absolute;
+  top: 610px;
+  width: 200px;
+  height: 10px;
+  z-index: -3;
+  border-radius: 10px;
+  right: 800px;
+  animation: roadmove1 2s infinite linear;
+}
+
+@keyframes roadmove1 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1100px);
+  }
+  50.1% {
+    transform: translateX(900px);
+  }
+}
+
+.l2 {
+  background: rgb(192, 192, 192);
+  position: absolute;
+  top: 610px;
+  right: 250px;
+  width: 200px;
+  height: 10px;
+  z-index: -3;
+  border-radius: 10px;
+  animation: roadmove2 2s infinite linear;
+}
+
+@keyframes roadmove2 {
+  0% {
+    transform: translateX(0);
+  }
+  72.5% {
+    transform: translateX(-1550px);
+  }
+  72.6% {
+    transform: translateX(450px);
+  }
+}
+
+.l3 {
+  background: rgb(192, 192, 192);
+  position: absolute;
+  top: 610px;
+  left: 380px;
+  width: 200px;
+  height: 10px;
+  z-index: -3;
+  border-radius: 10px;
+  animation: roadmove3 2s infinite linear;
+}
+
+@keyframes roadmove3 {
+  0% {
+    transform: translateX(0);
+  }
+  21.5% {
+    transform: translateX(-530px);
+  }
+  21.6% {
+    transform: translateX(1470px);
+  }
+}
+
+.l4 {
+  background: rgb(192, 192, 192);
+  position: absolute;
+  top: 610px;
+  right: -200px;
+  width: 200px;
+  height: 10px;
+  z-index: -3;
+  border-radius: 10px;
+  animation: roadmove4 2s infinite linear;
+}
+
+@keyframes roadmove4 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2000px);
+  }
+}
+
+.ground {
+  background: white;
+  position: absolute;
+  top: 515px;
+  width: 1920px;
+  height: 600px;
+  background: rgb(58, 102, 37);
+  border-top: 5px solid rgb(2, 51, 2);
+  z-index: -3;
+}
+
+/* ###################################################### MOON STUFF ###################################################### */
+
+.moon {
+  background: rgb(255, 238, 0);
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-box-reflect: below 580px linear-gradient(transparent, rgb(0, 0, 0));
+  z-index: 1;
+}
+
+.moon1 {
+  background: rgb(48, 34, 73);
+  position: absolute;
+  top: 90px;
+  right: 220px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  z-index: 2;
+}
+.moon2 {
+  background: rgb(48, 71, 172);
+  position: absolute;
+  top: 92px;
+  right: 219px;
+  width: 93px;
+  height: 93px;
+  border-radius: 50%;
+  -webkit-box-reflect: below 610px linear-gradient(rgb(25, 0, 255), rgb(255, 0, 0));
+  z-index: 1;
+}
+
+.lake {
+  background: rgb(48, 71, 172);
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 200px;
+  box-shadow: 0px 0px 10px 10px rgb(48, 71, 172);
+}
+
+.moon,
+.moon1,
+.moon2 {
+  animation: moonmove 60s infinite linear;
+}
+
+@keyframes moonmove {
+  0% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(-1600px);
+  }
+  80.01% {
+    transform: translateX(400px);
+  }
+}
+
+/* ###################################################### CLOUD STUFF ###################################################### */
+
+.cloudbase {
+  background: rgba(163, 163, 163, 0.664);
+  position: absolute;
+  top: -50px;
+  width: 1920px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .carbody {
+    right: 100px;
+  }
+
+  .front {
+    right: 230px;
+  }
+
+  .middle {
+    right: 330px;
+  }
+
+  .back {
+    right: 550px;
+  }
+
+  .winback {
+    right: 450px;
+  }
+
+  .linecar {
+    right: 100px;
+  }
+
+  .shadow {
+    right: 100px;
+  }
+
+  .winfront {
+    right: 285px;
+  }
+
+  .light1 {
+    right: 100px;
+  }
+  .light2 {
+    right: 690px;
+  }
+
+  #one {
+    right: 180px;
+  }
+
+  #two {
+    right: 545px;
+  }
+}
