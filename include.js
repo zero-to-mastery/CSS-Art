@@ -6227,7 +6227,7 @@ let cards = [
     imageLink: "./Art/KccbzZ/cover.png",
     author: "KccbzZ",
     githubLink: "https://kccbzz.github.io/cutting-bread-loading-screen/",
-  }
+  },
   {
     artName: "ZTM_Logo",
     pageLink: "./Art/ZTM_Logo/index.html",
