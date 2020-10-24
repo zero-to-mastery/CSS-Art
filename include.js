@@ -6235,6 +6235,13 @@ let cards = [
     author: "Eder",
     githubLink: "https://github.com/EderIRE",
   }
+  {
+    artName: "Splash Screen Animation ",
+    pageLink: "./Art/Sidd/index.html",
+    imageLink: "./Art/Sidd/webanimation.gif",
+    author: "Siddhesh Kataria",
+    githubLink: "https://github.com/siddkataria",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
