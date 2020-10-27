@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  background: #742929;
+  flex-direction: column;
+}
+
+/* ########## WATER MELON ########## */
+
+.shell {
+  height: 520px;
+  width: 520px;
+  background: rgb(9, 255, 0);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 280px;
+  left: 150px;
+  animation: swing2 3s infinite forwards;
+}
+
+.inside {
+  height: 500px;
+  width: 500px;
+  background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(252,63,63,1) 75%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  animation: seed 3s infinite forwards;
+}
+
+.invis {
+  width: 1000px;
+  height: 450px;
+  background: #742929;
+  position: relative;
+  top: 90px;
+  z-index: 10;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+  left: 150px;
+  animation: swing 3s infinite forwards;
+}
+
+@keyframes swing {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+    transform: translateX(0px);
+  }
+  50% {
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+
+    transform: translateX(-200px);
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+    transform: translateX(0px);
+
+  }
+}
+
+@keyframes swing2 {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+
+}
+
+.seed1 {
+  background: rgb(37, 37, 37);
+  width: 10px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 90px;
+  left: 250px;
+}
+
+.seed2 {
+  background: rgb(37, 37, 37);
+  width: 10px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 170px;
+  left: 320px;
+}
+
+.seed3 {
+  background: rgb(37, 37, 37);
+  width: 10px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 170px;
+  left: 180px;
+}
+
+.seed4 {
+  background: rgb(37, 37, 37);
+  width: 10px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 120px;
+  left: 100px;
+}
+
+.seed5 {
+  background: rgb(37, 37, 37);
+  width: 10px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 120px;
+  left: 400px;
+}
+
+@keyframes seed {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}

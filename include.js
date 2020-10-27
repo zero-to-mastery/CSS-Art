@@ -6227,13 +6227,20 @@ let cards = [
     imageLink: "./Art/KccbzZ/cover.png",
     author: "KccbzZ",
     githubLink: "https://kccbzz.github.io/cutting-bread-loading-screen/",
-  }
+  },
   {
     artName: "ZTM_Logo",
     pageLink: "./Art/ZTM_Logo/index.html",
     imageLink: "./Art/ZTM_Logo/ZTM_logo.jpg",
     author: "Eder",
     githubLink: "https://github.com/EderIRE",
+  },
+  {
+    artName: "Melon Swing",
+    pageLink: "./Art/KccbzZ4/index.html",
+    imageLink: "./Art/KccbzZ4/cover.png",
+    author: "KccbzZ",
+    githubLink: "https://github.com/KccbzZ/melon-swing",
   }
 ];
 
