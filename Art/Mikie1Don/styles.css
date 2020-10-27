@@ -1,0 +1,43 @@
+.dot {
+    position: relative;
+     right: 190px;
+    bottom: 190px; 
+    width: 25px;
+    height: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 30px;
+    animation-direction: alternate-reverse;
+    transition: transform .2s;
+}
+
+.nose {
+    font-size: 30px;
+    position: relative;
+    left: 110px;
+    bottom: 210px;
+    font-weight: bolder;
+}
+
+.shape {
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+    background-color: #000000;
+    border-radius: 35%;
+    width: 70px;
+    height: 15px; 
+    text-align: center;
+}
+
+.dot:hover{
+    transform: scale(2.5);
+    background-color: blueviolet;
+}
+
+
+
+
+
+
