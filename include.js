@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
-   {
+  {
+    artName:"Vitrola",
+    pageLink: "./Art/Pliavi/vitrola.html",
+    author: "Pliavi",
+    githubLink: "https://github.com/Pliavi",
+    imageLink: "./Art/Pliavi/vitrola.jpg",
+  },
+  {
     artName:"Pikachu",
     pageLink: "./Art/shahina/index.html",
     author: "Shahina",
