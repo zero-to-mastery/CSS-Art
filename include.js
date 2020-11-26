@@ -6249,6 +6249,14 @@ let cards = [
     author: "EyeOfAthena",
     githubLink: "https://github.com/EyeOfAthena/cherry",
   },
+  {
+    artName: "Mets_Bouncing_Logo",
+    pageLink: "./Art/JoseAReinoso/index.html",
+    imageLink: "./Art/JoseAReinoso/bouncingMets.GIF",
+    author: "JoseAReinoso",
+    githubLink: "https://github.com/JoseAReinoso",
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
