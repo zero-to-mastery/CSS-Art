@@ -6249,6 +6249,13 @@ let cards = [
     author: "EyeOfAthena",
     githubLink: "https://github.com/EyeOfAthena/cherry",
   },
+   {
+    artName: "irosco",
+    pageLink: "./Art/Irosco/index.html",
+    imageLink: "./Art/Irosco/Iroro.gif",
+    author: "Irhose",
+    githubLink: "https://github.com/Irhose",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
