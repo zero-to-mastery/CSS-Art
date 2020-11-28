@@ -6249,6 +6249,13 @@ let cards = [
     author: "EyeOfAthena",
     githubLink: "https://github.com/EyeOfAthena/cherry",
   },
+  {
+    artName: "Breathe"
+    pageLink: "./Art/breathe/index.html",
+    imageLink: "./Art/breathe/breathegif.gif",
+    author: "Casey",
+    githubLink: "https://github.com/caseyferrara",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
