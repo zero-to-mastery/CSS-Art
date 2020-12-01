@@ -6225,7 +6225,7 @@ let cards = [
     artName:"Funny Eyes",
     pageLink: "./Art/Mikie1Don/index.html",
     imageLink: "./Art/Mikie1Don/noface.gif",
-    author: "Michael Dehaney",
+    author: "Michael Dehaney.",
     githubLink: "https://github.com/michaeldehaney94",
   }
 ];
