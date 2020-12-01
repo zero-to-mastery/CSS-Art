@@ -1,4 +1,4 @@
-.outer-frame{
+.outer-frame {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -8,7 +8,7 @@
   border-radius: 10px;
 }
 
-.inner-frame{
+.inner-frame {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -18,7 +18,7 @@
   border-radius: 10px;
 }
 
-.power-button{
+.power-button {
   position: absolute;
   top: 40px;
   left: 320px;
@@ -27,7 +27,7 @@
   background: black;
 }
 
-.volume-button{
+.volume-button {
   position: absolute;
   top: 80px;
   left: 320px;
@@ -36,7 +36,7 @@
   background: black;
 }
 
-.home-button{
+.home-button {
   position: absolute;
   top: 525px;
   left: 110px;
@@ -46,7 +46,7 @@
   border-radius: 20px;
 }
 
-.gui{
+.gui {
   position: absolute;
   top: 20px;
   left: 20px;

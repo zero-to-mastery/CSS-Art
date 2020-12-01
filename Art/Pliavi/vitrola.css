@@ -340,18 +340,21 @@ body {
   }
   to {
     top: 140px;
-    transform: perspective(500px) rotateX(230deg) translateZ(var(--disc-layer, 0)) scale(0.85);
+    transform: perspective(500px) rotateX(230deg)
+      translateZ(var(--disc-layer, 0)) scale(0.85);
   }
 }
 
 @keyframes play-run-disc {
   from {
     top: 140px;
-    transform: perspective(500px) rotateX(230deg) translateZ(var(--disc-layer, 0)) scale(0.85) rotateZ(0deg);
+    transform: perspective(500px) rotateX(230deg)
+      translateZ(var(--disc-layer, 0)) scale(0.85) rotateZ(0deg);
   }
   to {
     top: 140px;
-    transform: perspective(500px) rotateX(230deg) translateZ(var(--disc-layer, 0)) scale(0.85) rotateZ(360deg);
+    transform: perspective(500px) rotateX(230deg)
+      translateZ(var(--disc-layer, 0)) scale(0.85) rotateZ(360deg);
   }
 }
 

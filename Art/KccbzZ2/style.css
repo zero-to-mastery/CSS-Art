@@ -342,7 +342,8 @@
   width: 93px;
   height: 93px;
   border-radius: 50%;
-  -webkit-box-reflect: below 610px linear-gradient(rgb(25, 0, 255), rgb(255, 0, 0));
+  -webkit-box-reflect: below 610px
+    linear-gradient(rgb(25, 0, 255), rgb(255, 0, 0));
   z-index: 1;
 }
 

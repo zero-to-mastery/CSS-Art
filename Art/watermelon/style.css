@@ -18,7 +18,7 @@ body {
   border-radius: 80%;
   margin: 0 auto;
 }
-.green{
+.green {
   background-color: #0d610d;
   bottom: 0;
   width: 100%;
@@ -49,7 +49,7 @@ body {
   top: 16%;
   left: 50%;
 }
-.seed-right{
+.seed-right {
   top: 8%;
   left: 70%;
 }

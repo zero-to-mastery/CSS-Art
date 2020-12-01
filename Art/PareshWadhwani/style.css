@@ -1,433 +1,368 @@
-body
-{
-    background-color: #f1f5f8;
-    width: 70%;
-    margin: auto;
+body {
+  background-color: #f1f5f8;
+  width: 70%;
+  margin: auto;
 }
 
-.button-container
-{
-    position: relative;
-    padding: 10px 10px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.button-container {
+  position: relative;
+  padding: 10px 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card
-{
-    background-color: white;
-    border-radius: 5px;
-    margin: 30px 10px;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0 0 5px #cfcfcf;
+.card {
+  background-color: white;
+  border-radius: 5px;
+  margin: 30px 10px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 0 5px #cfcfcf;
 }
 
-.section-heading
-{
-    font-family: "Lucida Console", Courier, monospace;
-    margin: 5px 10px;
-    font-weight: 700;
-    display: block;
+.section-heading {
+  font-family: "Lucida Console", Courier, monospace;
+  margin: 5px 10px;
+  font-weight: 700;
+  display: block;
 }
 
-button
-{
-    padding: 6px 12px;
-    margin-left: 10px;
-    margin-right: 10px;
+button {
+  padding: 6px 12px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.facebook
-{
-    border-radius: 2px;
-    font-size: 0.9rem;
+.facebook {
+  border-radius: 2px;
+  font-size: 0.9rem;
 }
 
-.facebook-primary
-{
-    box-shadow: inset 0 1px 0 0 #4d73bf;
-    background-color: #4267b2;
-    border: solid 1px #4267b2;
-    color: white;
-    text-shadow: 0 1px 0 #3359a5;
+.facebook-primary {
+  box-shadow: inset 0 1px 0 0 #4d73bf;
+  background-color: #4267b2;
+  border: solid 1px #4267b2;
+  color: white;
+  text-shadow: 0 1px 0 #3359a5;
 }
 
-    .facebook-primary:hover
-    {
-        background-color: #2b54a7;
-    }
-
-    .facebook-primary:active
-    {
-        background-color: #1d4698;
-        border-color: #1d4698;
-    }
-
-.facebook-secondary
-{
-    background-color: #f6f7f9;
-    border: solid 1px #ced0d4;
-    color: #4b4f56;
-    outline: none;
+.facebook-primary:hover {
+  background-color: #2b54a7;
 }
 
-    .facebook-secondary:hover
-    {
-        background-color: #e9ebee;
-    }
-
-    .facebook-secondary:active
-    {
-        background-color: #d8dade;
-        border-color: #d8dade;
-    }
-
-._3d1
-{
-    position: relative;
-    background-color: orangered;
-    border: none;
-    color: white;
-    padding: 15px 24px;
-    font-size: 1.4rem;
-    box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
-    outline: none;
-}
-    ._3d1:hover
-    {
-        background-color: hsl(16, 100%, 45%);
-    }
-    ._3d1:active
-    {
-        background-color: hsl(16, 100%, 40%);
-        top: 3px;
-        right: 3px;
-        box-shadow: -3px 3px 0 hsl(16, 100%, 30%);
-    }
-        ._3d1:active::before
-        {
-            border-width: 3px;
-            left: -6px;
-        }
-        ._3d1:active::after
-        {
-            border: 3px solid transparent;
-            border-top: 3px solid hsl(16, 100%, 30%);
-        }
-    ._3d1::before
-    {
-        position: absolute;
-        display: block;
-        content: "";
-        height: 0;
-        width: 0;
-        border: 6px solid transparent;
-        border-right: 6px solid hsl(16, 100%, 30%);
-        border-left-width: 0;
-        background: none;
-        top: 0;
-        left: -6px;
-        z-index: 10;
-    }
-    ._3d1::after
-    {
-        position: absolute;
-        display: block;
-        content: "";
-        height: 0;
-        width: 0;
-        border: 6px solid transparent;
-        border-top: 6px solid hsl(16, 100%, 30%);
-        border-bottom-width: 0;
-        background: none;
-        bottom: -6px;
-        right: 0;
-    }
-    
-
-._3d2
-{
-    position: relative;
-    background: radial-gradient(hsl(54, 100%, 50%), hsl(54, 100%, 40%));
-    height: 120px;
-    width: 120px;
-    text-shadow: 0 -1px 0 #c3af07;
-    color: white;
-    font-size: 1.4rem;
-    border: 1px solid hsl(54, 100%, 20%);
-    border-radius: 60px;
-    outline: none;
-    box-shadow: inset 0 1px 0 hsl(54, 100%, 50%),
-                0 2px 0 hsl(54, 100%, 20%),
-                0 3px 0 hsl(54, 100%, 18%),
-                0 4px 0 hsl(54, 100%, 16%),
-                0 5px 0 hsl(54, 100%, 14%),
-                0 6px 0 hsl(54, 100%, 12%),
-                0 7px 0 hsl(54, 100%, 10%),
-                0 8px 0 hsl(54, 100%, 8%),
-                0 9px 0 hsl(54, 100%, 6%);
-}
-    ._3d2:hover
-    {
-        background: radial-gradient(hsl(54, 100%, 45%), hsl(54, 100%, 35%));
-    }
-    ._3d2:active
-    {
-        background: radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%));
-        top: 2px;
-        box-shadow: inset 0 1px 0 hsl(54, 100%, 50%),
-                    0 1.5px 0 hsl(54, 100%, 18%),
-                    0 2.5px 0 hsl(54, 100%, 16%),
-                    0 3.5px 0 hsl(54, 100%, 14%),
-                    0 4.5px 0 hsl(54, 100%, 12%),
-                    0 5.5px 0 hsl(54, 100%, 10%),
-                    0 6.5px 0 hsl(54, 100%, 8%),
-                    0 7.5px 0 hsl(54, 100%, 6%);
-    }
-    @-moz-document url-prefix()
-    {
-        ._3d2:active
-        {
-            background: radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%));
-            top: 2px;
-            box-shadow: inset 0 1px 0 hsl(54, 100%, 50%),
-                0 1px 0 hsl(54, 100%, 18%),
-                0 2px 0 hsl(54, 100%, 16%),
-                0 3px 0 hsl(54, 100%, 14%),
-                0 4px 0 hsl(54, 100%, 12%),
-                0 5px 0 hsl(54, 100%, 10%),
-                0 6px 0 hsl(54, 100%, 8%),
-                0 7px 0 hsl(54, 100%, 6%);
-        }
-    }
-
-.gradient1
-{
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    padding: 20px 40px;
-    font-size: 1.4rem;
-    box-sizing: border-box;
-    background-color: #e7eef1;
-    border: 10px solid transparent;
-    border-image: linear-gradient(to top right, orangered, yellow);
-    border-image-slice: 10;
-    color: orangered;
-    transition: background-image 300ms ease, color 300ms ease;
-}
-    .gradient1:hover
-    {
-        background-image: linear-gradient(to top right, orangered, yellow);
-        color: white;
-        border: none;
-        padding: 30px 50px;
-    }
-
-.gradient2
-{
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    padding: 20px 40px;
-    font-size: 1.4rem;
-    box-sizing: border-box;
-    background-color: #e7eef1;
-    border: 4px solid transparent;
-    border-image: linear-gradient(to right, orangered, transparent);
-    border-image-slice: 1;
-    color: orangered;
-    transition: background-image 300ms ease, color 300ms ease, border-right-style 300ms ease;
-}
-    .gradient2:hover
-    {
-        background-image: linear-gradient(to right, orangered, transparent);
-        color: white;
-        border-right-style: none;
-        padding-right: 44px;
-        padding-left: 44px;
-        border-left: none;
-    }
-
-.animated1
-{
-    display: inline-block;
-    padding: 20px 40px;
-    font-size: 1.4rem;
-    background-color: #00b3b4;
-    background-image: url(images/pattern.png);
-    background-size: 40px 40px;
-    border: solid 1px #555;
-    color: white;
-    transition: all ease 300ms;
-}
-    .animated1:hover
-    {
-        animation: animated-1-animation 2s linear infinite;
-    }
-    @keyframes animated-1-animation
-    {
-        from
-        {
-            background-position: 0 0;
-        }
-        to
-        {
-            background-position: 40px 0;
-        }
-    }
-
-.animated2
-{
-    display: inline-block;
-    padding: 20px 37px;
-    font-size: 1.4rem;
-    background-color: #00b3b4;
-    background-size: 40px 40px;
-    border: solid 1px #555;
-    color: white;
-    transition: all ease 300ms;
-}
-    .animated2::after
-    {
-        position: absolute;
-        content: "  »";
-        transition: all ease 0.3s;
-        color:white;
-        white-space: pre;
-        opacity: 0;
-    }
-    .animated2:hover
-    {
-        padding: 20px 52px 20px 22px;
-    }
-    .animated2:hover::after
-    {
-        opacity: 1;
-    }
-    .animated2::before
-    {
-        position: inline;
-        content: " ";
-        white-space: pre;
-        opacity: 0;
-    }
-    .animated2:hover::before
-    {
-        opacity: 1;
-    }
-
-.toggle1
-{
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    margin: 0 15px 0 0;
-}
-.toggle1-input
-{
-    display: none;
-}
-.toggle1-label
-{
-    position: relative;
-    display: inline-block;
-    font-size: 1rem;
-    line-height: 20px;
-    text-transform: uppercase;
-    background-color: #f2395a;
-    border: 1px solid #f2395a;
-    color: white;
-    width: 80px;
-    height: 30px;
-    transition: ease all 0.3s;
-    cursor: pointer;
-    vertical-align: middle;
-}
-    .toggle1-label::before
-    {
-        position: absolute;
-        top: 5px;
-        left: 38px;
-        content: "off";
-        display: inline-block;
-        height: 20px;
-        padding: 0 3px;
-        background: white;
-        color: #f2395a;
-        transition: ease all 0.3s;
-    }
-
-.toggle1-input:checked + .toggle1-label
-{
-    background: #00b3b4;
-    border: 1px solid #00b3b4
-}
-    .toggle1-input:checked + .toggle1-label::before
-    {
-        content: "on";
-        left: 5px;
-        color: #00b3b4
-    }
-
-.toggle2
-{
-    display: none;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    vertical-align: middle;
+.facebook-primary:active {
+  background-color: #1d4698;
+  border-color: #1d4698;
 }
 
-.toggle2-input
-{
-    display: none;
+.facebook-secondary {
+  background-color: #f6f7f9;
+  border: solid 1px #ced0d4;
+  color: #4b4f56;
+  outline: none;
 }
 
-.toggle2-label
-{
-    position: relative;
-    display: flex;
-    margin-left: 15px;
-    padding-left: 30px;
-    padding-right: 10px;
-    text-transform: uppercase;
-    background: white;
-    color: #aaa;
-    border: 1px solid #ccc;
-    transition: ease all -.3s;
-    cursor: pointer;
-    vertical-align: middle;
-    align-items: center;
-    height: 30px;
-    transition:ease all 0.3s;
+.facebook-secondary:hover {
+  background-color: #e9ebee;
 }
-    .toggle2-label::before
-    {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        display:inline-block;
-        width: 10px;
-        height: 10px;
-        background: #ccc;
-        content: "";
-        transition: ease all 0.3s;
-    }
-    .toggle2-input:checked + .toggle2-label
-    {
-        background: #00b3b4;
-        color: white;
-    }
-        .toggle2-input:checked + .toggle2-label::before
-        {
-            background: white;
-        }
-.test
-{
-    background: black;
-    color:white;
-    height: 400px;
-    display: flex;
 
+.facebook-secondary:active {
+  background-color: #d8dade;
+  border-color: #d8dade;
+}
+
+._3d1 {
+  position: relative;
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  font-size: 1.4rem;
+  box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
+  outline: none;
+}
+._3d1:hover {
+  background-color: hsl(16, 100%, 45%);
+}
+._3d1:active {
+  background-color: hsl(16, 100%, 40%);
+  top: 3px;
+  right: 3px;
+  box-shadow: -3px 3px 0 hsl(16, 100%, 30%);
+}
+._3d1:active::before {
+  border-width: 3px;
+  left: -6px;
+}
+._3d1:active::after {
+  border: 3px solid transparent;
+  border-top: 3px solid hsl(16, 100%, 30%);
+}
+._3d1::before {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 0;
+  width: 0;
+  border: 6px solid transparent;
+  border-right: 6px solid hsl(16, 100%, 30%);
+  border-left-width: 0;
+  background: none;
+  top: 0;
+  left: -6px;
+  z-index: 10;
+}
+._3d1::after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 0;
+  width: 0;
+  border: 6px solid transparent;
+  border-top: 6px solid hsl(16, 100%, 30%);
+  border-bottom-width: 0;
+  background: none;
+  bottom: -6px;
+  right: 0;
+}
+
+._3d2 {
+  position: relative;
+  background: radial-gradient(hsl(54, 100%, 50%), hsl(54, 100%, 40%));
+  height: 120px;
+  width: 120px;
+  text-shadow: 0 -1px 0 #c3af07;
+  color: white;
+  font-size: 1.4rem;
+  border: 1px solid hsl(54, 100%, 20%);
+  border-radius: 60px;
+  outline: none;
+  box-shadow: inset 0 1px 0 hsl(54, 100%, 50%), 0 2px 0 hsl(54, 100%, 20%),
+    0 3px 0 hsl(54, 100%, 18%), 0 4px 0 hsl(54, 100%, 16%),
+    0 5px 0 hsl(54, 100%, 14%), 0 6px 0 hsl(54, 100%, 12%),
+    0 7px 0 hsl(54, 100%, 10%), 0 8px 0 hsl(54, 100%, 8%),
+    0 9px 0 hsl(54, 100%, 6%);
+}
+._3d2:hover {
+  background: radial-gradient(hsl(54, 100%, 45%), hsl(54, 100%, 35%));
+}
+._3d2:active {
+  background: radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%));
+  top: 2px;
+  box-shadow: inset 0 1px 0 hsl(54, 100%, 50%), 0 1.5px 0 hsl(54, 100%, 18%),
+    0 2.5px 0 hsl(54, 100%, 16%), 0 3.5px 0 hsl(54, 100%, 14%),
+    0 4.5px 0 hsl(54, 100%, 12%), 0 5.5px 0 hsl(54, 100%, 10%),
+    0 6.5px 0 hsl(54, 100%, 8%), 0 7.5px 0 hsl(54, 100%, 6%);
+}
+@-moz-document url-prefix() {
+  ._3d2:active {
+    background: radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%));
+    top: 2px;
+    box-shadow: inset 0 1px 0 hsl(54, 100%, 50%), 0 1px 0 hsl(54, 100%, 18%),
+      0 2px 0 hsl(54, 100%, 16%), 0 3px 0 hsl(54, 100%, 14%),
+      0 4px 0 hsl(54, 100%, 12%), 0 5px 0 hsl(54, 100%, 10%),
+      0 6px 0 hsl(54, 100%, 8%), 0 7px 0 hsl(54, 100%, 6%);
+  }
+}
+
+.gradient1 {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  background-color: #e7eef1;
+  border: 10px solid transparent;
+  border-image: linear-gradient(to top right, orangered, yellow);
+  border-image-slice: 10;
+  color: orangered;
+  transition: background-image 300ms ease, color 300ms ease;
+}
+.gradient1:hover {
+  background-image: linear-gradient(to top right, orangered, yellow);
+  color: white;
+  border: none;
+  padding: 30px 50px;
+}
+
+.gradient2 {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  background-color: #e7eef1;
+  border: 4px solid transparent;
+  border-image: linear-gradient(to right, orangered, transparent);
+  border-image-slice: 1;
+  color: orangered;
+  transition: background-image 300ms ease, color 300ms ease,
+    border-right-style 300ms ease;
+}
+.gradient2:hover {
+  background-image: linear-gradient(to right, orangered, transparent);
+  color: white;
+  border-right-style: none;
+  padding-right: 44px;
+  padding-left: 44px;
+  border-left: none;
+}
+
+.animated1 {
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 1.4rem;
+  background-color: #00b3b4;
+  background-image: url(images/pattern.png);
+  background-size: 40px 40px;
+  border: solid 1px #555;
+  color: white;
+  transition: all ease 300ms;
+}
+.animated1:hover {
+  animation: animated-1-animation 2s linear infinite;
+}
+@keyframes animated-1-animation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 40px 0;
+  }
+}
+
+.animated2 {
+  display: inline-block;
+  padding: 20px 37px;
+  font-size: 1.4rem;
+  background-color: #00b3b4;
+  background-size: 40px 40px;
+  border: solid 1px #555;
+  color: white;
+  transition: all ease 300ms;
+}
+.animated2::after {
+  position: absolute;
+  content: "  »";
+  transition: all ease 0.3s;
+  color: white;
+  white-space: pre;
+  opacity: 0;
+}
+.animated2:hover {
+  padding: 20px 52px 20px 22px;
+}
+.animated2:hover::after {
+  opacity: 1;
+}
+.animated2::before {
+  position: inline;
+  content: " ";
+  white-space: pre;
+  opacity: 0;
+}
+.animated2:hover::before {
+  opacity: 1;
+}
+
+.toggle1 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin: 0 15px 0 0;
+}
+.toggle1-input {
+  display: none;
+}
+.toggle1-label {
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #f2395a;
+  border: 1px solid #f2395a;
+  color: white;
+  width: 80px;
+  height: 30px;
+  transition: ease all 0.3s;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.toggle1-label::before {
+  position: absolute;
+  top: 5px;
+  left: 38px;
+  content: "off";
+  display: inline-block;
+  height: 20px;
+  padding: 0 3px;
+  background: white;
+  color: #f2395a;
+  transition: ease all 0.3s;
+}
+
+.toggle1-input:checked + .toggle1-label {
+  background: #00b3b4;
+  border: 1px solid #00b3b4;
+}
+.toggle1-input:checked + .toggle1-label::before {
+  content: "on";
+  left: 5px;
+  color: #00b3b4;
+}
+
+.toggle2 {
+  display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.toggle2-input {
+  display: none;
+}
+
+.toggle2-label {
+  position: relative;
+  display: flex;
+  margin-left: 15px;
+  padding-left: 30px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  background: white;
+  color: #aaa;
+  border: 1px solid #ccc;
+  transition: ease all -0.3s;
+  cursor: pointer;
+  vertical-align: middle;
+  align-items: center;
+  height: 30px;
+  transition: ease all 0.3s;
+}
+.toggle2-label::before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  content: "";
+  transition: ease all 0.3s;
+}
+.toggle2-input:checked + .toggle2-label {
+  background: #00b3b4;
+  color: white;
+}
+.toggle2-input:checked + .toggle2-label::before {
+  background: white;
+}
+.test {
+  background: black;
+  color: white;
+  height: 400px;
+  display: flex;
 }

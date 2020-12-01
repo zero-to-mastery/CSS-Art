@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   background: #160909;
@@ -96,7 +97,8 @@ html, body {
   border-bottom: 0em solid transparent;
   border-left: 0.8em solid #401d03;
 }
-.pumpkin .teeth:before, .pumpkin .teeth:after {
+.pumpkin .teeth:before,
+.pumpkin .teeth:after {
   content: "";
   display: block;
   position: absolute;

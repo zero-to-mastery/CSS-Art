@@ -1,241 +1,240 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .car {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-    width: 50em;
-    height: 500px;
-    /* border: 2px solid red; */
-    animation: car 8s linear infinite 3s;
-    transition: all 1s;
-    z-index: 1000;
+  width: 50em;
+  height: 500px;
+  /* border: 2px solid red; */
+  animation: car 8s linear infinite 3s;
+  transition: all 1s;
+  z-index: 1000;
 }
 
 @keyframes car {
-    from {
-        left: 0;
-    }
-    to {
-        left: 100%;
-    }
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
 }
 
 .car_top {
-    position: relative;
-    width: 40%;
-    height: 150px;
-    background: black;
-    border-radius: 70% 100% 0 0;
-    transform: skew(-10deg);
+  position: relative;
+  width: 40%;
+  height: 150px;
+  background: black;
+  border-radius: 70% 100% 0 0;
+  transform: skew(-10deg);
 }
 
 .line {
-    position: absolute;
-    left: 50%;
-    top: 13px;
-    width: 4px;
-    height: 150px;
-    background: rgb(116, 178, 184);
+  position: absolute;
+  left: 50%;
+  top: 13px;
+  width: 4px;
+  height: 150px;
+  background: rgb(116, 178, 184);
 }
 
 .line::after {
-    content: '';
-    position: absolute;
-    bottom: 10px;
-    left: 120px;
-    width: 40px;
-    height: 40px;
-    background: rgb(243, 43, 43);
-    border-radius: 10px 50% 10px;
-    box-shadow: 0 5px 20px rgb(26, 26, 26);
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 120px;
+  width: 40px;
+  height: 40px;
+  background: rgb(243, 43, 43);
+  border-radius: 10px 50% 10px;
+  box-shadow: 0 5px 20px rgb(26, 26, 26);
 }
 
 .car_top::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 90%;
-    height: 150px;
-    margin: 0 auto;
-    background: linear-gradient(rgb(203, 235, 238),rgb(129, 221, 230));
-    border-radius: 70% 100% 0 0;
-    /* border: 1px solid red; */
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+  background: linear-gradient(rgb(203, 235, 238), rgb(129, 221, 230));
+  border-radius: 70% 100% 0 0;
+  /* border: 1px solid red; */
 }
 
 .car_bottom {
-    position: relative;
-    width: 80%;
-    height: 180px;
-    background: red;
-    border-radius: 50px 100px 0 0;
-    border-bottom: 4px solid #c2bec7;
+  position: relative;
+  width: 80%;
+  height: 180px;
+  background: red;
+  border-radius: 50px 100px 0 0;
+  border-bottom: 4px solid #c2bec7;
 }
 
 .car_bottom::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 90px;
-    border-radius: 60px 100px 0 0;
-    background: rgba(211, 58, 58, 0.582);
+  content: "";
+  display: block;
+  width: 100%;
+  height: 90px;
+  border-radius: 60px 100px 0 0;
+  background: rgba(211, 58, 58, 0.582);
 }
 
 .tire {
-    position: absolute;
-    top: 90px;
-    left: 40px;
-    width: 170px;
-    height: 170px;
-    background: black;
-    border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 40px;
+  width: 170px;
+  height: 170px;
+  background: black;
+  border-radius: 50%;
 }
 /* Handle */
 .tire::before {
-    content: '';
-    position: absolute;
-    top: -50px;
-    left: 180px;
-    width: 40px;
-    height: 10px;
-    border-radius: 20px;
-    background: gold;
-    box-shadow: 0 5px 10px rgb(44, 40, 40);
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 180px;
+  width: 40px;
+  height: 10px;
+  border-radius: 20px;
+  background: gold;
+  box-shadow: 0 5px 10px rgb(44, 40, 40);
 }
 
 .tire::after {
-    content: '';
-    position: absolute;
-    top: -50px;
-    right: -180px;
-    width: 40px;
-    height: 10px;
-    border-radius: 20px;
-    background: gold;
-    box-shadow: 0 5px 10px rgb(44, 40, 40);
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -180px;
+  width: 40px;
+  height: 10px;
+  border-radius: 20px;
+  background: gold;
+  box-shadow: 0 5px 10px rgb(44, 40, 40);
 }
 
 .inner_tire {
-    position: absolute;
-    top: 45px;
-    left: 45px;
-    width: 80px;
-    height: 80px;
-    background: black;
-    border-radius: 50%;
-    border: 5px solid rgb(194, 143, 143);
-    background: linear-gradient(rgb(147, 193, 230), rgb(91, 153, 204));
-    animation: move 3s infinite;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  width: 80px;
+  height: 80px;
+  background: black;
+  border-radius: 50%;
+  border: 5px solid rgb(194, 143, 143);
+  background: linear-gradient(rgb(147, 193, 230), rgb(91, 153, 204));
+  animation: move 3s infinite;
 }
 
 @keyframes move {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .tire2 {
-    position: absolute;
-    top: 90px;
-    right: 40px;
-    width: 170px;
-    height: 170px;
-    background: black;
-    border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  right: 40px;
+  width: 170px;
+  height: 170px;
+  background: black;
+  border-radius: 50%;
 }
 
 .light {
-    position: absolute;
-    right: -15px;
-    top: 55px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: rgb(221, 161, 20);
-    /* margin-left: -10px; */
-    /* z-index: -1; */
+  position: absolute;
+  right: -15px;
+  top: 55px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgb(221, 161, 20);
+  /* margin-left: -10px; */
+  /* z-index: -1; */
 }
 
-.light::before{
-    content: '';
-    position: absolute;
-    right: 10px;
-    top: -5px;
-    width: 20px;
-    height: 45px;
-    background: black;
-    border-radius: 10px 20px 20px 10px;
-    transform: skew(6deg);
-    z-index: 100000;
-    
+.light::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  width: 20px;
+  height: 45px;
+  background: black;
+  border-radius: 10px 20px 20px 10px;
+  transform: skew(6deg);
+  z-index: 100000;
 }
 
 .path {
-    position: absolute;
-    bottom: 200px;
-    width: 100%;
-    height: 50px;
-    background: linear-gradient(#757575, #252525);
-    z-index: -100;
+  position: absolute;
+  bottom: 200px;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(#757575, #252525);
+  z-index: -100;
 }
 
 .grass {
-    position: absolute;
-    bottom: 210px;
-    left: 90%;
+  position: absolute;
+  bottom: 210px;
+  left: 90%;
 }
 
 .grass_one {
-    position: relative;
-    width: 50px;
-    height: 100px;
-    border-radius: 60% 60% 50% 50%;
-    background: #61f586;
-    transform: rotate(-30deg);
-    box-shadow: 0 10px 10px #80808063;
+  position: relative;
+  width: 50px;
+  height: 100px;
+  border-radius: 60% 60% 50% 50%;
+  background: #61f586;
+  transform: rotate(-30deg);
+  box-shadow: 0 10px 10px #80808063;
 }
 
 .grass_one::before {
-    content: '';
-    position: absolute;
-    top: 30px;
-    width: 50px;
-    height: 100px;
-    border-radius: 60% 60% 50% 50%;
-    background: #61f586;
-    z-index: 1;
-    box-shadow: 0 10px 10px #80808063;
-    transform: rotate(60deg);
-    margin-left: 50px;
+  content: "";
+  position: absolute;
+  top: 30px;
+  width: 50px;
+  height: 100px;
+  border-radius: 60% 60% 50% 50%;
+  background: #61f586;
+  z-index: 1;
+  box-shadow: 0 10px 10px #80808063;
+  transform: rotate(60deg);
+  margin-left: 50px;
 }
 
 .cover {
-    position: relative;
-    top: -20px;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px 10px 40% 40%;
-    background: linear-gradient(rgb(151, 123, 123),rgb(107, 81, 81));
+  position: relative;
+  top: -20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px 10px 40% 40%;
+  background: linear-gradient(rgb(151, 123, 123), rgb(107, 81, 81));
 }
