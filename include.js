@@ -6220,6 +6220,13 @@ let cards = [
     imageLink: "./Art/PareshWadhwani/Cool-Buttons.gif",
     author: "Paresh Wadhwani",
     githubLink: "https://github.com/parresh77",
+  },
+  {
+    artName:"Funny Eyes",
+    pageLink: "./Art/Mikie1Don/index.html",
+    imageLink: "./Art/Mikie1Don/noface.gif",
+    author: "Michael Dehaney",
+    githubLink: "https://github.com/michaeldehaney94",
   }
 ];
 
