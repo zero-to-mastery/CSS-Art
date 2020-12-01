@@ -1,22 +1,46 @@
 div {
-    width: 225px; 
-    height: 225px;
-    background-image: url(./bot.jpg);
-    border-radius: 25%;
-    position:relative;
+  width: 225px;
+  height: 225px;
+  background-image: url(./bot.jpg);
+  border-radius: 25%;
+  position: relative;
 
-    animation: oppa     1s steps(4,start) infinite,
-               movement 10s steps(20,end) infinite;
-    animation-direction: normal, alternate;
+  animation: oppa 1s steps(4, start) infinite,
+    movement 10s steps(20, end) infinite;
+  animation-direction: normal, alternate;
+}
+@keyframes oppa {
+  0% {
+    background-position: 0 0;
   }
-  @keyframes oppa {
-    0% {background-position: 0 0}
-    100% {background-position: -5175px 0}
+  100% {
+    background-position: -5175px 0;
   }
-  @keyframes movement {
-    0%   {left: 500px; top: 100px;box-shadow: 10px 7px 5px rgb(253, 234, 234);}
-    25%  {left: 1000px; top: 500px;box-shadow: -10px 7px 5px rgb(19, 19, 19);}
-    50%  {left: 1000px; top: 100px;box-shadow: 10px -7px 5px rgb(89, 107, 89);}
-    75%  {left: 500px; top: 500px;box-shadow: -10px -7px 5px rgb(214, 177, 214);}
-    100% {left: 500px; top: 100px;box-shadow: 10px 7px 5px rgb(162, 199, 199);}
+}
+@keyframes movement {
+  0% {
+    left: 500px;
+    top: 100px;
+    box-shadow: 10px 7px 5px rgb(253, 234, 234);
   }
+  25% {
+    left: 1000px;
+    top: 500px;
+    box-shadow: -10px 7px 5px rgb(19, 19, 19);
+  }
+  50% {
+    left: 1000px;
+    top: 100px;
+    box-shadow: 10px -7px 5px rgb(89, 107, 89);
+  }
+  75% {
+    left: 500px;
+    top: 500px;
+    box-shadow: -10px -7px 5px rgb(214, 177, 214);
+  }
+  100% {
+    left: 500px;
+    top: 100px;
+    box-shadow: 10px 7px 5px rgb(162, 199, 199);
+  }
+}

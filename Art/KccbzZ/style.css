@@ -71,7 +71,8 @@ body {
   position: relative;
 }
 
-.pupil1, .pupil2 {
+.pupil1,
+.pupil2 {
   animation: eyeopentop 5s forwards;
 }
 
@@ -98,7 +99,8 @@ body {
   }
 }
 
-.eye1, .eye2 {
+.eye1,
+.eye2 {
   animation: eyeopen 5s forwards;
 }
 
@@ -174,7 +176,20 @@ body {
 }
 
 .teethbottom {
-  clip-path: polygon(51% 57%, 60% 100%, 68% 56%, 78% 100%, 84% 45%, 84% 44%, 100% 100%, 0 100%, 15% 46%, 24% 100%, 33% 57%, 42% 100%);
+  clip-path: polygon(
+    51% 57%,
+    60% 100%,
+    68% 56%,
+    78% 100%,
+    84% 45%,
+    84% 44%,
+    100% 100%,
+    0 100%,
+    15% 46%,
+    24% 100%,
+    33% 57%,
+    42% 100%
+  );
   background: rgb(255, 255, 255);
   width: 900px;
   height: 100px;
@@ -185,7 +200,20 @@ body {
 }
 
 .teethtop {
-  clip-path: polygon(10% 53%, 10% 53%, 0 0, 100% 0, 86% 53%, 76% 0, 66% 56%, 55% 0, 47% 62%, 37% 0, 29% 56%, 20% 0);
+  clip-path: polygon(
+    10% 53%,
+    10% 53%,
+    0 0,
+    100% 0,
+    86% 53%,
+    76% 0,
+    66% 56%,
+    55% 0,
+    47% 62%,
+    37% 0,
+    29% 56%,
+    20% 0
+  );
   background: rgb(255, 255, 255);
   width: 900px;
   height: 100px;

@@ -30,7 +30,7 @@ body {
 /*################ BREAD ################*/
 
 .breadbody {
-  background: #CCA67B;
+  background: #cca67b;
   width: 100px;
   height: 70px;
   border-radius: 10px;
@@ -41,16 +41,15 @@ body {
 }
 
 .breadbody1 {
-  background: #F3EACA;
+  background: #f3eaca;
   width: 80px;
   height: 60px;
   border-radius: 10px;
   position: relative;
-
 }
 
 .breadtop {
-  background: #CCA67B;
+  background: #cca67b;
   width: 100px;
   height: 30px;
   border-radius: 10px;
@@ -60,7 +59,7 @@ body {
 }
 
 .breadtop1 {
-  background: #F3EACA;
+  background: #f3eaca;
   width: 80px;
   height: 20px;
   border-radius: 10px;
@@ -71,7 +70,7 @@ body {
 /*################ CUT BREAD ################*/
 
 .cbreadbody {
-  background: #CCA67B;
+  background: #cca67b;
   width: 100px;
   height: 70px;
   border-radius: 10px;
@@ -84,7 +83,7 @@ body {
 }
 
 .cbreadbody1 {
-  background: #F3EACA;
+  background: #f3eaca;
   width: 80px;
   height: 60px;
   border-radius: 10px;
@@ -93,7 +92,7 @@ body {
 }
 
 .cbreadtop {
-  background: #CCA67B;
+  background: #cca67b;
   width: 100px;
   height: 30px;
   border-radius: 10px;
@@ -107,7 +106,7 @@ body {
 }
 
 .cbreadtop1 {
-  background: #F3EACA;
+  background: #f3eaca;
   width: 80px;
   height: 20px;
   border-radius: 10px;
@@ -119,7 +118,19 @@ body {
 /*################## KNIFE ##################*/
 
 .knife {
-  clip-path: polygon(6% 9%, 2% 5%, 0 0, 100% 0, 100% 20%, 76% 20%, 52% 20%, 37% 19%, 26% 18%, 18% 16%, 11% 12%);
+  clip-path: polygon(
+    6% 9%,
+    2% 5%,
+    0 0,
+    100% 0,
+    100% 20%,
+    76% 20%,
+    52% 20%,
+    37% 19%,
+    26% 18%,
+    18% 16%,
+    11% 12%
+  );
   width: 170px;
   height: 170px;
   background: rgb(255, 255, 255);
@@ -147,7 +158,8 @@ body {
   flex-direction: row;
 }
 
-.gold, .gold2 {
+.gold,
+.gold2 {
   background: gold;
   border-radius: 50%;
   width: 10px;
@@ -367,18 +379,19 @@ body {
   }
 }
 
-.cbreadbody, .cbreadtop {
+.cbreadbody,
+.cbreadtop {
   animation: breadfall 8s infinite forwards;
 }
 
 @keyframes breadfall {
   0% {
-    transform: translateY(0px)
+    transform: translateY(0px);
   }
   75% {
-    transform: translateY(0px)
+    transform: translateY(0px);
   }
   100% {
-    transform: translateY(600px)
+    transform: translateY(600px);
   }
 }

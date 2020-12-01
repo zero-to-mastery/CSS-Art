@@ -1,12 +1,12 @@
 h1 {
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	color: #5f93e8;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #5f93e8;
 }
 
 .robots {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .head,
@@ -15,20 +15,20 @@ h1 {
 .right_arm,
 .left_leg,
 .right_leg {
-	 background-color: #5f93e8;
+  background-color: #5f93e8;
 }
 
 .head {
-	width: 200px;
-	margin: 0 auto;
-	height: 150px;
-	border-radius: 200px 200px 0 0;
-	margin-bottom: 10px;
-	animation-name: bounce;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in;
-	animation-delay: 5.5s;
+  width: 200px;
+  margin: 0 auto;
+  height: 150px;
+  border-radius: 200px 200px 0 0;
+  margin-bottom: 10px;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 5.5s;
 }
 
 @-webkit-keyframes bounce {
@@ -48,7 +48,8 @@ h1 {
     -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -30px, 0);
-    transform: translate3d(0, -30px, 0); background-color: pink;
+    transform: translate3d(0, -30px, 0);
+    background-color: pink;
   }
 
   70% {
@@ -65,18 +66,18 @@ h1 {
 }
 
 .eyes {
-	display: flex;
+  display: flex;
 }
 
 .upper_body {
-	width: 300px;
-	height: 150px;
-	display: flex;
-	animation-name: jello;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-timing-function: step-end;
-	animation-delay: 5.5s;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  animation-name: jello;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+  animation-delay: 5.5s;
 }
 
 @keyframes jello {
@@ -123,20 +124,21 @@ h1 {
   }
 }
 
-.left_arm, .right_arm {
-	width: 40px;
-	height: 125px;
-	border-radius: 100px;
+.left_arm,
+.right_arm {
+  width: 40px;
+  height: 125px;
+  border-radius: 100px;
 }
 
 .left_arm {
-	margin-right: 10px;
-	animation-name: wobble;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-timing-function: step-end;
-	background-color: pink;
-	animation-delay: 5.5s;
+  margin-right: 10px;
+  animation-name: wobble;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+  background-color: pink;
+  animation-delay: 5.5s;
 }
 
 @keyframes wobble {
@@ -177,13 +179,13 @@ h1 {
 }
 
 .right_arm {
-	margin-left: 10px;
-	animation-name: wobble;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-timing-function: step-end;
-	background-color: pink;
-	animation-delay: 5.5s;
+  margin-left: 10px;
+  animation-name: wobble;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+  background-color: pink;
+  animation-delay: 5.5s;
 }
 
 @keyframes wobble {
@@ -224,39 +226,37 @@ h1 {
 }
 
 .torso {
-	width: 200px;
-	height: 200px;
-	border-radius: 0 0 50px 50px;
-
+  width: 200px;
+  height: 200px;
+  border-radius: 0 0 50px 50px;
 }
 
 .lower_body {
-	width: 200px;
-	height: 200px;
-	/* This is another useful property. Hmm what do you think it does?*/
-	margin: 0 auto;
-
+  width: 200px;
+  height: 200px;
+  /* This is another useful property. Hmm what do you think it does?*/
+  margin: 0 auto;
 }
 
-.left_leg, .right_leg {
-	width: 40px;
-	height: 120px;
-	border-radius: 0 0 100px 100px;
-
+.left_leg,
+.right_leg {
+  width: 40px;
+  height: 120px;
+  border-radius: 0 0 100px 100px;
 }
 
 .left_leg {
-	margin-left: 45px;
-	margin-top: 65px;
-	animation-name: swing;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-	animation-timing-function: step-end;
-	background-color: pink;
-	animation-delay: 5.5s;
-	}
+  margin-left: 45px;
+  margin-top: 65px;
+  animation-name: swing;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+  background-color: pink;
+  animation-delay: 5.5s;
+}
 
-	@keyframes swing {
+@keyframes swing {
   20% {
     -webkit-transform: rotate3d(0, 0, 1, 15deg);
     transform: rotate3d(0, 0, 1, 15deg);
@@ -284,81 +284,81 @@ h1 {
 }
 
 .right_leg {
-	margin-top: -120px;
-	margin-left: 120px;
-	animation-name: swing;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-	animation-timing-function: step-end;
-	background-color: pink;
-	animation-delay: 5.5s;
+  margin-top: -120px;
+  margin-left: 120px;
+  animation-name: swing;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+  background-color: pink;
+  animation-delay: 5.5s;
 }
 
 @keyframes swing {
-20% {
-	-webkit-transform: rotate3d(0, 0, 1, 15deg);
-	transform: rotate3d(0, 0, 1, -15deg);
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, 10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
 }
 
-40% {
-	-webkit-transform: rotate3d(0, 0, 1, -10deg);
-	transform: rotate3d(0, 0, 1, 10deg);
-}
-
-60% {
-	-webkit-transform: rotate3d(0, 0, 1, 5deg);
-	transform: rotate3d(0, 0, 1, -5deg);
-}
-
-80% {
-	-webkit-transform: rotate3d(0, 0, 1, -5deg);
-	transform: rotate3d(0, 0, 1, 5deg);
-}
-
-to {
-	-webkit-transform: rotate3d(0, 0, 1, 0deg);
-	transform: rotate3d(0, 0, 1, 0deg);
-}
-}
-
-.left_eye, .right_eye {
-	width: 20px;
-	height: 20px;
-	border-radius: 15px;
-	background-color: white;
+.left_eye,
+.right_eye {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: white;
 }
 
 .left_eye {
-	/* These properties are new and you haven't encountered
+  /* These properties are new and you haven't encountered
 	in this course. Check out CSS Tricks to see what it does! */
-	position: relative;
-	top: 100px;
-	left: 40px;
+  position: relative;
+  top: 100px;
+  left: 40px;
 }
 
 .right_eye {
-	position: relative;
-	top: 100px;
-	left: 120px;
+  position: relative;
+  top: 100px;
+  left: 120px;
 }
 
 .container {
-	display:flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
-	display: flex;
+  display: flex;
   justify-content: center;
-	color: pink;
-	border: 5px dashed black;
-	font-size: 30px;
-	animation-name: zoomInUp;
-	animation-duration: 3s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
-	background-color: #5f93e8;
-
+  color: pink;
+  border: 5px dashed black;
+  font-size: 30px;
+  animation-name: zoomInUp;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  background-color: #5f93e8;
 }
 
 @keyframes zoomInUp {

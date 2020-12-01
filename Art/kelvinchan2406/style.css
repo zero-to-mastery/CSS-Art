@@ -1,5 +1,5 @@
 body {
-  background-color: #000000; 
+  background-color: #000000;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -7,9 +7,8 @@ body {
   align-items: center;
 }
 
-
 .heart {
-  background-color: #6B0505;
+  background-color: #6b0505;
   display: inline-block;
   height: 300px;
   margin: 0 10px;
@@ -18,11 +17,10 @@ body {
   width: 300px;
 }
 
-
 .heart:before,
 .heart:after {
   content: "";
-  background-color: #6B0505;
+  background-color: #6b0505;
   border-radius: 50%;
   height: 300px;
   position: absolute;
@@ -43,31 +41,23 @@ div {
   animation: heart 1.5s infinite;
 }
 
-@keyframes heart
-{
-  0%
-  {
-    
-    transform: scale( .75 );
+@keyframes heart {
+  0% {
+    transform: scale(0.75);
   }
-  20%
-  {
-    transform: scale( 1 );
+  20% {
+    transform: scale(1);
   }
-  40%
-  {
-    transform: scale( .75 );
+  40% {
+    transform: scale(0.75);
   }
-  60%
-  {
-    transform: scale( 1 );
+  60% {
+    transform: scale(1);
   }
-  80%
-  {
-    transform: scale( .75 );
+  80% {
+    transform: scale(0.75);
   }
-  100%
-  {
-    transform: scale( .75 );
+  100% {
+    transform: scale(0.75);
   }
 }

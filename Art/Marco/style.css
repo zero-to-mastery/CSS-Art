@@ -1,19 +1,17 @@
 body {
-
-background-color: black;
-
+  background-color: black;
 }
 
 .box {
   height: 50px;
   width: 2000px;
-  background-color: #FF5733;
+  background-color: #ff5733;
 }
 
 .box:hover {
   height: 100px;
   width: 2000px;
-  background-color: #FF5733;
+  background-color: #ff5733;
   transform: skew(20deg);
-  background: #FFFD67;
+  background: #fffd67;
 }

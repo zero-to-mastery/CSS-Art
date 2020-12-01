@@ -1,84 +1,84 @@
-#body{
-  background-color: #696D7D;
+#body {
+  background-color: #696d7d;
   border-top: 500px solid #424242;
   margin: 0;
   padding: 0;
 }
 
-h1{
-  font-family: 'Charmonman', cursive;
+h1 {
+  font-family: "Charmonman", cursive;
   margin-top: -450px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-h1 a{
+h1 a {
   text-decoration: none;
 }
 
-a:link, a:visited{
-  color: #D3B32C;
+a:link,
+a:visited {
+  color: #d3b32c;
 }
 
-a:active{
-  color: ##F7D138;
+a:active {
+  color: ##f7d138;
 }
 
-.cup{
+.cup {
   position: absolute;
-  background: #F7D138;
+  background: #f7d138;
   width: 80px;
   height: 200px;
   margin-top: 250px;
   margin-left: 43%;
   border-radius: 5px 5px 15px 15px;
-  border-left: 80px solid #D3B32C;
+  border-left: 80px solid #d3b32c;
 }
 
-
-.handle{
+.handle {
   width: 30px;
   height: 80px;
   margin-top: 35px;
   margin-left: 60px;
   border-radius: 0 15px 15px 0;
-  border: 20px solid #F7D138;
+  border: 20px solid #f7d138;
 }
 
-.j{
+.j {
   width: 30px;
   height: 80px;
   position: absolute;
   background: transparent;
   margin-left: -60px;
   margin-top: 50px;
-  border-right: 20px solid #EBEDEE;
-  border-bottom: 20px solid #EBEDEE;
+  border-right: 20px solid #ebedee;
+  border-bottom: 20px solid #ebedee;
 }
 
-.upperS{
+.upperS {
   width: 30px;
   height: 27px;
   position: absolute;
   background: transparent;
   margin-top: 50px;
   margin-left: 10px;
-  border-top: 20px solid #FFFFFF;
-  border-left: 20px solid #FFFFFF;
+  border-top: 20px solid #ffffff;
+  border-left: 20px solid #ffffff;
 }
-.lowerS{
+.lowerS {
   width: 30px;
   height: 13px;
   position: absolute;
   background: transparent;
   margin-top: 97px;
   margin-left: 10px;
-  border-bottom: 20px solid #FFFFFF;
-  border-top: 20px solid #FFFFFF;
-  border-right: 20px solid #FFFFFF;
+  border-bottom: 20px solid #ffffff;
+  border-top: 20px solid #ffffff;
+  border-right: 20px solid #ffffff;
 }
 
-ul{
+ul {
   margin-left: -180px;
   padding: 0;
   position: absolute;
@@ -87,42 +87,42 @@ ul{
   width: 200px;
 }
 
-ul li{
+ul li {
   list-style: none;
   width: 2px;
   height: 60px;
-  background: #FFFFFF;
+  background: #ffffff;
   float: left;
   margin: 15px;
   animation: animate 2s infinite linear;
   filter: blur(3px);
 }
 
-@keyframes animate{
-  0%{
+@keyframes animate {
+  0% {
     transform: translateY(0);
     opacity: 1;
     filter: blur(3px);
   }
-  100%{
+  100% {
     transform: translateY(-100px);
     opacity: 0;
     filter: blur(5px);
   }
 }
 
-ul li:nth-child(1){
+ul li:nth-child(1) {
   animation-delay: 0.5s;
 }
-ul li:nth-child(2){
+ul li:nth-child(2) {
   animation-delay: 0.6s;
 }
-ul li:nth-child(3){
+ul li:nth-child(3) {
   animation-delay: 0.2s;
 }
-ul li:nth-child(4){
+ul li:nth-child(4) {
   animation-delay: 0.4s;
 }
-ul li:nth-child(5){
+ul li:nth-child(5) {
   animation-delay: 0.1s;
 }

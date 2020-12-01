@@ -13,10 +13,10 @@ body {
   align-content: center;
 }
 
-.lambda__main{
+.lambda__main {
   display: flex;
   justify-content: center;
-  border: 60px solid #F59A22;
+  border: 60px solid #f59a22;
   border-radius: 50%;
   width: 500px;
   height: 500px;
@@ -27,7 +27,7 @@ body {
 .lambda__leg,
 .lambda__edge--top,
 .lambda__edge--bottom {
-  background-color: #F59A22;
+  background-color: #f59a22;
   width: 60px;
 }
 

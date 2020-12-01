@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 body {
-  background: #FEEE9D;
+  background: #feee9d;
 }
 * {
   position: absolute;
@@ -19,7 +19,7 @@ body {
   top: 50%;
   left: 50%;
   border-radius: 50%;
-  background-color: #FBD671;
+  background-color: #fbd671;
 }
 .face {
   width: 150px;
@@ -32,9 +32,9 @@ body {
   height: 75px;
   bottom: 0;
   left: 0;
-  background-color: #20184E;
+  background-color: #20184e;
   border-radius: 10px 10px 150px 150px;
-  border: 5px solid #20184E;
+  border: 5px solid #20184e;
 }
 .eye-group {
   width: 150px;
@@ -43,7 +43,7 @@ body {
   left: 0;
 }
 .eye {
-  background-color: #20184E;
+  background-color: #20184e;
   width: 30px;
   height: 50px;
   border-radius: 50%;

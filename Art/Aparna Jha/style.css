@@ -1,159 +1,158 @@
-.heart{
-	position: relative;
-	background-color: #FF1493;
-	height: 33px;
-	transform: rotate(45deg);
-	width: 33px;
-	margin-left: 48%;
-	top: 350px;
-	border-radius: 4px 4px 0px 4px;
-	animation-name: example;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
-.heart1{
-	position: absolute;
-	background-color: #FF1493;
-	height: 30px;
-	width: 30px;
-	border-radius: 50%;
-	/*border: 1px solid black;*/
-	top: -14px;
-	left:2.5px;
-	animation-name: moving;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-
-}
-.heart2{
-	position: absolute;
-	background-color: #FF1493;
-	height: 30px;
-	width: 30px;
-	border-radius: 50%;
-	/*border: 1px solid black;*/
-	top: 2px;
-	right: 18px;
-	animation-name: moving;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
-
-@keyframes example{
-	from{
-		top:350px; background-color: #FF1493;
-	}
-	to{
-		top:50px; background-color: #9400D3;
-	}
-}
-
-@keyframes moving{
-	from{
-		background-color: #FF1493;
-	}
-	to{
-		background-color: #9400D3;
-	}
-}
-
-
-.div1{
+.heart {
   position: relative;
-  width:26px;
-  height:80px;
-  background-color: #FAEBD7;
+  background-color: #ff1493;
+  height: 33px;
+  transform: rotate(45deg);
+  width: 33px;
+  margin-left: 48%;
+  top: 350px;
+  border-radius: 4px 4px 0px 4px;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.heart1 {
+  position: absolute;
+  background-color: #ff1493;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  /*border: 1px solid black;*/
+  top: -14px;
+  left: 2.5px;
+  animation-name: moving;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.heart2 {
+  position: absolute;
+  background-color: #ff1493;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  /*border: 1px solid black;*/
+  top: 2px;
+  right: 18px;
+  animation-name: moving;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  from {
+    top: 350px;
+    background-color: #ff1493;
+  }
+  to {
+    top: 50px;
+    background-color: #9400d3;
+  }
+}
+
+@keyframes moving {
+  from {
+    background-color: #ff1493;
+  }
+  to {
+    background-color: #9400d3;
+  }
+}
+
+.div1 {
+  position: relative;
+  width: 26px;
+  height: 80px;
+  background-color: #faebd7;
   margin: auto;
   top: 380px;
   border-radius: 25px;
   transform: rotate(40deg);
   border: 2px solid black;
-
 }
 
-.div2{
-	position: absolute;
-	height:75px;
-	width: 25px;
-	background-color: #FAEBD7;
-	top:20px;
-	right: 10px;
-	border-radius: 25px;
-	transform: rotate(-90deg);
-	border: 2px solid black;
-
+.div2 {
+  position: absolute;
+  height: 75px;
+  width: 25px;
+  background-color: #faebd7;
+  top: 20px;
+  right: 10px;
+  border-radius: 25px;
+  transform: rotate(-90deg);
+  border: 2px solid black;
 }
 
-.div3{
-	position: absolute;
-	height: 40px;
-	width: 19px;
-	background-color: #FAEBD7;
-	top: 57px;
-	left: 1px;
-	border: 1px solid black;
-	border-radius: 23px;
-	transform: rotate(-90deg);
-	border-top: 2px solid black;
-	border-bottom-color: #FAEBD7;
-	border-left-color: #FAEBD7;
+.div3 {
+  position: absolute;
+  height: 40px;
+  width: 19px;
+  background-color: #faebd7;
+  top: 57px;
+  left: 1px;
+  border: 1px solid black;
+  border-radius: 23px;
+  transform: rotate(-90deg);
+  border-top: 2px solid black;
+  border-bottom-color: #faebd7;
+  border-left-color: #faebd7;
 }
-.div4{
-	position: absolute;
-	height: 40px;
-	width: 19px;
-	background-color: #FAEBD7;
-	top: 74px;
-	left:6px;
-	border: 1px solid black;
-	border-radius: 23px;
-	transform: rotate(-90deg);
-	border-top: 2px solid black;
-	border-bottom-color: #FAEBD7;
-	border-left-color: #FAEBD7;
-
+.div4 {
+  position: absolute;
+  height: 40px;
+  width: 19px;
+  background-color: #faebd7;
+  top: 74px;
+  left: 6px;
+  border: 1px solid black;
+  border-radius: 23px;
+  transform: rotate(-90deg);
+  border-top: 2px solid black;
+  border-bottom-color: #faebd7;
+  border-left-color: #faebd7;
 }
-.div5{
-	position: absolute;
-	height: 88px;
-	width: 73px;
-	background-color: #FAEBD7;
-	top: 37px;
-	left: 4px;
-	transform: rotate(-90deg);
-	border-radius: 25px 0px 25px 25px;
-	border: 2px outset black;
-	border-top-color: #FAEBD7;
+.div5 {
+  position: absolute;
+  height: 88px;
+  width: 73px;
+  background-color: #faebd7;
+  top: 37px;
+  left: 4px;
+  transform: rotate(-90deg);
+  border-radius: 25px 0px 25px 25px;
+  border: 2px outset black;
+  border-top-color: #faebd7;
 }
-.div6{
-	position: absolute;
-	height: 40px;
-	width:19px;
-	background-color: #FAEBD7;
-	top: 90px;
-	left:12px;
-	border: 1px solid black;
-	border-radius: 23px;
-	transform: rotate(-90deg);
-	border-top: 2px solid black;
-	border-bottom: #FAEBD7;
-	border-left-color: #FAEBD7;
-}
-
-body{
-	background-color: lavender;
-  	animation-name: change;
-  	animation-duration: 2s;
-  	animation-direction: alternate;
-  	animation-iteration-count: infinite;
+.div6 {
+  position: absolute;
+  height: 40px;
+  width: 19px;
+  background-color: #faebd7;
+  top: 90px;
+  left: 12px;
+  border: 1px solid black;
+  border-radius: 23px;
+  transform: rotate(-90deg);
+  border-top: 2px solid black;
+  border-bottom: #faebd7;
+  border-left-color: #faebd7;
 }
 
-@keyframes change{
-	from{background-color: lavender;}
-	to{
-		background-color: pink;
-	}
+body {
+  background-color: lavender;
+  animation-name: change;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change {
+  from {
+    background-color: lavender;
+  }
+  to {
+    background-color: pink;
+  }
 }

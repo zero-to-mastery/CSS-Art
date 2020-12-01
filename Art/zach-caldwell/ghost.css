@@ -6,13 +6,13 @@ body,
 
 body {
   background-color: #d35400;
-  font-family: 'Playfair Display SC', serif;
+  font-family: "Playfair Display SC", serif;
 }
 
 /*height of wave = h = 50px*/
 .boo:before,
 .boo:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
