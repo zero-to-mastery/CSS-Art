@@ -1,6 +1,6 @@
 body {
   background: #0f0000;
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
 }
 
 .calabera {
@@ -26,7 +26,6 @@ body {
   transform: translate(-50%, -50%);
 }
 
-
 .calabera__front--flowers .flower1 {
   width: 30px;
   height: 30px;
@@ -39,7 +38,7 @@ body {
 }
 
 .calabera__front--flowers .flower2,
-.calabera__front--flowers .flower3, 
+.calabera__front--flowers .flower3,
 .calabera__front--flowers .flower4,
 .calabera__front--flowers .flower5,
 .calabera__front--flowers .flower6 {
@@ -49,7 +48,6 @@ body {
   background: #e40a8a;
   border-radius: 50%;
   z-index: 2000000;
-  
 }
 
 .calabera__front--flowers .flower2 {
@@ -90,7 +88,7 @@ body {
   top: 300px;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fefdfe; 
+  background-color: #fefdfe;
 }
 
 .maxilar__flower.right,
@@ -107,7 +105,7 @@ body {
 
 .maxilar__flower.left {
   right: -272px;
-  top: 125px
+  top: 125px;
 }
 
 .maxilar__flower.right .first,
@@ -131,7 +129,6 @@ body {
   left: 20px;
   top: -18px;
   transform: rotate(90deg);
-  
 }
 
 .calabera__eyes--left {
@@ -183,40 +180,39 @@ body {
 }
 .calabera__nose::before,
 .calabera__nose::after {
-    position: absolute;
-    content: "";
-    left: 50px;
-    top: 10;
-    width: 50px;
-    height: 74px;
-    background: #0c014b;
-    -moz-border-radius: 30px 30px 0 0;
-    border-radius: 30px 30px 0 0;
-    -webkit-transform: rotate(-230deg);
-       -moz-transform: rotate(-230deg);
-        -ms-transform: rotate(-230deg);
-         -o-transform: rotate(-230deg);
-            transform: rotate(-230deg);
-    -webkit-transform-origin: 0 100%;
-       -moz-transform-origin: 0 100%;
-        -ms-transform-origin: 0 100%;
-         -o-transform-origin: 0 100%;
-            transform-origin: 0 100%;
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 10;
+  width: 50px;
+  height: 74px;
+  background: #0c014b;
+  -moz-border-radius: 30px 30px 0 0;
+  border-radius: 30px 30px 0 0;
+  -webkit-transform: rotate(-230deg);
+  -moz-transform: rotate(-230deg);
+  -ms-transform: rotate(-230deg);
+  -o-transform: rotate(-230deg);
+  transform: rotate(-230deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
 }
 .calabera__nose::after {
-    left: 0;
-    -webkit-transform: rotate(230deg);
-       -moz-transform: rotate(230deg);
-        -ms-transform: rotate(230deg);
-         -o-transform: rotate(230deg);
-            transform: rotate(230deg);
-    -webkit-transform-origin: 100% 100%;
-       -moz-transform-origin: 100% 100%;
-        -ms-transform-origin: 100% 100%;
-         -o-transform-origin: 100% 100%;
-            transform-origin :100% 100%;
+  left: 0;
+  -webkit-transform: rotate(230deg);
+  -moz-transform: rotate(230deg);
+  -ms-transform: rotate(230deg);
+  -o-transform: rotate(230deg);
+  transform: rotate(230deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
 }
-
 
 .calabera__mouth--top {
   position: absolute;
@@ -312,7 +308,7 @@ body {
 .calabera__tooth--bottom.tooth2 {
   position: absolute;
   top: 0;
-  left: 32px; 
+  left: 32px;
   height: 36px;
   border-bottom-left-radius: 17px;
   border-bottom-right-radius: 10px;
@@ -374,16 +370,17 @@ body {
   -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: translateX(0);
   }
   50% {
     -webkit-transform: translateX(-80px);
-    
   }
 }
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateX(0);
   }
   50% {

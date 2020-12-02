@@ -30,7 +30,7 @@ body {
 
 .body::after {
   clip-path: circle(50% at 50% 0%);
-  content: '';
+  content: "";
   height: 300px;
   width: 294px;
   background-color: red;
@@ -56,14 +56,14 @@ body {
   height: 94px;
   width: 94px;
   position: absolute;
-  content: '';
+  content: "";
   top: 7px;
   left: 3px;
 }
 
 .eye {
   clip-path: ellipse(20% 50% at 50% 50%);
-  background-color:black;
+  background-color: black;
   height: 30px;
   width: 30px;
   position: absolute;

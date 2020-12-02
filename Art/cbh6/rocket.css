@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  font-family: 'Koho', serif;
+  font-family: "Koho", serif;
   text-align: center;
   color: #ffdbdb;
 }
@@ -53,12 +53,14 @@ a:active {
 }
 
 .stars {
-  background: rgb(0, 0, 0) url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat
-    top center;
+  background: rgb(0, 0, 0)
+    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+    center;
 }
 
 .twinkling {
-  background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat
+  background: transparent
+    url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat
     top center;
   -moz-animation: move-twink-back 400s linear infinite;
   -ms-animation: move-twink-back 400s linear infinite;
@@ -202,7 +204,7 @@ a:active {
 
 /* Propulsion */
 
-ul{
+ul {
   position: absolute;
   transform: translateX(50%);
   width: 200px;
@@ -212,57 +214,56 @@ ul{
   left: 6%;
 }
 
-ul li{
+ul li {
   list-style: none;
   width: 1px;
   height: 25px;
-  background: #FFFFFF;
+  background: #ffffff;
   float: left;
   margin: 15px;
   animation: animate 1s infinite linear;
 }
 
-@keyframes animate{
-  0%{
+@keyframes animate {
+  0% {
     transform: translateY(0);
     opacity: 1;
     filter: blur(2px);
   }
-  100%{
+  100% {
     transform: translateY(200px);
     opacity: 0;
     filter: blur(5px);
   }
 }
 
-ul li:nth-child(2){
+ul li:nth-child(2) {
   animation-delay: -0.15s;
 }
-ul li:nth-child(3){
+ul li:nth-child(3) {
   animation-delay: -0.25s;
 }
-ul li:nth-child(4){
+ul li:nth-child(4) {
   animation-delay: -0.35s;
 }
-ul li:nth-child(5){
+ul li:nth-child(5) {
   animation-delay: -0.45s;
 }
-ul li:nth-child(6){
+ul li:nth-child(6) {
   animation-delay: -0.55s;
 }
-ul li:nth-child(7){
+ul li:nth-child(7) {
   animation-delay: -0.65s;
 }
-ul li:nth-child(8){
+ul li:nth-child(8) {
   animation-delay: -0.75s;
 }
-ul li:nth-child(9){
+ul li:nth-child(9) {
   animation-delay: -0.85s;
 }
-ul li:nth-child(10){
+ul li:nth-child(10) {
   animation-delay: -0.95s;
 }
-
 
 /* Planets -------------------------------------------
 ------------------------------------------------------ */
@@ -278,7 +279,8 @@ ul li:nth-child(10){
   background: rgb(126, 44, 44);
   border-radius: 50%;
   z-index: -10;
-  box-shadow: 0 0 5px rgb(153, 45, 45), 0 0 10px #ca7c7c, 0 0 90px rgb(192, 120, 120);
+  box-shadow: 0 0 5px rgb(153, 45, 45), 0 0 10px #ca7c7c,
+    0 0 90px rgb(192, 120, 120);
 }
 .planet2 {
   left: 36.5%;
@@ -288,7 +290,8 @@ ul li:nth-child(10){
   border-radius: 50%;
   z-index: -10;
   top: 15%;
-  box-shadow: 0 0 5px white, 0 0 10px #1e2d49, 0 0 90px rgba(255, 255, 255, 0.692);
+  box-shadow: 0 0 5px white, 0 0 10px #1e2d49,
+    0 0 90px rgba(255, 255, 255, 0.692);
 }
 
 .planet3 {
@@ -298,7 +301,8 @@ ul li:nth-child(10){
   top: 70%;
   background: rgb(177, 177, 116);
   border-radius: 50%;
-  box-shadow: 0 0 5px rgba(108, 114, 31, 0.733), 0 0 10px #c7b75a, 0 0 90px rgb(163, 165, 73);
+  box-shadow: 0 0 5px rgba(108, 114, 31, 0.733), 0 0 10px #c7b75a,
+    0 0 90px rgb(163, 165, 73);
 }
 
 .planet4 {
@@ -308,7 +312,8 @@ ul li:nth-child(10){
   background: lightblue;
   border-radius: 50%;
   top: 40%;
-  box-shadow: 0 0 5px rgb(49, 122, 218), 0 0 10px #8d99af, 0 0 90px rgba(102, 179, 172, 0.774);
+  box-shadow: 0 0 5px rgb(49, 122, 218), 0 0 10px #8d99af,
+    0 0 90px rgba(102, 179, 172, 0.774);
 }
 
 .planet5 {
@@ -318,7 +323,8 @@ ul li:nth-child(10){
   background: rgb(103, 151, 103);
   border-radius: 50%;
   top: 27%;
-  box-shadow: 0 0 5px rgb(39, 114, 39), 0 0 10px #539645, 0 0 90px rgba(123, 158, 90, 0.925);
+  box-shadow: 0 0 5px rgb(39, 114, 39), 0 0 10px #539645,
+    0 0 90px rgba(123, 158, 90, 0.925);
 }
 
 @keyframes aplanet {

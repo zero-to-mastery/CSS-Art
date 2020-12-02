@@ -1,207 +1,190 @@
-body{    
-    width: 100%;
-    height: 100%;
-       
+body {
+  width: 100%;
+  height: 100%;
 }
 
-.grid  {    
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));    
-         
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-.container  {
-    width: 100%;
-    height: 200px;
-   
-} 
-
-
-
-
-
-
-
-
-
-
+.container {
+  width: 100%;
+  height: 200px;
+}
 
 .line {
-    margin: auto;
-    border-radius: 10px;
+  margin: auto;
+  border-radius: 10px;
 }
-
-
 
 /* Letter Z */
 .one {
-    position: relative;
-    top: 10px;    
-    background-color: blue;
-    width: 180px;
-    height: 50px;
-    
-    color: transparent;
-    
+  position: relative;
+  top: 10px;
+  background-color: blue;
+  width: 180px;
+  height: 50px;
+
+  color: transparent;
 }
 
 .two {
-    position: relative;
-    top: 20px;    
-    background-color: yellow;
-    width: 200px;
-    height: 50px;
-    transform: rotate(-40deg);
-    color: transparent;
+  position: relative;
+  top: 20px;
+  background-color: yellow;
+  width: 200px;
+  height: 50px;
+  transform: rotate(-40deg);
+  color: transparent;
 }
-
 
 .three {
-    position: relative;
-    top: 40px;    
-    background-color: red;
-    width: 180px;
-    height: 50px;
-    color: transparent;
+  position: relative;
+  top: 40px;
+  background-color: red;
+  width: 180px;
+  height: 50px;
+  color: transparent;
 }
 
-.one, .two, .three{
-    animation-name: zero ;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+.one,
+.two,
+.three {
+  animation-name: zero;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes zero {
-    0% {
+  0% {
     background-color: blue;
     top: 0px;
-}
-    50% {
+  }
+  50% {
     background-color: green;
     left: 50px;
-}
-    50% {
+  }
+  50% {
     background-color: red;
     right: 100px;
- }
+  }
 }
 
 /* Letter T */
 
 .four {
-    position: relative;
-    top: 10px;
-    
-    background-color: tomato;
-    width: 200px;
-    height: 50px;
-    color: transparent;
-    z-index: 2;
-    
+  position: relative;
+  top: 10px;
+
+  background-color: tomato;
+  width: 200px;
+  height: 50px;
+  color: transparent;
+  z-index: 2;
 }
 
 .five {
-    position: relative;
-    top: 25px;
-        
-    background-color: yellowgreen;
-    width: 173px;
-    height: 50px;
-    transform: rotate(90deg);
-    color: transparent;
-    z-index: 1;
+  position: relative;
+  top: 25px;
+
+  background-color: yellowgreen;
+  width: 173px;
+  height: 50px;
+  transform: rotate(90deg);
+  color: transparent;
+  z-index: 1;
 }
 
-.four, .five {
-    animation-name: to ;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    
+.four,
+.five {
+  animation-name: to;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes to {
-    0% {
+  0% {
     transform: rotate(360deg);
-    background-color: red;      
-}
-    50% {
-    transform: scale(0.2);    
+    background-color: red;
+  }
+  50% {
+    transform: scale(0.2);
     background-color: orange;
-    
-}
-    50% {
-    transform: scale(0.5);    
+  }
+  50% {
+    transform: scale(0.5);
     background-color: yellowgreen;
-    
-}
+  }
 }
 
 /* Letter M */
 
 .six {
-    position: relative;
-    top: 70px;
-    left: -75px; 
-    background-color: lightcoral;
-    width: 180px;
-    height: 50px;
-    transform: rotate(90deg);
-    color: transparent;
-    z-index: 2;
+  position: relative;
+  top: 70px;
+  left: -75px;
+  background-color: lightcoral;
+  width: 180px;
+  height: 50px;
+  transform: rotate(90deg);
+  color: transparent;
+  z-index: 2;
 }
 
 .seven {
-    position: relative;
-    left: -40px;
-    bottom: 10px;
-    background-color: burlywood; 
-    width: 120px;
-    height: 40px;
-    transform: rotate(40deg);
-    color: transparent;
+  position: relative;
+  left: -40px;
+  bottom: 10px;
+  background-color: burlywood;
+  width: 120px;
+  height: 40px;
+  transform: rotate(40deg);
+  color: transparent;
 }
 
 .eight {
-    position: relative;
-    left: 30px;
-    bottom: 43px;
-    background-color: wheat;
-    width: 120px;
-    height: 40px;
-    transform: rotate(-50deg);
-    color: transparent;
+  position: relative;
+  left: 30px;
+  bottom: 43px;
+  background-color: wheat;
+  width: 120px;
+  height: 40px;
+  transform: rotate(-50deg);
+  color: transparent;
 }
 
 .nine {
-    position: relative;
-    left: 70px;
-    bottom: 60px;
-    background-color: gold; 
-    width: 180px;
-    height: 50px;
-    transform: rotate(90deg);
-    color: transparent;
+  position: relative;
+  left: 70px;
+  bottom: 60px;
+  background-color: gold;
+  width: 180px;
+  height: 50px;
+  transform: rotate(90deg);
+  color: transparent;
 }
 
-.six, .seven, .eight, .nine {
-    animation-name: master ;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-
+.six,
+.seven,
+.eight,
+.nine {
+  animation-name: master;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes master {
-    0% {
+  0% {
     transform: rotate(360deg);
-    background-color: red;      
-}
-    50% {
+    background-color: red;
+  }
+  50% {
     background-color: orange;
     left: 50px;
-}
-    50% {      
+  }
+  50% {
     background-color: gold;
     left: 0px;
-}
-    
+  }
 }

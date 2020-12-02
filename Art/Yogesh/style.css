@@ -1,12 +1,12 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background: #272727;
-  color:#fff;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,20 +14,20 @@ body{
   height: 95vh;
 }
 
-.charger{
+.charger {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.charger-body{
+.charger-body {
   height: 80px;
   width: 190px;
-  border:4px solid;
+  border: 4px solid;
   border-radius: 5px;
 }
 
-.elements{
+.elements {
   width: 100%;
   height: 100%;
   display: flex;
@@ -36,83 +36,78 @@ body{
   align-items: center;
 }
 
-.elements span{
+.elements span {
   width: 20px;
   height: 90%;
   margin-left: 2px;
   background: rgb(38, 136, 223);
 }
 
-.charger-head{
+.charger-head {
   height: 30px;
   width: 10px;
   border-top: 2px solid;
-  border-bottom:2px solid;
+  border-bottom: 2px solid;
   border-right: 2px solid;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
-.one{
+.one {
   animation-name: animate;
   animation-duration: 1.6s;
   animation-delay: 0s;
   animation-iteration-count: infinite;
 }
-.two{
+.two {
   animation-name: animate;
   animation-duration: 1.6s;
   animation-delay: 0.2s;
   animation-iteration-count: infinite;
 }
-.three{
+.three {
   animation-name: animate;
   animation-duration: 1.6s;
   animation-delay: 0.4s;
   animation-iteration-count: infinite;
 }
-.four{
+.four {
   animation-name: animate;
   animation-duration: 1.6s;
   animation-delay: 0.6s;
   animation-iteration-count: infinite;
 }
-.five{
+.five {
   animation-name: animate;
   animation-duration: 1.6s;
   animation-delay: 0.8s;
   animation-iteration-count: infinite;
 }
-.six{
+.six {
   animation-name: animate;
   animation-duration: 1.6s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
 }
-.seven{
+.seven {
   animation-name: animate;
   animation-duration: 1.6s;
   animation-delay: 1.2s;
   animation-iteration-count: infinite;
 }
 
-.eight{
+.eight {
   animation-name: animate;
   animation-duration: 1.6s;
   animation-delay: 1.4s;
   animation-iteration-count: infinite;
 }
 
-
-
-
-
-
 @keyframes animate {
-  from{
+  from {
     background-color: rgb(38, 136, 223);
   }
-  to{
+  to {
     background-color: black;
   }
 }

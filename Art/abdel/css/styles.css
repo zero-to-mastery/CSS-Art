@@ -1,127 +1,149 @@
-body{
-	background: #353535;
+body {
+  background: #353535;
 }
-#title{
-	margin: 30px 0 5px 0;
-	text-align: center;
-	font-style: "Times New Roman";
-	font-size: 4em;
-	font-weight: bold;
-	color: #fff;
-	text-shadow: 3px 3px 30px #81F1F2;
+#title {
+  margin: 30px 0 5px 0;
+  text-align: center;
+  font-style: "Times New Roman";
+  font-size: 4em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 3px 3px 30px #81f1f2;
 }
-#maker{
-	margin: 0px 0 50px 0;
-	text-align: center;
-	font-style: "Times New Roman";
-	font-size: 2em;
-	font-weight: bold;
-	color: #F7FF16;
-	text-shadow: 3px 3px 20px #81F1F2;	
+#maker {
+  margin: 0px 0 50px 0;
+  text-align: center;
+  font-style: "Times New Roman";
+  font-size: 2em;
+  font-weight: bold;
+  color: #f7ff16;
+  text-shadow: 3px 3px 20px #81f1f2;
 }
-#maker>a{
-	cursor: pointer;
-	text-decoration: none;
-	color: #ccc;
-	margin-left: 10px;
+#maker > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ccc;
+  margin-left: 10px;
 }
-#maker>a::visited{
-	color: #ccc;
+#maker > a::visited {
+  color: #ccc;
 }
-#maker>a>i:before {
-    content: "\f113";
-    margin: 5px;
+#maker > a > i:before {
+  content: "\f113";
+  margin: 5px;
 }
 
-.box{
-	width: 300px;
-	height: 150px;
-	margin: 0 auto;
-	margin-top: 30px; 
-	cursor: pointer;
+.box {
+  width: 300px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 30px;
+  cursor: pointer;
 
-	color: #fff;
-	font-style: "Times New Roman";
-	font-size: 2em;
-	font-style: italic;
-	
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-	position: relative;
+  color: #fff;
+  font-style: "Times New Roman";
+  font-size: 2em;
+  font-style: italic;
 
-	transform: translateX(0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  transform: translateX(0);
 }
 
 /*First Animation, Arrow from left*/
-.anim1{
-	background: rgb(11, 134, 234);
+.anim1 {
+  background: rgb(11, 134, 234);
 }
-.anim1:before{
-	content: '';
-	transition-duration: 0.4s; 
+.anim1:before {
+  content: "";
+  transition-duration: 0.4s;
 
-	border-style: solid;
-	border-width:  25px 25px 25px 0;
-	border-color: transparent rgb(11, 134, 234) transparent transparent;
+  border-style: solid;
+  border-width: 25px 25px 25px 0;
+  border-color: transparent rgb(11, 134, 234) transparent transparent;
 
-	position: absolute;
-	top:50px;
-	left:0;
+  position: absolute;
+  top: 50px;
+  left: 0;
 }
-.anim1:hover:before{
-	left: -22px;
+.anim1:hover:before {
+  left: -22px;
 }
 
 /*Second Animation, Arrow from Top*/
-.anim2:before{
-	content: '';
-	transition-duration: 0.4s; 
+.anim2:before {
+  content: "";
+  transition-duration: 0.4s;
 
-	border-style: solid;
-	border-width:  0px 25px 25px 25px;
-	border-color: transparent transparent rgb(143, 205, 50) transparent;
-	
-	position: absolute;
-	top:0;
-	left:40%;
+  border-style: solid;
+  border-width: 0px 25px 25px 25px;
+  border-color: transparent transparent rgb(143, 205, 50) transparent;
+
+  position: absolute;
+  top: 0;
+  left: 40%;
 }
-.anim2:hover:before{
-	top: -22px;
+.anim2:hover:before {
+  top: -22px;
 }
-.anim2{
-	transition-duration: 0.4s; 
-	background: rgb(143, 205, 50);
+.anim2 {
+  transition-duration: 0.4s;
+  background: rgb(143, 205, 50);
 }
-.anim2:hover{
-	transform: translateY(15px);
+.anim2:hover {
+  transform: translateY(15px);
 }
 
 /*Third Animation*/
-.anim3{
-	background: -webkit-linear-gradient(left, rgb(11, 134, 234), rgb(143, 205, 50));
-	background: -o-linear-gradient(left, rgb(11, 134, 234), rgb(143, 205, 50));
-	background: linear-gradient(to right, rgb(11, 134, 234), rgb(143, 205, 50));
+.anim3 {
+  background: -webkit-linear-gradient(
+    left,
+    rgb(11, 134, 234),
+    rgb(143, 205, 50)
+  );
+  background: -o-linear-gradient(left, rgb(11, 134, 234), rgb(143, 205, 50));
+  background: linear-gradient(to right, rgb(11, 134, 234), rgb(143, 205, 50));
 }
-.anim3:before{
-	content: '';
-	background: red;
-	
-	width: 0px;
-	height: 0px;
+.anim3:before {
+  content: "";
+  background: red;
 
-	position: absolute;
-	bottom: 0;
-	left: 0;
+  width: 0px;
+  height: 0px;
 
-	background: -webkit-linear-gradient(bottom left, #fff 45%, #aaa 50%, #ccc 60%, #fff);
-	background: -o-linear-gradient(bottom left, #fff 45%, #aaa 50%, #ccc 60%, #fff);
-	background: linear-gradient(to top right, #353535 45%, #aaa 50%, #ccc 60%, #fff);
+  position: absolute;
+  bottom: 0;
+  left: 0;
 
-	transition-duration: 0.4s;
+  background: -webkit-linear-gradient(
+    bottom left,
+    #fff 45%,
+    #aaa 50%,
+    #ccc 60%,
+    #fff
+  );
+  background: -o-linear-gradient(
+    bottom left,
+    #fff 45%,
+    #aaa 50%,
+    #ccc 60%,
+    #fff
+  );
+  background: linear-gradient(
+    to top right,
+    #353535 45%,
+    #aaa 50%,
+    #ccc 60%,
+    #fff
+  );
+
+  transition-duration: 0.4s;
 }
-.anim3:hover:before{
-	width: 50px;
-	height: 50px;
+.anim3:hover:before {
+  width: 50px;
+  height: 50px;
 }

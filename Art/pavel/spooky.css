@@ -1,12 +1,16 @@
-html, body, * {  padding:0;margin:0;}
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   overflow: hidden;
-  background: #1B1A19;
+  background: #1b1a19;
 }
 
 .sparks {
-
   position: absolute;
   width: 100%;
   height: 100%;
@@ -17,14 +21,30 @@ body {
 }
 
 @keyframes spooky-sparks {
-  0% {opacity: 0.1;}
-  5% {opacity: 1}
-  6%{opacity: 0}
-  15% {opacity: .1}
-  16%{opacity: 1}
-  17%{opacity: 0}
-  99%{opacity: .1}
-  100%{opacity: 1}
+  0% {
+    opacity: 0.1;
+  }
+  5% {
+    opacity: 1;
+  }
+  6% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.1;
+  }
+  16% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 h1 {
@@ -32,17 +52,22 @@ h1 {
   padding-top: 30px;
   margin-bottom: 50px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.robots {}
-
- .torso, .left_leg, .right_leg {
-  background-color: #1B1A19;
+.robots {
 }
 
-.head, .left_arm, .right_arm {
-  background-color: #FF5733;
+.torso,
+.left_leg,
+.right_leg {
+  background-color: #1b1a19;
+}
+
+.head,
+.left_arm,
+.right_arm {
+  background-color: #ff5733;
 }
 
 .head {
@@ -53,10 +78,13 @@ h1 {
   height: 150px;
   border-radius: 200px 200px 25px 25px;
   margin-bottom: 10px;
-  
 }
 
-.teeth {position: relative;left: 0;transition: all .3s ease-in-out;}
+.teeth {
+  position: relative;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
 .tooth {
   display: inline-block;
   position: absolute;
@@ -64,7 +92,8 @@ h1 {
   width: 20px;
   height: 70px;
   top: -20px;
-  border-radius: 100%;z-index:-1;
+  border-radius: 100%;
+  z-index: -1;
 }
 .tooth:nth-of-type(1) {
   left: 30px;
@@ -89,7 +118,8 @@ h1 {
   width: 200px;
   height: 100px;
   top: -40px;
-  border-radius: 100%;z-index:-2;
+  border-radius: 100%;
+  z-index: -2;
 }
 .horns:before {
   position: absolute;
@@ -100,7 +130,7 @@ h1 {
   top: -10px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #1B1A19;
+  background-color: #1b1a19;
   border-radius: 50%;
 }
 
@@ -124,7 +154,7 @@ h1 {
   height: 60px;
   background: black;
   top: 0px;
-  box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
 }
 .upper_body:after {
   z-index: -3;
@@ -143,7 +173,8 @@ h1 {
 .upper_body .button {
   position: absolute;
   background-color: rgb(97, 11, 11);
-  width: 16px;height: 16px;
+  width: 16px;
+  height: 16px;
   left: 50%;
   top: 35px;
   border-radius: 50%;
@@ -152,15 +183,18 @@ h1 {
 .upper_body .button:after {
   content: "";
   display: inline-block;
-  width: 12px;height: 12px;
+  width: 12px;
+  height: 12px;
   position: absolute;
-  top: 50%;left:50%;
-  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: #8f211f;
   border-radius: 50%;
 }
 
-.left_arm, .right_arm {
+.left_arm,
+.right_arm {
   width: 40px;
   height: 125px;
   border-radius: 100px;
@@ -171,7 +205,6 @@ h1 {
   transform-origin: 50% 10%;
   -webkit-backface-visibility: hidden;
 }
-
 
 .right_arm {
   margin-left: 10px;
@@ -193,7 +226,8 @@ h1 {
   display: flex;
 }
 
-.left_leg, .right_leg {
+.left_leg,
+.right_leg {
   background-color: #aa0d0d;
   width: 40px;
   height: 120px;
@@ -208,7 +242,8 @@ h1 {
   margin-left: 30px;
 }
 
-.left_eye, .right_eye {
+.left_eye,
+.right_eye {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -246,6 +281,16 @@ h1 {
   top: 65%;
   border-radius: 100%;
 }
-.head:hover {top: 10px;transition: all 1s ease-in-out;}
-.head:hover .iris:before {top: 50%;transition: top .5s ease-in;cursor: pointer;}
-.head:hover .teeth {left:15px;transition: all .3s ease-in-out;}
+.head:hover {
+  top: 10px;
+  transition: all 1s ease-in-out;
+}
+.head:hover .iris:before {
+  top: 50%;
+  transition: top 0.5s ease-in;
+  cursor: pointer;
+}
+.head:hover .teeth {
+  left: 15px;
+  transition: all 0.3s ease-in-out;
+}
