@@ -6,12 +6,12 @@ body {
   background: #000;
 }
 @keyframes circle {
-	from {
-		transform: scale(0)
-	}
-	to {
-		transform: scale(6)
-	}
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(6);
+  }
 }
 .circle {
   margin: 0 auto;

@@ -1,6 +1,6 @@
 body,
 .wrapper {
-  background: #FFECCA;
+  background: #ffecca;
 }
 
 a {
@@ -27,7 +27,8 @@ a {
 }
 
 @keyframes legs {
-  0%, 100% {
+  0%,
+  100% {
     transform: scaleY(1);
   }
   50% {

@@ -9,7 +9,7 @@ html {
 }
 
 .white-key {
-    background-color: white;
+  background-color: white;
   height: 700px;
   width: 100px;
   border: 1px solid black;
@@ -17,7 +17,8 @@ html {
 }
 
 div:first-of-type {
-margin-left: 0;}
+  margin-left: 0;
+}
 
 div.white-key + div.white-key {
   margin-left: 0;

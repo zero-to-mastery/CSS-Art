@@ -27,7 +27,7 @@ body {
 
 .body {
   clip-path: ellipse(50% 50% at 50% 50%);
-  background-color: #EEF578;
+  background-color: #eef578;
   height: 250px;
   width: 200px;
 }
@@ -46,12 +46,12 @@ body {
   right: 0;
   height: 250px;
   width: 50px;
-  background-color: #C86400;
+  background-color: #c86400;
   border: 1px solid black;
 }
 
 .face {
-  background-color: #9BD9D5;
+  background-color: #9bd9d5;
   height: 150px;
   width: 175px;
   border-radius: 50%;
@@ -71,12 +71,12 @@ body {
 }
 
 .eye::after {
-  content: '';
+  content: "";
   width: 30px;
   height: 20px;
   position: absolute;
   bottom: 0;
-  background-color: #BA001A;
+  background-color: #ba001a;
 }
 
 .eye-one {
@@ -105,7 +105,7 @@ body {
   width: 25px;
   z-index: 3;
   left: 0px;
-  content: '';
+  content: "";
 }
 
 .mouth {
@@ -140,21 +140,20 @@ body {
 .tail::after {
   position: absolute;
   clip-path: polygon(29% 0, 0% 100%, 100% 100%);
-  background-color: #9BD9D5;
+  background-color: #9bd9d5;
   height: 100px;
   width: 75px;
-  content: '';
+  content: "";
   left: 1px;
   top: 1px;
   z-index: 1;
-
 }
 
 .leg,
 .hand {
   height: 60px;
   width: 40px;
-  background-color: #9BD9D5;
+  background-color: #9bd9d5;
   border: 1px solid black;
   position: absolute;
 }

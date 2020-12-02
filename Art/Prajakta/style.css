@@ -1,22 +1,20 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
-
+  font-family: "Ubuntu", sans-serif;
 }
 .header {
-    background-color: #222F3e;
-    color: #fff;
-    font-family: 'Pacifico', cursive;
-    padding-left: 70px;
-
+  background-color: #222f3e;
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  padding-left: 70px;
 }
 
 .header span {
-    margin-left: 5px;
-    color: #1dd1a1;
+  margin-left: 5px;
+  color: #1dd1a1;
 }

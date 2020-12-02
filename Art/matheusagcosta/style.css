@@ -5,7 +5,7 @@ body {
 }
 .cub {
   align-items: center;
-  background-color: #6BB9F0;
+  background-color: #6bb9f0;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -20,11 +20,12 @@ body {
   position: relative;
   width: 500px;
 }
-.cub__head::after, .cub__head::before {
+.cub__head::after,
+.cub__head::before {
   background-color: #bc6d20;
   border: 25px solid #f59412;
   border-radius: 90px 90px 0 0;
-  content: '';
+  content: "";
   height: 90px;
   position: absolute;
   width: 125px;
@@ -32,13 +33,13 @@ body {
 .cub__head::after {
   right: 0;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   z-index: -1;
 }
 .cub__head::before {
   left: 0;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   z-index: -2;
 }
 .cub__eyes {
@@ -51,20 +52,21 @@ body {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(75%);
-          transform: translateY(75%);
+  transform: translateY(75%);
   width: 100px;
   z-index: 10;
 }
-.cub__eyes::after, .cub__eyes::before {
+.cub__eyes::after,
+.cub__eyes::before {
   background-color: #000;
   border-radius: 50%;
-  content: '●';
-  color: #FFF;
+  content: "●";
+  color: #fff;
   height: 50px;
   position: absolute;
   text-indent: 25px;
   -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  transform: translateY(-100%);
   width: 50px;
 }
 .cub__eyes::before {
@@ -74,25 +76,28 @@ body {
   right: 150px;
 }
 .cub__nose {
-  background-color: #EC644B;
-  box-shadow: 0 0 0 6px #FFF;
+  background-color: #ec644b;
+  box-shadow: 0 0 0 6px #fff;
   left: 0;
   right: 0;
   margin: auto;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(75%);
-          transform: translateY(75%);
+  transform: translateY(75%);
 }
-.cub__nose, .cub__nose::after, .cub__nose::before {
+.cub__nose,
+.cub__nose::after,
+.cub__nose::before {
   border-radius: 50%;
   height: 100px;
   width: 100px;
 }
-.cub__nose::after, .cub__nose::before {
-  background-color: #FFF;
+.cub__nose::after,
+.cub__nose::before {
+  background-color: #fff;
   border-radius: 50%;
-  content: '';
+  content: "";
   position: absolute;
   top: -37px;
 }

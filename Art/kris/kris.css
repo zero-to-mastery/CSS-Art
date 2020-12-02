@@ -7,7 +7,7 @@ body,
 
 body {
   min-height: 100vh;
-  background: linear-gradient(to bottom, #ffffff 0%, #DC143C 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #dc143c 100%);
   overflow: hidden;
 }
 h1 {
@@ -83,13 +83,13 @@ h1 {
 }
 
 .white {
-  background: #FFF;
+  background: #fff;
   width: 100%;
   height: 50%;
 }
 
 .crimson {
-  background: #DC143C;
+  background: #dc143c;
   width: 100%;
   height: 50%;
 }
@@ -100,7 +100,19 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear, 0 -25%, 100% top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(20%, rgba(255, 255, 255, 0)), color-stop(30%, rgba(0, 0, 0, 0.04)), color-stop(40%, rgba(255, 255, 255, 0.2)), color-stop(60%, rgba(255, 255, 255, 0)), color-stop(65%, rgba(255, 255, 255, 0.2)), color-stop(80%, rgba(0, 0, 0, 0.05)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background-image: -webkit-gradient(
+    linear,
+    0 -25%,
+    100% top,
+    color-stop(0%, rgba(255, 255, 255, 0)),
+    color-stop(20%, rgba(255, 255, 255, 0)),
+    color-stop(30%, rgba(0, 0, 0, 0.04)),
+    color-stop(40%, rgba(255, 255, 255, 0.2)),
+    color-stop(60%, rgba(255, 255, 255, 0)),
+    color-stop(65%, rgba(255, 255, 255, 0.2)),
+    color-stop(80%, rgba(0, 0, 0, 0.05)),
+    color-stop(100%, rgba(255, 255, 255, 0))
+  );
   background-size: 200%;
   -webkit-animation-name: air;
   -webkit-animation-duration: 8s;

@@ -1,28 +1,28 @@
 body {
-	background-color: rgba(248,0,0,0.2);
-	margin: 0px;
+  background-color: rgba(248, 0, 0, 0.2);
+  margin: 0px;
 }
 .container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 h1 {
-	font-size: 40px;
-	font-family: fantasy;
-	border-right: 5px solid red;
-	border-bottom: 5px solid red;
-	width: 400px;
-	text-align: center;
-	box-shadow: 4px 4px 5px #888888;
-	margin-top: 0px;
+  font-size: 40px;
+  font-family: fantasy;
+  border-right: 5px solid red;
+  border-bottom: 5px solid red;
+  width: 400px;
+  text-align: center;
+  box-shadow: 4px 4px 5px #888888;
+  margin-top: 0px;
 }
 img {
-	width: 450px;
-	height: 300px;
-	margin: 20px;
-	transition: all 1s;
+  width: 450px;
+  height: 300px;
+  margin: 20px;
+  transition: all 1s;
 }
 img:hover {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }

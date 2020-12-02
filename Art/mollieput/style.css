@@ -1,14 +1,14 @@
 body {
-	font-size: 10px;
-	margin: 0;
+  font-size: 10px;
+  margin: 0;
 }
 
 .rect {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .color1,
@@ -19,381 +19,382 @@ body {
 .color6,
 .color7,
 .color8 {
-	width: 625px;
-	height: 45px;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
+  width: 625px;
+  height: 45px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .textbox {
-	position: absolute;	
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	width: 100%;
-	transform: translate(-47%, -50%);
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-47%, -50%);
 }
 
 .text {
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   color: white;
   font-size: 5em;
-  line-height: .5em;
-  letter-spacing: .8em;
+  line-height: 0.5em;
+  letter-spacing: 0.8em;
   text-align: center;
 }
 
 @media (max-width: 600px) {
-	.rect, .textbox {
-		max-width: 100%;
-		height: auto;
-	}
-	.text {
-		font-size: 3em;
-		letter-spacing: .5em;
-	}
-	.color1,
-	.color2,
-	.color3,
-	.color4,
-	.color5,
-	.color6,
-	.color7,
-	.color8 {
-		width: 312px;
-		height: 22px;
-	}
+  .rect,
+  .textbox {
+    max-width: 100%;
+    height: auto;
+  }
+  .text {
+    font-size: 3em;
+    letter-spacing: 0.5em;
+  }
+  .color1,
+  .color2,
+  .color3,
+  .color4,
+  .color5,
+  .color6,
+  .color7,
+  .color8 {
+    width: 312px;
+    height: 22px;
+  }
 }
 
 #changingText:after {
-	content: "TRANS";
-	animation-name: textChange;
-	animation-duration: 4.5s;
-	animation-iteration-count: infinite;
+  content: "TRANS";
+  animation-name: textChange;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes textChange {
-	16.66% {
-		content: "AUTISTIC";
-	}
+  16.66% {
+    content: "AUTISTIC";
+  }
 
-	33.32% {
-		content: "QUEER";
-	}
+  33.32% {
+    content: "QUEER";
+  }
 
-	49.92% {
-		content: "DISABLED";
-	}
+  49.92% {
+    content: "DISABLED";
+  }
 
-	66.52% {
-		content: "GAY";
-	}
+  66.52% {
+    content: "GAY";
+  }
 
-	83.12% {
-		content: "HOMELESS";
-	}
+  83.12% {
+    content: "HOMELESS";
+  }
 }
 
 .color1 {
-	animation-name: barOne;
+  animation-name: barOne;
 }
 
 .color2 {
-	animation-name: barTwo;
+  animation-name: barTwo;
 }
 
 .color3 {
-	animation-name: barThree;
+  animation-name: barThree;
 }
 
 .color4 {
-	animation-name: barFour;
+  animation-name: barFour;
 }
 
 .color5 {
-	animation-name: barFive;
+  animation-name: barFive;
 }
 
 .color6 {
-	animation-name: barSix;
+  animation-name: barSix;
 }
 
 .color7 {
-	animation-name: barSeven;
+  animation-name: barSeven;
 }
 
 .color8 {
-	animation-name: barEight;
+  animation-name: barEight;
 }
 
 @keyframes barOne {
-	0% {
-			background-color: black;
-	}
+  0% {
+    background-color: black;
+  }
 
-	14.28% {
-			background-color: saddlebrown;
-	}
+  14.28% {
+    background-color: saddlebrown;
+  }
 
-	28.56% {
-			background-color: red;
-	}
+  28.56% {
+    background-color: red;
+  }
 
-	42.84% {
-			background-color: orange;
-	}
+  42.84% {
+    background-color: orange;
+  }
 
-	57.12% {
-			background-color: yellow;
-	}
+  57.12% {
+    background-color: yellow;
+  }
 
-	71.4% {
-			background-color: green;
-	}
+  71.4% {
+    background-color: green;
+  }
 
-	85.68% {
-			background-color: blue;
-	}
+  85.68% {
+    background-color: blue;
+  }
 
-	100% {
-			background-color: purple;
-	}
+  100% {
+    background-color: purple;
+  }
 }
 
 @keyframes barTwo {
-	0% {
-			background-color: purple;
-	}
+  0% {
+    background-color: purple;
+  }
 
-	14.28% {
-			background-color: black;
-	}
+  14.28% {
+    background-color: black;
+  }
 
-	28.56% {
-			background-color: saddlebrown;
-	}
+  28.56% {
+    background-color: saddlebrown;
+  }
 
-	42.84% {
-			background-color: red;
-	}
+  42.84% {
+    background-color: red;
+  }
 
-	57.12% {
-			background-color: orange;
-	}
+  57.12% {
+    background-color: orange;
+  }
 
-	71.4% {
-			background-color: yellow;
-	}
+  71.4% {
+    background-color: yellow;
+  }
 
-	85.68% {
-			background-color: green;
-	}
+  85.68% {
+    background-color: green;
+  }
 
-	100% {
-			background-color: blue;
-	}
+  100% {
+    background-color: blue;
+  }
 }
 
 @keyframes barThree {
-	0% {
-			background-color: blue;
-	}
+  0% {
+    background-color: blue;
+  }
 
-	14.28% {
-			background-color: purple;
-	}
+  14.28% {
+    background-color: purple;
+  }
 
-	28.56% {
-			background-color: black;
-	}
+  28.56% {
+    background-color: black;
+  }
 
-	42.84% {
-			background-color: saddlebrown;
-	}
+  42.84% {
+    background-color: saddlebrown;
+  }
 
-	57.12% {
-			background-color: red;
-	}
+  57.12% {
+    background-color: red;
+  }
 
-	71.4% {
-			background-color: orange;
-	}
+  71.4% {
+    background-color: orange;
+  }
 
-	85.68% {
-			background-color: yellow;
-	}
+  85.68% {
+    background-color: yellow;
+  }
 
-	100% {
-			background-color: green;
-	}
+  100% {
+    background-color: green;
+  }
 }
 
 @keyframes barFour {
-	0% {
-			background-color: green;
-	}
+  0% {
+    background-color: green;
+  }
 
-	14.28% {
-			background-color: blue;
-	}
+  14.28% {
+    background-color: blue;
+  }
 
-	28.56% {
-			background-color: purple;
-	}
+  28.56% {
+    background-color: purple;
+  }
 
-	42.84% {
-			background-color: black;
-	}
+  42.84% {
+    background-color: black;
+  }
 
-	57.12% {
-			background-color: saddlebrown;
-	}
+  57.12% {
+    background-color: saddlebrown;
+  }
 
-	71.4% {
-			background-color: red;
-	}
+  71.4% {
+    background-color: red;
+  }
 
-	85.68% {
-			background-color: orange;
-	}
+  85.68% {
+    background-color: orange;
+  }
 
-	100% {
-			background-color: yellow;
-	}
+  100% {
+    background-color: yellow;
+  }
 }
 
 @keyframes barFive {
-	0% {
-			background-color: yellow;
-	}
+  0% {
+    background-color: yellow;
+  }
 
-	14.28% {
-			background-color: green;
-	}
+  14.28% {
+    background-color: green;
+  }
 
-	28.56% {
-			background-color: blue;
-	}
+  28.56% {
+    background-color: blue;
+  }
 
-	42.84% {
-			background-color: purple;
-	}
+  42.84% {
+    background-color: purple;
+  }
 
-	57.12% {
-			background-color: black;
-	}
+  57.12% {
+    background-color: black;
+  }
 
-	71.4% {
-			background-color: saddlebrown;
-	}
+  71.4% {
+    background-color: saddlebrown;
+  }
 
-	85.68% {
-			background-color: red;
-	}
+  85.68% {
+    background-color: red;
+  }
 
-	100% {
-			background-color: orange;
-	}
+  100% {
+    background-color: orange;
+  }
 }
 
 @keyframes barSix {
-	0% {
-			background-color: orange;
-	}
+  0% {
+    background-color: orange;
+  }
 
-	14.28% {
-			background-color: yellow;
-	}
+  14.28% {
+    background-color: yellow;
+  }
 
-	28.56% {
-			background-color: green;
-	}
+  28.56% {
+    background-color: green;
+  }
 
-	42.84% {
-			background-color: blue;
-	}
+  42.84% {
+    background-color: blue;
+  }
 
-	57.12% {
-			background-color: purple;
-	}
+  57.12% {
+    background-color: purple;
+  }
 
-	71.4% {
-			background-color: black;
-	}
+  71.4% {
+    background-color: black;
+  }
 
-	85.68% {
-			background-color: saddlebrown;
-	}
+  85.68% {
+    background-color: saddlebrown;
+  }
 
-	100% {
-			background-color: red;
-	}
+  100% {
+    background-color: red;
+  }
 }
 
 @keyframes barSeven {
-	0% {
-			background-color: red;
-	}
+  0% {
+    background-color: red;
+  }
 
-	14.28% {
-			background-color: orange;
-	}
+  14.28% {
+    background-color: orange;
+  }
 
-	28.56% {
-			background-color: yellow;
-	}
+  28.56% {
+    background-color: yellow;
+  }
 
-	42.84% {
-			background-color: green;
-	}
+  42.84% {
+    background-color: green;
+  }
 
-	57.12% {
-			background-color: blue;
-	}
+  57.12% {
+    background-color: blue;
+  }
 
-	71.4% {
-			background-color: purple;
-	}
+  71.4% {
+    background-color: purple;
+  }
 
-	85.68% {
-			background-color: black;
-	}
+  85.68% {
+    background-color: black;
+  }
 
-	100% {
-			background-color: saddlebrown;
-	}
+  100% {
+    background-color: saddlebrown;
+  }
 }
 
 @keyframes barEight {
-	0% {
-			background-color: saddlebrown;
-	}
+  0% {
+    background-color: saddlebrown;
+  }
 
-	14.28% {
-			background-color: red;
-	}
+  14.28% {
+    background-color: red;
+  }
 
-	28.56% {
-			background-color: orange;
-	}
+  28.56% {
+    background-color: orange;
+  }
 
-	42.84% {
-			background-color: yellow;
-	}
+  42.84% {
+    background-color: yellow;
+  }
 
-	57.12% {
-			background-color: green;
-	}
+  57.12% {
+    background-color: green;
+  }
 
-	71.4% {
-			background-color: blue;
-	}
+  71.4% {
+    background-color: blue;
+  }
 
-	85.68% {
-			background-color: purple;
-	}
+  85.68% {
+    background-color: purple;
+  }
 
-	100% {
-			background-color: black;
-	}
+  100% {
+    background-color: black;
+  }
 }
