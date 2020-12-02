@@ -2592,6 +2592,13 @@ let cards = [
     author: "JoseAReinoso",
     githubLink: "https://github.com/JoseAReinoso",
   },
+  {
+    artName: "Rachies_1st_Contribution",
+    pageLink: "./Art/Rachel/index.html",
+    imageLink: "./Art/rainbow.png",
+    author: "Rachel-Anna",
+    githubLink: "https://github.com/Rachel-Anna",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
