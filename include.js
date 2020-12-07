@@ -1,13 +1,13 @@
 let cards = [
   //  Add your card in this section
-   {
-    artName:"Pikachu",
+  {
+    artName: "Pikachu",
     pageLink: "./Art/shahina/index.html",
     author: "Shahina",
     githubLink: "https://github.com/ShahinaShanu",
   },
   {
-    artName:"Pretty Duck",
+    artName: "Pretty Duck",
     pageLink: "./Art/1.ani/index.html",
     author: "O-zbair",
     githubLink: "https://github.com/O-zbair",
@@ -6172,13 +6172,13 @@ let cards = [
     author: "Adiyat",
     githubLink: "https://github.com/adiyatzzz",
   },
-    {
-        artName: "It's so cool",
-        pageLink: "../Art/Abhishekalbert/index.html",
-        imageLink: "../Art/Abhishekalbert/imageart.png",
-        author: "Abhishek Kumar Shukla",
-        githubLink: "https://github.com/abhishekalbert",
-    },
+  {
+    artName: "It's so cool",
+    pageLink: "../Art/Abhishekalbert/index.html",
+    imageLink: "../Art/Abhishekalbert/imageart.png",
+    author: "Abhishek Kumar Shukla",
+    githubLink: "https://github.com/abhishekalbert",
+  },
   {
     artName: "Glow card",
     pageLink: "./Art/Glow-card/index.html",
@@ -6215,7 +6215,7 @@ let cards = [
     githubLink: "https://kccbzz.github.io/car/",
   },
   {
-    artName:"Cool Buttons",
+    artName: "Cool Buttons",
     pageLink: "./Art/PareshWadhwani/index.html",
     imageLink: "./Art/PareshWadhwani/Cool-Buttons.gif",
     author: "Paresh Wadhwani",
@@ -6227,14 +6227,22 @@ let cards = [
     imageLink: "./Art/KccbzZ/cover.png",
     author: "KccbzZ",
     githubLink: "https://kccbzz.github.io/cutting-bread-loading-screen/",
-  }
+  },
   {
     artName: "ZTM_Logo",
     pageLink: "./Art/ZTM_Logo/index.html",
     imageLink: "./Art/ZTM_Logo/ZTM_logo.jpg",
     author: "Eder",
     githubLink: "https://github.com/EderIRE",
-  }
+  },
+  {
+    artName: "Bones",
+    pageLink: "./Art/Bones/index.html",
+    imageLink: "./Art/Bones/TrafficLight.PNG",
+    author: "Philip",
+    githubLink: "https://github.com/PhilipK-webdev",
+  },
+
 ];
 
 // +--------------------------------------------------------------------------------+
