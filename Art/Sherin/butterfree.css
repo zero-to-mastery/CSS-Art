@@ -23,7 +23,7 @@ body {
   height: 100px;
   width: 125px;
   border-radius: 50%;
-  background-color: #8164A4;
+  background-color: #8164a4;
   border: 3px solid black;
   border-bottom: none;
   z-index: 2;
@@ -37,7 +37,7 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-color: #8164A4;
+  background-color: #8164a4;
   border: 3px solid black;
 }
 
@@ -48,7 +48,7 @@ body {
   width: 25px;
   border-radius: 50%;
   border: 3px solid black;
-  background-color: #4EBFD2;
+  background-color: #4ebfd2;
 }
 
 .hand-one {
@@ -61,7 +61,7 @@ body {
 
 .leg {
   position: absolute;
-  bottom : -30px;
+  bottom: -30px;
   clip-path: ellipse(15% 50% at 50% 50%);
   height: 86px;
   width: 100px;
@@ -74,8 +74,8 @@ body {
   clip-path: ellipse(15% 50% at 50% 50%);
   height: 80px;
   width: 80px;
-  background-color: #4EBFD2;
-  content: '';
+  background-color: #4ebfd2;
+  content: "";
 }
 
 .leg-one {
@@ -91,7 +91,7 @@ body {
 .mouth {
   height: 18px;
   width: 25px;
-  background-color: #4EBFD2;
+  background-color: #4ebfd2;
   border-radius: 50%;
   border: 3px solid black;
   position: absolute;
@@ -115,7 +115,7 @@ body {
   height: 50px;
   width: 50px;
   background-color: #f775a3;
-  content: '';
+  content: "";
 }
 
 .eye-one {
@@ -131,7 +131,7 @@ body {
 .antenna {
   height: 100px;
   width: 10px;
-  background-color: #00414E;
+  background-color: #00414e;
   border: 3px solid black;
   position: absolute;
   top: -90px;
@@ -145,7 +145,7 @@ body {
   width: 20px;
   background-color: black;
   border-radius: 50%;
-  content: '';
+  content: "";
   top: -20px;
   left: 50%;
   transform: translateX(-50%);
@@ -164,7 +164,7 @@ body {
   height: 200px;
   width: 200px;
   position: absolute;
-  background-color: #00414E;
+  background-color: #00414e;
   top: 150px;
 }
 
@@ -174,7 +174,7 @@ body {
   width: 190px;
   position: absolute;
   background-color: #fff;
-  content: '';
+  content: "";
   top: 15px;
 }
 
@@ -199,7 +199,7 @@ body {
 
 .wing-two-left {
   transform: rotateX(180deg) rotateY(180deg);
-  left: 110px; 
+  left: 110px;
 }
 
 .wing-two-right {
@@ -212,12 +212,11 @@ body {
   width: 120px;
   position: absolute;
   background-color: #fff;
-  content: '';
+  content: "";
   top: 15px;
 }
 
 @keyframes swing {
-
   0% {
     transform: rotateZ(-10deg);
   }

@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  height: 20rem;
+  width: 20rem;
+  background: red;
+  animation-name: example1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+
+.box2 {
+  height: 20rem;
+  width: 20rem;
+  background: blue;
+  animation-name: example2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+
+.box3 {
+  height: 20rem;
+  width: 20rem;
+  background: yellow;
+  animation-name: example3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+
+@keyframes example1 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+@keyframes example2 {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+@keyframes example3 {
+  from {
+    background-color: yellow;
+  }
+  to {
+    background-color: red;
+  }
+}

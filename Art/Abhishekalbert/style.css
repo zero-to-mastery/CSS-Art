@@ -5,9 +5,9 @@
 }
 
 :root {
-  --primary-color: #6CD9CE;
-  --secondary-color: #D93BA1;
-  --complimentary-color: #2E2473;
+  --primary-color: #6cd9ce;
+  --secondary-color: #d93ba1;
+  --complimentary-color: #2e2473;
 }
 
 .container {
@@ -18,8 +18,9 @@
   background-color: var(--complimentary-color);
   justify-content: center;
   align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
 }
 
 h1 {
@@ -33,32 +34,32 @@ h1 {
 }
 
 h1::before {
-    content: '';
-    width: 0%;
-    height: 76px;
-    background-color: var(--secondary-color);
-    position: absolute;
-    bottom: -10px;
-    animation: 1s underline ease-in-out forwards 2s;
-    mix-blend-mode: screen;
+  content: "";
+  width: 0%;
+  height: 76px;
+  background-color: var(--secondary-color);
+  position: absolute;
+  bottom: -10px;
+  animation: 1s underline ease-in-out forwards 2s;
+  mix-blend-mode: screen;
 }
 
 .overlay {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    opacity: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--secondary-color);
-    transform: scale(.5);
-    animation: .5s slideIn ease-in-out forwards, 1s skewBg ease-in-out;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--secondary-color);
+  transform: scale(0.5);
+  animation: 0.5s slideIn ease-in-out forwards, 1s skewBg ease-in-out;
 }
 
 @keyframes skewBg {
   0% {
-    transform: scale(.5);
+    transform: scale(0.5);
   }
   100% {
     transform: scale(1);

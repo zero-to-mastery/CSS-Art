@@ -1,8 +1,8 @@
 :root {
   /* color palette */
-  --cloth: #97F800;
-  --cloth2: #FE5F00;
-  --skinTone: #FEA33D;
+  --cloth: #97f800;
+  --cloth2: #fe5f00;
+  --skinTone: #fea33d;
 }
 
 * {
@@ -20,7 +20,6 @@ body {
 }
 
 .canvas {
-
 }
 
 .row {
@@ -31,7 +30,6 @@ body {
 .pixel {
   width: 10px;
   height: 10px;
-
 }
 
 .row-1 .pixel:nth-child(6),
@@ -166,7 +164,6 @@ body {
   background: var(--cloth2);
 }
 
-
 .row-3 .pixel:nth-child(5),
 .row-4 .pixel:nth-child(5),
 .row-4 .pixel:nth-child(6),
@@ -202,7 +199,6 @@ body {
 .row-11 .pixel:nth-child(7),
 .row-11 .pixel:nth-child(8),
 .row-12 .pixel:nth-child(6),
-.row-12 .pixel:nth-child(7)
- {
-  background: var(--skinTone)
+.row-12 .pixel:nth-child(7) {
+  background: var(--skinTone);
 }

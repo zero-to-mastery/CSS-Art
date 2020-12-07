@@ -1,20 +1,25 @@
 body {
-  background-color: #948B7A;
+  background-color: #948b7a;
 }
 
 h1 {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.robots {}
-
- .torso, .left_leg, .right_leg {
-  background-color: #1B1A19;
+.robots {
 }
 
-.head, .left_arm, .right_arm {
-  background-color: #FF5733;
+.torso,
+.left_leg,
+.right_leg {
+  background-color: #1b1a19;
+}
+
+.head,
+.left_arm,
+.right_arm {
+  background-color: #ff5733;
 }
 
 .head {
@@ -25,7 +30,8 @@ h1 {
   margin-bottom: 10px;
 }
 
-.eyes {}
+.eyes {
+}
 
 .head:hover {
   width: 300px;
@@ -39,7 +45,8 @@ h1 {
   margin: 0 auto;
 }
 
-.left_arm, .right_arm {
+.left_arm,
+.right_arm {
   width: 40px;
   height: 125px;
   border-radius: 100px;
@@ -82,18 +89,18 @@ h1 {
 }
 
 .heart {
-	color:#ff0000;
-	font-size:60px;
-  font-family:'arial unicode MS', arial, geneva, sans-serif;
-	margin-left: 110px;
-	opacity: 0;
-	cursor: default;
+  color: #ff0000;
+  font-size: 60px;
+  font-family: "arial unicode MS", arial, geneva, sans-serif;
+  margin-left: 110px;
+  opacity: 0;
+  cursor: default;
 }
 
 .heart:hover {
-	opacity: 1;
-	-webkit-transition: opacity .25s ease-in-out .0s;
-  transition: opacity .25s ease-in-out .0s;
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease-in-out 0s;
+  transition: opacity 0.25s ease-in-out 0s;
 }
 
 .lower_body {
@@ -103,7 +110,8 @@ h1 {
   display: flex;
 }
 
-.left_leg, .right_leg {
+.left_leg,
+.right_leg {
   width: 40px;
   height: 120px;
   border-radius: 0 0 100px 100px;
@@ -135,7 +143,8 @@ h1 {
   transform: rotate(-20deg);
 }
 
-.left_eye, .right_eye {
+.left_eye,
+.right_eye {
   width: 20px;
   height: 20px;
   border-radius: 15px;
@@ -146,7 +155,7 @@ h1 {
   position: relative;
   top: 100px;
   left: 40px;
-	transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .left_eye:hover {

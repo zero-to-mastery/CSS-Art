@@ -2,7 +2,7 @@
   --penguin-size: 300px;
   --penguin-skin: black;
   --penguin-belly: white;
-  --penguin-beak: #DC143C;
+  --penguin-beak: #dc143c;
   --penguin-feet: orange;
 }
 
@@ -10,7 +10,7 @@
   :root {
     --penguin-size: 300px;
     --penguin-skin: grey;
-    --penguin-beak: orange;      
+    --penguin-beak: orange;
   }
 }
 
@@ -80,24 +80,24 @@
   animation-duration: 3s;
   animation-name: wave;
   animation-iteration-count: infinite;
-  transform-origin:0% 0%;
+  transform-origin: 0% 0%;
   animation-timing-function: linear;
 }
 
 @keyframes wave {
-    10% {
-      transform: rotate(110deg);
-    }
-    20% {
-      transform: rotate(130deg);
-    }
-    30% {
-      transform: rotate(110deg);
-    } 
-    40% {
-      transform: rotate(130deg);
-    }  
+  10% {
+    transform: rotate(110deg);
   }
+  20% {
+    transform: rotate(130deg);
+  }
+  30% {
+    transform: rotate(110deg);
+  }
+  40% {
+    transform: rotate(130deg);
+  }
+}
 
 .left-hand {
   top: 0%;
@@ -152,7 +152,7 @@
 
 .sparkle {
   top: 25%;
-  left:-23%;
+  left: -23%;
   background: white;
   width: 150%;
   height: 100%;
@@ -205,7 +205,7 @@
 
   50% {
     transform: scale(1.05);
-    box-shadow: (0 1rem 4rem rgba(0, 0, 0, .25));
+    box-shadow: (0 1rem 4rem rgba(0, 0, 0, 0.25));
   }
 
   100% {
@@ -215,7 +215,7 @@
 }
 
 body {
-  background:#c6faf1;
+  background: #c6faf1;
 }
 
 .penguin * {

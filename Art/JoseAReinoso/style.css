@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(to right, rgb(46, 119, 255), rgb(255, 162, 0));
+}
+
+@keyframes ballmove {
+  0% {
+    transform: rotateZ(-360deg);
+    top: 0%;
+    right: 93%;
+    animation-timing-function: ease-in;
+  }
+  12.5% {
+    right: 93%;
+    top: 30%;
+    animation-timing-function: ease-out;
+  }
+  25% {
+    right: 77.5%;
+    top: 20.5%;
+    animation-timing-function: ease-in;
+  }
+  37.5% {
+    right: 62%;
+    top: 30%;
+    animation-timing-function: ease-out;
+  }
+  50% {
+    right: 46.5%;
+    top: 35.87%;
+    animation-timing-function: ease-in;
+  }
+  62.5% {
+    right: 31%;
+    top: 30%;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    right: 15.5%;
+    top: 47.4%;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    right: 0%;
+    top: 30%;
+  }
+}
+
+img {
+  width: 30%;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  animation: ballmove 8s 1;
+  animation-iteration-count: infinite;
+}

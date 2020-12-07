@@ -1,15 +1,14 @@
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: radial-gradient(#00ff00,#005a00);
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(#00ff00, #005a00);
+}
 
-  }
-
-  .green-heart{
+.green-heart {
   position: relative;
   width: 200px;
   height: 200px;
@@ -17,52 +16,51 @@ body{
   /*   background: */
 
   transform: rotate(45deg);
-     box-shadow: 50px 50px 200px  rgba(0,0,0,0.8);
-    animation: animate 1s linear infinite;
-  }
+  box-shadow: 50px 50px 200px rgba(0, 0, 0, 0.8);
+  animation: animate 1s linear infinite;
+}
 
-   .green-heart:before{
-    content: '';
-    position: absolute;
-    top: -100px;
-    width: 200px;
-    height: 100px;
-    background: #02e802;
+.green-heart:before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  width: 200px;
+  height: 100px;
+  background: #02e802;
   /*   background:# */
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-  }
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
 
-  .green-heart:after{
-    content: '';
-    position: absolute;
-    left: -100px;
-    width: 100px;
-    height: 200px;
-    background: #02e802;
+.green-heart:after {
+  content: "";
+  position: absolute;
+  left: -100px;
+  width: 100px;
+  height: 200px;
+  background: #02e802;
 
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
-  }
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
 
-
-  @keyframes animate {
-  0%{
-    transform:rotate(45deg) scale(1);
+@keyframes animate {
+  0% {
+    transform: rotate(45deg) scale(1);
   }
-  20%{
-    transform:rotate(45deg) scale(0.8);
+  20% {
+    transform: rotate(45deg) scale(0.8);
   }
-  40%{
-    transform:rotate(45deg) scale(1.2);
+  40% {
+    transform: rotate(45deg) scale(1.2);
   }
-  60%{
-    transform:rotate(45deg) scale(1);
+  60% {
+    transform: rotate(45deg) scale(1);
   }
-  80%{
-    transform:rotate(45deg) scale(1.4);
+  80% {
+    transform: rotate(45deg) scale(1.4);
   }
-  100%{
-    transform:rotate(45deg) scale(1.0);
+  100% {
+    transform: rotate(45deg) scale(1);
   }
-  }
+}

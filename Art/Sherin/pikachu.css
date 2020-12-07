@@ -19,7 +19,7 @@ body {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  background-color: #F5E100;
+  background-color: #f5e100;
   position: relative;
 }
 
@@ -27,15 +27,14 @@ body {
   clip-path: polygon(2% 0, 0% 100%, 35% 100%);
   height: 200px;
   width: 200px;
-  background-color: #F5E100;
+  background-color: #f5e100;
   position: absolute;
-  
 }
 
 .ear-one {
   top: -160px;
   left: -50px;
-  transform: rotateZ(-50deg)
+  transform: rotateZ(-50deg);
 }
 
 .ear-two {
@@ -61,12 +60,12 @@ body {
 
 .eye-one {
   left: 25%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
 
 .eye-two {
   left: 75%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
 
 .eye::after {
@@ -88,7 +87,7 @@ body {
 }
 
 .cheek {
-  background-color: #FF0000;
+  background-color: #ff0000;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -116,7 +115,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
 
 .mouth {
@@ -131,7 +130,7 @@ body {
 }
 
 .tongue {
-  background-color: #F5375C;
+  background-color: #f5375c;
   bottom: 0;
   position: absolute;
   height: 80px;

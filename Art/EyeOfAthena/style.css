@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(224, 120, 140);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 120, 140, 0.9780287114845938) 0%,
+    rgba(168, 66, 90, 1) 30%,
+    rgba(255, 102, 0, 1) 100%
+  );
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cherry {
+  position: relative;
+  animation: scale 10s linear infinite;
+  animation-delay: 5s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  25% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.8;
+  }
+  75% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: rgb(114, 65, 38);
+  border-radius: 20%;
+  bottom: 250px;
+  left: 8px;
+  transform: rotate(-15deg);
+}
+
+.leaf-right {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(52, 109, 74);
+  border-radius: 0 270px;
+  bottom: 170px;
+  left: 15px;
+}
+
+.leaf-left {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(52, 109, 74);
+  border-radius: 300px 0;
+  bottom: 160px;
+  left: -18px;
+  transform: rotate(-50deg);
+}
+
+.top-left {
+  position: absolute;
+  background: rgb(27, 107, 27);
+  width: 2px;
+  height: 180px;
+  bottom: 80px;
+  right: 25px;
+  transform: rotate(25deg);
+}
+
+.top-right {
+  position: absolute;
+  background: rgb(27, 107, 27);
+  width: 2px;
+  height: 180px;
+  bottom: 80px;
+  left: 50px;
+  transform: rotate(-25deg);
+}
+
+.cherry-left {
+  position: absolute;
+  background: rgb(180, 12, 12);
+  width: 75px;
+  height: 65px;
+  box-shadow: inset 0.2em -0.2em #9b0b22;
+  border-radius: 2.5em 2.5em 4em 4em;
+  bottom: 40px;
+  right: 35px;
+  transform: rotate(18deg);
+}
+
+.cherry-right {
+  position: absolute;
+  background: rgb(180, 12, 12);
+  width: 75px;
+  height: 65px;
+  box-shadow: inset 0.2em -0.2em #9b0b22;
+  border-radius: 2.5em 2.5em 4em 4em;
+  bottom: 40px;
+  left: 60px;
+  transform: rotate(-18deg);
+}
+
+.shiney-left {
+  position: absolute;
+  background-color: transparent;
+  border-left: 2px solid #fff;
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  bottom: 80px;
+  right: 80px;
+  transform: rotate(30deg);
+}
+
+.shiney-right {
+  position: absolute;
+  background-color: transparent;
+  border-left: 2px solid #fff;
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  bottom: 80px;
+  left: 70px;
+  transform: rotate(30deg);
+}

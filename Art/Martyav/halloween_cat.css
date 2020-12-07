@@ -7,17 +7,13 @@ body {
 
 h1 {
   font-size: 5em;
-  font-family: 'Creepster', cursive;
+  font-family: "Creepster", cursive;
   text-align: center;
   letter-spacing: 5px;
   color: #ccffaa;
-  text-shadow: 
-    1px  1px 0 black,
-    1px -1px 0 black,
-   -1px -1px 0 black,
-   -1px  1px 0 black,
-    0 0 20px white;
-  animation: hover 3.0s infinite alternate;
+  text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black,
+    -1px 1px 0 black, 0 0 20px white;
+  animation: hover 3s infinite alternate;
   animation-timing-function: ease-in-out;
   animation-delay: 0ms;
 }
@@ -25,21 +21,13 @@ h1 {
 @keyframes hover {
   0% {
     transform: translateY(-8px);
-    text-shadow: 
-    1px  1px 0 black,
-    1px -1px 0 black,
-   -1px -1px 0 black,
-   -1px  1px 0 black,
-    0 0 20px white;
+    text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black,
+      -1px 1px 0 black, 0 0 20px white;
   }
   50% {
     transform: translateY(8px);
-    text-shadow: 
-    1px  1px 0 black,
-    1px -1px 0 black,
-   -1px -1px 0 black,
-   -1px  1px 0 black,
-    0 0 150px greenyellow;
+    text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black,
+      -1px 1px 0 black, 0 0 150px greenyellow;
   }
 }
 
