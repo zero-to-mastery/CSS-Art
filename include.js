@@ -2613,6 +2613,13 @@ let cards = [
     author: "Rachel-Anna",
     githubLink: "https://github.com/Rachel-Anna",
   },
+  {
+    artName: "animBanner",
+    pageLink: "./Art/animBanner/index.html",
+    imageLink: "./Art/shinelikeasmile/animBanner.gif",
+    author: "coolphynix",
+    githubLink: "https://github.com/coolphynix",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
