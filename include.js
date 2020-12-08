@@ -1,5 +1,32 @@
 let cards = [
   //  Add your card in this section
+
+  {
+    artName: "Pikachu",
+    pageLink: "./Art/shahina/index.html",
+    author: "Shahina",
+    githubLink: "https://github.com/ShahinaShanu",
+  },
+  {
+    artName: "Pretty Duck",
+    pageLink: "./Art/1.ani/index.html",
+    author: "O-zbair",
+    githubLink: "https://github.com/O-zbair",
+  },
+  {
+    artName: "Planet Loader",
+    pageLink: "./Art/sherine/index.html",
+    author: "Sherine",
+    githubLink: "https://github.com/sherinechally",
+  },
+  {
+    artName: "Doraemon",
+    pageLink: "./Art/DevarshiDoshi/index.html",
+    imageLink: "./Art/DevarshiDoshi/Doraemon.png",
+    author: "Devarshi Doshi",
+    githubLink: "https://github.com/devarshidoshi",
+  },
+
   {
     artName: "Vitrola",
     pageLink: "./Art/Pliavi/vitrola.html",
@@ -2577,6 +2604,13 @@ let cards = [
     imageLink: "./Art/ZTM_Logo/ZTM_logo.jpg",
     author: "Eder",
     githubLink: "https://github.com/EderIRE",
+  },
+  {
+    artName: "Bones",
+    pageLink: "./Art/Bones/index.html",
+    imageLink: "./Art/Bones/TrafficLight.PNG",
+    author: "Philip",
+    githubLink: "https://github.com/PhilipK-webdev",
   },
   {
     artName: "cherry",
