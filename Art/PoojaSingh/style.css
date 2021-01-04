@@ -1,0 +1,136 @@
+body {
+    background-color: #f2ee3b;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    place-items: center center;
+    height: 100vh;
+}
+
+.emoji {
+    width: 400px;
+    height: 400px;
+    background-color: #f6b932;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 30px 30px 35px rgba(0, 0, 0, 0.19);
+
+}
+
+/* .emoji::before,
+.emoji::after {
+    content:"";
+    height: 60px;
+    width: 40px;
+    background-color: #000000;
+    position: absolute;
+    border-radius: 67%;
+    top: 90px;
+}
+
+
+.emoji::before {
+    left: 80px;
+}
+
+.emoji::after {
+    right: 80px;
+} */
+
+.eye-left {
+    width: 70px;
+    height: 70px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    top: 90px;
+}
+
+.eye-left::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 19%;
+    top: 11px;
+    animation: eye_move 3s infinite;
+}
+
+.eye-right {
+    width: 70px;
+    height: 70px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    left: 61%;
+    top: 90px;
+    
+}
+
+.eye-right::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 19%;
+    top: 11px;
+    animation: eye_move 3s infinite;
+}
+
+@keyframes eye_move {
+    0% {
+        left: 0px;
+        right: 0px;
+    }
+    50% {
+       left: 0px;
+       right: 5px;
+    }
+    100%{
+        left: 10px;
+        right: 30px;  
+    }
+}
+
+.mask {
+    height: 149px;
+    width: 298px;
+    background-color: #e9fbfa;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 49px;
+    z-index: 0;
+    border-radius: 5px 5px 50% 50%;
+}
+
+.mask::before,
+.mask::after {
+    content: "";
+    height: 15px;
+    width: 400px;
+    background-color: #e9fbfa;
+    position: absolute;
+    z-index: -1;
+}
+
+.mask::before{
+    transform: rotate(-15deg);
+    top: 36px;
+    right: -61px;
+
+}
+
+.mask::after{
+    transform: rotate(13deg);
+    left: -57px;
+    top: 30px;
+}
+
