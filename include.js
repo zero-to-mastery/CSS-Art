@@ -2656,7 +2656,7 @@ let cards = [
   },
   {
     artName: "Responsible Emoji",
-    pageLink: ".Art/PoojaSingh/index.html",
+    pageLink: "./Art/PoojaSingh/index.html",
     imageLink: "./Art/PoojaSingh/responsible_emoji.png",
     author: "Pooja Singh",
     githubLink: "https://github.com/PSpooja",
