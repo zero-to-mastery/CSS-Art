@@ -1,52 +1,49 @@
-body{
-    color:red;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+body {
+  color: red;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.container{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.square{
-    height: 150px;
-    width: 300px;
-    border: 1px solid rgb(235, 148, 148);
-    color:rgb(209, 209, 9);
-    border-radius: 180px;
-    transition: width 2s, height 2s, transform 2s;
+.square {
+  height: 150px;
+  width: 300px;
+  border: 1px solid rgb(235, 148, 148);
+  color: rgb(209, 209, 9);
+  border-radius: 180px;
+  transition: width 2s, height 2s, transform 2s;
 }
 
-.square:hover{
-    width: 150px;
-    height: 150px;
-    transform: rotate(360deg);
-  }
-
-  #red{
-
-    background-color: red;;
-  }
-  
-  #yellow{
-
-    background-color: yellow;
-  }
-  
-  #green{
-
-    background-color:green;
-  }
-
-  #red:hover{
-      background-color: purple;
-  }
-  #yellow:hover{
-    background-color: pink;
+.square:hover {
+  width: 150px;
+  height: 150px;
+  transform: rotate(360deg);
 }
-#green:hover{
-    background-color: gray;
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+#red:hover {
+  background-color: purple;
+}
+#yellow:hover {
+  background-color: pink;
+}
+#green:hover {
+  background-color: gray;
 }

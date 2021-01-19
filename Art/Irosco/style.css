@@ -1,30 +1,50 @@
-.art1{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-	background-color: brown;
-	width: 500px;
-	height: 500px;
-	border: 10px solid gold;
-	border-radius: 15px;
+.art1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: brown;
+  width: 500px;
+  height: 500px;
+  border: 10px solid gold;
+  border-radius: 15px;
 }
-.art2{
-	margin: auto;
-	padding: 50%;
-	background-color: purple;
-	width: 30px;
-	height: 30px;
-	border: 10px solid gold;
-	border-radius: 50%;
-	position: relative;
-    animation-name: art2;
-    animation-duration: 4s;
+.art2 {
+  margin: auto;
+  padding: 50%;
+  background-color: purple;
+  width: 30px;
+  height: 30px;
+  border: 10px solid gold;
+  border-radius: 50%;
+  position: relative;
+  animation-name: art2;
+  animation-duration: 4s;
 }
 @keyframes art2 {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:20px; top:0px;}
-  50%  {background-color:blue; left:20px; top:20px;}
-  75%  {background-color:green; left:0px; top:20px;}
-  100% {background-color:red; left:0px; top:0px;}
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 20px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 20px;
+    top: 20px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 20px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
 }

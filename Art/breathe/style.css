@@ -1,71 +1,60 @@
 html,
 body {
-	display: table;
-	margin: auto;
-	background: #308165;
-	font-family: 'Helvetica', arial, sans-serif;
-	padding-top: 100px;
+  display: table;
+  margin: auto;
+  background: #308165;
+  font-family: "Helvetica", arial, sans-serif;
+  padding-top: 100px;
 }
 
 .header {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
 }
 
 h1 {
-	animation-name: slidein;
-	animation-duration: 5s;
-	font-size: 72px;
+  animation-name: slidein;
+  animation-duration: 5s;
+  font-size: 72px;
 }
 
 @keyframes slidein {
-	from {
-		margin-left: 500%;
-	}
-	to {
-		margin-left: 0%;
-	}
+  from {
+    margin-left: 500%;
+  }
+  to {
+    margin-left: 0%;
+  }
 }
 
 .main {
-	height: 250px;
-	width: 250px;
-	animation: 
-		stretch
-		1.5s
-		ease-in
-		0s
-		alternate
-		infinite
-		none
-		running;
+  height: 250px;
+  width: 250px;
+  animation: stretch 1.5s ease-in 0s alternate infinite none running;
 }
 
 .main:hover {
-	animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes stretch {
-	0% {
-		transform: scale(.5);
-		background-color: #5af7c1;
-		border-radius: 100%;
-		box-shadow: 0px 0px 20px 0px
-		rgba(0,0,0,1);
-	}
-	50% {
-		background-color: #4ac89d;
-		border-radius: 50%;
-		box-shadow: 0px 0px 40px 0px
-		rgba(0,0,0,0.50);
-	}
-	100% {
-		transform: scale(1.2);
-		background-color: #41ad88;
-		border-radius: 25%;
-		box-shadow: 0px 0px 60px 0px
-		rgba(0,0,0,0.25);
-	}
+  0% {
+    transform: scale(0.5);
+    background-color: #5af7c1;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+  }
+  50% {
+    background-color: #4ac89d;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    transform: scale(1.2);
+    background-color: #41ad88;
+    border-radius: 25%;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.25);
+  }
 }

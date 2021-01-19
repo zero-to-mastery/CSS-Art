@@ -1,22 +1,22 @@
 .dot {
-    height: 50px;
-    width: 50px;
-    background-color: black;
-    border-radius: 50%;
-    display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
 }
 
-h1{
-    color: White;
-    position: relative;
-    left: 8%;
+h1 {
+  color: White;
+  position: relative;
+  left: 8%;
 }
 
-.rectangle{
-    background-color: red;
-    width: 160px;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+.rectangle {
+  background-color: red;
+  width: 160px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }

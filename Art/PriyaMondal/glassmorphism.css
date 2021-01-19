@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  height: 400px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 10px;
+  backdrop-filter: blur(14px);
+  font-family: "Poppins", sans-serif;
+  color: #161616;
+  text-align: center;
+}
+.fas {
+  display: block;
+  font-size: 45px;
+  height: 90px;
+  width: 90px;
+  background-image: linear-gradient(45deg, #a40105, #010101);
+  color: #e5e7df;
+  border-radius: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 22px 0;
+  box-shadow: 0 0 20px rgba(255, 119, 145, 0.7);
+  margin: 20px auto;
+}
+blockquote {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  margin: 35px 20px;
+  font-weight: 500;
+}
+span.author-name {
+  font-weight: 600;
+  font-size: 20px;
+}
