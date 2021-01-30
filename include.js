@@ -2669,11 +2669,11 @@ let cards = [
     githubLink: "https://github.com/PSpooja",
   },
     {
-    artName: 'Happy Sun',
-    pageLink: './Art/kyloRen/index.html',
-    imageLink: './Art/kyloRen/kyloRen.gif',
-    author: 'Rohit',
-    githubLink: 'https://github.com/ghoshrohit72'
+    artName: "Happy Sun",
+    pageLink: "./Art/kyloRen/index.html",
+    imageLink: "./Art/kyloRen/kyloRen.gif",
+    author: "Rohit",
+    githubLink: "https://github.com/ghoshrohit72"
   },
 ];
 
