@@ -2668,7 +2668,7 @@ let cards = [
     author: "Pooja Singh",
     githubLink: "https://github.com/PSpooja",
   },
-    {
+  {
     artName: "Happy Sun",
     pageLink: "./Art/kyloRen/index.html",
     imageLink: "./Art/kyloRen/kyloRen.gif",
