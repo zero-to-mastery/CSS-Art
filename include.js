@@ -1,6 +1,11 @@
 let cards = [
   //  Add your card in this section
-
+  {
+    artName: "Svg Animation",
+    pageLink: "./Art/_svg-font-animation/index.html",
+    author: "Waseem Raja Shaik",
+    githubLink: "https://github.com/waseemrajashaik",
+  },
   {
     artName: "Pikachu",
     pageLink: "./Art/shahina/index.html",
