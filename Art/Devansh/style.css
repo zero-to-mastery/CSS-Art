@@ -1,0 +1,58 @@
+.bg {
+  background-color: white;
+  animation-name: back;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes back {
+  50% {
+    background-color: #ffe6f2;
+  }
+}
+
+.hatt {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: darkred;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotate(-45deg);
+  animation-name: beat;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1) rotate(-45deg);
+  }
+  50% {
+    transform: scale(.9) rotate(-45deg);
+  }
+}
+
+.hatt::after {
+  content: "";
+  background-color: darkred;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  left: 25px;
+  position: absolute;
+}
+
+.hatt::before {
+  content: "";
+  background-color: darkred;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  left: 0;
+}
