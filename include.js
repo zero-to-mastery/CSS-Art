@@ -2675,6 +2675,13 @@ let cards = [
     author: 'Rohit',
     githubLink: 'https://github.com/ghoshrohit72'
   },
+  {
+		artName: 'Rocket ship',
+    pageLink: './Art/Rocket_ship/index.html',
+    imageLink: './Art/Rocket_ship/Rocket-Ship.gif',
+    author: 'Gutu Galuppo',
+    githubLink: 'https://github.com/gutugaluppo'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
