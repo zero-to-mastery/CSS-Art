@@ -2675,6 +2675,13 @@ let cards = [
     author: 'Rohit',
     githubLink: 'https://github.com/ghoshrohit72'
   },
+    {
+    artName: 'updated CLock'
+    pageLink: './contribute-folder/index.html',
+    imageLink: './contribute-folder/Image_8',
+    author: 'Ishaan',
+    githubLink:'https://github.com/ishaan14112000/'
+   },
 ];
 
 // +--------------------------------------------------------------------------------+
