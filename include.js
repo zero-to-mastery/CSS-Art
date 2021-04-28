@@ -2675,6 +2675,12 @@ let cards = [
     author: 'Rohit',
     githubLink: 'https://github.com/ghoshrohit72'
   },
+  {
+    pageLink: './Art/AlexWNash/index.html',
+    imageLink: './Art/AlexWNash/icon.gif',
+    author: 'Alex Nash',
+    githubLink: 'https://github.com/AlexWNash'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
