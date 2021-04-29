@@ -2675,6 +2675,13 @@ let cards = [
     author: 'Rohit',
     githubLink: 'https://github.com/ghoshrohit72'
   },
+  {
+    artName: "Serious Monkey",
+    pageLink: "./Art/bryguy/index1.html",
+    imageLink: "./Art/bryguy/SeriousMonkeyCSS.gif",
+    author: "Bryan Tellefsen",
+    githubLink: "https://github.com/BTellefsen11",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
