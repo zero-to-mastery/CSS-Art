@@ -2675,6 +2675,13 @@ let cards = [
     author: 'Rohit',
     githubLink: 'https://github.com/ghoshrohit72'
   },
+   {
+    artName: 'robot',
+    pageLink: './Art/18BIT0387/index.html',
+    imageLink: '',
+    author: 'Aravind',
+    githubLink: 'https://github.com/aravindvrajeev'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
