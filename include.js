@@ -2723,6 +2723,13 @@ let cards = [
     author: 'Alex Nash',
     githubLink: 'https://github.com/AlexWNash'
   },
+  {
+    artName: "Serious Monkey",
+    pageLink: "./Art/bryguy/index1.html",
+    imageLink: "./Art/bryguy/SeriousMonkeyCSS.gif",
+    author: "Bryan Tellefsen",
+    githubLink: "https://github.com/BTellefsen11",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
