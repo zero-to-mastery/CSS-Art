@@ -2619,6 +2619,13 @@ let cards = [
     author: "Eder",
     githubLink: "https://github.com/EderIRE",
   },
+ {
+    artName: "Nisarga Gotekar Clock",
+    pageLink: " ",
+    imageLink: " ",
+    author: "Nisarga",
+    githubLink: "https://github.com/nisargagotekar",
+  },
   {
     artName: "Bones",
     pageLink: "./Art/Bones/index.html",
