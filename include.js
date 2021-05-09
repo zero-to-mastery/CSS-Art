@@ -13,6 +13,12 @@ let cards = [
     author: "O-zbair",
     githubLink: "https://github.com/O-zbair",
   },
+{
+    artName: "Funky Clock",
+    pageLink: "",
+    author: "Prakhar",
+    githubLink: "https://github.com/prakharbaphna",
+  },
   {
     artName:'Pizza slice',
     pageLink: './Art/fernando122/pizza.html',
