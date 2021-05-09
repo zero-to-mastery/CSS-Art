@@ -32,7 +32,7 @@
     transform: scale(1) rotate(-45deg);
   }
   50% {
-    transform: scale(.9) rotate(-45deg);
+    transform: scale(0.9) rotate(-45deg);
   }
 }
 
