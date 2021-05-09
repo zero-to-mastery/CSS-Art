@@ -2710,6 +2710,12 @@ let cards = [
     author: "Gutu Galuppo",
     githubLink: "https://github.com/gutugaluppo",
   },
+  {
+    pageLink: './Art/AlexWNash/index.html',
+    imageLink: './Art/AlexWNash/icon.gif',
+    author: 'Alex Nash',
+    githubLink: 'https://github.com/AlexWNash'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
