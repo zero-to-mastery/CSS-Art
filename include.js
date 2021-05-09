@@ -2668,20 +2668,41 @@ let cards = [
     author: "Pooja Singh",
     githubLink: "https://github.com/PSpooja",
   },
-    {
-    artName: 'Happy Sun',
-    pageLink: './Art/kyloRen/index.html',
-    imageLink: './Art/kyloRen/kyloRen.gif',
-    author: 'Rohit',
-    githubLink: 'https://github.com/ghoshrohit72'
+  {
+    artName: "Happy Sun",
+    pageLink: "./Art/kyloRen/index.html",
+    imageLink: "./Art/kyloRen/kyloRen.gif",
+    author: "Rohit",
+    githubLink: "https://github.com/ghoshrohit72",
   },
-    {
-    artName: 'updated CLock'
-    pageLink: './contribute-folder/index.html',
-    imageLink: './contribute-folder/Image_8',
-    author: 'Ishaan',
-    githubLink:'https://github.com/ishaan14112000/'
-   },
+  {
+    artName: "Heartbeat",
+    pageLink: "./Art/Devansh/index.html",
+    imageLink: "./Art/Devanhs/heartbeatanim.gif",
+    author: "Devansh",
+    githubLink: "https://github.com/Devanshkr",
+  },
+  {
+    artName: "updated CLock",
+    pageLink: "./contribute-folder/index.html",
+    imageLink: "./contribute-folder/Image_8",
+    author: "Ishaan",
+    githubLink: "https://github.com/ishaan14112000/",
+  },
+  {
+    artName: "robot",
+    pageLink: "./Art/18BIT0387/index.html",
+    imageLink: "",
+    author: "Aravind",
+    githubLink: "https://github.com/aravindvrajeev",
+  },
+  {
+    artName: "Rocket ship",
+    pageLink: "./Art/Rocket_ship/index.html",
+    imageLink: "./Art/Rocket_ship/Rocket-Ship.gif",
+    author: "Gutu Galuppo",
+    githubLink: "https://github.com/gutugaluppo",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
