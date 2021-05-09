@@ -84,6 +84,13 @@ let cards = [
     githubLink: "https://github.com/AbsMechanik",
   },
   {
+    artName: "Crystal ball",
+    pageLink: "./Art/reekrajroy/index.html",
+    imageLink: "./Art/reekrajroy/crystal.PNG",
+    author: "Reekraj Roy",
+    githubLink: "https://github.com/REEKRAJROY",
+  },
+  {
     artName: "space zoo",
     pageLink: "./Art/space_zoo/index.html",
     imageLink: "./Art/space_zoo/space_zoo.gif",
