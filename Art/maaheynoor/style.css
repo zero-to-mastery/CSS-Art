@@ -1,0 +1,154 @@
+body {
+    background-color:#b3d7ff;
+}
+.icecream{  /*ice-cream popsicle(pink)*/
+    position:absolute ;
+    top:20px;
+    left:80px;
+    height:300px;
+    width:200px;
+    background: #ff1a66;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-right-radius:150px;
+    border-top-left-radius:150px;
+    box-shadow:5px 5px 1px #ff4d88;
+}
+.icecream:before{   /*ice-cream stick*/
+    content:'';
+    position:absolute ;
+    top:290px;
+    left:80px;
+    height:150px;
+    width:30px;
+    background-color:#e09c5f;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    box-shadow:3px 3px 1px #c16e25,
+            -2px -2px 2px #ebbc94;
+    z-index:-1;
+}
+.icecream:after{ /*ice-cream drops(pink)*/
+    content:'';
+    position:absolute ;
+    top:300px;
+    left:150px;
+    height:30px;
+    width:15px;
+    background-color:#ff1a66;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    box-shadow:30px -10px 1px #ff1a66,
+                -90px 5px 1px #ff4d88,
+                -120px -50px 1px #ff4d88;
+    animation:dropping .5s alternate infinite;
+}
+@keyframes dropping{
+    100%{
+        height:32px;
+    }
+}
+.shadow{ /*ice-cream shadow with fallen drop*/
+    position:absolute;
+    top:500px;
+    left:80px;
+    height:20px;
+    width:200px;
+    border-radius:50%;
+    background-image: radial-gradient(closest-side at 32%,#ff4d88 30%,#b3b3cc 30%);
+    animation:dropped 2s infinite;
+}
+@keyframes dropped{
+
+    0%,70%{
+     background-image:radial-gradient(closest-side at 32%,#ff4d88 30%,#b3b3cc 30%);
+    }
+    100%{
+         background-image:radial-gradient(closest-side at 32%,#ff4d88 35%,#b3b3cc 35%);
+    }
+}
+
+.shadow:before{     /*falling drop*/
+    content:'';
+     position:absolute;
+    top:-160px;
+    left:60px;
+    height:15px;
+    width:15px;
+    border-radius:50%;
+    background-color:#ff4d88;
+    animation:drop 2s infinite;
+}
+@keyframes drop{
+    10%{
+        height:20px;
+    }
+    70%{
+        height:20px;
+        opacity:0.5;
+    }
+    100%{
+        opacity:0;
+        top:0px;
+        }
+}
+
+.sprinkles{     /*Chocolate cover*/
+    position:absolute;
+    top:20px;
+    left:78px;
+    height:180px;
+    width:210px;
+    background:#800000;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-top-right-radius:150px;
+    border-top-left-radius:150px;
+    box-shadow:0px -5px 1px #660000;
+}
+.sprinkles:before{  /*Chocolate dripping (larger)*/
+    content:'';
+    position:absolute;
+    top:120px;
+    left:30px;
+    height:100px;
+    width:50px;
+    background:#800000;
+    border-radius:50px;
+    box-shadow:100px 30px 1px #800000,
+                50px 40px 1px #ff1a66;
+}
+
+.sprinkles:after{   /*Sprinkle toppings (angle 60)*/
+    content:'';
+    position:absolute;
+    top:20px;
+    left:30px;
+    height:25px;
+    width:5px;
+    background:#ff6600;
+    box-shadow:90px -80px 1px #00cc66,
+                160px -100px 1px #009999,
+                90px 10px 1px #ffcc00
+                ;
+    transform:rotate(60deg);
+}
+.shadow:after{     /*More Sprinkles (angle 130)*/
+    content:'';
+    position:absolute;
+    top:-350px;
+    left:30px;
+    height:25px;
+    width:5px;
+    background:#0099e6;
+    box-shadow:-130px 0px 1px #d279d2,
+                -75px 15px 1px #ffff80,
+                -100px -60px 1px #ff66a3
+                ;
+    transform:rotate(130deg);
+    z-index:1;
+}
+
+

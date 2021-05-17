@@ -2742,6 +2742,13 @@ let cards = [
     imageLink: "./Art/bryguy/SeriousMonkeyCSS.gif",
     author: "Bryan Tellefsen",
     githubLink: "https://github.com/BTellefsen11",
+  },
+  {
+    artName: "Ice Cream",
+    pageLink: "./Art/maaheynoor/index.html",
+    imageLink: "./Art/maaheynoor/giphy.gif",
+    author: "Maahey Noor Sayani",
+    githubLink: "https://github.com/maaheynoor",
   }
 ];
 
