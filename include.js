@@ -2742,6 +2742,12 @@ let cards = [
     imageLink: "./Art/bryguy/SeriousMonkeyCSS.gif",
     author: "Bryan Tellefsen",
     githubLink: "https://github.com/BTellefsen11",
+  },{
+    artName: "Seesaw",
+    pageLink: "./Art/mariusz79/index.html",
+    imageLink: "./Art/mariusz79/seesaw.png",
+    author: "mariusz79",
+    githubLink: "https://github.com/mariusz79",
   }
 ];
 
