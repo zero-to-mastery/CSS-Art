@@ -2748,6 +2748,12 @@ let cards = [
     imageLink: "./Art/mariusz79/seesaw.png",
     author: "mariusz79",
     githubLink: "https://github.com/mariusz79",
+  },{
+    artName: "OCEAN",
+    pageLink: "./Art/OCEAN/index.html",
+    imageLink: "./Art/OCEAN/OCEAN.gif",
+    author: "wordssaysalot",
+    githubLink: "https://github.com/wordssaysalot",
   }
 ];
 
