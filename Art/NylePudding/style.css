@@ -1,0 +1,73 @@
+.stripe {
+    margin: auto;
+    height: 10vh;
+    background-color: rgb(140, 0, 255);;
+    color: rgb(140, 0, 255);
+    /* border-radius: 25px; */
+
+    animation-name: b-to-w;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.stripe:nth-child(even){
+    background-color: white;
+    color: white;
+    animation-name: w-to-b;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes w-to-b {
+    0% {
+        background-color: white;
+        color: white;
+        transform: rotateX(270deg);
+    }
+    20% {
+        background-color: rgb(140, 0, 255);
+        color:rgb(140, 0, 255);
+        transform: rotateY(360deg);
+    }
+    40% {
+        background-color: white;
+        color: white;
+        transform: rotateX(-270deg);
+    }
+    60% {
+        background-color: rgb(140, 0, 255);
+        color:rgb(140, 0, 255);
+        transform: rotateY(360deg);
+    }
+    100% {
+        background-color: white;
+        color: white;
+        transform: rotateX(-270deg);
+    }
+}
+
+@keyframes b-to-w {
+    0% {
+        background-color: rgb(140, 0, 255);
+        color:rgb(140, 0, 255);
+        transform: rotateX(270deg);
+    }
+    50% {
+        background-color: white;
+        color: white;
+        transform: rotateY(270deg);
+    }
+    100% {
+        background-color: rgb(140, 0, 255);
+        color:rgb(140, 0, 255);
+        transform: rotateX(-270deg);
+    }
+}

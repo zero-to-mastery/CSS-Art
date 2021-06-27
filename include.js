@@ -2754,6 +2754,12 @@ let cards = [
     imageLink: "./Art/OCEAN/OCEAN.gif",
     author: "wordssaysalot",
     githubLink: "https://github.com/wordssaysalot",
+  },{
+    artName: "Animated Stripes",
+    pageLink: "./Art/NylePudding/index.html",
+    imageLink: "./Art/NylePudding/animated_stripes.gif",
+    author: "NylePudding",
+    githubLink: "https://github.com/NylePudding",
   }
 ];
 
