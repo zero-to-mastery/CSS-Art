@@ -2755,6 +2755,13 @@ let cards = [
     author: "wordssaysalot",
     githubLink: "https://github.com/wordssaysalot",
   }
+  {
+    artName: "Froggy",
+    pageLink: "./Art/Froggy Santiago/index.html",
+    imageLink: "./Art/Froggy Santiago/froggy.jpeg",
+    author: "Santiago Murillo Morador",
+    githubLink: "https://github.com/SantiagoMurilloMorador",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

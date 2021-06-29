@@ -1,0 +1,40 @@
+
+.parent {
+	background-color: rgb(0, 159, 253);
+		padding: 2rem 4rem;
+
+	height: 400px;
+	width: 400px
+
+}
+
+.child {
+	background-image: url(https://i.pinimg.com/originals/b7/57/a3/b757a3ffc07625e34800f1af1863ac06.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	animation: left-to-right 1s ease-in forwards infinite alternate;
+	height: 200px;
+	width: 200px
+	}
+    .parent:hover .child {
+    	animation-play-state: paused;
+    }
+	@keyframes left-to-right {
+		0% {
+			transform: translateX(0);
+		}
+		33% {
+			transform: translateY(100%);
+		}
+		60% {
+			transform: translateX(100%) translateY(100%);
+		}
+		100% {
+			transform: translateX(100%);
+		}
+	}
+
+
+
