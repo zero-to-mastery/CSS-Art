@@ -18,7 +18,7 @@ body {
     }
     
     img:hover{
-    animation: rotate 1s linear;
+    animation: rotate 0.1s linear;
     }
     
     @keyframes rotate{
