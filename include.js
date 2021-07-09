@@ -76,6 +76,13 @@ let cards = [
     githubLink: "https://github.com/MaKloudz",
   },
   {
+    artName: "Easy Peasy",
+    pageLink: "./Art/Kashish Goyal/index.html",
+    imageLink: "./Art/MaKloudz/dat-animation.gif",
+    author: "KashishGoyal",
+    githubLink: "https://github.com/KashishGoyal905",
+  },
+  {
     artName: "spirals",
     pageLink: "./Art/Krishna/index.html",
     imageLink: "./Art/Krishna/spiral.png",
