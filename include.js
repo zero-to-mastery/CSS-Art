@@ -76,10 +76,10 @@ let cards = [
     githubLink: "https://github.com/MaKloudz",
   },
   {
-    artName: "Easy Peasy",
+    artName: "Moving Animation",
     pageLink: "./Art/Kashish Goyal/index.html",
-    imageLink: "./Art/MaKloudz/dat-animation.gif",
-    author: "KashishGoyal",
+    imageLink: "./Art/Kashish Goyal/Animation.png",
+    author: "Kashish Goyal",
     githubLink: "https://github.com/KashishGoyal905",
   },
   {
