@@ -2754,6 +2754,12 @@ let cards = [
     imageLink: "./Art/OCEAN/OCEAN.gif",
     author: "wordssaysalot",
     githubLink: "https://github.com/wordssaysalot",
+  },{
+    artName: "Stars",
+    pageLink: "./Art/Atharva B/index.html",
+    imageLink: "./Art/Atharva B/OCEAN.gif",
+    author: "Attu",
+    githubLink: "https://github.com/Atharva12Bowlekar",
   }
 ];
 
