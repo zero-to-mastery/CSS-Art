@@ -1,6 +1,6 @@
 let cards = [
   //  Add your card in this section
-
+  
   {
     artName: "Pikachu",
     pageLink: "./Art/shahina/index.html",
@@ -2754,6 +2754,13 @@ let cards = [
     imageLink: "./Art/OCEAN/OCEAN.gif",
     author: "wordssaysalot",
     githubLink: "https://github.com/wordssaysalot",
+  }
+  ,
+  {
+    artName: "Angry Bird",
+    pageLink: "./Art/Shikhar/index.html",
+    author: "Shikhar",
+    githubLink: "https://github.com/shikhar13012001",
   }
 ];
 
