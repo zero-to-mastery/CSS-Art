@@ -2763,6 +2763,12 @@ let cards = [
     author: "Shikhar",
     githubLink: "https://github.com/shikhar13012001",
   },
+  {
+    artName: "Relax",
+    pageLink: "./Art/JoeBoy/relax.html",
+    author: "JoeBoy61",
+    githubLink: "https://github.com/JoeBoy61",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
