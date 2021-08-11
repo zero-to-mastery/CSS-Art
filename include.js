@@ -13,18 +13,18 @@ let cards = [
     author: "O-zbair",
     githubLink: "https://github.com/O-zbair",
   },
-{
+  {
     artName: "Funky Clock",
     pageLink: "",
     author: "Prakhar",
     githubLink: "https://github.com/prakharbaphna",
   },
   {
-    artName:'Pizza slice',
-    pageLink: './Art/fernando122/pizza.html',
-    imageLink:'./Art/fernando122/pizza.png',
-    author: 'JFernando122',
-    githubLink:'https://github.com/JFernando122'
+    artName: "Pizza slice",
+    pageLink: "./Art/fernando122/pizza.html",
+    imageLink: "./Art/fernando122/pizza.png",
+    author: "JFernando122",
+    githubLink: "https://github.com/JFernando122",
   },
   {
     artName: "Planet Loader",
@@ -2625,7 +2625,7 @@ let cards = [
     author: "Eder",
     githubLink: "https://github.com/EderIRE",
   },
- {
+  {
     artName: "Nisarga Gotekar Clock",
     pageLink: " ",
     imageLink: " ",
@@ -2731,10 +2731,10 @@ let cards = [
     githubLink: "https://github.com/gutugaluppo",
   },
   {
-    pageLink: './Art/AlexWNash/index.html',
-    imageLink: './Art/AlexWNash/icon.gif',
-    author: 'Alex Nash',
-    githubLink: 'https://github.com/AlexWNash'
+    pageLink: "./Art/AlexWNash/index.html",
+    imageLink: "./Art/AlexWNash/icon.gif",
+    author: "Alex Nash",
+    githubLink: "https://github.com/AlexWNash",
   },
   {
     artName: "Serious Monkey",
@@ -2742,30 +2742,34 @@ let cards = [
     imageLink: "./Art/bryguy/SeriousMonkeyCSS.gif",
     author: "Bryan Tellefsen",
     githubLink: "https://github.com/BTellefsen11",
-  },{
+  },
+  {
     artName: "Seesaw",
     pageLink: "./Art/mariusz79/index.html",
     imageLink: "./Art/mariusz79/seesaw.png",
     author: "mariusz79",
     githubLink: "https://github.com/mariusz79",
-  },{
+  },
+  {
     artName: "OCEAN",
     pageLink: "./Art/OCEAN/index.html",
     imageLink: "./Art/OCEAN/OCEAN.gif",
     author: "wordssaysalot",
     githubLink: "https://github.com/wordssaysalot",
-  },{
+  },
+  {
     artName: "Angry Bird",
     pageLink: "./Art/Shikhar/index.html",
     author: "Shikhar",
     githubLink: "https://github.com/shikhar13012001",
-  },{
+  },
+  {
     artName: "Relax",
     pageLink: "./Art/JoeBoy/relax.html",
     imageLink: "./Art/JoeBoy/screenshot.png",
     author: "JoeBoy61",
     githubLink: "https://github.com/JoeBoy61",
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
