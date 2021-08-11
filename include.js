@@ -2755,6 +2755,11 @@ let cards = [
     author: "wordssaysalot",
     githubLink: "https://github.com/wordssaysalot",
   },{
+    artName: "Angry Bird",
+    pageLink: "./Art/Shikhar/index.html",
+    author: "Shikhar",
+    githubLink: "https://github.com/shikhar13012001",
+  },{
     artName: "Relax",
     pageLink: "./Art/JoeBoy/relax.html",
     imageLink: "./Art/JoeBoy/screenshot.png",
