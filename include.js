@@ -2763,6 +2763,12 @@ let cards = [
     author: "Shikhar",
     githubLink: "https://github.com/shikhar13012001",
   },
+  {
+    artName: "Zany Face",
+    pageLink: "./Art/Shyam-NR/index.html",
+    author: "Shyam-NR",
+    githubLink: "https://github.com/Shyam-NR",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
