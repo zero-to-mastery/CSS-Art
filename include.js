@@ -8,6 +8,13 @@ let cards = [
     githubLink: "https://github.com/ShahinaShanu",
   },
   {
+    artName: "login form",
+    pageLink: "./Art/login form/index.html",
+    imageLink: "./Art/login form/myArt_anshulsingh.png",
+    author: "anshul singh",
+    githubLink: "https://github.com/anshul2807",
+  },
+  {
     artName: "Pretty Duck",
     pageLink: "./Art/1.ani/index.html",
     author: "O-zbair",
