@@ -2768,7 +2768,7 @@ let cards = [
   imageLink: "./Art/Sachin_tiwari/Animebutton.png",
   author: "Sachin",
   githubLink: "https://github.com/invincible5146",
-  }, 
+  },  
 ];
 
 // +--------------------------------------------------------------------------------+
