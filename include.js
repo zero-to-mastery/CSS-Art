@@ -2768,7 +2768,14 @@ let cards = [
     pageLink: "./Art/JoeBoy/relax.html",
     author: "JoeBoy61",
     githubLink: "https://github.com/JoeBoy61",
-  }
+  },
+  {
+    artName: "Anime Button",
+    pageLink: "./Art/Sachin_tiwari/index.html",
+    imageLink: "./Art/Sachin_tiwari/Animebutton.png",
+    author: "invincible5146",
+    githubLink: "https://github.com/invincible5146",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
