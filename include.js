@@ -2763,6 +2763,12 @@ let cards = [
     author: "Shikhar",
     githubLink: "https://github.com/shikhar13012001",
   },
+  { artName: "Anime Button",
+  pageLink: "./Art/Sachin_tiwari/index.html",
+  imageLink: "./Art/Sachin_tiwari/Animebutton.png",
+  author: "Sachin",
+  githubLink: "https://github.com/invincible5146",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
