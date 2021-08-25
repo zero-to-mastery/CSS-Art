@@ -2018,6 +2018,13 @@ let cards = [
     githubLink: "https://github.com/biadelmiro",
   },
   {
+    artName: "Animated Background",
+    pageLink: "./Art/AnimatedBg/index.html",
+    imageLink: "./Art/AnimatedBg/ScreenShot-1.png",
+    author: "Rashmi Thakur",
+    githubLink: "https://github.com/rashmi-thakurr",
+  },
+  {
     artName: "Walking Guy",
     pageLink: "./Art/walking-guy/index.html",
     imageLink: "./Art/walking-guy/video_gif.gif",
