@@ -2768,7 +2768,13 @@ let cards = [
     pageLink: "./Art/JoeBoy/relax.html",
     author: "JoeBoy61",
     githubLink: "https://github.com/JoeBoy61",
-  }
+  },
+  {
+    artName: "LoadingEffect",
+    pageLink: "./Art/LoadingEffect/index.html",
+    author: "Golam Mursalin",
+    githubLink: "https://github.com/G-Mursalin",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
