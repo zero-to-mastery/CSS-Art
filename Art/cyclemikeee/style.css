@@ -1,0 +1,163 @@
+body{
+	background: none;
+}
+
+.box{
+	position: relative;
+	margin: auto;
+	display: block;  
+	background: white;
+	/*border: solid 4px red;*/
+	margin-top: 1%;
+	width: 600px;
+	height: 420px;
+	background: none;  
+}
+
+.frame{
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  width: 40%;
+  height: 65%;
+  background: #3D3738;  
+}
+
+.drawer{
+	position: absolute;
+	top: 75%;
+	left: 8%;
+	width: 80%;
+	height: 20%;
+	border: solid 4px black;
+	background: #1C1313;  
+}
+
+.knob{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	width: 10%;
+	height: 20%;	
+	background: #D7CACA;
+	border-radius: 50%; 
+}
+
+.door{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 75%;
+	height: 55%;
+	border: solid 4px black;
+	background: #8AA9DB;  	
+}
+
+.chimney{
+  position: absolute;
+  top: 0%;
+  left: 45%;
+  width: 10%;
+  height: 40%;
+  background: #3D3738;  
+}
+
+.cover{
+	position: absolute;
+	top: 35%;
+	left: 27.5%;
+	width: 45%;
+	height: 3%;
+	background: #3D3738;  
+}
+
+.flame1{
+	position: absolute;
+    top: 20%;
+	left: 30%;
+	width: 60%;
+	height: 75%;
+	/*padding-bottom: 100%;*/
+    background: #ff6234;
+    border-radius: 0% 50% 50% 50%;
+    transform: rotate(45deg);
+    animation: fire1 2s linear infinite
+}
+.flame2{
+	position: absolute;
+    top: 50%;
+	left: 10%;
+	width: 30%;
+	height: 40%;	
+    background: #FFB41D;
+    border-radius: 0% 50% 50% 50%;
+    transform: rotate(-45deg);
+    animation: fire2 2s linear infinite
+}
+
+.flame3{
+	position: absolute;
+    top: 50%;
+	left: 40%;
+	width: 30%;
+	height: 40%;	
+    background: #DB2600;
+    border-radius: 0% 50% 50% 50%;
+    transform: rotate(-45deg);
+    animation: fire3 2s linear infinite
+}       
+
+.log-one{
+	position: absolute;
+	top: 70%;
+	left: 5%;
+	width: 29%;
+	height: 30%;
+}
+
+.log-two{
+	position: absolute;
+	top: 70%;
+	left: 35%;
+	width: 29%;
+	height: 30%;
+}
+
+.log-three{
+	position: absolute;
+	top: 70%;
+	left: 65%;
+	width: 29%;
+	height: 30%;
+}
+
+
+#logs-outer{
+	background: #321700;
+	border-radius: 50%; 
+}
+
+#logs-inner{	
+	position: absolute;
+	top: 7.5%;
+	left: 7.5%;
+	width: 85%;
+	height: 85%;
+	background: #985C2B;
+	border-radius: 50%; 
+}
+
+@keyframes fire1 {
+  0%   {opacity: 2; transform: scale(1) rotate(45deg)}
+  100% {opacity: .8; transform: scale(.9) rotate(50deg)}
+}
+
+@keyframes fire2 {
+  0%   {opacity: 2; transform: scale(1) rotate(45deg)}
+  100% {opacity: .8; transform: scale(.9) rotate(40deg)}
+}
+
+@keyframes fire3 {
+  0%   {opacity: 2; transform: scale(1) rotate(45deg)}
+  100% {opacity: .8; transform: scale(1.25) rotate(40deg)}
+}
