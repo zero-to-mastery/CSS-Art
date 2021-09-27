@@ -2771,8 +2771,8 @@ let cards = [
   }
   {
     artName: "donkey_fire",
-    pageLink: "./Art/OCEAN/index.html",
-    imageLink: "./Art/OCEAN/giff.gif",
+    pageLink: "./Art/cyclemikeee/index.html",
+    imageLink: "./Art/cyclemikeee/giff.gif",
     author: "cyclemike",
     githubLink: "https://github.com/cyclemike",
   }
