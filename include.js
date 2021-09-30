@@ -2768,7 +2768,14 @@ let cards = [
     pageLink: "./Art/JoeBoy/relax.html",
     author: "JoeBoy61",
     githubLink: "https://github.com/JoeBoy61",
-  }
+  },
+  {
+    artName: "Coffee Maker",
+    pageLink: "./Art/Gab990/coffee.html",
+    imageLink: "./Art/Gab990/coffee.gif",
+    author: "Gab990",
+    githubLink: "https://github.com/Gab990",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
