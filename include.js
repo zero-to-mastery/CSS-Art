@@ -2,6 +2,12 @@ let cards = [
   //  Add your card in this section
 
   {
+    pageLink: "./Art/Rajni2002/index.html",
+    imageLink: "./Art/Rajni2002/march.png/",
+    author: "Rajni2002",
+    githubLink: "https://github.com/Rajni2002",
+  },
+  {
     artName: "Pikachu",
     pageLink: "./Art/shahina/index.html",
     author: "Shahina",
