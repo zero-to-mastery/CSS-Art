@@ -2789,6 +2789,13 @@ let cards = [
     author: "Gab990",
     githubLink: "https://github.com/Gab990",
   },
+  {
+    artName: "Circular Loader",
+    pageLink: "./Art/Nachiketa/circularLoader.html",
+    imageLink: "./Art/Nachiketa/circularLoader.gif",
+    author: "Nachiketa Dhal",
+    githubLink: "https://github.com/NachiketaDhal",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
