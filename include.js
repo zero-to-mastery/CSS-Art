@@ -2789,6 +2789,13 @@ let cards = [
     author: "Gab990",
     githubLink: "https://github.com/Gab990",
   },
+  {
+    artName: "Linux Penguin",
+    pageLink: "./Art/Thea/index.html",
+    imageLink: "./Art/Thea/linux.gif",
+    author: "Thea",
+    githubLink: "https://github.com/highflyer910",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
