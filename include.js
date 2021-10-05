@@ -25,6 +25,12 @@ let cards = [
     author: "Prakhar",
     githubLink: "https://github.com/prakharbaphna",
   },
+{
+    pageLink: "./Art/Pawan/Bicycle.html",
+    imageLink: "./Art/Pawan/bicycle.gif",
+    author: "Pawan Mishra",
+    githubLink: "https://github.com/pawankm21",
+  },
   {
     artName: "Pizza slice",
     pageLink: "./Art/fernando122/pizza.html",
