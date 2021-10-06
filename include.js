@@ -2,6 +2,12 @@ let cards = [
   //  Add your card in this section
 
   {
+    pageLink: "./Art/OmkarGunjal/wavefront.html",
+    imageLink: "./Art/OmkarGunjal/WavefrontEffect.gif",
+    author: "Omkar Gunjal",
+    githubLink: "https://github.com/omkarg1417",
+  },
+  {
     pageLink: "./Art/Rajni2002/index.html",
     imageLink: "./Art/Rajni2002/march.png/",
     author: "Rajni2002",
