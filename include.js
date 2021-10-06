@@ -25,6 +25,12 @@ let cards = [
     author: "Prakhar",
     githubLink: "https://github.com/prakharbaphna",
   },
+{
+    pageLink: "./Art/Pawan/Bicycle.html",
+    imageLink: "./Art/Pawan/bicycle.gif",
+    author: "Pawan Mishra",
+    githubLink: "https://github.com/pawankm21",
+  },
   {
     artName: "Pizza slice",
     pageLink: "./Art/fernando122/pizza.html",
@@ -2795,6 +2801,13 @@ let cards = [
     imageLink: "./Art/Thea/linux.gif",
     author: "Thea",
     githubLink: "https://github.com/highflyer910",
+  },
+  {
+    artName: "Circular Loader",
+    pageLink: "./Art/Nachiketa/circularLoader.html",
+    imageLink: "./Art/Nachiketa/circularLoader.gif",
+    author: "Nachiketa Dhal",
+    githubLink: "https://github.com/NachiketaDhal",
   }
 ];
 
