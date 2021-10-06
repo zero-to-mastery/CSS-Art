@@ -1,0 +1,82 @@
+body
+{
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background-color: rgb(37, 0, 50);
+}
+.wavefront
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    height:50px;
+    width:50px;
+}
+.main
+{
+    position: absolute;
+    height:50px;
+    width:50px;
+}
+.front-6
+{
+    background-color: rgb(138, 92, 156);
+    height:50px;
+    width:50px;
+}
+.front-2
+{
+    margin:auto 22px;
+}
+.main:hover .front-1
+{
+    height:280px;
+    width:280px;
+    background-color: rgb(47, 0, 67);
+    box-shadow: 0 0 10px rgb(45, 36, 56), 0 0 10px rgb(45, 36, 56);
+}
+.main:hover .front-2
+{
+    height:230px;
+    width:230px;
+    background-color: rgb(54, 10, 77);
+    box-shadow: 0 0 10px rgb(45, 36, 56), 0 0 10px rgb(45, 36, 56);
+}
+.main:hover .front-3
+{
+    height:180px;
+    width:180px;
+    background-color: rgb(61, 25, 87);
+    box-shadow: 0 0 10px rgb(45, 36, 56), 0 0 10px rgb(45, 36, 56);
+}
+.main:hover .front-4
+{
+    height:130px;
+    width:130px;
+    background-color: rgb(68, 40, 97);
+    box-shadow: 0 0 25px rgb(45, 36, 56), 0 0 25px rgb(45, 36, 56);
+}
+.main:hover .front-5
+{
+    height:90px;
+    width:90px;
+    background-color: rgb(75, 55, 107);
+    box-shadow: 0 0 25px rgb(65, 45, 97), 0 0 25px rgb(35, 46, 26);
+}
+.main:hover .front-6
+{
+    cursor: pointer;
+    height:50px;
+    width:50px;
+    font-size: 20px;
+    transform:scale(1.2);
+    background-color: #fff;
+    box-shadow: 0 0 15px #fff, 0 0 15px #fff;
+}

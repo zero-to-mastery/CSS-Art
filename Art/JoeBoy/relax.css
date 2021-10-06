@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.try{
+    margin: 0;
+    width: 400%;
+    height: 400%;
+    background: #12c2e9; 
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+    animation: test 10s ease infinite;
+
+}
+
+/* .try2{
+    margin: 0;
+    width: 400%;
+    height: 400%;
+    background: #ef32d9; 
+    background: -webkit-linear-gradient(to top, #89fffd, #ef32d9); 
+    background: linear-gradient(to top, #89fffd, #ef32d9); 
+    animation: test2 10s ease infinite;
+    transition-property: z-index;
+    transition-delay: 5s; 
+ } */
+
+@keyframes test {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    50%{
+        transform: translate(-70%, 0%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+/* @keyframes test2{
+    0%{
+        transform: translate(0%, 0%);
+    }
+    50%{
+        transform: translate(0%, 0%);
+    }
+    100%{
+        transform: translate(0%, -100%);
+    }
+} */
+
+.container{
+    height: 70px;
+    width: 70px;
+    border-radius: 90px;
+    position: relative;
+    box-shadow: 0px 1px 10px 10px rgba(58, 0, 0, 0.2);
+}
+
+.dot{
+    filter: blur(100px);
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+#dot1{
+    position: absolute;
+    left: 45vw;
+    top: 45vh;
+    z-index: 1;
+    transform: rotate(360deg) 2s linear infinite;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), transparent, transparent);
+    animation: dot-1-animation 10s linear infinite;
+}
+#dot2{
+    position: absolute;
+    left: 45vw;
+    top: 45vh;
+    z-index: 2;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), transparent, transparent);
+    animation: dot-2-animation 10s linear infinite;
+}
+
+#dot3{
+    position: absolute;
+    left: 45vw;
+    top: 45vh;
+    z-index: 3;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), transparent, transparent);
+    animation: dot-3-animation 10s linear infinite;
+}
+
+#dot4{
+    position: absolute;
+    left: 45vw;
+    top: 45vh;
+    z-index: 4;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), transparent, transparent);
+    animation: dot-4-animation 10s linear infinite;
+}
+
+#dot5{
+    position: absolute;
+    left: 45vw;
+    top: 45vh;
+    z-index: 5;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.5), transparent, transparent);
+    filter: blur(20%);
+    animation: dot-5-animation 4s linear infinite;
+}
+
+#dot6{
+    position: absolute;
+    left: 45vw;
+    top: 45vh;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), transparent, transparent);
+    animation: dot-6-animation 8s linear infinite;
+}
+
+#dot7{
+    position: absolute;
+    left: 45vw;
+    top: 45vh;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), transparent, transparent);
+    animation: dot-7-animation 8s linear infinite;
+}
+
+#dot8{
+    position: absolute;
+    left: 45vw;
+    top: 45vh;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), transparent, transparent);
+    animation: dot-8-animation 8s linear infinite;
+}
+
+#dot9{
+    position: absolute;
+    left: 45vw;
+    top: 45vh;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), transparent, transparent);
+    animation: dot-9-animation 8s linear infinite;
+}
+
+@keyframes dot-1-animation{
+    0%{
+      transform:rotate(0deg)
+                translate(40vh)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(40vh)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes dot-2-animation{
+    0%{
+      transform:rotate(0deg)
+                translate(-40vh)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-40vh)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes dot-3-animation{
+    0%{
+      transform:rotate(15deg)
+                translate(0, -20vh)
+                rotate(-15deg);
+    
+    }
+    50%{
+        transform: rotate(165deg)
+                    translate(0, -20vh)
+                    rotate(-165deg);
+    }
+    100%{
+      transform:rotate(15deg)
+                translate(0, -20vh)
+                rotate(-15deg);
+    }
+  }
+
+  @keyframes dot-4-animation{
+    0%{
+      transform:rotate(345deg)
+                translate(0, -20vh)
+                rotate(-345deg);
+    
+    }
+    50%{
+        transform: rotate(195deg)
+                    translate(0, -20vh)
+                    rotate(-195deg);
+    }
+    100%{
+      transform:rotate(345deg)
+                translate(0, -20vh)
+                rotate(-345deg);
+    }
+  }
+
+  @keyframes dot-5-animation{
+      0%{
+          transform: rotate(0deg);
+      }
+      100%{
+          transform: rotate(360deg);
+      }
+  }
+
+  @keyframes dot-6-animation{
+    0%{
+      transform:rotate(0deg)
+                translate(0, 60vh)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(0, 60vh)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes dot-7-animation{
+    0%{
+      transform:rotate(0deg)
+                translate(0, -60vh)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(0, -60vh)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes dot-8-animation{
+    0%{
+      transform:rotate(0deg)
+                translate(60vh, 0vh)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(60vh, 0vh)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes dot-9-animation{
+    0%{
+      transform:rotate(0deg)
+                translate(-60vh, 0vh)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-60vh, 0vh)
+                rotate(-360deg);
+    }
+  }

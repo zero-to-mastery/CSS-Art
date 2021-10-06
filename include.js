@@ -2,6 +2,18 @@ let cards = [
   //  Add your card in this section
 
   {
+    pageLink: "./Art/OmkarGunjal/wavefront.html",
+    imageLink: "./Art/OmkarGunjal/WavefrontEffect.gif",
+    author: "Omkar Gunjal",
+    githubLink: "https://github.com/omkarg1417",
+  },
+  {
+    pageLink: "./Art/Rajni2002/index.html",
+    imageLink: "./Art/Rajni2002/march.png/",
+    author: "Rajni2002",
+    githubLink: "https://github.com/Rajni2002",
+  },
+  {
     artName: "Pikachu",
     pageLink: "./Art/shahina/index.html",
     author: "Shahina",
@@ -18,6 +30,12 @@ let cards = [
     pageLink: "",
     author: "Prakhar",
     githubLink: "https://github.com/prakharbaphna",
+  },
+{
+    pageLink: "./Art/Pawan/Bicycle.html",
+    imageLink: "./Art/Pawan/bicycle.gif",
+    author: "Pawan Mishra",
+    githubLink: "https://github.com/pawankm21",
   },
   {
     artName: "Pizza slice",
@@ -2770,6 +2788,40 @@ let cards = [
     author: "Shyam-NR",
     githubLink: "https://github.com/Shyam-NR",
   },
+  {
+    artName: "Relax",
+    pageLink: "./Art/JoeBoy/relax.html",
+    author: "JoeBoy61",
+    githubLink: "https://github.com/JoeBoy61",
+  },
+  {
+    artName: "donkey_fire",
+    pageLink: "./Art/cyclemikeee/index.html",
+    imageLink: "./Art/cyclemikeee/giff.gif",
+    author: "cyclemike",
+    githubLink: "https://github.com/cyclemike",
+  },
+  {
+    artName: "Coffee Maker",
+    pageLink: "./Art/Gab990/coffee.html",
+    imageLink: "./Art/Gab990/coffee.gif",
+    author: "Gab990",
+    githubLink: "https://github.com/Gab990",
+  },
+  {
+    artName: "Linux Penguin",
+    pageLink: "./Art/Thea/index.html",
+    imageLink: "./Art/Thea/linux.gif",
+    author: "Thea",
+    githubLink: "https://github.com/highflyer910",
+  },
+  {
+    artName: "Circular Loader",
+    pageLink: "./Art/Nachiketa/circularLoader.html",
+    imageLink: "./Art/Nachiketa/circularLoader.gif",
+    author: "Nachiketa Dhal",
+    githubLink: "https://github.com/NachiketaDhal",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

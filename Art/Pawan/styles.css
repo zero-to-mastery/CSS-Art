@@ -1,0 +1,95 @@
+.wheel{
+  width:100px;
+  height:100px;
+  background-color:white;
+  border:solid 15px;
+  border-radius:50%;
+  border-top: 15px solid #E0D7FF;
+  margin :10px 40px 10px 40px;
+   -webkit-animation: spin 2s linear infinite;
+  animation: spin 0.5s linear infinite;
+}
+#wheel-container{
+  display:flex;
+  width:fit-content;
+  position:absolute;
+  top:200px;
+  left:150px;
+
+}
+.spoke{
+  border-radius:40px;
+  width:30px;
+  height:15px;
+  margin:10px;
+  background-color:black;
+
+}
+
+#spoke-1{
+   transform: rotate(70deg);
+  position:absolute;
+  left:270px;
+  top:120px;
+}
+#spoke-2{
+  width:150px;
+   transform: rotate(120deg);
+  position:absolute;
+  left:202px;
+  top:200px;
+}
+#spoke-handle{
+   transform: rotate(20deg);
+  position:absolute;
+  left:280px;
+  width:40px;
+  top:135px;
+}
+#spoke-4{
+/*    transform: rotate(120deg); */
+  position:absolute;
+  width:100px;
+  top:260px;
+  left:360px;
+}
+#spoke-3{
+   transform: rotate(50deg);
+  position:absolute;
+  width:120px;
+  left:270px;
+  top:220px;
+}
+#spoke-5{
+   transform: rotate(40deg);
+  position:absolute;
+  width:100px;
+  left:370px;
+  top:230px;
+}
+#spoke-6{
+   transform: rotate(110deg);
+  position:absolute;
+  width:110px;
+  left:330px;
+    top:210px;
+}
+#spoke-7{
+   transform: rotate(20deg);
+  position:absolute;
+  width:100px;
+  left:290px;
+  top:190px;
+}
+#spoke-8{
+   transform: rotate(170deg);
+  position:absolute;
+  width:60px;
+  left:370px;
+  top:160px;
+
+}
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
