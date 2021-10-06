@@ -2796,12 +2796,19 @@ let cards = [
     githubLink: "https://github.com/Gab990",
   },
   {
+    artName: "Linux Penguin",
+    pageLink: "./Art/Thea/index.html",
+    imageLink: "./Art/Thea/linux.gif",
+    author: "Thea",
+    githubLink: "https://github.com/highflyer910",
+  },
+  {
     artName: "Circular Loader",
     pageLink: "./Art/Nachiketa/circularLoader.html",
     imageLink: "./Art/Nachiketa/circularLoader.gif",
     author: "Nachiketa Dhal",
     githubLink: "https://github.com/NachiketaDhal",
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
