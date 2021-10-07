@@ -2809,6 +2809,13 @@ let cards = [
     githubLink: "https://github.com/highflyer910",
   },
   {
+    artName: "Colors Loader",
+    pageLink: "./Art/godnon-colors-loader/index.html",
+    imageLink: "./Art/godnon-colors-loader/icon.png",
+    author: "Godnon",
+    githubLink: "https://github.com/godnondsilva",
+  },
+  {
     artName: "Circular Loader",
     pageLink: "./Art/Nachiketa/circularLoader.html",
     imageLink: "./Art/Nachiketa/circularLoader.gif",
