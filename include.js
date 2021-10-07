@@ -402,6 +402,13 @@ let cards = [
     githubLink: "https://github.com/godnondsilva",
   },
   {
+    artName: "Blocks Loader",
+    pageLink: "./Art/godnon-blocks-loader/index.html",
+    imageLink: "./Art/godnon-blocks-loader/icon.png",
+    author: "Godnon",
+    githubLink: "https://github.com/godnondsilva",
+  },
+  {
     artName: "Hover Effect",
     pageLink: "./Art/Shubhankar/index.html",
     imageLink: "./Art/Shubhankar/hackoctober.gif",
