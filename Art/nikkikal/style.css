@@ -1,0 +1,38 @@
+* {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px;
+    border-radius: 50%;
+    position: relative;
+    background-color: blueviolet;
+    animation: spin 2s infinite forwards;
+    
+}
+
+
+
+@keyframes spin {
+    0% {
+        transform:  rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180geg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    
+}
