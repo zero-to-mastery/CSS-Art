@@ -2814,6 +2814,13 @@ let cards = [
     imageLink: "./Art/Nachiketa/circularLoader.gif",
     author: "Nachiketa Dhal",
     githubLink: "https://github.com/NachiketaDhal",
+  },
+  {
+    artName: "Falling Leaves",
+    pageLink: "./Art/ThesllaDev/index.html",
+    imageLink: "./Art/ThesllaDev/falling-leaves.gif",
+    author: "ThesllaDev",
+    githubLink: "https://github.com/ThesllaDev",
   }
 ];
 
