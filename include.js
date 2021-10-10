@@ -2814,6 +2814,13 @@ let cards = [
     imageLink: "./Art/Nachiketa/circularLoader.gif",
     author: "Nachiketa Dhal",
     githubLink: "https://github.com/NachiketaDhal",
+  },
+   {
+    artName: "Darksaber",
+    pageLink: "./Art/Darksaber/index.html",
+    imageLink: "./Art/Darksaber/darksaber.gif",
+    author: "Rohan Yadav",
+    githubLink: "https://github.com/lmNoob",
   }
 ];
 
