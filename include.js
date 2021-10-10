@@ -2821,7 +2821,14 @@ let cards = [
     imageLink: "./Art/Nachiketa/circularLoader.gif",
     author: "Nachiketa Dhal",
     githubLink: "https://github.com/NachiketaDhal",
-  }
+  },
+  {
+    artName: "Zany Face",
+    pageLink: "./Art/Shyam-NR/index.html",
+    imageLink: "./Art/Shyam-NR/result.png",
+    author: "Shyam-NR",
+    githubLink: "https://github.com/Shyam-NR",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
