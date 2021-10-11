@@ -2851,6 +2851,14 @@ let cards = [
     author: "Shyam-NR",
     githubLink: "https://github.com/Shyam-NR",
   },
+
+  {
+    artName: "Crazy Star",
+    pageLink: "./Art/swag/index.html",
+    imageLink: "./Art/swag/crazy-star.png",
+    author: "Swag",
+    githubLink: "https://github.com/swag1223",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

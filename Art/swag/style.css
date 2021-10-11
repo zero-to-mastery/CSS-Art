@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(214, 239, 248, 0.925);
+}
+img {
+  height: auto;
+  width: 20%;
+  animation: crazyStar 1.5s infinite alternate forwards;
+}
+
+@keyframes crazyStar {
+  50% {
+    transform: translateX(200%) scale(0.5);
+  }
+
+  75% {
+    transform: translateX(200%) rotate(180deg) scale(0.5);
+  }
+  100% {
+    transform: translateX(400%) rotate(180deg);
+  }
+}
