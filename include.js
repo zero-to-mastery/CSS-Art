@@ -402,6 +402,13 @@ let cards = [
     githubLink: "https://github.com/godnondsilva",
   },
   {
+    artName: "Blocks Loader",
+    pageLink: "./Art/godnon-blocks-loader/index.html",
+    imageLink: "./Art/godnon-blocks-loader/icon.png",
+    author: "Godnon",
+    githubLink: "https://github.com/godnondsilva",
+  },
+  {
     artName: "Hover Effect",
     pageLink: "./Art/Shubhankar/index.html",
     imageLink: "./Art/Shubhankar/hackoctober.gif",
@@ -2809,19 +2816,41 @@ let cards = [
     githubLink: "https://github.com/highflyer910",
   },
   {
+    artName: "Colors Loader",
+    pageLink: "./Art/godnon-colors-loader/index.html",
+    imageLink: "./Art/godnon-colors-loader/icon.png",
+    author: "Godnon",
+    githubLink: "https://github.com/godnondsilva",
+  },
+  {
     artName: "Circular Loader",
     pageLink: "./Art/Nachiketa/circularLoader.html",
     imageLink: "./Art/Nachiketa/circularLoader.gif",
     author: "Nachiketa Dhal",
     githubLink: "https://github.com/NachiketaDhal",
   },
+
    {
     artName: "Darksaber",
     pageLink: "./Art/Darksaber/index.html",
     imageLink: "./Art/Darksaber/darksaber.gif",
     author: "Rohan Yadav",
     githubLink: "https://github.com/lmNoob",
+   },
+  {
+    artName: "Falling Leaves",
+    pageLink: "./Art/ThesllaDev/index.html",
+    imageLink: "./Art/ThesllaDev/falling-leaves.gif",
+    author: "ThesllaDev",
+    githubLink: "https://github.com/ThesllaDev",
   }
+,{
+    artName: "Zany Face",
+    pageLink: "./Art/Shyam-NR/index.html",
+    imageLink: "./Art/Shyam-NR/result.png",
+    author: "Shyam-NR",
+    githubLink: "https://github.com/Shyam-NR",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
