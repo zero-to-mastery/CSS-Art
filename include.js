@@ -2830,6 +2830,13 @@ let cards = [
     githubLink: "https://github.com/NachiketaDhal",
   },
   {
+    artName: "Falling Leaves",
+    pageLink: "./Art/ThesllaDev/index.html",
+    imageLink: "./Art/ThesllaDev/falling-leaves.gif",
+    author: "ThesllaDev",
+    githubLink: "https://github.com/ThesllaDev",
+  }
+,{
     artName: "Zany Face",
     pageLink: "./Art/Shyam-NR/index.html",
     imageLink: "./Art/Shyam-NR/result.png",
