@@ -1,0 +1,59 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(228, 228, 228);
+}
+
+.handle {
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    cursor: pointer;
+    width: 25px;
+    height: 150px;
+    z-index: 1;
+    background: #e2e2e2;
+    background: linear-gradient(to right, #868686 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    border-bottom: solid 8px rgb(124, 124, 124);
+    border-top: solid 8px rgb(124, 124, 124);
+    border-radius: 5px;
+}
+
+.button {
+    width: 6.06px;
+    height: 16.92px;
+    background: #FA5E5E;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.button:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+.laser {
+    width: 17px;
+    height: 330px;
+    background: #333333;
+    border-radius: 0px 200px 0px 0px;
+    margin-top: 20px;
+    animation: saber 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes saber {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000000, 0 0 70px #424242, 0 0 80px #494949, 0 0 100px #2c2c2c, 0 0 150px #000000;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #000000, 0 0 35px #424242, 0 0 40px #494949, 0 0 50px #2c2c2c, 0 0 75px #000000;
+    }
+}

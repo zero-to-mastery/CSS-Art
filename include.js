@@ -2829,6 +2829,14 @@ let cards = [
     author: "Nachiketa Dhal",
     githubLink: "https://github.com/NachiketaDhal",
   },
+
+   {
+    artName: "Darksaber",
+    pageLink: "./Art/Darksaber/index.html",
+    imageLink: "./Art/Darksaber/darksaber.gif",
+    author: "Rohan Yadav",
+    githubLink: "https://github.com/lmNoob",
+   },
   {
     artName: "Falling Leaves",
     pageLink: "./Art/ThesllaDev/index.html",
