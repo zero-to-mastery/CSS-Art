@@ -2851,6 +2851,13 @@ let cards = [
     author: "Shyam-NR",
     githubLink: "https://github.com/Shyam-NR",
   },
+  {
+    artName: 'Water Flowing Text',
+    pageLink: './Art/water-text/index.html',
+    imageLink: './Art/water-text/water-text.png',
+    author: 'leonyangela',
+    githubLink: 'https://github.com/leonyangela',
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
