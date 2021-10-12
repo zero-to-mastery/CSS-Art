@@ -1,0 +1,160 @@
+.bars {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.bars div{
+    display: inline-block;
+    width: 43px;
+    height: 400px;
+    background-color: black;
+}
+  
+.bar {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 0ms;
+}
+
+.bar2 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 50ms;
+}
+
+.bar3 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 100ms;
+}
+
+.bar4 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 150ms;
+}
+
+.bar5 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 200ms;
+}
+
+.bar6 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 250ms;
+}
+
+.bar7 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 300ms;
+}
+
+.bar8 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 350ms;
+}
+
+.bar9 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 400ms;
+}
+
+.bar10 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 450ms;
+}
+
+.bar11 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 500ms;
+}
+
+.bar12 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 550ms;
+}
+
+.bar13 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 600ms;
+}
+
+.bar14 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 650ms;
+}
+
+.bar15 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 700ms;
+}
+
+.bar16 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 700ms;
+}
+.bar17 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 750ms;
+}
+.bar18 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 800ms;
+}
+.bar19 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 850ms;
+}
+.bar20 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 950ms;
+}
+.bar21 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 1000ms;
+}
+.bar22 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 1050ms;
+}
+.bar23 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 1100ms;
+}
+.bar24 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 1150ms;
+}
+.bar25 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 1200ms;
+}
+.bar26 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 1250ms;
+}
+.bar27 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 1300ms;
+}
+.bar28 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 1350ms;
+}
+.bar29 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 1400ms;
+}
+.bar30 {
+    animation: Mountain 2s infinite alternate;
+    animation-delay: 1450ms;
+}
+
+@keyframes Mountain {
+    from {
+        height: 0px;
+        background-color: rgb(241, 8, 39);
+    }
+    to {
+        height: 600px;
+        background-color: rgb(15, 215, 250);
+    }
+  }
