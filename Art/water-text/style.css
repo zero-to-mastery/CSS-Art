@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #e0c097;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: 'Arial';
+  font-size: 96px;
+}
+
+.container {
+  position: relative;
+}
+
+.container h1 {
+  position: absolute;
+}
+
+.text:nth-child(2) {
+  animation: animate 2s ease-in-out infinite;
+  color: #ff7878;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0 35%,
+      17% 41%,
+      26% 51%,
+      35% 61%,
+      50% 62%,
+      63% 57%,
+      75% 53%,
+      88% 52%,
+      100% 57%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0 60%,
+      11% 53%,
+      24% 51%,
+      38% 53%,
+      51% 53%,
+      65% 47%,
+      78% 36%,
+      90% 30%,
+      100% 34%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
