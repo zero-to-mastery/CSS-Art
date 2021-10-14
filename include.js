@@ -2850,6 +2850,13 @@ let cards = [
     imageLink: "./Art/Shyam-NR/result.png",
     author: "Shyam-NR",
     githubLink: "https://github.com/Shyam-NR",
+  }, 
+  {
+    artName: "Mountain",
+    pageLink: "./Art/Mountain/index.html",
+    imageLink: "./Art/Mountain/Mountain.png",
+    author: "Gabriel Teixeira",
+    githubLink: "https://github.com/GabrielTeixeiraC",
   },
   {
     artName: "Crazy Star",
