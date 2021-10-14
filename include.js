@@ -2852,12 +2852,19 @@ let cards = [
     githubLink: "https://github.com/Shyam-NR",
   },
   {
+    artName: "Crazy Star",
+    pageLink: "./Art/swag/index.html",
+    imageLink: "./Art/swag/crazy-star.png",
+    author: "Swag",
+    githubLink: "https://github.com/swag1223",
+  },
+  {
     artName: 'Water Flowing Text',
     pageLink: './Art/water-text/index.html',
     imageLink: './Art/water-text/water-text.png',
     author: 'leonyangela',
     githubLink: 'https://github.com/leonyangela',
-  },
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
