@@ -1941,7 +1941,7 @@ let cards = [
     pageLink: "./Art/yash2003e/index.html",
     imageLink: "./Art/yash2003e/animation.png",
     author: "Yashraj",
-    githubLink: "https://github.com/yash2003e",
+    githubLink: "https://github.com/yashraj2003e",
   },
   {
     artName: "Bill Cipher",
