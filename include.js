@@ -108,6 +108,13 @@ let cards = [
     githubLink: "https://github.com/EricPuskas",
   },
   {
+    artName: "Fade Dots",
+    pageLink: "./Art/loading_D-vers/index.html",
+    imageLink: "./Art/loading_D-vers/loading-demo.png",
+    author: "Dilshad Noshad",
+    githubLink: "https://github.com/DilshadNoshad",
+  },
+  {
     artName: "LSD Rainbow Trip: Phase 1",
     pageLink: "./Art/AbsMechanik/index.html",
     imageLink: "./Art/AbsMechanik/AbsMechanik_Animation.gif",
