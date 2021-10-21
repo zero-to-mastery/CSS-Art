@@ -2871,6 +2871,13 @@ let cards = [
     imageLink: './Art/water-text/water-text.png',
     author: 'leonyangela',
     githubLink: 'https://github.com/leonyangela',
+  },
+  {
+    artName: '3D Bouncing Balls',
+    pageLink: './Art/3D-balls/index.html',
+    imageLink: './Art/3D-balls/3D-balls.gif',
+    author: 'milad2281',
+    githubLink: 'https://github.com/milad2281',
   }
 ];
 
