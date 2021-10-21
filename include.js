@@ -241,9 +241,9 @@ let cards = [
     githubLink: "https://github.com/erics0n",
   },
   {
-    artName: "Burger Menu",
-    pageLink: "./Art/mctrl/burger.html",
-    imageLink: "./Art/mctrl/burger.gif",
+    artName: "Gameboy",
+    pageLink: "./Art/mctrl/gameboy.html",
+    imageLink: "./Art/mctrl/gameboy.jpg",
     author: "Martina",
     githubLink: "https://github.com/mctrl",
   },
@@ -2878,6 +2878,20 @@ let cards = [
     imageLink: './Art/water-text/water-text.png',
     author: 'leonyangela',
     githubLink: 'https://github.com/leonyangela',
+  },
+  {
+    artName: "Pixel Charizard",
+    pageLink: "./Art/mctrl/index.html",
+    imageLink: "./Art/mctrl/charizard.jpg",
+    author: "Martina",
+    githubLink: "https://github.com/mctrl",
+  },
+  {
+    artName: "Pixel Mario",
+    pageLink: "./Art/mctrl/mario.html",
+    imageLink: "./Art/mctrl/mario.png",
+    author: "Martina",
+    githubLink: "https://github.com/mctrl",
   },
   {
     artName: '3D Bouncing Balls',
