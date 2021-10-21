@@ -108,6 +108,13 @@ let cards = [
     githubLink: "https://github.com/EricPuskas",
   },
   {
+    artName: "Fade Dots",
+    pageLink: "./Art/loading_D-vers/index.html",
+    imageLink: "./Art/loading_D-vers/loading-demo.png",
+    author: "Dilshad Noshad",
+    githubLink: "https://github.com/DilshadNoshad",
+  },
+  {
     artName: "LSD Rainbow Trip: Phase 1",
     pageLink: "./Art/AbsMechanik/index.html",
     imageLink: "./Art/AbsMechanik/AbsMechanik_Animation.gif",
@@ -2885,6 +2892,13 @@ let cards = [
     imageLink: "./Art/mctrl/mario.png",
     author: "Martina",
     githubLink: "https://github.com/mctrl",
+  },
+  {
+    artName: '3D Bouncing Balls',
+    pageLink: './Art/3D-balls/index.html',
+    imageLink: './Art/3D-balls/3D-balls.gif',
+    author: 'milad2281',
+    githubLink: 'https://github.com/milad2281',
   }
 ];
 
