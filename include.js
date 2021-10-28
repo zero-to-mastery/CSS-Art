@@ -2899,6 +2899,13 @@ let cards = [
     imageLink: './Art/3D-balls/3D-balls.gif',
     author: 'milad2281',
     githubLink: 'https://github.com/milad2281',
+  },
+  {
+    artName: 'Background Dark and Light Switch',
+    pageLink: './Art/darkSwitch/index.html',
+    imageLink: './Art/darkSwitch/darkSwitch.png',
+    author: 'Gabriel Mota',
+    githubLink: 'https://github.com/gfmota',
   }
 ];
 
