@@ -4,6 +4,7 @@
 
 .darkBG {
     background-color: black;
+    color: white
 }
 
 .hidden {
@@ -12,4 +13,9 @@
 
 #background {
     transition: linear .25s;
+}
+
+#refs {
+    position: absolute;
+    bottom: .5em;
 }
