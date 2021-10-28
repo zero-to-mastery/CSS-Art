@@ -1,0 +1,15 @@
+.icon {
+    width: 2em;
+}
+
+.darkBG {
+    background-color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+#background {
+    transition: linear .25s;
+}
