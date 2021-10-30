@@ -2907,6 +2907,13 @@ let cards = [
     githubLink: 'https://github.com/milad2281',
   },
   {
+    artName: 'Background Dark and Light Switch',
+    pageLink: './Art/darkSwitch/index.html',
+    imageLink: './Art/darkSwitch/darkSwitch.png',
+    author: 'Gabriel Mota',
+    githubLink: 'https://github.com/gfmota',
+  },
+    {
     artName: "Analog ClockSS",
     pageLink: "./Art/afonsocarlos/index.html",
     imageLink: "./Art/afonsocarlos/clock.gif",
