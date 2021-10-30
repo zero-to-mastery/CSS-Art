@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+ .frame {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 width: 400px;
+	 height: 400px;
+	 margin-top: -200px;
+	 margin-left: -200px;
+	 border-radius: 2px;
+	 box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	 overflow: hidden;
+	 background: #34495e;
+	 color: #333;
+	 font-family: 'Open Sans', Helvetica, sans-serif;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+}
+ .pendul {
+	 position: absolute;
+	 width: 200px;
+	 height: 40px;
+	 top: 140px;
+	 left: 100px;
+	 padding-top: 100px;
+}
+ .pendul .ball {
+	 position: relative;
+	 float: left;
+	 width: 40px;
+	 height: 40px;
+	 background: #fff;
+	 border-radius: 50%;
+	 transform-origin: 50% -100px;
+}
+ .pendul .ball-1 {
+	 -webkit-animation: ball-1 0.8s ease-out infinite alternate;
+	 animation: ball-1 0.8s ease-out infinite alternate;
+}
+ .pendul .ball-5 {
+	 -webkit-animation: ball-5 0.8s ease-out 0.8s infinite alternate;
+	 animation: ball-5 0.8s ease-out 0.8s infinite alternate;
+}
+ .pendul:before {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 width: 200px;
+	 height: 6px;
+	 top: 0;
+	 left: 0;
+	 border-radius: 3px;
+	 background: #bdc3c7;
+}
+ .pendul .ball:before {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 height: 100px;
+	 width: 1px;
+	 top: -100px;
+	 left: 19px;
+	 background: #bdc3c7;
+}
+ @keyframes ball-1 {
+	 0%, 50% {
+		 transform: rotate(0);
+	}
+	 100% {
+		 transform: rotate(45deg);
+	}
+}
+ @keyframes ball-5 {
+	 0%, 50% {
+		 transform: rotate(0);
+	}
+	 100% {
+		 transform: rotate(-45deg);
+	}
+}
+ 
