@@ -2914,6 +2914,13 @@ let cards = [
     githubLink: 'https://github.com/milad2281',
   },
   {
+    artName: 'Sunflower',
+    pageLink: './Art/ayushi2410/index.html',
+    imageLink: './Art/ayushi2410/ayushi2410.png',
+    author: 'ayushi2410',
+    githubLink: 'https://github.com/ayushi2410',
+  },
+  {
     artName: 'Background Dark and Light Switch',
     pageLink: './Art/darkSwitch/index.html',
     imageLink: './Art/darkSwitch/darkSwitch.png',
