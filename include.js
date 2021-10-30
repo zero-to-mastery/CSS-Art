@@ -1944,6 +1944,12 @@ let cards = [
     author: "Agnes Brettl",
     githubLink: "https://github.com/brettl1991",
   },
+    artName: "Animated Cicrle",
+    pageLink: "./Art/yash2003e/index.html",
+    imageLink: "./Art/yash2003e/animation.png",
+    author: "Yashraj",
+    githubLink: "https://github.com/yashraj2003e",
+  },
   {
     artName: "Bill Cipher",
     pageLink: "./Art/vitoriapena/index.html",
@@ -2857,7 +2863,7 @@ let cards = [
     imageLink: "./Art/Shyam-NR/result.png",
     author: "Shyam-NR",
     githubLink: "https://github.com/Shyam-NR",
-  }, 
+  },
   {
     artName: "Mountain",
     pageLink: "./Art/Mountain/index.html",
@@ -2906,7 +2912,14 @@ let cards = [
     imageLink: './Art/darkSwitch/darkSwitch.png',
     author: 'Gabriel Mota',
     githubLink: 'https://github.com/gfmota',
-  }
+  },
+    {
+    artName: "Analog ClockSS",
+    pageLink: "./Art/afonsocarlos/index.html",
+    imageLink: "./Art/afonsocarlos/clock.gif",
+    author: "afonsocarlos",
+    githubLink: "https://github.com/afonsocarlos",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
