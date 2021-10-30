@@ -2863,7 +2863,7 @@ let cards = [
     imageLink: "./Art/Shyam-NR/result.png",
     author: "Shyam-NR",
     githubLink: "https://github.com/Shyam-NR",
-  }, 
+  },
   {
     artName: "Mountain",
     pageLink: "./Art/Mountain/index.html",
@@ -2905,7 +2905,14 @@ let cards = [
     imageLink: './Art/3D-balls/3D-balls.gif',
     author: 'milad2281',
     githubLink: 'https://github.com/milad2281',
-  }
+  },
+  {
+    artName: "Analog ClockSS",
+    pageLink: "./Art/afonsocarlos/index.html",
+    imageLink: "./Art/afonsocarlos/clock.gif",
+    author: "afonsocarlos",
+    githubLink: "https://github.com/afonsocarlos",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

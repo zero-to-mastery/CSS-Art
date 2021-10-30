@@ -1,0 +1,144 @@
+html {
+  background-color: #dfdfdf;
+  text-align: center;
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+  padding: 1.5rem;
+  border: 7px solid #dfdfdf;
+  box-shadow: -4px -4px 10px rgba(239,239,239,0.5),
+  inset 4px 4px 10px rgba(160,160,160,0.5),
+  inset -4px -4px 10px rgba(239,239,239,0.5),
+  4px 4px 10px rgba(128,128,128,0.3);
+  border-radius: 50%;
+  margin: 50px auto;
+}
+
+.hiding-circle {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: #dfdfdf;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.hiding-circle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  border-radius: 18px;
+  margin-left: -9px;
+  margin-top: -6px;
+  background-color: #8d8ba3;
+  z-index: 1;
+}
+
+.sticks {
+  position: relative;
+  background: #dfdfdf;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.sticks .stick {
+  background-color: #bdbdcb;
+  width: 3px;
+}
+
+.sticks .stick.stick-one {
+  transform: rotate(30deg);
+}
+
+.sticks .stick.stick-two {
+  transform: rotate(60deg);
+}
+
+.sticks .stick.stick-three {
+  transform: rotate(120deg);
+}
+
+.sticks .stick.stick-four {
+  transform: rotate(150deg);
+}
+
+.sticks::after {
+  transform: rotate(90deg)
+}
+
+.sticks::after,
+.sticks::before {
+  background-color: #22fefe;
+}
+
+.sticks::after,
+.sticks::before,
+.sticks .stick {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  z-index: 0;
+  left: 49%;
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  right: 50%;
+  position: absolute;
+  top: 50%;
+  border-radius: 6px;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
+
+.hand.hours {
+  width: 20%;
+  background-color: #8f8f8f;
+  z-index: 1;
+  animation: rotate 14400s infinite linear;
+}
+
+.hand.minutes {
+  height: 3px;
+  width: 30%;
+  background-color: #61afff;
+  z-index: 2;
+  transform: rotate(210deg);
+  animation: rotate 1200s infinite linear;
+}
+
+.hand.seconds {
+  background-color: #ee791a;
+  width: 35%;
+  height: 2px;
+  z-index: 3;
+  animation: rotate 20s infinite linear;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(450deg);
+  }
+}
