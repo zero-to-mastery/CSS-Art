@@ -2934,6 +2934,13 @@ let cards = [
     author: "afonsocarlos",
     githubLink: "https://github.com/afonsocarlos",
   },
+  {
+    artName: 'CSS Smiley Face',
+    pageLink: './Art/vikasganiga05/css-smiley-face/index.html',
+    imageLink: './Art/vikasganiga05/css-smiley-face/css-smiley-face.gif',
+    author: 'Vikas Ganiga',
+    githubLink: 'https://github.com/vikasganiga05',
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

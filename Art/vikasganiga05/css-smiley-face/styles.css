@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-clr: #20184e;
+  --head-clr: #fbd671;
+  --shadow-clr: #f8b90e;
+  --tongue-clr: #f15962;
+  --background-clr: #feee9d;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--background-clr);
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 50vmin;
+  height: 50vmin;
+  background: var(--head-clr);
+  border-radius: 50%;
+  box-shadow: 1.5vmin 1.5vmin var(--shadow-clr);
+}
+
+.eye {
+  position: absolute;
+  width: 5vmin;
+  height: 8vmin;
+  background: var(--black-clr);
+  border-radius: 50%;
+  animation: blink 5s ease-in-out infinite;
+}
+
+.eye.left {
+  top: 15vmin;
+  left: 15vmin;
+}
+
+.eye.right {
+  top: 15vmin;
+  left: 31.2vmin;
+}
+
+.eye::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.5vmin;
+  height: 2.5vmin;
+  background: var(--head-clr);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mouth {
+  position: absolute;
+  top: 30vmin;
+  width: 22vmin;
+  height: 12vmin;
+  overflow: hidden;
+  box-sizing: initial;
+  background: var(--black-clr);
+  border: 0.8vmin solid transparent;
+  border-radius: 2vmin 2vmin 22vmin 22vmin;
+}
+
+.mouth::before {
+  content: "";
+  position: absolute;
+  top: 6vmin;
+  left: 55%;
+  width: 15vmin;
+  height: 15vmin;
+  background: var(--tongue-clr);
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    transform: scale(1, .05);
+  }
+
+  5%,
+  95% {
+    transform: scale(1, 1);
+  }
+}
