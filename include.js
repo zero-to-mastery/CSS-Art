@@ -31,7 +31,7 @@ let cards = [
     author: "Prakhar",
     githubLink: "https://github.com/prakharbaphna",
   },
-{
+  {
     pageLink: "./Art/Pawan/Bicycle.html",
     imageLink: "./Art/Pawan/bicycle.gif",
     author: "Pawan Mishra",
@@ -1944,6 +1944,12 @@ let cards = [
     author: "Agnes Brettl",
     githubLink: "https://github.com/brettl1991",
   },
+    artName: "Animated Cicrle",
+    pageLink: "./Art/yash2003e/index.html",
+    imageLink: "./Art/yash2003e/animation.png",
+    author: "Yashraj",
+    githubLink: "https://github.com/yashraj2003e",
+  },
   {
     artName: "Bill Cipher",
     pageLink: "./Art/vitoriapena/index.html",
@@ -2837,27 +2843,27 @@ let cards = [
     githubLink: "https://github.com/NachiketaDhal",
   },
 
-   {
+  {
     artName: "Darksaber",
     pageLink: "./Art/Darksaber/index.html",
     imageLink: "./Art/Darksaber/darksaber.gif",
     author: "Rohan Yadav",
     githubLink: "https://github.com/lmNoob",
-   },
+  },
   {
     artName: "Falling Leaves",
     pageLink: "./Art/ThesllaDev/index.html",
     imageLink: "./Art/ThesllaDev/falling-leaves.gif",
     author: "ThesllaDev",
     githubLink: "https://github.com/ThesllaDev",
-  }
-,{
+  },
+  {
     artName: "Zany Face",
     pageLink: "./Art/Shyam-NR/index.html",
     imageLink: "./Art/Shyam-NR/result.png",
     author: "Shyam-NR",
     githubLink: "https://github.com/Shyam-NR",
-  }, 
+  },
   {
     artName: "Mountain",
     pageLink: "./Art/Mountain/index.html",
@@ -2873,11 +2879,11 @@ let cards = [
     githubLink: "https://github.com/swag1223",
   },
   {
-    artName: 'Water Flowing Text',
-    pageLink: './Art/water-text/index.html',
-    imageLink: './Art/water-text/water-text.png',
-    author: 'leonyangela',
-    githubLink: 'https://github.com/leonyangela',
+    artName: "Water Flowing Text",
+    pageLink: "./Art/water-text/index.html",
+    imageLink: "./Art/water-text/water-text.png",
+    author: "leonyangela",
+    githubLink: "https://github.com/leonyangela",
   },
   {
     artName: "Pixel Charizard",
@@ -2894,18 +2900,40 @@ let cards = [
     githubLink: "https://github.com/mctrl",
   },
   {
+    artName: "Spooky Skeleton",
+    pageLink: "./Art/Sridarshan/index.html",
+    imageLink: "./Art/Sridarshan/CSS-Art-Spooky.gif",
+    author: "Sridarshan",
+    githubLink: "https://github.com/sridarshan-webjava",
+  },
+  {
     artName: '3D Bouncing Balls',
     pageLink: './Art/3D-balls/index.html',
     imageLink: './Art/3D-balls/3D-balls.gif',
     author: 'milad2281',
     githubLink: 'https://github.com/milad2281',
-  },{
+  },
+  {
     artName: 'Sunflower',
     pageLink: './Art/ayushi2410/index.html',
     imageLink: './Art/ayushi2410/ayushi2410.png',
     author: 'ayushi2410',
     githubLink: 'https://github.com/ayushi2410',
-  }
+  },
+  {
+    artName: 'Background Dark and Light Switch',
+    pageLink: './Art/darkSwitch/index.html',
+    imageLink: './Art/darkSwitch/darkSwitch.png',
+    author: 'Gabriel Mota',
+    githubLink: 'https://github.com/gfmota',
+  },
+    {
+    artName: "Analog ClockSS",
+    pageLink: "./Art/afonsocarlos/index.html",
+    imageLink: "./Art/afonsocarlos/clock.gif",
+    author: "afonsocarlos",
+    githubLink: "https://github.com/afonsocarlos",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -2917,7 +2945,7 @@ let cards = [
 // Creates cards from the array above
 // You don't need to modify this
 let contents = [];
-Shuffle(cards).forEach((c) => {
+Shuffle(cards).forEach(c => {
   contents.push([
     `<li class="card">` +
       `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +

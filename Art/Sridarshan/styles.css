@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  background: #af2d2d;
+}
+
+.wrapper {
+  width: 30vw;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  top: 4rem;
+}
+
+.text {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  position: absolute;
+  top: 27%;
+}
+
+.text:nth-of-type(1) {
+  top: 7%;
+}
+
+input {
+  display: none;
+}
+
+.container {
+  width: 200px;
+}
+
+.head {
+  width: 180px;
+  height: 100px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  border-radius: 180px 180px 0 0;
+  border-top: 8px solid #333;
+  border-left: 8px solid #333;
+  border-right: 8px solid #333;
+  transform-origin: bottom left;
+  transition: transform 0.5s;
+}
+
+.eyes {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 2.75rem;
+}
+
+.eye {
+  width: 40px;
+  height: 40px;
+  border: 8px solid #333;
+  border-radius: 50%;
+}
+
+.chin {
+  position: relative;
+  background: yellow;
+}
+
+.chin::before,
+.chin::after {
+  content: "";
+  position: absolute;
+  width: 0.75rem;
+  height: 1.5rem;
+}
+
+.chin::before {
+  top: 4.15rem;
+  left: 0.895rem;
+  border-left: 8px solid #333;
+}
+
+.chin::after {
+  top: 4.15rem;
+  right: 0.575rem;
+  border-right: 8px solid #333;
+}
+
+.nose {
+  width: 20px;
+  height: 20px;
+  clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+  background: #333;
+  position: absolute;
+  bottom: 34.5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom {
+  width: 130px;
+  height: 24px;
+  position: absolute;
+  bottom: -8.5rem;
+  left: 2.35rem;
+  border-left: 8px solid #333;
+  border-right: 8px solid #333;
+  border-bottom: 8px solid #333;
+  z-index: 4;
+}
+
+.bottom::before {
+  content: " ";
+  position: absolute;
+  top: -1.775rem;
+  left: -1.255rem;
+  width: 5px;
+  height: 2rem;
+  border: 2px solid #333;
+  background: #333;
+  transform: rotate(-40deg);
+}
+
+.bottom::after {
+  content: " ";
+  position: absolute;
+  top: -1.775rem;
+  right: -1.25rem;
+  width: 5px;
+  height: 2rem;
+  border: 2px solid #333;
+  background: #333;
+  transform: rotate(40deg);
+}
+
+.spikes {
+  display: flex;
+  justify-content: center;
+}
+
+.spikes > span {
+  display: block;
+  width: 1.5rem;
+  height: 1.25rem;
+  clip-path: polygon(50% 0, 35% 100%, 65% 100%);
+  background: #333;
+}
+
+.letters {
+  position: absolute;
+  font-size: 10px;
+  color: #333;
+  font-weight: bold;
+  left: 45%;
+  top: 40%;
+  opacity: 0;
+  /*   transition:opacity 1s, left 0.25s 1s, top 0.25s 1s, font-size 0.25s 1s; */
+}
+
+.letters.s {
+  transition: opacity 1s, left 0.25s 1s, top 0.25s 1s, font-size 0.25s 1s;
+}
+
+.letters.p {
+  transition: opacity 1s 1s, left 0.25s 2s, top 0.25s 2s, font-size 0.25s 2s;
+}
+
+.letters.k {
+  transition: opacity 1s 2s, left 0.25s 3s, top 0.25s 3s, font-size 0.25s 3s;
+}
+
+.letters.y {
+  transition: opacity 1s 3s, left 0.25s 4s, top 0.25s 4s, font-size 0.25s 4s;
+}
+
+/* .letters:nth-of-type(1){
+      left:25%;
+    }
+    
+    .letters:nth-of-type(2){
+      left:33%;
+    }
+    
+    .letters:nth-of-type(3){
+      left:62%;
+    }
+    
+    .letters:nth-of-type(4){
+      left:70%;
+    } */
+
+input:checked ~ label > .container > .head {
+  transform: translate(-50%, -50%) rotate(-65deg);
+  animation: move-head 0.25s 6.5s forwards;
+}
+
+input:checked ~ label > .container > .s,
+input:checked ~ label > .container > .p,
+input:checked ~ label > .container > .k,
+input:checked ~ label > .container > .y {
+  opacity: 1;
+  font-size: 3.5em;
+  top: 53.5%;
+}
+
+input:checked ~ label > .container > .s {
+  transition: opacity 0.5s 0.5s, left 0.5s 1s, top 0.5s 1s, font-size 0.5s 1s;
+  left: 8%;
+  /*   animation:move-letter-s 0.5s 1s forwards; */
+}
+
+input:checked ~ label > .container > .p {
+  transition: opacity 0.5s 2s, left 0.5s 2.5s, top 0.5s 2.5s,
+    font-size 0.5s 2.5s;
+  left: 20%;
+  /*   animation:move-letter-p 0.5s 2.5s forwards; */
+}
+
+input:checked ~ label > .container > .k {
+  transition: opacity 0.5s 3.5s, left 0.5s 4s, top 0.5s 4s, font-size 0.5s 4s;
+  left: 72%;
+  /*   animation:move-letter-k 0.5s 4s forwards; */
+}
+
+input:checked ~ label > .container > .y {
+  transition: opacity 0.5s 5s, left 0.5s 5.5s, top 0.5s 5.5s,
+    font-size 0.5s 5.5s;
+  left: 84%;
+  /*   animation:move-letter-y 0.5s 5.5s forwards; */
+}
+
+@keyframes move-head {
+  0% {
+    transform: translate(-50%, -50%) rotate(-65deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@keyframes move-letter-s {
+  0% {
+    left: 45%;
+    top: 40%;
+  }
+  100% {
+  }
+}
+
+@keyframes move-letter-p {
+  0% {
+    left: 45%;
+    top: 40%;
+  }
+  100% {
+    font-size: 22px;
+    top: 49.5%;
+    left: 33%;
+  }
+}
+
+@keyframes move-letter-k {
+  0% {
+    left: 45%;
+    top: 40%;
+  }
+  100% {
+    font-size: 22px;
+    top: 49.5%;
+    left: 62%;
+  }
+}
+
+@keyframes move-letter-y {
+  0% {
+    left: 45%;
+    top: 40%;
+  }
+  100% {
+    font-size: 22px;
+    top: 49.5%;
+    left: 70%;
+  }
+}
