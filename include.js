@@ -2941,6 +2941,13 @@ let cards = [
     author: 'Vikas Ganiga',
     githubLink: 'https://github.com/vikasganiga05',
   },
+  {
+    artName: 'CSS Pikachu Pixel Art',
+    pageLink: './Art/vikasganiga05/css-pikachu-pixel-art/index.html',
+    imageLink: './Art/vikasganiga05/css-pikachu-pixel-art/css-pikachu-pixel-art.png',
+    author: 'Vikas Ganiga',
+    githubLink: 'https://github.com/vikasganiga05',
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
