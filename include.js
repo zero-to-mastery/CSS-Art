@@ -1944,6 +1944,7 @@ let cards = [
     author: "Agnes Brettl",
     githubLink: "https://github.com/brettl1991",
   },
+  {
     artName: "Animated Cicrle",
     pageLink: "./Art/yash2003e/index.html",
     imageLink: "./Art/yash2003e/animation.png",
