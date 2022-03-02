@@ -1,0 +1,84 @@
+body {
+    background: #720b72;
+}
+
+.box1 {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    /* animation: rotation 6s linear infinite; */
+}
+
+.box2 {
+    position: absolute;
+    display: block;
+    /* margin-top: 10%; */
+    width: 700px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    background: radial-gradient(rgba(39, 86, 107, .7), rgba(28, 75, 0, .3));
+    margin: -400px 0px 0px -350px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    /* animation: backwardRotation 6s linear infinite; */
+    z-index: 2;
+}
+
+.circle1 {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background: rgba(195, 98, 121, .7);
+    border-radius: 50%;
+}
+
+.circle2 {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    right: 1px;
+    background: rgba(182, 203, 102, .7);
+    border-radius: 50%;
+}
+
+.circle3 {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    bottom: 1px;
+    background: rgba(117, 20, 43, .7);
+    border-radius: 50%;
+}
+
+.circle4 {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    bottom: 1px;
+    right: 1px;
+    background: rgba(53, 111, 19, .7);
+    border-radius: 50%;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes backwardRotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-359deg);
+    }
+}
