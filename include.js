@@ -2935,6 +2935,13 @@ let cards = [
     author: "afonsocarlos",
     githubLink: "https://github.com/afonsocarlos",
   },
+  {
+    artName: "Funky Koala",
+    pageLink: "./Art/Faopaw_art/index.html",
+    imageLink: "./Art/Faopaw_art/Screenshot 2022-03-09 231219.png",
+    author: "Faopaw",
+    githubLink: "https://github.com/Faopaw",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
