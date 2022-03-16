@@ -2935,6 +2935,13 @@ let cards = [
     author: "afonsocarlos",
     githubLink: "https://github.com/afonsocarlos",
   },
+  {
+    artName: "Animated Solar System",
+    pageLink: "./Art/SolarSystem/index.html",
+    imageLink: "./Art/SolarSystem/solar-system.png",
+    author: "adeelbarki",
+    githubLink: "https://github.com/adeelbarki",
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
