@@ -2935,13 +2935,20 @@ let cards = [
     author: "afonsocarlos",
     githubLink: "https://github.com/afonsocarlos",
   },
-  {
+    {
     artName: "Animated Solar System",
     pageLink: "./Art/SolarSystem/index.html",
     imageLink: "./Art/SolarSystem/solar-system.png",
     author: "adeelbarki",
     githubLink: "https://github.com/adeelbarki",
   },
+    {
+    artName: "Funky Koala",
+    pageLink: "./Art/Faopaw_art/index.html",
+    imageLink: "./Art/Faopaw_art/Screenshot 2022-03-09 231219.png",
+    author: "Faopaw",
+    githubLink: "https://github.com/Faopaw",
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
