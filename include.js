@@ -19,6 +19,13 @@ let cards = [
     author: "Shahina",
     githubLink: "https://github.com/ShahinaShanu",
   },
+{
+  artName: "Wind Effect on Leaf",
+  pageLink: "./Art/MaryShodiya/index.html",
+  imageLink: "./Art/MaryShodiya/wind on leaf.jpeg/",
+  author: "MaryShodiya",
+  githubLink: "https://github.com/MaryShodiya",
+},
   {
     artName: "Pretty Duck",
     pageLink: "./Art/1.ani/index.html",
