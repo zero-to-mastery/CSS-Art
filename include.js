@@ -2943,6 +2943,12 @@ let cards = [
     githubLink: "https://github.com/afonsocarlos",
   },
   {
+    pageLink: "./Art/Aryan/index.html",
+    imageLink: "./Art/Aryan/My_gif.gif",
+    author: "Aryan",
+    githubLink: "https://github.com/AryanCoder2010",
+  },
+  {
     artName: "Funky Koala",
     pageLink: "./Art/Faopaw_art/index.html",
     imageLink: "./Art/Faopaw_art/Screenshot 2022-03-09 231219.png",
