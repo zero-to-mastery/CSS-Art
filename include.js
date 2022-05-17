@@ -2943,6 +2943,7 @@ let cards = [
     githubLink: "https://github.com/afonsocarlos",
   },
   {
+    artName: "Cool loader",
     pageLink: "./Art/Aryan/index.html",
     imageLink: "./Art/Aryan/My_gif.gif",
     author: "Aryan",
