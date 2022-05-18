@@ -2948,6 +2948,13 @@ let cards = [
     imageLink: "./Art/Faopaw_art/Screenshot 2022-03-09 231219.png",
     author: "Faopaw",
     githubLink: "https://github.com/Faopaw",
+  },
+  {
+    artName: "Fire Flower",
+    pageLink: "./Art/bryanrillstone/index.html",
+    imageLink: "./Art/bryanrillstone/fire-flower.png",
+    author: "Bryan Rillstone",
+    githubLink: "https://github.com/bryanrillstone",
   }
 ];
 
