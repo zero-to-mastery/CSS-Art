@@ -1,0 +1,123 @@
+body {
+    background: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.canvas {
+width: 640px;
+height: 640px;
+}
+  
+.pixel {
+width: 40px;
+height: 40px;
+float: left;
+box-shadow: 0px 0px 1px black;
+}
+
+.pixel:nth-child(n+5):nth-child(-n+12),
+.pixel:nth-child(n+19):nth-child(-n+20),
+.pixel:nth-child(n+29):nth-child(-n+30),
+.pixel:nth-child(34),
+.pixel:nth-child(47),
+.pixel:nth-child(49),
+.pixel:nth-child(55),
+.pixel:nth-child(58),
+.pixel:nth-child(64),
+.pixel:nth-child(65),
+.pixel:nth-child(71),
+.pixel:nth-child(74),
+.pixel:nth-child(80),
+.pixel:nth-child(81),
+.pixel:nth-child(87),
+.pixel:nth-child(90),
+.pixel:nth-child(96),
+.pixel:nth-child(98),
+.pixel:nth-child(111),
+.pixel:nth-child(n+115):nth-child(-n+116),
+.pixel:nth-child(n+125):nth-child(-n+126),
+.pixel:nth-child(n+133):nth-child(-n+140),
+.pixel:nth-child(n+146):nth-child(-n+147),
+.pixel:nth-child(151), /*green*/
+.pixel:nth-child(154),
+.pixel:nth-child(n+158):nth-child(-n+159),
+.pixel:nth-child(161),
+.pixel:nth-child(n+164):nth-child(-n+165),
+.pixel:nth-child(167),
+.pixel:nth-child(170),
+.pixel:nth-child(n+172):nth-child(-n+173),
+.pixel:nth-child(176),
+.pixel:nth-child(177),
+.pixel:nth-child(n+182):nth-child(-n+183),
+.pixel:nth-child(n+186):nth-child(-n+187),
+.pixel:nth-child(192),
+.pixel:nth-child(193),
+.pixel:nth-child(199),
+.pixel:nth-child(202),
+.pixel:nth-child(208),
+.pixel:nth-child(210),
+.pixel:nth-child(215),
+.pixel:nth-child(218),
+.pixel:nth-child(223),
+.pixel:nth-child(n+227):nth-child(-n+228),
+.pixel:nth-child(n+237):nth-child(-n+238),
+.pixel:nth-child(n+245):nth-child(-n+252) {
+    background: black;
+}
+
+.pixel:nth-child(n+21):nth-child(-n+28),
+.pixel:nth-child(n+35):nth-child(-n+37),
+.pixel:nth-child(n+44):nth-child(-n+46),
+.pixel:nth-child(n+50):nth-child(-n+51),
+.pixel:nth-child(n+62):nth-child(-n+63),
+.pixel:nth-child(n+66):nth-child(-n+67),
+.pixel:nth-child(n+78):nth-child(-n+79),
+.pixel:nth-child(n+82):nth-child(-n+83),
+.pixel:nth-child(n+94):nth-child(-n+95),
+.pixel:nth-child(n+99):nth-child(-n+101),
+.pixel:nth-child(n+108):nth-child(-n+110),
+.pixel:nth-child(n+117):nth-child(-n+124) {
+    background: orangered;
+}
+
+.pixel:nth-child(n+38):nth-child(-n+43),
+.pixel:nth-child(n+52):nth-child(-n+53),
+.pixel:nth-child(n+60):nth-child(-n+61),
+.pixel:nth-child(68),
+.pixel:nth-child(77),
+.pixel:nth-child(n+84):nth-child(-n+85),
+.pixel:nth-child(n+92):nth-child(-n+93),
+.pixel:nth-child(n+102):nth-child(-n+107) {
+    background: orange;
+}
+
+.pixel:nth-child(54),
+.pixel:nth-child(n+56):nth-child(-n+57),
+.pixel:nth-child(59),
+.pixel:nth-child(69),
+.pixel:nth-child(76),
+.pixel:nth-child(86),
+.pixel:nth-child(n+88):nth-child(-n+89),
+.pixel:nth-child(91) {
+    background: gold;
+}
+
+.pixel:nth-child(n+152):nth-child(-n+153), /*first green*/
+.pixel:nth-child(n+162):nth-child(-n+163), 
+.pixel:nth-child(n+168):nth-child(-n+169),
+.pixel:nth-child(n+174):nth-child(-n+175),
+.pixel:nth-child(n+178):nth-child(-n+181),
+.pixel:nth-child(n+184):nth-child(-n+185),
+.pixel:nth-child(n+188):nth-child(-n+191),
+.pixel:nth-child(n+194):nth-child(-n+198),
+.pixel:nth-child(n+200):nth-child(-n+201),
+.pixel:nth-child(n+203):nth-child(-n+207),
+.pixel:nth-child(n+211):nth-child(-n+214),
+.pixel:nth-child(n+216):nth-child(-n+217),
+.pixel:nth-child(n+219):nth-child(-n+222),
+.pixel:nth-child(n+229):nth-child(-n+236) {
+    background: green;
+}
