@@ -1,0 +1,28 @@
+#b{
+       padding-top: 20px;
+       height: 125px;
+       width: 250px;
+}
+@keyframes anim {
+       0%{top:0;}
+       50%{top: 26px; transform : rotate(45deg);}
+       100%{top: 52px; transform: rotate(90deg);}
+}
+#c{
+       height: 62.5px;
+       width: 250px;
+       position: relative;
+       background-color: rgb(26, 255, 0);
+       animation-name: anim;
+       animation-duration: 1.5s;
+       animation-iteration-count: 2;
+}
+#d{
+       padding-left: 5px;
+       height: 62.5px;
+       text-align: center;
+       background-color: rgb(0, 0, 0);      
+}
+p{
+       padding-top: 10px;
+}
