@@ -33,7 +33,6 @@ body {
   height: 200px;
   width: 280px;
   border-radius: 400% 20% 420%;
-  background: #fff;
 }
 
 .left-ear {
@@ -41,6 +40,7 @@ body {
   top: 15%;
   right: 0;
   transform: rotate(155deg);
+  background: linear-gradient(210deg, #fff 40%, rgb(97, 53, 12));
 }
 
 .right-ear {
@@ -48,6 +48,7 @@ body {
   top: 15%;
   left: 0;
   transform: rotate(-90deg);
+  background: linear-gradient(210deg, rgb(97, 53, 12), #fff 75%);
 }
 
 .pink-ear {
