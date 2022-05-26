@@ -14,17 +14,59 @@ body {
 .container {
   width: 500px;
   height: 500px;
-  border: solid black;
+  background: #000;
   position: relative;
 }
 
 .head {
   width: 300px;
   height: 300px;
-  border: solid black;
   border-radius: 180px 180px 250px 250px;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
+  background: #fff;
+}
+
+.ear {
+  height: 200px;
+  width: 280px;
+  border-radius: 400% 20% 420%;
+  background: #fff;
+}
+
+.left-ear {
+  position: absolute;
+  top: 15%;
+  right: 0;
+  transform: rotate(155deg);
+}
+
+.right-ear {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+.pink-ear {
+  background: pink;
+  height: 100px;
+  width: 180px;
+  border-radius: 400% 20% 420%;
+}
+
+.pink-right {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  transform: rotate(-8deg);
+}
+
+.pink-left {
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  transform: rotate(-8deg);
 }
