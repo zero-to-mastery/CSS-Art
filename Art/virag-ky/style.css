@@ -134,3 +134,25 @@ body {
   top: 50%;
   left: 10%;
 }
+
+.right-mouth {
+  border-right: solid #000;
+  border-bottom: solid #000;
+  border-radius: 0 0 10px 0;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  top: 60%;
+  left: 42%;
+}
+
+.left-mouth {
+  border-left: solid #000;
+  border-bottom: solid #000;
+  border-radius: 0 0 0 10px;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  top: 60%;
+  right: 42%;
+}
