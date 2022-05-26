@@ -1,6 +1,11 @@
 let cards = [
   //  Add your card in this section
-
+  {
+    pageLink: "./Art/virag-ky/index.html",
+    imageLink: "./Art/virag-ky/chihuahua.png",
+    author: "Virag",
+    githubLink: "https://github.com/virag-ky",
+  },
   {
     pageLink: "./Art/OmkarGunjal/wavefront.html",
     imageLink: "./Art/OmkarGunjal/WavefrontEffect.gif",
@@ -19,13 +24,13 @@ let cards = [
     author: "Shahina",
     githubLink: "https://github.com/ShahinaShanu",
   },
-{
-  artName: "Wind Effect on Leaf",
-  pageLink: "./Art/MaryShodiya/index.html",
-  imageLink: "./Art/MaryShodiya/wind on leaf.jpeg/",
-  author: "MaryShodiya",
-  githubLink: "https://github.com/MaryShodiya",
-},
+  {
+    artName: "Wind Effect on Leaf",
+    pageLink: "./Art/MaryShodiya/index.html",
+    imageLink: "./Art/MaryShodiya/wind on leaf.jpeg/",
+    author: "MaryShodiya",
+    githubLink: "https://github.com/MaryShodiya",
+  },
   {
     artName: "Pretty Duck",
     pageLink: "./Art/1.ani/index.html",
@@ -2915,27 +2920,27 @@ let cards = [
     githubLink: "https://github.com/sridarshan-webjava",
   },
   {
-    artName: '3D Bouncing Balls',
-    pageLink: './Art/3D-balls/index.html',
-    imageLink: './Art/3D-balls/3D-balls.gif',
-    author: 'milad2281',
-    githubLink: 'https://github.com/milad2281',
+    artName: "3D Bouncing Balls",
+    pageLink: "./Art/3D-balls/index.html",
+    imageLink: "./Art/3D-balls/3D-balls.gif",
+    author: "milad2281",
+    githubLink: "https://github.com/milad2281",
   },
   {
-    artName: 'Sunflower',
-    pageLink: './Art/ayushi2410/index.html',
-    imageLink: './Art/ayushi2410/ayushi2410.png',
-    author: 'ayushi2410',
-    githubLink: 'https://github.com/ayushi2410',
+    artName: "Sunflower",
+    pageLink: "./Art/ayushi2410/index.html",
+    imageLink: "./Art/ayushi2410/ayushi2410.png",
+    author: "ayushi2410",
+    githubLink: "https://github.com/ayushi2410",
   },
   {
-    artName: 'Background Dark and Light Switch',
-    pageLink: './Art/darkSwitch/index.html',
-    imageLink: './Art/darkSwitch/darkSwitch.png',
-    author: 'Gabriel Mota',
-    githubLink: 'https://github.com/gfmota',
+    artName: "Background Dark and Light Switch",
+    pageLink: "./Art/darkSwitch/index.html",
+    imageLink: "./Art/darkSwitch/darkSwitch.png",
+    author: "Gabriel Mota",
+    githubLink: "https://github.com/gfmota",
   },
-    {
+  {
     artName: "Analog ClockSS",
     pageLink: "./Art/afonsocarlos/index.html",
     imageLink: "./Art/afonsocarlos/clock.gif",
@@ -2962,7 +2967,7 @@ let cards = [
     imageLink: "./Art/bryanrillstone/fire-flower.png",
     author: "Bryan Rillstone",
     githubLink: "https://github.com/bryanrillstone",
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
@@ -2974,7 +2979,7 @@ let cards = [
 // Creates cards from the array above
 // You don't need to modify this
 let contents = [];
-Shuffle(cards).forEach(c => {
+Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
       `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
