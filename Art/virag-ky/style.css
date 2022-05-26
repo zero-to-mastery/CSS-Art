@@ -103,3 +103,34 @@ body {
   border-radius: 180px 0 100px 100px;
   background: linear-gradient(150deg, #fff, rgb(97, 53, 12) 95%);
 }
+
+.eyes {
+  background: #fff;
+  width: 50px;
+  height: 80px;
+  border-radius: 100px 100px 50px 50px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.black-eye {
+  background: #000;
+  width: 40px;
+  height: 60px;
+  border-radius: 100px 100px 50px 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.white-eye {
+  background: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
