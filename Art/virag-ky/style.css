@@ -70,3 +70,14 @@ body {
   right: 5%;
   transform: rotate(-8deg);
 }
+
+.nose {
+  background: #000;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px 30px 80px 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
