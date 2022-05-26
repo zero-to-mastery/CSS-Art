@@ -41,6 +41,12 @@ body {
   right: 0;
   transform: rotate(155deg);
   background: linear-gradient(210deg, #fff 40%, rgb(97, 53, 12));
+  animation: ear-move-left 2s infinite;
+}
+
+@keyframes ear-move-left {
+  from {transform: rotate(155deg);}
+  to {transform: rotate(160deg);}
 }
 
 .right-ear {
@@ -49,6 +55,12 @@ body {
   left: 0;
   transform: rotate(-90deg);
   background: linear-gradient(210deg, rgb(97, 53, 12), #fff 75%);
+  animation: ear-move-right 2s infinite;
+}
+
+@keyframes ear-move-right {
+  from {transform: rotate(-90deg);}
+  to {transform: rotate(-100deg);}
 }
 
 .pink-ear {
