@@ -82,3 +82,24 @@ body {
   left: 50%;
   transform: translate(-50%);
 }
+
+.spot {
+  width: 130px;
+  height: 150px;
+}
+
+.left-spot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 180px 100px 100px;
+  background: linear-gradient(30deg, rgb(97, 53, 12), #fff 95%);
+}
+
+.right-spot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 180px 0 100px 100px;
+  background: linear-gradient(150deg, #fff, rgb(97, 53, 12) 95%);
+}
