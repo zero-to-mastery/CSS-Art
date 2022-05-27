@@ -4,7 +4,7 @@ body {
 
 h1 {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .robots {
@@ -91,7 +91,7 @@ h1 {
 .heart {
   color: #ff0000;
   font-size: 60px;
-  font-family: "arial unicode MS", arial, geneva, sans-serif;
+  font-family: 'arial unicode MS', arial, geneva, sans-serif;
   margin-left: 110px;
   opacity: 0;
   cursor: default;

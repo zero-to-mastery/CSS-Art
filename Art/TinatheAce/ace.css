@@ -29,13 +29,13 @@ body {
   margin-top: 52px;
   color: #aa0000;
   text-align: center;
-  font-family: "Monoton", cursive;
+  font-family: 'Monoton', cursive;
   font-size: 72px;
 }
 
 .suit:before,
 .suit:after {
-  content: "\2665";
+  content: '\2665';
   animation: pulsecolor 1s infinite;
   color: #aa0000;
 }

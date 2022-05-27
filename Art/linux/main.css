@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
 body {
   background: #f5d061;
@@ -133,7 +133,7 @@ body {
 }
 
 .popup:before {
-  content: "";
+  content: '';
   display: block;
   width: 0;
   height: 0;
@@ -146,7 +146,7 @@ body {
 }
 
 h1 {
-  font-family: "Comfortaa", cursive;
+  font-family: 'Comfortaa', cursive;
   font-size: 20px;
   color: #2a363b;
   text-align: center;

@@ -40,7 +40,7 @@ body {
 .pumpkin-base::after {
   height: 180px;
   width: 80px;
-  content: "";
+  content: '';
   display: block;
   background: linear-gradient(-90deg, #ee6f29, #e88a2d);
   box-shadow: -20px -10px 4px #be4f053f inset, 40px 0px 20px #f5bc4152 inset;
@@ -72,7 +72,7 @@ body {
 }
 
 .pumpkin-eye.right::before {
-  content: "";
+  content: '';
   display: block;
   width: 0;
   height: 0;
@@ -110,7 +110,7 @@ body {
 }
 
 .pumpkin-teeth::after {
-  content: "";
+  content: '';
   display: block;
   background-color: #e7783c;
   height: 16px;
@@ -134,7 +134,7 @@ body {
 }
 
 .pumpkin-stem::before {
-  content: "";
+  content: '';
   display: block;
   height: 14px;
   width: 22px;
@@ -146,7 +146,7 @@ body {
 }
 
 .pumpkin-stem::after {
-  content: "";
+  content: '';
   display: block;
   height: 30px;
   width: 40px;
@@ -181,7 +181,7 @@ body {
 }
 
 .speech-bubble {
-  font-family: "Satisfy", cursive;
+  font-family: 'Satisfy', cursive;
   color: #37474f;
   font-size: 42px;
   height: 100px;
@@ -204,7 +204,7 @@ body {
 }
 
 .speech-bubble::after {
-  content: "";
+  content: '';
   display: block;
   height: 30px;
   width: 20px;
@@ -216,7 +216,7 @@ body {
 }
 
 .speech-bubble::before {
-  content: "";
+  content: '';
   display: block;
   width: 0;
   height: 0;

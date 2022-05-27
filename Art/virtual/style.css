@@ -49,7 +49,7 @@ html {
 }
 .base:before,
 .stem:before {
-  content: "";
+  content: '';
 }
 .screen {
   background: #000;
@@ -61,12 +61,12 @@ html {
   box-shadow: 0 0 1px #000;
 }
 .screen:before {
-  content: "";
+  content: '';
 }
 .screen1,
 .screen2,
 .screen3 {
-  background-image: url("./css-art.png");
+  background-image: url('./css-art.png');
 }
 
 .mobile,
@@ -130,7 +130,7 @@ html {
 }
 
 .table:before {
-  content: "";
+  content: '';
 }
 
 .monitor,

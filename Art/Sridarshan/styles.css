@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   background: #af2d2d;
 }
 
@@ -82,7 +82,7 @@ input {
 
 .chin::before,
 .chin::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 0.75rem;
   height: 1.5rem;
@@ -124,7 +124,7 @@ input {
 }
 
 .bottom::before {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: -1.775rem;
   left: -1.255rem;
@@ -136,7 +136,7 @@ input {
 }
 
 .bottom::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: -1.775rem;
   right: -1.25rem;

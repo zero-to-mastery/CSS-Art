@@ -18,7 +18,7 @@ body {
 
 .pacman:before {
   position: absolute;
-  content: "";
+  content: '';
   background-color: #000;
   height: 37px;
   width: 24px;
@@ -72,7 +72,7 @@ body {
 }
 
 .eye:before {
-  content: "";
+  content: '';
   background: #00f;
   width: 16px;
   height: 16px;

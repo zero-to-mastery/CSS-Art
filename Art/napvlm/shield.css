@@ -1,4 +1,4 @@
-@import url("shield.css");
+@import url('shield.css');
 body {
   background-color: #cdcdcd;
 }
@@ -25,7 +25,7 @@ body {
 .captain:before,
 .captain:after {
   position: absolute;
-  content: "";
+  content: '';
 }
 
 .star {
@@ -54,7 +54,7 @@ body {
   top: -45px;
   left: -65px;
   display: block;
-  content: "";
+  content: '';
   -webkit-transform: rotate(-35deg);
   -moz-transform: rotate(-35deg);
   -ms-transform: rotate(-35deg);
@@ -63,7 +63,7 @@ body {
 
 .star:after {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   color: red;
   top: 3px;

@@ -46,13 +46,13 @@ body {
   margin: 0 auto;
   color: #fff;
   font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   position: relative;
 }
 
 .apple::after {
-  content: "HELLO HACKTOBER FEST!";
+  content: 'HELLO HACKTOBER FEST!';
   position: absolute;
   height: 100%;
   width: 100%;

@@ -25,7 +25,7 @@ body {
   background-color: #bc6d20;
   border: 25px solid #f59412;
   border-radius: 90px 90px 0 0;
-  content: "";
+  content: '';
   height: 90px;
   position: absolute;
   width: 125px;
@@ -60,7 +60,7 @@ body {
 .cub__eyes::before {
   background-color: #000;
   border-radius: 50%;
-  content: "●";
+  content: '●';
   color: #fff;
   height: 50px;
   position: absolute;
@@ -97,7 +97,7 @@ body {
 .cub__nose::before {
   background-color: #fff;
   border-radius: 50%;
-  content: "";
+  content: '';
   position: absolute;
   top: -37px;
 }

@@ -10,7 +10,7 @@ h1,
 h3 {
   display: grid;
   justify-content: center;
-  font-family: "Fredoka One", cursive;
+  font-family: 'Fredoka One', cursive;
   color: #587dc2;
   font-size: 72px;
   text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
@@ -41,7 +41,7 @@ h3 {
 }
 
 .wave:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   border-radius: 100%;
@@ -52,7 +52,7 @@ h3 {
 }
 
 .wave:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   border-radius: 100%;
@@ -177,7 +177,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  content: "";
+  content: '';
   border-radius: 40px / 20px;
   z-index: 6;
 }
@@ -213,7 +213,7 @@ h3 {
   background: #ebdb00;
   width: 4px;
   height: 12px;
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: calc(50% - 2px);
@@ -346,7 +346,7 @@ h3 {
 }
 .balloon:before {
   /*content:"▲";*/
-  content: "\25B2";
+  content: '\25B2';
   left: calc(52% - 71px);
   font-size: 20px;
   color: hsl(304, 30%, 50%);
@@ -418,7 +418,7 @@ h3 {
   width: 1px;
   margin: 0 auto;
   margin-left: 50px;
-  content: "";
+  content: '';
   background: rgba(0, 0, 0, 0.2);
 }
 /* ANIMATIONS */

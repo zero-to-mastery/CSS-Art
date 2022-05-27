@@ -130,7 +130,7 @@ html {
   transform: rotateX(100deg) skewX(30deg);
 }
 .smoke {
-  background: url("http://www.lachatica.com/site/assets/images/steam-1.png");
+  background: url('http://www.lachatica.com/site/assets/images/steam-1.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,7 +150,7 @@ html {
 }
 
 .coffee span {
-  font-family: "Bowlby One SC", cursive;
+  font-family: 'Bowlby One SC', cursive;
   letter-spacing: 6px;
   font-size: 32px;
   color: #fff;

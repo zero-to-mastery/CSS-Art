@@ -10,7 +10,7 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   background-color: #d9afd9;
   background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .form label::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: -1;

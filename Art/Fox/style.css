@@ -43,7 +43,7 @@ body {
 }
 
 .ear.-right:before {
-  content: "";
+  content: '';
   top: 15px;
   left: -12px;
   position: absolute;
@@ -53,7 +53,7 @@ body {
 }
 
 .ear.-left:before {
-  content: "";
+  content: '';
   top: 15px;
   right: -12px;
   position: absolute;

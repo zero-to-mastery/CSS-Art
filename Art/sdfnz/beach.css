@@ -23,7 +23,7 @@ body {
 }
 
 .waves:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   border-radius: 75% 50%;
@@ -35,7 +35,7 @@ body {
 }
 
 .waves:after {
-  content: "";
+  content: '';
   position: absolute;
   border-radius: 100% 50%;
   width: 100%;

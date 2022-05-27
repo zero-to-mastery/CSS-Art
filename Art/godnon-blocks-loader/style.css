@@ -13,33 +13,33 @@ body {
 }
 
 .container {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  width:auto;
-  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
 }
 
 .block {
-  width:30px;
-  height:30px;
-  border-radius:15px;
-  background:white;
-  opacity:0.3;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: white;
+  opacity: 0.3;
 }
 
 .a {
-  margin-right:10px;
+  margin-right: 10px;
   animation: block-a 0.7s ease-out 0s infinite alternate;
 }
 
 .b {
-  margin-right:10px;
+  margin-right: 10px;
   animation: block-b 0.7s ease-out 0.2s infinite alternate;
 }
 
 .c {
-  margin-right:10px;
+  margin-right: 10px;
   animation: block-c 0.7s ease-out 0.4s infinite alternate;
 }
 
@@ -49,52 +49,52 @@ body {
 
 @keyframes block-a {
   from {
-    height:20px;
-    opacity:0.3;
-    background:white;
+    height: 20px;
+    opacity: 0.3;
+    background: white;
   }
   to {
-    height:70px;
-    opacity:1;
-    background:#4285F4;
+    height: 70px;
+    opacity: 1;
+    background: #4285f4;
   }
 }
 
 @keyframes block-b {
   from {
-    height:20px;
-    opacity:0.3;
-    background:white;
+    height: 20px;
+    opacity: 0.3;
+    background: white;
   }
   to {
-    height:65px;
-    opacity:1;
-    background:#EA4335;
+    height: 65px;
+    opacity: 1;
+    background: #ea4335;
   }
 }
 
 @keyframes block-c {
   from {
-    height:20px;
-    opacity:0.3;
-    background:white;
+    height: 20px;
+    opacity: 0.3;
+    background: white;
   }
   to {
-    height:60px;
-    opacity:1;
-    background:#FBBC05;
+    height: 60px;
+    opacity: 1;
+    background: #fbbc05;
   }
 }
 
 @keyframes block-d {
   from {
-    height:20px;
-    opacity:0.3;
-    background:white;
+    height: 20px;
+    opacity: 0.3;
+    background: white;
   }
   to {
-    height:60px;
-    opacity:1;
-    background:#34A853;
+    height: 60px;
+    opacity: 1;
+    background: #34a853;
   }
 }

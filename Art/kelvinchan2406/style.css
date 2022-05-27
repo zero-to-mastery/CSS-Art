@@ -19,7 +19,7 @@ body {
 
 .heart:before,
 .heart:after {
-  content: "";
+  content: '';
   background-color: #6b0505;
   border-radius: 50%;
   height: 300px;

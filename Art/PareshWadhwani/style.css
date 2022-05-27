@@ -22,7 +22,7 @@ body {
 }
 
 .section-heading {
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: 'Lucida Console', Courier, monospace;
   margin: 5px 10px;
   font-weight: 700;
   display: block;
@@ -102,7 +102,7 @@ button {
 ._3d1::before {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   height: 0;
   width: 0;
   border: 6px solid transparent;
@@ -116,7 +116,7 @@ button {
 ._3d1::after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   height: 0;
   width: 0;
   border: 6px solid transparent;
@@ -246,7 +246,7 @@ button {
 }
 .animated2::after {
   position: absolute;
-  content: "  »";
+  content: '  »';
   transition: all ease 0.3s;
   color: white;
   white-space: pre;
@@ -260,7 +260,7 @@ button {
 }
 .animated2::before {
   position: inline;
-  content: " ";
+  content: ' ';
   white-space: pre;
   opacity: 0;
 }
@@ -295,7 +295,7 @@ button {
   position: absolute;
   top: 5px;
   left: 38px;
-  content: "off";
+  content: 'off';
   display: inline-block;
   height: 20px;
   padding: 0 3px;
@@ -309,7 +309,7 @@ button {
   border: 1px solid #00b3b4;
 }
 .toggle1-input:checked + .toggle1-label::before {
-  content: "on";
+  content: 'on';
   left: 5px;
   color: #00b3b4;
 }
@@ -350,7 +350,7 @@ button {
   width: 10px;
   height: 10px;
   background: #ccc;
-  content: "";
+  content: '';
   transition: ease all 0.3s;
 }
 .toggle2-input:checked + .toggle2-label {

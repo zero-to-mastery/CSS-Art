@@ -1,108 +1,108 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    align-items: center;
-    background: radial-gradient(#333, #000);
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    overflow: hidden;
-    width: 100%;
+  align-items: center;
+  background: radial-gradient(#333, #000);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
 }
 
 h1 {
-    color: #f3f3f3;
-    font-size: calc(1.5rem + 3vw);
-    text-align: center;
-    text-transform: uppercase;
+  color: #f3f3f3;
+  font-size: calc(1.5rem + 3vw);
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .layers {
-    height: 100%;
-    left: 0;
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    width: 100%;
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .layers div {
-    display: block;
-    position: absolute;
+  display: block;
+  position: absolute;
 }
 .layers div:nth-child(1) {
-    animation: falling 15s linear infinite;
-    animation-delay: -7s;
-    left: 20%;
+  animation: falling 15s linear infinite;
+  animation-delay: -7s;
+  left: 20%;
 }
 .layers div:nth-child(2) {
-    animation: falling 20s linear infinite;
-    animation-delay: -5s;
-    left: 50%;
+  animation: falling 20s linear infinite;
+  animation-delay: -5s;
+  left: 50%;
 }
 .layers div:nth-child(3) {
-    animation: falling 20s linear infinite;
-    animation-delay: 0;
-    left: 70%;
+  animation: falling 20s linear infinite;
+  animation-delay: 0;
+  left: 70%;
 }
 .layers div:nth-child(4) {
-    animation: falling 15s linear infinite;
-    animation-delay: -5s;
-    left: 0%;
+  animation: falling 15s linear infinite;
+  animation-delay: -5s;
+  left: 0%;
 }
 .layers div:nth-child(5) {
-    animation: falling 18s linear infinite;
-    animation-delay: -10s;
-    left: 85%;
+  animation: falling 18s linear infinite;
+  animation-delay: -10s;
+  left: 85%;
 }
 .layers div:nth-child(6) {
-    animation: falling 12s linear infinite;
-    left: 0%;
+  animation: falling 12s linear infinite;
+  left: 0%;
 }
 .layers div:nth-child(7) {
-    animation: falling 14s linear infinite;
-    left: 15%;
+  animation: falling 14s linear infinite;
+  left: 15%;
 }
 .layers div:nth-child(8) {
-    animation: falling 15s linear infinite;
-    left: 60%;
+  animation: falling 15s linear infinite;
+  left: 60%;
 }
 
 @keyframes falling {
-    0% {
-        opacity: 0;
-        top: -10%;
-        transform: translateX(20px) rotate(0deg);
-    }
-    10% {
-        opacity: 1;
-    }
-    20% {
-        transform: translateX(-20px) rotate(45deg);
-    }
-    40% {
-        transform: translateX(-20px) rotate(90deg);
-    }
-    60% {
-        transform: translateX(20px) rotate(180deg);
-    }
-    80% {
-        transform: translateX(-20px) rotate(180deg);
-    }
-    100% {
-        top: 110%;
-        transform: translateX(-20px) rotate(225deg);
-    }
+  0% {
+    opacity: 0;
+    top: -10%;
+    transform: translateX(20px) rotate(0deg);
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(-20px) rotate(45deg);
+  }
+  40% {
+    transform: translateX(-20px) rotate(90deg);
+  }
+  60% {
+    transform: translateX(20px) rotate(180deg);
+  }
+  80% {
+    transform: translateX(-20px) rotate(180deg);
+  }
+  100% {
+    top: 110%;
+    transform: translateX(-20px) rotate(225deg);
+  }
 }
 .layer2 {
-    transform: scale(2) rotateY(180deg);
-    filter: blur(2px);
+  transform: scale(2) rotateY(180deg);
+  filter: blur(2px);
 }
 
 .layer3 {
-    transform: scale(0.8) rotateY(180deg);
-    filter: blur(4px);
+  transform: scale(0.8) rotateY(180deg);
+  filter: blur(4px);
 }

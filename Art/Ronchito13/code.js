@@ -4,7 +4,7 @@ let speedY = 10;
 let speedX = 10;
 
 setInterval(() => {
-  let strangeBall = document.getElementById("strangeBall");
+  let strangeBall = document.getElementById('strangeBall');
 
   if (x > 470) {
     speedX = -10;

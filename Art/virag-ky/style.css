@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -45,8 +47,12 @@ body {
 }
 
 @keyframes ear-move-left {
-  from {transform: rotate(155deg);}
-  to {transform: rotate(160deg);}
+  from {
+    transform: rotate(155deg);
+  }
+  to {
+    transform: rotate(160deg);
+  }
 }
 
 .right-ear {
@@ -59,8 +65,12 @@ body {
 }
 
 @keyframes ear-move-right {
-  from {transform: rotate(-90deg);}
-  to {transform: rotate(-100deg);}
+  from {
+    transform: rotate(-90deg);
+  }
+  to {
+    transform: rotate(-100deg);
+  }
 }
 
 .pink-ear {

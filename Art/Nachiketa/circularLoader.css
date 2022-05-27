@@ -1,20 +1,20 @@
 .parent {
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 .loader {
-    height: 90px;
-    width: 90px;
-    border: 4px solid transparent;
-    border-top-color:  rgb(112, 5, 145);
-    border-radius: 50%;
-    animation: animate .6s infinite linear;
+  height: 90px;
+  width: 90px;
+  border: 4px solid transparent;
+  border-top-color: rgb(112, 5, 145);
+  border-radius: 50%;
+  animation: animate 0.6s infinite linear;
 }
 
 @keyframes animate {
-    100% {
-        transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
+  }
 }

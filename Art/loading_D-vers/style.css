@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 * {
   box-sizing: border-box;
@@ -21,7 +21,7 @@ body {
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   margin: 0;
 }
 

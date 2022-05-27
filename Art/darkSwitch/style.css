@@ -1,21 +1,21 @@
 .icon {
-    width: 2em;
+  width: 2em;
 }
 
 .darkBG {
-    background-color: black;
-    color: white
+  background-color: black;
+  color: white;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 #background {
-    transition: linear .25s;
+  transition: linear 0.25s;
 }
 
 #refs {
-    position: absolute;
-    bottom: .5em;
+  position: absolute;
+  bottom: 0.5em;
 }

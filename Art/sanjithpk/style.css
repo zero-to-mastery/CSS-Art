@@ -31,7 +31,7 @@ html {
 }
 
 #sun:before {
-  content: " \25CF";
+  content: ' \25CF';
   font-size: 200px;
   color: #fdb813;
 }
@@ -45,7 +45,7 @@ html {
 }
 
 #moon:before {
-  content: " \25CF";
+  content: ' \25CF';
   font-size: 200px;
   color: #fff;
 }
@@ -135,7 +135,7 @@ html {
 }
 
 .yourboat::before {
-  content: "";
+  content: '';
   display: block;
   position: relative;
   top: -150px;
@@ -148,7 +148,7 @@ html {
 }
 
 .yourboat::after {
-  content: "";
+  content: '';
   display: block;
   position: relative;
   bottom: 270px;

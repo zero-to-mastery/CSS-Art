@@ -1,74 +1,77 @@
-body{
-	display: grid;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	background-color: lightgreen;
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgreen;
 }
-.box{
-	width: 500px;
-	height: 500px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-.stick{
-	width: 60%;
-	height: 25px;
-	border-radius: 5px;
-	background-color: red;
-	-webkit-animation: loop 3s infinite alternate ease-in-out;
-	        animation: loop 3s infinite alternate ease-in-out;
-	position: relative;
-	display: flex;
-	justify-content: space-between;
+.box {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.handle-bar{
-	background-color: darkblue;
-	width: 5px;
-	height: 14px;
-	border-radius: 3px;
-	margin: 0 25px;
-	position: relative;
-	bottom: 5px;
+.stick {
+  width: 60%;
+  height: 25px;
+  border-radius: 5px;
+  background-color: red;
+  -webkit-animation: loop 3s infinite alternate ease-in-out;
+  animation: loop 3s infinite alternate ease-in-out;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
-.triangle{
-	width: 5px;
-	height: 1px;
-	border-style: solid;
-	border-width: 0 50px 75px 50px;
-	border-color: transparent transparent #007bff transparent;
-	position: relative;
- }
+.handle-bar {
+  background-color: darkblue;
+  width: 5px;
+  height: 14px;
+  border-radius: 3px;
+  margin: 0 25px;
+  position: relative;
+  bottom: 5px;
+}
 
- .circle{
-	 width: 20px;
-	 height: 20px;
-	 border-radius: 50%;
-	 background-color: yellow; 
-	 position: relative; 
-	 left: -9px;
-	 top: -7px;
-	 border: 3px dotted brown;
-	 -webkit-animation: loop 3s infinite alternate-reverse ease-in-out;
-	        animation: loop 3s infinite alternate-reverse ease-in-out;
- }
- 
- @-webkit-keyframes loop {
-	 from{transform: rotate(-30deg)}
-	 to{transform: rotate(30deg)}
- }
- 
+.triangle {
+  width: 5px;
+  height: 1px;
+  border-style: solid;
+  border-width: 0 50px 75px 50px;
+  border-color: transparent transparent #007bff transparent;
+  position: relative;
+}
 
- @keyframes loop {
-	 from{transform: rotate(-30deg)}
-	 to{transform: rotate(30deg)}
- }
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: yellow;
+  position: relative;
+  left: -9px;
+  top: -7px;
+  border: 3px dotted brown;
+  -webkit-animation: loop 3s infinite alternate-reverse ease-in-out;
+  animation: loop 3s infinite alternate-reverse ease-in-out;
+}
 
+@-webkit-keyframes loop {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}
 
- 
-
+@keyframes loop {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}

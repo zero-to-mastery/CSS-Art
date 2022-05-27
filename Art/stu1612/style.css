@@ -12,7 +12,7 @@
 
 body {
   background-color: rgb(201, 241, 201);
-  background: url("https://i.ytimg.com/vi/-N44IfcPT6I/maxresdefault.jpg");
+  background: url('https://i.ytimg.com/vi/-N44IfcPT6I/maxresdefault.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

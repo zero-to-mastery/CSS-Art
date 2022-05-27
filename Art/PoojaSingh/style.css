@@ -48,7 +48,7 @@ body {
 }
 
 .eye-left::before {
-  content: "";
+  content: '';
   width: 30px;
   height: 30px;
   background-color: #ffffff;
@@ -70,7 +70,7 @@ body {
 }
 
 .eye-right::after {
-  content: "";
+  content: '';
   width: 30px;
   height: 30px;
   background-color: #ffffff;
@@ -111,7 +111,7 @@ body {
 
 .mask::before,
 .mask::after {
-  content: "";
+  content: '';
   height: 15px;
   width: 400px;
   background-color: #e9fbfa;

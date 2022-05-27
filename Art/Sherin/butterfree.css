@@ -75,7 +75,7 @@ body {
   height: 80px;
   width: 80px;
   background-color: #4ebfd2;
-  content: "";
+  content: '';
 }
 
 .leg-one {
@@ -115,7 +115,7 @@ body {
   height: 50px;
   width: 50px;
   background-color: #f775a3;
-  content: "";
+  content: '';
 }
 
 .eye-one {
@@ -145,7 +145,7 @@ body {
   width: 20px;
   background-color: black;
   border-radius: 50%;
-  content: "";
+  content: '';
   top: -20px;
   left: 50%;
   transform: translateX(-50%);
@@ -174,7 +174,7 @@ body {
   width: 190px;
   position: absolute;
   background-color: #fff;
-  content: "";
+  content: '';
   top: 15px;
 }
 
@@ -212,7 +212,7 @@ body {
   width: 120px;
   position: absolute;
   background-color: #fff;
-  content: "";
+  content: '';
   top: 15px;
 }
 

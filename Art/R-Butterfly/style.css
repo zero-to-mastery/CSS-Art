@@ -79,7 +79,7 @@ body {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
-  -ms-filter: "FlipH";
+  -ms-filter: 'FlipH';
 }
 
 .leftwingbottom {
@@ -172,7 +172,7 @@ body {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
-  -ms-filter: "FlipH";
+  -ms-filter: 'FlipH';
 }
 
 .leftwingbottom2 {
@@ -273,7 +273,7 @@ body {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
-  -ms-filter: "FlipH";
+  -ms-filter: 'FlipH';
 }
 
 .outerleftwing {
@@ -378,7 +378,7 @@ body {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
-  -ms-filter: "FlipH";
+  -ms-filter: 'FlipH';
 }
 
 .outerleftwing2 {
@@ -483,7 +483,7 @@ body {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
-  -ms-filter: "FlipH";
+  -ms-filter: 'FlipH';
 }
 
 .outerleftwing3 {
@@ -588,7 +588,7 @@ body {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
-  -ms-filter: "FlipH";
+  -ms-filter: 'FlipH';
 }
 
 .butterflybody {

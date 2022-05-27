@@ -74,7 +74,7 @@ body {
 }
 
 .eye::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 35px;
   height: 35px;
@@ -123,7 +123,7 @@ body {
 }
 
 .beak-left:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 82px;
   border: 6px solid;
@@ -135,7 +135,7 @@ body {
 }
 
 .beak-right:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 91px;
   border: 6px solid;
@@ -147,7 +147,7 @@ body {
 }
 
 .head:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 281px;
   height: 84px;
@@ -160,7 +160,7 @@ body {
 }
 
 .head:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 268px;
   height: 69px;
@@ -184,7 +184,7 @@ body {
 }
 
 .hide-chest-lines:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 11px;
   height: 65px;
@@ -208,7 +208,7 @@ body {
 }
 
 .beak-background-one:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 15px;
   height: 19px;
@@ -220,7 +220,7 @@ body {
 }
 
 .beak-background-one:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 106px;
   height: 118px;
@@ -244,7 +244,7 @@ body {
 }
 
 .mark-one:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 72px;
   height: 87px;
@@ -325,7 +325,7 @@ body {
 }
 
 .crest:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 135px;
   height: 56px;
@@ -338,7 +338,7 @@ body {
 }
 
 .crest:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 158px;
   height: 45px;
@@ -363,7 +363,7 @@ body {
 }
 
 .hide-crest-lines:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 67px;
   height: 30px;

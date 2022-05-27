@@ -31,7 +31,7 @@
 }
 .container:after {
   position: absolute;
-  content: "";
+  content: '';
   top: 138px;
   left: 10px;
   width: 180px;
@@ -51,7 +51,7 @@
 .face:before,
 .face:after {
   position: absolute;
-  content: "";
+  content: '';
 }
 .face:before {
   left: 60px;
@@ -80,7 +80,7 @@
 .leg:before {
   position: absolute;
   left: 60px;
-  content: "";
+  content: '';
   width: 2px;
   height: 40px;
   background: #666;
@@ -96,7 +96,7 @@
 }
 .hand:before {
   position: absolute;
-  content: "";
+  content: '';
   top: -70px;
   left: -200px;
   width: 60px;

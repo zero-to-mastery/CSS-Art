@@ -1,6 +1,6 @@
 body {
   background: #0f0000;
-  font-family: "Sacramento", cursive;
+  font-family: 'Sacramento', cursive;
 }
 
 .calabera {
@@ -181,7 +181,7 @@ body {
 .calabera__nose::before,
 .calabera__nose::after {
   position: absolute;
-  content: "";
+  content: '';
   left: 50px;
   top: 10;
   width: 50px;

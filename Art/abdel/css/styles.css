@@ -4,7 +4,7 @@ body {
 #title {
   margin: 30px 0 5px 0;
   text-align: center;
-  font-style: "Times New Roman";
+  font-style: 'Times New Roman';
   font-size: 4em;
   font-weight: bold;
   color: #fff;
@@ -13,7 +13,7 @@ body {
 #maker {
   margin: 0px 0 50px 0;
   text-align: center;
-  font-style: "Times New Roman";
+  font-style: 'Times New Roman';
   font-size: 2em;
   font-weight: bold;
   color: #f7ff16;
@@ -29,7 +29,7 @@ body {
   color: #ccc;
 }
 #maker > a > i:before {
-  content: "\f113";
+  content: '\f113';
   margin: 5px;
 }
 
@@ -41,7 +41,7 @@ body {
   cursor: pointer;
 
   color: #fff;
-  font-style: "Times New Roman";
+  font-style: 'Times New Roman';
   font-size: 2em;
   font-style: italic;
 
@@ -59,7 +59,7 @@ body {
   background: rgb(11, 134, 234);
 }
 .anim1:before {
-  content: "";
+  content: '';
   transition-duration: 0.4s;
 
   border-style: solid;
@@ -76,7 +76,7 @@ body {
 
 /*Second Animation, Arrow from Top*/
 .anim2:before {
-  content: "";
+  content: '';
   transition-duration: 0.4s;
 
   border-style: solid;
@@ -109,7 +109,7 @@ body {
   background: linear-gradient(to right, rgb(11, 134, 234), rgb(143, 205, 50));
 }
 .anim3:before {
-  content: "";
+  content: '';
   background: red;
 
   width: 0px;
