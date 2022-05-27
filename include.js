@@ -1,6 +1,6 @@
 let cards = [
   //  Add your card in this section
-  { 
+  {
     artName: 'Chihuahua',
     pageLink: './Art/virag-ky/index.html',
     imageLink: './Art/virag-ky/chihuahua.png',
