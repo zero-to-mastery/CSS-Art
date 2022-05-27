@@ -1,6 +1,5 @@
-
 ---
-  > ### **UPDATE:** Event Concluded!
+> ### **UPDATE:** Event Concluded!
   >
   > **This project started as a project for Hacktoberfest 2019, Thank you to everyone that participated and made this project what it is today and we look forward to seeing you all at Hacktoberfest 2020!.
   > Feel free to continue adding your designs, you can check out the [Hactoberfest-Edition](https://github.com/zero-to-mastery/CSS-Art-Hacktoberfest-Edition) to see the project as it was at the end of the event.**
@@ -17,12 +16,12 @@ What shapes, pictures and animations can you come up with, using plain HTML divs
 If you're not sure what this is or how to go about doing it, take a look at [this tutorial](https://codepen.io/mikemang/post/a-beginner-s-guide-to-pure-css-images), which will teach you all about how to make pure CSS images.
 
 # What is Hacktoberfest?
-Every October, Digital Ocean runs Hacktoberfest, a month-long celebration of open-source software! All you have to do to take part is sign up on [their website](https://hacktoberfest.digitalocean.com/)  - and make five pull requests in the month of October. Any pull request to any public repo on Github will count, which means, of course, that any PRs you make to this project will help you on your way to getting a cool t-shirt!
+
+Every October, Digital Ocean runs Hacktoberfest, a month-long celebration of open-source software! All you have to do to take part is sign up on [their website](https://hacktoberfest.digitalocean.com/) - and make five pull requests in the month of October. Any pull request to any public repo on Github will count, which means, of course, that any PRs you make to this project will help you on your way to getting a cool t-shirt!
 
 # Instructions
 
 If you've never forked a repository or made a pull request before, we recommend making your first one over at https://github.com/zero-to-mastery/start-here-guidelines . That will count towards your total, and then you'll be ready to take on this challenge with your new GitHub skills!
-
 
 # Rules
 
@@ -55,13 +54,13 @@ Now, once you've forked this repo and got a local version up on your computer, f
 let cards = [
   //  Add your card in this section
   {
-    artName: "Your art name here",
-    pageLink: "./Art/Joy/triangle/triangle.html",
-    imageLink: "./Art/Joy/triangle/triangle.gif",
-    author: "Joy",
-    githubLink: "https://github.com/royranger",
-  },
-]
+    artName: 'Your art name here',
+    pageLink: './Art/Joy/triangle/triangle.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
+  }
+];
 ```
 
 And congratulations! You're all done. Have fun!
