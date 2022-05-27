@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body {
   margin: 0;
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   letter-spacing: 1px;
 }
 
@@ -98,7 +98,7 @@ body {
   width: 60px;
   height: 120px;
   background-color: #5c555a;
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAABHNCSVQICAgIfAhkiAAAAEpJREFUGFdjZGBgMAbis0CMARixSIIUgwFMElkXyBSwApAkOkDRCZKECyDbD9MJcxSK45AlYcbDXY5sJ7puY2SvoNuLIQnzBpgGAJHhDz3nEmS7AAAAAElFTkSuQmCC");
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAABHNCSVQICAgIfAhkiAAAAEpJREFUGFdjZGBgMAbis0CMARixSIIUgwFMElkXyBSwApAkOkDRCZKECyDbD9MJcxSK45AlYcbDXY5sJ7puY2SvoNuLIQnzBpgGAJHhDz3nEmS7AAAAAElFTkSuQmCC');
   image-rendering: pixelated;
   background-blend-mode: soft-light;
   position: absolute;
@@ -192,7 +192,7 @@ body {
   margin: auto;
 }
 .vitrola .front .grid-frame .grid {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAAMlJREFUGFdjvLCq4z+TqAKDiIQ0w5sXT+E0AxB8vn2VQdHWjYGDR4CB8dn1w/9BDBD48eUDXPGry0cZxHSt4XzGS/tX/AeZdv/wLgZeVW2wiSCNIE0wGqQJbCLMSpDEo+NbUUyCyTGC3Chn6Y1iLbJbQTbATQS5D9nUJ3euMvx7/YAB2QDGo7Nq/8PcBvMAsnvhVsN8DTIFOYhAtoA0cAtwg90MdiMsHEEmgqwDaQIBWAiA+IzvHl/+DwoKkG5Q4MKsAmmCGQCSAwArx5X3uBG9ZQAAAABJRU5ErkJggg==");
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAAMlJREFUGFdjvLCq4z+TqAKDiIQ0w5sXT+E0AxB8vn2VQdHWjYGDR4CB8dn1w/9BDBD48eUDXPGry0cZxHSt4XzGS/tX/AeZdv/wLgZeVW2wiSCNIE0wGqQJbCLMSpDEo+NbUUyCyTGC3Chn6Y1iLbJbQTbATQS5D9nUJ3euMvx7/YAB2QDGo7Nq/8PcBvMAsnvhVsN8DTIFOYhAtoA0cAtwg90MdiMsHEEmgqwDaQIBWAiA+IzvHl/+DwoKkG5Q4MKsAmmCGQCSAwArx5X3uBG9ZQAAAABJRU5ErkJggg==');
   height: 140px;
   width: 340px;
   border-radius: 12px;
@@ -289,7 +289,7 @@ body {
       #4449 90%,
       #5559 91%
     ),
-    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAADhJREFUGFdjZGBgSANiEJiFxIYKIShGDBEcAiCFMBNx6QHbRLGJGO4l20RcPp9FlonYTIOLEW0iAMnnCKM44obTAAAAAElFTkSuQmCC");
+    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAADhJREFUGFdjZGBgSANiEJiFxIYKIShGDBEcAiCFMBNx6QHbRLGJGO4l20RcPp9FlonYTIOLEW0iAMnnCKM44obTAAAAAElFTkSuQmCC');
   transform: perspective(500px) rotateX(45deg);
   animation: 6s ease play-run-disc 2s infinite, 2s linear rotate-disc;
 }
@@ -329,7 +329,7 @@ body {
       #4449 90%,
       #5559 91%
     ),
-    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAADhJREFUGFdjZGBgSANiEJiFxIYKIShGDBEcAiCFMBNx6QHbRLGJGO4l20RcPp9FlonYTIOLEW0iAMnnCKM44obTAAAAAElFTkSuQmCC");
+    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAADhJREFUGFdjZGBgSANiEJiFxIYKIShGDBEcAiCFMBNx6QHbRLGJGO4l20RcPp9FlonYTIOLEW0iAMnnCKM44obTAAAAAElFTkSuQmCC');
 }
 /* #endregion disc */
 

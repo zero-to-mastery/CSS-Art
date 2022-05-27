@@ -12,7 +12,7 @@ body {
   height: 200px;
   background: #ff9d00;
   transform: translate(-60px, 60px);
-  animation: wobble infinite .8s alternate;
+  animation: wobble infinite 0.8s alternate;
 }
 
 .center {
@@ -20,8 +20,8 @@ body {
   width: 200px;
   height: 200px;
   background: #7423d1;
-  animation-delay: .8s;
-  animation: wobble infinite .8s alternate;
+  animation-delay: 0.8s;
+  animation: wobble infinite 0.8s alternate;
 }
 
 .back {
@@ -31,9 +31,8 @@ body {
   height: 200px;
   background: #ff9d00;
   transform: translate(60px, -250px);
-  animation-delay: .16s;
-  animation: wobble infinite .8s alternate;
-
+  animation-delay: 0.16s;
+  animation: wobble infinite 0.8s alternate;
 }
 
 @keyframes wobble {

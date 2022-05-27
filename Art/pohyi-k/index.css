@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Painter";
-  src: url("Painter.ttf") format("truetype");
+  font-family: 'Painter';
+  src: url('Painter.ttf') format('truetype');
 }
 
 h1 {
-  font-family: "Painter";
+  font-family: 'Painter';
   font-size: 80px;
   text-align: center;
   align-self: center;
@@ -66,7 +66,7 @@ h1 {
 }
 
 .pumpkin .surface:after {
-  content: "";
+  content: '';
   display: block;
   height: 10.7em;
   width: 12em;
@@ -147,7 +147,7 @@ h1 {
 
 .pumpkin .teeth:before,
 .pumpkin .teeth:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 0;

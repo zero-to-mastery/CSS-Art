@@ -1,89 +1,89 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.clock {
+  width: 20vw;
+  height: 20vw;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px rgb(133, 102, 102);
+}
+
+.seconds,
+.minutes,
+.hours {
+  background-color: transparent;
+  left: 49%;
+  height: 50%;
+  width: 2%;
+  position: absolute;
+  transform-origin: center bottom;
+}
+
+.seconds {
+  animation: seconds-ticks 60s linear infinite;
+}
+
+.minutes {
+  transform: rotate(60deg);
+  animation: minutes-ticks 3600s linear infinite;
+}
+
+.hours {
+  transform: rotate(-60deg);
+  animation: hours-ticks 86400s linear infinite;
+}
+
+.fill {
+  background-color: rgb(18, 218, 108);
+  width: 100%;
+}
+
+.seconds .fill {
+  height: 100%;
+}
+
+.minutes .fill {
+  height: 85%;
+  top: 15%;
+  position: absolute;
+}
+
+.hours .fill {
+  height: 55%;
+  top: 45%;
+  position: absolute;
+}
+
+@keyframes seconds-ticks {
+  100% {
+    transform: rotate(360deg);
   }
-  
-  .clock {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 10%;
-    left: 40%;
-    background-color: black;
-    border-radius: 50%;
-    box-shadow: 10px 10px 20px rgb(133, 102, 102);
+}
+
+@keyframes minutes-ticks {
+  100% {
+    transform: rotate(420deg);
   }
-  
-  .seconds,
-  .minutes,
-  .hours {
-    background-color: transparent;
-    left: 49%;
-    height: 50%;
-    width: 2%;
-    position: absolute;
-    transform-origin: center bottom;
+}
+
+@keyframes hours-ticks {
+  100% {
+    transform: rotate(300deg);
   }
-  
-  .seconds {
-    animation: seconds-ticks 60s linear infinite;
-  }
-  
-  .minutes {
-    transform: rotate(60deg);
-    animation: minutes-ticks 3600s linear infinite;
-  }
-  
-  .hours {
-    transform: rotate(-60deg);
-    animation: hours-ticks 86400s linear infinite;
-  }
-  
-  .fill {
-    background-color: rgb(18, 218, 108);
-    width: 100%;
-  }
-  
-  .seconds .fill {
-    height: 100%;
-  }
-  
-  .minutes .fill {
-    height: 85%;
-    top: 15%;
-    position: absolute;
-  }
-  
-  .hours .fill {
-    height: 55%;
-    top: 45%;
-    position: absolute;
-  }
-  
-  @keyframes seconds-ticks {
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes minutes-ticks {
-    100% {
-      transform: rotate(420deg);
-    }
-  }
-  
-  @keyframes hours-ticks {
-    100% {
-      transform: rotate(300deg);
-    }
-  }
-  
-  .center {
-    background-color: rgb(255, 174, 0);
-    left: 48%;
-    top: 48%;
-    height: 4%;
-    width: 4%;
-    position: absolute;
-    border-radius: 50%;
-  }
+}
+
+.center {
+  background-color: rgb(255, 174, 0);
+  left: 48%;
+  top: 48%;
+  height: 4%;
+  width: 4%;
+  position: absolute;
+  border-radius: 50%;
+}

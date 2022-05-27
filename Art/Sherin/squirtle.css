@@ -71,7 +71,7 @@ body {
 }
 
 .eye::after {
-  content: "";
+  content: '';
   width: 30px;
   height: 20px;
   position: absolute;
@@ -105,7 +105,7 @@ body {
   width: 25px;
   z-index: 3;
   left: 0px;
-  content: "";
+  content: '';
 }
 
 .mouth {
@@ -143,7 +143,7 @@ body {
   background-color: #9bd9d5;
   height: 100px;
   width: 75px;
-  content: "";
+  content: '';
   left: 1px;
   top: 1px;
   z-index: 1;

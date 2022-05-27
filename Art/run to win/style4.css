@@ -46,7 +46,7 @@ body {
 .b {
   height: 800px;
   width: 180px;
-  background: url("my.png");
+  background: url('my.png');
   background-repeat: no-repeat;
   margin: 0 auto;
   margin-top: -250px;
@@ -73,7 +73,7 @@ body {
 
 .cloud:before,
 .cloud:after {
-  content: "";
+  content: '';
   position: absolute;
   background: #fff;
   width: 100px;

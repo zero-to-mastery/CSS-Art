@@ -6,7 +6,7 @@
 }
 
 h1 {
-  font-family: "Charmonman", cursive;
+  font-family: 'Charmonman', cursive;
   margin-top: -450px;
   text-align: center;
   color: #ffffff;
@@ -58,7 +58,7 @@ a:active {
 
 .heart:before,
 .heart:after {
-  content: "";
+  content: '';
   background-color: red;
   border-radius: 50%;
   height: 30px;

@@ -37,7 +37,7 @@
 }
 
 .person-icon::before {
-  content: "";
+  content: '';
   background: black;
   height: 60%;
   width: 80%;

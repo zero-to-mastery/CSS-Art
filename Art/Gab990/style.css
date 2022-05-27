@@ -1,383 +1,379 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background: rgb(30, 30, 30);
-    margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: rgb(30, 30, 30);
+  margin-top: 15vh;
 }
 
-
 #coffeemakerbody {
-    background: crimson;
-    width: 25vh;
-    height: 50vh;
-    border-radius: 12vh 12vh 0 0;
-    position: relative;
-    animation: cmbody 12000ms forwards ease-out;
+  background: crimson;
+  width: 25vh;
+  height: 50vh;
+  border-radius: 12vh 12vh 0 0;
+  position: relative;
+  animation: cmbody 12000ms forwards ease-out;
 }
 
 @keyframes cmbody {
-    0% {
-        opacity: 0;
-        transform: scale(0);
-        background: white;
-    }
-    20% {
-        opacity: 1;
-        transform: scale(1);
-        background: crimson;
-    }
-    90% {
-        right: 0;
-        opacity: 1;
-    }
-    100% {
-        right: 25vh;
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+    transform: scale(0);
+    background: white;
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1);
+    background: crimson;
+  }
+  90% {
+    right: 0;
+    opacity: 1;
+  }
+  100% {
+    right: 25vh;
+    opacity: 0;
+  }
 }
 
 #coffeemakertop1 {
-    background: black;
-    width: 15vh;
-    height: 15vh;
-    border-radius: 100%;
-    position: absolute;
-    top: 2vh;
-    left: 5vh;
-    animation: cmt1 700ms forwards ease-out;
-    animation-delay: 800ms;
-    visibility: hidden;
+  background: black;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 100%;
+  position: absolute;
+  top: 2vh;
+  left: 5vh;
+  animation: cmt1 700ms forwards ease-out;
+  animation-delay: 800ms;
+  visibility: hidden;
 }
 
 @keyframes cmt1 {
-    0% {
-        left: 25vh;
-        transform: rotate(0deg);
-        visibility: visible;
-    }
-    100% {
-        top: 2vh;
-        left: 5vh;
-        transform: rotate(-360deg);
-        visibility: visible;
-    }
+  0% {
+    left: 25vh;
+    transform: rotate(0deg);
+    visibility: visible;
+  }
+  100% {
+    top: 2vh;
+    left: 5vh;
+    transform: rotate(-360deg);
+    visibility: visible;
+  }
 }
 
 #logo {
-    background: green;
-    border: 1px solid lightgreen;
-    border-radius: 20px 20px 5px 5px;
-    width: 3vh;
-    height: 8vh;
-    position: absolute;
-    top: 3vh;
-    left: 6vh;
-    animation: coffeeMakerLogo 6000ms ease;
-    animation-delay: 4300ms;
+  background: green;
+  border: 1px solid lightgreen;
+  border-radius: 20px 20px 5px 5px;
+  width: 3vh;
+  height: 8vh;
+  position: absolute;
+  top: 3vh;
+  left: 6vh;
+  animation: coffeeMakerLogo 6000ms ease;
+  animation-delay: 4300ms;
 }
 
 @keyframes coffeeMakerLogo {
-    0%{
-        transform: rotate(0deg)
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 #coffeemakertop2 {
-    position: absolute;
-    top: 18vh;
-    left: 5.5vh;
-    width: 14vh;
-    height: 1vh;
-    background: rgb(100, 100, 100);
-    animation: cmt2 1s forwards ease-in-out;
-    animation-delay: 1s;
-    visibility: hidden;
+  position: absolute;
+  top: 18vh;
+  left: 5.5vh;
+  width: 14vh;
+  height: 1vh;
+  background: rgb(100, 100, 100);
+  animation: cmt2 1s forwards ease-in-out;
+  animation-delay: 1s;
+  visibility: hidden;
 }
 
 @keyframes cmt2 {
-    0% {
-        top: 0;
-        transform: rotate(0deg);
-        visibility: visible;
-    }
-    100% {
-        top: 18vh;
-        left: 5.5vh;
-        transform: rotate(360deg);
-        visibility: visible;
-    }
+  0% {
+    top: 0;
+    transform: rotate(0deg);
+    visibility: visible;
+  }
+  100% {
+    top: 18vh;
+    left: 5.5vh;
+    transform: rotate(360deg);
+    visibility: visible;
+  }
 }
 
 #coffeemakertop3 {
-    background: gray;
-    width: 17vh;
-    height: 3vh;
-    border-radius: 3vh;
-    position: absolute;
-    top: 20vh;
-    left: 4vh;
-    visibility: hidden;
-    animation: cmt3 1s forwards ease-out;
-    animation-delay: 1500ms;
+  background: gray;
+  width: 17vh;
+  height: 3vh;
+  border-radius: 3vh;
+  position: absolute;
+  top: 20vh;
+  left: 4vh;
+  visibility: hidden;
+  animation: cmt3 1s forwards ease-out;
+  animation-delay: 1500ms;
 }
 
 @keyframes cmt3 {
-    0% {
-        visibility: visible;
-        transform: scale(0.6);
-    }
-    100% {
-        top: 20vh;
-        left: 4vh;
-        transform: scale(1);
-        visibility: visible;
-    }
+  0% {
+    visibility: visible;
+    transform: scale(0.6);
+  }
+  100% {
+    top: 20vh;
+    left: 4vh;
+    transform: scale(1);
+    visibility: visible;
+  }
 }
 
 #switch {
-    background: red;
-    /*will change to green in 2 steps and from the left to the right*/
-    position: absolute;
-    top: 0.5vh;
-    left: 2vh;
-    width: 2vh;
-    height: 2vh;
-    border-radius: 100%;
-    animation: switch 400ms forwards steps(2);
-    animation-delay: 3200ms;
-    visibility: hidden;
+  background: red;
+  /*will change to green in 2 steps and from the left to the right*/
+  position: absolute;
+  top: 0.5vh;
+  left: 2vh;
+  width: 2vh;
+  height: 2vh;
+  border-radius: 100%;
+  animation: switch 400ms forwards steps(2);
+  animation-delay: 3200ms;
+  visibility: hidden;
 }
 
 @keyframes switch {
-    0% {
-        visibility: visible;
-    }
-    100% {
-        visibility: visible;
-        left: 13vh;
-        background: green;
-    }
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+    left: 13vh;
+    background: green;
+  }
 }
 
 #coffeemakersocket {
-    background: black;
-    width: 20vh;
-    height: 24vh;
-    border-radius: 25px 25px 0 0;
-    position: absolute;
-    top: 25vh;
-    left: 2.5vh;
+  background: black;
+  width: 20vh;
+  height: 24vh;
+  border-radius: 25px 25px 0 0;
+  position: absolute;
+  top: 25vh;
+  left: 2.5vh;
 }
 
 #coffeefiltertop {
-    width: 9vh;
-    height: 2vh;
-    background: rgb(100, 100, 100);
-    position: absolute;
-    top: 25vh;
-    left: 8vh;
-    visibility: hidden;
-    animation: cft 1s ease-in-out forwards;
-    animation-delay: 2300ms;
+  width: 9vh;
+  height: 2vh;
+  background: rgb(100, 100, 100);
+  position: absolute;
+  top: 25vh;
+  left: 8vh;
+  visibility: hidden;
+  animation: cft 1s ease-in-out forwards;
+  animation-delay: 2300ms;
 }
 
 @keyframes cft {
-    0% {
-        visibility: visible;
-        top: 29vh;
-    }
-    100% {
-        visibility: visible;
-        top: 25vh;
-    }
+  0% {
+    visibility: visible;
+    top: 29vh;
+  }
+  100% {
+    visibility: visible;
+    top: 25vh;
+  }
 }
 
 #coffeemakerfilter1 {
-    /*trapezoid shape made with borders*/
-    background: none;
-    width: 5vh;
-    height: 0;
-    border-top: 3vh solid gray;
-    border-left: 2vh solid transparent;
-    border-right: 2vh solid transparent;
-    position: absolute;
-    top: 27vh;
-    left: 8vh;
-    visibility: hidden;
-    animation: cf1 1s ease-in-out forwards;
-    animation-delay: 2500ms;
+  /*trapezoid shape made with borders*/
+  background: none;
+  width: 5vh;
+  height: 0;
+  border-top: 3vh solid gray;
+  border-left: 2vh solid transparent;
+  border-right: 2vh solid transparent;
+  position: absolute;
+  top: 27vh;
+  left: 8vh;
+  visibility: hidden;
+  animation: cf1 1s ease-in-out forwards;
+  animation-delay: 2500ms;
 }
 
 @keyframes cf1 {
-    0% {
-        visibility: visible;
-        top: 32vh;
-    }
-    100% {
-        visibility: visible;
-        top: 27vh
-    }
+  0% {
+    visibility: visible;
+    top: 32vh;
+  }
+  100% {
+    visibility: visible;
+    top: 27vh;
+  }
 }
 
 #coffeemakerfilter2 {
-    background: rgb(100, 100, 100);
-    width: 2vh;
-    height: 1vh;
-    position: absolute;
-    top: 0;
-    left: 1.5vh;
+  background: rgb(100, 100, 100);
+  width: 2vh;
+  height: 1vh;
+  position: absolute;
+  top: 0;
+  left: 1.5vh;
 }
 
 #coffeemakerbase {
-    width: 25vh;
-    position: absolute;
-    top: 65vh;
-    height: 5vh;
-    background: rgb(100, 100, 100);
-    animation: cmb 11400ms forwards ease-out;
-    animation-delay: 600ms;
-    visibility: hidden;
+  width: 25vh;
+  position: absolute;
+  top: 65vh;
+  height: 5vh;
+  background: rgb(100, 100, 100);
+  animation: cmb 11400ms forwards ease-out;
+  animation-delay: 600ms;
+  visibility: hidden;
 }
 
 @keyframes cmb {
-    0% {
-        visibility: visible;
-        transform: rotateY(0deg);
-        top: 68vh;
-    }
-    20% {
-        visibility: visible;
-        transform: rotateY(540deg);
-        top: 65vh;
-    }
-    90% {
-        top: 65vh;
-        opacity: 1;
-        transform: rotateY(540deg);
-    }
-    100% {
-        top: 75vh;
-        opacity: 0;
-        transform: rotateY(540deg);
-    }
+  0% {
+    visibility: visible;
+    transform: rotateY(0deg);
+    top: 68vh;
+  }
+  20% {
+    visibility: visible;
+    transform: rotateY(540deg);
+    top: 65vh;
+  }
+  90% {
+    top: 65vh;
+    opacity: 1;
+    transform: rotateY(540deg);
+  }
+  100% {
+    top: 75vh;
+    opacity: 0;
+    transform: rotateY(540deg);
+  }
 }
 
 #coffee {
-    /*this is for the coffee being made*/
-    width: 1.2vh;
-    height: 16vh;
-    background: rgb(60, 42, 30);
-    position: absolute;
-    top: 31vh;
-    left: 11.9vh;
-    visibility: hidden;
-    animation: coffee 6000ms forwards;
-    animation-delay: 4300ms;
+  /*this is for the coffee being made*/
+  width: 1.2vh;
+  height: 16vh;
+  background: rgb(60, 42, 30);
+  position: absolute;
+  top: 31vh;
+  left: 11.9vh;
+  visibility: hidden;
+  animation: coffee 6000ms forwards;
+  animation-delay: 4300ms;
 }
 
 @keyframes coffee {
-    0% {
-        visibility: visible;
-        height: 0vh;
-    }
-    10% {
-        height: 16vh;
-    }
-    90% {
-        width: 1.2vh;
-        top: 31vh;
-        height: 16vh;
-    }
-    100% {
-        visibility: hidden;
-        width: 1.2vh;
-        top: 45vh;
-        height: 2vh;
-    }
+  0% {
+    visibility: visible;
+    height: 0vh;
+  }
+  10% {
+    height: 16vh;
+  }
+  90% {
+    width: 1.2vh;
+    top: 31vh;
+    height: 16vh;
+  }
+  100% {
+    visibility: hidden;
+    width: 1.2vh;
+    top: 45vh;
+    height: 2vh;
+  }
 }
 
 #coffeewhite {
-    /*for the illusion of pouring coffee*/
-    width: 1.2vh;
-    height: 1vh;
-    background: rgb(111, 87, 55);
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: AnimWhite 1800ms forwards;
-    animation-delay: 4300ms;
-    animation-iteration-count: 3;
-    visibility: hidden;
+  /*for the illusion of pouring coffee*/
+  width: 1.2vh;
+  height: 1vh;
+  background: rgb(111, 87, 55);
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: AnimWhite 1800ms forwards;
+  animation-delay: 4300ms;
+  animation-iteration-count: 3;
+  visibility: hidden;
 }
 
 @keyframes AnimWhite {
-    0% {
-        opacity: 0;
-        visibility: visible;
-    }
-    100% {
-        top: 15vh;
-        opacity: 1;
-        visibility: hidden;
-    }
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    top: 15vh;
+    opacity: 1;
+    visibility: hidden;
+  }
 }
 
 #main {
-    width: 8vh;
-    height: 5vh;
-    position: absolute;
-    top: 57.9vh;
-    background: transparent;
-    border-radius: 0 0 8vh 8vh;
-    overflow: hidden;
-    animation: moveMe 3400ms forwards ease;
-    animation-delay: 12000ms;
-    border: 3px solid transparent;
-    border-top: none;
+  width: 8vh;
+  height: 5vh;
+  position: absolute;
+  top: 57.9vh;
+  background: transparent;
+  border-radius: 0 0 8vh 8vh;
+  overflow: hidden;
+  animation: moveMe 3400ms forwards ease;
+  animation-delay: 12000ms;
+  border: 3px solid transparent;
+  border-top: none;
 }
 
 @keyframes moveMe {
-    0% {
-        visibility: visible;
-        transform: scale(1);
-    }
-    25% {
-        transform: scale(2.5);
-    }
-    70% {
-        visibility: visible;
-        transform: scale(2.5);
-        top: 57.9vh;
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        visibility: hidden;
-        top: 57.9vh;
-    }
+  0% {
+    visibility: visible;
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(2.5);
+  }
+  70% {
+    visibility: visible;
+    transform: scale(2.5);
+    top: 57.9vh;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    top: 57.9vh;
+  }
 }
 
 #mug {
-    position: absolute;
-    background: rgb(60, 42, 30);
-    width: 100%;
-    bottom: 0;
-    animation: fillUp 5800ms cubic-bezier(.2, .6, .8, .4) forwards;
-    animation-delay: 4500ms;
+  position: absolute;
+  background: rgb(60, 42, 30);
+  width: 100%;
+  bottom: 0;
+  animation: fillUp 5800ms cubic-bezier(0.2, 0.6, 0.8, 0.4) forwards;
+  animation-delay: 4500ms;
 }
 
 @keyframes fillUp {
-    0% {
-        height: 0;
-    }
-    100% {
-        height: 100%;
-    }
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
 }
-
-
-

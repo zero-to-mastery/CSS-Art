@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-family: "Mali", cursive;
+  font-family: 'Mali', cursive;
   font-size: 2em;
   text-align: center;
   margin-top: 30px;
@@ -28,7 +28,7 @@ h1 {
 #heart:before,
 #heart:after {
   position: absolute;
-  content: "";
+  content: '';
   left: 50px;
   top: 0;
   width: 50px;

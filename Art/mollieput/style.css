@@ -35,7 +35,7 @@ body {
 }
 
 .text {
-  font-family: "Luckiest Guy", cursive;
+  font-family: 'Luckiest Guy', cursive;
   color: white;
   font-size: 5em;
   line-height: 0.5em;
@@ -67,7 +67,7 @@ body {
 }
 
 #changingText:after {
-  content: "TRANS";
+  content: 'TRANS';
   animation-name: textChange;
   animation-duration: 4.5s;
   animation-iteration-count: infinite;
@@ -75,23 +75,23 @@ body {
 
 @keyframes textChange {
   16.66% {
-    content: "AUTISTIC";
+    content: 'AUTISTIC';
   }
 
   33.32% {
-    content: "QUEER";
+    content: 'QUEER';
   }
 
   49.92% {
-    content: "DISABLED";
+    content: 'DISABLED';
   }
 
   66.52% {
-    content: "GAY";
+    content: 'GAY';
   }
 
   83.12% {
-    content: "HOMELESS";
+    content: 'HOMELESS';
   }
 }
 

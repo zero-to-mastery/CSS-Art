@@ -52,7 +52,7 @@ h1 {
   padding-top: 30px;
   margin-bottom: 50px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .robots {
@@ -123,7 +123,7 @@ h1 {
 }
 .horns:before {
   position: absolute;
-  content: "";
+  content: '';
   display: inline-block;
   width: 160px;
   height: 90px;
@@ -149,7 +149,7 @@ h1 {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
-  content: "";
+  content: '';
   width: 200px;
   height: 60px;
   background: black;
@@ -163,7 +163,7 @@ h1 {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
-  content: "";
+  content: '';
   width: 250px;
   height: 250px;
   background: black;
@@ -181,7 +181,7 @@ h1 {
   transform: translateX(-50%);
 }
 .upper_body .button:after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -274,7 +274,7 @@ h1 {
 }
 .iris:before {
   position: absolute;
-  content: "";
+  content: '';
   background: white;
   width: 25px;
   height: 25px;

@@ -33,8 +33,7 @@ body {
   border-radius: 50%;
   position: absolute;
   bottom: 0em;
-  animation: ballBounce infinite ease-out,
-    sceneRotate infinite linear reverse;
+  animation: ballBounce infinite ease-out, sceneRotate infinite linear reverse;
 }
 
 .ball0 {
@@ -57,8 +56,8 @@ body {
   left: -1.5em;
   background-image: radial-gradient(circle at top, #ade6b2, #000);
   animation-delay: 1s;
-  width: .7em;
-  height: .7em;
+  width: 0.7em;
+  height: 0.7em;
   animation-duration: 1s, var(--rotateSpeed);
 }
 .ball3 {
@@ -89,8 +88,8 @@ body {
   left: 4.7em;
   background-image: radial-gradient(circle at top, #e6adbe, #000);
   animation-delay: 3s;
-  width: .9em;
-  height: .9em;
+  width: 0.9em;
+  height: 0.9em;
   animation-duration: 1.2s, var(--rotateSpeed);
 }
 

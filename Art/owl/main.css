@@ -15,7 +15,7 @@ body {
 
 .owl:before,
 .owl:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 0;
@@ -64,7 +64,7 @@ body {
 }
 
 .eye:after {
-  content: "";
+  content: '';
   background: black;
   width: 30px;
   height: 30px;
@@ -140,7 +140,7 @@ body {
 .right-foot:before,
 .left-foot:after,
 .right-foot:after {
-  content: "";
+  content: '';
   position: absolute;
   border-radius: 50%;
   background: #eab64d;
@@ -194,7 +194,7 @@ body {
 }
 
 .branch:before {
-  content: "";
+  content: '';
   position: absolute;
   top: -3px;
   left: 100px;

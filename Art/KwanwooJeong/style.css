@@ -45,7 +45,7 @@ body {
 }
 
 .clock-border::after {
-  content: "";
+  content: '';
   border: 0.2vw solid #cdcdcd;
   border-radius: 100%;
   width: 100%;

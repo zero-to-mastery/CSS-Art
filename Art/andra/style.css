@@ -61,7 +61,7 @@ body {
   border-radius: 50%;
 }
 .bird__eye::after {
-  content: "";
+  content: '';
   height: 2rem;
   width: 2rem;
   background-color: black;

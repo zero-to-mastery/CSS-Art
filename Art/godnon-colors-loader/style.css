@@ -5,10 +5,10 @@
 }
 
 :root {
-  --blue: #4285F4;
-	--red: #EA4335;
-  --yellow: #FBBC05;
-	--green: #34A853;
+  --blue: #4285f4;
+  --red: #ea4335;
+  --yellow: #fbbc05;
+  --green: #34a853;
 }
 
 body {
@@ -20,50 +20,56 @@ body {
 }
 
 div.container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div > div {
-	width: 3vw;
-	height: 3vw;
-	border-radius: 100%;
-	margin: 2vw;
-	background-image: linear-gradient(145deg, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0) 100%);
-	animation: bounce 1.5s 0.5s linear infinite;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 100%;
+  margin: 2vw;
+  background-image: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  animation: bounce 1.5s 0.5s linear infinite;
 }
 
 .blue {
-	background-color: var(--blue);
-	animation-delay: 0.2s;
+  background-color: var(--blue);
+  animation-delay: 0.2s;
 }
 
 .red {
-	background-color: var(--red);
-	animation-delay: 0.1s;
+  background-color: var(--red);
+  animation-delay: 0.1s;
 }
 
 .yellow {
-	background-color: var(--yellow);
+  background-color: var(--yellow);
 }
 
 .green {
-	background-color: var(--green);
-	animation-delay: 0.3s;
+  background-color: var(--green);
+  animation-delay: 0.3s;
 }
 
 @keyframes bounce {
-	0%, 50%, 100% {
-		transform: scale(1);
-		filter: blur(0px);
-	}
-	25% {
-		transform: scale(0.6);
-		filter: blur(0px);
-	}
-	75% {
-		filter: blur(0px);
-		transform: scale(1.2);
-	}
+  0%,
+  50%,
+  100% {
+    transform: scale(1);
+    filter: blur(0px);
+  }
+  25% {
+    transform: scale(0.6);
+    filter: blur(0px);
+  }
+  75% {
+    filter: blur(0px);
+    transform: scale(1.2);
+  }
 }

@@ -11,10 +11,10 @@
   grid-template-columns: 2px 10px 13px 15px 35px 15px 15px;
   grid-template-rows: 4px 30px;
   grid-template-areas:
-    "verytop verytop verytop verytop verytop verytop verytop verytop "
-    "top top1 top2 top3 top4 top5 top6 top7"
-    "middle middle middle middle middle middle middle middle"
-    "bottom bottom1 bottom2 bottom3 bottom4 bottom5 bottom6 bottom7";
+    'verytop verytop verytop verytop verytop verytop verytop verytop '
+    'top top1 top2 top3 top4 top5 top6 top7'
+    'middle middle middle middle middle middle middle middle'
+    'bottom bottom1 bottom2 bottom3 bottom4 bottom5 bottom6 bottom7';
 }
 
 body {

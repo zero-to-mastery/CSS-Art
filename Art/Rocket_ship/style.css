@@ -50,7 +50,7 @@ body {
   box-shadow: inset -7px 0 7px rgba(0, 0, 0, 0.2);
 }
 .holl1:before {
-  content: "";
+  content: '';
   position: absolute;
   background: #081a3b4a;
   right: -6px;
@@ -72,7 +72,7 @@ body {
   box-shadow: inset -7px 0 7px rgba(0, 0, 0, 0.2);
 }
 .holl2:before {
-  content: "";
+  content: '';
   position: absolute;
   background: #081a3b4a;
   right: -3px;
@@ -94,7 +94,7 @@ body {
   box-shadow: inset -7px 0 7px rgba(0, 0, 0, 0.2);
 }
 .holl3:before {
-  content: "";
+  content: '';
   position: absolute;
   background: #081a3b4a;
   right: -2px;
@@ -128,7 +128,7 @@ body {
   box-shadow: inset -7px 0 7px rgba(0, 0, 0, 0.2);
 }
 .holl5:before {
-  content: "";
+  content: '';
   position: absolute;
   background: #081a3b4a;
   right: 0.5px;
@@ -212,7 +212,7 @@ body {
   transform: rotat(-4deg);
 }
 .p:before {
-  content: "";
+  content: '';
   position: absolute;
   left: -69px;
   top: -30px;
@@ -263,7 +263,7 @@ body {
   z-index: 200;
 }
 .rocket:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 4px;
   height: 10px;
@@ -272,7 +272,7 @@ body {
   z-index: 200;
 }
 .rocket:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 4px;
   height: 10px;
@@ -607,7 +607,7 @@ body {
   z-index: 900;
 }
 .sat10:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 125px;
   height: 20px;
@@ -619,7 +619,7 @@ body {
   transform: rotate(-16deg);
 }
 .sat10:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 80px;
   height: 80px;
@@ -659,7 +659,7 @@ body {
   height: 100%;
 }
 .sk-child:before {
-  content: "";
+  content: '';
   display: block;
   margin: 0 auto;
   width: 15%;

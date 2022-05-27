@@ -42,7 +42,7 @@ html {
 }
 
 .Ghost:after {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   top: 240px;
@@ -71,7 +71,7 @@ html {
 
 .left-eye:after,
 .right-eye:after {
-  content: "";
+  content: '';
   border-radius: 50%;
   width: 15px;
   height: 15px;

@@ -51,7 +51,7 @@ body {
 }
 
 .parafusos::after {
-  content: " ";
+  content: ' ';
   clear: both;
   display: block;
   height: 0;
@@ -161,7 +161,7 @@ body {
 }
 
 .baixo::after {
-  content: " ";
+  content: ' ';
   clear: both;
   display: block;
   height: 0;
@@ -169,7 +169,7 @@ body {
 
 .baixo .selo {
   background-color: #fff;
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASElEQVQYlZXMywkAMAgE0SnNkmwxPdjP5hTQfIkgXp4DoGghYN46A0WL/IDMF1xKGexw/dxhmSvvFb9qMhe32nyX2hG+wFexA1IMcQTyQFRjAAAAAElFTkSuQmCC");
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASElEQVQYlZXMywkAMAgE0SnNkmwxPdjP5hTQfIkgXp4DoGghYN46A0WL/IDMF1xKGexw/dxhmSvvFb9qMhe32nyX2hG+wFexA1IMcQTyQFRjAAAAAElFTkSuQmCC');
   background-size: 32px 32px;
   background-repeat: no-repeat;
   background-position: center;

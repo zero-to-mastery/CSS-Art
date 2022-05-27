@@ -30,7 +30,7 @@ body {
   border-top: 0.5em solid #a14907;
 }
 .pumpkin .texture:after {
-  content: "";
+  content: '';
   display: block;
   height: 10.7em;
   width: 12em;
@@ -99,7 +99,7 @@ body {
 }
 .pumpkin .teeth:before,
 .pumpkin .teeth:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 0;

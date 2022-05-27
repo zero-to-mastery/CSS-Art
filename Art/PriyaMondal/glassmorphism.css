@@ -17,7 +17,7 @@ body {
   left: 0;
   border-radius: 10px;
   backdrop-filter: blur(14px);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #161616;
   text-align: center;
 }

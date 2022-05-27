@@ -40,7 +40,7 @@ h1 {
 
 .flag:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 400px;
   left: -5px;
   top: -3px;

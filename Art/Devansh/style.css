@@ -37,7 +37,7 @@
 }
 
 .hatt::after {
-  content: "";
+  content: '';
   background-color: darkred;
   border-radius: 50%;
   width: 50px;
@@ -47,7 +47,7 @@
 }
 
 .hatt::before {
-  content: "";
+  content: '';
   background-color: darkred;
   border-radius: 50%;
   position: absolute;
