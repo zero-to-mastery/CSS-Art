@@ -1,4 +1,3 @@
-  
 ---
 > ### **UPDATE:** Event Concluded!
   >
