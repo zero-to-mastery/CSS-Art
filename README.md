@@ -1,3 +1,4 @@
+
 ---
 > ### **UPDATE:** Event Concluded!
   >
@@ -6,6 +7,7 @@
   >
   > **Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/community/events)**
   > Hacktoberfest 2021 Projects can be found [here](https://github.com/zero-to-mastery?q=hacktoberfest2021&type=&language=&sort=)
+>
 ---
 
 # CSS ART - General Edition
