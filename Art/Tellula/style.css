@@ -4,7 +4,6 @@ html {
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
-  
 }
 
 #container {
@@ -16,7 +15,6 @@ html {
   align-content: space-between;
   width: 100vw;
   height: 100vh;
-  
 }
 
 #sky {
@@ -24,7 +22,6 @@ html {
   position: fixed;
   z-index: -300;
   background-color: rgb(26, 30, 66);
-  
   background-size: 400% 400%;
   animation: gradient2 15s ease infinite;
   justify-content: center;
@@ -35,16 +32,14 @@ html {
 }
 
 #night {
-    display: flex;
-    position: fixed;
-    z-index: -600;
-    justify-content: center;
-    align-content: center;
-    animation: nightSky 15s ease-in-out infinite;
-    opacity: 0;
-
+  display: flex;
+  position: fixed;
+  z-index: -600;
+  justify-content: center;
+  align-content: center;
+  animation: nightSky 15s ease-in-out infinite;
+  opacity: 0;
 }
-
 
 #sun {
   width: 3em;
@@ -89,58 +84,40 @@ html {
   width: 0.2em;
   opacity: 0;
   position: absolute;
-  /* box-shadow: 50px 16px rgb(255, 255, 255); */
+  box-shadow: 100px 16px rgb(255, 255, 255);
   z-index: -1;
   background: rgb(239, 244, 247);
 }
 
 #stars1 {
-  /* top: 50%;
-    left: 10%; */
-  animation: shootingStar1 15s linear infinite;
+  animation: shootingStar1 15s ease-in-out infinite;
 }
-
 #stars2 {
-  /* top: 50%;
-  left: 25%; */
   animation: shootingStar2 15s linear infinite;
 }
-
 #stars3 {
-  /* top: 50%;
-  left: 30%; */
-  animation: shootingStar3 15s linear infinite;
+  animation: shootingStar3 15s ease infinite;
 }
-
 #stars4 {
-  /* top: 50%;
-  left: 75%; */
-  animation: shootingStar4 15s linear infinite;
+  animation: shootingStar4 15s ease-out infinite;
 }
-
 #stars5 {
-
-  animation: shootingStar5 15s linear infinite;
+  animation: shootingStar5 15s ease-in infinite;
 }
 #stars6 {
-
-  animation: shootingStar6 15s linear infinite;
+  animation: shootingStar6 15s ease-in-out infinite;
 }
 #stars7 {
-
   animation: shootingStar7 15s linear infinite;
 }
 #stars8 {
-
-  animation: shootingStar8 15s linear infinite;
+  animation: shootingStar8 15s ease infinite;
 }
 #stars9 {
-
-  animation: shootingStar9 15s linear infinite;
+  animation: shootingStar9 15s ease-out infinite;
 }
 #stars10 {
-
-  animation: shootingStar10 15s linear infinite;
+  animation: shootingStar10 15s ease-in infinite;
 }
 
 #water {
@@ -162,11 +139,9 @@ html {
 }
 
 #boat {
-  
   width: 5vw;
- height: auto;
+  height: auto;
   position: absolute;
-  z-index: 400;
   top: 20%;
   left: 0%;
   animation: boat 15s alternate-reverse infinite;
@@ -207,7 +182,6 @@ html {
   }
   80% {
     background: rgb(102, 123, 216);
-    
   }
   100% {
     background: rgb(26, 30, 66);
@@ -229,11 +203,10 @@ html {
 }
 @keyframes moon {
   0% {
-    opacity: 1;
+    opacity: 0.3;
     top: 11%;
     left: 79%;
     background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
-
   }
   25% {
     opacity: 0;
@@ -266,15 +239,20 @@ html {
   0% {
     opacity: 1;
   }
+  5% {
+    opacity: 0.3;
+  }
   25% {
     opacity: 0;
-
   }
   50% {
     opacity: 0;
   }
   90% {
-      opacity: 0;
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 0.8;
   }
 
   100% {
@@ -287,14 +265,13 @@ html {
   }
 
   80% {
-    top: 80%;
+    top: 100%;
     left: 0%;
     opacity: 1;
   }
 
   100% {
-    background: rgb(239, 244, 247);
-    top: 5%;
+    top: -5%;
     left: 20%;
     opacity: 1;
   }
@@ -311,8 +288,7 @@ html {
   }
 
   100% {
-    background: rgb(70, 38, 2);
-    top: 5%;
+    top: -5%;
     left: 30%;
     opacity: 1;
   }
@@ -323,14 +299,13 @@ html {
   }
 
   80% {
-    top: 80%;
+    top: 70%;
     left: 20%;
     opacity: 1;
   }
 
   100% {
-    background: rgb(6, 241, 163);
-    top: 5%;
+    top: -5%;
     left: 40%;
     opacity: 1;
   }
@@ -341,14 +316,13 @@ html {
   }
 
   80% {
-    top: 80%;
+    top: 65%;
     left: 30%;
     opacity: 1;
   }
 
   100% {
-    background: rgb(0, 0, 0);
-    top: 5%;
+    top: -5%;
     left: 50%;
     opacity: 1;
   }
@@ -359,14 +333,13 @@ html {
   }
 
   80% {
-    top: 80%;
+    top: 75%;
     left: 40%;
     opacity: 1;
   }
 
   100% {
-    background: rgb(245, 241, 6);
-    top: 5%;
+    top: -5%;
     left: 60%;
     opacity: 1;
   }
@@ -377,84 +350,82 @@ html {
   }
 
   80% {
-    top: 80%;
-    left: 12%;
-    opacity: 1;
-  }
-
-  100% {
-    background: orange;
-    top: 5%;
-    left: -20%;
-    opacity: 1;
-  }
-}@keyframes shootingStar7 {
-  0% {
-    opacity: 0;
-  }
-
-  80% {
-    top: 80%;
-    left: 18%;
-    opacity: 1;
-  }
-
-  100% {
-    background: red;
     top: 90%;
-    left: -20%;
+    left: 50%;
     opacity: 1;
   }
-}@keyframes shootingStar8 {
+
+  100% {
+    top: -5%;
+    left: 70%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar7 {
   0% {
     opacity: 0;
   }
 
   80% {
-    top: 80%;
-    left: 20%;
+    top: 85%;
+    left: 60%;
     opacity: 1;
   }
 
   100% {
-    background: rgb(35, 247, 7);
-    top: -25%;
-    left: 95%;
-    opacity: 1;
-  }
-}@keyframes shootingStar9 {
-  0% {
-    opacity: 0;
-  }
-
-  80% {
-    top: 80%;
-    left: 22%;
-    opacity: 1;
-  }
-
-  100% {
-    background: rgb(19, 58, 231);
-    color: ;
-    top: -2%;
+    top: -5%;
     left: 80%;
     opacity: 1;
   }
-}@keyframes shootingStar10 {
+}
+@keyframes shootingStar8 {
   0% {
     opacity: 0;
   }
 
   80% {
-    top: 80%;
-    left: 3%;
+    top: 95%;
+    left: 70%;
     opacity: 1;
   }
 
   100% {
-    background: rgb(238, 4, 199);
-    top: -3%;
+    top: -5%;
+    left: 90%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar9 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 65%;
     left: 80%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 100%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar10 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 70%;
+    left: -10%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 10%;
     opacity: 1;
   }
 }
@@ -463,10 +434,8 @@ html {
     /* left: 10vw; */
   }
   50% {
-
   }
   100% {
-
     left: 90%;
     /* top: 100%; */
   }
