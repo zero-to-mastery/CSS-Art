@@ -1,0 +1,442 @@
+body,
+html {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+}
+
+#container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+#sky {
+  display: flex;
+  position: fixed;
+  z-index: -300;
+  background-color: rgb(26, 30, 66);
+  background-size: 400% 400%;
+  animation: gradient2 15s ease infinite;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: inherit;
+}
+
+#night {
+  display: flex;
+  position: fixed;
+  z-index: -600;
+  justify-content: center;
+  align-content: center;
+  animation: nightSky 15s ease-in-out infinite;
+  opacity: 0;
+}
+
+#sun {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  z-index: 300;
+  animation: sun 15s ease-in-out infinite;
+  border-radius: 50%;
+  background-image: -webkit-radial-gradient(
+    45px 45px,
+    circle cover,
+    rgb(245, 191, 92),
+    yellow
+  );
+}
+
+#moon {
+  position: absolute;
+  z-index: 200;
+  display: flex;
+  border-radius: 40px;
+  height: 2rem;
+  width: 2rem;
+  background: linear-gradient(white, rgb(0, 0, 0));
+  animation: moon 15s linear infinite;
+  opacity: 0;
+}
+
+#stars1,
+#stars2,
+#stars3,
+#stars4,
+#stars5,
+#stars6,
+#stars7,
+#stars8,
+#stars9,
+#stars10 {
+  display: flex;
+  border-radius: 40px;
+  height: 0.2em;
+  width: 0.2em;
+  opacity: 0;
+  position: absolute;
+  box-shadow: 100px 16px rgb(255, 255, 255);
+  z-index: -1;
+  background: rgb(239, 244, 247);
+}
+
+#stars1 {
+  animation: shootingStar1 15s ease-in-out infinite;
+}
+#stars2 {
+  animation: shootingStar2 15s linear infinite;
+}
+#stars3 {
+  animation: shootingStar3 15s ease infinite;
+}
+#stars4 {
+  animation: shootingStar4 15s ease-out infinite;
+}
+#stars5 {
+  animation: shootingStar5 15s ease-in infinite;
+}
+#stars6 {
+  animation: shootingStar6 15s ease-in-out infinite;
+}
+#stars7 {
+  animation: shootingStar7 15s linear infinite;
+}
+#stars8 {
+  animation: shootingStar8 15s ease infinite;
+}
+#stars9 {
+  animation: shootingStar9 15s ease-out infinite;
+}
+#stars10 {
+  animation: shootingStar10 15s ease-in infinite;
+}
+
+#water {
+  display: flex;
+  background: linear-gradient(
+    -45deg,
+    rgb(21, 46, 92),
+    #125892,
+    rgb(150, 207, 240),
+    #1a80d3,
+    rgb(21, 46, 92)
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease-in-out infinite;
+  width: 100vw;
+  height: 60vh;
+  position: inherit;
+  z-index: 300;
+}
+
+#boat {
+  width: 5vw;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  animation: boat 15s alternate-reverse infinite;
+}
+
+#beach {
+  display: flex;
+  width: 100vw;
+  height: 5vh;
+  position: inherit;
+  background: linear-gradient(-45deg, #e0be74, rgb(85, 85, 81));
+  background-size: 400% 400%;
+  animation: gradient 15s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient2 {
+  5% {
+    background: rgb(26, 30, 66);
+  }
+  25% {
+    background: skyblue;
+  }
+  50% {
+    background: deepskyblue;
+  }
+  80% {
+    background: rgb(102, 123, 216);
+  }
+  100% {
+    background: rgb(26, 30, 66);
+  }
+}
+@keyframes sun {
+  0% {
+    top: 100%;
+    left: 0%;
+  }
+  50% {
+    top: 25%;
+    left: 50%;
+  }
+  100% {
+    top: 100%;
+    left: 90%;
+  }
+}
+@keyframes moon {
+  0% {
+    opacity: 0.3;
+    top: 11%;
+    left: 79%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+  }
+  25% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+    top: 17%;
+    left: 73%;
+  }
+  90% {
+    opacity: 0, 7;
+    top: 15%;
+    left: 75%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+  }
+  95% {
+    opacity: 0.8;
+    top: 13%;
+    left: 77%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+  }
+  100% {
+    opacity: 1;
+    top: 11%;
+    left: 79%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+  }
+}
+@keyframes nightSky {
+  0% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0.3;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes shootingStar1 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 100%;
+    left: 0%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 20%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar2 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 80%;
+    left: 10%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 30%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar3 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 70%;
+    left: 20%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 40%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar4 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 65%;
+    left: 30%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 50%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar5 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 75%;
+    left: 40%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 60%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar6 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 90%;
+    left: 50%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 70%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar7 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 85%;
+    left: 60%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 80%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar8 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 95%;
+    left: 70%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 90%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar9 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 65%;
+    left: 80%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 100%;
+    opacity: 1;
+  }
+}
+@keyframes shootingStar10 {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    top: 70%;
+    left: -10%;
+    opacity: 1;
+  }
+
+  100% {
+    top: -5%;
+    left: 10%;
+    opacity: 1;
+  }
+}
+@keyframes boat {
+  0% {
+    /* left: 10vw; */
+  }
+  50% {
+  }
+  100% {
+    left: 90%;
+    /* top: 100%; */
+  }
+}
