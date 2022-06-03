@@ -2961,6 +2961,14 @@ let cards = [
     imageLink: './Art/bryanrillstone/fire-flower.png',
     author: 'Bryan Rillstone',
     githubLink: 'https://github.com/bryanrillstone'
+  },
+
+  {
+    artName: 'Beach view',
+    pageLink: './Art/Tellula/index.html',
+    imageLink: './Art/Tellula/tellula.gif',
+    author: 'Tellula',
+    githubLink: 'https://github.com/tellula'
   }
 ];
 
