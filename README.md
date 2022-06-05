@@ -1,11 +1,10 @@
 > ### **UPDATE:** Event Concluded!
-  >
-  > **This project started as a project for Hacktoberfest 2019, Thank you to everyone that participated and made this project what it is today and we look forward to seeing you all at Hacktoberfest 2020!.
-  > Feel free to continue adding your designs, you can check out the [Hactoberfest-Edition](https://github.com/zero-to-mastery/CSS-Art-Hacktoberfest-Edition) to see the project as it was at the end of the event.**
-  >
-  > **Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/community/events)**
-  > Hacktoberfest 2021 Projects can be found [here](https://github.com/zero-to-mastery?q=hacktoberfest2021&type=&language=&sort=)
 >
+> **This project started as a project for Hacktoberfest 2019, Thank you to everyone that participated and made this project what it is today and we look forward to seeing you all at Hacktoberfest 2020!.
+> Feel free to continue adding your designs, you can check out the [Hactoberfest-Edition](https://github.com/zero-to-mastery/CSS-Art-Hacktoberfest-Edition) to see the project as it was at the end of the event.**
+>
+> **Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/community/events)**
+> Hacktoberfest 2021 Projects can be found [here](https://github.com/zero-to-mastery?q=hacktoberfest2021&type=&language=&sort=)
 
 # CSS ART - General Edition
 
