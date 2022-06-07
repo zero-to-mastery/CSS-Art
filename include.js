@@ -2969,6 +2969,14 @@ let cards = [
     imageLink: './Art/Tellula/tellula.gif',
     author: 'Tellula',
     githubLink: 'https://github.com/tellula'
+  },
+ 
+  {
+    artName: 'Bouncing & Bubbling',
+    pageLink: './Art/Bouncing&Bubbling/index.html',
+    imageLink: './Art/Bouncing&Bubbling/B&Bscreenshot.png',
+    author: 'Saksham',
+    githubLink: 'https://github.com/sakshamgitrepo'
   }
 ];
 
