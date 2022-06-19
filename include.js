@@ -2969,6 +2969,13 @@ let cards = [
     imageLink: './Art/Tellula/tellula.gif',
     author: 'Tellula',
     githubLink: 'https://github.com/tellula'
+  },
+  {
+    artName: 'finn adventure time',
+    pageLink: './Art/FernandoUnger/index.html',
+    imageLink: './Art/FernandoUnger/finn.gif',
+    author: 'Fernando Unger',
+    githubLink: 'https://github.com/fernandounger'
   }
 ];
 
