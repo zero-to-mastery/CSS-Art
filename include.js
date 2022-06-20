@@ -2971,6 +2971,13 @@ let cards = [
     githubLink: 'https://github.com/tellula'
   },
   {
+    artName: 'Wave Ring',
+    pageLink: './Art/Jinal/Wavering/wavering.html',
+    imageLink: './Art/Jinal/Wavering/wavering.gif',
+    author: 'Jinal Patel',
+    githubLink: 'https://github.com/JinalPatel17'
+  },
+  {
     artName: 'finn adventure time',
     pageLink: './Art/FernandoUnger/index.html',
     imageLink: './Art/FernandoUnger/finn.gif',
