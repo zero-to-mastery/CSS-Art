@@ -2962,7 +2962,6 @@ let cards = [
     author: 'Bryan Rillstone',
     githubLink: 'https://github.com/bryanrillstone'
   },
-
   {
     artName: 'Beach view',
     pageLink: './Art/Tellula/index.html',
