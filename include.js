@@ -2975,6 +2975,13 @@ let cards = [
     imageLink: './Art/Jinal/Wavering/wavering.gif',
     author: 'Jinal Patel',
     githubLink: 'https://github.com/JinalPatel17'
+  },
+  {
+    artName: 'finn adventure time',
+    pageLink: './Art/FernandoUnger/index.html',
+    imageLink: './Art/FernandoUnger/finn.gif',
+    author: 'Fernando Unger',
+    githubLink: 'https://github.com/fernandounger'
   }
 ];
 
