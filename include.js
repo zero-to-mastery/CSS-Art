@@ -2962,7 +2962,6 @@ let cards = [
     author: 'Bryan Rillstone',
     githubLink: 'https://github.com/bryanrillstone'
   },
-
   {
     artName: 'Beach view',
     pageLink: './Art/Tellula/index.html',
@@ -2970,8 +2969,21 @@ let cards = [
     author: 'Tellula',
     githubLink: 'https://github.com/tellula'
   },
- 
   {
+    artName: 'Wave Ring',
+    pageLink: './Art/Jinal/Wavering/wavering.html',
+    imageLink: './Art/Jinal/Wavering/wavering.gif',
+    author: 'Jinal Patel',
+    githubLink: 'https://github.com/JinalPatel17'
+  },
+  {
+    artName: 'finn adventure time',
+    pageLink: './Art/FernandoUnger/index.html',
+    imageLink: './Art/FernandoUnger/finn.gif',
+    author: 'Fernando Unger',
+    githubLink: 'https://github.com/fernandounger'
+  },
+    {
     artName: 'Bouncing & Bubbling',
     pageLink: './Art/Bouncing&Bubbling/index.html',
     imageLink: './Art/Bouncing&Bubbling/B&Bscreenshot.png',
