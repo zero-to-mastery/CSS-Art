@@ -1,62 +1,62 @@
 body {
-    padding: 0;
-    margin: 0;
-    background: #151618;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 0;
+  margin: 0;
+  background: #151618;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .loader {
-    position: relative;
-    display: flex;
+  position: relative;
+  display: flex;
 }
 
 .loader span {
-    width: 10px;
-    height: 80px;
-    margin: 20px;
-    border-radius: 5px;
-    background: #151618;
-    animation: animate 1.4s linear infinite; 
-	box-shadow: 0 0 0 rgba(255,255,255, 1);
+  width: 10px;
+  height: 80px;
+  margin: 20px;
+  border-radius: 5px;
+  background: #151618;
+  animation: animate 1.4s linear infinite;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 1);
 }
 
 .loader span:nth-child(1) {
-    animation-delay: 0s;
+  animation-delay: 0s;
 }
 .loader span:nth-child(2) {
-    animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 .loader span:nth-child(3) {
-    animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 .loader span:nth-child(4) {
-    animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 .loader span:nth-child(5) {
-    animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
 .loader span:nth-child(6) {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
 .loader span:nth-child(7) {
-    animation-delay: 1.2s;
+  animation-delay: 1.2s;
 }
 
 @keyframes animate {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px) scale(1);
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(-50px) scale(1);
+  }
 
-    50% {
-        box-shadow: 0 0 5px rgba(255,255,255,1);
-        opacity: 1;
-    }
+  50% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 1);
+    opacity: 1;
+  }
 
-    100% {
-        opacity: 0;
-    }
+  100% {
+    opacity: 0;
+  }
 }

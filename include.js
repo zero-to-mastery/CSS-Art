@@ -2989,7 +2989,8 @@ let cards = [
     imageLink: './Art/Seth-Addo/loading.gif',
     author: 'Seth Addo',
     githubLink: 'https://github.com/seths10'
-  },{
+  },
+  {
     artName: 'clown__art',
     pageLink: './Art/avi9401/index.html',
     imageLink: './Art/avi9401/ClownARt.gif',
