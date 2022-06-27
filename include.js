@@ -2982,6 +2982,13 @@ let cards = [
     imageLink: './Art/FernandoUnger/finn.gif',
     author: 'Fernando Unger',
     githubLink: 'https://github.com/fernandounger'
+  },
+    {
+    artName: 'Bouncing & Bubbling',
+    pageLink: './Art/Bouncing&Bubbling/index.html',
+    imageLink: './Art/Bouncing&Bubbling/B&Bscreenshot.png',
+    author: 'Saksham',
+    githubLink: 'https://github.com/sakshamgitrepo'
   }
 ];
 
