@@ -2984,10 +2984,10 @@ let cards = [
     githubLink: 'https://github.com/fernandounger'
   },
   {
-    artName: 'Clown Art',
+    artName: 'clown__art',
     pageLink: './Art/avi9401/index.html',
     imageLink: './Art/avi9401/ClownARt.gif',
-    author: 'avi9401',
+    author: 'avi',
     githubLink: 'https://github.com/avi9401'
   }
 ];
