@@ -2984,6 +2984,13 @@ let cards = [
     githubLink: 'https://github.com/fernandounger'
   },
   {
+    artName: 'clown__art',
+    pageLink: './Art/avi9401/index.html',
+    imageLink: './Art/avi9401/ClownARt.gif',
+    author: 'avi',
+    githubLink: 'https://github.com/avi9401'
+  },
+  {
     artName: 'Bouncing & Bubbling',
     pageLink: './Art/Bouncing&Bubbling/index.html',
     imageLink: './Art/Bouncing&Bubbling/B&Bscreenshot.png',
