@@ -2989,6 +2989,13 @@ let cards = [
     imageLink: './Art/avi9401/ClownARt.gif',
     author: 'avi',
     githubLink: 'https://github.com/avi9401'
+  },
+  {
+    artName: 'Bouncing & Bubbling',
+    pageLink: './Art/Bouncing&Bubbling/index.html',
+    imageLink: './Art/Bouncing&Bubbling/B&Bscreenshot.png',
+    author: 'Saksham',
+    githubLink: 'https://github.com/sakshamgitrepo'
   }
 ];
 
