@@ -2982,6 +2982,13 @@ let cards = [
     imageLink: './Art/FernandoUnger/finn.gif',
     author: 'Fernando Unger',
     githubLink: 'https://github.com/fernandounger'
+  },
+  {
+    artName: 'Clown Art',
+    pageLink: './Art/avi9401/index.html',
+    imageLink: './Art/avi9401/ClownARt.gif',
+    author: 'avi9401',
+    githubLink: 'https://github.com/avi9401'
   }
 ];
 
