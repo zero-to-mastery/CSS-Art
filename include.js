@@ -2984,6 +2984,13 @@ let cards = [
     githubLink: 'https://github.com/fernandounger'
   },
   {
+    artName: 'Bar loader',
+    pageLink: './Art/Seth-Addo/index.html',
+    imageLink: './Art/Seth-Addo/loading.gif',
+    author: 'Seth Addo',
+    githubLink: 'https://github.com/seths10'
+  },
+  {
     artName: 'Bouncing & Bubbling',
     pageLink: './Art/Bouncing&Bubbling/index.html',
     imageLink: './Art/Bouncing&Bubbling/B&Bscreenshot.png',
