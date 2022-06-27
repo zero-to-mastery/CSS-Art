@@ -85,65 +85,61 @@
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  animation: boxes  ease-in-out infinite;
+  animation: boxes ease-in-out infinite;
   box-shadow: 2px 2px 4px rgb(49, 47, 47);
   position: relative;
-
 }
-.line{
-    height: 3px;
-    width: 40%;
-    background-color: rgb(189, 181, 181);
-    box-shadow: 2px 2px 4px rgb(49, 47, 47);
-    border-radius: 2rem;
-    position: absolute;
-    top: 55%;
+.line {
+  height: 3px;
+  width: 40%;
+  background-color: rgb(189, 181, 181);
+  box-shadow: 2px 2px 4px rgb(49, 47, 47);
+  border-radius: 2rem;
+  position: absolute;
+  top: 55%;
 }
 .container_circle .circle:nth-of-type(1) {
   animation-duration: 1s;
   background-color: rgba(26, 188, 156);
-  
 }
 .container_circle .circle:nth-of-type(2) {
-  animation-duration: 1.3s ;
-  background-color: rgba(225, 112, 85,1.0);
+  animation-duration: 1.3s;
+  background-color: rgba(225, 112, 85, 1);
 }
 .container_circle .circle:nth-of-type(3) {
   animation-duration: 1.8s;
-  background-color: rgba(250, 177, 160,1.0);
+  background-color: rgba(250, 177, 160, 1);
 }
-.container_circle .circle:nth-of-type(4){
-    animation-duration: .9s;
-    background-color: rgba(99, 110, 114,1.0);
+.container_circle .circle:nth-of-type(4) {
+  animation-duration: 0.9s;
+  background-color: rgba(99, 110, 114, 1);
 }
 
 @keyframes boxes {
- 0% {
-     transform: translateY(0px);
- }
- 50%{
-    transform: translateY(-45vh)  ;
- }
- 100%{
-    transform: translateY(0px)
- }
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-45vh);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
-@media all and (max-width: 900px){
-    .container_circle {
-        width: 70%;
-    }
-    .line{
-        width: 70%;
-    }
-    
-    
+@media all and (max-width: 900px) {
+  .container_circle {
+    width: 70%;
+  }
+  .line {
+    width: 70%;
+  }
 }
-@media all and (max-width: 500px){
-    .container_circle {
-        width: 100%;
-    }
-    .line{
-        width: 90%;
-    }
+@media all and (max-width: 500px) {
+  .container_circle {
+    width: 100%;
+  }
+  .line {
+    width: 90%;
+  }
 }

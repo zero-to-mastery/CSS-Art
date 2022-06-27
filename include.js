@@ -2983,7 +2983,7 @@ let cards = [
     author: 'Fernando Unger',
     githubLink: 'https://github.com/fernandounger'
   },
-    {
+  {
     artName: 'Bouncing & Bubbling',
     pageLink: './Art/Bouncing&Bubbling/index.html',
     imageLink: './Art/Bouncing&Bubbling/B&Bscreenshot.png',
