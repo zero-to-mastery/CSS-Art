@@ -1,0 +1,71 @@
+:root {
+    --violet: #9400D3;
+    --indigo: #4B0082;
+    --blue: #0000FF;
+    --green: #00FF00;
+    --yellow: #FFFF00;
+    --orange: #FF7F00;
+    --red: #FF0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.violet {
+    background-color: var(--violet);
+}
+
+.indigo {
+    background-color: var(--indigo);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.color {
+    width: 0%;
+    height: 14.27%;
+    animation: width-to-right 1s linear forwards infinite alternate;
+}
+
+.animation {
+    width: 600px;
+    height: 500px;
+    background-color: #D5C3AA;
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes width-to-right {
+    0% {
+        opacity: 0;
+        width: 0%;
+    }
+    90% {
+        opacity: 1;
+        width: 100%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
