@@ -3003,6 +3003,13 @@ let cards = [
     imageLink: './Art/Bouncing&Bubbling/B&Bscreenshot.png',
     author: 'Saksham',
     githubLink: 'https://github.com/sakshamgitrepo'
+  },
+  {
+    artName: 'Rainbow animation',
+    pageLink: './Art/Carlos/index.html',
+    imageLink: './Art/Carlos/Rainbow.gif',
+    author: 'Carlos',
+    githubLink: 'https://github.com/Carlos-Mantovani'
   }
 ];
 
