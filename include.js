@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Brazil Flag',
+    pageLink: './Art/samluiz/index.html',
+    imageLink: './Art/samluiz/brazilFlag.gif',
+    author: 'Samuel Luiz',
+    githubLink: 'https://github.com/samluiz'
+  },
+  {
     artName: 'Chihuahua',
     pageLink: './Art/virag-ky/index.html',
     imageLink: './Art/virag-ky/chihuahua.png',
