@@ -3010,6 +3010,13 @@ let cards = [
     imageLink: './Art/Carlos/Rainbow.gif',
     author: 'Carlos',
     githubLink: 'https://github.com/Carlos-Mantovani'
+  },
+  {
+    artName: 'Brazil Flag',
+    pageLink: './Art/samluiz/index.html',
+    imageLink: './Art/samluiz/brazilFlag.gif',
+    author: 'Samuel Luiz',
+    githubLink: 'https://github.com/samluiz'
   }
 ];
 
