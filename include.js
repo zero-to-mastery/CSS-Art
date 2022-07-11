@@ -3018,6 +3018,14 @@ let cards = [
     author: 'Samuel Luiz',
     githubLink: 'https://github.com/samluiz'
   }
+  {
+    artName: 'Emojimation',
+    pageLink: './Art/Emojimation/index.html',
+    imageLink: './Art/Emojimation/Emoji.gif',
+    author: 'Karen Ruiz',
+    githubLink: 'https://github.com/kareninarg'
+  }
+
 ];
 
 // +--------------------------------------------------------------------------------+
