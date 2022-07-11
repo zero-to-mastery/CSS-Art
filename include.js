@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: '0Github-login',
+    pageLink: './Art/0Github-login/index.html',
+    imageLink: './Art/0Github-login/preview.png',
+    author: 'Deepak',
+    githubLink: 'https://github.com/deepakydv9315'
+  },
+  {
     artName: 'Chihuahua',
     pageLink: './Art/virag-ky/index.html',
     imageLink: './Art/virag-ky/chihuahua.png',
