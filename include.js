@@ -3017,7 +3017,7 @@ let cards = [
     imageLink: './Art/samluiz/brazilFlag.gif',
     author: 'Samuel Luiz',
     githubLink: 'https://github.com/samluiz'
-  }
+  },
   {
     artName: 'Emojimation',
     pageLink: './Art/Emojimation/index.html',
