@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Loader Animation',
+    pageLink: './Art/tarunmankar/index.html',
+    imageLink: './Art/tarunmankar/LoaderAnimation.gif',
+    author: 'Tarun Mankar',
+    githubLink: 'https://github.com/tarunmankar'
+  },
+  {
     artName: 'Chihuahua',
     pageLink: './Art/virag-ky/index.html',
     imageLink: './Art/virag-ky/chihuahua.png',
