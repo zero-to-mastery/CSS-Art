@@ -1,0 +1,743 @@
+.kamado {
+  --s:#f8d7b6;
+  width: min(100vmin,445px);
+  aspect-ratio:1;
+  margin:auto auto 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+.kamado:after {
+    content: "";
+    position: absolute;
+    width: 2.4%;
+    height: 4%;
+    background: #d29785;
+    left: 47.6%;
+    top: 69%;
+    border-radius: 75% 25% 34% 66% / 60% 19% 81% 40%;
+    clip-path: polygon(0% 50%,65% 0,100% 0,100% 100%,0 100%);
+}
+.kamado:before {
+    content: "";
+    position: absolute;
+    right: 22%;
+    top: 37%;
+    width: 28%;
+    height: 12%;
+    background:
+      linear-gradient(#6e293c 0 0) 100% 42%/16% 9%,
+      radial-gradient(102% 102% at 0 100%,#0000 97%,#6e293c) 100% 59%/27% 23%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 39% 74%/13% 19%,
+      linear-gradient(to bottom right,#0000 30%,var(--s) 34% 65%,#0000 70%)71% 79%/57% 35%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 44% 74%/14% 64%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 59% 67%/11% 29%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 78% 54%/18% 26%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 27% 100%/10% 33%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 40% 40%/16% 42%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    transform: skewX(-42deg);
+}
+.face {
+    position: absolute;
+    inset: 28% 22% 47% 23.5%;
+    background:
+      linear-gradient(var(--s) 0 0) 63% 80%/10% 10%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 50% 77%/8% 34%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 84% 20%/10% 12%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 78% 11%/8% 10%,
+      linear-gradient(to bottom right,var(--s) 48%,#0000 52%) 58% 43%/8% 9%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 62% 3%/7% 8%,
+      linear-gradient(to bottom right,var(--s) 48%,#0000 52%) 57% 39%/7% 32%,
+      linear-gradient(to bottom right,var(--s) 49%,#0000 51%) 61% 0%/10% 32%,
+      radial-gradient(farthest-side,var(--s) 96%,#0000) 60% 26%/7% 20%,
+      conic-gradient(from 9deg at 51% 82%,#6e293c 66deg,#0000 0),var(--s);
+    background-repeat:no-repeat;
+    border-radius: 40% 40% 0 0/89% 84% 0 0;
+    filter: drop-shadow(0 0 1px #20101b) drop-shadow(0 0 0px #20101b) drop-shadow(0 0 0px #20101b)
+}
+.face div {
+    position: absolute;
+    inset: 98% 0 -157%;
+    background:
+      linear-gradient(#422102 0 0) 49% 46%/1px 5%,
+      linear-gradient(#422102 0 0) 52% 46%/1px 6%,
+      linear-gradient(#422102 0 0) 51% 47%/1px 6%,
+      var(--s);
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0,100% 0,50% 100%);
+}
+.face div:before {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 3%;
+    left: 45%;
+    bottom: 43%;
+    border-top: 1px solid #422102;
+    border-radius: 100% 100% 0 0;
+    transform: rotate(29deg);
+    clip-path: inset(0 0 0 15%);
+}
+.face div:after {
+    content: "";
+    position: absolute;
+    width: 3%;
+    height: 2%;
+    right: 45%;
+    bottom: 44%;
+    border-top: 1px solid #422102;
+    border-radius: 100% 100% 0 0;
+    transform: rotate(-13deg);
+}
+.face:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--s);
+    height: 135%;
+    width: 37%;
+    border-bottom-right-radius: 72% 59%;
+    border-bottom-left-radius: 1%;
+    transform-origin: top right;
+    transform: skewX(-10deg) skewY(-20deg);
+}
+.face:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--s);
+    height: 135%;
+    width: 38%;
+    border-bottom-left-radius: 72% 59%;
+    border-bottom-right-radius: 5%;
+    transform-origin: top left;
+    transform: skewX(10deg) skewY(20deg);
+}
+.eye-r {
+    position: absolute;
+    right: 27.5%;
+    top: 54%;
+    width: 15.5%;
+    height: 16%;
+    background:
+      linear-gradient(to bottom left,#0000 42%,#20101b 46%) 66% 102%/86% 13%,
+      linear-gradient(to bottom right,#0000 42%,#20101b 46%) 88% 104%/39% 20%,
+      radial-gradient(69% 92% at 51% 100%,#0000 98%,#20131d),
+      radial-gradient(64% 81% at 47% 100%,#0000 98%,#cec5ca),
+      #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index:3;
+    clip-path: polygon(0 0,100% 0,100% 104%,0 86%);
+}
+@supports (-moz-appearance:none) {
+  .eye-r {
+    clip-path: polygon(0 0,100% 0,100% 104%,0 87%);
+  }
+}
+.eye-r:before {
+    content: "";
+    position: absolute;
+    background: radial-gradient(83% 96% at 50% 0,#0000 66%,#710c44 91%),#2f0e21;
+    border-radius: 50%;
+    inset: 20% 22% 15% 14%;
+}
+.eye-r::after {
+    content: "";
+    position: absolute;
+    aspect-ratio: 1;
+    width: 13%;
+    background: #fff;
+    top: 45%;
+    left: 39%;
+    transform: rotate(45deg);
+    border-radius: 37%;
+}
+.eye-l {
+    position: absolute;
+    left: 29%;
+    top: 54.5%;
+    width: 15.5%;
+    height: 16%;
+    background:
+      linear-gradient(to bottom left,#0000 42%,#20101b 46%) 18% 100%/35% 15%,
+      linear-gradient(to bottom right,#0000 42%,#20101b 46%) 75% 101%/65% 13%,
+      radial-gradient(70% 92% at 51% 100%,#0000 98%,#20131d),
+      radial-gradient(64% 82% at 54% 100%,#0000 98%,#cec5ca),#ffffff;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index:3;
+    clip-path: polygon(0 0,100% 0,100% 85%,0 109%);
+}
+.eye-l:before {
+    content: "";
+    position: absolute;
+    background: radial-gradient(83% 96% at 50% 0,#0000 66%,#710c44 91%),#2f0e21;
+    border-radius: 50%;
+    inset: 22% 15% 17% 24%;
+}
+.eye-l:after {
+    content: "";
+    position: absolute;
+    aspect-ratio: 1;
+    width: 13%;
+    background: #fff;
+    top: 45%;
+    right: 39%;
+    transform: rotate(45deg);
+    border-radius: 37%;
+}
+.mouth {
+    position: absolute;
+    bottom: 13%;
+    left: 43%;
+    width: 14%;
+    height: 6%;
+    border-radius: 56% 50% 0 0;
+    border: 4px solid #422102;
+    border-top-width: 1px;
+    clip-path: inset(0 12% 18%);
+}
+.mouth:before {
+    content: "";
+    position: absolute;
+    background: conic-gradient(from -57deg at 50% 111%,#d49d89 110deg,#0000 0);
+    inset: 42% 34% 13% 38%;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 0px #422102) drop-shadow(0 0 0px #422102) drop-shadow(0 0 0px #422102) drop-shadow(0 0 0px #422102);
+}
+.u-eye-l:before {
+    content: "";
+    position: absolute;
+    top: 49%;
+    right: 35%;
+    height: 10%;
+    width: 10%;
+    background: #d5a193;
+    border-radius: 91% 0 0 0;
+    clip-path: polygon(0% 45%,113% -8%,86% 31%,59% 40%,0 100%);
+}
+.u-eye-l:after {
+    content: "";
+    position: absolute;
+    background:
+      radial-gradient(65% 78% at 50% 100%,#0000 92%,#20101b) 98% -12%/34% 45%,
+      linear-gradient(to top left,#0000 49%,#20101b 50%)0% 0%/76% 120%;
+    background-repeat: no-repeat;
+    border-top-right-radius: 20% 25%;
+    right: 23%;
+    top: 46%;
+    height: 7.5%;
+    width: 22%;
+    clip-path: polygon(71% 0,100% 0,100% 100%,0% 100%,8% 89%);
+}
+.u-eye-r:before {
+    content: "";
+    position: absolute;
+    background: #d39b8c;
+    left: 37%;
+    top: 51%;
+    width: 11%;
+    height: 11%;
+    border-top-right-radius: 100%;
+    clip-path: polygon(0 0,100% 0,100% 100%,37% 41%,23% 28%);
+}
+.u-eye-r:after {
+    content: "";
+    position: absolute;
+    background:
+      radial-gradient(65% 78% at 50% 100%,#0000 92%,#20101b) 0% 0%/34% 45%,
+      linear-gradient(to top right,#0000 49%,#20101b 50%) 0% 90%/94% 121%;
+    background-repeat: no-repeat;
+    left: 26.5%;
+    top: 47%;
+    width: 20%;
+    height: 8%;
+    border-top-left-radius: 30% 25%;
+    clip-path: polygon(0 0,23% 0,89% 78%,100% 100%,0 100%);
+}
+
+.ear-r {
+    position: absolute;
+    width: 9%;
+    height: 16%;
+    background: #f8d7b6;
+    right: 17%;
+    bottom: 23%;
+    border-radius: 0 43% 47% 50%/0 23% 45% 95%;
+    transform-origin: top;
+    transform: skewX(-18deg);
+    border: 1px solid #20101b;
+    overflow: hidden;
+}
+.ear-r:before {
+    content: "";
+    position: absolute;
+    inset: 14% 19% 19% 37%;
+    background: radial-gradient(86% 59% at 101% 100%,var(--s) 89%,#20101b 91% 94%,#0000),#d19d92;
+    box-shadow: -2px 2px 0 0 inset #20101b;
+    border-radius: 0 32% 0 0;
+    transform-origin: left;
+    transform: skewY(40deg);
+    clip-path: polygon(0 0,100% 0,100% 42%,0 100%);
+}
+.earing-r:before,
+.earing-l:before{
+    content: "";
+    position: absolute;
+    right: 22%;
+    bottom: 6%;
+    width: 6%;
+    height: 15.5%;
+    background:
+      radial-gradient(farthest-side,#66263e 98%,#0000) 50% 6%/27% 17%,
+      linear-gradient(#332e35 0 0) top/100% 6%,
+      linear-gradient(#332e35 0 0) bottom/100% 6%,
+      radial-gradient(75% 39% at bottom,#d0d5d8 95%,#20101b 97% 99%,#0000) ,
+      linear-gradient(to top left,#0000 46%,#20101b 48% 50%,#0000 54%) 0 0/54% 80%,
+      linear-gradient(to top right,#0000 46%,#20101b 48% 50%,#0000 54%) 100% 0/54% 80%,
+      linear-gradient(to top right,#0000 46%,#20101b 48% 50%,#0000 54%) 100% 0/74% 33%,
+      linear-gradient(to top left,#0000 46%,#20101b 48% 50%,#0000 54%) 0 0/74% 33%,
+      linear-gradient(#20101b 0 0) 50%/4% 100%,
+      linear-gradient(#20101b 0 0) 0% 14%/100% 2% #fff;
+    background-repeat: no-repeat;
+    transform: rotateY(48deg) skewY(-21deg);
+    box-sizing: border-box;
+    border: 1px solid #20101b;
+    border-radius: 2px;
+    z-index:-1;
+}
+.earing-l:before {
+    left: 24%;
+    right:auto;
+    transform: rotateY(-53deg) skewY(21deg);
+}
+.earing-r:after,
+.earing-l:after{
+    content: "";
+    position: absolute;
+    right: 24%;
+    bottom: 21%;
+    width: 2.5%;
+    height: 5.5%;
+    background:
+      radial-gradient(farthest-side,#40303a 95%,#0000) top/73% 34%,
+      linear-gradient(#20101b 0 0) 50%/15% 100%;
+    background-repeat: no-repeat;
+}
+
+.earing-l:after {
+    left: 25.5%;
+    right:auto;
+}
+
+.ear-l {
+    position: absolute;
+    width: 10%;
+    height: 16%;
+    background: radial-gradient(55% 41% at bottom,var(--s) 95%,#d19d88 );
+    left: 18%;
+    bottom: 23%;
+    border-radius: 31% 0 0 63%/51% 0 0 70%;
+    transform-origin: top;
+    transform: skewX(16deg);
+    border: 1px solid #20101b;
+}
+.ear-l:before {
+    content: "";
+    position: absolute;
+    inset: 35% 0% 8% 30%;
+    background: radial-gradient(34% 45% at 19% 105%,var(--s) 87%,#20101b 91% 98%,#0000),      #d19d92;
+    box-shadow: 2px 0px 0 inset #20101b;
+    border-radius: 34% 0 0 66%/51% 0 0 71%;
+    clip-path: polygon(0 0,100% 0,100% 101%, 0% 64%);
+}
+
+.neck {
+    content: "";
+    position: absolute;
+    inset: 86% 26.5% 0% 30%;
+    background:
+      linear-gradient(to bottom left,#0000 48%,#20101b 53%) -3% 0/9% 132%,
+      linear-gradient(to bottom right,#0000 48%,#20101b 53%) 102% 100%/6% 86%,
+      linear-gradient(to bottom left,#0000 49%,#eef8ed 50%) 0% 100%/18% 66%,
+      linear-gradient(to bottom right,#0000 49%,#eef8ed 50%) 100% 100%/18% 66%,#bcd3c1;
+    background-repeat: no-repeat;
+    border-radius: 27% 38% 0 0/27% 31% 0 0;
+    clip-path: polygon(-3% 0,103% 0,96% 100%,4% 100%);
+    border: 2px solid #20101b;
+    border-bottom: 0;
+}
+.neck:before {
+    content: "";
+    position: absolute;
+    inset: 0 18% -9% 14%;
+    background:
+      linear-gradient(#1d0f1c 0 0)50%/10% 100%,
+      linear-gradient(to bottom left,#1d0f1c 49%,#0000 51%) -3% 0%/50% 75%,
+      linear-gradient(to bottom right,#1d0f1c 49%,#0000 51%) 101% 0%/50% 79% #d69c84;
+    background-repeat: no-repeat;
+    border-right: 1px solid #20101b;
+    border-left: 1px solid #20101b;
+    transform: perspective(100px) rotateX(-5deg);
+}
+.neck:after {
+    content: "";
+    position: absolute;
+    inset: 28% 4% 0 4%;
+    background:
+      linear-gradient(#20101b 0 0) 60% 100%/1px 43%,
+      linear-gradient(#20101b 0 0) 36% 100%/1px 45%,
+      linear-gradient(to bottom left,#0000 49%,#eef8ed 50%) 0% 100%/17% 70%,
+      linear-gradient(to bottom right,#0000 49%,#eef8ed 50%) 100% 100%/20% 70%,
+      radial-gradient(50% 57% at top,#0000 98%,#bcd3bf);
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px -1px 0px #20101b);
+}
+.b-neck {
+    position: absolute;
+    inset: 94% 20% -17% 23%;
+    border-radius: 37% 37% 0 0;
+    background: #eef8ed;
+    border: 2px solid #20101b;
+}
+.b-hair {
+    position: absolute;
+    inset: 29% 22% 52% 23.5%;
+    border-radius: 51% 49% 0 0/100% 100% 0 0;
+    box-shadow: 0 0 0 30vmin #221823;
+    clip-path: inset(-7% -3% 0 -3%);
+    z-index: 3
+}
+.hair {
+    --h: #87375a;
+    --t: #221823;
+    position: absolute;
+    inset: 0 3% 26% 5%;
+    background:
+      radial-gradient(50% 76% at 50% 0,var(--h) 96%,#0000) 9% 91.5%/8% 2%,
+      radial-gradient(100% 100% at 0 0,var(--h) 98%,#0000) 15.5% 89%/8% 11%,
+      radial-gradient(104% 104% at 0 0,#0000 98%,var(--h))8% 89%/7% 9%,
+      linear-gradient(var(--h) 0 0)8% 80%/3% 7%,
+      radial-gradient(100% 93% at 100% 100%,var(--h) 96%,#0000) 8% 72%/4% 12%,
+      radial-gradient(100% 108% at 0% 0,#0000 96%,var(--h)) 3% 80%/5% 7%,
+      radial-gradient(47% 75% at 50% 0,var(--h) 96%,#0000) 5% 85%/17% 5%,
+      linear-gradient(var(--h) 0 0) 18% 50%/10% 10%,
+      linear-gradient(var(--h) 0 0) 21% 37%/10% 10%,
+      linear-gradient(var(--h) 0 0) 26% 27%/10% 18%,
+      linear-gradient(var(--h) 0 0) 13% 75%/18% 30%,
+      radial-gradient(146% 82% at 144% 0,var(--h) 96%,#0000)1% 62%/10% 9%,
+      radial-gradient(91% 93% at 17% 0,#0000 96%,var(--h))1% 53%/10% 8%,
+      linear-gradient(111deg,#0000 49%,var(--h) 52%) 7% 49%/10% 7%,
+      radial-gradient(52% 100% at 50% 100%,var(--h) 94%,#0000) 14% 43%/10% 7%,
+      linear-gradient(96deg,#0000 49%,var(--h) 52%) 12% 35%/10% 9%,
+      radial-gradient(56% 100% at 50% 100%,var(--h) 94%,#0000) 18% 30%/10% 7%,
+      radial-gradient(100% 62% at 100% 35%,var(--h) 94%,#0000) 21% 25%/5% 9%,
+      linear-gradient(118deg,#0000 51%,var(--h) 53%) 18% 17%/12% 8%,
+      radial-gradient(108% 86% at 100% 100%,var(--h) 95%,#0000) 25% 12%/3.5% 6%,
+      linear-gradient(168deg,#0000 47%,var(--h) 51%) 29% 7%/8% 10%,
+      conic-gradient(from -145deg at 100% 0,#0000 ,var(--h) 2deg 30deg,#0000 32deg) 99% 41%/3% 3%,
+      conic-gradient(from -145deg at 100% 0,#0000 ,var(--h) 2deg 30deg,#0000 31deg) 70% 9%/3% 3%,
+      radial-gradient(52% 75% at 65% 100%,var(--h) 91%,#0000)47% 6%/12% 5%,
+      linear-gradient(var(--h) 0 0) 46% 12%/26% 12%,
+      radial-gradient(75% 84% at 66% 0%,#0000 94%,var(--h))63% 6%/16% 6%,
+      radial-gradient(98% 111% at 0% -17%,var(--h) 97%,#0000)66% 12%/10% 6%,
+      linear-gradient(var(--h) 0 0) 39% 20%/35% 20%,
+      radial-gradient(84% 52% at 0 50%,var(--h) 96%,#0000)44% 1%/2% 11%,
+      radial-gradient(106% 112% at 0 0,#0000 98%,var(--h))31% -5%/18% 15%,
+      conic-gradient(from -52deg at bottom,#0000,var(--h) 1deg 26deg,#0000 27deg) 95% 100%/23% 15%,
+      linear-gradient(var(--h) 0 0) 86% 88%/11% 9%,
+      radial-gradient(50% 100% at 50% -35%,var(--h) 96%,#0000) 91% 93.5%/12% 5%,
+      radial-gradient(100% 106% at 100% 0%,#0000 98%,var(--h)) 93% 88%/6% 9%,
+      linear-gradient(var(--h) 0 0) 92% 80%/5% 2%,
+      radial-gradient(50% 100% at 50% -35%,var(--h) 96%,#0000) 95% 84.5%/10% 5%,
+      linear-gradient(to bottom left,#0000 47%,var(--h) 50%) 95% 80%/3% 2%,
+      linear-gradient(to bottom left,#0000 47%,var(--h) 50%) 92% 75%/5% 15%,
+      radial-gradient(112% 123% at -13% -32%,var(--h) 98%,#0000) 101% 65%/14% 10.5%,
+      radial-gradient(82% 99% at 85% 0%,#0000 98%,var(--h)) 100% 54%/13% 9.5%,
+      radial-gradient(123% 130% at -18% -27%,var(--h) 98%,#0000) 97% 46%/13% 8%,
+      radial-gradient(80% 94% at 75% 0%,#0000 98%,var(--h)) 97% 32%/15% 16%,
+      radial-gradient(50% 100% at 50% 100%,var(--h) 98%,#0000) 69% 20%/46% 20%,
+      linear-gradient(var(--h) 0 0) 85% 71%/18% 40%,
+      linear-gradient(var(--h) 0 0) 52% 39%/64% 9%;
+    background-repeat: no-repeat;
+  filter: drop-shadow(0px 0px 1px #20101b) drop-shadow(0px 0px 0px #20101b) drop-shadow(0px 0px 0px #20101b) drop-shadow(0px 0px 0px #20101b);
+}
+@supports (-moz-appearance:none) {
+  .hair {
+    filter: drop-shadow(0px 0px 1px #20101b) drop-shadow(0px 0px 1px #20101b) drop-shadow(0px 0px 1px #20101b) drop-shadow(0px 0px 0px #20101b);
+  }
+}
+.hair:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      conic-gradient(from 79deg at 0% 50%,#0000,var(--h)1deg 6deg,#0000 8deg) 63% 25%/11% 5%,
+      radial-gradient(50% 83% at 50% 100%,var(--t) 94%,#0000) 58% 22%/21% 3%,
+      conic-gradient(from -105deg at 100% 50%,#0000 ,var(--t) 1deg 18deg,#0000 20deg) 54% 6%/12% 14%,
+      conic-gradient(from 21deg at 0 100%,#0000 ,var(--t) 1deg 23deg,#0000 24deg) 19% 98%/9% 14%,
+      conic-gradient(from 10deg at 0 100%,#0000 ,var(--t) 1deg 23deg,#0000 24deg) 10% 71%/10% 11%,
+      radial-gradient(81% 102% at 0% 0%,#0000 96%,var(--t))7% 76%/7% 17%,
+      radial-gradient(100% 94% at 100% 0%,var(--t) 94%,#0000 )7% 84%/6% 5%,
+      radial-gradient(48% 47% at 50% 0%,var(--t) 94%,#0000 )12.5% 90.8%/5% 2%,
+      radial-gradient(66% 83% at 0% 0%,var(--t) 97%,#0000 )19% 92%/12% 30%,
+      radial-gradient(66% 83% at 0% 14%,var(--t) 97%,#0000 )13% 84%/4% 6%,
+      radial-gradient(82% 100% at 0% 0%,#0000 97%,var(--t) )13% 86%/5% 21%,
+      radial-gradient(61% 90% at 100% 100%,var(--t) 95%,#0000)15% 65%/4% 27%,
+      linear-gradient(89deg,var(--t) 44%,#0000 49%) 13% 72%/6% 26%,
+      conic-gradient(from 90deg at 0 0,var(--t) 33deg,#0000 34deg) 5% 65%/9% 10%,
+      radial-gradient(85% 98% at 100% 100%,#0000 98%,var(--t)) 15% 56%/10% 10%,
+      radial-gradient(96% 101% at 0 0,#0000 98%,var(--t)) 5% 55%/9% 9%,
+      linear-gradient(102deg,#0000 44%,var(--t) 46%) 10% 47%/10% 7%,
+      linear-gradient(to bottom right,#0000 46%,var(--t) 49%) 15% 41%/5% 5%,
+      radial-gradient(100% 49% at 100% 9%,var(--t) 98%,#0000) 23% 31%/5% 14%,
+      linear-gradient(to bottom right,#0000 45%,var(--t) 47%)23% 17%/5% 12%,
+      linear-gradient(var(--t) 0 0) 29% 35%/12% 4%,
+      radial-gradient(54% 44%at 50% 111%,var(--t) 96%,#0000) 29% 9%/10% 7%,
+      linear-gradient(to top right,#0000 39%,var(--h) 40% 65%,#0000 0) 75% 22%/20% 13%,
+      conic-gradient(from 71deg at 0 50%,#0000, var(--h)1deg 27deg,#0000 30deg) 60% 15%/11% 20%,
+      radial-gradient(50% 100% at 51% 100%,var(--t) 97%,#0000) 60% 22%/40% 20%,
+      linear-gradient(-144deg,#0000 49%,var(--t)51% ) 81% 29%/21% 13%,
+      linear-gradient(65deg,#0000 36%,var(--t)38% 49%,#0000 50%) 96% 45%/25% 16%,
+      radial-gradient(125% 120% at -25% -22%,var(--t) 98%,#0000) 94% 64%/8% 9%,
+      radial-gradient(101% 103% at 101% 0%,#0000 96%,var(--t)) 94.5% 56%/8% 6%,
+      radial-gradient(72% 70% at 0% 50%,#0000 96%,var(--t)) 86.5% 70%/6% 24%,
+      linear-gradient(74deg,#0000 46%,var(--t) 50%) 87% 80%/6% 4%,
+      radial-gradient(83% 100% at 100% 0,#0000 96%,var(--t)) 91% 77%/5% 16%,
+      linear-gradient(var(--t) 0 0) 80% 80%/8% 20%,
+      linear-gradient(74deg,#0000 47%,var(--t) 49%) 82% 88%/7% 7%,
+      linear-gradient(80deg,var(--t) 47%,#0000 49%) 84% 92%/12% 9%,
+      linear-gradient(var(--t) 0 0) 83% 87%/3% 18%,
+      radial-gradient(99% 50% at 0% 50%,var(--t) 96%,#0000 ) 84% 71%/4% 35%,
+      radial-gradient(104% 97% at 100% 0%,#0000 96%,var(--t) ) 88% 88%/5.5% 13%,
+      radial-gradient(50% 100% at 50% 0,var(--t) 96%,#0000 ) 88% 91%/8% 2%,
+      conic-gradient(from -53deg at 100% 100%,#0000, var(--t)1deg 22deg,#0000 24deg) 80% 99%/18% 7%;
+    background-repeat: no-repeat;
+}
+.hair:after {
+    content: "";
+    position: absolute;
+    width: 28%;
+    height: 15%;
+    background: var(--t);
+    top: 14%;
+    left: 28%;
+    transform: rotate(-30deg);
+    border-radius: 20% 58% 0 0/90% 50% 0 0;
+    -webkit-mask-image: radial-gradient(57% 42% at 82% 85%,#0000 98%,#000);
+}
+.b-hair:before {
+    content: "";
+    position: absolute;
+    left: 24%;
+    top: 5%;
+    height: 8%;
+    width: 12%;
+    background: var(--s);
+    border-radius: 50%;
+    transform: rotate(-41deg);
+}
+.b-hair:after {
+    content: "";
+    position: absolute;
+    left: 18%;
+    top: 12%;
+    height: 6%;
+    width: 10%;
+    background: var(--s);
+    border-radius: 50%;
+}
+.f1:before {
+    content: "";
+    position: absolute;
+    right: 9%;
+    height: 9%;
+    border-left: 2px solid #221823;
+    width: 7%;
+    bottom: 35%;
+    transform: rotate(-16deg);
+    border-bottom-left-radius: 57% 90%;
+}
+.f1:after {
+    content: "";
+    position: absolute;
+    right: 7.5%;
+    height: 10%;
+    border-left: 2px solid #221823;
+    width: 7%;
+    bottom: 65%;
+    transform: rotate(-26deg);
+    transform-origin: bottom right;
+}
+.f2:before {
+    content: "";
+    position: absolute;
+    width: 24%;
+    height: 15%;
+    right: 36%;
+    top: 12%;
+    border-top: 2px solid #221823;
+    border-top-left-radius: 84% 64%;
+}
+.f2::after {
+    content: "";
+    position: absolute;
+    width: 21%;
+    height: 8%;
+    right: 53%;
+    top: 5.5%;
+    border-top: 2px solid #221823;
+    border-left: 1px solid #221823;
+    border-top-left-radius: 24% 63%;
+    transform-origin: top right;
+    transform: rotate(-30deg);
+    box-shadow: 0 0 0 20vmin #221823;
+    clip-path: polygon(13% -43%,50% -12%,92% -26%,84% 0,100% 0,95% 100%,0 100%,0% 123%,-22% 111%);
+    background: linear-gradient(#87375a 0 0) top/20% 20% no-repeat;
+}
+.f3:before {
+    content: "";
+    position: absolute;
+    width: 11%;
+    height: 7%;
+    left: 24%;
+    top: 19%;
+    border-left: 2px solid #221823;
+    border-bottom-left-radius: 50% 93%;
+    box-shadow: 0 0 0 20vmin #221823;
+    clip-path: polygon(0 0,100% 0,97% 100%,57% 97%,59% 131%,-41% 97%,-21% 35%,3% 32%);
+    transform: rotate(-17deg);
+}
+.f3:after {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 2px;
+    left: 19%;
+    top: 30%;
+    background: linear-gradient(#221823 0 0) 50%/100% 75% no-repeat;
+    transform: rotate(-32deg);
+    transform-origin: bottom left;
+}
+.f4:before {
+    content: "";
+    position: absolute;
+    height: 17%;
+    width: 18%;
+    background: radial-gradient(64% 95% at 50% 100%,#0000 98%,#20101b);
+    border-radius: 50%;
+    right: 26.5%;
+    top: 54%;
+    clip-path: polygon(21% 0,100% 0,100% 100%, -17% 100%);
+}
+.f4:after {
+    content: "";
+    position: absolute;
+    height: 17%;
+    width: 18%;
+    background: radial-gradient(64% 95% at 50% 100%,#0000 98%,#20101b);
+    border-radius: 50%;
+    left: 28%;
+    top: 54.5%;
+    clip-path: polygon(0% 0,81% 0%,116% 100%, 0% 100%);
+}
+.f5:before {
+    content: "";
+    position: absolute;
+    border-top: 1px solid #20101bdd;
+    width: 23%;
+    height: 17%;
+    left: 26%;
+    top: 52.5%;
+    border-radius: 50%;
+    clip-path: inset(0 8% 0% 30%);
+}
+.f5:after {
+    content: "";
+    position: absolute;
+    background: #20101bdd;
+    width: 3%;
+    height: 1px;
+    left: 28%;
+    top: 55%;
+    transform: rotate(-40deg);
+}
+.f6:before {
+    content: "";
+    position: absolute;
+    background: #20101bdd;
+    width: 5%;
+    height: 1px;
+    left: 43%;
+    top: 57.5%;
+    transform: rotate(52deg);
+}
+.f6:after {
+    content: "";
+    position: absolute;
+    background: #20101bdd;
+    width: 4%;
+    height: 1px;
+    right: 27%;
+    top: 54.5%;
+    transform: rotate(34deg);
+}
+.f7:before {
+    content: "";
+    position: absolute;
+    border-top: 1px solid #20101bdd;
+    width: 23%;
+    height: 26%;
+    right: 25%;
+    top: 52%;
+    border-radius: 50%;
+    clip-path: inset(0 30% 0% 30%);
+}
+.f7:after {
+    content: "";
+    position: absolute;
+    background: #20101bdd;
+    width: 5%;
+    height: 1px;
+    right: 40.5%;
+    top: 56%;
+    transform: rotate(-54deg);
+}
+.f8:before {
+    content: "";
+    position: absolute;
+    right: 44%;
+    top: 43%;
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10vmin #6e293c;
+    clip-path: inset(-62% 37% 34% -4%);
+    transform: rotate(30deg);
+}
+.f8:after {
+    content: "";
+    position: absolute;
+    inset: 78% 26% 0% 27%;
+    background:
+      radial-gradient(50% 79% at 50% 0,#221823 96%,#0000) 100% 32%/15% 8%,
+      radial-gradient(64% 85% at 100% 0,#0000 96%,#221823) 100% 0%/11% 30%,
+      linear-gradient(-102deg,#0000 36%,#221823 38%)100% 0%/23% 100%,
+      radial-gradient(50% 65% at 50% 0,#221823 96%,#0000) 4% 57%/10% 8%,
+      linear-gradient(#221823 0 0)11% 26%/10% 26%,
+      radial-gradient(95% 108% at 0 0,#0000 97%,#221823) 0% 15%/11% 44%,
+      conic-gradient(from 26deg at 0 100%,#0000, #221823 1deg 27deg,#0000 28deg) 0% 1%/36% 37%;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+body {
+  margin:0;
+  min-height:100vh;
+  display:grid;
+  background-color: #b7d0d5;
+}
