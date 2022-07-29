@@ -3017,6 +3017,13 @@ let cards = [
     imageLink: './Art/samluiz/brazilFlag.gif',
     author: 'Samuel Luiz',
     githubLink: 'https://github.com/samluiz'
+  },
+  {
+    artName: 'Kamado_art',
+    pageLink: './Art/Raph/index.html',
+    imageLink: './Art/Raph/Tanjiro Kamado.png',
+    author: 'Rapheal Oke',
+    githubLink: 'https://github.com/Davraph'
   }
 ];
 
