@@ -3017,6 +3017,13 @@ let cards = [
     imageLink: './Art/samluiz/brazilFlag.gif',
     author: 'Samuel Luiz',
     githubLink: 'https://github.com/samluiz'
+  },
+  {
+    artName: 'Generic Loading Screen',
+    pageLink: './Art/quikiesamus/index.html',
+    imageLink: './Art/quikiesamus/scshot.png',
+    author: 'quikiesamus',
+    githubLink: 'https://github.com/quikiesamus'
   }
 ];
 
