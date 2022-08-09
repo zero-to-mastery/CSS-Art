@@ -3017,6 +3017,14 @@ let cards = [
     imageLink: './Art/samluiz/brazilFlag.gif',
     author: 'Samuel Luiz',
     githubLink: 'https://github.com/samluiz'
+  },
+  {
+     artName: 'Animated arrow',
+    pageLink: '.-Art/Art/MuhammadA/index.html',
+    imageLink: '-Art/Art/MuhammadA/index.gif',
+    author: 'Muhammad Aqeel',
+    githubLink: 'https://github.com/MAqeel2148'
+
   }
 ];
 
