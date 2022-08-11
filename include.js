@@ -3025,7 +3025,6 @@ let cards = [
     author: 'Karen Ruiz',
     githubLink: 'https://github.com/kareninarg'
   }
-
 ];
 
 // +--------------------------------------------------------------------------------+
