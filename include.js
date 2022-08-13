@@ -3039,6 +3039,13 @@ let cards = [
     imageLink: './Art/Emojimation/Emoji.gif',
     author: 'Karen Ruiz',
     githubLink: 'https://github.com/kareninarg'
+  }, 
+  {
+    artName: 'Arrow animation',
+    pageLink: './Art/MuhammadA/index.html',
+    imageLink: './Art/MuhammadA/arrow-animation.png',
+    author: 'Muhammad Aqeel',
+    githubLink: 'https://github.com/MAqeel2148'
   }
 ];
 
