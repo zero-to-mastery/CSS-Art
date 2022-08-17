@@ -1,0 +1,52 @@
+.square {
+  width: 500px;
+  height: 500px;
+  background-color: #44cfca;
+  margin-top: 100px;
+  border-radius: 4px;
+  border: 10px solid rgb(251, 248, 248);
+}
+
+.emoji {
+  padding-top: 140px;
+  font-size: 10em;
+  text-align: center;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+body {
+  background: radial-gradient(ellipse at top, #b1dae3, transparent),
+    radial-gradient(ellipse at bottom, #d4d1e6, transparent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -127,6 +127,14 @@ let cards = [
     author: 'Eric Puskas',
     githubLink: 'https://github.com/EricPuskas'
   },
+  
+  {
+    artName: 'Tranformable Glassmorhic Card',
+    pageLink: './Art/Pracard/index.html',
+    imageLink: './Art/Pracard/cardes.png',
+    author: 'Prakhar Dubey',
+    githubLink: 'https://github.com/prakhardubey2002'
+  },
   {
     artName: 'Fade Dots',
     pageLink: './Art/loading_D-vers/index.html',
@@ -3024,6 +3032,20 @@ let cards = [
     imageLink: './Art/samluiz/brazilFlag.gif',
     author: 'Samuel Luiz',
     githubLink: 'https://github.com/samluiz'
+  },
+  {
+    artName: 'Emojimation',
+    pageLink: './Art/Emojimation/index.html',
+    imageLink: './Art/Emojimation/Emoji.gif',
+    author: 'Karen Ruiz',
+    githubLink: 'https://github.com/kareninarg'
+  }, 
+  {
+    artName: 'Arrow animation',
+    pageLink: './Art/MuhammadA/index.html',
+    imageLink: './Art/MuhammadA/arrow-animation.png',
+    author: 'Muhammad Aqeel',
+    githubLink: 'https://github.com/MAqeel2148'
   }
 ];
 
