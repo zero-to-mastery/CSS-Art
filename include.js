@@ -58,6 +58,13 @@ let cards = [
     githubLink: 'https://github.com/pawankm21'
   },
   {
+    artName: 'Graph Color Changer',
+    pageLink: './Art/Musaddiq-Ashfaq/index.html',
+    imageLink: './Art/Musaddiq-Ashfaq/img.png',
+    author: 'musaddiq-ashfaq',
+    githubLink: 'https://github.com/musaddiq-ashfaq'
+  },
+  {
     artName: 'Pizza slice',
     pageLink: './Art/fernando122/pizza.html',
     imageLink: './Art/fernando122/pizza.png',
