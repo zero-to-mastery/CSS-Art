@@ -3047,6 +3047,13 @@ let cards = [
     author: 'Muhammad Aqeel',
     githubLink: 'https://github.com/MAqeel2148'
   }
+  {
+    artName: 'Waves',
+    pageLink: './Art/Waves/index.html',
+    imageLink: './Art/Waves/wave.png',
+    author: 'Prajwal Sarode',
+    githubLink: 'https://github.com/prajwal-sarode'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
