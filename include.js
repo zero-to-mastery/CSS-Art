@@ -8,6 +8,13 @@ let cards = [
     githubLink: 'https://github.com/tarunmankar'
   },
   {
+    artName: 'Rotating Circle',
+    pageLink: './Art/Anyijoy/index.html',
+    imageLink: './Art/Anyijoy/RotatingCircle.gif',
+    author: 'Anyi Joy',
+    githubLink: 'https://github.com/AnyiJoy'
+  },
+  {
     artName: 'Chihuahua',
     pageLink: './Art/virag-ky/index.html',
     imageLink: './Art/virag-ky/chihuahua.png',
