@@ -3046,6 +3046,13 @@ let cards = [
     imageLink: './Art/MuhammadA/arrow-animation.png',
     author: 'Muhammad Aqeel',
     githubLink: 'https://github.com/MAqeel2148'
+  },
+  {
+    artName: 'Wind Stick',
+    pageLink: './Art/Amelia/index.html',
+    imageLink: './Art/Amelia/wind-stick.gif',
+    author: 'Amelia Dutta',
+    githubLink: 'https://github.com/amelia2802'
   }
 ];
 
