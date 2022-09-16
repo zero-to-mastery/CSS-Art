@@ -134,7 +134,7 @@ let cards = [
     author: 'Eric Puskas',
     githubLink: 'https://github.com/EricPuskas'
   },
-  
+
   {
     artName: 'Tranformable Glassmorhic Card',
     pageLink: './Art/Pracard/index.html',
@@ -3046,7 +3046,7 @@ let cards = [
     imageLink: './Art/Emojimation/Emoji.gif',
     author: 'Karen Ruiz',
     githubLink: 'https://github.com/kareninarg'
-  }, 
+  },
   {
     artName: 'Arrow animation',
     pageLink: './Art/MuhammadA/index.html',
@@ -3060,6 +3060,13 @@ let cards = [
     imageLink: './Art/Amelia/wind-stick.gif',
     author: 'Amelia Dutta',
     githubLink: 'https://github.com/amelia2802'
+  },
+  {
+    artName: 'Lazy Coffee',
+    pageLink: './Art/Gnommy/index.html',
+    imageLink: './Art/Gnommy/lazy-coffee.gif',
+    author: 'Thomas Brandoli',
+    githubLink: 'https://github.com/ThGnommy'
   }
 ];
 
