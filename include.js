@@ -8,6 +8,13 @@ let cards = [
     githubLink: 'https://github.com/tarunmankar'
   },
   {
+    artName: 'Rotating Circle',
+    pageLink: './Art/Anyijoy/index.html',
+    imageLink: './Art/Anyijoy/RotatingCircle.gif',
+    author: 'Anyi Joy',
+    githubLink: 'https://github.com/AnyiJoy'
+  },
+  {
     artName: 'Chihuahua',
     pageLink: './Art/virag-ky/index.html',
     imageLink: './Art/virag-ky/chihuahua.png',
@@ -3048,11 +3055,26 @@ let cards = [
     githubLink: 'https://github.com/MAqeel2148'
   },
   {
+
     artName: 'Snowfall Animation',
     pageLink: './Art/snowfall/index.html',
     imageLink: './Art/snowfall/snowfall.gif',
     author: 'sowmya',
     githubLink: 'https://github.com/sowvino'
+
+    artName: 'Wind Stick',
+    pageLink: './Art/Amelia/index.html',
+    imageLink: './Art/Amelia/wind-stick.gif',
+    author: 'Amelia Dutta',
+    githubLink: 'https://github.com/amelia2802'
+  },
+  {
+    artName: 'Lazy Coffee',
+    pageLink: './Art/Gnommy/index.html',
+    imageLink: './Art/Gnommy/lazy-coffee.gif',
+    author: 'Thomas Brandoli',
+    githubLink: 'https://github.com/ThGnommy'
+
   }
 ];
 
