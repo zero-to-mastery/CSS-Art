@@ -3067,7 +3067,15 @@ let cards = [
     imageLink: './Art/Gnommy/lazy-coffee.gif',
     author: 'Thomas Brandoli',
     githubLink: 'https://github.com/ThGnommy'
+  },
+  {
+    artName: 'EP Sasuke',
+    pageLink: './Art/Alfredo/index.html',
+    imageLink: './Art/Alfredo/EP Sasuke.gif',
+    author: 'Alfredo',
+    githubLink: 'https://github.com/guzmana99'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
