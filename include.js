@@ -121,6 +121,13 @@ let cards = [
     githubLink: 'https://github.com/MaKloudz'
   },
   {
+    artName: 'Night Sky',
+    pageLink: './Art/night Sky/index.html',
+    imageLink: './Art/night Sky/night sky gif.gif',
+    author: 'Chayandev Bera',
+    githubLink: 'https://github.com/Chayandev'
+  },
+  {
     artName: 'spirals',
     pageLink: './Art/Krishna/index.html',
     imageLink: './Art/Krishna/spiral.png',
