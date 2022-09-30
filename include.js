@@ -3067,6 +3067,13 @@ let cards = [
     imageLink: './Art/Gnommy/lazy-coffee.gif',
     author: 'Thomas Brandoli',
     githubLink: 'https://github.com/ThGnommy'
+  },
+  {
+    artName: 'Carrom Piece',
+    pageLink: './Art/Nandini-anim/index.html',
+    imageLink: './Art/Nandini-anim/ezgif-carrom.gif',
+    author: 'Nandini Gangadharan',
+    githubLink: 'https://github.com/Nandini-13'
   }
 ];
 
