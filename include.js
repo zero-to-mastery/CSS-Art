@@ -3067,7 +3067,14 @@ let cards = [
     imageLink: './Art/Gnommy/lazy-coffee.gif',
     author: 'Thomas Brandoli',
     githubLink: 'https://github.com/ThGnommy'
-  }
+  },
+  {
+    artName: 'Animated Cicrle',
+    pageLink: './Art/yashraj2003e/index.html',
+    imageLink: './Art/yashraj2003e/animation.png',
+    author: 'Yashraj',
+    githubLink: 'https://github.com/yashraj2003e'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
