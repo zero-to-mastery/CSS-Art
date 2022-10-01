@@ -3067,6 +3067,13 @@ let cards = [
     imageLink: './Art/Gnommy/lazy-coffee.gif',
     author: 'Thomas Brandoli',
     githubLink: 'https://github.com/ThGnommy'
+  },
+  {
+    artName: 'Sky Lanterns',
+    pageLink: './Art/RitikaAgrawal811/index.html',
+    imageLink: './Art/RitikaAgrawal811/sky-lanterns.gif',
+    author: 'Ritika Agrawal',
+    githubLink: 'https://github.com/Ritika-Agrawal811'
   }
 ];
 
