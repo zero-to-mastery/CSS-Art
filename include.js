@@ -3076,6 +3076,13 @@ let cards = [
     githubLink: 'https://github.com/ThGnommy'
   },
   {
+    artName: 'Animated Cicrle',
+    pageLink: './Art/yashraj2003e/index.html',
+    imageLink: './Art/yashraj2003e/animation.png',
+    author: 'Yashraj',
+    githubLink: 'https://github.com/yashraj2003e'
+  },
+{
     artName: 'Sky Lanterns',
     pageLink: './Art/RitikaAgrawal811/index.html',
     imageLink: './Art/RitikaAgrawal811/sky-lanterns.gif',
