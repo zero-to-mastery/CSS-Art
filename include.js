@@ -3076,6 +3076,13 @@ let cards = [
     githubLink: 'https://github.com/ThGnommy'
   },
   {
+    artName: 'Carrom Piece',
+    pageLink: './Art/Nandini-anim/index.html',
+    imageLink: './Art/Nandini-anim/ezgif-carrom.gif',
+    author: 'Nandini Gangadharan',
+    githubLink: 'https://github.com/Nandini-13'
+},
+{
     artName: 'EP Sasuke',
     pageLink: './Art/Alfredo/index.html',
     imageLink: './Art/Alfredo/EP Sasuke.gif',
