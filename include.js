@@ -113,6 +113,12 @@ let cards = [
     author: 'Blessing Mutava',
     githubLink: 'https://github.com/MaKloudz'
   },
+  { artName: 'That Animation',
+    pageLink: './Art/MaKloudz/index.html',
+    imageLink: './Art/MaKloudz/dat-animation.gif',
+    author: 'Blessing Mutava',
+    githubLink: 'https://github.com/MaKloudz'
+  },
   {
     artName: 'Night Sky',
     pageLink: './Art/night Sky/index.html',
