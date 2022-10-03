@@ -3076,6 +3076,12 @@ let cards = [
     githubLink: 'https://github.com/ThGnommy'
   },
   {
+    artName: 'Sky Lanterns',
+    pageLink: './Art/RitikaAgrawal811/index.html',
+    imageLink: './Art/RitikaAgrawal811/sky-lanterns.gif',
+    author: 'Ritika Agrawal',
+    githubLink: 'https://github.com/Ritika-Agrawal811'
+},{
     artName: 'Carrom Piece',
     pageLink: './Art/Nandini-anim/index.html',
     imageLink: './Art/Nandini-anim/ezgif-carrom.gif',
@@ -3088,6 +3094,7 @@ let cards = [
     imageLink: './Art/Alfredo/EP Sasuke.gif',
     author: 'Alfredo',
     githubLink: 'https://github.com/guzmana99'
+
   }
 
 ];
