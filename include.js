@@ -22,6 +22,13 @@ let cards = [
     githubLink: 'https://github.com/virag-ky'
   },
   {
+    artName: 'Pac-man',
+    pageLink: './Art/Sakshi-Bhakta/index.html',
+    imageLink: './Art/Sakshi-Bhakta/pac-man.gif',
+    author: 'Sakshi Bhakta',
+    githubLink: 'https://github.com/sakshii2000'
+  },
+  {
     pageLink: './Art/OmkarGunjal/wavefront.html',
     imageLink: './Art/OmkarGunjal/WavefrontEffect.gif',
     author: 'Omkar Gunjal',
@@ -3074,7 +3081,15 @@ let cards = [
     imageLink: './Art/Nandini-anim/ezgif-carrom.gif',
     author: 'Nandini Gangadharan',
     githubLink: 'https://github.com/Nandini-13'
+},
+{
+    artName: 'EP Sasuke',
+    pageLink: './Art/Alfredo/index.html',
+    imageLink: './Art/Alfredo/EP Sasuke.gif',
+    author: 'Alfredo',
+    githubLink: 'https://github.com/guzmana99'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
