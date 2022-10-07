@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(237, 239, 243);
+  min-height: 100vh;
+}
+
+.loader {
+  position: relative;
+  display: flex;
+}
+
+.loader span {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  background: rgb(237, 239, 243);
+  border: 6px solid rgb(237, 239, 243);
+  border-radius: 50%;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 1),
+  8px 8px 25px rgba(0, 0, 0, 15);
+  overflow: hidden;
+}
+
+.loader span::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 5),
+    inset -5px -5px 15px rgba(255, 255 255, 1);
+}
+.loader span::after {
+  content: "";
+  position: absolute;
+  inset: 40px;
+  background: rgb(237, 239, 243);
+  border: 3px solid rgb(237, 239, 243);
+  border-radius: 50%;
+  box-shadow: -8px -8px 25px rgba(255, 255, 255, 1),
+    8px 8px 25px rgba(0, 0, 0, 0.25), inset 3px 3px 10px rgba(0, 0, 0, 15),
+    inset -1px -1px 15px rgba(255, 255, 255, 1);
+}
+
+.loader span i {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  filter: blur(5px);
+  background: linear-gradient(#42abff, #ff4f8b, #ffeb3b);
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.rocket{
+  position: absolute;
+  inset: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+.rocket .fa-rocket{
+  position: absolute;
+  font-size: 3.5em;
+  color: #ff518c;
+  -webkit-text-stroke: 2px #000;
+  animation: animateRocket 1s linear infinite;
+  /* animation-delay: calc(-0.5s * var(--i)); */
+}
+
+@keyframes animateRocket{
+  0% , 100%
+  {
+    transform: translate(0px , 0px) rotate(-45deg);
+  }
+  50%
+  {
+    transform: translate(0px , 3px) rotate(-45deg);
+  }
+}
+
+.fa-cloud{
+  position: absolute ;
+  top: calc(35px * var(--i));
+  left: calc(45px * var(--i));
+  font-size: 2em;
+  color:#fff ;
+  -webkit-text-stroke: 2px #000;
+  animation: animateClouds 1.2s linear infinite;
+  animation-delay: calc(-0.5s * var(--i));
+}
+
+@keyframes animateClouds{
+  0%{
+    transform: translateY(calc(-35 * 5px));
+  }
+  100%{
+    transform: translateY(calc(35 * 5px));
+  }
+}
