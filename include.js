@@ -3102,6 +3102,13 @@ let cards = [
     author: 'Alfredo',
     githubLink: 'https://github.com/guzmana99'
 
+  },
+  {
+    artName: 'Car Animated',
+    pageLink: './Art/ArchismanDawn/index.html"',
+    imageLink: './Art/ArchismanDawn/carAnim.gif',
+    author: 'Archisman Dawn',
+    githubLink: 'https://github.com/DawnArchi01'
   }
 
 ];
