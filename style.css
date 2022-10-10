@@ -38,11 +38,11 @@ h2 {
 }
 
 .header h1 {
-  font-size: 8vw;
+  font-size: 7vw;
 }
 
 h2 {
-  font-size: 3.5vw;
+  font-size: 3vw;
   color: #444444;
   font-family: 'Fredoka One', cursive;
 }
@@ -164,7 +164,7 @@ h2 {
 
 @media only screen and (min-width: 900px) {
   .header h1 {
-    font-size: 6vw;
+    font-size: 6.2vw;
   }
 
   h2 {
@@ -177,8 +177,8 @@ h2 {
 
   .card img {
     top: -65px;
-    width: 10vw;
-    height: 10vw;
+    width: 9vw;
+    height: 9vw;
   }
 
   .art-title {
