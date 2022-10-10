@@ -3108,6 +3108,13 @@ let cards = [
     author: 'Alfredo',
     githubLink: 'https://github.com/guzmana99'
 
+  },
+  {
+    artName: 'GlowingLoader',
+    pageLink: './Art/JunaidKhan/GlowingLoader.html',
+    imageLink: './Art/JunaidKhan/GlowingLoader.gif',
+    author: 'Junaid',
+    githubLink: 'https://github.com/JunaidKhan444'
   }
 
 ];
