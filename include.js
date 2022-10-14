@@ -3128,6 +3128,13 @@ let cards = [
     imageLink: './Art/unhenei/flyingbird.GIF',
     author: 'unhenei',
     githubLink: 'https://github.com/unhenei'
+  },
+  {
+    artName: 'Snoring Snorlax',
+    pageLink: './Art/PranayBinju/index.html',
+    imageLink: './Art/PranayBinju/snoring-snorlax.gif',
+    author: 'Pranay Binju',
+    githubLink: 'https://github.com/pranaybinju'
   }
 
 ];
