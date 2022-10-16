@@ -3135,7 +3135,14 @@ let cards = [
     imageLink: './Art/PranayBinju/snoring-snorlax.gif',
     author: 'Pranay Binju',
     githubLink: 'https://github.com/pranaybinju'
-  }
+  },
+  {
+    artName: 'Gradient Slide',
+    pageLink: './Art/Pearl/index.html',
+    imageLink: './Art/Pearl/gradient.gif',
+    author: 'Forcha Pearl',
+    githubLink: 'https://github.com/forchapeatl'
+  },
 
 ];
 
