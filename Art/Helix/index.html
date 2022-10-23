@@ -1,0 +1,866 @@
+<html>
+
+<head>
+    <title>Helix Loop Animation</title>
+    <style>
+        body {
+            background-color: #1e0731;
+        }
+
+        #thehelixloader {
+            margin-top: 20%;
+            margin-left: 25%;
+        }
+
+        footer {
+            position: absolute;
+            margin-top: 300px;
+        }
+
+        footer a {
+            color: #f5e53a;
+        }
+
+        footer img {
+            width: 32px;
+            height: 32px;
+            vertical-align: middle;
+        }
+
+        .wrapper {
+            position: absolute;
+            float: left;
+            margin: 140px 100px;
+        }
+
+        .line {
+            position: absolute;
+            top: 0px;
+            width: 2px;
+            height: 8px;
+            background-color: red;
+        }
+
+        .circle {
+            position: absolute;
+            display: block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: blue;
+        }
+
+        .circle-top {
+            top: 0px;
+            left: -3.5px;
+        }
+
+        .circle-bottom {
+            bottom: 0px;
+            left: -3.5px;
+        }
+
+        .dot {
+            position: absolute;
+            display: block;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            left: -1.5px;
+        }
+
+        .line1 {
+            margin-left: 0px;
+            background-color: #2410cb;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) infinite;
+        }
+
+        .line1>span {
+            background-color: #d4141e;
+        }
+
+        .line1>.dotted>.dot {
+            background-color: #d4141e;
+        }
+
+        .line1>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) infinite;
+        }
+
+        .line1>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) infinite;
+        }
+
+        .line1>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) infinite;
+        }
+
+        .line1>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) infinite;
+        }
+
+        .line2 {
+            margin-left: 35px;
+            background-color: #852df4;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.05s infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.05s infinite;
+        }
+
+        .line2>span {
+            background-color: #fc7e48;
+        }
+
+        .line2>.dotted>.dot {
+            background-color: #fc7e48;
+        }
+
+        .line2>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.05s infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.05s infinite;
+        }
+
+        .line2>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.05s infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.05s infinite;
+        }
+
+        .line2>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.05s infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.05s infinite;
+        }
+
+        .line2>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.05s infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.05s infinite;
+        }
+
+        .line3 {
+            margin-left: 70px;
+            background-color: #f42df1;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
+        }
+
+        .line3>span {
+            background-color: #edeb29;
+        }
+
+        .line3>.dotted>.dot {
+            background-color: #edeb29;
+        }
+
+        .line3>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
+        }
+
+        .line3>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
+        }
+
+        .line3>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
+        }
+
+        .line3>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.1s infinite;
+        }
+
+        .line4 {
+            margin-left: 105px;
+            background-color: #f91396;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
+        }
+
+        .line4>span {
+            background-color: #aced29;
+        }
+
+        .line4>.dotted>.dot {
+            background-color: #aced29;
+        }
+
+        .line4>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
+        }
+
+        .line4>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
+        }
+
+        .line4>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
+        }
+
+        .line4>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.15s infinite;
+        }
+
+        .line5 {
+            margin-left: 140px;
+            background-color: #d4141e;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
+        }
+
+        .line5>span {
+            background-color: #4ef02b;
+        }
+
+        .line5>.dotted>.dot {
+            background-color: #4ef02b;
+        }
+
+        .line5>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
+        }
+
+        .line5>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
+        }
+
+        .line5>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
+        }
+
+        .line5>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.2s infinite;
+        }
+
+        .line6 {
+            margin-left: 175px;
+            background-color: #fc7e48;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.25s infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.25s infinite;
+        }
+
+        .line6>span {
+            background-color: #38e790;
+        }
+
+        .line6>.dotted>.dot {
+            background-color: #38e790;
+        }
+
+        .line6>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.25s infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.25s infinite;
+        }
+
+        .line6>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.25s infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.25s infinite;
+        }
+
+        .line6>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.25s infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.25s infinite;
+        }
+
+        .line6>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.25s infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.25s infinite;
+        }
+
+        .line7 {
+            margin-left: 210px;
+            background-color: #edeb29;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
+        }
+
+        .line7>span {
+            background-color: #25eacc;
+        }
+
+        .line7>.dotted>.dot {
+            background-color: #25eacc;
+        }
+
+        .line7>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
+        }
+
+        .line7>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
+        }
+
+        .line7>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
+        }
+
+        .line7>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.3s infinite;
+        }
+
+        .line8 {
+            margin-left: 245px;
+            background-color: #aced29;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
+        }
+
+        .line8>span {
+            background-color: #309cdf;
+        }
+
+        .line8>.dotted>.dot {
+            background-color: #309cdf;
+        }
+
+        .line8>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
+        }
+
+        .line8>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
+        }
+
+        .line8>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
+        }
+
+        .line8>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.35s infinite;
+        }
+
+        .line9 {
+            margin-left: 280px;
+            background-color: #4ef02b;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.4s infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.4s infinite;
+        }
+
+        .line9>span {
+            background-color: #2544e7;
+        }
+
+        .line9>.dotted>.dot {
+            background-color: #2544e7;
+        }
+
+        .line9>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.4s infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.4s infinite;
+        }
+
+        .line9>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.4s infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.4s infinite;
+        }
+
+        .line9>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.4s infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.4s infinite;
+        }
+
+        .line9>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.4s infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.4s infinite;
+        }
+
+        .line10 {
+            margin-left: 315px;
+            background-color: #38e790;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.45s infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.45s infinite;
+        }
+
+        .line10>span {
+            background-color: #852df4;
+        }
+
+        .line10>.dotted>.dot {
+            background-color: #852df4;
+        }
+
+        .line10>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.45s infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.45s infinite;
+        }
+
+        .line10>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.45s infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.45s infinite;
+        }
+
+        .line10>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.45s infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.45s infinite;
+        }
+
+        .line10>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.45s infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.45s infinite;
+        }
+
+        .line11 {
+            margin-left: 350px;
+            background-color: #25eacc;
+            -webkit-animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.5s infinite;
+            animation: line 2s cubic-bezier(0.25, 0, 0.705, 1) 0.5s infinite;
+        }
+
+        .line11>span {
+            background-color: #f42df1;
+        }
+
+        .line11>.dotted>.dot {
+            background-color: #f42df1;
+        }
+
+        .line11>.dotted>.dot-top {
+            top: 0px;
+            -webkit-animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.5s infinite;
+            animation: dot-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.5s infinite;
+        }
+
+        .line11>.dotted>.dot-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.5s infinite;
+            animation: dot-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.5s infinite;
+        }
+
+        .line11>.dotted>.dot-middle-top {
+            top: 0px;
+            -webkit-animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.5s infinite;
+            animation: dot-middle-top 2s cubic-bezier(0.25, 0, 0.705, 1) 0.5s infinite;
+        }
+
+        .line11>.dotted>.dot-middle-bottom {
+            bottom: 0px;
+            -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.5s infinite;
+            animation: dot-middle-bottom 2s cubic-bezier(0.25, 0, 0.705, 1) 0.5s infinite;
+        }
+
+        @-webkit-keyframes line {
+            0% {
+                height: 4px;
+                top: 0px;
+                left: 0px;
+                -webkit-transform: rotate(-65deg);
+            }
+
+            10% {
+                height: 220px;
+                top: -110px;
+                left: 15px;
+            }
+
+            45% {
+                height: 200px;
+                top: -100px;
+                left: 25px;
+            }
+
+            70% {
+                height: 8px;
+                top: 0px;
+                left: 25px;
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                height: 8px;
+                top: 0px;
+                left: 15px;
+                -webkit-transform: rotate(0deg);
+            }
+        }
+
+        @-webkit-keyframes dot-top {
+            0% {
+                top: -30px;
+            }
+
+            10% {
+                top: -30px;
+            }
+
+            45% {
+                top: -25px;
+            }
+
+            60% {
+                top: 0px;
+            }
+
+            100% {
+                top: 0px;
+            }
+        }
+
+        @-webkit-keyframes dot-bottom {
+            0% {
+                bottom: -30px;
+            }
+
+            10% {
+                bottom: -30px;
+            }
+
+            45% {
+                bottom: -25px;
+            }
+
+            60% {
+                bottom: 0px;
+            }
+
+            100% {
+                bottom: 0px;
+            }
+        }
+
+        @-webkit-keyframes dot-middle-top {
+            0% {}
+
+            10% {}
+
+            45% {
+                top: 98px;
+            }
+
+            70% {
+                top: -50px;
+            }
+
+            85% {
+                top: 0px;
+            }
+
+            100% {
+                top: 0px;
+            }
+        }
+
+        @-webkit-keyframes dot-middle-bottom {
+            0% {}
+
+            10% {}
+
+            45% {
+                bottom: 98px;
+            }
+
+            70% {
+                bottom: -50px;
+            }
+
+            85% {
+                bottom: 0px;
+            }
+
+            100% {
+                bottom: 0px;
+            }
+        }
+
+        @keyframes line {
+            0% {
+                height: 4px;
+                top: 0px;
+                left: 0px;
+                transform: rotate(-65deg);
+            }
+
+            10% {
+                height: 220px;
+                top: -110px;
+                left: 15px;
+            }
+
+            45% {
+                height: 200px;
+                top: -100px;
+                left: 25px;
+            }
+
+            70% {
+                height: 8px;
+                top: 0px;
+                left: 25px;
+                transform: rotate(0deg);
+            }
+
+            100% {
+                height: 8px;
+                top: 0px;
+                left: 15px;
+                transform: rotate(0deg);
+            }
+        }
+
+        @keyframes dot-top {
+            0% {
+                top: -30px;
+            }
+
+            10% {
+                top: -30px;
+            }
+
+            45% {
+                top: -25px;
+            }
+
+            60% {
+                top: 0px;
+            }
+
+            100% {
+                top: 0px;
+            }
+        }
+
+        @keyframes dot-bottom {
+            0% {
+                bottom: -30px;
+            }
+
+            10% {
+                bottom: -30px;
+            }
+
+            45% {
+                bottom: -25px;
+            }
+
+            60% {
+                bottom: 0px;
+            }
+
+            100% {
+                bottom: 0px;
+            }
+        }
+
+        @keyframes dot-middle-top {
+            0% {}
+
+            10% {}
+
+            45% {
+                top: 78px;
+            }
+
+            70% {
+                top: -50px;
+            }
+
+            85% {
+                top: 0px;
+            }
+
+            100% {
+                top: 0px;
+            }
+        }
+
+        @keyframes dot-middle-bottom {
+            0% {}
+
+            10% {}
+
+            45% {
+                bottom: 78px;
+            }
+
+            70% {
+                bottom: -50px;
+            }
+
+            85% {
+                bottom: 0px;
+            }
+
+            100% {
+                bottom: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="thehelixloader">
+        <div class="wrapper">
+            <div class="line line1">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+            <div class="line line2">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+            <div class="line line3">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+            <div class="line line4">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+            <div class="line line5">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+            <div class="line line6">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+            <div class="line line7">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+            <div class="line line8">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+            <div class="line line9">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+            <div class="line line10">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+            <div class="line line11">
+                <span class="circle circle-top"></span>
+                <div class="dotted">
+                    <span class="dot dot-top"></span>
+                    <span class="dot dot-middle-top"></span>
+                    <span class="dot dot-middle-bottom"></span>
+                    <span class="dot dot-bottom"></span>
+                </div>
+                <span class="circle circle-bottom"></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
