@@ -3143,7 +3143,20 @@ let cards = [
     author: 'Forcha Pearl',
     githubLink: 'https://github.com/forchapeatl'
   },
-
+  {
+    artName: 'Playing Piano',
+    pageLink: './Art/Gopu_kr/playing-piano.html',
+    imageLink: './Art/Gopu_kr/playing-piano.gif',
+    author: 'Gopu K Raju',
+    githubLink: 'https://github.com/gopukr'
+  },
+  {
+    artName: 'IntoSpace',
+    pageLink: '.CSS-Art\Art\IntoSpace\index.html',
+    imageLink: '.CSS-Art\Art\IntoSpace\IntoSpace.gif',
+    author: 'Oran',
+    githubLink: 'https://github.com/oran950'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
