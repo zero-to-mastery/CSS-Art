@@ -3137,6 +3137,14 @@ let cards = [
     githubLink: 'https://github.com/pranaybinju'
   }
 
+    {
+      artName: 'IntoSpace',
+      pageLink: '.CSS-Art\Art\IntoSpace\index.html',
+      imageLink: '.CSS-Art\Art\IntoSpace\IntoSpace.gif',
+      author: 'Oran',
+      githubLink: 'https://github.com/oran950'
+    }
+
 ];
 
 // +--------------------------------------------------------------------------------+
