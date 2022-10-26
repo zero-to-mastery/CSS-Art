@@ -3135,7 +3135,15 @@ let cards = [
     imageLink: './Art/PranayBinju/snoring-snorlax.gif',
     author: 'Pranay Binju',
     githubLink: 'https://github.com/pranaybinju'
-  }
+  },
+  {
+    artName: 'Playing Piano',
+    pageLink: './Art/Gopu_kr/playing-piano.html',
+    imageLink: './Art/Gopu_kr/playing-piano.gif',
+    author: 'Gopu K Raju',
+    githubLink: 'https://github.com/gopukr'
+  },
+
 
     {
       artName: 'IntoSpace',
