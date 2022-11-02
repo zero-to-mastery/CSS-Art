@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+}
+
+body {
+	width: 100%;
+  	height: 100%;
+  	font-family: 'Montserrat', sans-serif;
+  	 background: url(https://images.unsplash.com/photo-1533318026184-165e6f98be64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.div1 {
+	margin-top: 25vh;
+	animation: rotate;
+}
+
+img {
+	height:  30vh;
+	width:  30vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ufo {
+	margin-left: 0;
+	height: 5vh;
+	width: 5vw;
+}
+
+.flier {
+	pointer-events: none;
+}
+
+.flier {
+    animation: fly 50s linear infinite;
+    pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-120%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+}
+
+
+@keyframes fly {
+
+	98.001%, 0% {
+        display: block;
+		transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+	}
+
+	15% {
+		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+	}
+
+	15.001%, 18% {
+		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+	}
+
+	40% {
+		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+	}
+
+	40.001%, 43% {
+		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+	}
+
+	65% {
+		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+	}
+
+	65.001%, 68% {
+		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+	}
+
+	95% {
+		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+	}
+}
+
+.rotate {
+  	animation: rotation 9s infinite linear, scale 2.0;
+  	transition: scale(3.0) 9s linear 9s;
+}
+
+@keyframes rotation {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.container {
+  animation: zoomInZoomOut 30s infinite linear;
+}
+
+.animation {
+  animation: spin 20s;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(45deg);
+  }
+
+  50% {
+    transform: rotate(-45deg);
+  }
+
+   100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes zoomInZoomOut {
+  0% {
+    transform: scale(0.1);
+  }
+	50% {
+    transform: scale(1);
+  }
+    100% {
+    transform: scale(0.01);
+ 
+}
+
+
