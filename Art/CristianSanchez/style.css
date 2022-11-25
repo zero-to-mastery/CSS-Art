@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(88, 4, 4);
+}
+
+.animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 4, 4);
+}
+
+.circle {
+  position: absolute;
+  background-color: inherit;
+  height: 100%;
+  width: 80%;
+  border-radius: 100%;
+  opacity: 0.9;
+  animation: pulse 1s ease-out infinite;
+}
+
+.circle:nth-of-type(1) {
+  animation-delay: 1;
+}
+
+.circle:nth-of-type(2) {
+  animation-delay: -1.5;
+}
+
+.circle:nth-of-type(3) {
+  animation-delay: -1s;
+}
+
+@keyframes pulse {
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
