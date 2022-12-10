@@ -3156,6 +3156,13 @@ let cards = [
     imageLink: '.CSS-Art\Art\IntoSpace\IntoSpace.gif',
     author: 'Oran',
     githubLink: 'https://github.com/oran950'
+  },
+  {
+    artName: 'Surprised mouse',
+    pageLink: './Art/laurabaluchova/index.html',
+    imageLink: './Art/laurabaluchova/surprised_mouse.png',
+    author: 'laurabaluchova',
+    githubLink: 'https://github.com/laurabaluchova'
   }
 ];
 

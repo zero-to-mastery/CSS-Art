@@ -1,0 +1,185 @@
+body {
+	background-color: #fcedb8;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 7%;
+  width: 900px;
+  height: 630px;
+  background: none;
+}
+
+.head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #A6BECF;
+  border-radius: 50%;
+}
+
+.head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #A6BECF;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.ear-left{
+  position: absolute;
+  width: 60%;
+  height: 70%;
+  left: -30%;
+  top: -20%;
+  background: #A6BECF;
+  border-radius: 50%;
+  z-index: 1;
+}
+.ear-right {
+  position: absolute;
+  width: 60%;
+  height: 70%;
+  right: -30%;
+  top: -20%;
+  background: #A6BECF;
+  border-radius: 50%;
+  z-index: 1;
+}
+.inner-ear {
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: #e9b7f4;
+}
+
+.eye-left {
+  position: absolute;
+  background: white;
+  width: 25%;
+  height: 23%;
+  top: 25%;
+  left: 20%;
+  border-radius: 60%;
+  z-index: 3;  
+}
+
+.eye-right {
+  position: absolute;
+  background: white;
+  width: 25%;
+  height: 23%;
+  top: 25%;
+  right: 20%;
+  border-radius: 60%;
+  z-index: 3;
+}
+
+.pupil {
+  position: absolute;
+  width: 55%;
+  height: 60%;
+  top: 20%;
+  left: 23%; 
+  background: black;
+  border-radius: 50%;
+ }
+
+ .lash-left {
+  position: absolute;
+  top: -16%;
+  left: 30%;
+  width: 20%;
+  height: 20%;
+  background: black;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);   
+}
+
+.lash-right {
+  position: absolute;
+  top: -16%;
+  left: 48%;
+  width: 20%;
+  height: 20%;
+  background: black;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.nose {
+  position: absolute;
+  background: black;
+  width: 15%;
+  height: 15%;
+  right: 35%;
+  top: 50%;
+  border-radius: 50%;
+  z-index: 3;
+  
+}
+
+@keyframes moveX {
+  from {
+    left: 35%;;
+  }
+
+  to {
+    right: 35%;
+  }
+}
+
+.nose {
+  animation-duration: 9s;
+  animation-name: moveX;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.mouth {
+  position: absolute;
+  background: black;
+  width: 10%;
+  height: 10%;
+  left: 45%;
+  top: 70%;
+  border-radius: 50%;
+  z-index: 3;  
+}
+
+.mouth_inner {
+  position: relative;
+  background: #A6BECF;	
+  width: 100%;
+  height: 100%;  
+  top: -15%;
+  border-radius: 50%;  
+}
+
+@keyframes open_mouth {
+  from {
+    background: #A6BECF;
+  }
+
+  to {
+    background: #e9b7f4;
+  }
+}
+
+.mouth_inner {
+  animation-duration: 9s;
+  animation-name: open_mouth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+
