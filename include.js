@@ -15,6 +15,13 @@ let cards = [
     githubLink: 'https://github.com/AnyiJoy'
   },
   {
+    artName: 'Pikachu_face',
+    pageLink: './Art/pikachu_face/index.html',
+    imageLink: './Art/pikachu_face/Pikachu.gif',
+    author: 'Jonathan Jang',
+    githubLink: 'https://github.com/JJang95'
+  },
+  {
     artName: 'Chihuahua',
     pageLink: './Art/virag-ky/index.html',
     imageLink: './Art/virag-ky/chihuahua.png',
