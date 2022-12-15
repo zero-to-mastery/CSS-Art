@@ -3157,7 +3157,7 @@ let cards = [
     imageLink: '.CSS-Art\Art\IntoSpace\IntoSpace.gif',
     author: 'Oran',
     githubLink: 'https://github.com/oran950'
-  }
+  },
   {
     artName: 'Retro Button',
     pageLink: './Art/k-goth/index.html',
