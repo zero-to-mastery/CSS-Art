@@ -22,6 +22,13 @@ let cards = [
     githubLink: 'https://github.com/JJang95'
   },
   {
+    artName: 'Angry Bird',
+    pageLink: './Art/angry_bird.html',
+    imageLink: './Art/angry_bird/angry_bird.png',
+    author: 'Jonathan Jang',
+    githubLink: 'https://github.com/JJang95'
+  },
+  {
     artName: 'Chihuahua',
     pageLink: './Art/virag-ky/index.html',
     imageLink: './Art/virag-ky/chihuahua.png',
