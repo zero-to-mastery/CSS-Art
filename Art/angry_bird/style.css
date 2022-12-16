@@ -1,0 +1,253 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #69e9f0;
+}
+
+.bird {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.bird * {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.head {
+  height: 80px;
+  width: 90px;
+  border-radius: 42.5% 55.3% 44% 45% / 55% 60% 40% 45%;
+  border: 2px solid #000;
+  overflow: hidden;
+  box-shadow: inset 4px -5px 0px -3px rgba(0, 0, 0, 0.1);
+  background: #dc002e;
+}
+
+.head:before {
+  content: "";
+  width: 18px;
+  height: 30px;
+  background: #fff;
+  position: absolute;
+  right: 10px;
+  top: -3px;
+  border-radius: 50%;
+  z-index: 2;
+  opacity: 0.1;
+  transform: rotate(-80deg);
+}
+
+.eyes {
+  width: 40px;
+  height: 20px;
+  top: 25px;
+  right: 9px;
+}
+
+.eye {
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #111;
+}
+
+.eye.left {
+  width: 25px;
+  box-shadow: inset 2px -5px 0px -3px rgba(0, 0, 0, 0.1),
+    -0.3px 5px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.eye.right {
+  width: 18px;
+  right: 0;
+  box-shadow: inset 0px -13px 0px -10px rgba(0, 0, 0, 0.15),
+    3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.eye.left:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -20px;
+  width: 15px;
+  height: 25px;
+  background: #a80023;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.eye.left:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -32px;
+  width: 10px;
+  height: 15px;
+  background: #a80023;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.eyebrow {
+  background: #000;
+  width: 22px;
+  height: 5px;
+  z-index: 1;
+  top: -1px;
+}
+
+.eyebrow.left {
+  transform: rotate(20deg);
+  left: 3px;
+}
+
+.eyebrow.right {
+  transform: rotate(-20deg);
+  right: -3px;
+}
+
+.eyebrow.left:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: #000;
+  bottom: 2px;
+  transform: rotate(5deg);
+}
+
+.eyebrow.right:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: #000;
+  bottom: 2px;
+  transform: rotate(-5deg);
+}
+
+.pupil {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #000;
+  top: 6px;
+}
+
+.pupil.left {
+  right: 5px;
+}
+
+.pupil.right {
+  left: 2px;
+}
+
+.mouth {
+  width: 40px;
+  height: 20px;
+  bottom: 15px;
+  right: -7px;
+  z-index: 2;
+}
+
+.peak {
+  border-radius: 20% 2% 20% 10%;
+  transform: rotate(34deg) skew(-15deg, 0deg);
+  width: 18px;
+  height: 18px;
+  right: 22px;
+  background: #f3b41d;
+  box-shadow: 0px 0px 0px 1px #000, inset 0.1px 2px 0.6px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.peak:after {
+  border: 1.5px solid #000000;
+  border-color: transparent #000000 transparent transparent;
+  border-radius: 0 40% 60% 0%;
+  content: "";
+  width: 4px;
+  height: 25px;
+  left: 4.5px;
+  top: -4px;
+  z-index: 1;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.shade {
+  border-radius: 49% 51% 98% 2% / 100% 100% 0% 0%;
+  height: 40px;
+  width: 80px;
+  background: #e2c4a8;
+  bottom: -15px;
+  right: -10px;
+}
+
+.tail {
+  width: 25px;
+  height: 7px;
+  background: #000;
+  left: -10px;
+  top: 40px;
+  z-index: -1;
+  transform: rotate(10deg);
+}
+
+.tail:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 7px;
+  background: #000;
+  left: 0;
+  top: -8px;
+  transform: rotate(30deg) skew(10deg);
+}
+
+.tail:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 7px;
+  background: #000;
+  left: 0;
+  top: 8px;
+  transform: rotate(-30deg) skew(-10deg);
+}
+
+.feathers {
+  width: 50px;
+  height: 40px;
+  top: -30px;
+}
+
+.feather {
+  height: 30px;
+  width: 13px;
+  border-radius: 50%;
+  background: #dc002e;
+}
+
+.feather.left {
+  bottom: -6px;
+  transform: rotate(-70deg);
+  box-shadow: -0.6px -2px 0px 1px #000, 0.2px -2px 0px 1px #000,
+    inset 6px 6px 0px -5px rgba(0, 0, 0, 0.1);
+}
+
+.feather.right {
+  bottom: -4px;
+  left: 20px;
+  transform: rotate(-50deg);
+  box-shadow: 0px -3.5px 0px 0.2px #000, 2px -1.2px 0px 0.2px #000,
+    inset 5px 6px 0px -5px rgba(0, 0, 0, 0.1);
+}
