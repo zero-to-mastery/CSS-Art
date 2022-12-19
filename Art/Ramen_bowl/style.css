@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #C9DB80;
+}
+
+.bowl {
+  width: 14rem;
+  height: 8rem;
+  background-color: #B83D4E;
+  border-radius:  0 0 6rem 6rem;
+  position: relative;
+}
+
+.bowl:before {
+  content: "";
+  position: absolute;
+  background-color: #B83D4E;
+  border-radius: 20%;
+  width: 8rem;
+  height: 2rem;
+  bottom: 0;
+  left: 3rem;
+}
+
+.bowl:after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  opacity: 40%;
+  height: 4rem;
+  width: 14rem;
+  bottom: -2rem;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.ramen {
+  width: 7rem;
+  height: 3.5rem;
+  border-radius: 3.5rem 3.5rem 0 0;
+  position: relative;
+  top: -3.5rem;
+  left: 3.5rem;
+  background: repeating-radial-gradient(circle at bottom, #ECDD7B, #ECDD7B 6px, #CE8147 6px, #CE8147 12px);
+}
+
+.ramen:before, .ramen:after {
+  content: "";
+  position: absolute;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 3.5rem 3.5rem 0 0;
+  background: repeating-radial-gradient(circle at bottom, #ECDD7B, #ECDD7B 6px, #CE8147 6px, #CE8147 12px);
+}
+
+.ramen:before {
+  z-index: -1;
+  left: -3rem;
+  top: 1rem;
+}
+
+.ramen:after {
+  left: 5rem;
+  top: 1rem;
+}
