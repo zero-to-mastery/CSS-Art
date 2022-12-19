@@ -43,6 +43,13 @@ let cards = [
     githubLink: 'https://github.com/sakshii2000'
   },
   {
+    artName: 'Ramen_bowl',
+    pageLink: './Art/Ramen_bowl/index.html',
+    imageLink: './Art/Anyijoy/Ramen_bowl.png',
+    author: 'Jonathan Jang',
+    githubLink: 'https://github.com/JJang95'
+  },
+  {
     pageLink: './Art/OmkarGunjal/wavefront.html',
     imageLink: './Art/OmkarGunjal/WavefrontEffect.gif',
     author: 'Omkar Gunjal',
