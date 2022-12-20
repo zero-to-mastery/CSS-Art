@@ -120,7 +120,8 @@ let cards = [
     author: 'Blessing Mutava',
     githubLink: 'https://github.com/MaKloudz'
   },
-  { artName: 'That Animation',
+  {
+    artName: 'That Animation',
     pageLink: './Art/MaKloudz/index.html',
     imageLink: './Art/MaKloudz/dat-animation.gif',
     author: 'Blessing Mutava',
@@ -3088,20 +3089,20 @@ let cards = [
     author: 'Yashraj',
     githubLink: 'https://github.com/yashraj2003e'
   },
-{
+  {
     artName: 'Sky Lanterns',
     pageLink: './Art/RitikaAgrawal811/index.html',
     imageLink: './Art/RitikaAgrawal811/sky-lanterns.gif',
     author: 'Ritika Agrawal',
     githubLink: 'https://github.com/Ritika-Agrawal811'
-},{
+  }, {
     artName: 'Carrom Piece',
     pageLink: './Art/Nandini-anim/index.html',
     imageLink: './Art/Nandini-anim/ezgif-carrom.gif',
     author: 'Nandini Gangadharan',
     githubLink: 'https://github.com/Nandini-13'
-},
-{
+  },
+  {
     artName: 'EP Sasuke',
     pageLink: './Art/Alfredo/index.html',
     imageLink: './Art/Alfredo/EP Sasuke.gif',
@@ -3114,15 +3115,15 @@ let cards = [
     pageLink: './Art/varunPuri/index.html',
     author: 'Varun Puri',
     githubLink: 'https://github.com/JutsuAfterHours'
-}, 
-{
+  },
+  {
     artName: 'GlowingLoader',
     pageLink: './Art/JunaidKhan/GlowingLoader.html',
     imageLink: './Art/JunaidKhan/GlowingLoader.gif',
     author: 'Junaid',
     githubLink: 'https://github.com/JunaidKhan444'
-  }, 
-{
+  },
+  {
     artName: 'FlyingBird',
     pageLink: './Art/unhenei/flyingbird.html',
     imageLink: './Art/unhenei/flyingbird.GIF',
@@ -3156,6 +3157,13 @@ let cards = [
     imageLink: '.CSS-Art\Art\IntoSpace\IntoSpace.gif',
     author: 'Oran',
     githubLink: 'https://github.com/oran950'
+  },
+  {
+    artName: 'snowfall',
+    pageLink: './Art/snowfall/index.html',
+    imageLink: './Art/snowfall/snowfall.gif',
+    author: 'sowmya',
+    githubLink: 'https://github.com/sowvino'
   }
 ];
 
@@ -3171,13 +3179,13 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 

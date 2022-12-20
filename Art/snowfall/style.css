@@ -1,0 +1,98 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+#sky {
+    display: flex;
+    position: relative;
+    z-index: -300;
+    background-image: url(https://i.pinimg.com/originals/24/50/91/2450919142aeb3171fe4c174eda0ff21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+#iceland {
+    display: flex;
+    position: inherit;
+    background-color: rgb(250, 244, 227);
+    width: 100vw;
+    height: 50vh;
+    z-index: -200;
+
+}
+
+#house {
+    position: inherit;
+}
+
+
+
+#santa {
+    position: relative;
+    margin-left: 80px;
+    animation: mymove 5s ease-in infinite backwards;
+    height: 20px;
+}
+
+@keyframes mymove {
+    100% {
+        transform: translateX(100%);
+    }
+
+}
+
+.snowflake {
+    color: rgb(238, 246, 243);
+    padding: 10px;
+    margin: 0 auto;
+    size: adjust 10px;
+}
+
+.snow1 {
+    animation: top-to-bottom 6s ease-out infinite;
+}
+
+.snow2 {
+    animation: top-to-bottom 10s ease-in infinite;
+}
+
+.snow3 {
+    animation: top-to-bottom 11s ease-in infinite;
+}
+
+.snow4 {
+    animation: top-to-bottom 3s ease-in infinite;
+}
+
+.snow5 {
+    animation: top-to-bottom 15s ease-in infinite;
+}
+
+.snow6 {
+    animation: top-to-bottom 8s ease-in infinite;
+}
+
+@keyframes top-to-bottom {
+    100% {
+        transform: translateY(100%);
+    }
+
+}
