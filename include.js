@@ -13,7 +13,7 @@ let cards = [
     pageLink: './Art/one-piece/index.html',
     imageLink: './Art/one-piece/one-piece-logo.PNG',
     author: 'anas mak',
-    githubLink: 'https://github.com/anasmak'
+    githubLink: 'https://github.com/anasmak04'
   },
 
 
