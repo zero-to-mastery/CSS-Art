@@ -16,6 +16,23 @@ let cards = [
     githubLink: 'https://github.com/anasmak04'
   },
 
+  {
+    artName: 'Beee',
+    pageLink: './Art/Beee/index.html',
+    imageLink: './Art/Beee/style.css',
+    author: 'anas mak',
+    githubLink: 'https://github.com/anasmak04'
+  },
+
+   {
+    artName: 'Beee',
+    pageLink: './Art/one-piece/index.html',
+    imageLink: './Art/one-piece/one-piece-logo.PNG',
+    author: 'anas mak',
+    githubLink: 'https://github.com/anasmak04'
+  },
+
+
 
   {
     artName: 'Rotating Circle',

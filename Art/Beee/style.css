@@ -1,0 +1,49 @@
+
+  body{
+    background-color:#998235;
+  }
+  .body {
+    width: 150px;
+    height: 80px;
+    background-color: #EFF33C;
+    border-radius:70px;
+   transform:translate(400%,300%);
+    position:relative;
+    background: linear-gradient(to left, #EFF33C 85%, black 20%);
+    
+
+  }
+
+  .body:after{
+    background-color:#191919;
+    width:15px;
+    height:15px;
+    content:"";
+    position:absolute;
+    left:80%;
+    top:20%;
+    border-radius:50%;
+  }
+
+   .body:before{
+    background-color: black;
+    width:25px;
+    height:100%;
+    content:"";
+    position:absolute;
+    left:20%;
+    top:0;
+     box-shadow: 0 0 0 10px inset, 38px 0;
+  }
+
+  body:before{
+    background-color:#FFFFFF;
+    width:80px;
+    height:80px;
+    content:"";
+    position:absolute;
+    left:44%;
+    top:26%;
+    border-radius:50% 50% 0;
+    -webkit-box-reflect:right;
+  }
