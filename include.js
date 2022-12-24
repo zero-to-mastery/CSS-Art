@@ -7,6 +7,16 @@ let cards = [
     author: 'Tarun Mankar',
     githubLink: 'https://github.com/tarunmankar'
   },
+
+  {
+    artName: 'one piece',
+    pageLink: './Art/one-piece/index.html',
+    imageLink: './Art/one-piece/one-piece-logo.PNG',
+    author: 'anas mak',
+    githubLink: 'https://github.com/anasmak'
+  },
+
+
   {
     artName: 'Rotating Circle',
     pageLink: './Art/Anyijoy/index.html',

@@ -1,0 +1,243 @@
+body{
+    background: black;
+  }
+  
+  #principal{  
+    position: relative;
+    float: left;
+    left: 40%;
+    top: 100px;
+    width: 330px;
+    height: 330px;  
+  }
+  
+  #hat{
+    background-color: #f5ce42;
+    width: 332px;
+    height: 150px;  
+    border-radius: 160px 160px 0 0;
+    position: absolute;
+    border: 1px solid black;  
+    overflow: hidden;
+  }
+  
+  .lines{
+    display:inline-block;
+    position: absolute;
+    border: 4px solid black;  
+    top: 50px;
+    left: 50px;    
+    height: 100px; 
+    width: 90px;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/10px 10px 0 0;
+    transform: rotate(-50deg)
+  }
+  
+  #line2{
+    top: 66px;
+    left: 60px;
+    height: 60px; 
+    width: 60px;    
+  }
+  
+  #line3{  
+    top: 87px;
+    left: 70px;  
+    height: 20px; 
+    width: 20px;    
+  }
+  
+  #line4{  
+    top: 70px;
+    left: 230px;      
+    height: 60px; 
+    width: 60px;    
+    transform: rotate(50deg);
+  }
+  
+  #line5{  
+    top: 80px;
+    left: 230px;  
+    height: 40px; 
+    width: 40px;  
+    transform: rotate(50deg)
+  }
+  
+  #ribbon{
+    width: 430px;
+    height: 20px;
+    border: solid 5px black;
+    display: inline-block;  
+    background: red;
+    position: relative;    
+    top: 120px;
+    z-index:2; 
+    overflow: hiden;
+    left: -2%;
+  }
+  
+  #borde{
+    width: 430px;
+    height: 20px;
+    border: solid 5px black;
+    display: inline-block;  
+    background: #f5ce42;
+    position:relative; 
+    z-index:1; 
+    top: 45%;
+    left: -16%
+  }
+  
+  #skull{  
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: absolute;  
+  }
+  
+  .eyes{
+    width: 70px;
+    height: 70px;
+    background: black;
+    display: inline-block;
+    position: relative;
+    left: 23%;
+    top: 50%;  
+    border-radius: 50%;
+  }
+  
+  #leftEye{
+    margin-right: 20px;
+  }
+  
+  #rightEye{
+    margin-left: 20px;
+  }
+  
+  #nose{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black;
+    display: inline-block;
+    position: relative;
+    top: 60%;
+    left: -9%;
+  }
+  
+  #mouth{
+    width: 180px;
+    height: 120px;
+    background: white;
+    display: inline-block;
+    position: absolute;
+    left: 23%;
+    top: 90%;
+    border-radius: 20% / 50%;
+    z-index:-10; 
+    }
+  
+  .horizon{
+    display:inline-block;
+    
+    position: absolute;
+    top: 30px;  
+            
+    border-bottom: 4px solid black;  
+    border-radius: 100px;
+    
+    height: 50px;
+    width: 180px;
+  }
+  
+  #hor1{
+    top: 10px;
+  }
+  
+  #hor2{
+    top: 40px;
+  }
+  
+  .vert{
+    display:inline-block;
+    
+    position: absolute;
+    top: 34px;    
+    width: 100px;
+    height: 60px;
+    
+    border-left: 4px solid black;
+  }
+  
+  #ver1{left: 50px; transform: rotate(7deg); top: 40px;}
+  
+  #ver2{left: 90px;}
+  
+  #ver3{left: 130px; transform: rotate(-7deg); top: 28px;}
+  
+  .bones{
+    top:-50px;
+    display: inline-block;
+    position: absolute;  
+    z-index: -20;
+    height: 500px;
+    width: 35px;
+    border: 2px solid black;
+    background-color: white;
+  }
+  
+  #boneLeft{
+    left: 130px;
+    transform: rotate(-55deg);
+  }
+  
+  #boneRight{
+    Right: 130px;
+    transform: rotate(55deg);
+  }
+  
+  .balls{
+    display:inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius:100px;
+    border: 1px solid white;
+    background-color: white;
+  }
+  
+  #b1{
+    top: 50px;
+    left: -90px;
+  }
+  #b2{
+    top: 17px;
+    left: -65px;
+  }
+  #b3{
+    top: 17px;
+    Right: -65px;
+  }
+  #b4{
+    top: 50px;
+    Right: -90px;
+  }
+  #b5{
+    top: 315px;
+    Right: -70px;
+  }
+  #b6{
+    top: 340px;
+    Right: -45px;
+  }
+  #b7{
+    top: 315px;
+    left: -70px;
+  }
+  #b8{
+    top: 340px;
+    left: -45px;
+  }
