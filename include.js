@@ -3156,6 +3156,13 @@ let cards = [
     imageLink: '.CSS-Art\Art\IntoSpace\IntoSpace.gif',
     author: 'Oran',
     githubLink: 'https://github.com/oran950'
+  },
+  {
+    artName: 'AnimatOS',
+    pageLink: '.CSS-Art\Art\toanimation\index.html',
+    imageLink: '.CSS-Art\Art\toanimation\toanimation.gif',
+    author: 'Toan Tran',
+    githubLink: 'https://github.com/toantc1024'
   }
 ];
 
