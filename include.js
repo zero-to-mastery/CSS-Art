@@ -3156,6 +3156,13 @@ let cards = [
     imageLink: '.CSS-Art\Art\IntoSpace\IntoSpace.gif',
     author: 'Oran',
     githubLink: 'https://github.com/oran950'
+  },
+  {
+    artName: 'swimming',
+    pageLink: './Art/swimming/index.html',
+    imageLink: './Art/swimming/swimming.gif',
+    author: 'highvibez',
+    githubLink: 'https://github.com/highvibez'
   }
 ];
 
