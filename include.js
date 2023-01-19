@@ -3156,6 +3156,13 @@ let cards = [
     imageLink: '.CSS-Art\Art\IntoSpace\IntoSpace.gif',
     author: 'Oran',
     githubLink: 'https://github.com/oran950'
+  },
+  {
+    artName: 'The Mask Effect',
+    pageLink: './Art/radlee-mask/index.html',
+    imageLink: './Art/radlee-mask/radmask.gif',
+    author: 'Radlee',
+    githubLink: 'https://github.com/radlee'
   }
 ];
 
