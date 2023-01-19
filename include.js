@@ -3153,8 +3153,8 @@ let cards = [
   },
   {
     artName: 'IntoSpace',
-    pageLink: '.CSS-Art\Art\IntoSpace\index.html',
-    imageLink: '.CSS-Art\Art\IntoSpace\IntoSpace.gif',
+    pageLink: '.CSS-Art/Art/IntoSpace/index.html',
+    imageLink: '.CSS-Art/Art/IntoSpace/IntoSpace.gif',
     author: 'Oran',
     githubLink: 'https://github.com/oran950'
   },
@@ -3171,6 +3171,13 @@ let cards = [
     imageLink: './Art/radlee-mask/radmask.gif',
     author: 'Radlee',
     githubLink: 'https://github.com/radlee'
+  }
+  {
+    artName: 'Yard Pimp',
+    pageLink: './Art/John Gonzalez/index.html',
+    imageLink: './Art/John Gonzalez/Yard_Pimp.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/johngg15'
   }
 ];
 
