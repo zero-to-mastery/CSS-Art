@@ -3164,6 +3164,13 @@ let cards = [
     imageLink: './Art/k-goth/retro-button.gif',
     author: 'Kyle Gothman',
     githubLink: 'https://github.com/kylegothman'
+  },
+  {
+    artName: 'The Mask Effect',
+    pageLink: './Art/radlee-mask/index.html',
+    imageLink: './Art/radlee-mask/radmask.gif',
+    author: 'Radlee',
+    githubLink: 'https://github.com/radlee'
   }
 ];
 
