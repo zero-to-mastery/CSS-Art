@@ -3159,6 +3159,13 @@ let cards = [
     githubLink: 'https://github.com/oran950'
   },
   {
+    artName: 'swimming',
+    pageLink: './Art/swimming/index.html',
+    imageLink: './Art/swimming/swimming.gif',
+    author: 'highvibez',
+    githubLink: 'https://github.com/highvibez'
+  },
+  {
     artName: 'Retro Button',
     pageLink: './Art/k-goth/index.html',
     imageLink: './Art/k-goth/retro-button.gif',
