@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Hello World!',
+    pageLink: './Art/Rabia/index.html',
+    imageLink: './Art/Rabia/hello_world.gif',
+    author: 'Rabia',
+    githubLink: 'https://github.com/iamRabia-N'
+  },
+  {
     artName: 'Loader Animation',
     pageLink: './Art/tarunmankar/index.html',
     imageLink: './Art/tarunmankar/LoaderAnimation.gif',

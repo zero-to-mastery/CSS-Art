@@ -1,0 +1,30 @@
+body {
+  font-family: monospace;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.heading {
+  color: #607d8b;
+  background-image: linear-gradient(-200deg, #231557 0%, #44107a 30%, #f71762 67%, #fcf40b 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 175% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: flex;
+  font-size: 100px;
+  justify-content: center;
+  margin-top: 15rem;
+  font-weight: bolder;
+
+}
+@keyframes textclip {
+  to {
+    background-position: 175% center;
+  }
+}
