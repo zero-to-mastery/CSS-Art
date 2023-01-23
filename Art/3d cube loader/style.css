@@ -1,0 +1,106 @@
+:root,*{
+margin:0;
+padding: 0;
+font-size: 30px;
+box-sizing: border-box;
+--cube-size:2em;
+}
+body{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+color:red;
+position: fixed;
+top: 0;
+left:50%;
+width:fit-content;
+text-align: center;
+font-size: 1em;
+padding:.1em .2em; 
+transform: translateX(-50%);
+}
+
+.world{
+    position: relative;
+    display:block;
+    width: 250px;
+    height: 250px;
+    perspective: calc(var(--cube-size)*5) ;
+    perspective-origin: center top;
+}
+.cube1,.cube2{
+    position:absolute;
+    width:var(--cube-size);
+    height: var(--cube-size);
+    left:var(--cube-size);
+    top:var(--cube-size);
+    transform-style: preserve-3d;
+    transform: translate(-50%,-50%);
+    animation:rotate 2s ease-in-out infinite;
+}
+.cube2{
+    left:calc(var(--cube-size)*2);
+    top:calc(var(--cube-size));
+     animation:rotate 2s ease-in-out .1s infinite;
+}
+@keyframes rotate {
+    0%{
+        transform:rotateX(0deg);
+        
+    }
+    15%{
+        transform:rotateX(-40deg);
+    }
+    100%{
+        transform:rotateX(360deg);
+    }
+}
+.cube1>*,.cube2>*{
+    position:absolute;
+    width: var(--cube-size);
+    height: var(--cube-size);
+    background-color: rgb(177, 177, 111);
+}
+.cube2>*{
+    background-color: rgb(250, 250, 235);
+}
+.right{
+    transform: rotateY(90deg);
+    left:calc(var(--cube-size)/2);
+}
+.left{
+    transform: rotateY(-90deg);
+    right:calc(var(--cube-size)/2);
+}
+.bottom{
+    transform: rotateX(-90deg);
+    top:calc(var(--cube-size)/2);
+}
+.top{
+    transform: rotateX(90deg);
+    bottom:calc(var(--cube-size)/2);
+}
+.front{
+    transform: translateZ(calc(var(--cube-size)/2));
+
+}
+.cube1>.front::after{
+    content:'Load';
+}
+.cube2>.front::after{
+    content:'ing';
+}
+.front-image,.back-image,.left-image,.right-image,.top-image,.bottom-image{
+    width:var(--cube-size);
+    height:var(--cube-size);
+}
+.back{
+    transform:translateZ(calc((var(--cube-size)/2) - var(--cube-size)));
+}
