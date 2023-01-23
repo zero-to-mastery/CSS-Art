@@ -154,7 +154,13 @@ let cards = [
     author: 'Eric Puskas',
     githubLink: 'https://github.com/EricPuskas'
   },
-
+  {
+    artName: 'Bear - Pure CSS Image',
+    pageLink: './Art/Palak_Goyal/index.html',
+    imageLink: './Art/Palak_Goyal/bear.png',
+    author: 'Palak Goyal',
+    githubLink: 'https://github.com/Palakkgoyal'
+  },
   {
     artName: 'Tranformable Glassmorhic Card',
     pageLink: './Art/Pracard/index.html',
