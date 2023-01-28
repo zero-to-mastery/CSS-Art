@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(to right, #0d0427, #9900ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .lorem-box {
+      padding: 10px;
+      margin: 10px;
+  }
+  .lorem-box p {
+      font-size: 14px;
+  }
+}
+
+h1, h2, p{
+  color:white;
+  text-shadow: 1px 1px #000;
+  text-align:center;
+  margin-bottom:10px;
+  margin-top: 5px;
+}
+
+.lorem-box {
+  padding: 20px;
+  background-color: #6a00ff;
+  box-shadow: 0px 0px 20px #ff0099;
+  border-radius: 10px;
+  margin: 20px;
+  color: #fff;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  transform: rotate(0deg);
+  transition: transform 1s ease-in-out;
+}
+
+.lorem-box:hover {
+  background-color: #ff0099;
+  box-shadow: 0px 0px 20px #6a00ff;
+  transform: rotate(2deg);
+}
+
+.cyberpunk-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cyberpunk-button {
+  font-size: 24px;
+  padding: 15px 50px;
+  background: linear-gradient(to right, #6a00ff, #702b55);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px #000;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 0px 10px #6a00ff;
+  position: relative;
+}
+
+.cyberpunk-button:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  background: linear-gradient(to right, #6a00ff, #ff0099);
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.cyberpunk-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px #6a00ff;
+}
