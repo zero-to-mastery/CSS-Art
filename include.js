@@ -31,6 +31,13 @@ let cards = [
     githubLink: 'https://github.com/AnyiJoy'
   },
   {
+    artName: 'simplyRecty',
+    pageLink: './Art/Joy/sunnySavlot/index.html',
+    imageLink: './Art/Joy/sunnySavlot/simple.jpg',
+    author: 'Sunny',
+    githubLink: 'https://github.com/sunnySavlot'
+  },
+  {
     artName: 'Chihuahua',
     pageLink: './Art/virag-ky/index.html',
     imageLink: './Art/virag-ky/chihuahua.png',
@@ -785,6 +792,13 @@ let cards = [
     imageLink: './Art/andrearizzello/index.gif',
     author: 'Andrea Rizzello',
     githubLink: 'https://github.com/andrearizzello'
+  },
+  {
+    artName: 'Funky Button',
+    pageLink: './Art/0xSilkweave/index.html',
+    imageLink: './Art/0xSilkweave/index.gif',
+    author: '0xSilkweave',
+    githubLink: 'https://github.com/0xSilkweave'
   },
   {
     artName: 'Wall Dropping Logo',
