@@ -1,0 +1,88 @@
+.MyFrame {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(
+    to left,
+    rgba(220, 57, 24, 0.98),
+    rgba(1, 1, 249, 0.95)
+  );
+  border: 100px double;
+  border-color: rgba(214, 223, 41, 0.8);
+  margin: 50px auto;
+  box-shadow: 5px 5px 20px rgb(96, 94, 94);
+
+  transition-property: width;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+.MyFrame:hover {
+  box-shadow: 15px 15px 30px #aaa;
+  width: 600px;
+
+  /* swap color */
+  background: linear-gradient(
+    to right,
+    rgba(220, 57, 24, 0.98),
+    rgba(1, 1, 249, 0.95)
+  );
+}
+.inside {
+  width: 200px;
+  height: 100px;
+  margin: 90px auto;
+  border: 50px double;
+  border-color: wheat;
+  border-color: rgba(214, 223, 41, 0.8);
+
+  /* background-color: rgba(19, 173, 147, 0.3); */
+  background: linear-gradient(
+    to left,
+    rgba(220, 57, 24, 0.98),
+    rgba(1, 1, 249, 0.95)
+  );
+  transition-property: width;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+.inside:hover {
+  background: linear-gradient(
+    to right,
+    rgba(220, 57, 24, 0.98),
+    rgba(1, 1, 249, 0.95)
+  );
+  width: 300px;
+}
+.deepinside {
+  width: 70px;
+  height: 20px;
+  margin: 20px auto;
+  border: 20px double;
+  border-color: rgba(214, 223, 41, 0.8);
+
+  background: linear-gradient(
+    to left,
+    rgba(220, 57, 24, 0.98),
+    rgba(1, 1, 249, 0.95)
+  );
+}
+.open {
+  cursor: pointer;
+  background: linear-gradient(
+    to left,
+    rgba(220, 57, 24, 0.98),
+    rgba(1, 1, 249, 0.95)
+  );
+  color: rgb(175, 159, 159);
+  padding-left: 5px;
+  border: none;
+  letter-spacing: 0.15rem;
+  font-family: cursive;
+  transition: 1s all;
+}
+
+.open:hover {
+  transform: rotate(360deg);
+}
+.open:active {
+  transform: scale(0.8);
+}

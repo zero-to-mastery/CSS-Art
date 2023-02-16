@@ -7,14 +7,14 @@ let cards = [
     author: 'Rabia',
     githubLink: 'https://github.com/iamRabia-N'
   },
-  
+
   //  Nekimuntu Dragon Balls radar
   {
-      artName: 'Dragon Balls Radar',
-      pageLink: './Art/nekimuntu/index.html',
-      imageLink: './Art/nekimuntu/RadarDragonBalls.gif',
-      author: 'Carolyn Nagau aka Nekimuntu',
-      githubLink: 'https://github.com/nekimuntu'
+    artName: 'Dragon Balls Radar',
+    pageLink: './Art/nekimuntu/index.html',
+    imageLink: './Art/nekimuntu/RadarDragonBalls.gif',
+    author: 'Carolyn Nagau aka Nekimuntu',
+    githubLink: 'https://github.com/nekimuntu'
   },
   {
     artName: 'Loader Animation',
@@ -143,7 +143,8 @@ let cards = [
     author: 'Blessing Mutava',
     githubLink: 'https://github.com/MaKloudz'
   },
-  { artName: 'That Animation',
+  {
+    artName: 'That Animation',
     pageLink: './Art/MaKloudz/index.html',
     imageLink: './Art/MaKloudz/dat-animation.gif',
     author: 'Blessing Mutava',
@@ -3144,21 +3145,20 @@ let cards = [
     imageLink: './Art/Alfredo/EP Sasuke.gif',
     author: 'Alfredo',
     githubLink: 'https://github.com/guzmana99'
-
   },
   {
     artName: 'Rolling Stone',
     pageLink: './Art/varunPuri/index.html',
     author: 'Varun Puri',
     githubLink: 'https://github.com/JutsuAfterHours'
-  }, 
+  },
   {
     artName: 'GlowingLoader',
     pageLink: './Art/JunaidKhan/GlowingLoader.html',
     imageLink: './Art/JunaidKhan/GlowingLoader.gif',
     author: 'Junaid',
     githubLink: 'https://github.com/JunaidKhan444'
-  }, 
+  },
   {
     artName: 'FlyingBird',
     pageLink: './Art/unhenei/flyingbird.html',
@@ -3214,13 +3214,20 @@ let cards = [
     imageLink: './Art/radlee-mask/radmask.gif',
     author: 'Radlee',
     githubLink: 'https://github.com/radlee'
-  }
+  },
   {
     artName: 'Yard Pimp',
     pageLink: './Art/John Gonzalez/index.html',
     imageLink: './Art/John Gonzalez/Yard_Pimp.gif',
     author: 'Joy',
     githubLink: 'https://github.com/johngg15'
+  },
+  {
+    artName: 'Sesame Ouvre Toi',
+    pageLink: './Art/Aourid/index.html',
+    imageLink: './Art/Aourid/icon.gif',
+    author: 'Sidi M. Aourid',
+    githubLink: 'https://github.com/aourid'
   }
 ];
 
