@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Flag animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .flags {
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+
+        }
+
+        .flag {
+            width: 17rem;
+            height: 12rem;
+            position: relative;
+            box-shadow: 0 0 5rem rgba(0, 0, 0, 0.3);
+            display: grid;
+            place-items: center;
+        }
+
+        .flag::before,
+        .flag::after {
+            content: "";
+            position: absolute;
+            height: 33.3%;
+            width: 100%;
+        }
+
+        .flag::before {
+            background-color: #ff9933;
+            top: 0;
+        }
+
+        .flag::after {
+            background-color: #009648;
+            bottom: 0;
+        }
+
+        .icon-ashoka {
+            content: url(./Ashoka_Chakra.svg);
+            height: 4rem;
+            position: relative;
+            animation: circle 5s linear infinite;
+        }
+
+        @keyframes circle {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flags">
+        <div class="flag">
+            <div class="icon-ashoka">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

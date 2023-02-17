@@ -7,14 +7,14 @@ let cards = [
     author: 'Rabia',
     githubLink: 'https://github.com/iamRabia-N'
   },
-  
+
   //  Nekimuntu Dragon Balls radar
   {
-      artName: 'Dragon Balls Radar',
-      pageLink: './Art/nekimuntu/index.html',
-      imageLink: './Art/nekimuntu/RadarDragonBalls.gif',
-      author: 'Carolyn Nagau aka Nekimuntu',
-      githubLink: 'https://github.com/nekimuntu'
+    artName: 'Dragon Balls Radar',
+    pageLink: './Art/nekimuntu/index.html',
+    imageLink: './Art/nekimuntu/RadarDragonBalls.gif',
+    author: 'Carolyn Nagau aka Nekimuntu',
+    githubLink: 'https://github.com/nekimuntu'
   },
   {
     artName: 'Loader Animation',
@@ -143,7 +143,8 @@ let cards = [
     author: 'Blessing Mutava',
     githubLink: 'https://github.com/MaKloudz'
   },
-  { artName: 'That Animation',
+  {
+    artName: 'That Animation',
     pageLink: './Art/MaKloudz/index.html',
     imageLink: './Art/MaKloudz/dat-animation.gif',
     author: 'Blessing Mutava',
@@ -3151,14 +3152,14 @@ let cards = [
     pageLink: './Art/varunPuri/index.html',
     author: 'Varun Puri',
     githubLink: 'https://github.com/JutsuAfterHours'
-  }, 
+  },
   {
     artName: 'GlowingLoader',
     pageLink: './Art/JunaidKhan/GlowingLoader.html',
     imageLink: './Art/JunaidKhan/GlowingLoader.gif',
     author: 'Junaid',
     githubLink: 'https://github.com/JunaidKhan444'
-  }, 
+  },
   {
     artName: 'FlyingBird',
     pageLink: './Art/unhenei/flyingbird.html',
@@ -3214,13 +3215,20 @@ let cards = [
     imageLink: './Art/radlee-mask/radmask.gif',
     author: 'Radlee',
     githubLink: 'https://github.com/radlee'
-  }
+  },
   {
     artName: 'Yard Pimp',
     pageLink: './Art/John Gonzalez/index.html',
     imageLink: './Art/John Gonzalez/Yard_Pimp.gif',
     author: 'Joy',
     githubLink: 'https://github.com/johngg15'
+  },
+  {
+    artName: 'India Flag Animation',
+    pageLink: './Art/india-flag/index.html',
+    imageLink: './Art/india-flag/india-flag.gif',
+    author: 'Ovesh Parasara',
+    githubLink: 'https://github.com/oveshparasara'
   }
 ];
 
@@ -3236,13 +3244,13 @@ let contents = [];
 Shuffle(cards).forEach((c) => {
   contents.push([
     `<li class="card">` +
-      `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
-      `</a>` +
-      `<div class="flex-content">` +
-      `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
-      `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
-      `</div>` +
-      `</li>`
+    `<img class="art-image" src='${c.imageLink}' alt='${c.artName}' />` +
+    `</a>` +
+    `<div class="flex-content">` +
+    `<a href='${c.pageLink}'><h3 class="art-title">${c.artName}</h3></a>` +
+    `<p class='author'><a href="${c.githubLink}" target="_blank"><i class="fab fa-github"></i> ${c.author}</a> </p>` +
+    `</div>` +
+    `</li>`
   ]);
 });
 
