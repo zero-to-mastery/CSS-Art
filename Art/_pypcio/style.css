@@ -1,0 +1,106 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+#ball {
+  height: 50px;
+  width: 50px;
+  background-color: #ba3131;
+  border-radius: 50%;
+  position: relative;
+  animation-name: roll;
+  /* animation-name: rotation; */
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border: 1px solid black;
+}
+.dot {
+  position: relative;
+  display: block;
+  height: 15px;
+  width: 5px;
+  background-color: #d6807b;
+  border-radius: 40%;
+  left: 37px;
+  top: 15px;
+}
+.dot-2 {
+  position: relative;
+  display: block;
+  height: 7px;
+  width: 2px;
+  background-color: #ebc1c1e7;
+  border-radius: 40%;
+  left: 3px;
+  top: 4px;
+}
+#line {
+  background-color: black;
+  height: 1px;
+  width: 40vw;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+@keyframes roll {
+  0% {
+    rotate: -90deg;
+    left: -100px;
+    top: -200px;
+  }
+  10% {
+    rotate: -45deg;
+    left: -100px;
+    top: -100px;
+  }
+  20% {
+    rotate: 0deg;
+    left: -100px;
+    top: 0px;
+  }
+  30% {
+    rotate: 45deg;
+    left: -70px;
+    top: -40px;
+  }
+  40% {
+    rotate: 90deg;
+    left: -40px;
+    top: -60px;
+  }
+  50% {
+    rotate: 135deg;
+    left: -10px;
+    top: -30px;
+  }
+  60% {
+    rotate: 180deg;
+    left: 20px;
+    top: 0px;
+  }
+  70% {
+    rotate: 225deg;
+    left: 50px;
+    top: -20px;
+  }
+  80% {
+    rotate: 270deg;
+    left: 70px;
+    top: -5px;
+  }
+  90% {
+    rotate: 315deg;
+    left: 90px;
+    top: 0px;
+  }
+  100% {
+    rotate: 360deg;
+    left: 110px;
+    top: 0px;
+  }
+}
