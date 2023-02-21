@@ -3214,13 +3214,20 @@ let cards = [
     imageLink: './Art/radlee-mask/radmask.gif',
     author: 'Radlee',
     githubLink: 'https://github.com/radlee'
-  }
+  },
   {
     artName: 'Yard Pimp',
     pageLink: './Art/John Gonzalez/index.html',
     imageLink: './Art/John Gonzalez/Yard_Pimp.gif',
     author: 'Joy',
     githubLink: 'https://github.com/johngg15'
+  },
+  {
+    artName: 'Pacman Animation',
+    pageLink: './Art/Pacman_Animation/index.html',
+    imageLink: './Art/Pacman_Animation/pacman.png',
+    author: 'Ervey',
+    githubLink: 'https://github.com/emontes22'
   }
 ];
 

@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.canva {
+	background: #101820FF;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	animation: canvaAn 3s infinite;
+}
+
+@keyframes canvaAn {
+	from {background: #101820FF;}
+	to {background: #FEE715FF;}
+}
+
+@keyframes pac {
+	from {border-top: 150px solid #FEE715FF;}
+	from {border-left: 150px solid #FEE715FF;}
+	from {border-bottom: 150px solid #FEE715FF;}
+	to {border-top: 150px solid #101820FF;}
+	to {border-left: 150px solid #101820FF;}
+	to {border-bottom: 150px solid #101820FF;}
+}
+
+.pacman, .pacman2, .pacman3, .pacman5, .pacman6, .pacman8 {
+	animation: pac 3s infinite;
+}
+
+.pacman {
+	width: 0px;
+	height: 0px;
+	border-right: 150px solid transparent;
+	border-top: 150px solid #FEE715FF;
+	border-left: 150px solid #FEE715FF;
+	border-bottom: 150px solid #FEE715FF;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	position: absolute;
+	top: 5vmin;
+	left: 5vmin;
+}
+
+.pacman1 {
+	width: 0px;
+	height: 0px;
+	border-right: 150px solid transparent;
+	border-top: 150px solid #FEE715FF;
+	border-left: 150px solid #FEE715FF;
+	border-bottom: 150px solid #FEE715FF;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	position: absolute;
+	top: 35vmin;
+	left: 35vmin;
+}
+
+.pacman2 {
+	width: 0px;
+	height: 0px;
+	border-right: 150px solid transparent;
+	border-top: 150px solid #FEE715FF;
+	border-left: 150px solid #FEE715FF;
+	border-bottom: 150px solid #FEE715FF;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	position: absolute;
+	top: 65vmin;
+	left: 5vmin;
+}
+
+.pacman3 {
+	width: 0px;
+	height: 0px;
+	border-right: 150px solid transparent;
+	border-top: 150px solid #FEE715FF;
+	border-left: 150px solid #FEE715FF;
+	border-bottom: 150px solid #FEE715FF;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	position: absolute;
+	top: 65vmin;
+	left: 65vmin;
+}
+
+.pacman4 {
+	width: 0px;
+	height: 0px;
+	border-right: 150px solid transparent;
+	border-top: 150px solid #FEE715FF;
+	border-left: 150px solid #FEE715FF;
+	border-bottom: 150px solid #FEE715FF;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	position: absolute;
+	top: 35vmin;
+	left: 95vmin;
+}
+
+.pacman5 {
+	width: 0px;
+	height: 0px;
+	border-right: 150px solid transparent;
+	border-top: 150px solid #FEE715FF;
+	border-left: 150px solid #FEE715FF;
+	border-bottom: 150px solid #FEE715FF;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	position: absolute;
+	top: 5vmin;
+	left: 65vmin;
+}
+
+.pacman6 {
+	width: 0px;
+	height: 0px;
+	border-right: 150px solid transparent;
+	border-top: 150px solid #FEE715FF;
+	border-left: 150px solid #FEE715FF;
+	border-bottom: 150px solid #FEE715FF;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	position: absolute;
+	top: 5vmin;
+	left: 125vmin;
+}
+
+.pacman7 {
+	width: 0px;
+	height: 0px;
+	border-right: 150px solid transparent;
+	border-top: 150px solid #FEE715FF;
+	border-left: 150px solid #FEE715FF;
+	border-bottom: 150px solid #FEE715FF;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	position: absolute;
+	top: 35vmin;
+	left: 155vmin;
+}
+
+.pacman8 {
+	width: 0px;
+	height: 0px;
+	border-right: 150px solid transparent;
+	border-top: 150px solid #FEE715FF;
+	border-left: 150px solid #FEE715FF;
+	border-bottom: 150px solid #FEE715FF;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	position: absolute;
+	top: 65vmin;
+	left: 125vmin;
+}
