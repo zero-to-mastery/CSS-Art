@@ -17,6 +17,13 @@ let cards = [
       githubLink: 'https://github.com/nekimuntu'
   },
   {
+      artName: 'Spooky',
+      pageLink: './Art/spooky/index.html',
+      imageLink: './Art/spooky/GHOST.gif',
+      author: 'Mike',
+      githubLink: 'https://github.com/Mednalig'
+  },
+  {
     artName: 'Loader Animation',
     pageLink: './Art/tarunmankar/index.html',
     imageLink: './Art/tarunmankar/LoaderAnimation.gif',
