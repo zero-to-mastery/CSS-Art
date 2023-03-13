@@ -3221,6 +3221,13 @@ let cards = [
     imageLink: './Art/John Gonzalez/Yard_Pimp.gif',
     author: 'Joy',
     githubLink: 'https://github.com/johngg15'
+  },
+  {
+    artName: 'Awesome Web Animation',
+    pageLink: './Art/awesomeweb/index.html',
+    imageLink: './Art/awesomeweb/aw.png',
+    author: 'Vic',
+    githubLink: 'https://github.com/victoriagullotti'
   }
 ];
 
