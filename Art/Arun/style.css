@@ -1,4 +1,4 @@
-section {
+.section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,19 +6,19 @@ section {
   background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
 }
 
-section .color {
+.section .color {
   position: absolute;
   filter: blur(150px);
 }
 
-section .color:nth-child(1) {
+.section .color:nth-child(1) {
   top: -350px;
   width: 1000px;
   height: 800px;
   background-color: #df0e76;
 }
 
-section .color:nth-child(2) {
+.section .color:nth-child(2) {
   bottom: -150px;
   left: 100px;
   width: 800px;
@@ -26,7 +26,7 @@ section .color:nth-child(2) {
   background-color: #fffd87;
 }
 
-section .color:nth-child(3) {
+.section .color:nth-child(3) {
   bottom: 50px;
   right: 100px;
   width: 600px;
