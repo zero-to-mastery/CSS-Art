@@ -3228,7 +3228,14 @@ let cards = [
     imageLink: './Art/awesomeweb/aw.png',
     author: 'Vic',
     githubLink: 'https://github.com/victoriagullotti'
-  }
+  }, 
+   {
+    artName: 'Sesame Ouvre Toi',
+    pageLink: './Art/Aourid/index.html',
+    imageLink: './Art/Aourid/icon.gif',
+    author: 'Sidi M. Aourid',
+    githubLink: 'https://github.com/aourid'
+   }
 ];
 
 // +--------------------------------------------------------------------------------+
