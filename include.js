@@ -3214,7 +3214,7 @@ let cards = [
     imageLink: './Art/radlee-mask/radmask.gif',
     author: 'Radlee',
     githubLink: 'https://github.com/radlee'
-  }
+  },
   {
     artName: 'Yard Pimp',
     pageLink: './Art/John Gonzalez/index.html',
@@ -3228,7 +3228,15 @@ let cards = [
     imageLink: './Art/awesomeweb/aw.png',
     author: 'Vic',
     githubLink: 'https://github.com/victoriagullotti'
+  },
+  {
+    artName: 'weiwern',
+    pageLink: './Art/weiwern/index.html',
+    imageLink: './Art/weiwern/img.png',
+    author: 'Fixlim',
+    githubLink: 'https://github.com/Fixlim'
   }
+
 ];
 
 // +--------------------------------------------------------------------------------+
