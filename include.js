@@ -3228,7 +3228,15 @@ let cards = [
     imageLink: './Art/awesomeweb/aw.png',
     author: 'Vic',
     githubLink: 'https://github.com/victoriagullotti'
+  },
+  {
+    artName: 'Meow Animation',
+    pageLink: './Art/Raj/index.html',
+    imageLink: './Art/Raj/Animation.gif',
+    author: 'Rajzamal',
+    githubLink: 'https://github.com/Rajzamal/'
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
