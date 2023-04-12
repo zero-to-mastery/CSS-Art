@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Road Bicycle',
+    pageLink: './Art/ramon-cortes/index.html',
+    imageLink: './Art/ramon-cortes/css-bicycle.gif',
+    author: 'Ramon Cortes',
+    githubLink: 'https://github.com/ramon-cortes'
+  },
+  {
     artName: 'Hello World!',
     pageLink: './Art/Rabia/index.html',
     imageLink: './Art/Rabia/hello_world.gif',
@@ -3214,7 +3221,7 @@ let cards = [
     imageLink: './Art/radlee-mask/radmask.gif',
     author: 'Radlee',
     githubLink: 'https://github.com/radlee'
-  }
+  },
   {
     artName: 'Yard Pimp',
     pageLink: './Art/John Gonzalez/index.html',
@@ -3235,7 +3242,29 @@ let cards = [
     imageLink: './Art/Aourid/icon.gif',
     author: 'Sidi M. Aourid',
     githubLink: 'https://github.com/aourid'
-   }
+  },
+  {
+    artName: 'weiwern',
+    pageLink: './Art/weiwern/index.html',
+    imageLink: './Art/weiwern/img.png',
+    author: 'Fixlim',
+    githubLink: 'https://github.com/Fixlim'
+  },
+{
+    artName: 'Meow Animation',
+    pageLink: './Art/Raj/index.html',
+    imageLink: './Art/Raj/Animation.gif',
+    author: 'Rajzamal',
+    githubLink: 'https://github.com/Rajzamal/'
+},
+{
+    artName: 'monisa-animation',
+    pageLink: './Art/monisa-animation/index.html',
+    imageLink: './Art/monisa-animation/animate.gif',
+    author: 'Monisa Mirza',
+    githubLink: 'https://github.com/monisa-mirza'
+
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

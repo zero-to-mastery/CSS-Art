@@ -1,0 +1,371 @@
+.reference-img {
+  margin: 10px;
+  z-index: 10;
+}
+
+img {
+  width: 500px;
+}
+
+.abs {
+  position: absolute;
+}
+
+.wheel {  
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+  border-radius: 50%;
+}
+
+.hub-back {  
+  top: 283px;
+  left: 131px;  
+}
+
+.hub-front {
+  top: 283px;
+  left: 377px;
+}
+
+.frame {
+  background-color: red;
+  width: 8px;
+  z-index: 90;
+}
+
+.frame-1 {  
+  height: 128px;  
+  top: 180px;
+  left: 166px;
+  transform: rotate(32deg);
+}
+
+.frame-2 {
+  height: 117px;
+  top: 236px;
+  left: 195px;
+  transform: rotate(90deg);
+}
+
+.frame-3 {
+  height: 132px;
+  top: 166px;
+  left: 220px;
+  transform: rotate(-23deg);
+}
+
+.frame-4 {
+  height: 143px;
+  top: 153px;
+  left: 358px;
+  transform: rotate(-20deg);
+}
+
+.frame-5 {
+  height: 146px;
+  top: 113px;
+  left: 273px;  
+  transform: rotate(90deg);
+}
+
+.frame-6 {
+  height: 146px;
+  top: 173px;
+  left: 296px;  
+  transform: rotate(45deg);
+}
+
+.darkgrey {
+  background-color: rgb(58, 58, 58);
+}
+
+.grey {
+  background-color: grey;
+}
+
+.white {
+  background-color: white;
+}
+
+.lightgrey {
+  background-color: rgb(136, 136, 136);
+}
+
+.pedal-hub {  
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  top: 269px;
+  left: 229px;
+  z-index: 190;
+}
+
+.pedal-hub-bearing {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 282px;
+  left: 240px;
+  z-index: 290;
+}
+
+.pedal-hub-base {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 4px solid rgb(58, 58, 58);
+  top: 279px;
+  left: 238px;
+  z-index: 390;
+}
+
+.crank-right {
+  width: 8px;
+  height: 50px;
+  top: 245px;
+  left: 252px;
+  z-index: 390;
+  transform: rotate(16deg);
+  z-index: 290;
+}
+
+.crank-left {
+  width: 8px;
+  height: 47px;
+  top: 295px;
+  left: 238px;
+  transform: rotate(16deg);
+  z-index: 90;
+}
+
+.pedals {
+  width: 8px;
+  height: 27px;
+  transform: rotate(90deg);
+  border-radius: 4px;
+}
+
+.pedal-right {  
+  top: 328px;
+  left: 233px;  
+}
+
+.pedal-left {
+  top: 230px;
+  left: 258px;  
+}
+
+.rims {
+  width: 132px;
+  height: 132px;
+  border: 5px solid lightgrey;
+  border-radius: 50%;  
+}
+
+.rim-back {
+  top: 222px;
+  left: 70px;
+}
+
+.rim-front {
+  top: 222px;
+  left: 315px;
+}
+
+.wheels {
+  width: 144px;
+  height: 144px;
+  border: 8px solid black;
+  border-radius: 50%;  
+}
+
+.wheel-back {
+  top: 213px;
+  left: 60px;
+}
+
+.wheel-front {
+  top: 213px;
+  left: 306px;
+}
+
+.handlebars {  
+  height: 10px;
+  border-radius: 5px;
+  transform: rotate(-16deg);
+}
+
+.base {
+  width: 50px;
+  top: 146px;
+  left: 320px;
+  z-index: 190;
+}
+
+.end {
+  width: 20px;
+  top: 169px;
+  left: 360px;
+  z-index: 190;
+}
+
+.curve {
+  width: 18px;
+  height: 18px;
+  border: 10px solid rgb(58, 58, 58);
+  border-radius: 50%;
+  top: 140px;
+  left: 351px;
+  z-index: 10;
+}
+
+.curve-white {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  z-index: 110;
+  top: 145px;
+  left: 330px;
+  transform: rotate(-16deg);
+  z-index: 50;
+}
+
+.seat-post {
+  width: 15px;
+  height: 7px;
+  transform: rotate(-113deg);
+  top: 161px;
+  left: 188px;
+}
+
+.seat-front {
+  width: 53px;
+  height: 14px;
+  border-radius: 40%;
+  top: 146px;
+  left: 183px;
+}
+
+.seat-bottom {
+  width: 28px;
+  height: 17px;
+  border-radius: 50%;
+  top: 144px;
+  left: 171px;
+}
+
+.seat-back {
+  width: 25px;
+  height: 17px;
+  border-radius: 50%;
+  top: 143px;
+  left: 171px;
+  transform: rotate(15deg);
+}
+
+.spokes {
+  background-color: grey;
+  width: 135px;
+  height: 3px;
+}
+
+.spoke-1 {
+  top: 293px;
+  left: 319px;
+}
+
+.spoke-2 {
+  top: 293px;
+  left: 319px;
+  transform: rotate(45deg);
+}
+
+.spoke-3 {
+  top: 293px;
+  left: 319px;
+  transform: rotate(90deg);
+}
+
+.spoke-4 {
+  top: 293px;
+  left: 319px;
+  transform: rotate(-45deg);
+}
+
+.spoke-5 {
+  top: 293px;
+  left: 74px;  
+  transform: rotate(10deg);
+}
+
+.spoke-6 {
+  top: 293px;
+  left: 74px;
+  transform: rotate(55deg);
+}
+
+.spoke-7 {
+  top: 293px;
+  left: 74px;
+  transform: rotate(100deg);
+}
+
+.spoke-8 {
+  top: 293px;
+  left: 74px;
+  transform: rotate(-35deg);
+}
+
+/*I took the animation from "create-react-app" as a model. Im sure you have seen the spinning react logo */
+@media (prefers-reduced-motion: no-preference) {
+  .spoke-1, .spoke-5 {
+    animation: Rotate1 infinite 7s linear;
+  }
+  .spoke-2, .spoke-6 {
+    animation: Rotate2 infinite 7s linear;
+  }
+  .spoke-3, .spoke-7 {
+    animation: Rotate3 infinite 7s linear;
+  }
+  .spoke-4, .spoke-8 {
+    animation: Rotate4 infinite 7s linear;
+  }
+}
+
+@keyframes Rotate1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes Rotate2 {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(405deg);
+  }
+}
+
+@keyframes Rotate3 {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(450deg);
+  }
+}
+
+@keyframes Rotate4 {
+  from {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(315deg);
+  }
+}

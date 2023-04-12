@@ -1,0 +1,46 @@
+/*creating a key frame for animation*/
+@keyframes myanime {
+	from{
+
+		margin-top: 10px;
+		border-radius: 20px;
+
+	}
+	to{
+		
+		margin-top:200px;
+		transform: rotate(360deg);
+		background-color: purple;
+		border-radius: 40px;
+	}
+}
+.container
+{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	text-align: center;
+}
+h1{
+	color: plum;
+	text-align: center;
+}
+.box{
+	margin: 5px;
+	background-color: plum;
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+	animation-name: myanime;
+	animation-duration: 3s;
+	animation-iteration-count: 3;
+	animation-delay: 1s;
+	animation-direction: alternate;
+	transition: all 1s;
+}
+.box:hover{
+	animation-play-state: paused;
+	background-color: skyblue;
+	border-radius: 10px;
+	transform: rotate(180deg);
+}
