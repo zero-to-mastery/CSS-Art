@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Astronaut Floating',
+    pageLink: './Art/Oliveren/oliveren.html',
+    imageLink: './Art/Oliveren/astronaut.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/renjialan'
+  },
+  {
     artName: 'Road Bicycle',
     pageLink: './Art/ramon-cortes/index.html',
     imageLink: './Art/ramon-cortes/css-bicycle.gif',
