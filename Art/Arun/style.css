@@ -1,0 +1,132 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+}
+
+.section .color {
+  position: absolute;
+  filter: blur(150px);
+}
+
+.section .color:nth-child(1) {
+  top: -350px;
+  width: 1000px;
+  height: 800px;
+  background-color: #df0e76;
+}
+
+.section .color:nth-child(2) {
+  bottom: -150px;
+  left: 100px;
+  width: 800px;
+  height: 600px;
+  background-color: #fffd87;
+}
+
+.section .color:nth-child(3) {
+  bottom: 50px;
+  right: 100px;
+  width: 600px;
+  height: 400px;
+  background-color: #00d2ff;
+}
+
+.box {
+  position: relative;
+}
+
+.box .square {
+  position: absolute;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.287);
+  border-radius: 10px;
+  animation: animate 7s linear infinite;
+  animation-delay: calc(-1s * var(--i));
+}
+.box .bubble {
+  position: absolute;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.287);
+  border-radius: 50%;
+  animation: animate 7s linear infinite;
+  animation-delay: calc(-1s * var(--i));
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    transform: translateY(-430px);
+  }
+
+  50% {
+    transform: translateY(100px);
+  }
+}
+
+.box .square:nth-child(1) {
+  top: 150px;
+  left: 200px;
+  width: 120px;
+  height: 120px;
+  z-index: 28;
+}
+
+.box .square:nth-child(2) {
+  top: 150px;
+  left: 50px;
+  width: 120px;
+  height: 120px;
+  z-index: 28;
+}
+
+.box .square:nth-child(3) {
+  top: 150px;
+  left: -100px;
+  width: 120px;
+  height: 120px;
+  z-index: 28;
+}
+.box .square:nth-child(4) {
+  top: 150px;
+  left: -250px;
+  width: 120px;
+  height: 120px;
+  z-index: 28;
+}
+
+
+.box .bubble:nth-child(5) {
+  top: 45px;
+  left: 225px;
+  width: 60px;
+  height: 60px;
+}
+.box .bubble:nth-child(6) {
+  top: 45px;
+  left: 75px;
+   width: 60px;
+  height: 60px;
+}
+.box .bubble:nth-child(7) {
+  top: 45px;
+  left: -75px;
+   width: 60px;
+  height: 60px;
+}
+.box .bubble:nth-child(8) {
+  top: 45px;
+  left: -225px;
+  width: 60px;
+  height: 60px;
+}

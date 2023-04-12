@@ -1123,6 +1123,15 @@ let cards = [
     author: 'erics0n',
     githubLink: 'https://github.com/erics0n'
   },
+  
+  {
+    artName: 'Up and Down',
+    pageLink: './Art/Arun/index.html',
+    imageLink: './Art/Arun/Arun-Lohani.gif',
+    author: 'Arun Lohani',
+    githubLink: 'https://github.com/Socialfew146575'
+  },
+  
   {
     artName: 'Burger Menu',
     pageLink: './Art/mctrl/burger.html',
