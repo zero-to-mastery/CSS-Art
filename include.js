@@ -3230,12 +3230,21 @@ let cards = [
     githubLink: 'https://github.com/victoriagullotti'
   },
   {
+    artName: 'Meow Animation',
+    pageLink: './Art/Raj/index.html',
+    imageLink: './Art/Raj/Animation.gif',
+    author: 'Rajzamal',
+    githubLink: 'https://github.com/Rajzamal/'
+},
+{
     artName: 'monisa-animation',
     pageLink: './Art/monisa-animation/index.html',
     imageLink: './Art/monisa-animation/animate.gif',
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
+
   }
+  
 ];
 
 // +--------------------------------------------------------------------------------+
