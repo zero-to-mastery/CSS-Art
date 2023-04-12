@@ -3235,6 +3235,14 @@ let cards = [
     imageLink: './Art/Raj/Animation.gif',
     author: 'Rajzamal',
     githubLink: 'https://github.com/Rajzamal/'
+},
+{
+    artName: 'monisa-animation',
+    pageLink: './Art/monisa-animation/index.html',
+    imageLink: './Art/monisa-animation/animate.gif',
+    author: 'Monisa Mirza',
+    githubLink: 'https://github.com/monisa-mirza'
+
   }
   
 ];
