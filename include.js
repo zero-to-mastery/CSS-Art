@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Road Bicycle',
+    pageLink: './Art/ramon-cortes/index.html',
+    imageLink: './Art/ramon-cortes/css-bicycle.gif',
+    author: 'Ramon Cortes',
+    githubLink: 'https://github.com/ramon-cortes'
+  },
+  {
     artName: 'Hello World!',
     pageLink: './Art/Rabia/index.html',
     imageLink: './Art/Rabia/hello_world.gif',
