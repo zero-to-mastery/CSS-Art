@@ -1,0 +1,173 @@
+.box {
+position:relative;
+display:block;
+margin:auto;
+margin-top: 8%;
+width:600px;
+height: 420px;
+
+}
+
+
+
+
+.head{
+    position:absolute;
+  
+  
+    top: 20%;
+    left: 30%;
+    background: rgb(84, 174, 235);
+    width: 40%;
+    height: 60%;
+    border-radius:50%;
+
+}
+
+
+.head-copy{
+    position:absolute;
+    top: 20%;
+    left: 30%;
+    background: rgb(84, 174, 235);
+    width: 40%;
+    height: 60%;
+    border-radius:50%;
+    z-index: 2;
+}
+
+.ear-left{
+    position:absolute;
+    width: 60%;
+    height: 65%;
+    left: -20%;
+    top: 5%;
+    background: #A6BECF;
+    border-radius:50%;
+    z-index: 1;
+    transform: rotate(-45deg);
+    animation-name: ear;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    /* animation: wave 4s ease-in-out infinite; */
+
+}
+
+@keyframes ear {
+
+from{background-color: #A6BECF;}
+to{background-color: aqua;}
+  }
+
+/* @keyframes ear {
+    0%,
+
+    100% {
+      transform: translateY(0) rotate(45deg);
+    }
+    50% {
+      transform: translateY(0px) rotate(110deg);
+    }
+  } */
+
+.ear-right{
+    position:absolute;
+    width: 60%;
+    height: 65%;
+    right: -20%;
+    top: 5%;
+    background: #A6BECF;
+    border-radius:50%;
+    z-index: 1;
+    transform: rotate(45deg);
+    animation-name: ear;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.inner-ear{
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: #819CAF;
+}
+
+
+
+.left-eye{
+
+    position: absolute;
+    border-radius: 50%;
+    width:25%;
+    height:25%;
+    top: 25%;
+    left: 21%;
+    z-index:3;
+    background: rgb(3, 0, 2);
+}
+
+.right-eye{
+
+    position: absolute;
+    border-radius: 50%;
+    width:25%;
+    height:25%;
+    top: 25%;
+    right: 21%;
+    z-index:3;
+    background: rgb(0, 0, 0);
+
+}
+
+
+.pupil{
+    position: absolute;
+    border-radius: 50%;
+    width:40%;
+    height:40%;
+    top: 30%;
+    left: 30%;
+    z-index:3;
+    background: rgb(236, 221, 0);
+}
+
+
+.nose{
+    border-radius:50px;
+    width: 10%;
+    height: 22%;
+    left: 45%;
+    top :45%;
+    position: absolute;
+    z-index: 4;
+    background: rgb(61, 238, 135);
+}
+
+
+.hair{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    background:  #12eb6c;
+    clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
+
+}
+
+
+
+body{
+    background-color: rgb(35, 35, 90); 
+ }
+
+
+  
