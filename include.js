@@ -3287,6 +3287,13 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  },
+  {
+    artName: 'this My Egg.',
+    pageLink:'./Art/Mattazz/index.html',
+    imageLink: './Art/Mattazz/egg.gif',
+    author: 'Mattazz',
+    githubLink: 'https://github.com/mattazz'
   }
 ];
 
