@@ -1,0 +1,135 @@
+/** 
+Author: Milad (Cyrus) Mobini
+Github: https://github.com/milad2281
+*/
+
+:root {
+  --rotateSpeed: 30s;
+}
+
+body {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 75px;
+  perspective: 10em;
+  perspective-origin: 50% calc(50% - 2.5em);
+  overflow: hidden;
+}
+
+.scene {
+  position: relative;
+  transform-style: preserve-3d;
+  animation: sceneRotate var(--rotateSpeed) infinite linear;
+}
+@keyframes sceneRotate {
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.ball {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0em;
+  animation: ballBounce infinite ease-out, sceneRotate infinite linear reverse;
+}
+
+.ball0 {
+  left: -4.5em;
+  background-image: radial-gradient(circle at top, #add8e6, #000);
+  animation-delay: 0s;
+  width: 1.2em;
+  height: 1.2em;
+  animation-duration: 2s, var(--rotateSpeed);
+}
+.ball1 {
+  left: -3em;
+  background-image: radial-gradient(circle at top, #ade6cb, #000);
+  animation-delay: 0.5s;
+  width: 1em;
+  height: 1em;
+  animation-duration: 1.5s, var(--rotateSpeed);
+}
+.ball2 {
+  left: -1.5em;
+  background-image: radial-gradient(circle at top, #ade6b2, #000);
+  animation-delay: 1s;
+  width: 0.7em;
+  height: 0.7em;
+  animation-duration: 1s, var(--rotateSpeed);
+}
+.ball3 {
+  left: -0.5em;
+  background-image: radial-gradient(circle at top, #d0e6ad, #000);
+  animation-delay: 1.5s;
+  width: 2em;
+  height: 2em;
+  animation-duration: 2.5s, var(--rotateSpeed);
+}
+.ball4 {
+  left: 1.7em;
+  background-image: radial-gradient(circle at top, #e6bfad, #000);
+  animation-delay: 2s;
+  width: 1em;
+  height: 1em;
+  animation-duration: 1.5s, var(--rotateSpeed);
+}
+.ball5 {
+  left: 3em;
+  background-image: radial-gradient(circle at top, #dbade6, #000);
+  animation-delay: 2.5s;
+  width: 1.6em;
+  height: 1.6em;
+  animation-duration: 1.7s, var(--rotateSpeed);
+}
+.ball6 {
+  left: 4.7em;
+  background-image: radial-gradient(circle at top, #e6adbe, #000);
+  animation-delay: 3s;
+  width: 0.9em;
+  height: 0.9em;
+  animation-duration: 1.2s, var(--rotateSpeed);
+}
+
+@keyframes ballBounce {
+  0%,
+  100% {
+    bottom: 0em;
+  }
+  50% {
+    bottom: 3em;
+    animation-timing-function: ease-in;
+  }
+}
+
+.ballshadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#0007, #0000 50%);
+  animation: ballShadow var(--bounceSpeed) infinite ease-out;
+}
+@keyframes ballShadow {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(2);
+    opacity: 0.5;
+    animation-timing-function: ease-in;
+  }
+}
+
+.floor {
+  width: 15em;
+  height: 15em;
+  background-image: radial-gradient(#0000, #000 75%),
+    repeating-conic-gradient(from 45deg, #111 0deg 90deg, #222 90deg 180deg);
+  background-size: 100%, 1em 1em;
+  position: absolute;
+  transform: translate(-50%, -50%) rotateX(90deg);
+}
