@@ -3287,6 +3287,13 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  },
+  {
+    artName: 'Pokeball',
+    pageLink: './Art/Pokeball/index.html',
+    imageLink: './Art/Pokeball/poke.png',
+    author: 'Dorian',
+    githubLink: 'https://github.com/DMW-K'
   }
 ];
 

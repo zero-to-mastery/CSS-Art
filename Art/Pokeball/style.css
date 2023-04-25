@@ -1,0 +1,89 @@
+body {
+	background-color: yellow;
+}
+
+.pokeball {
+	position: absolute;
+	top: calc(50% - 150px);
+	left: calc(50% - 150px);
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	transform-origin: 50% 1%;
+	animation: wobble 2s infinite;
+}
+
+.top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background: linear-gradient(to right, crimson, darkred);
+}
+
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 22px;
+	background: black;
+	transform: translateY(-50%);
+}
+
+.middle::before {
+content: '';
+position: absolute;
+top: 15px;
+left: 50%;
+width: 80px;
+height: 80px;
+background: black;
+border-radius: 50%;
+transform: translate(-50%, -50%);
+}
+
+.middle::after {
+content: '';
+position: absolute;
+top: 15px;
+left: 50%;
+width: 50px;
+height: 50px;
+background: linear-gradient(to right, white, gray);
+border-radius: 50%;
+transform: translate(-50%, -50%);
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background: linear-gradient(to right, white, gray);
+}
+
+.shadow {
+	position: absolute;
+	top: calc(50% + 150px);
+	left: 50%;
+	width: 300px;
+	height: 100px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	filter: blur(10px);
+	transform: translate(-50%, -50%);
+}
+
+@keyframes wobble {
+   0% { transform: translateX(0%); } 
+   15% { transform: translateX(-25%) rotate(-5deg); } 
+   30% { transform: translateX(20%) rotate(3deg); } 
+   45% { transform: translateX(-15%) rotate(-3deg); } 
+   60% { transform: translateX(10%) rotate(2deg); }
+   75% { transform: translateX(-5%) rotate(-1deg); }
+   100% { transform: translateX(0%); } 
+}
