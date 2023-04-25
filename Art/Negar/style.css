@@ -1,0 +1,52 @@
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(68, 5, 57);
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(108, 0, 109);
+  /* border-radius: 50%; */
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation-name: colorful;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorful {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    background-color: rgb(88, 1, 90);
+  }
+  20% {
+    transform: translate(-50%, -50%) rotate(60deg) scale(1.5);
+    background-color: rgb(134, 0, 136);
+  }
+  40% {
+    transform: translate(-50%, -50%) rotate(120deg) scale(2);
+    background-color: rgb(207, 86, 255);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(150deg) scale(2.5);
+    background-color: rgb(252, 243, 255);
+  }
+  60% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(2);
+    background-color: rgb(207, 86, 255);
+  }
+  80% {
+    transform: translate(-50%, -50%) rotate(240deg) scale(1.5);
+    background-color: rgb(134, 0, 136);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(1);
+    background-color: rgb(88, 1, 90);
+  }
+}
