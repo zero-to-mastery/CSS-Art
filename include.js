@@ -3286,8 +3286,14 @@ let cards = [
     imageLink: './Art/monisa-animation/animate.gif',
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
-
-  }
+  },
+  {
+    artName: 'ZMN Tron',
+    pageLink: './Art/kazimovzaman2/index.html',
+    imageLink: './Art/kazimovzaman2/index.gif',
+    author: 'Zaman',
+    githubLink: 'https://github.com/kazimovzaman2'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
