@@ -3287,6 +3287,13 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  },
+  {
+    artName: 'Ball Bounce',
+    pageLink: './Art/Cole-Heigis/ball_bounce.html',
+    imageLink: './Art/Cole-Heigis/ball.gif',
+    author: 'Cole Heigis',
+    githubLink: 'https://github.com/Cole-Heigis'
   }
 ];
 

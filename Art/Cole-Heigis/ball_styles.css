@@ -1,0 +1,28 @@
+.ball{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 3px white solid;
+    position: relative;
+    left: 20%; 
+    top: 2%;
+    animation-name: fall;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fall {
+    0% {left: 20%; top: 0%;}
+    40% {left: 0%; top: 15%; width: 100px; height: 100px;}
+    45% {left: 0%; top: 15%; width: 70px; height: 130px;}
+    50% {left: 0%; top: 15%; width: 100px; height: 100px;}
+    90% {left: 20%; top: 30%;}
+    100% {left: 20%; top: 0%;}
+}
+
+.background{
+    height: 85vw;
+    background-color: black;
+}
