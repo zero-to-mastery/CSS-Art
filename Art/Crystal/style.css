@@ -1,0 +1,17 @@
+div{
+  width: 200px;
+  height: 200px;
+  background: center/200% 100% repeat url(./univ.jpg);
+  border-radius: 50%;
+  animation: 3s linear 0s infinite normal R;
+
+  background-image: url(./sand.jpg);
+  box-shadow: -9px -9px 40px #000 inset, 5px 5px 9px #fff inset;
+  background-size: 200% 100%;
+  animation-duration: 2s;
+}
+
+@keyframes R{
+  from{background-position-x: right;}
+  to{background-position-x: left;}
+}

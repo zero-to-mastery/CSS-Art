@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Planet',
+    pageLink: './Art/Crystal/crystal.html',
+    imageLink: './Art/Crystal/crystal.gif',
+    author: 'SuJung Song',
+    githubLink: 'https://github.com/SONG-crystal'
+  },
+  {
     artName: 'Astronaut Floating',
     pageLink: './Art/Oliveren/oliveren.html',
     imageLink: './Art/Oliveren/astronaut.gif',
