@@ -3287,7 +3287,14 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
-  }
+  },
+{
+    artName: 'Football',
+    pageLink: './Art/KalebArmbrust/index.html',
+    imageLink: './Art/KalebArmbrust/animation.png',
+    author: 'KalebArmbrust',
+    githubLink: 'https://github.com/KalebArmbrust/'
+}
 ];
 
 // +--------------------------------------------------------------------------------+
