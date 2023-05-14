@@ -3287,6 +3287,13 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  },
+{
+    artName: 'Triangle',
+    pageLink: './Art/LonelyWolf/index.html',
+    imageLink: './Art/LonelyWolf/Triangle.gif',
+    author: 'LonelyWolf',
+    githubLink: 'https://github.com/lonelyWolf-developer'
   }
 ];
 
