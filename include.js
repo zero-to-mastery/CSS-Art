@@ -3287,6 +3287,13 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  },
+    {
+    artName: 'mockeyface_art',
+    pageLink: './Art/daniel1david/art.html',
+    imageLink: './Art/daniel1david/mockeyface_art.gif',
+    author: 'daniel1david',
+    githubLink: 'https://github.com/daniel1david'
   }
 ];
 
