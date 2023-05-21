@@ -3287,6 +3287,13 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  },
+  {
+    artName: 'Simple heart animation',
+    pageLink: './Art/Pradnya136/index.html',
+    imageLink: './Art/Pradnya136/heart.gif',
+    author: 'Pradnya Sonawane',
+    githubLink: 'https://github.com/Pradnya136'
   }
 ];
 
