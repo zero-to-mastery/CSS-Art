@@ -3287,6 +3287,13 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  },
+  {
+    artName: 'lunar eclipse',
+    pageLink: './Art/ankush/moon.html',
+    imageLink: './Art/ankush/lunar eclipse.gif',
+    author: 'ankush',
+    githubLink: 'https://github.com/ankushtripathii'
   }
 ];
 
