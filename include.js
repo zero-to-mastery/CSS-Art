@@ -2136,6 +2136,13 @@ let cards = [
     githubLink: 'https://github.com/mahlqvist'
   },
   {
+    artName: 'Bender',
+    pageLink: './Art/Ferro-coder/index.html',
+    imageLink: './Art/Ferro-coder/bender.png',
+    author: 'Ferro',
+    githubLink: 'https://github.com/Ferro-coder'
+  },
+  {
     artName: 'ZTM animation',
     pageLink: './Art/ZTManimation/index.html',
     author: 'damniha',
