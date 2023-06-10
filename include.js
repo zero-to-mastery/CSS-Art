@@ -3292,7 +3292,7 @@ let cards = [
     artName: 'Animatron2',
     pageLink: './Art/Rey/Animatron2/index.html',
     imageLink: './Art/Rey/Animatron2/trance.gif',
-    author: 'Rey',
+    author: 'Rey Villena Jr.',
     githubLink: 'https://github.com/reyvillenajr'
   },
 ];
