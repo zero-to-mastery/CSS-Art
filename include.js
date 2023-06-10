@@ -3287,6 +3287,14 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  },
+  {
+    artName: 'edlenh-animation',
+    pageLink: './Art/Edlenh/index.html',
+    imageLink: './Art/Edlenh/animate.gif',
+    author: 'Edward Herrera',
+    githubLink: 'https://github.com/Edlenh'
+
   }
 ];
 
