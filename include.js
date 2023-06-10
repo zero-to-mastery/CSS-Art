@@ -3287,7 +3287,14 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
-  }
+  },
+  {
+    artName: 'Animatron2',
+    pageLink: './Art/Rey/Animatron2/index.html',
+    imageLink: './Art/Rey/Animatron2/trance.gif',
+    author: 'Rey',
+    githubLink: 'https://github.com/reyvillenajr'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
