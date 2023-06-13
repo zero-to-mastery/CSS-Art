@@ -3273,20 +3273,27 @@ let cards = [
     author: 'Fixlim',
     githubLink: 'https://github.com/Fixlim'
   },
-{
+  {
     artName: 'Meow Animation',
     pageLink: './Art/Raj/index.html',
     imageLink: './Art/Raj/Animation.gif',
     author: 'Rajzamal',
     githubLink: 'https://github.com/Rajzamal/'
-},
-{
+  },
+  {
     artName: 'monisa-animation',
     pageLink: './Art/monisa-animation/index.html',
     imageLink: './Art/monisa-animation/animate.gif',
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  }, 
+  {
+    artName: 'Vintage Camera',
+    pageLink: './Art/yerda-zh/index.html',
+    imageLink: './Art/yerda-zh/Camera.gif',
+    author: 'Yerdaulet',
+    githubLink: 'https://github.com/yerda-zh'
   }
 ];
 
