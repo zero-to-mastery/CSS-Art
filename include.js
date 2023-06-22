@@ -3287,7 +3287,15 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
-  }
+  },
+  {
+      artName: 'Heart-Pulse Animation',
+      pageLink: './Art/Aqsa/HeartPulse/index.html',
+      imageLink: './Art/Aqsa/HeartPulse/HeartTransparentBG.png',
+      author: 'Aqsa',
+      githubLink: 'https://github.com/amussarat'
+    }
+
 ];
 
 // +--------------------------------------------------------------------------------+
