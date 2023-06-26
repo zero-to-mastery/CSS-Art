@@ -14,6 +14,15 @@ let cards = [
     author: 'Ramon Cortes',
     githubLink: 'https://github.com/ramon-cortes'
   },
+
+  {
+    artName: 'Blowing Candle',
+    pageLink: './Art/HamidSafdari/index.html',
+    imageLink: './Art/HamidSafdari/index.gif',
+    author: 'Hamid Safdari',
+    githubLink: 'https://github.com/HamidSafdari7'
+  },
+
   {
     artName: 'Hello World!',
     pageLink: './Art/Rabia/index.html',
