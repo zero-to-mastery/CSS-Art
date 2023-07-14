@@ -135,7 +135,14 @@ let cards = [
     author: 'Devarshi Doshi',
     githubLink: 'https://github.com/devarshidoshi'
   },
-
+    
+     {
+    artName: 'Sahil',
+    pageLink: './Art/Sahil/index.html',
+    imageLink: './Art/Sahil/project.gif',
+    author: 'Sahil',
+    githubLink: 'https://github.com/Sahil21dev'
+  }
   {
     artName: 'Vitrola',
     pageLink: './Art/Pliavi/vitrola.html',
