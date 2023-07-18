@@ -38,6 +38,13 @@ let cards = [
       githubLink: 'https://github.com/Mednalig'
   },
   {
+    artName: 'shadow bars',
+    pageLink: './Art/Pazyxx/index.html',
+    imageLink: './Art/Pazyxx/animationGif.gif',
+    author: 'Pazyxx',
+    githubLink: 'https://github.com/Pazyxx'
+  },
+  {
     artName: 'Loader Animation',
     pageLink: './Art/tarunmankar/index.html',
     imageLink: './Art/tarunmankar/LoaderAnimation.gif',
