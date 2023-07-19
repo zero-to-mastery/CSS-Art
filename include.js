@@ -3287,7 +3287,14 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
-  }
+},
+{
+  artName: 'Fireworks',
+  pageLink: './Art/Fireworks/index.html',
+  imageLink: './Art/Fireworks/Fireworks.gif',
+  author: 'Connor',
+  githubLink: 'https://github.com/Connor-Csoky'
+}
 ];
 
 // +--------------------------------------------------------------------------------+
