@@ -3287,7 +3287,14 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
-  }
+  },
+  {
+    artName: 'Speed Bars',
+    pageLink: './Art/Fogudo/index.html',
+    imageLink: './Art/Fogudo/speedbars.gif',
+    author: 'Frederick Ogudo',
+    githubLink: 'https://github.com/Fogudo'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
