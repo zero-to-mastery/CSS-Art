@@ -21,7 +21,7 @@ let cards = [
     author: 'Rabia',
     githubLink: 'https://github.com/iamRabia-N'
   },
-  
+
   //  Nekimuntu Dragon Balls radar
   {
       artName: 'Dragon Balls Radar',
@@ -1130,7 +1130,7 @@ let cards = [
     author: 'erics0n',
     githubLink: 'https://github.com/erics0n'
   },
-  
+
   {
     artName: 'Up and Down',
     pageLink: './Art/Arun/index.html',
@@ -1138,7 +1138,7 @@ let cards = [
     author: 'Arun Lohani',
     githubLink: 'https://github.com/Socialfew146575'
   },
-  
+
   {
     artName: 'Burger Menu',
     pageLink: './Art/mctrl/burger.html',
@@ -3181,14 +3181,14 @@ let cards = [
     pageLink: './Art/varunPuri/index.html',
     author: 'Varun Puri',
     githubLink: 'https://github.com/JutsuAfterHours'
-  }, 
+  },
   {
     artName: 'GlowingLoader',
     pageLink: './Art/JunaidKhan/GlowingLoader.html',
     imageLink: './Art/JunaidKhan/GlowingLoader.gif',
     author: 'Junaid',
     githubLink: 'https://github.com/JunaidKhan444'
-  }, 
+  },
   {
     artName: 'FlyingBird',
     pageLink: './Art/unhenei/flyingbird.html',
@@ -3258,7 +3258,7 @@ let cards = [
     imageLink: './Art/awesomeweb/aw.png',
     author: 'Vic',
     githubLink: 'https://github.com/victoriagullotti'
-  }, 
+  },
    {
     artName: 'Sesame Ouvre Toi',
     pageLink: './Art/Aourid/index.html',
@@ -3287,8 +3287,16 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  },
+  {
+    artName: 'Plane in the sky',
+    pageLink: './Art/XanderClemens/index.html',
+    imageLink: './Art/XanderClemens/plane.gif',
+    author: 'Xander Clemens',
+    githubLink: 'https://github.com/XanderRubio'
   }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
