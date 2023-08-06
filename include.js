@@ -3287,7 +3287,14 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
-  }
+  },
+  {
+    artName: 'infinite-scrolling',
+    pageLink: './Art/DKJAIN/index.html',
+    imageLink: './Art/monisa-animation/infinite_scrolling.gif',
+    author: 'Dhruv Jain',
+    githubLink: 'https://github.com/dhruvkjain'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
