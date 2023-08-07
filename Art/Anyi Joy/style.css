@@ -1,12 +1,13 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
-body{
-  padding:0;
+body {
+  padding: 0;
   margin: 0;
 }
-.container{
+.container {
   background: linear-gradient(#050505, #f00);
   height: 100vh;
   width: 100vw;
@@ -14,45 +15,42 @@ body{
   align-items: center;
   justify-content: center;
 }
-.circle{ 
+.circle {
   background-color: #e5ec8e;
   height: 250px;
   width: 250px;
   border-radius: 60%;
- transform-style: preserve-3d;
+  transform-style: preserve-3d;
   animation: animate 4s linear infinite;
 }
-  @keyframes animate
-{
-  0%
-  {
+@keyframes animate {
+  0% {
     transform: rotateX(-30deg) rotateY(0deg);
   }
-  100%
-  {
+  100% {
     transform: rotateX(-30deg) rotateY(360deg);
   }
 }
 
-p{
+p {
   animation-duration: 3s;
-  animation-iteration-count:infinite;
-    animation-name:slidein;
+  animation-iteration-count: infinite;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    color: blue;
   }
-  @keyframes slidein{
-    from{
-      margin-left:100%;
-    width:300%; color:blue;
-    } 
-    75%{
-      font-size: 180%;
-      margin-left:25%;
-      width:150%
-    }
-    to{
-      margin-left:0px;
-    width:100px; 
-      color:yellow;
-    }
-    }
-  
+  75% {
+    font-size: 180%;
+    margin-left: 25%;
+    width: 150%;
+  }
+  to {
+    margin-left: 0px;
+    width: 100px;
+    color: yellow;
+  }
+}

@@ -1,108 +1,107 @@
-h1{
-    font-family:monospace;
-    text-align: center;
+h1 {
+  font-family: monospace;
+  text-align: center;
 }
 
-.circle1{
-    width:18em;
-    height:18em;
-    margin-top:13em;
-    margin-left:36em;
-    background-color: black;
-    border-radius:50%;
-    position:absolute;
-    z-index: 100;
+.circle1 {
+  width: 18em;
+  height: 18em;
+  margin-top: 13em;
+  margin-left: 36em;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 100;
 }
 
-.circle2{
-    width:12em;
-    height:12em;
-    margin-top:17em;
-    margin-left:35em;
-    background-color:red;
-    border-radius:50%;
-    position: relative;
-    animation-name:circle2;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+.circle2 {
+  width: 12em;
+  height: 12em;
+  margin-top: 17em;
+  margin-left: 35em;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  animation-name: circle2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-.circle3{
-    width:12em;
-    height:12em;
-    margin-top:-11em;
-    margin-left:39em;
-    background-color:yellow;
-    border-radius:50%;
-    position: absolute;
-    animation-name:circle3;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+.circle3 {
+  width: 12em;
+  height: 12em;
+  margin-top: -11em;
+  margin-left: 39em;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: circle3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-.circle4{
-    width:12em;
-    height:12em;
-    margin-top: -10em;
-    margin-left:39em;
-    background-color:orange;
-    border-radius:50%;
-    position: absolute;
-    animation-name:circle4;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+.circle4 {
+  width: 12em;
+  height: 12em;
+  margin-top: -10em;
+  margin-left: 39em;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: circle4;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-.circle5{
-    width:12em;
-    height:12em;
-    margin-top:-12em;
-    margin-left:35em;
-    background-color:greenyellow;
-    border-radius:50%;
-    position:absolute;
-    animation-name:circle5;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-
+.circle5 {
+  width: 12em;
+  height: 12em;
+  margin-top: -12em;
+  margin-left: 35em;
+  background-color: greenyellow;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: circle5;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-@keyframes circle2{
-    from{
-        left:3em;
-    }
-    to{
-        left:42.5em;
-    }
+@keyframes circle2 {
+  from {
+    left: 3em;
+  }
+  to {
+    left: 42.5em;
+  }
 }
 
-@keyframes circle3{
-    from{
-        top: 30em;
-    }
-    to{
-        top:11em;
-    }
+@keyframes circle3 {
+  from {
+    top: 30em;
+  }
+  to {
+    top: 11em;
+  }
 }
 
-@keyframes circle4{
-    from{
-        bottom: 18em;
-    }
-    to{
-        bottom:0em;
-    }
+@keyframes circle4 {
+  from {
+    bottom: 18em;
+  }
+  to {
+    bottom: 0em;
+  }
 }
 
-@keyframes circle5{
-    from{
-        left:5em;
-    }
-    to{
-        left:-35em;
-    }
+@keyframes circle5 {
+  from {
+    left: 5em;
+  }
+  to {
+    left: -35em;
+  }
 }

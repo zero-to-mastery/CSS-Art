@@ -11,7 +11,7 @@ img {
   position: absolute;
 }
 
-.wheel {  
+.wheel {
   background-color: red;
   width: 20px;
   height: 20px;
@@ -19,9 +19,9 @@ img {
   border-radius: 50%;
 }
 
-.hub-back {  
+.hub-back {
   top: 283px;
-  left: 131px;  
+  left: 131px;
 }
 
 .hub-front {
@@ -35,8 +35,8 @@ img {
   z-index: 90;
 }
 
-.frame-1 {  
-  height: 128px;  
+.frame-1 {
+  height: 128px;
   top: 180px;
   left: 166px;
   transform: rotate(32deg);
@@ -66,14 +66,14 @@ img {
 .frame-5 {
   height: 146px;
   top: 113px;
-  left: 273px;  
+  left: 273px;
   transform: rotate(90deg);
 }
 
 .frame-6 {
   height: 146px;
   top: 173px;
-  left: 296px;  
+  left: 296px;
   transform: rotate(45deg);
 }
 
@@ -93,7 +93,7 @@ img {
   background-color: rgb(136, 136, 136);
 }
 
-.pedal-hub {  
+.pedal-hub {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -147,21 +147,21 @@ img {
   border-radius: 4px;
 }
 
-.pedal-right {  
+.pedal-right {
   top: 328px;
-  left: 233px;  
+  left: 233px;
 }
 
 .pedal-left {
   top: 230px;
-  left: 258px;  
+  left: 258px;
 }
 
 .rims {
   width: 132px;
   height: 132px;
   border: 5px solid lightgrey;
-  border-radius: 50%;  
+  border-radius: 50%;
 }
 
 .rim-back {
@@ -178,7 +178,7 @@ img {
   width: 144px;
   height: 144px;
   border: 8px solid black;
-  border-radius: 50%;  
+  border-radius: 50%;
 }
 
 .wheel-back {
@@ -191,7 +191,7 @@ img {
   left: 306px;
 }
 
-.handlebars {  
+.handlebars {
   height: 10px;
   border-radius: 5px;
   transform: rotate(-16deg);
@@ -296,7 +296,7 @@ img {
 
 .spoke-5 {
   top: 293px;
-  left: 74px;  
+  left: 74px;
   transform: rotate(10deg);
 }
 
@@ -320,16 +320,20 @@ img {
 
 /*I took the animation from "create-react-app" as a model. Im sure you have seen the spinning react logo */
 @media (prefers-reduced-motion: no-preference) {
-  .spoke-1, .spoke-5 {
+  .spoke-1,
+  .spoke-5 {
     animation: Rotate1 infinite 7s linear;
   }
-  .spoke-2, .spoke-6 {
+  .spoke-2,
+  .spoke-6 {
     animation: Rotate2 infinite 7s linear;
   }
-  .spoke-3, .spoke-7 {
+  .spoke-3,
+  .spoke-7 {
     animation: Rotate3 infinite 7s linear;
   }
-  .spoke-4, .spoke-8 {
+  .spoke-4,
+  .spoke-8 {
     animation: Rotate4 infinite 7s linear;
   }
 }
