@@ -1,57 +1,57 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .hero {
-    background-image: url(ep.jpeg);
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    overflow-x: hidden;
+  background-image: url(ep.jpeg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
 }
 .road {
-    height: 200px;
-    width: 500%;
-    display: block;
-    background-image: url(road.jpg);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    background-repeat: repeat-x;
-    animation: highway 2s linear infinite;
+  height: 200px;
+  width: 500%;
+  display: block;
+  background-image: url(road.jpg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-repeat: repeat-x;
+  animation: highway 2s linear infinite;
 }
 @keyframes highway {
-    100%{
-        transform: translateX(-3400px);
-    }
+  100% {
+    transform: translateX(-3400px);
+  }
 }
 #city {
-    height: 475px;
-    width: 300%;
-    background-image: url(tree.png);
-    position: absolute;
-    bottom: 200px;
-    left: 0;
-    right: 0;
-    display: block;
-    z-index: 1;
-    background-repeat: repeat-x;
-    animation: city 2s linear infinite;
+  height: 475px;
+  width: 300%;
+  background-image: url(tree.png);
+  position: absolute;
+  bottom: 200px;
+  left: 0;
+  right: 0;
+  display: block;
+  z-index: 1;
+  background-repeat: repeat-x;
+  animation: city 2s linear infinite;
 }
 @keyframes city {
-    100%{
-        transform: translateX(-1400px);
-    }
+  100% {
+    transform: translateX(-1400px);
+  }
 }
 #runner {
-    width: 350px;
-    position: absolute;
-    left: 50%;
-    bottom: 150px;
-    transform: translateX(-50%);
-    z-index: 2;
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  bottom: 150px;
+  transform: translateX(-50%);
+  z-index: 2;
 }

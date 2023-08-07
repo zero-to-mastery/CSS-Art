@@ -1,78 +1,77 @@
-body{
-    background-color: green;   
-    display: grid;
-    justify-content: center; 
-    align-content: center;
+body {
+  background-color: green;
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
-.grid{
-    /* border: 1px solid black; */
+.grid {
+  /* border: 1px solid black; */
 }
-#container{
-    display: grid;
-    gap: 5px;
-    grid-template-columns: repeat(3, 1fr);    
-    grid-template-rows: repeat(3, 1fr);
-    /* align with this code from CSS-TRICK     */
-    /* +++++++++++++++++++++++++++++++++ */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* +++++++++++++++++++++++++++++++ */
-    /* grid-template-rows: 3fr; */
-    /* display: inline-grid; */
-    border: 1px solid black;
-    border-radius: 250px;
-    padding: 50px;
+#container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  /* align with this code from CSS-TRICK     */
+  /* +++++++++++++++++++++++++++++++++ */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* +++++++++++++++++++++++++++++++ */
+  /* grid-template-rows: 3fr; */
+  /* display: inline-grid; */
+  border: 1px solid black;
+  border-radius: 250px;
+  padding: 50px;
 }
 
-.arrow{
-    width: 0; 
-    height: 0; 
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 20px solid red;
-    align-self: center;
-    justify-self: center;
-    
-    /* animation: pulse 2s infinite; */
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid red;
+  align-self: center;
+  justify-self: center;
 
-    /* margin: 2rem;    */
+  /* animation: pulse 2s infinite; */
+
+  /* margin: 2rem;    */
 }
-.ball{
-    align-self:center;
-    justify-self: center;
-    grid-area:span;    
-    /* animation: pulse 5s infinite; */
-    background-color: #e4d61c;
-    padding: 1rem;
-    border-radius: 100%;
-    animation: scaleIn 2s infinite cubic-bezier(.36, .11, .89, .32);
+.ball {
+  align-self: center;
+  justify-self: center;
+  grid-area: span;
+  /* animation: pulse 5s infinite; */
+  background-color: #e4d61c;
+  padding: 1rem;
+  border-radius: 100%;
+  animation: scaleIn 2s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
 }
 @keyframes scaleIn {
-    from {
-      transform: scale(.5, .5);
-      opacity: .6;
-    }
-    to {
-      transform: scale(1.5, 1.5);
-      opacity: 1;
-    }
+  from {
+    transform: scale(0.5, 0.5);
+    opacity: 0.6;
   }
+  to {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+  }
+}
 @keyframes pulse {
-    0% {
-      background-color: #e4d61c;
-      
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;      
-      border-bottom: 50px solid red;
-    }
-    100% {
-      background-color: #FF4136;
-    }
+  0% {
+    background-color: #e4d61c;
+
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid red;
   }
-.zone{
-    cursor:grab;
-    
+  100% {
+    background-color: #ff4136;
+  }
+}
+.zone {
+  cursor: grab;
 }
