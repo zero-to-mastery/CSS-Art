@@ -3294,6 +3294,12 @@ let cards = [
     imageLink: './Art/LonelyWolf/Triangle.gif',
     author: 'LonelyWolf',
     githubLink: 'https://github.com/lonelyWolf-developer'
+  {
+    artName: 'this My Egg.',
+    pageLink:'./Art/Mattazz/index.html',
+    imageLink: './Art/Mattazz/egg.gif',
+    author: 'Mattazz',
+    githubLink: 'https://github.com/mattazz'
   }
 ];
 
