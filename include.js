@@ -3291,7 +3291,7 @@ let cards = [
   {
     artName: 'infinite-scrolling',
     pageLink: './Art/DKJAIN/index.html',
-    imageLink: './Art/monisa-animation/infinite_scrolling.gif',
+    imageLink: './Art/DKJAIN/infinite_scrolling.gif',
     author: 'Dhruv Jain',
     githubLink: 'https://github.com/dhruvkjain'
   },
