@@ -3294,32 +3294,34 @@ let cards = [
     author: 'anandaffaA',
     githubLink: 'https://github.com/anandaffA'
   },
-    {
+  {
     artName: 'mockeyface_art',
     pageLink: './Art/daniel1david/art.html',
     imageLink: './Art/daniel1david/mockeyface_art.gif',
     author: 'daniel1david',
     githubLink: 'https://github.com/daniel1david'
-{
+  },
+  {
     artName: 'Triangle',
     pageLink: './Art/LonelyWolf/index.html',
     imageLink: './Art/LonelyWolf/Triangle.gif',
     author: 'LonelyWolf',
     githubLink: 'https://github.com/lonelyWolf-developer'
+  },
   {
     artName: 'this My Egg.',
-    pageLink:'./Art/Mattazz/index.html',
+    pageLink: './Art/Mattazz/index.html',
     imageLink: './Art/Mattazz/egg.gif',
     author: 'Mattazz',
     githubLink: 'https://github.com/mattazz'
-  }
+  },
   {
     artName: 'Hover Me effect',
     pageLink: './Art/Sameer/index.html',
     imageLink: './Art/Sameer/hover.gif',
     author: 'Sameer ',
     githubLink: 'https://github.com/xvisierra'
-}
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
