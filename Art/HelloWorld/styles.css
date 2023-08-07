@@ -1,124 +1,193 @@
 .box {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: lightblue;
-    border: 10px solid red;
-    max-width: 50%;
-    height: 100px;
-    margin-left:auto;
-    margin-right: auto;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: lightblue;
+  border: 10px solid red;
+  max-width: 50%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
 
-    text-align: center;
+  text-align: center;
 }
 
 @keyframes H {
-    0% {top: 10px;}
-    25% {top: 20px;}
-    50% {top: 30px;}
-    75% {top: 40px;}
-    100% {top: 50px;}
+  0% {
+    top: 10px;
+  }
+  25% {
+    top: 20px;
+  }
+  50% {
+    top: 30px;
+  }
+  75% {
+    top: 40px;
+  }
+  100% {
+    top: 50px;
+  }
 }
 
 @keyframes E {
-    0% {top: 10px;}
-    25% {top: 20px;}
-    50% {top: 30px;}
-    75% {top: 40px;}
-    100% {top: 50px;}
+  0% {
+    top: 10px;
+  }
+  25% {
+    top: 20px;
+  }
+  50% {
+    top: 30px;
+  }
+  75% {
+    top: 40px;
+  }
+  100% {
+    top: 50px;
+  }
 }
 
 @keyframes L {
-    0% {top: 10px;}
-    25% {top: 20px;}
-    50% {top: 30px;}
-    75% {top: 40px;}
-    100% {top: 50px;}
-    
+  0% {
+    top: 10px;
+  }
+  25% {
+    top: 20px;
+  }
+  50% {
+    top: 30px;
+  }
+  75% {
+    top: 40px;
+  }
+  100% {
+    top: 50px;
+  }
 }
 
 @keyframes O {
-    0% {top: 10px;}
-    25% {top: 20px;}
-    50% {top: 30px;}
-    75% {top: 40px;}
-    100% {top: 50px;}
+  0% {
+    top: 10px;
+  }
+  25% {
+    top: 20px;
+  }
+  50% {
+    top: 30px;
+  }
+  75% {
+    top: 40px;
+  }
+  100% {
+    top: 50px;
+  }
 }
 
 @keyframes W {
-    0% {top: 10px;}
-    25% {top: 20px;}
-    50% {top: 30px;}
-    75% {top: 40px;}
-    100% {top: 50px;}
+  0% {
+    top: 10px;
+  }
+  25% {
+    top: 20px;
+  }
+  50% {
+    top: 30px;
+  }
+  75% {
+    top: 40px;
+  }
+  100% {
+    top: 50px;
+  }
 }
 
 @keyframes R {
-    0% {top: 10px;}
-    25% {top: 20px;}
-    50% {top: 30px;}
-    75% {top: 40px;}
-    100% {top: 50px;}
+  0% {
+    top: 10px;
+  }
+  25% {
+    top: 20px;
+  }
+  50% {
+    top: 30px;
+  }
+  75% {
+    top: 40px;
+  }
+  100% {
+    top: 50px;
+  }
 }
 
 @keyframes D {
-    0% {top: 10px;}
-    25% {top: 20px;}
-    50% {top: 30px;}
-    75% {top: 40px;}
-    100% {top: 50px;}
+  0% {
+    top: 10px;
+  }
+  25% {
+    top: 20px;
+  }
+  50% {
+    top: 30px;
+  }
+  75% {
+    top: 40px;
+  }
+  100% {
+    top: 50px;
+  }
 }
 
 .H {
-    background-color: khaki;
-    position: relative;
-    animation-name: H;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+  background-color: khaki;
+  position: relative;
+  animation-name: H;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .E {
-    background-color: blueviolet;
-    position: relative;
-    animation-name: E;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+  background-color: blueviolet;
+  position: relative;
+  animation-name: E;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .L {
-    background-color: aqua;
-    position: relative;
-    animation-name: E;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+  background-color: aqua;
+  position: relative;
+  animation-name: E;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .O {
-    background-color: orange;
-    position: relative;
-    animation-name: E;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+  background-color: orange;
+  position: relative;
+  animation-name: E;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .W {
-    background-color: lightcoral;
-    position: relative;
-    animation-name: E;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+  background-color: lightcoral;
+  position: relative;
+  animation-name: E;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .R {
-    background-color: pink;
-    position: relative;
-    animation-name: E;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+  background-color: pink;
+  position: relative;
+  animation-name: E;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .D {
-    background-color: orchid;
-    position: relative;
-    animation-name: E;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+  background-color: orchid;
+  position: relative;
+  animation-name: E;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
