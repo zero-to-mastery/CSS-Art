@@ -3316,6 +3316,13 @@ let cards = [
     githubLink: 'https://github.com/mattazz'
   },
   {
+    artName: 'Simple heart animation',
+    pageLink: './Art/Pradnya136/index.html',
+    imageLink: './Art/Pradnya136/heart.gif',
+    author: 'Pradnya Sonawane',
+    githubLink: 'https://github.com/Pradnya136'
+  },
+  {
     artName: 'Hover Me effect',
     pageLink: './Art/Sameer/index.html',
     imageLink: './Art/Sameer/hover.gif',
