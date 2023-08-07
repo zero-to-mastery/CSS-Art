@@ -3307,6 +3307,13 @@ let cards = [
     author: 'Mattazz',
     githubLink: 'https://github.com/mattazz'
   }
+  {
+    artName: 'Hover Me effect',
+    pageLink: './Art/Sameer/index.html',
+    imageLink: './Art/Sameer/hover.gif',
+    author: 'Sameer ',
+    githubLink: 'https://github.com/xvisierra'
+}
 ];
 
 // +--------------------------------------------------------------------------------+
