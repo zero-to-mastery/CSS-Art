@@ -3288,6 +3288,12 @@ let cards = [
     githubLink: 'https://github.com/monisa-mirza'
 
   },
+{
+    artName: 'Triangle',
+    pageLink: './Art/LonelyWolf/index.html',
+    imageLink: './Art/LonelyWolf/Triangle.gif',
+    author: 'LonelyWolf',
+    githubLink: 'https://github.com/lonelyWolf-developer'
   {
     artName: 'this My Egg.',
     pageLink:'./Art/Mattazz/index.html',
