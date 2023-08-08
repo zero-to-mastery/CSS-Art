@@ -21,21 +21,21 @@ let cards = [
     author: 'Rabia',
     githubLink: 'https://github.com/iamRabia-N'
   },
-  
+
   //  Nekimuntu Dragon Balls radar
   {
-      artName: 'Dragon Balls Radar',
-      pageLink: './Art/nekimuntu/index.html',
-      imageLink: './Art/nekimuntu/RadarDragonBalls.gif',
-      author: 'Carolyn Nagau aka Nekimuntu',
-      githubLink: 'https://github.com/nekimuntu'
+    artName: 'Dragon Balls Radar',
+    pageLink: './Art/nekimuntu/index.html',
+    imageLink: './Art/nekimuntu/RadarDragonBalls.gif',
+    author: 'Carolyn Nagau aka Nekimuntu',
+    githubLink: 'https://github.com/nekimuntu'
   },
   {
-      artName: 'Spooky',
-      pageLink: './Art/spooky/index.html',
-      imageLink: './Art/spooky/GHOST.gif',
-      author: 'Mike',
-      githubLink: 'https://github.com/Mednalig'
+    artName: 'Spooky',
+    pageLink: './Art/spooky/index.html',
+    imageLink: './Art/spooky/GHOST.gif',
+    author: 'Mike',
+    githubLink: 'https://github.com/Mednalig'
   },
   {
     artName: 'Loader Animation',
@@ -164,7 +164,8 @@ let cards = [
     author: 'Blessing Mutava',
     githubLink: 'https://github.com/MaKloudz'
   },
-  { artName: 'That Animation',
+  {
+    artName: 'That Animation',
     pageLink: './Art/MaKloudz/index.html',
     imageLink: './Art/MaKloudz/dat-animation.gif',
     author: 'Blessing Mutava',
@@ -1130,7 +1131,7 @@ let cards = [
     author: 'erics0n',
     githubLink: 'https://github.com/erics0n'
   },
-  
+
   {
     artName: 'Up and Down',
     pageLink: './Art/Arun/index.html',
@@ -1138,7 +1139,7 @@ let cards = [
     author: 'Arun Lohani',
     githubLink: 'https://github.com/Socialfew146575'
   },
-  
+
   {
     artName: 'Burger Menu',
     pageLink: './Art/mctrl/burger.html',
@@ -3174,21 +3175,20 @@ let cards = [
     imageLink: './Art/Alfredo/EP Sasuke.gif',
     author: 'Alfredo',
     githubLink: 'https://github.com/guzmana99'
-
   },
   {
     artName: 'Rolling Stone',
     pageLink: './Art/varunPuri/index.html',
     author: 'Varun Puri',
     githubLink: 'https://github.com/JutsuAfterHours'
-  }, 
+  },
   {
     artName: 'GlowingLoader',
     pageLink: './Art/JunaidKhan/GlowingLoader.html',
     imageLink: './Art/JunaidKhan/GlowingLoader.gif',
     author: 'Junaid',
     githubLink: 'https://github.com/JunaidKhan444'
-  }, 
+  },
   {
     artName: 'FlyingBird',
     pageLink: './Art/unhenei/flyingbird.html',
@@ -3258,8 +3258,8 @@ let cards = [
     imageLink: './Art/awesomeweb/aw.png',
     author: 'Vic',
     githubLink: 'https://github.com/victoriagullotti'
-  }, 
-   {
+  },
+  {
     artName: 'Sesame Ouvre Toi',
     pageLink: './Art/Aourid/index.html',
     imageLink: './Art/Aourid/icon.gif',
@@ -3273,27 +3273,69 @@ let cards = [
     author: 'Fixlim',
     githubLink: 'https://github.com/Fixlim'
   },
-{
+  {
     artName: 'Meow Animation',
     pageLink: './Art/Raj/index.html',
     imageLink: './Art/Raj/Animation.gif',
     author: 'Rajzamal',
     githubLink: 'https://github.com/Rajzamal/'
-},
-{
+  },
+  {
     artName: 'monisa-animation',
     pageLink: './Art/monisa-animation/index.html',
     imageLink: './Art/monisa-animation/animate.gif',
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
-
   },
   {
-    artName: 'Scrolling-text',
+    artName: 'OEC Eclipse',
+    pageLink: './Art/OEC/oec.html',
+    imageLink: './Art/OEC/OECmoon.gif',
+    author: 'anandaffaA',
+    githubLink: 'https://github.com/anandaffA'
+  },
+  {
+    artName: 'mockeyface_art',
+    pageLink: './Art/daniel1david/art.html',
+    imageLink: './Art/daniel1david/mockeyface_art.gif',
+    author: 'daniel1david',
+    githubLink: 'https://github.com/daniel1david'
+  },
+  {
+    artName: 'Triangle',
+    pageLink: './Art/LonelyWolf/index.html',
+    imageLink: './Art/LonelyWolf/Triangle.gif',
+    author: 'LonelyWolf',
+    githubLink: 'https://github.com/lonelyWolf-developer'
+  },
+  {
+    artName: 'this My Egg.',
+    pageLink: './Art/Mattazz/index.html',
+    imageLink: './Art/Mattazz/egg.gif',
+    author: 'Mattazz',
+    githubLink: 'https://github.com/mattazz'
+  },
+  {
+    artName: 'Simple heart animation',
+    pageLink: './Art/Pradnya136/index.html',
+    imageLink: './Art/Pradnya136/heart.gif',
+    author: 'Pradnya Sonawane',
+    githubLink: 'https://github.com/Pradnya136'
+  },
+  {
+    artName: 'Hover Me effect',
+    pageLink: './Art/Sameer/index.html',
+    imageLink: './Art/Sameer/hover.gif',
+    author: 'Sameer ',
+    githubLink: 'https://github.com/xvisierra'
+  },
+  {
+    artName: 'Scrolling',
     pageLink: './Art/Dhruv/index.html',
     imageLink: './Art/Dhruv/scroll.gif',
+    author: 'Dhruv Jain',
     githubLink: 'https://github.com/dhruvkjain'
-  }
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

@@ -1,35 +1,35 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 100vh;
-    background: white;
-    color: orangered;
-    animation: animate 3s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+  color: orangered;
+  animation: animate 3s linear infinite;
 }
 
 @keyframes animate {
-    0% {
-       filter: hue-rotate(0deg); 
-    }
-    100% {
-        filter: hue-rotate(360deg);
-    }
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 
 .image-box {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
 .image-box img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }

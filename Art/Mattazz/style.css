@@ -1,0 +1,79 @@
+*,
+*:before,
+*:after {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px rgba(130, 130, 130, 0.408);
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  text-decoration: underline;
+}
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(155, 223, 255);
+  color: black;
+}
+
+.main-container {
+  height: 300px;
+  width: 230px;
+  background-color: white;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  box-shadow: 25px 0 rgba(0, 0, 0, 0.1);
+  transform: rotate(0deg);
+  transition: all 1s ease-in-out;
+}
+.main-container:hover {
+  transform: rotate(18000deg);
+  transition: all 10s ease-in-out;
+}
+
+div.main-container:before {
+  z-index: 1;
+  content: '';
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  background-color: rgb(55, 55, 55);
+  border-radius: 50%;
+  top: 180px;
+  right: 88px;
+  box-shadow: -40px 0 0 #010008, 10px 15px 0 -2px #f5750f,
+    -50px 15px 0 -2px #f5750f;
+}
+div.main-container:after {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 25px;
+  background-color: black;
+  top: 200px;
+  left: 102px;
+  border-radius: 5px 5px 15px 15px;
+  border: 3px solid #010008;
+  background: radial-gradient(at 50% 100%, #f5750f 8px, #010008 8px);
+}
+
+div.eyes {
+  min-width: 150px;
+  min-height: 160px;
+  background-color: #f5d201;
+  position: absolute;
+  border-radius: 50%;
+  top: 110px;
+  right: 40px;
+  z-index: 0;
+}

@@ -9,15 +9,21 @@
 
 h1 {
   text-transform: uppercase;
-	background-image: linear-gradient(to right top, #ffff34, #ffc812, #ff8f2f, #ff554d, #eb1267);
-   background-size: 50% auto;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    to right top,
+    #ffff34,
+    #ffc812,
+    #ff8f2f,
+    #ff554d,
+    #eb1267
+  );
+  background-size: 50% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Poppins', sans-serif;
   font-size: 8vw;
-  animation: gradientAnim 7.5s ease  alternate infinite;
+  animation: gradientAnim 7.5s ease alternate infinite;
 }
-
 
 @keyframes gradientAnim {
   to {
