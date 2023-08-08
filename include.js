@@ -3328,7 +3328,14 @@ let cards = [
     imageLink: './Art/Sameer/hover.gif',
     author: 'Sameer ',
     githubLink: 'https://github.com/xvisierra'
-  }
+  },
+  {
+    artName: 'Scrolling',
+    pageLink: './Art/Dhruv/index.html',
+    imageLink: './Art/Dhruv/scroll.gif',
+    author: 'Dhruv Jain',
+    githubLink: 'https://github.com/dhruvkjain'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
