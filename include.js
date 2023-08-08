@@ -3344,6 +3344,13 @@ let cards = [
     githubLink: 'https://github.com/dhruvkjain'
   },
   {
+    artName: 'Smiley Emoji Animation',
+    pageLink: './Art/Nevin06/index.html',
+    imageLink: './Art/Nevin06/smiley.gif',
+    author: 'Thomas Nevin K',
+    githubLink: 'https://github.com/Nevin06'
+  },
+  {
     artName: 'lunar eclipse',
     pageLink: './Art/ankush/moon.html',
     imageLink: './Art/ankush/lunar eclipse.gif',
