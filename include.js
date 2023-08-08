@@ -3343,6 +3343,13 @@ let cards = [
     author: 'Dhruv Jain',
     githubLink: 'https://github.com/dhruvkjain'
   },
+  {
+    artName: 'Smiley Emoji Animation',
+    pageLink: './Art/Nevin06/index.html',
+    imageLink: './Art/Nevin06/smiley.gif',
+    author: 'Thomas Nevin K',
+    githubLink: 'https://github.com/Nevin06'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
