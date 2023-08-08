@@ -3287,6 +3287,12 @@ let cards = [
     author: 'Monisa Mirza',
     githubLink: 'https://github.com/monisa-mirza'
 
+  },
+  {
+    artName: 'Scrolling-text',
+    pageLink: './Art/Dhruv/index.html',
+    imageLink: './Art/Dhruv/scroll.gif',
+    githubLink: 'https://github.com/dhruvkjain'
   }
 ];
 
