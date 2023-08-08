@@ -3343,6 +3343,13 @@ let cards = [
     author: 'Dhruv Jain',
     githubLink: 'https://github.com/dhruvkjain'
   },
+  {
+    artName: 'lunar eclipse',
+    pageLink: './Art/ankush/moon.html',
+    imageLink: './Art/ankush/lunar eclipse.gif',
+    author: 'ankush',
+    githubLink: 'https://github.com/ankushtripathii'
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
