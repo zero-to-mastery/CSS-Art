@@ -3370,6 +3370,13 @@ let cards = [
     imageLink: './Art/Rey/Animatron2/trance.gif',
     author: 'Rey Villena Jr.',
     githubLink: 'https://github.com/reyvillenajr'
+  },
+  {
+    artName: 'edlenh-animation',
+    pageLink: './Art/Edlenh/index.html',
+    imageLink: './Art/Edlenh/animate.gif',
+    author: 'Edward Herrera',
+    githubLink: 'https://github.com/Edlenh'
   }
 ];
 
