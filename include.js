@@ -3477,6 +3477,13 @@ let cards = [
     githubLink: 'https://github.com/AnrichV'
   },
   {
+    artName: 'Speed Bars',
+    pageLink: './Art/Fogudo/index.html',
+    imageLink: './Art/Fogudo/speedbars.gif',
+    author: 'Frederick Ogudo',
+    githubLink: 'https://github.com/Fogudo'
+  },
+  {
     artName: 'webdesign4ever-animation',
     pageLink: './Art/webdesign4ever/index.html',
     imageLink: './Art/webdesign4ever/animation.gif',
