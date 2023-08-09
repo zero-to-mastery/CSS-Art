@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: orangered;
+  position: relative;
+  animation-name: anim;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  border-radius: 50px;
+  border-style: outset;
+  border-color: black;
+}
+
+@keyframes anim {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: orangered;
+  }
+
+  25% {
+    top: 0;
+    left: 500px;
+    background-color: green;
+  }
+  50% {
+    top: 500px;
+    left: 500px;
+    background-color: purple;
+  }
+
+  75% {
+    top: 500px;
+
+    left: 0;
+    background-color: yellow;
+  }
+  100% {
+    top: 0;
+    right: 0;
+    background-color: rgb(31, 182, 220);
+  }
+}
