@@ -1,6 +1,5 @@
 body {
   background-color: #444444;
-  
 }
 
 h2 {
@@ -16,7 +15,6 @@ h2 {
 /* Parent container where the pacman and the ghost 
  * will move*/
 .runway {
-  
 }
 
 /*Pacman:
@@ -123,7 +121,7 @@ h2 {
     left: 0%;
   }
   100% {
-    left:55%;
+    left: 55%;
   }
 }
 /**/
@@ -141,8 +139,8 @@ h2 {
     background-color: red;
   }
   100% {
-   border-bottom:transparent;
-   background-color: transparent;
+    border-bottom: transparent;
+    background-color: transparent;
   }
 }
 /**/
