@@ -3377,6 +3377,13 @@ let cards = [
     imageLink: './Art/Edlenh/animate.gif',
     author: 'Edward Herrera',
     githubLink: 'https://github.com/Edlenh'
+  },
+  {
+    artName: 'Vintage Camera',
+    pageLink: './Art/yerda-zh/index.html',
+    imageLink: './Art/yerda-zh/Camera.gif',
+    author: 'Yerdaulet',
+    githubLink: 'https://github.com/yerda-zh'
   }
 ];
 
