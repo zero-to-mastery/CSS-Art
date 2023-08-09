@@ -3363,6 +3363,13 @@ let cards = [
     imageLink: './Art/ankush/lunar eclipse.gif',
     author: 'ankush',
     githubLink: 'https://github.com/ankushtripathii'
+  },
+  {
+    artName: 'Animatron2',
+    pageLink: './Art/Rey/Animatron2/index.html',
+    imageLink: './Art/Rey/Animatron2/trance.gif',
+    author: 'Rey Villena Jr.',
+    githubLink: 'https://github.com/reyvillenajr'
   }
 ];
 
