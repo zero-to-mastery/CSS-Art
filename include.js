@@ -94,6 +94,20 @@ let cards = [
     githubLink: 'https://github.com/Mednalig'
   },
   {
+    artName: 'Dragon Balls Radar',
+    pageLink: './Art/nekimuntu/index.html',
+    imageLink: './Art/nekimuntu/RadarDragonBalls.gif',
+    author: 'Carolyn Nagau aka Nekimuntu',
+    githubLink: 'https://github.com/nekimuntu'
+  },
+  {
+    artName: 'Dragon Balls Radar',
+    pageLink: './Art/nekimuntu/index.html',
+    imageLink: './Art/nekimuntu/RadarDragonBalls.gif',
+    author: 'Carolyn Nagau aka Nekimuntu',
+    githubLink: 'https://github.com/nekimuntu'
+  },
+  {
     artName: 'Spooky',
     pageLink: './Art/spooky/index.html',
     imageLink: './Art/spooky/GHOST.gif',
@@ -9395,6 +9409,13 @@ let cards = [
     imageLink: './Art/rainbow-circle/traunce.gif',
     author: 'Chandni',
     githubLink: 'https://github.com/Chandni-1399'
+  },
+  {
+    artName: 'erickelninoSwift',
+    pageLink: './Art/erickelninoSwift/index.html',
+    imageLink: './Art/erickelninoSwift/erickBallCricus.gif',
+    author: 'Erick El nino Tshimbombo',
+    githubLink: 'https://github.com/erickelninoSwift'
   }
 ];
 
