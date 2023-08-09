@@ -3475,6 +3475,13 @@ let cards = [
     imageLink: './Art/Anrich/Portball.gif',
     author: 'Anrich',
     githubLink: 'https://github.com/AnrichV'
+  },
+  {
+    artName: 'webdesign4ever-animation',
+    pageLink: './Art/webdesign4ever/index.html',
+    imageLink: './Art/webdesign4ever/animation.gif',
+    author: 'webdesign4ever',
+    githubLink: 'https://github.com/webdesign4ever'
   }
 ];
 
