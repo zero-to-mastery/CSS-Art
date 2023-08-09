@@ -3405,6 +3405,13 @@ let cards = [
     imageLink: './Art/Believe/believe.gif',
     author: 'BusraKahraman',
     githubLink: 'https://github.com/BusraKahraman'
+  },
+  {
+    artName: 'Heart-Pulse Animation',
+    pageLink: './Art/index.html',
+    imageLink: './Art/Aqsa/HeartTransparentBG.png',
+    author: 'Aqsa',
+    githubLink: 'https://github.com/amussarat'
   }
 ];
 

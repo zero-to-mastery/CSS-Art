@@ -1,0 +1,18 @@
+body {
+  background: rgba(104, 6, 146, 0.932);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#wrapper {
+  position: absolute;
+  animation: heartpulse 1s infinite;
+}
+
+@keyframes heartpulse {
+  10% {
+    transform: scale(1.1);
+  }
+}
