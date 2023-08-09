@@ -1,157 +1,157 @@
 .box {
-    position: relative;
-    margin: auto;
-    display: block;
-    margin-top: 8%;
-    width: 600px;
-    height: 420px;
-    background: none;
-  }
-  
-  .head {
-    position: absolute;
-    top: 16.5%;
-    left: 25%;
-    width: 50%;
-    height: 67%;
-    background: #29738f;
-    clip-path: ellipse(48% 43% at 49% 62%);
-    animation: nod 5s infinite;
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+}
+
+.head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #29738f;
+  clip-path: ellipse(48% 43% at 49% 62%);
+  animation: nod 5s infinite;
+  transform: translateY(0);
+}
+.head-outline {
+  position: absolute;
+  top: 18.5%;
+  left: 25%;
+  width: 49%;
+  height: 61%;
+  background: #29738f;
+  clip-path: ellipse(49% 47% at 50% 64%);
+  animation: nod 5s infinite;
+  transform: translateY(0);
+  background-color: black;
+}
+
+@keyframes nod {
+  0% {
     transform: translateY(0);
   }
-  .head-outline {
-    position: absolute;
-    top: 18.5%;
-    left: 25%;
-    width: 49%;
-    height: 61%;
-    background: #29738f;
-    clip-path: ellipse(49% 47% at 50% 64%);
-    animation: nod 5s infinite;
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
     transform: translateY(0);
-    background-color: black;
   }
-  
-  @keyframes nod {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes nod-right {
-    0% {
-      transform: rotateY(180deg) translateY(0);
-    }
-    50% {
-      transform: rotateY(180deg) translateY(-10px);
-    }
-  
-    100% {
-      transform: rotateY(180deg) translateY(0);
-    }
-  }
-  
-  .ear-left {
-    position: absolute;
-    width: 20%;
-    height: 25%;
-    left: 28%;
-    top: 25%;
-    background: #29738f;
-    border: 1px solid black;
-    border-radius: 15% 85% 0 10%/20% 100% 0 80%;
-    clip-path: polygon(0 0, 100% 0, 100% 18%, 0 90%);
-    animation: nod 5s infinite;
-  }
-  .ear-right {
-    position: absolute;
-    width: 20%;
-    height: 25%;
-    right: 29%;
-    top: 25%;
-    background: #29738f;
-    border-radius: 15% 85% 0 10%/20% 100% 0 80%;
-    clip-path: polygon(0 0, 100% 0, 100% 18%, 0 90%);
+}
+
+@keyframes nod-right {
+  0% {
     transform: rotateY(180deg) translateY(0);
-    border: 1px solid black;
-    animation: nod-right 5s infinite;
   }
-  
-  .face-1 {
-    position: absolute;
-    width: 65%;
-    height: 87%;
-    clip-path: ellipse(49% 43% at 51% 63%);
-    right: 31%;
-    top: 18%;
-    background: #f1e5db;
-    transform: rotateZ(0deg);
+  50% {
+    transform: rotateY(180deg) translateY(-10px);
   }
-  
-  .face-1-outline {
-    position: absolute;
-    width: 67%;
-    height: 89%;
-    clip-path: ellipse(49% 44% at 53% 64%);
-    right: 31%;
-    top: 17%;
-    background: #f1e5db;
-    transform: rotateZ(0deg);
-    background-color: black;
-    z-index: -1;
+
+  100% {
+    transform: rotateY(180deg) translateY(0);
   }
-  
-  .face-2 {
-    position: absolute;
-    width: 65%;
-    height: 87%;
-    clip-path: ellipse(49% 43% at 51% 63%);
-    right: 6%;
-    top: 18%;
-    background: #f1e5db;
-    transform: rotateZ(0deg);
-  }
-  
-  .face-2-outline {
-    position: absolute;
-    width: 67%;
-    height: 88%;
-    clip-path: ellipse(48% 44% at 51% 63%);
-    right: 5%;
-    top: 18%;
-    background-color: black;
-    transform: rotateZ(0deg);
-    z-index: -1;
-  }
-  
-  .eye-1 {
-    position: absolute;
-    width: 4rem;
-    height: 0rem;
-    border: 1px solid black;
-    right: 22%;
-    top: 55%;
-    background: #010101;
-  }
-  .eye-2 {
-    position: absolute;
-    width: 4rem;
-    height: 0rem;
-    border: 1px solid #010101;
-  
-    left: 22%;
-    top: 55%;
-    background: #010101;
-  }
-  
-  /*.mouth {
+}
+
+.ear-left {
+  position: absolute;
+  width: 20%;
+  height: 25%;
+  left: 28%;
+  top: 25%;
+  background: #29738f;
+  border: 1px solid black;
+  border-radius: 15% 85% 0 10%/20% 100% 0 80%;
+  clip-path: polygon(0 0, 100% 0, 100% 18%, 0 90%);
+  animation: nod 5s infinite;
+}
+.ear-right {
+  position: absolute;
+  width: 20%;
+  height: 25%;
+  right: 29%;
+  top: 25%;
+  background: #29738f;
+  border-radius: 15% 85% 0 10%/20% 100% 0 80%;
+  clip-path: polygon(0 0, 100% 0, 100% 18%, 0 90%);
+  transform: rotateY(180deg) translateY(0);
+  border: 1px solid black;
+  animation: nod-right 5s infinite;
+}
+
+.face-1 {
+  position: absolute;
+  width: 65%;
+  height: 87%;
+  clip-path: ellipse(49% 43% at 51% 63%);
+  right: 31%;
+  top: 18%;
+  background: #f1e5db;
+  transform: rotateZ(0deg);
+}
+
+.face-1-outline {
+  position: absolute;
+  width: 67%;
+  height: 89%;
+  clip-path: ellipse(49% 44% at 53% 64%);
+  right: 31%;
+  top: 17%;
+  background: #f1e5db;
+  transform: rotateZ(0deg);
+  background-color: black;
+  z-index: -1;
+}
+
+.face-2 {
+  position: absolute;
+  width: 65%;
+  height: 87%;
+  clip-path: ellipse(49% 43% at 51% 63%);
+  right: 6%;
+  top: 18%;
+  background: #f1e5db;
+  transform: rotateZ(0deg);
+}
+
+.face-2-outline {
+  position: absolute;
+  width: 67%;
+  height: 88%;
+  clip-path: ellipse(48% 44% at 51% 63%);
+  right: 5%;
+  top: 18%;
+  background-color: black;
+  transform: rotateZ(0deg);
+  z-index: -1;
+}
+
+.eye-1 {
+  position: absolute;
+  width: 4rem;
+  height: 0rem;
+  border: 1px solid black;
+  right: 22%;
+  top: 55%;
+  background: #010101;
+}
+.eye-2 {
+  position: absolute;
+  width: 4rem;
+  height: 0rem;
+  border: 1px solid #010101;
+
+  left: 22%;
+  top: 55%;
+  background: #010101;
+}
+
+/*.mouth {
     position: absolute;
     left: 33%;
     top: 51%;
@@ -161,119 +161,118 @@
     border-color: transparent transparent #010101 transparent;
     border-radius: 0 0 200px 150%/60px;
   }*/
-  .mouth {
-    position: absolute;
-    left: 21%;
-    top: 23%;
-    width: 190px;
-    height: 197px;
-    background-color: #c14b4b;
-    clip-path: ellipse(28% 26% at 47% 100%);
-    border-radius: 42%;
-    border-bottom-right-radius: 50%;
+.mouth {
+  position: absolute;
+  left: 21%;
+  top: 23%;
+  width: 190px;
+  height: 197px;
+  background-color: #c14b4b;
+  clip-path: ellipse(28% 26% at 47% 100%);
+  border-radius: 42%;
+  border-bottom-right-radius: 50%;
+}
+.tongue {
+  clip-path: ellipse(30% 13% at 47% 100%);
+  background-color: #f5b0b3;
+  position: absolute;
+  right: 27%;
+  top: 22%;
+  border-radius: 30%;
+  border-bottom-right-radius: 38%;
+  width: 126px;
+  height: 200px;
+}
+
+.left-tooth {
+  position: absolute;
+  right: 10%;
+  top: 43%;
+  border: 1px solid #010101;
+  width: 40%;
+  height: 45%;
+  background-color: #010101;
+  clip-path: polygon(37% 90%, 34% 100%, 43% 100%);
+  transform: skewY(-17deg);
+}
+.left-tooth-inner {
+  position: absolute;
+  right: 10%;
+  top: 44%;
+  width: 40%;
+  height: 45%;
+  background-color: white;
+  clip-path: polygon(36% 94%, 35% 100%, 40% 100%);
+  transform: skewY(-9deg);
+}
+
+.right-tooth {
+  position: absolute;
+  left: 21%;
+  top: 46%;
+  border: 1px solid #010101;
+  width: 40%;
+  height: 45%;
+  background-color: #010101;
+  clip-path: polygon(40% 90%, 35% 100%, 43% 100%);
+  transform: skewY(20deg);
+}
+.right-tooth-inner {
+  position: absolute;
+  left: 23%;
+  top: 45%;
+  width: 40%;
+  height: 45%;
+  background-color: white;
+  clip-path: polygon(35% 94%, 32% 100%, 37% 100%);
+  transform: skewY(2deg);
+}
+
+.box .snorl {
+  animation: waviy 1s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
   }
-  .tongue {
-    clip-path: ellipse(30% 13% at 47% 100%);
-    background-color: #f5b0b3;
-    position: absolute;
-    right: 27%;
-    top: 22%;
-    border-radius: 30%;
-    border-bottom-right-radius: 38%;
-    width: 126px;
-    height: 200px;
+  20% {
+    transform: translateY(-20px);
   }
-  
-  .left-tooth {
-    position: absolute;
-    right: 10%;
-    top: 43%;
-    border: 1px solid #010101;
-    width: 40%;
-    height: 45%;
-    background-color: #010101;
-    clip-path: polygon(37% 90%, 34% 100%, 43% 100%);
-    transform: skewY(-17deg);
-  }
-  .left-tooth-inner {
-    position: absolute;
-    right: 10%;
-    top: 44%;
-    width: 40%;
-    height: 45%;
-    background-color: white;
-    clip-path: polygon(36% 94%, 35% 100%, 40% 100%);
-    transform: skewY(-9deg);
-  }
-  
-  .right-tooth {
-    position: absolute;
-    left: 21%;
-    top: 46%;
-    border: 1px solid #010101;
-    width: 40%;
-    height: 45%;
-    background-color: #010101;
-    clip-path: polygon(40% 90%, 35% 100%, 43% 100%);
-    transform: skewY(20deg);
-  }
-  .right-tooth-inner {
-    position: absolute;
-    left: 23%;
-    top: 45%;
-    width: 40%;
-    height: 45%;
-    background-color: white;
-    clip-path: polygon(35% 94%, 32% 100%, 37% 100%);
-    transform: skewY(2deg);
-  }
-  
-  .box .snorl {
-    animation: waviy 1s infinite;
-    animation-delay: calc(0.1s * var(--i));
-  }
-  @keyframes waviy {
-    0%,
-    40%,
-    100% {
-      transform: translateY(0);
-    }
-    20% {
-      transform: translateY(-20px);
-    }
-  }
-  
-  .snorl-1 {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    right: 18%;
-    top: 40%;
-    font-family: Arial, Helvetica, sans-serif;
-    transform: rotateZ(15deg);
-  }
-  .snorl-2 {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    right: 12%;
-    top: 36%;
-    font-family: Arial, Helvetica, sans-serif;
-    transform: rotateZ(15deg);
-  }
-  .snorl-3 {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    right: 6%;
-    top: 34%;
-    font-family: Arial, Helvetica, sans-serif;
-    transform: rotateZ(15deg);
-  }
-  
+}
+
+.snorl-1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  right: 18%;
+  top: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: rotateZ(15deg);
+}
+.snorl-2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  right: 12%;
+  top: 36%;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: rotateZ(15deg);
+}
+.snorl-3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  right: 6%;
+  top: 34%;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: rotateZ(15deg);
+}

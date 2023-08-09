@@ -1,181 +1,174 @@
-body{
-    background-color: #FFF685;
-    margin: auto;
-    padding-top: 10%;
+body {
+  background-color: #fff685;
+  margin: auto;
+  padding-top: 10%;
 }
 
 #ZTM {
-    background-color: #FFF685;
-    color: red;
-    padding-left: 80%;  
-    padding-top: 3.75%;
-    position: absolute;
+  background-color: #fff685;
+  color: red;
+  padding-left: 80%;
+  padding-top: 3.75%;
+  position: absolute;
 }
 
-
-.red{
-    background-color: #FFF685;
-    height:10px;
-    width: 1000px;
+.red {
+  background-color: #fff685;
+  height: 10px;
+  width: 1000px;
 }
 
 .rball {
-    background-color: red;
-    height: 10px;
-    width: 20px;
-    position: relative;
-    animation-name: part1;
-    animation-duration: 10s;
-    animation-iteration-count: 1;
-    
-
+  background-color: red;
+  height: 10px;
+  width: 20px;
+  position: relative;
+  animation-name: part1;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
 }
 
 @keyframes part1 {
-    0%{
-        left: 50px;
-
-    } 
-    100%{
-        left:1000px;
-    }
+  0% {
+    left: 50px;
+  }
+  100% {
+    left: 1000px;
+  }
 }
 
-.green{
-    background-color: #FFF685;
-    height:10px;
-    width: 1000px;
+.green {
+  background-color: #fff685;
+  height: 10px;
+  width: 1000px;
 }
 
-.gball{
-    background-color: rgb(105, 255, 165);
-   height: 10px;
-   width: 20px;
-   position: relative;
-   animation-name: gpart;
-   animation-duration: 9s ;
-   animation-iteration-count: 1;
-   
+.gball {
+  background-color: rgb(105, 255, 165);
+  height: 10px;
+  width: 20px;
+  position: relative;
+  animation-name: gpart;
+  animation-duration: 9s;
+  animation-iteration-count: 1;
 }
 
 @keyframes gpart {
-    0%{
-        left: 50px;
-    }
-    100%{
-        left:1000px;
-    }
+  0% {
+    left: 50px;
+  }
+  100% {
+    left: 1000px;
+  }
 }
-.yellow{
-    background-color:#FFF685;
-    height:10px;
-    width: 1000px;
+.yellow {
+  background-color: #fff685;
+  height: 10px;
+  width: 1000px;
 }
 
-.yball{
-    background-color: rgb(255, 148, 105);
-   height: 10px;
-   width: 20px;
-   position: relative;
-   animation-name: ypart;
-   animation-duration: 8s;
-   animation-iteration-count: 1;
+.yball {
+  background-color: rgb(255, 148, 105);
+  height: 10px;
+  width: 20px;
+  position: relative;
+  animation-name: ypart;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
 }
 
 @keyframes ypart {
-    0%{
-        left: 50px;
-    }
-    100%{
-        left:1000px;
-    }
+  0% {
+    left: 50px;
+  }
+  100% {
+    left: 1000px;
+  }
 }
-.blue{
-    background-color: #FFF685;
-    height:10px;
-    width: 1000px;
+.blue {
+  background-color: #fff685;
+  height: 10px;
+  width: 1000px;
 }
 
-.bball{
-    background-color: rgb(123, 255, 105);
-   height: 10px;
-   width: 20px;
-   position: relative;
-   animation-name: bpart;
-   animation-duration: 6s;
-   animation-iteration-count: 1;
-
+.bball {
+  background-color: rgb(123, 255, 105);
+  height: 10px;
+  width: 20px;
+  position: relative;
+  animation-name: bpart;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
 }
 
 @keyframes bpart {
-    0%{
-        left: 50px;
-    }
-    100%{
-        left:1000px;
-    }
+  0% {
+    left: 50px;
+  }
+  100% {
+    left: 1000px;
+  }
 }
 
-.pink{
-    background-color:#FFF685;
-    height:10px;
-    width: 1000px;
+.pink {
+  background-color: #fff685;
+  height: 10px;
+  width: 1000px;
 }
 
-.pball{
-    background-color: rgb(105, 245, 255);
-   height: 10px;
-   width: 20px;
-   position: relative;
-   animation-name: ppart;
-   animation-duration: 8s;
-   animation-iteration-count: 1;
+.pball {
+  background-color: rgb(105, 245, 255);
+  height: 10px;
+  width: 20px;
+  position: relative;
+  animation-name: ppart;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
 }
 
 @keyframes ppart {
-    0%{
-        left: 50px;
-    }
-    100%{
-        left:1000px;
-    }
+  0% {
+    left: 50px;
+  }
+  100% {
+    left: 1000px;
+  }
 }
-.aqua{
-    background-color:#FFF685;
-    height:10px;
-    width: 1000px;
+.aqua {
+  background-color: #fff685;
+  height: 10px;
+  width: 1000px;
 }
 
-.aball{
-    background-color: rgb(255, 105, 120);
-   height: 10px;
-   width: 20px;
-   position: relative;
-   animation-name: apart;
-   animation-duration: 9s;
-   animation-iteration-count: 1;
-
+.aball {
+  background-color: rgb(255, 105, 120);
+  height: 10px;
+  width: 20px;
+  position: relative;
+  animation-name: apart;
+  animation-duration: 9s;
+  animation-iteration-count: 1;
 }
 
 @keyframes apart {
-    0%{
-        left: 50px;
-    }
-    100%{
-        left:1000px;
-    }
+  0% {
+    left: 50px;
+  }
+  100% {
+    left: 1000px;
+  }
 }
-.voilet{
-    background-color: #FFF685;
-    height:10px;
-    width: 1000px;
+.voilet {
+  background-color: #fff685;
+  height: 10px;
+  width: 1000px;
 }
 .vball {
-    background-color: rgb(255, 105, 230);
-   height: 10px;
-   width: 20px;
-   position: relative;
-   animation-name: apart;
-   animation-duration: 10s;
-   animation-iteration-count: 1;
+  background-color: rgb(255, 105, 230);
+  height: 10px;
+  width: 20px;
+  position: relative;
+  animation-name: apart;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
 }

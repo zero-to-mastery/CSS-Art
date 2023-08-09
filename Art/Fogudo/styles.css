@@ -1,0 +1,26 @@
+#myDIV1 {
+  height: 100px;
+  width: 50px;
+  background-color: coral;
+  color: white;
+  animation: mymove 1.5s infinite;
+}
+#myDIV2 {
+  height: 100px;
+  width: 50px;
+  background-color: red;
+  color: white;
+  animation: mymove 1s infinite;
+}
+#myDIV3 {
+  height: 100px;
+  width: 50px;
+  background-color: blue;
+  color: rgb(250, 247, 247);
+  animation: mymove 0.5s infinite;
+}
+@keyframes mymove {
+  50% {
+    width: 100%;
+  }
+}

@@ -1,52 +1,53 @@
 body {
-    background-color: #ED9F1C;
+  background-color: #ed9f1c;
 }
 
 .box {
-    display: flex;
-    flex-direction: row;
-    margin: auto 0;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-
 
 #heart {
-    position:relative; 
-    width:100px; 
-    height:90px;
+  position: relative;
+  width: 100px;
+  height: 90px;
 }
 
-#heart:before, #heart:after { 
-    position: absolute; 
-    content: ""; 
-    left: 50px; 
-    top: 0; 
-    width: 50px; 
-    height: 80px; 
-    background: #ED291C; 
-    border-radius: 50px 50px 0 0; 
-    transform: rotate(-45deg); 
-    transform-origin: 0 100%; 
-} 
-
-#heart:after { 
-    left: 0; 
-    transform: rotate(45deg); 
-    transform-origin :100% 100%; 
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: '';
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #ed291c;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
 }
 
+#heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
 
 /* The animation code */
-#heart{
-    animation-name: pulse;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+#heart {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes pulse {
-    50%  {transform: scale(1.6) }
+  50% {
+    transform: scale(1.6);
   }
+}

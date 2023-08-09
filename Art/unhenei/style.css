@@ -1,162 +1,169 @@
 body {
-	background-color: #cee5d0;
+  background-color: #cee5d0;
 }
 
 .bird {
-	width: 120px;
-	height: 120px;
-	position: absolute;
-	margin: auto;
-	top: 0;
-	bottom: 0;
-	/*top: 40%;*/
-	animation: fly 8s infinite linear;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  /*top: 40%;*/
+  animation: fly 8s infinite linear;
 }
 
 .body {
-	width: 65%;
-    height: 90%;
-    background-color: #ef9f9f;
-    border-radius: 80% 80% 50% 50%;
-    position: relative;
-	margin: auto;
-	animation: updown 1.2s infinite alternate ease-in-out;
+  width: 65%;
+  height: 90%;
+  background-color: #ef9f9f;
+  border-radius: 80% 80% 50% 50%;
+  position: relative;
+  margin: auto;
+  animation: updown 1.2s infinite alternate ease-in-out;
 }
 
 .bodyCopy {
-	width: 100%;
-    height: 100%;
-    background-color: #ef9f9f;
-    border-radius: 80% 80% 50% 50%;
-    position: absolute;
-	z-index: 2;	
+  width: 100%;
+  height: 100%;
+  background-color: #ef9f9f;
+  border-radius: 80% 80% 50% 50%;
+  position: absolute;
+  z-index: 2;
 }
 
 .eye {
-	width: 10px;
-	height: 10px;
-	background: black;
-	border-radius: 50%;
-	position: absolute;
-	top: 30%;
-	left: 20%;
-	z-index: 3;
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  z-index: 3;
 }
 
-.beak{
-	width: 0;
-    height: 0;
-    border-top: 15px solid transparent;
-    border-right: 30px solid orange;
-    border-bottom: 15px solid transparent;
-    position: absolute;
-    top: 30%;
-    left: -10%;
-    z-index: 1;
+.beak {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 30px solid orange;
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  top: 30%;
+  left: -10%;
+  z-index: 1;
 }
 
 .tail {
-	width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    box-shadow: 5px 15px #ef9f9f;
-    position: absolute;
-	top: 50%;
-	right: -20%;
-	z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 5px 15px #ef9f9f;
+  position: absolute;
+  top: 50%;
+  right: -20%;
+  z-index: 1;
 }
 
-.legRight{
-	width: 5px;
-	height: 25%;
-	background-color: orange;
-	border-radius: 20%;
-	position: absolute;
-	top: 90%;
-	right: 45%;
-	z-index: 1;
-	animation: legs 1.5s infinite alternate;
+.legRight {
+  width: 5px;
+  height: 25%;
+  background-color: orange;
+  border-radius: 20%;
+  position: absolute;
+  top: 90%;
+  right: 45%;
+  z-index: 1;
+  animation: legs 1.5s infinite alternate;
 }
 
-.legLeft{
-	width: 5px;
-	height: 25%;
-	background-color: orange;
-	border-radius: 20%;
-	position: absolute;
-	top: 90%;
-	left: 30%;
-	z-index: 1;
-	animation: legs 1.5s infinite alternate;
+.legLeft {
+  width: 5px;
+  height: 25%;
+  background-color: orange;
+  border-radius: 20%;
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  z-index: 1;
+  animation: legs 1.5s infinite alternate;
 }
 
 .hair {
-	width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    box-shadow: -10px -10px #ef9f9f;
-    position: absolute;
-    margin: -20% 40%;
-    z-index: 1;
-    animation: hair 1.5s infinite alternate;
- }
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  box-shadow: -10px -10px #ef9f9f;
+  position: absolute;
+  margin: -20% 40%;
+  z-index: 1;
+  animation: hair 1.5s infinite alternate;
+}
 
 .wing {
-	width: 0;
-    height: 0;
-    border-right: 50px solid transparent;
-    border-bottom: 50px solid #f45c5c;
-    position: absolute;
-    top: 50%;
-    right: 0%;
-    z-index: 3;
-    animation: wing 1.5s infinite alternate-reverse;
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid #f45c5c;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  z-index: 3;
+  animation: wing 1.5s infinite alternate-reverse;
 }
 
 @keyframes fly {
-	from {right: 0%;}
-	to {right: 100%;}
+  from {
+    right: 0%;
+  }
+  to {
+    right: 100%;
+  }
 }
 
 @keyframes updown {
-	from {top: 0%;}
-	to {top: 100%;}
+  from {
+    top: 0%;
+  }
+  to {
+    top: 100%;
+  }
 }
 
 @keyframes legs {
-	from {
-		transform: rotate(0deg);
-		transform-origin: 0% 0%;
-	}
-	to {
-		transform: rotate(-15deg);
-		transform-origin: 0% 0%;
-	}
+  from {
+    transform: rotate(0deg);
+    transform-origin: 0% 0%;
+  }
+  to {
+    transform: rotate(-15deg);
+    transform-origin: 0% 0%;
+  }
 }
 
 @keyframes hair {
-    from {
-        transform: rotate(0deg);
-        transform-origin: 0% 100%;
-    }
-    to {
-        transform: rotate(15deg);
-        transform-origin: 0% 100%;
-    }
+  from {
+    transform: rotate(0deg);
+    transform-origin: 0% 100%;
+  }
+  to {
+    transform: rotate(15deg);
+    transform-origin: 0% 100%;
+  }
 }
 
 @keyframes wing {
-    from {
-        transform: rotate(0deg);
-        transform-origin: 0% 0%;
-    }
-    to {
-        transform: rotate(-55deg);
-        transform-origin: 0% 0%;
-    }
+  from {
+    transform: rotate(0deg);
+    transform-origin: 0% 0%;
+  }
+  to {
+    transform: rotate(-55deg);
+    transform-origin: 0% 0%;
+  }
 }
 
-
 .box :hover {
-	animation-play-state: paused;
+  animation-play-state: paused;
 }

@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+}
+#camera_wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 22ch;
+  height: 22ch;
+  object-fit: contain;
+}
+#camera_body {
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+  overflow: hidden;
+}
+[id*='part'] {
+  z-index: -50;
+}
+#camera_button_part {
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  width: 40%;
+  height: 10%;
+  background-color: #3c3a35;
+  border-radius: 2ch 2ch 0 0;
+  animation: pushTheButton 4s cubic-bezier(0, -1.25, 1, -1.25) infinite both;
+}
+#top_part {
+  position: relative;
+  background-color: #d2c4b4;
+  height: 70%;
+}
+#red_sensor {
+  position: absolute;
+  top: 48%;
+  left: 8%;
+  width: 2.5ch;
+  height: 2.5ch;
+  background-color: #eb3865;
+  border-radius: 100%;
+}
+#depth_sensor {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  width: 5.2ch;
+  height: 2ch;
+  border-radius: 5px;
+  background-color: #525252;
+}
+#flash {
+  position: absolute;
+  top: 20%;
+  left: 73%;
+  width: 2.3ch;
+  height: 2.3ch;
+  border-radius: 7px;
+  border: 5px solid #002338;
+  background-color: #042b3e;
+}
+#inner_flash {
+  position: absolute;
+  border: 3px solid #002338;
+  background: #042b3e;
+  width: 0.85ch;
+  height: 0.85ch;
+  bottom: 0;
+  right: 0;
+}
+#flash_light {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 5ch;
+  height: 5ch;
+  background-color: white;
+  opacity: 1;
+  z-index: 1;
+  rotate: 45deg;
+  animation: flashLight 4s cubic-bezier(0, -1.25, 1, -1.25) infinite both;
+}
+#light_sensor {
+  background-color: #002338;
+  position: absolute;
+  left: 77.5%;
+  top: 55%;
+  width: 1.8ch;
+  height: 1.8ch;
+  border-radius: 100%;
+}
+#lens {
+  background-color: #525252;
+  border-radius: 100%;
+  height: 9.5ch;
+  width: 9.5ch;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  translate: -50% -50%;
+}
+#lens_glass {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 7ch;
+  height: 7ch;
+  border-radius: 100%;
+  border: 1px solid #001725;
+  background: linear-gradient(0.25turn, #0a3241, #093140, #002438);
+}
+#lens_inner-glass {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 5.5ch;
+  height: 5.5ch;
+  border-radius: 100%;
+  border: 1px solid #001725;
+  background: linear-gradient(#001e2e, #0c3b4d);
+}
+#shutter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 7ch;
+  height: 7ch;
+  border-radius: 100%;
+  border: 1px solid black;
+  animation: closeShutter 4s cubic-bezier(0, 1.84, 0, 0.38) infinite both;
+}
+#bottom_part {
+  position: relative;
+  background-color: #b3ab9a;
+  height: 30%;
+}
+#camera_bottom-ejector {
+  position: relative;
+  top: 38%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 14ch;
+  height: 1.8ch;
+  background-color: #45433e;
+}
+#instant_film {
+  position: absolute;
+  top: 17.015ch;
+  left: 50%;
+  translate: -50% 0%;
+  width: 10ch;
+  height: 9.5ch;
+  background-color: #002338;
+  border-inline: 1ch solid white;
+  border-bottom: 0ch solid white;
+  animation: paperEjection 4s cubic-bezier(0, 1.31, 0.3, 1.51) 4s infinite both;
+}
+
+@keyframes pushTheButton {
+  0% {
+    translate: -50% 10%;
+  }
+  75% {
+    translate: -50% 10%;
+  }
+  100% {
+    translate: -50% -20%;
+  }
+}
+
+@keyframes flashLight {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  81% {
+    opacity: 0.1;
+  }
+  84% {
+    opacity: 0.3;
+  }
+  86% {
+    opacity: 0.3;
+  }
+  91% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 0.3;
+  }
+  97% {
+    opacity: 0.3;
+  }
+  99% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes closeShutter {
+  0% {
+    background-color: transparent;
+  }
+  90% {
+    background-color: transparent;
+  }
+  91% {
+    background-color: black;
+  }
+  94% {
+    background-color: black;
+  }
+  95% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+/* Bottom border does'nt hide if not dealt with */
+@keyframes paperEjection {
+  0% {
+    height: 0;
+    border-bottom: 0ch solid white;
+  }
+  50% {
+    border-bottom: 2ch solid white;
+  }
+  80% {
+    height: 8ch;
+    border-bottom: 2ch solid white;
+  }
+  95% {
+    height: 0;
+    border-bottom: 0 solid transparent;
+  }
+  100% {
+    height: 0;
+  }
+}

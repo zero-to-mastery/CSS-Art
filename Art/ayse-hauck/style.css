@@ -1,0 +1,14 @@
+.body {
+  background: #6f256f;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: #8a458a;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: hinge; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  border-radius: 50px;
+}

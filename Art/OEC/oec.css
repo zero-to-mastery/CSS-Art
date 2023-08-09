@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  background: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes eclipse {
+  from {
+    transform: translate(-75%, 0%);
+  }
+  to {
+    transform: translate(0%, 0%);
+    transition: all 1.5s ease;
+  }
+}
+
+@keyframes OEC {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: purple;
+  }
+  75% {
+    background-color: rgb(148, 0, 0);
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+.oec {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: OEC;
+  animation-duration: 2.5s;
+
+  z-index: 1;
+}
+
+.moon {
+  width: 495px;
+  height: 495px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: eclipse;
+  animation-duration: 1.5s;
+  /* transform: translateX(-50%); */
+
+  z-index: 2;
+}

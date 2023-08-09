@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.emoji {
+  font-size: calc(100px + 4vw);
+  min-width: 1.4em;
+  margin: 0.3em 0.4em;
+  text-align: center;
+}
+
+.emoji::after {
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.smiley::after {
+  content: '😀';
+  --emoji-1: '😁';
+  --emoji-2: '😂';
+  --emoji-3: '😃';
+  --emoji-4: '😄';
+  --emoji-5: '😅';
+  --emoji-6: '😆';
+  --emoji-7: '😇';
+  --emoji-8: '😈';
+  --emoji-9: '😉';
+  --emoji-10: '😊';
+  --emoji-11: '😋';
+  --emoji-12: '😌';
+  --emoji-13: '😍';
+  --emoji-14: '😎';
+  --emoji-15: '😏';
+  animation-name: fifteenFrames;
+  animation-duration: 10s;
+}
+
+@keyframes fifteenFrames {
+  6.666% {
+    content: var(--emoji-1);
+  }
+
+  13.333% {
+    content: var(--emoji-2);
+  }
+
+  19.999% {
+    content: var(--emoji-3);
+  }
+
+  23.333% {
+    content: var(--emoji-4);
+  }
+
+  29.999% {
+    content: var(--emoji-5);
+  }
+
+  36.666% {
+    content: var(--emoji-6);
+  }
+
+  43.333% {
+    content: var(--emoji-7);
+  }
+
+  49.999% {
+    content: var(--emoji-8);
+  }
+
+  56.666% {
+    content: var(--emoji-9);
+  }
+
+  63.333% {
+    content: var(--emoji-10);
+  }
+
+  69.999% {
+    content: var(--emoji-11);
+  }
+
+  76.666% {
+    content: var(--emoji-12);
+  }
+
+  83.333% {
+    content: var(--emoji-13);
+  }
+
+  89.999% {
+    content: var(--emoji-14);
+  }
+
+  96.666% {
+    content: var(--emoji-15);
+  }
+}

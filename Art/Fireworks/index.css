@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#square-container {
+  position: absolute;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+}
+
+.square {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background: red;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+#sqr1 {
+  left: 0;
+  top: 0;
+  animation-name: sqr1;
+}
+
+@keyframes sqr1 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+    left: -100px;
+    top: -100px;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+#sqr2 {
+  top: 0;
+  animation-name: sqr2;
+  animation-duration: 2s;
+}
+
+@keyframes sqr2 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+    top: -100px;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+#sqr3 {
+  top: 0;
+  right: 0;
+  animation-name: sqr3;
+  animation-duration: 2s;
+}
+
+@keyframes sqr3 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+    top: -100px;
+    right: -100px;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+#sqr4 {
+  right: 0;
+  animation-name: sqr4;
+  animation-duration: 2s;
+}
+
+@keyframes sqr4 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: orange;
+    right: -100px;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+#sqr5 {
+  right: 0;
+  bottom: 0;
+  animation-name: sqr5;
+  animation-duration: 2s;
+}
+
+@keyframes sqr5 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: purple;
+    bottom: -100px;
+    right: -100px;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+#sqr6 {
+  bottom: 0;
+  animation-name: sqr6;
+  animation-duration: 2s;
+}
+
+@keyframes sqr6 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: pink;
+    bottom: -100px;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+#sqr7 {
+  left: 0;
+  bottom: 0;
+  animation-name: sqr7;
+  animation-duration: 2s;
+}
+
+@keyframes sqr7 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: teal;
+    left: -100px;
+    bottom: -100px;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+#sqr8 {
+  left: 0;
+  animation-name: sqr8;
+  animation-duration: 2s;
+}
+
+@keyframes sqr8 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: cyan;
+    left: -100px;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+#sqr9 {
+  animation-name: sqr9;
+  animation-duration: 2s;
+}
+
+@keyframes sqr9 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: red;
+    width: 180px;
+    height: 180px;
+  }
+}

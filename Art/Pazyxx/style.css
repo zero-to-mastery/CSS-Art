@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  animation: bodyAnimation 2s infinite;
+}
+
+@keyframes bodyAnimation {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.first-row {
+  width: 30vw;
+  height: 100%;
+  background-color: paleturquoise;
+  animation-name: firstRowAnimation;
+  animation-duration: 5s;
+  animation: firstRowAnimation 2s infinite;
+}
+
+@keyframes firstRowAnimation {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.second-row {
+  width: 30vw;
+  height: 100%;
+  background-color: mediumaquamarine;
+  animation: secondRowAnimation 2s infinite;
+  animation-delay: 1s;
+}
+
+@keyframes secondRowAnimation {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.thirt-row {
+  width: 30vw;
+  height: 100%;
+  background-color: darkturquoise;
+  animation: thirtRowAnimation 2s infinite;
+}
+
+@keyframes thirtRowAnimation {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

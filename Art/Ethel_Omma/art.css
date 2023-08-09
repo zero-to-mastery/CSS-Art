@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #b3e3f7;
+}
+
+.sky {
+  position: relative;
+  height: 100vh;
+}
+
+.sun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffce00;
+  box-shadow: 0.6px 0 20px rgba(51, 50, 48, 0.7);
+
+  animation: sunMove 10s linear infinite;
+}
+
+.clouds {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  height: 50px;
+  animation: moveClouds 30s linear infinite;
+}
+
+.cloud {
+  width: 150px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50px;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.cloud1 {
+  top: 20px;
+  left: 20px;
+}
+
+.cloud2 {
+  top: 40px;
+  right: 20px;
+}
+
+.bird {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 30px;
+  height: 20px;
+  background-color: #000;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  animation: flyBird 5s linear infinite alternate;
+}
+
+.star {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: blinkStar 1s linear infinite;
+}
+
+.a {
+  top: 40%;
+  right: 45%;
+  color: rgb(17, 39, 59);
+}
+
+.b {
+  top: 20%;
+  left: 25%;
+}
+
+.c {
+  top: 30%;
+  right: 45%;
+}
+
+.d {
+  top: 40%;
+  right: 55%;
+}
+
+.e {
+  top: 50%;
+  right: 70%;
+}
+
+@keyframes sunMove {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveClouds {
+  0%,
+  100% {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes flyBird {
+  0% {
+    transform: translateX(-20%);
+  }
+
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+@keyframes blinkStar {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}

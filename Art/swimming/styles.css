@@ -1,70 +1,71 @@
-*{
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  font-family: 'Rambla', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: transparent;
+  background: url('https://images.pexels.com/photos/32237/pexels-photo.jpg?cs=srgb&dl=cosmos-dark-galaxy-32237.jpg&fm=jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  z-index: -1;
+  animation: showText 3s 6s ease-in forwards;
+}
+
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 1;
+  z-index: 1;
+  animation: fade 4s 2s ease-in forwards;
+}
+
+.image {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Rambla', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+  background: url('https://images.pexels.com/photos/32237/pexels-photo.jpg?cs=srgb&dl=cosmos-dark-galaxy-32237.jpg&fm=jpg');
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-position: center;
+  z-index: 1;
+}
+
+@keyframes fade {
+  100% {
+    opacity: 0;
   }
-  
-  body, html{
-    height: 100%;
+}
+
+@keyframes showText {
+  100% {
+    color: #d9d5d1;
   }
-  
-  .wrapper{
-    position: relative;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    min-height: 100%;
-    font-family: 'Rambla', sans-serif;
-    font-size: 100px;
-    font-weight: bold;
-    color: transparent;
-    background: url("https://images.pexels.com/photos/32237/pexels-photo.jpg?cs=srgb&dl=cosmos-dark-galaxy-32237.jpg&fm=jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: hidden;
-    z-index: -1;
-    animation: showText 3s 6s ease-in forwards;
-  }
-  
-  .container{
-    position: absolute; 
-    height: 100%; 
-    width: 100%;
-    background: black;
-    opacity: 1;
-    z-index: 1;
-    animation: fade 4s  2s ease-in forwards
-  }
-  
-  .image{
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-      font-family: 'Rambla', sans-serif;
-      font-size: 100px;
-      font-weight: bold;
-      height: 100%; 
-      width: 100%;
-      background: url("https://images.pexels.com/photos/32237/pexels-photo.jpg?cs=srgb&dl=cosmos-dark-galaxy-32237.jpg&fm=jpg");
-      background-size: cover;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      -webkit-background-clip: text;
-      background-position: center; 
-      z-index: 1;
-  } 
-    
-   @keyframes fade{
-      100%{
-        opacity: 0;
-      }
-    }
-  
-    @keyframes showText{
-      100%{
-        color:#d9d5d1;
-      }
-    }
+}

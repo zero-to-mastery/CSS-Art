@@ -1,28 +1,47 @@
 div {
-    width: 100px;
-    border-radius: 50%;
-    height: 100px;
-    border: 1px solid #000000;
-    background-color: #FF900B;
-    position: relative;
-    animation-name: example;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  border: 1px solid #000000;
+  background-color: #ff900b;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+p {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  margin-top: 22px;
+  border: 3px solid #9d2d00;
+}
+
+@keyframes example {
+  0% {
+    background-color: #ff900b;
+    left: 90px;
+    top: 90px;
   }
-  p{
-    width: 50px;
-    border-radius: 50%;
-    height: 50px;
-    margin-top:22px;
-    border: 3px solid #9D2D00;
+  25% {
+    background-color: #ca6f03;
+    left: 190px;
+    top: 90px;
   }
-  
-  @keyframes example {
-    0%   {background-color:#FF900B; left:90px; top:90px;}
-    25%  {background-color:#CA6F03; left:190px; top:90px;}
-    50%  {background-color:#D8B244; left:190px; top:190px;}
-    75%  {background-color:#CA6F03; left:90px; top:190px;}
-    100% {background-color:#FF900B; left:90px; top:90px;}
+  50% {
+    background-color: #d8b244;
+    left: 190px;
+    top: 190px;
   }
+  75% {
+    background-color: #ca6f03;
+    left: 90px;
+    top: 190px;
+  }
+  100% {
+    background-color: #ff900b;
+    left: 90px;
+    top: 90px;
+  }
+}

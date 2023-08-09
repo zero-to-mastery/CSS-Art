@@ -1,0 +1,175 @@
+body {
+  background-color: black;
+}
+.main_wrapper {
+  background-color: rgb(10, 9, 10);
+  height: 500px;
+  display: block;
+  padding: 50px;
+}
+.wrapper,
+.wrapper_0,
+.wrapper_1,
+.wrapper-3,
+.wrapper-2 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(10, 9, 9);
+}
+.sq1 {
+  background-color: aqua;
+  height: 100px;
+
+  border-left: 45px solid rgb(51, 43, 43);
+  width: 240px;
+  animation-name: cc;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.sq2 {
+  background-color: rgb(124, 144, 144);
+  height: 100px;
+
+  border-right: 45px solid rgb(51, 43, 43);
+  width: 240px;
+  animation-name: cc_right;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+/* ## */
+.sq3 {
+  background-color: aqua;
+  height: 100px;
+  border-left: 45px solid rgb(51, 43, 43);
+  width: 150px;
+  animation-name: cc;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.sq4 {
+  background-color: rgb(124, 144, 144);
+  height: 100px;
+  border-right: 45px solid rgb(51, 43, 43);
+  width: 150px;
+  animation-name: cc_right;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+/* ## */
+.sq5 {
+  background-color: aqua;
+  height: 60px;
+  border-left: 45px solid rgb(51, 43, 43);
+  width: 80px;
+  border-bottom: 20px solid rgb(94, 92, 92);
+  animation-name: cc;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.sq6 {
+  background-color: rgb(124, 144, 144);
+  height: 60px;
+  border-right: 45px solid rgb(51, 43, 43);
+  width: 80px;
+  border-bottom: 20px solid rgb(94, 92, 92);
+  animation-name: cc_right;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.half_circle1 {
+  background-color: yellow;
+  width: 280px;
+  height: 100px;
+
+  border-left: 45px solid rgb(51, 43, 43);
+  animation-name: cc;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.half_circle2 {
+  background-color: yellowgreen;
+  width: 280px;
+  height: 100px;
+
+  border-right: 45px solid rgb(51, 43, 43);
+  animation-name: cc_right;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.side1 {
+  background-color: green;
+  width: 200px;
+  height: 45px;
+  border-top: 50px solid rgb(45, 44, 44);
+  border-left: 45px solid rgb(51, 43, 43);
+  animation-name: cc;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.mid {
+  background-color: rergb(10, 9, 9);
+  width: 30px;
+  height: 35px;
+}
+.side2 {
+  width: 200px;
+  height: 45px;
+  border-top: 50px solid rgb(56, 54, 54);
+  border-right: 45px solid rgb(51, 43, 43);
+  animation-name: cc_right;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+/* .rainbow_color-left{
+    background: linear-gradient(50deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #dcdd7a);
+ 
+}
+.rainbow_color{
+    background: linear-gradient(130deg, #dcdd7a, #e3e81d, #e8b71d, #e81d1d, #ff2400  );
+   
+} */
+
+@keyframes cc {
+  from {
+    background: linear-gradient(
+      50deg,
+      #ff2400,
+      #e81d1d,
+      #e8b71d,
+      #e3e81d,
+      #dcdd7a
+    );
+  }
+  to {
+    background: linear-gradient(50deg, #2b1de8, #dd00f3, #dd00f3);
+  }
+}
+
+@keyframes cc_right {
+  from {
+    background: linear-gradient(
+      130deg,
+      #dcdd7a,
+      #e3e81d,
+      #e8b71d,
+      #e81d1d,
+      #ff2400
+    );
+  }
+  to {
+    background: linear-gradient(130deg, #dd00f3, #dd00f3, #2b1de8);
+  }
+}
