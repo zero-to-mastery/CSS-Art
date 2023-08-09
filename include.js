@@ -8,6 +8,13 @@ let cards = [
     githubLink: 'https://github.com/renjialan'
   },
   {
+    artName: 'Camera Animation',
+    pageLink: './Art/etanHey/camera/index.html',
+    imageLink: './Art/etanHey/camera/CameraGiphy.gif',
+    author: 'EtanHey',
+    githubLink: 'https://github.com/EtanHey'
+  },
+  {
     artName: 'Road Bicycle',
     pageLink: './Art/ramon-cortes/index.html',
     imageLink: './Art/ramon-cortes/css-bicycle.gif',
