@@ -1,5 +1,5 @@
 body {
-  background:  rgba(104, 6, 146, 0.932);
+  background: rgba(104, 6, 146, 0.932);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,10 +8,11 @@ body {
 
 #wrapper {
   position: absolute;
-	animation: heartpulse 1s infinite;
+  animation: heartpulse 1s infinite;
 }
 
 @keyframes heartpulse {
-	10% {transform: scale(1.1)}
+  10% {
+    transform: scale(1.1);
+  }
 }
-
