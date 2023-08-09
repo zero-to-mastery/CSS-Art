@@ -328,13 +328,13 @@ let cards = [
     author: 'Prakhar',
     githubLink: 'https://github.com/prakharbaphna'
   },
-     {
-      artName: 'sky',
-      pageLink: './Art/Ethel_Omma/art.html',
-      imageLink: './Art/Ethel_Omma/art.gif',
-      author: 'Chinwenma',
-      githubLink: 'https://github.com/Chinwenma'
-    },
+  {
+    artName: 'sky',
+    pageLink: './Art/Ethel_Omma/art.html',
+    imageLink: './Art/Ethel_Omma/art.gif',
+    author: 'Chinwenma',
+    githubLink: 'https://github.com/Chinwenma'
+  },
 
   {
     pageLink: './Art/Pawan/Bicycle.html',
