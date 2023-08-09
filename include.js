@@ -9431,6 +9431,13 @@ let cards = [
     imageLink: './Art/erickelninoSwift/erickBallCricus.gif',
     author: 'Erick El nino Tshimbombo',
     githubLink: 'https://github.com/erickelninoSwift'
+  },
+  {
+    artName: 'Plane in the sky',
+    pageLink: './Art/XanderClemens/index.html',
+    imageLink: './Art/XanderClemens/plane.gif',
+    author: 'Xander Clemens',
+    githubLink: 'https://github.com/XanderRubio'
   }
 ];
 
