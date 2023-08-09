@@ -44,8 +44,13 @@ let cards = [
     author: 'Rabia',
     githubLink: 'https://github.com/iamRabia-N'
   },
-
-  //  Nekimuntu Dragon Balls radar
+  {
+    artName: 'Disappearing balls',
+    pageLink: './Art/ayse-hauck/index.html',
+    imageLink: './Art/ayse-hauck/screenshot',
+    author: 'Ayse',
+    githubLink: 'https://github.com/aysehauck'
+  },
   {
     artName: 'Dragon Balls Radar',
     pageLink: './Art/nekimuntu/index.html',
