@@ -3384,6 +3384,13 @@ let cards = [
     imageLink: './Art/yerda-zh/Camera.gif',
     author: 'Yerdaulet',
     githubLink: 'https://github.com/yerda-zh'
+  },
+  {
+    artName: 'Believe',
+    pageLink: './Art/Believe/index.html',
+    imageLink: './Art/Believe/believe.gif',
+    author: 'BusraKahraman',
+    githubLink: 'https://github.com/BusraKahraman'
   }
 ];
 
