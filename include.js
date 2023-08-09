@@ -59,6 +59,20 @@ let cards = [
     githubLink: 'https://github.com/nekimuntu'
   },
   {
+    artName: 'Dragon Balls Radar',
+    pageLink: './Art/nekimuntu/index.html',
+    imageLink: './Art/nekimuntu/RadarDragonBalls.gif',
+    author: 'Carolyn Nagau aka Nekimuntu',
+    githubLink: 'https://github.com/nekimuntu'
+  },
+  {
+    artName: 'Dragon Balls Radar',
+    pageLink: './Art/nekimuntu/index.html',
+    imageLink: './Art/nekimuntu/RadarDragonBalls.gif',
+    author: 'Carolyn Nagau aka Nekimuntu',
+    githubLink: 'https://github.com/nekimuntu'
+  },
+  {
     artName: 'Spooky',
     pageLink: './Art/spooky/index.html',
     imageLink: './Art/spooky/GHOST.gif',
@@ -71,6 +85,20 @@ let cards = [
     imageLink: './Art/Pazyxx/animationGif.gif',
     author: 'Pazyxx',
     githubLink: 'https://github.com/Pazyxx'
+  },
+  {
+    artName: 'Spooky',
+    pageLink: './Art/spooky/index.html',
+    imageLink: './Art/spooky/GHOST.gif',
+    author: 'Mike',
+    githubLink: 'https://github.com/Mednalig'
+  },
+  {
+    artName: 'Spooky',
+    pageLink: './Art/spooky/index.html',
+    imageLink: './Art/spooky/GHOST.gif',
+    author: 'Mike',
+    githubLink: 'https://github.com/Mednalig'
   },
   {
     artName: 'Loader Animation',
@@ -3440,6 +3468,13 @@ let cards = [
     imageLink: './Art/Fireworks/Fireworks.gif',
     author: 'Connor',
     githubLink: 'https://github.com/Connor-Csoky'
+  },
+  {
+    artName: 'Portball',
+    pageLink: './Art/Anrich/index.html',
+    imageLink: './Art/Anrich/Portball.gif',
+    author: 'Anrich',
+    githubLink: 'https://github.com/AnrichV'
   }
 ];
 
