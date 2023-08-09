@@ -3482,6 +3482,13 @@ let cards = [
     imageLink: './Art/Fogudo/speedbars.gif',
     author: 'Frederick Ogudo',
     githubLink: 'https://github.com/Fogudo'
+  },
+  {
+    artName: 'webdesign4ever-animation',
+    pageLink: './Art/webdesign4ever/index.html',
+    imageLink: './Art/webdesign4ever/animation.gif',
+    author: 'webdesign4ever',
+    githubLink: 'https://github.com/webdesign4ever'
   }
 ];
 

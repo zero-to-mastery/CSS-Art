@@ -1,0 +1,78 @@
+#ts3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+  0% {
+    background-color: red;
+    left: 0%;
+    top: 0px;
+    transform: rotate(360deg);
+  }
+
+  25% {
+    background-color: yellow;
+    left: 90%;
+    top: 0px;
+    transform: rotate(270deg);
+  }
+
+  50% {
+    background-color: black;
+    left: 90%;
+    top: 450px;
+    transform: rotate(180deg);
+  }
+
+  75% {
+    background-color: aquamarine;
+    top: 450px;
+    left: 0px;
+    transform: rotate(90deg);
+  }
+
+  100% {
+    background-color: red;
+    left: 0%;
+    top: 0px;
+  }
+}
+
+body {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  background-color: blueviolet;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: blueviolet;
+  }
+
+  25% {
+    background-color: aquamarine;
+  }
+
+  50% {
+    background-color: coral;
+  }
+
+  75% {
+    background-color: gold;
+  }
+
+  100% {
+    background-color: lightblue;
+  }
+}
