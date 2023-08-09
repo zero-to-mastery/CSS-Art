@@ -15,6 +15,13 @@ let cards = [
     githubLink: 'https://github.com/ramon-cortes'
   },
   {
+    artName: 'Controller',
+    pageLink: './Art/controller/index.html',
+    imageLink: './Art/controller/controller.gif',
+    author: 'aaephraim',
+    githubLink: 'https://github.com/aaephraim'
+  },
+  {
     artName: 'Hello World!',
     pageLink: './Art/Rabia/index.html',
     imageLink: './Art/Rabia/hello_world.gif',
