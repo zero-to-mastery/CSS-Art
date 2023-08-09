@@ -3433,6 +3433,13 @@ let cards = [
     imageLink: './Art/Aqsa/HeartTransparentBG.png',
     author: 'Aqsa',
     githubLink: 'https://github.com/amussarat'
+  },
+  {
+    artName: 'Fireworks',
+    pageLink: './Art/Fireworks/index.html',
+    imageLink: './Art/Fireworks/Fireworks.gif',
+    author: 'Connor',
+    githubLink: 'https://github.com/Connor-Csoky'
   }
 ];
 
