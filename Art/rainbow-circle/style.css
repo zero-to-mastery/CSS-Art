@@ -1,0 +1,44 @@
+.carrot {
+  width: 30px;
+  height: 20px;
+  background: red;
+  border-radius: 40%;
+  position: relative;
+  animation-name: loony;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes loony {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 100px;
+    top: 0px;
+  }
+  50% {
+    background-color: greenyellow;
+    left: 100px;
+    top: 100px;
+  }
+  75% {
+    background-color: rgb(10, 210, 232);
+    left: 0px;
+    top: 100px;
+  }
+  100% {
+    background-color: rgb(245, 35, 245);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+h1 {
+  font-family: cursive;
+  font-size: large;
+  color: mediumspringgreen;
+}
