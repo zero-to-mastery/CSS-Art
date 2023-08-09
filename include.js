@@ -9,8 +9,8 @@ let cards = [
   },
   {
     artName: 'Camera Animation',
-    pageLink: './Art/etanHey/camera/index.html',
-    imageLink: './Art/etanHey/camera/CameraGiphy.gif',
+    pageLink: './Art/etanHey/index.html',
+    imageLink: './Art/etanHey/CameraGiphy.gif',
     author: 'EtanHey',
     githubLink: 'https://github.com/EtanHey'
   },
