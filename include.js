@@ -9412,6 +9412,13 @@ let cards = [
     githubLink: 'https://github.com/monisa-mirza'
   },
   {
+    artName: 'Another PAC',
+    pageLink: './Art/anotherPac/index.html',
+    imageLink: './Art/anotherPac/animated.gif',
+    author: 'Nad',
+    githubLink: 'https://github.com/nad-garraz'
+  },
+  {
     artName: 'Rainbow-circle',
     pageLink: './Art/rainbow-circle/index.html',
     imageLink: './Art/rainbow-circle/traunce.gif',
