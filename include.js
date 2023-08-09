@@ -52,6 +52,13 @@ let cards = [
     githubLink: 'https://github.com/AnyiJoy'
   },
   {
+    artName: 'Never gonna looop',
+    pageLink: './Art/Joy/triangle/index.html',
+    imageLink: './Art/Joy/triangle/art.jpg',
+    author: 'Khoa',
+    githubLink: 'https://github.com/Khoua28'
+  },
+  {
     artName: 'simplyRecty',
     pageLink: './Art/Joy/sunnySavlot/index.html',
     imageLink: './Art/Joy/sunnySavlot/simple.jpg',
