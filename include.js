@@ -3475,6 +3475,13 @@ let cards = [
     imageLink: './Art/Anrich/Portball.gif',
     author: 'Anrich',
     githubLink: 'https://github.com/AnrichV'
+  },
+  {
+    artName: 'Speed Bars',
+    pageLink: './Art/Fogudo/index.html',
+    imageLink: './Art/Fogudo/speedbars.gif',
+    author: 'Frederick Ogudo',
+    githubLink: 'https://github.com/Fogudo'
   }
 ];
 
