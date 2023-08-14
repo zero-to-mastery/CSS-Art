@@ -1,135 +1,115 @@
-*
-{
-    margin:0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 @keyframes facelift {
-    from{height:400px;
-    width:400px;}
-    to{height:600px;
-    width:600px;}
-    
+  from {
+    height: 400px;
+    width: 400px;
+  }
+  to {
+    height: 600px;
+    width: 600px;
+  }
 }
-.base_canvas
-{
- background-color:rgb(241, 234, 223);
- width: 500px;
- height:500px;
- border-radius: 20px;  
- border: 2px solid red; 
- left: 30%;
- position: absolute;
+.base_canvas {
+  background-color: rgb(241, 234, 223);
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  border: 2px solid red;
+  left: 30%;
+  position: absolute;
   top: 10%;
 }
-.face
-{
-    background-color: grey;
-    border-radius: 50%;
-    width:400px;
-    height:400px;
-    position:absolute;
-    left:10%;
-    top:10%;    
-    /*animation: facelift 5s infinite alternate;*/
+.face {
+  background-color: grey;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  /*animation: facelift 5s infinite alternate;*/
 }
-.eye
-{
-    background-color: black;
-    height: 70px;
-    width:60px;
-   border-radius: 50%;
-   
-
+.eye {
+  background-color: black;
+  height: 70px;
+  width: 60px;
+  border-radius: 50%;
 }
-.right_eye
-{
-    position:absolute;
-    left:65%;
-    top:30%;
-   
+.right_eye {
+  position: absolute;
+  left: 65%;
+  top: 30%;
 }
-.left_eye
-{
-    position:absolute;
-    left:15%;
-    top:30%;  
-   
-    
+.left_eye {
+  position: absolute;
+  left: 15%;
+  top: 30%;
 }
-.eye_pupil
-{
-    background-color: white;
-    height:40px;
-    width:40px;
-    border-radius: 50%;
-    animation: rolling_eye 5s linear infinite;
-    
+.eye_pupil {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  animation: rolling_eye 5s linear infinite;
 }
 
-.nose
-{
-    background-color: black;
-    height:40px;
-    width:70px;
-    border-radius: 50%;
-    position:absolute;
-    left:40%;
-    bottom:30%; 
+.nose {
+  background-color: black;
+  height: 40px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  bottom: 30%;
 }
-.mouth{
-    width:50%;
-    height:10px;
-    background-color: pink;
-    position:absolute;
-    left:25%;
-    bottom:20%;    
-    animation: mouth_expand 5s linear infinite; 
+.mouth {
+  width: 50%;
+  height: 10px;
+  background-color: pink;
+  position: absolute;
+  left: 25%;
+  bottom: 20%;
+  animation: mouth_expand 5s linear infinite;
 }
 @keyframes rolling_eye {
-    0%  {
-        height:40px;
-        width:40px; 
-        }  
-    25% {
-        height:45px;
-        width:45px;  
-        }
-        50% {
-            height:50px;
-            width:50px;  
-            }
-            80% {
-                height:45px;
-                width:45px;  
-                }
-            100% {
-                height:40px;
-            width:40px;  
-                }  
-   
-  
+  0% {
+    height: 40px;
+    width: 40px;
+  }
+  25% {
+    height: 45px;
+    width: 45px;
+  }
+  50% {
+    height: 50px;
+    width: 50px;
+  }
+  80% {
+    height: 45px;
+    width: 45px;
+  }
+  100% {
+    height: 40px;
+    width: 40px;
+  }
 }
-@keyframes mouth_expand
-{
-    0%  {
-        
-        width:0%; 
-        }  
-    25% {
-        
-        width:25%;  
-        }
-        50% {
-            
-            width:50%;  
-            }
-            80% {
-                
-                width:20%;  
-                }
-            100% {
-                
-            width:10%;  
-                }  
-
+@keyframes mouth_expand {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 25%;
+  }
+  50% {
+    width: 50%;
+  }
+  80% {
+    width: 20%;
+  }
+  100% {
+    width: 10%;
+  }
 }
