@@ -163,6 +163,12 @@ let cards = [
     githubLink: 'https://github.com/omkarg1417'
   },
   {
+    artName: 'Tricked',
+    pageLink: './Art/Tricked/link.html',
+    author: 'AY-Karma',
+    githubLink: 'https://github.com/AY-Karma'
+  },
+  {
     pageLink: './Art/Rajni2002/index.html',
     imageLink: './Art/Rajni2002/march.png/',
     author: 'Rajni2002',
