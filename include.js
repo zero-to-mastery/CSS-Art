@@ -9438,6 +9438,13 @@ let cards = [
     imageLink: './Art/XanderClemens/plane.gif',
     author: 'Xander Clemens',
     githubLink: 'https://github.com/XanderRubio'
+  },
+  {
+    artName: 'Snow Fall Animation',
+    pageLink: './Art/wasiqs-classics/index.html',
+    imageLink: './Art/wasiqs-classics/snow.gif',
+    author: 'Wasiq Khan',
+    githubLink: 'https://github.com/wasiqs-classics'
   }
 ];
 
