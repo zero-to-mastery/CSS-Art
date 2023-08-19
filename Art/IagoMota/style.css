@@ -1,58 +1,58 @@
 @keyframes something {
-    0% {
-        background-color: #8000ff;
-        border-radius: 50px;
-        transform: rotate(72deg);
-    }
+  0% {
+    background-color: #8000ff;
+    border-radius: 50px;
+    transform: rotate(72deg);
+  }
 
-    25% {
-        background-color: #b300ff;
-        border-radius: 15px;
-        transform: rotate(144deg);
-    }
+  25% {
+    background-color: #b300ff;
+    border-radius: 15px;
+    transform: rotate(144deg);
+  }
 
-    50% {
-        background-color: #f200ff;
-        border-radius: 30px;
-        transform: rotate(216deg);
-    }
+  50% {
+    background-color: #f200ff;
+    border-radius: 30px;
+    transform: rotate(216deg);
+  }
 
-    75% {
-        background-color: #ff00ff;
-        border-radius: 15px;
-        transform: rotate(288deg);
-    }
+  75% {
+    background-color: #ff00ff;
+    border-radius: 15px;
+    transform: rotate(288deg);
+  }
 
-    100% {
-        background-color: #8000ff;
-        border-radius: 50px;
-        transform: rotate(360deg);
-    }
+  100% {
+    background-color: #8000ff;
+    border-radius: 50px;
+    transform: rotate(360deg);
+  }
 }
 
 div {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    background-color: black;
-    border-radius: 50px;
-    animation-name: something;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function:linear;
-    margin-top: 50px;
-    margin-left: 50px;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 50px;
+  animation-name: something;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 div:first-child {
-    top: 50px;
+  top: 50px;
 }
 
 div:nth-child(2) {
-    left: 50px;
+  left: 50px;
 }
 
 div:nth-child(3) {
-    left: 50px;
-    top: 50px;
+  left: 50px;
+  top: 50px;
 }
