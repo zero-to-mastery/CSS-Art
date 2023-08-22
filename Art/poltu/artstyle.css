@@ -1,45 +1,44 @@
-*{
-	text-align: center;
+* {
+  text-align: center;
 }
-body{
-	background-color: skyblue;
+body {
+  background-color: skyblue;
 }
 
-h1{
-	font-family: fantasy;
-	font-size: 4em;
-	border-bottom: 2px solid pink;
-	width: 400px;
-	text-align: center;
-	box-shadow: 4px 4px 5px #888888;
-	margin-top: 10px;
-
+h1 {
+  font-family: fantasy;
+  font-size: 4em;
+  border-bottom: 2px solid pink;
+  width: 400px;
+  text-align: center;
+  box-shadow: 4px 4px 5px #888888;
+  margin-top: 10px;
 }
 
 .my-element {
   display: inline-block;
   margin: 0 0.5rem;
 
-  animation: heartBeat; 
-  animation-duration: 2s; 
+  animation: heartBeat;
+  animation-duration: 2s;
 }
 .my-element {
   --animate-repeat: 2;
 }
 
-img{
-	width: 550px;
-	height: 350px;
-	margin: 10px;
+img {
+  width: 550px;
+  height: 350px;
+  margin: 10px;
 }
 img:hover {
-	transform: scale(1.1);
-	}
+  transform: scale(1.1);
+}
 .container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .container:hover {
-	transform: rotate(-15deg);
+  transform: rotate(-15deg);
 }
