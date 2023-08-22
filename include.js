@@ -9445,6 +9445,13 @@ let cards = [
     imageLink: './Art/wasiqs-classics/snow.gif',
     author: 'Wasiq Khan',
     githubLink: 'https://github.com/wasiqs-classics'
+  },
+    {
+    artName: 'poltu',
+    pageLink: './Art/poltu/artmotion index.html',
+    imageLink: './Art/poltu/world.gif',
+    author: 'neeshat',
+    githubLink: 'https://github.com/neeshat060708'
   }
 ];
 
