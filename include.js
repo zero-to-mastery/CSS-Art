@@ -9452,6 +9452,13 @@ let cards = [
     imageLink: './Art/poltu/world.gif',
     author: 'neeshat',
     githubLink: 'https://github.com/neeshat060708'
+  },
+  {
+    artName: 'Earth-Rotation',
+    pageLink: './Art/Rohan/index.html',
+    imageLink: './Art/Rohan/Earth.gif',
+    author: 'Rohan',
+    githubLink: 'https://github.com/Rohan-2'
   }
 ];
 
