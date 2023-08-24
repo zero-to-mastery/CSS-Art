@@ -33,7 +33,7 @@ body {
   background-size: 200%;
   border-left: solid 1px black;
   border-radius: 50%;
-  box-shadow: 5px 0 20px 10px #040615 inset; 
+  box-shadow: 5px 0 20px 10px #040615 inset;
   height: 500px;
   margin-left: 110px;
   position: absolute;
@@ -44,7 +44,7 @@ body {
   animation: rotate-day 50s linear infinite, spin-clouds 100s ease infinite;
   background-image: url(https://www.solarsystemscope.com/textures/download/2k_earth_clouds.jpg);
   background-size: 200%;
-  border-radius: 50%;    
+  border-radius: 50%;
   box-shadow: 5px 0 20px 10px #040615 inset, -9px 0px 20px 10px #5e90f1 inset;
   height: 500px;
   margin-left: 100px;
@@ -65,15 +65,29 @@ body {
 }
 
 @keyframes rotate-day {
-  0% { background-position: 120% 0; }
-  100% { background-position: -80% 0; }
+  0% {
+    background-position: 120% 0;
+  }
+  100% {
+    background-position: -80% 0;
+  }
 }
 @keyframes rotate-night {
-  0% { background-position: calc(120% + 120px) 0; }
-  100% { background-position: calc(-80% + 120px) 0; }
+  0% {
+    background-position: calc(120% + 120px) 0;
+  }
+  100% {
+    background-position: calc(-80% + 120px) 0;
+  }
 }
 @keyframes spin-clouds {
-  0% { transform: rotate(0deg); }
-  50% { transform: rotate(20deg); }
-  100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
