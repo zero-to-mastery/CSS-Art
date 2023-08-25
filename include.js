@@ -9461,6 +9461,14 @@ let cards = [
     githubLink: 'https://github.com/Rohan-2'
   }
 ];
+  {
+    artName: 'Breathe',
+    pageLink: './Art/datagekko/index.html',
+    imageLink: './Art/datagekko/css-animation.gif',
+    author: 'Datagekko',
+    githubLink: 'https://github.com/datagekko'
+  }
+];
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +
