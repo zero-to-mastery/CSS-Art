@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    animation: breathe 3s infinite alternate;
+}
+
+#one {
+    width: 200px;
+    height: 200px;
+    background-color: #E5D4ED;
+    animation-delay: 0s;
+}
+
+#two {
+    width: 170px;
+    height: 170px;
+    background-color: #6D72C3;
+    animation-delay: 0.5s;
+}
+
+#three {
+    width: 140px;
+    height: 140px;
+    background-color: #5941A9;
+    animation-delay: 0.7s;
+}
+
+#four {
+    width: 100px;
+    height: 100px;
+    background-color: #1D1128;
+    animation-delay: 1s;
+}
+
+@keyframes breathe {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2);
+    }
+}
