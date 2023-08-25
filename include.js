@@ -9459,8 +9459,7 @@ let cards = [
     imageLink: './Art/Rohan/Earth.gif',
     author: 'Rohan',
     githubLink: 'https://github.com/Rohan-2'
-  }
-];
+  },
   {
     artName: 'Breathe',
     pageLink: './Art/datagekko/index.html',
