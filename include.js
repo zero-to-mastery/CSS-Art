@@ -169,6 +169,13 @@ let cards = [
     githubLink: 'https://github.com/Rajni2002'
   },
   {
+    artName: 'Movie-Card',
+    pageLink: './Art/VaibhavSingh/index.html',
+    imageLink : './Art/VaibhavSingh/movie-card.gif',
+    author: 'Vaibhav Singh',
+    githubLink: 'https://github.com/v0nser'
+  },
+  {
     artName: 'Pikachu',
     pageLink: './Art/shahina/index.html',
     author: 'Shahina',
