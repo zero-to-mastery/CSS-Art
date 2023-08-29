@@ -9466,6 +9466,13 @@ let cards = [
     imageLink: './Art/datagekko/css-animation.gif',
     author: 'Datagekko',
     githubLink: 'https://github.com/datagekko'
+  },
+  {
+    artName: 'Lets-Goooo',
+    pageLink: './Art/lets-goooo/index.html',
+    imageLink: './Art/lets-goooo/lets-go.gif',
+    author: 'piyush',
+    githubLink: 'https://github.com/PiyushChandra17'
   }
 ];
 
