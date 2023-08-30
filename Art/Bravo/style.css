@@ -1,0 +1,22 @@
+@keyframes flicker {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    25% {
+      opacity: 0.6;
+      transform: scale(0.95) translateY(-5px);
+    }
+    75% {
+      opacity: 0.8;
+      transform: scale(1.05) translateY(5px);
+    }
+  }
+  
+  .fire {
+    width: 800px;
+    height: 500px;
+    background-image: url('flame.gif'); /* Replace with your fire image URL */
+    background-size: cover;
+    animation: flicker 1s infinite alternate;
+  }
