@@ -16,7 +16,7 @@
   .fire {
     width: 800px;
     height: 500px;
-    background-image: url('flame.gif'); /* Replace with your fire image URL */
+    background-image: url('flame.gif');
     background-size: cover;
     animation: flicker 1s infinite alternate;
   }
