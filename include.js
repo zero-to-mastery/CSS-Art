@@ -9475,6 +9475,13 @@ let cards = [
     githubLink: 'https://github.com/datagekko'
   },
   {
+    artName: 'Bravo',
+    pageLink: './Art/Bravo/index.html',
+    imageLink: './Art/Bravo/rotating-cube.gif',
+    author: 'Cristian Bravo',
+    githubLink: 'https://github.com/Bravo773'
+  },
+  {
     artName: 'Lets-Goooo',
     pageLink: './Art/lets-goooo/index.html',
     imageLink: './Art/lets-goooo/lets-go.gif',

@@ -1,0 +1,78 @@
+.container {
+    width: 200px;
+    height: 200px;
+    perspective: 500px;
+    margin: 100px;
+  }
+  
+.cube {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+  }
+  
+.face {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: 2px solid black;
+    position: absolute;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+  }
+
+.cube {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: rotate3d(1, 1, 0, 45deg);
+}
+
+.front {
+    background-color: red;
+    transform: translateZ(100px);
+}
+
+.back {
+    background-color: blueviolet;
+    transform: translateZ(-100px) rotateY(180deg);
+}
+
+.left {
+    background-color: aqua;
+    transform: translateX(-100px) rotateY(-90deg);
+}
+  
+.right {
+    background-color: blue;
+    transform: translateX(100px) rotateY(90deg);
+}
+
+.top {
+    background-color: purple;
+    transform: translateY(-100px) rotateX(90deg);
+}
+  
+.bottom {
+    background-color: lawngreen;
+    transform: translateY(100px) rotateX(-90deg);
+}
+
+@keyframes turn {
+    from { transform: rotate3d(0, 0, 0, 0); }
+    to { transform: rotate3d(1, 1, 0, 360deg); }
+}
+  
+.cube {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: turn 5s linear infinite;
+}
