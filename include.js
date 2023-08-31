@@ -171,7 +171,7 @@ let cards = [
   {
     artName: 'Movie-Card',
     pageLink: './Art/VaibhavSingh/index.html',
-    imageLink : './Art/VaibhavSingh/movie-card.gif',
+    imageLink: './Art/VaibhavSingh/movie-card.gif',
     author: 'Vaibhav Singh',
     githubLink: 'https://github.com/v0nser'
   },
