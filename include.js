@@ -169,6 +169,13 @@ let cards = [
     githubLink: 'https://github.com/Rajni2002'
   },
   {
+    artName: 'Movie-Card',
+    pageLink: './Art/VaibhavSingh/index.html',
+    imageLink: './Art/VaibhavSingh/movie-card.gif',
+    author: 'Vaibhav Singh',
+    githubLink: 'https://github.com/v0nser'
+  },
+  {
     artName: 'Pikachu',
     pageLink: './Art/shahina/index.html',
     author: 'Shahina',
@@ -9473,6 +9480,13 @@ let cards = [
     imageLink: './Art/Bravo/rotating-cube.gif',
     author: 'Cristian Bravo',
     githubLink: 'https://github.com/Bravo773'
+  },
+  {
+    artName: 'Lets-Goooo',
+    pageLink: './Art/lets-goooo/index.html',
+    imageLink: './Art/lets-goooo/lets-go.gif',
+    author: 'piyush',
+    githubLink: 'https://github.com/PiyushChandra17'
   }
 ];
 
