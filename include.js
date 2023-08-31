@@ -9470,7 +9470,7 @@ let cards = [
   {
     artName: 'Bravo',
     pageLink: './Art/Bravo/index.html',
-    imageLink: './Art/Bravo/flame.gif',
+    imageLink: './Art/Bravo/rotating-cube.gif',
     author: 'Cristian Bravo',
     githubLink: 'https://github.com/Bravo773'
   }
