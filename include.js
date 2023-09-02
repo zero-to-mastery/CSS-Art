@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+    artName: 'Sunrise-Sunset',
+    pageLink: './Art/Sunrise-Sunset/index.html',
+    imageLink: './Art/Sunrise-Sunset/sun_rise-set.mp4',
+    author: 'Julio',
+    githubLink: 'https://github.com/Julio-le44'
+  },
+  {
     artName: 'Astronaut Floating',
     pageLink: './Art/Oliveren/oliveren.html',
     imageLink: './Art/Oliveren/astronaut.gif',
