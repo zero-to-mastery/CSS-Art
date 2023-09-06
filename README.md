@@ -1,4 +1,5 @@
 ### **UPDATE: Repository is Archived**
+
 **Please note: This repo is now archived and no longer accepting contributions. If you would like to contribute to a similar project, please check out [Animation Nation](https://github.com/zero-to-mastery/Animation-Nation)**
 
 > ### **UPDATE:** Event Concluded!
