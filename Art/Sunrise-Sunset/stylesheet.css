@@ -1,0 +1,105 @@
+.sky {
+    position: relative;
+    display: flex;
+    background: rgb(22, 22, 37);
+    height: 400px;
+    width: 400px;
+    animation: night-day 2s linear infinite; 
+}
+.sun {
+    margin:auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    animation: sun-path 2s linear infinite;
+}
+.houseRoof {
+    position: absolute;
+    left: 150px;
+    height: 0px;
+    width: 0px;
+    background-color: transparent;
+    top: 75px;
+    border: 38px solid;
+    border-top: 0px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-width: 50px;
+}
+.house {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: 125px;
+    right: 175px;
+    height:50px;
+    width:75px;
+    background-color: rgb(231, 226, 226);
+}
+.door {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+    width: 20px; 
+    background-color: rgb(112, 59, 59);
+}
+.knob {
+    background-color: gold;
+    border-radius: 50%;
+    height: 3px;
+    width: 3px;
+    margin-right: 2px;
+}
+
+.grass {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    position: absolute;
+    background-color: green;
+    height: 225px;
+    width: 400px;
+}
+.road {
+    display: grid;
+    grid-template: 1fr 10px 1fr / 1fr;
+    background-color: gray;
+    width: 400px;
+    height: 70px;
+}
+.roadLine {
+    grid-area: 2 / 1 / 3/ 2;
+    /* position: absolute; */
+    height: 0px;
+    border: dashed 2px yellow;
+}
+
+@keyframes night-day {
+    0% {
+        background: rgb(22, 22, 37);
+    }
+    50% {
+        background-color: rgb(72, 72, 227)
+    }
+    100% {
+        background: rgb(22, 22, 37);
+    }
+}
+@keyframes sun-path {
+    0% {
+        transform: 
+        rotate(0deg) 
+        translateY(175px)
+    }
+
+    100% {
+        transform: rotate(-360deg) 
+              translateY(175px) 
+    }
+}
+
